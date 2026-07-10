@@ -1,0 +1,48 @@
+name: hourly-ai-radar
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hourly-ai-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Configure git
+        run: |
+          git config user.name "maren-ai-radar-bot"
+          git config user.email "actions@github.com"
+
+      - name: Run radar
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          SERVERCHAN_KEY: ${{ secrets.SC_SENDKEY }}
+        run: |
+          python3 scripts/radar.py
+
+      - name: Commit & push snapshot
+        run: |
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git add data/
+            git commit -m "chore(radar): hourly snapshot $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git push
+          else
+            echo "no changes to commit"
+          fi

@@ -1,0 +1,91 @@
+[
+  {
+    "id": "learnprompt_daily_brief",
+    "name": "AI News Radar Daily Brief",
+    "type": "json_daily_brief",
+    "url": "https://cdn.jsdelivr.net/gh/LearnPrompt/ai-news-radar@master/data/daily-brief.json",
+    "fallback_urls": [
+      "https://raw.githubusercontent.com/LearnPrompt/ai-news-radar/master/data/daily-brief.json"
+    ],
+    "enabled": true,
+    "priority": 90
+  },
+  {
+    "id": "learnprompt_source_status",
+    "name": "AI News Radar Source Status",
+    "type": "json_source_status",
+    "url": "https://cdn.jsdelivr.net/gh/LearnPrompt/ai-news-radar@master/data/source-status.json",
+    "fallback_urls": [
+      "https://raw.githubusercontent.com/LearnPrompt/ai-news-radar/master/data/source-status.json"
+    ],
+    "enabled": true,
+    "priority": 80
+  },
+  {
+    "id": "ai_hot_api",
+    "name": "AI HOT API",
+    "type": "ai_hot_api",
+    "url": "https://ai-news-hot.vercel.app/api/hot-news?type=hot",
+    "fallback_urls": [
+      "https://ai-news-hot.vercel.app/api/hot-news?type=latest"
+    ],
+    "enabled": true,
+    "priority": 85
+  },
+  {
+    "id": "rss_anthropic_blog",
+    "name": "Anthropic Blog",
+    "type": "x_crawl_rss",
+    "url": "https://www.anthropic.com/feed.xml",
+    "enabled": true,
+    "priority": 95
+  },
+  {
+    "id": "rss_openai_blog",
+    "name": "OpenAI Blog",
+    "type": "x_crawl_rss",
+    "url": "https://openai.com/index/feed.xml",
+    "enabled": true,
+    "priority": 95
+  },
+  {
+    "id": "rss_google_blog",
+    "name": "Google DeepMind Blog",
+    "type": "x_crawl_rss",
+    "url": "https://blog.google/technology/ai/rss/",
+    "enabled": true,
+    "priority": 95
+  },
+  {
+    "id": "rss_meta_ai_blog",
+    "name": "Meta AI Blog",
+    "type": "x_crawl_rss",
+    "url": "https://ai.meta.com/blog/rss.xml",
+    "enabled": true,
+    "priority": 85
+  },
+  {
+    "id": "rss_huggingface_blog",
+    "name": "Hugging Face Blog",
+    "type": "x_crawl_rss",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "enabled": true,
+    "priority": 85
+  },
+  {
+    "id": "rss_mistral_blog",
+    "name": "Mistral AI Blog",
+    "type": "x_crawl_rss",
+    "url": "https://mistral.ai/feed/",
+    "enabled": true,
+    "priority": 85
+  },
+  {
+    "id": "rss_xai_blog",
+    "name": "xAI Blog",
+    "type": "x_crawl_rss",
+    "url": "https://x.ai/blog/feed",
+    "enabled": true,
+    "priority": 90
+  }
+]

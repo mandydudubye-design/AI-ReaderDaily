@@ -1,0 +1,10 @@
+# 本地推送凭据
+.env
+
+# 所有 JSON 数据快照被追踪（空的 data/* 或 .gitkeep 用于结构）
+# 实际推送的数据文件会被自动 commit
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
