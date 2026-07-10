@@ -1,11 +1,610 @@
 {
-  "generated_at": "2026-07-10T08:44:51.763305Z",
-  "run_time": "2026-07-10 08:44 (UTC)",
-  "total_items": 863,
-  "s_count": 843,
-  "a_count": 0,
-  "failed_sources": [],
+  "generated_at": "2026-07-10T09:55:21.628123Z",
+  "run_time": "2026-07-10 09:55 (UTC)",
+  "total_items": 40,
+  "s_count": 9,
+  "a_count": 11,
+  "failed_sources": [
+    "Meta AI Blog",
+    "Hugging Face Blog",
+    "Mistral AI Blog",
+    "xAI Blog"
+  ],
   "items": [
+    {
+      "id": "57c949132ad2256b",
+      "title": "Codex 加入 ChatGPT 桌面应用程序 / Codex joins the ChatGPT desktop app",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T00:00:00Z",
+      "category": "AI Coding",
+      "raw_score": 84.36,
+      "source_count": 2,
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.7146,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "score": 114,
+      "grade": "S"
+    },
+    {
+      "id": "67f4e53adcea6fb9",
+      "title": "OpenAI 推出 ChatGPT Work：可跨应用自主工作的 AI 智能体 / ChatGPT is now a partner for your most ambitious work",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:46:30.429000Z",
+      "category": "其他",
+      "raw_score": 87.86,
+      "source_count": 3,
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8256,
+        "story_heat": 0.5
+      },
+      "source_names": [
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "openai.com"
+      ],
+      "score": 113,
+      "grade": "S"
+    },
+    {
+      "id": "4f84ce4fe1846bc3",
+      "title": "OpenAI 的 GPT-5.6 Sol、Terra 和 Luna 现已在 GitHub Copilot 中提供 / OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T16:41:29Z",
+      "category": "AI Coding",
+      "raw_score": 85.17,
+      "source_count": 1,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.9094,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 111,
+      "grade": "S"
+    },
+    {
+      "id": "825c7988937b29f2",
+      "title": "GPT-5.6 现在是 Microsoft 365 Copilot 中的首选模型 / GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T13:00:00Z",
+      "category": "AI Coding",
+      "raw_score": 84.32,
+      "source_count": 1,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.8622,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "OpenAI News"
+      ],
+      "score": 110,
+      "grade": "S"
+    },
+    {
+      "id": "222c8f7776f8a35d",
+      "title": "向 Copilot 询问存储库概述 / Ask Copilot for a repository overview",
+      "url": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T14:25:33Z",
+      "category": "AI Coding",
+      "raw_score": 83.04,
+      "source_count": 1,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8801,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 109,
+      "grade": "S"
+    },
+    {
+      "id": "1a948d0b7b99292b",
+      "title": "社交媒体AI生成内容泛滥：LinkedIn超过40%长文为AI写作",
+      "url": "https://www.pangram.com/blog/ai-in-your-feed",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:46:29.789000Z",
+      "category": "其他",
+      "raw_score": 83.88,
+      "source_count": 4,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9786,
+        "story_heat": 0.75
+      },
+      "source_names": [
+        "Hacker News",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "hackernews",
+        "www.pangram.com"
+      ],
+      "score": 107,
+      "grade": "S"
+    },
+    {
+      "id": "809357358deea786",
+      "title": "GPT-5.6：前沿智能，随您的雄心壮志而扩展 / GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:46:30.443000Z",
+      "category": "其他",
+      "raw_score": 85.36,
+      "source_count": 2,
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8256,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "OpenAI News",
+        "openai.com"
+      ],
+      "score": 107,
+      "grade": "S"
+    },
+    {
+      "id": "c106a82ffca4c584",
+      "title": "OpenAI 发布 GPT-5.6 公开版及 ChatGPT Work 智能体",
+      "url": "https://the-decoder.com/openai-pairs-its-gpt-5-6-public-rollout-with-chatgpt-work-a-new-agent-that-handles-entire-workflows",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T17:59:22Z",
+      "category": "产品",
+      "raw_score": 77.94,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9266,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "score": 101,
+      "grade": "S"
+    },
+    {
+      "id": "f286e8d7e80477b6",
+      "title": "GitHub 代码质量的组织级目标 / Organization-level targeting for GitHub Code Quality",
+      "url": "https://github.blog/changelog/2026-07-09-organization-level-targeting-for-github-code-quality",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T15:54:01Z",
+      "category": "其他",
+      "raw_score": 82.58,
+      "source_count": 1,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.899,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 100,
+      "grade": "S"
+    },
+    {
+      "id": "e578e4d7275e3630",
+      "title": "Claude 推出反思功能（Beta）",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T13:40:30.163000Z",
+      "category": "其他",
+      "raw_score": 77.23,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8706,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "Anthropic：Newsroom（网页）",
+        "Hacker News · 24h最热"
+      ],
+      "score": 99,
+      "grade": "A"
+    },
+    {
+      "id": "620da25c93464b05",
+      "title": "蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0",
+      "url": "https://www.ithome.com/0/974/508.htm",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T06:53:40Z",
+      "category": "开源",
+      "raw_score": 75.77000000000001,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7894,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "score": 99,
+      "grade": "A"
+    },
+    {
+      "id": "4ace03fa4621a7bf",
+      "title": "NVIDIA 发布 Nemotron-Labs-3-Puzzle-75B-A9B：压缩混合 MoE 模型，服务器吞吐量提升 2.03 倍",
+      "url": "https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T08:47:37Z",
+      "category": "产品",
+      "raw_score": 75.26,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8114,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
+      ],
+      "score": 99,
+      "grade": "A"
+    },
+    {
+      "id": "78d9bb956e9febf4",
+      "title": "提出尖锐的问题 / Inviting hard questions",
+      "url": "https://www.anthropic.com/news/hard-questions",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T00:00:00Z",
+      "category": "其他",
+      "raw_score": 80.06,
+      "source_count": 1,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7146,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "Anthropic News"
+      ],
+      "score": 98,
+      "grade": "A"
+    },
+    {
+      "id": "a18e1f67b8a237f3",
+      "title": "Elon Musk称赞Anthropic并承诺不切断其算力",
+      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:57:42Z",
+      "category": "其他",
+      "raw_score": 79.22,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9813,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "score": 95,
+      "grade": "A"
+    },
+    {
+      "id": "d5721ad02a535408",
+      "title": "AI 能否回答 3 万亿美元的问题？",
+      "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:47:50Z",
+      "category": "其他",
+      "raw_score": 79.17999999999999,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.979,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "score": 95,
+      "grade": "A"
+    },
+    {
+      "id": "c7e030b2196c8685",
+      "title": "OpenAI 发布最强模型与最佳博文",
+      "url": "https://x.com/sama/status/2075266471316615436",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T17:10:58Z",
+      "category": "产品",
+      "raw_score": 75.25,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9158,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "X：Sam Altman (@sama)"
+      ],
+      "score": 95,
+      "grade": "A"
+    },
+    {
+      "id": "a373e97c243c9a59",
+      "title": "ChatGPT Sites将创意变可发布网站",
+      "url": "https://x.com/OpenAIDevs/status/2075331020090687666",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:27:27Z",
+      "category": "产品",
+      "raw_score": 75.09,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.68,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9742,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "X：OpenAI Developers (@OpenAIDevs)"
+      ],
+      "score": 95,
+      "grade": "A"
+    },
+    {
+      "id": "049721b197b01927",
+      "title": "Show HN： 如何在我的低配置电脑上运行 GLM-5.2",
+      "url": "https://github.com/JustVugg/colibri",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T22:18:12.902000Z",
+      "category": "其他",
+      "raw_score": 78.41,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9861,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "score": 94,
+      "grade": "A"
+    },
+    {
+      "id": "1b76282636da4de5",
+      "title": "Meta被曝研发全天候AI眼镜：支持超级感知与无感音视频捕捉",
+      "url": "https://www.aibase.com/news/29496",
+      "source": "AIbase",
+      "source_type": "radar",
+      "published_at": "2026-07-09T07:00:26.011092Z",
+      "category": "其他",
+      "raw_score": 75.49,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7907,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "score": 91,
+      "grade": "A"
+    },
+    {
+      "id": "8416a42e6dd002af",
+      "title": "OpenAI推出ChatGPT Work智能体",
+      "url": "https://x.com/OpenAI/status/2075274271845404744",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T17:41:57Z",
+      "category": "其他",
+      "raw_score": 75.97,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9227,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "X：OpenAI (@OpenAI)"
+      ],
+      "score": 87,
+      "grade": "A"
+    },
     {
       "id": "31a8e14f3dc29347",
       "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
@@ -14,1430 +613,790 @@
       "source_type": "rss",
       "published_at": null,
       "category": "Agent",
-      "raw_score": 70,
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 62,
+      "grade": "B"
     },
     {
-      "id": "4b6d2b14f62af2e9",
-      "title": "Data for Agents",
-      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "53525f35d1f158af",
+      "title": "The latest AI news we announced in June 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "00e6f17fca848de8",
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "c7740c57b97b4d82",
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "5384758ef8c63ae0",
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "7fded83038f99e79",
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "4db4139d2383e5b1",
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "630517a008820435",
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "ae83ff8627325da2",
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "74b1a466a3258b54",
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "08856e64fd7b8681",
-      "title": "Agentic Resource Discovery: Let agents search",
-      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "bab38d4b28a3aa7d",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "3f64a5c0a9bb24ba",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "3d46f087f880b350",
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "61d4c86319ffa129",
-      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
-      "url": "https://huggingface.co/blog/openenv-agentic-rl",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "40f1d1b8e613c8f5",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "12a74f5e1a36997f",
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "84476afb030dfe35",
+      "title": "The latest AI news we announced in May 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "ea3d554958db0323",
-      "title": "Adding MCP Tools to Reachy Mini",
-      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "f4a7ead8fb2468d4",
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "ddacabab84b9631c",
-      "title": "Holo3.1: Fast & Local Computer Use Agents",
-      "url": "https://huggingface.co/blog/Hcompany/holo31",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "a817c0c95ada2064",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "60339420228e218b",
-      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "fed035a5861b4996",
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "e424f8ef24e8c8da",
-      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-      "url": "https://huggingface.co/blog/agent-glossary",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "b0efe85cacfdf77f",
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     },
     {
-      "id": "8bce070b39657150",
-      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
-      "source": "https://huggingface.co/blog/feed.xml",
+      "id": "de818bd4335cc697",
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "source": "https://blog.google/technology/ai/rss/",
       "source_type": "rss",
       "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "category": "其他",
+      "raw_score": 50,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "26102abc5aa600fe",
-      "title": "DeepSeek-V4: a million-token context that agents can actually use",
-      "url": "https://huggingface.co/blog/deepseekv4",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "21e4cad35290800c",
-      "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
-      "url": "https://huggingface.co/blog/ecom-rlve",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "02fd3e8a4124330e",
-      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
-      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "2d51705b291d1c68",
-      "title": "A New Framework for Evaluating Voice Agents (EVA)",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/eva",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "5f2e28ae374cc941",
-      "title": "State of Open Source on Hugging Face: Spring 2026",
-      "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "63425be485711f8a",
-      "title": "Holotron-12B - High Throughput Computer Use Agent",
-      "url": "https://huggingface.co/blog/Hcompany/holotron-12b",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "3402b391265c5825",
-      "title": "GGML and llama.cpp join HF to ensure the long-term progress of Local AI",
-      "url": "https://huggingface.co/blog/ggml-joins-hf",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "73136dc2fdb2aafc",
-      "title": "IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST",
-      "url": "https://huggingface.co/blog/ibm-research/itbenchandmast",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "90f66bb189dd35fc",
-      "title": "Custom Kernels for All from Codex and Claude",
-      "url": "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "AI Coding",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "f7bc5efae8fcbba5",
-      "title": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments",
-      "url": "https://huggingface.co/blog/openenv-turing",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "fad3438dc92a984e",
-      "title": "Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective",
-      "url": "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "851f5dead56abec5",
-      "title": "AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality",
-      "url": "https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "22ddd071ab14fbfe",
-      "title": "NVIDIA brings agents to life with DGX Spark and Reachy Mini",
-      "url": "https://huggingface.co/blog/nvidia-reachy-mini",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "184a00d12476944d",
-      "title": "CUGA on Hugging Face: Democratizing Configurable AI Agents",
-      "url": "https://huggingface.co/blog/ibm-research/cuga-on-hugging-face",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "25bf689ddd4c63cf",
-      "title": "New in llama.cpp: Model Management",
-      "url": "https://huggingface.co/blog/ggml-org/model-management-in-llamacpp",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "8d86a05daa763bc9",
-      "title": "Codex is Open Sourcing AI models",
-      "url": "https://huggingface.co/blog/hf-skills-training-codex",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "AI Coding",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "7d60deb77c4e3340",
-      "title": "DeepMath: A lightweight math reasoning Agent with smolagents",
-      "url": "https://huggingface.co/blog/intel-deepmath",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "8f19146f063ec6c7",
-      "title": "We Got Claude to Fine-Tune an Open Source LLM",
-      "url": "https://huggingface.co/blog/hf-skills-training",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "7ee038064f197119",
-      "title": "Aligning to What? Rethinking Agent Generalization in MiniMax M2",
-      "url": "https://huggingface.co/blog/MiniMax-AI/aligning-to-what",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "c77643742bcaf7c6",
-      "title": "Building the Open Agent Ecosystem Together: Introducing OpenEnv",
-      "url": "https://huggingface.co/blog/openenv",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "44323f8774ad09c4",
-      "title": "Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models",
-      "url": "https://huggingface.co/blog/intel-qwen3-agent",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "d6770df6edd85ce3",
-      "title": "Smol2Operator: Post-Training GUI Agents for Computer Use",
-      "url": "https://huggingface.co/blog/smol2operator",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "38e2a687138768f0",
-      "title": "Gaia2 and ARE: Empowering the community to study agents",
-      "url": "https://huggingface.co/blog/gaia2",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "2ef3386862df71ad",
-      "title": "Jupyter Agents: training LLMs to reason with notebooks",
-      "url": "https://huggingface.co/blog/jupyter-agent-2",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "a8558ba026e8b8c7",
-      "title": "NVIDIA Releases 6 Million Multi-Lingual Reasoning Dataset",
-      "url": "https://huggingface.co/blog/nvidia/multilingual-reasoning-v1",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "产品",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "51e6b455b85ec8f1",
-      "title": "MCP for Research: How to Connect AI to Research Tools",
-      "url": "https://huggingface.co/blog/mcp-for-research",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "37a51bc795012179",
-      "title": "Measuring Open-Source Llama Nemotron Models on DeepResearch Bench",
-      "url": "https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "0cc5cd56076088cf",
-      "title": "Implementing MCP Servers in Python: An AI Shopping Assistant with Gradio",
-      "url": "https://huggingface.co/blog/gradio-vton-mcp",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "12f0989233e9dc8b",
-      "title": "Back to The Future: Evaluating AI Agents on Predicting Future Events",
-      "url": "https://huggingface.co/blog/futurebench",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "e1aa01f18905cb79",
-      "title": "Five Big Improvements to Gradio MCP Servers",
-      "url": "https://huggingface.co/blog/gradio-mcp-updates",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "91724f02b8b4153e",
-      "title": "ScreenEnv: Deploy your full stack Desktop Agent",
-      "url": "https://huggingface.co/blog/screenenv",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "54fff8814a327658",
-      "title": "Building the Hugging Face MCP Server",
-      "url": "https://huggingface.co/blog/building-hf-mcp",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "da3620128916fcb0",
-      "title": "Upskill your LLMs With Gradio MCP Servers",
-      "url": "https://huggingface.co/blog/gradio-mcp-servers",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "7b3a3a57b856aea2",
-      "title": "Welcome the NVIDIA Llama Nemotron Nano VLM to Hugging Face Hub",
-      "url": "https://huggingface.co/blog/nvidia/llama-nemotron-nano-vl",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "b27eabb3fbbd7877",
-      "title": "ScreenSuite - The most comprehensive evaluation suite for GUI Agents!",
-      "url": "https://huggingface.co/blog/screensuite",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "0fddcbbd15a093e7",
-      "title": "Holo1: New family of GUI automation VLMs powering GUI agent Surfer-H",
-      "url": "https://huggingface.co/blog/Hcompany/holo1",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "2c73d0be1fb08bcf",
-      "title": "CodeAgents + Structure: A Better Way to Execute Actions",
-      "url": "https://huggingface.co/blog/structured-codeagent",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "6d3e687c1778c3e3",
-      "title": "Tiny Agents in Python: a MCP-powered agent in ~70 lines of code",
-      "url": "https://huggingface.co/blog/python-tiny-agents",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "84cd2c6280e86056",
-      "title": "How to Build an MCP Server with Gradio",
-      "url": "https://huggingface.co/blog/gradio-mcp",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "19c7ef313dee1b74",
-      "title": "Welcoming Llama Guard 4 on Hugging Face Hub",
-      "url": "https://huggingface.co/blog/llama-guard-4",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "3ceced594184dfa0",
-      "title": "Tiny Agents: an MCP-powered agent in 50 lines of code",
-      "url": "https://huggingface.co/blog/tiny-agents",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "7b9073d4e045d007",
-      "title": "Welcome Llama 4 Maverick & Scout on Hugging Face",
-      "url": "https://huggingface.co/blog/llama4-release",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "4eebca31576b689d",
-      "title": "Trace & Evaluate your Agent with Arize Phoenix",
-      "url": "https://huggingface.co/blog/smolagents-phoenix",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "201035c33a788d3e",
-      "title": "Open-source DeepResearch – Freeing our search agents",
-      "url": "https://huggingface.co/blog/open-deep-research",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "8f758ac10a72a95b",
-      "title": "DABStep: Data Agent Benchmark for Multi-step Reasoning",
-      "url": "https://huggingface.co/blog/dabstep",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "916052ee6f840f6f",
-      "title": "We now support VLMs in smolagents!",
-      "url": "https://huggingface.co/blog/smolagents-can-see",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "b5d16d7ff34a33e3",
-      "title": "AI Agents Are Here. What Now?",
-      "url": "https://huggingface.co/blog/ethics-soc-7",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "26b02b537267efba",
-      "title": "Introducing smolagents: simple agents that write actions in code.",
-      "url": "https://huggingface.co/blog/smolagents",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "d83ca7dac3925ad2",
-      "title": "LeMaterial: an open source initiative to accelerate materials discovery and research",
-      "url": "https://huggingface.co/blog/lematerial",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "728eabeacf228b20",
-      "title": "Open Source Developers Guide to the EU AI Act",
-      "url": "https://huggingface.co/blog/eu-ai-act-for-oss-developers",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "d81cb182bbd09e45",
-      "title": "Transformers.js v3: WebGPU Support, New Models & Tasks, and More…",
-      "url": "https://huggingface.co/blog/transformersjs-v3",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "产品",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "0fdec029bfcb460c",
-      "title": "“Llama 3.2 in Keras”",
-      "url": "https://huggingface.co/blog/keras-llama-32",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "4226af8b9115a4fc",
-      "title": "Llama can now see and run on your device - welcome Llama 3.2",
-      "url": "https://huggingface.co/blog/llama32",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "c61dde7d6fbde59e",
-      "title": "Deploy Meta Llama 3.1 405B on Google Cloud Vertex AI",
-      "url": "https://huggingface.co/blog/llama31-on-vertex-ai",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "6d0bc08ae50627c7",
-      "title": "Tool Use, Unified",
-      "url": "https://huggingface.co/blog/unified-tool-use",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "7162e30b93534144",
-      "title": "Google releases Gemma 2 2B, ShieldGemma and Gemma Scope",
-      "url": "https://huggingface.co/blog/gemma-july-update",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "产品",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "9f1bc85131b58a76",
-      "title": "Llama 3.1 - 405B, 70B & 8B with multilinguality and long context",
-      "url": "https://huggingface.co/blog/llama31",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "93647b67abf7e560",
-      "title": "Our Transformers Code Agent beats the GAIA benchmark 🏅",
-      "url": "https://huggingface.co/blog/beating-gaia",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "2de3334c3d079a93",
-      "title": "Launching the Artificial Analysis Text to Image Leaderboard & Arena",
-      "url": "https://huggingface.co/blog/leaderboard-artificial-analysis2",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "产品",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "90cc1f00d46afc94",
-      "title": "License to Call: Introducing Transformers Agents 2.0",
-      "url": "https://huggingface.co/blog/agents",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "a6fa9fd349e94d92",
-      "title": "Jack of All Trades, Master of Some, a Multi-Purpose Transformer Agent",
-      "url": "https://huggingface.co/blog/jat",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "2798119f9a3b09b2",
-      "title": "Welcome Llama 3 - Meta's new open LLM",
-      "url": "https://huggingface.co/blog/llama3",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "b82f46545eed0ab7",
-      "title": "CodeGemma - an official Google release for code LLMs",
-      "url": "https://huggingface.co/blog/codegemma",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "产品",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "489aa97e9ef0575b",
-      "title": "Synthetic data: save money, time and carbon with open source",
-      "url": "https://huggingface.co/blog/synthetic-data-save-costs",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "357f6e70ed579308",
-      "title": "Open-source LLMs as LangChain Agents",
-      "url": "https://huggingface.co/blog/open-source-llms-as-agents",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "510595ff81034953",
-      "title": "Run ComfyUI workflows for free with Gradio on Hugging Face Spaces",
-      "url": "https://huggingface.co/blog/run-comfyui-workflows-on-spaces",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "ea5f1dd753b954a6",
-      "title": "Make your llama generation time fly with AWS Inferentia2",
-      "url": "https://huggingface.co/blog/inferentia-llama2",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "b3a64a22700c62fa",
-      "title": "Comparing the Performance of LLMs: A Deep Dive into Roberta, Llama 2, and Mistral for Disaster Tweets Analysis with Lora",
-      "url": "https://huggingface.co/blog/Lora-for-sequence-classification-with-Roberta-Llama-Mistral",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "a9df544035cd1271",
-      "title": "Personal Copilot: Train Your Own Coding Assistant",
-      "url": "https://huggingface.co/blog/personal-copilot",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "AI Coding",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "e9a94f447c1048cd",
-      "title": "Non-engineers guide: Train a LLaMA 2 chatbot",
-      "url": "https://huggingface.co/blog/Llama2-for-non-engineers",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "61b47e532dc631bd",
-      "title": "Llama 2 on Amazon SageMaker a Benchmark",
-      "url": "https://huggingface.co/blog/llama-sagemaker-benchmark",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "b96fd64602486e86",
-      "title": "Fine-tuning Llama 2 70B using PyTorch FSDP",
-      "url": "https://huggingface.co/blog/ram-efficient-pytorch-fsdp",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "ac7090b036f06555",
-      "title": "Code Llama: Llama 2 learns to code",
-      "url": "https://huggingface.co/blog/codellama",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "8b5d6b89b09d13db",
-      "title": "Fine-tune Llama 2 with DPO",
-      "url": "https://huggingface.co/blog/dpo-trl",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "98d67a7589e6ad4f",
-      "title": "Introducing Agents.js: Give tools to your LLMs using JavaScript",
-      "url": "https://huggingface.co/blog/agents-js",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "56cc5c8ab7575bcb",
-      "title": "Results of the Open Source AI Game Jam",
-      "url": "https://huggingface.co/blog/game-jam-first-edition-results",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "79fe822d56d44c58",
-      "title": "Llama 2 is here - get it on Hugging Face",
-      "url": "https://huggingface.co/blog/llama2",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "dc147095787790d9",
-      "title": "Announcing the Open Source AI Game Jam 🎮",
-      "url": "https://huggingface.co/blog/game-jam",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "171db4bccd605394",
-      "title": "Hugging Face Collaborates with Microsoft to launch Hugging Face Model Catalog on Azure",
-      "url": "https://huggingface.co/blog/hugging-face-endpoints-on-azure",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "产品",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "b8774841a7c7ca5c",
-      "title": "StackLLaMA: A hands-on guide to train LLaMA with RLHF",
-      "url": "https://huggingface.co/blog/stackllama",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "开源",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "8d615b18f0dc133e",
-      "title": "Introducing ⚔️ AI vs. AI ⚔️ a deep reinforcement learning multi-agents competition system",
-      "url": "https://huggingface.co/blog/aivsai",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "ffd3568b3f56a38d",
-      "title": "What Makes a Dialog Agent Useful?",
-      "url": "https://huggingface.co/blog/dialog-agents",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "5ebbdb767431f9bd",
-      "title": "Graphcore and Hugging Face Launch New Lineup of IPU-Ready Transformers",
-      "url": "https://huggingface.co/blog/graphcore-update",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "产品",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "0c57b1a34e311eed",
-      "title": "Introducing Snowball Fight ☃️, our first ML-Agents environment",
-      "url": "https://huggingface.co/blog/snowball-fight",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "a09bea2fbdacdb6a",
-      "title": "Course Launch Community Event",
-      "url": "https://huggingface.co/blog/course-launch-event",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "产品",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
-      "grade": "S"
+      "score": 54,
+      "grade": "C"
     }
   ],
   "s_items": [
     {
-      "id": "31a8e14f3dc29347",
-      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "https://blog.google/technology/ai/rss/",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
+      "id": "57c949132ad2256b",
+      "title": "Codex 加入 ChatGPT 桌面应用程序 / Codex joins the ChatGPT desktop app",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T00:00:00Z",
+      "category": "AI Coding",
+      "raw_score": 84.36,
+      "source_count": 2,
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.7146,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "score": 114,
       "grade": "S"
     },
     {
-      "id": "4b6d2b14f62af2e9",
-      "title": "Data for Agents",
-      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
+      "id": "67f4e53adcea6fb9",
+      "title": "OpenAI 推出 ChatGPT Work：可跨应用自主工作的 AI 智能体 / ChatGPT is now a partner for your most ambitious work",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:46:30.429000Z",
+      "category": "其他",
+      "raw_score": 87.86,
+      "source_count": 3,
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8256,
+        "story_heat": 0.5
+      },
+      "source_names": [
+        "OpenAI News",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "openai.com"
+      ],
+      "score": 113,
       "grade": "S"
     },
     {
-      "id": "00e6f17fca848de8",
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "id": "4f84ce4fe1846bc3",
+      "title": "OpenAI 的 GPT-5.6 Sol、Terra 和 Luna 现已在 GitHub Copilot 中提供 / OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T16:41:29Z",
+      "category": "AI Coding",
+      "raw_score": 85.17,
       "source_count": 1,
-      "score": 103,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.9094,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 111,
       "grade": "S"
     },
     {
-      "id": "5384758ef8c63ae0",
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "id": "825c7988937b29f2",
+      "title": "GPT-5.6 现在是 Microsoft 365 Copilot 中的首选模型 / GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T13:00:00Z",
+      "category": "AI Coding",
+      "raw_score": 84.32,
       "source_count": 1,
-      "score": 103,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.8622,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "OpenAI News"
+      ],
+      "score": 110,
       "grade": "S"
     },
     {
-      "id": "4db4139d2383e5b1",
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "id": "222c8f7776f8a35d",
+      "title": "向 Copilot 询问存储库概述 / Ask Copilot for a repository overview",
+      "url": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T14:25:33Z",
+      "category": "AI Coding",
+      "raw_score": 83.04,
       "source_count": 1,
-      "score": 103,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8801,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 109,
       "grade": "S"
     },
     {
-      "id": "ae83ff8627325da2",
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
+      "id": "1a948d0b7b99292b",
+      "title": "社交媒体AI生成内容泛滥：LinkedIn超过40%长文为AI写作",
+      "url": "https://www.pangram.com/blog/ai-in-your-feed",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:46:29.789000Z",
+      "category": "其他",
+      "raw_score": 83.88,
+      "source_count": 4,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9786,
+        "story_heat": 0.75
+      },
+      "source_names": [
+        "Hacker News",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "hackernews",
+        "www.pangram.com"
+      ],
+      "score": 107,
       "grade": "S"
     },
     {
-      "id": "08856e64fd7b8681",
-      "title": "Agentic Resource Discovery: Let agents search",
-      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
+      "id": "809357358deea786",
+      "title": "GPT-5.6：前沿智能，随您的雄心壮志而扩展 / GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:46:30.443000Z",
+      "category": "其他",
+      "raw_score": 85.36,
+      "source_count": 2,
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8256,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "OpenAI News",
+        "openai.com"
+      ],
+      "score": 107,
       "grade": "S"
     },
     {
-      "id": "3f64a5c0a9bb24ba",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
+      "id": "c106a82ffca4c584",
+      "title": "OpenAI 发布 GPT-5.6 公开版及 ChatGPT Work 智能体",
+      "url": "https://the-decoder.com/openai-pairs-its-gpt-5-6-public-rollout-with-chatgpt-work-a-new-agent-that-handles-entire-workflows",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T17:59:22Z",
+      "category": "产品",
+      "raw_score": 77.94,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9266,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "score": 101,
       "grade": "S"
     },
     {
-      "id": "61d4c86319ffa129",
-      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
-      "url": "https://huggingface.co/blog/openenv-agentic-rl",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
+      "id": "f286e8d7e80477b6",
+      "title": "GitHub 代码质量的组织级目标 / Organization-level targeting for GitHub Code Quality",
+      "url": "https://github.blog/changelog/2026-07-09-organization-level-targeting-for-github-code-quality",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T15:54:01Z",
+      "category": "其他",
+      "raw_score": 82.58,
       "source_count": 1,
-      "score": 103,
-      "grade": "S"
-    },
-    {
-      "id": "12a74f5e1a36997f",
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "source": "https://huggingface.co/blog/feed.xml",
-      "source_type": "rss",
-      "published_at": null,
-      "category": "Agent",
-      "raw_score": 70,
-      "source_count": 1,
-      "score": 103,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.899,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 100,
       "grade": "S"
     }
   ],
-  "a_items": []
+  "a_items": [
+    {
+      "id": "e578e4d7275e3630",
+      "title": "Claude 推出反思功能（Beta）",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T13:40:30.163000Z",
+      "category": "其他",
+      "raw_score": 77.23,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8706,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "Anthropic：Newsroom（网页）",
+        "Hacker News · 24h最热"
+      ],
+      "score": 99,
+      "grade": "A"
+    },
+    {
+      "id": "620da25c93464b05",
+      "title": "蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0",
+      "url": "https://www.ithome.com/0/974/508.htm",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T06:53:40Z",
+      "category": "开源",
+      "raw_score": 75.77000000000001,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7894,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "score": 99,
+      "grade": "A"
+    },
+    {
+      "id": "4ace03fa4621a7bf",
+      "title": "NVIDIA 发布 Nemotron-Labs-3-Puzzle-75B-A9B：压缩混合 MoE 模型，服务器吞吐量提升 2.03 倍",
+      "url": "https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T08:47:37Z",
+      "category": "产品",
+      "raw_score": 75.26,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8114,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
+      ],
+      "score": 99,
+      "grade": "A"
+    },
+    {
+      "id": "78d9bb956e9febf4",
+      "title": "提出尖锐的问题 / Inviting hard questions",
+      "url": "https://www.anthropic.com/news/hard-questions",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T00:00:00Z",
+      "category": "其他",
+      "raw_score": 80.06,
+      "source_count": 1,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7146,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "Anthropic News"
+      ],
+      "score": 98,
+      "grade": "A"
+    },
+    {
+      "id": "a18e1f67b8a237f3",
+      "title": "Elon Musk称赞Anthropic并承诺不切断其算力",
+      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:57:42Z",
+      "category": "其他",
+      "raw_score": 79.22,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9813,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "score": 95,
+      "grade": "A"
+    },
+    {
+      "id": "d5721ad02a535408",
+      "title": "AI 能否回答 3 万亿美元的问题？",
+      "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:47:50Z",
+      "category": "其他",
+      "raw_score": 79.17999999999999,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.979,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "score": 95,
+      "grade": "A"
+    },
+    {
+      "id": "c7e030b2196c8685",
+      "title": "OpenAI 发布最强模型与最佳博文",
+      "url": "https://x.com/sama/status/2075266471316615436",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T17:10:58Z",
+      "category": "产品",
+      "raw_score": 75.25,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9158,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "X：Sam Altman (@sama)"
+      ],
+      "score": 95,
+      "grade": "A"
+    },
+    {
+      "id": "a373e97c243c9a59",
+      "title": "ChatGPT Sites将创意变可发布网站",
+      "url": "https://x.com/OpenAIDevs/status/2075331020090687666",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:27:27Z",
+      "category": "产品",
+      "raw_score": 75.09,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.68,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9742,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "X：OpenAI Developers (@OpenAIDevs)"
+      ],
+      "score": 95,
+      "grade": "A"
+    },
+    {
+      "id": "049721b197b01927",
+      "title": "Show HN： 如何在我的低配置电脑上运行 GLM-5.2",
+      "url": "https://github.com/JustVugg/colibri",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T22:18:12.902000Z",
+      "category": "其他",
+      "raw_score": 78.41,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9861,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "score": 94,
+      "grade": "A"
+    },
+    {
+      "id": "1b76282636da4de5",
+      "title": "Meta被曝研发全天候AI眼镜：支持超级感知与无感音视频捕捉",
+      "url": "https://www.aibase.com/news/29496",
+      "source": "AIbase",
+      "source_type": "radar",
+      "published_at": "2026-07-09T07:00:26.011092Z",
+      "category": "其他",
+      "raw_score": 75.49,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7907,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "AIbase",
+        "Readhub · AI"
+      ],
+      "score": 91,
+      "grade": "A"
+    },
+    {
+      "id": "8416a42e6dd002af",
+      "title": "OpenAI推出ChatGPT Work智能体",
+      "url": "https://x.com/OpenAI/status/2075274271845404744",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T17:41:57Z",
+      "category": "其他",
+      "raw_score": 75.97,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9227,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "X：OpenAI (@OpenAI)"
+      ],
+      "score": 87,
+      "grade": "A"
+    }
+  ]
 }

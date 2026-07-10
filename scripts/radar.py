@@ -95,6 +95,9 @@ def fetch_radar_daily_brief(url: str) -> list[dict]:
         source = entry.get("source_name") or entry.get("source") or primary.get("source") or "Radar"
         published = entry.get("latest_at") or entry.get("earliest_at") or primary.get("published_at")
         score = entry.get("score") or entry.get("importance_score") or 0
+        # 上游 score 是 0-1 小数，归一化到 0-100 整数
+        if isinstance(score, (int, float)) and 0 <= score <= 1:
+            score = score * 100
         source_count = entry.get("source_count") or len(entry.get("sources") or []) or 1
         items.append({
             "id": stable_id(title, item_url),
@@ -183,24 +186,22 @@ def score_and_grade(item: dict, now: dt.datetime) -> tuple[int, str]:
     """评分 + 分级 S/A/B/C"""
     score = int(float(item.get("raw_score") or 0))
 
-    # 加分：多源
-    score += min(int(item.get("source_count") or 1), 5) * 8
+    # 加分：多源（最多 +20）
+    score += min(int(item.get("source_count") or 1), 5) * 4
 
     # 加分：偏好类目
     cat = item.get("category", "")
     if cat in PREFERRED_CATEGORIES or any(k in cat for k in ["Coding", "Agent", "多模态"]):
-        score += 15
+        score += 8
 
     # 加分：官方源 / RSS 官方源
     st = item.get("source_type", "")
-    if st in ("official",):
-        score += 15
-    elif st == "rss":
-        score += 5
-    elif st == "radar":
-        score += 12  # LearnPrompt 聚合源，多源共振，加分权重高
-    if any(official in (item.get("url") or "") for official in ["openai.com", "anthropic.com", "deepmind"]):
-        score += 15
+    if st == "radar":
+        score += 8  # LearnPrompt 聚合源，多源共振
+    # 不再为 rss / official 单独加分类分，避免与 URL 加分叠加
+
+    if any(official in (item.get("url") or "") for official in ["openai.com", "anthropic.com", "deepmind", "github.blog"]):
+        score += 6
 
     # 减分：过老
     published = item.get("published_at")
@@ -209,18 +210,18 @@ def score_and_grade(item: dict, now: dt.datetime) -> tuple[int, str]:
             p = dt.datetime.fromisoformat(published.replace("Z", "+00:00"))
             hours = (now - p).total_seconds() / 3600
             if hours > 48:
-                score -= 20
+                score -= 15
         except Exception:
             pass
 
     score = max(score, 0)
 
-    # 定级
-    if score >= 85:
+    # 定级（S 稀缺，避免全 S）
+    if score >= 100:
         grade = "S"
-    elif score >= 70:
+    elif score >= 80:
         grade = "A"
-    elif score >= 50:
+    elif score >= 60:
         grade = "B"
     else:
         grade = "C"
