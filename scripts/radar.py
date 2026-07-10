@@ -106,6 +106,10 @@ def fetch_radar_daily_brief(url: str) -> list[dict]:
             "category": entry.get("category") or "其他",
             "raw_score": float(score),
             "source_count": int(source_count),
+            "reasons": entry.get("reasons") or [],
+            "importance_label": entry.get("importance_label") or "",
+            "importance_breakdown": entry.get("importance_breakdown") or {},
+            "source_names": entry.get("source_names") or [],
         })
     return items
 
