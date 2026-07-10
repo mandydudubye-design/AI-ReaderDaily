@@ -33,7 +33,7 @@ jobs:
       - name: Run radar
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
-          SERVERCHAN_KEY: ${{ secrets.SC_SENDKEY }}
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
           python3 scripts/radar.py
 

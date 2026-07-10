@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Maren AI Radar · Cloud Edition
 
 GitHub Actions 每小时跑一次的 AI 信号检测雷达。下班关机也能盯盘，爆款直接推飞书 + Server酱。
@@ -35,3 +36,7 @@ git commit & push       # 数据回写仓库 data/ 目录
 python3 scripts/radar.py --local
 python3 scripts/notifier.py --local
 ```
+=======
+# AI-ReaderDaily
+AI-ReaderDaily
+>>>>>>> origin/main
