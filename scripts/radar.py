@@ -2,7 +2,7 @@
 """Maren AI Radar Cloud Edition — 主检测脚本
 
 每 1 小时在 GitHub Actions 上跑一次：
-  1. 拉取上游源（RSS、AI HOT API、LearnPrompt Radar）
+  1. 拉取上游源（LearnPrompt Radar daily-brief + 官方 RSS）
   2. 检测爆款（S/A/B/C 信号分级）
   3. 触发推送（飞书 + Server酱）
   4. 数据落盘 data/ 目录
@@ -152,7 +152,7 @@ def fetch_rss(url: str) -> list[dict]:
                 "source_type": "rss",
                 "published_at": parse_time(published),
                 "category": "其他",
-                "raw_score": 70,
+                "raw_score": 50,
                 "source_count": 1,
             })
     return items
@@ -193,8 +193,12 @@ def score_and_grade(item: dict, now: dt.datetime) -> tuple[int, str]:
 
     # 加分：官方源 / RSS 官方源
     st = item.get("source_type", "")
-    if st in ("official", "rss"):
-        score += 10
+    if st in ("official",):
+        score += 15
+    elif st == "rss":
+        score += 5
+    elif st == "radar":
+        score += 12  # LearnPrompt 聚合源，多源共振，加分权重高
     if any(official in (item.get("url") or "") for official in ["openai.com", "anthropic.com", "deepmind"]):
         score += 15
 
@@ -326,9 +330,22 @@ def main():
 
     unique_items.sort(key=lambda x: x.get("score", 0), reverse=True)
 
+    # === 多样性截取：每源最多保留 N 条，避免单源霸榜 ===
+    MAX_PER_SOURCE = 15
+    source_counters: dict[str, int] = {}
+    diverse_items: list[dict] = []
+    for item in unique_items:
+        src_key = item.get("source", "unknown")
+        cnt = source_counters.get(src_key, 0)
+        if cnt < MAX_PER_SOURCE:
+            diverse_items.append(item)
+            source_counters[src_key] = cnt + 1
+        if len(diverse_items) >= 100:
+            break
+
     # 分级列表
-    s_items = [i for i in unique_items if i.get("grade") == "S"]
-    a_items = [i for i in unique_items if i.get("grade") == "A"]
+    s_items = [i for i in diverse_items if i.get("grade") == "S"]
+    a_items = [i for i in diverse_items if i.get("grade") == "A"]
 
     print(f"\n[radar] 去重后: {len(unique_items)} 条")
     print(f"         S 级: {len(s_items)} | A 级: {len(a_items)} | 失败源: {len(failed_sources)}")
@@ -341,7 +358,7 @@ def main():
         "s_count": len(s_items),
         "a_count": len(a_items),
         "failed_sources": failed_sources,
-        "items": unique_items[:100],
+        "items": diverse_items[:100],
         "s_items": s_items[:10],
         "a_items": a_items[:20],
     }
