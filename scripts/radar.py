@@ -113,37 +113,6 @@ def fetch_radar_daily_brief(url: str) -> list[dict]:
         })
     return items
 
-def fetch_ai_hot(url: str) -> list[dict]:
-    """Fetch from AI HOT API"""
-    text = fetch_text(url)
-    data = json.loads(text)
-    items = []
-    for entry in data if isinstance(data, list) else data.get("data", data.get("items", [])):
-        if isinstance(entry, str):
-            continue
-        title = entry.get("title") or ""
-        item_url = entry.get("url") or entry.get("link") or ""
-        source = entry.get("source") or entry.get("author") or "AI HOT"
-        published = entry.get("time") or entry.get("published_at") or entry.get("created_at")
-        score_raw = entry.get("score") or entry.get("heat") or entry.get("popularity") or 0
-        try:
-            score = float(score_raw)
-        except (ValueError, TypeError):
-            score = 50
-
-        items.append({
-            "id": stable_id(title, item_url),
-            "title": title,
-            "url": item_url,
-            "source": source,
-            "source_type": "aggregator",
-            "published_at": parse_time(published),
-            "category": entry.get("type") or entry.get("category") or "其他",
-            "raw_score": score,
-            "source_count": 1,
-        })
-    return items
-
 def fetch_rss(url: str) -> list[dict]:
     """Fetch RSS feed items"""
     text = fetch_text(url)
@@ -323,8 +292,6 @@ def main():
             try:
                 if stype in ("json_daily_brief",):
                     items = fetch_radar_daily_brief(u)
-                elif stype in ("ai_hot_api",):
-                    items = fetch_ai_hot(u)
                 elif stype in ("x_crawl_rss",):
                     items = fetch_rss(u)
                 else:

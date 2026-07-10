@@ -22,17 +22,6 @@
     "priority": 80
   },
   {
-    "id": "ai_hot_api",
-    "name": "AI HOT API",
-    "type": "ai_hot_api",
-    "url": "https://ai-news-hot.vercel.app/api/hot-news?type=hot",
-    "fallback_urls": [
-      "https://ai-news-hot.vercel.app/api/hot-news?type=latest"
-    ],
-    "enabled": true,
-    "priority": 85
-  },
-  {
     "id": "rss_anthropic_blog",
     "name": "Anthropic Blog",
     "type": "x_crawl_rss",

@@ -1,12 +1,84 @@
 """AI Radar 推送模块 - 飞书 + Server酱 双通道"""
 import os
 import json
+import re
 import urllib.parse
 import urllib.request
 from typing import Optional, Any
 
 FEISHU_WEBHOOK = os.environ.get("FEISHU_WEBHOOK", "")
 SERVERCHAN_KEY = os.environ.get("SERVERCHAN_KEY", "")
+
+# ---------- 中文翻译：基于关键词词典 + Google Translate 免费 API ----------
+_EN_ZH_DICT = {
+    # 产品名
+    "Gemini": "Gemini", "Claude": "Claude", "GPT": "GPT", "ChatGPT": "ChatGPT",
+    "Llama": "Llama", "Mistral": "Mistral", "DeepSeek": "DeepSeek",
+    "Anthropic": "Anthropic", "OpenAI": "OpenAI", "Google": "Google",
+    "Meta": "Meta", "Hugging Face": "Hugging Face", "HuggingFace": "HuggingFace",
+    "NVIDIA": "英伟达", "xAI": "xAI", "DeepMind": "DeepMind",
+    # 常见 AI 概念
+    "Agent": "智能体", "Agents": "智能体", "agent": "智能体", "agents": "智能体",
+    "MCP": "模型上下文协议",
+    "benchmark": "基准测试", "Benchmark": "基准测试", "Benchmarking": "基准测试",
+    "release": "发布", "Release": "发布", "Launching": "发布",
+    "update": "更新", "Update": "更新",
+    "open source": "开源", "Open Source": "开源",
+    "API": "API", "model": "模型", "Model": "模型",
+    "training": "训练", "Training": "训练",
+    "inference": "推理", "Inference": "推理",
+    "multimodal": "多模态", "Multimodal": "多模态",
+    "vision": "视觉", "Vision": "视觉",
+    "code": "代码", "Code": "代码",
+    "tool use": "工具调用", "function calling": "函数调用",
+    "embedding": "嵌入向量", "fine-tuning": "微调",
+    "RAG": "检索增强生成",
+    "safety": "安全", "alignment": "对齐",
+    "reasoning": "推理能力", "Reasoning": "推理能力",
+    "enterprise": "企业", "Enterprise": "企业",
+    "startup": "创业公司", "funding": "融资",
+    "open-weight": "开源权重",
+    "background": "后台", "tasks": "任务",
+    "remote": "远程", "managed": "托管",
+}
+
+
+def _translate_title(title: str) -> str:
+    """英文标题 → 中文翻译（词典优先，降级用 Google Translate 免费 API）"""
+    if not title:
+        return ""
+    # 快速判断：如果中文字符占比 > 30%，认为已经是中文
+    cn_chars = len(re.findall(r'[\u4e00-\u9fff]', title))
+    if cn_chars > len(title) * 0.3:
+        return title
+
+    # 词典替换（保留无法翻译的部分）
+    zh = title
+    # 按长度降序替换避免短词覆盖长词
+    for en, cn in sorted(_EN_ZH_DICT.items(), key=lambda x: -len(x[0])):
+        zh = zh.replace(en, cn)
+
+    # 如果替换后变化不大（<20%），尝试 Google Translate 免费 API
+    if zh == title:
+        try:
+            encoded = urllib.parse.quote(title)
+            api_url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q={encoded}"
+            cmd = ["curl", "-sS", "--noproxy", "*", "-L", "--connect-timeout", "5", "--max-time", "8", api_url]
+            import subprocess
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=12)
+            if result.returncode == 0 and result.stdout:
+                data = json.loads(result.stdout)
+                # 结构: [[["翻译结果","原文",...], ...], ...]
+                parts = []
+                for sentence_group in data[0]:
+                    if sentence_group and sentence_group[0]:
+                        parts.append(sentence_group[0])
+                if parts:
+                    return "".join(parts)
+        except Exception:
+            pass
+
+    return zh
 
 # ---------- 辅助函数：中文摘要 + 爆点说明 ----------
 
@@ -50,11 +122,14 @@ def _generate_breakout_text(item: dict) -> list[str]:
             src_str += f"等 {len(source_names)} 个源"
         summary_parts.append(f"覆盖 {src_str}")
 
+    # 中文标题
+    title_en = item.get('title', '?')
+    title_zh = _translate_title(title_en)
     if summary_parts:
-        lines.append(f"  📋 简介：{item.get('title','?')[:80]}")
+        lines.append(f"  📋 {title_zh[:80]}")
         lines.append(f"  {' | '.join(summary_parts)}")
     else:
-        lines.append(f"  📋 {item.get('title','?')[:100]}")
+        lines.append(f"  📋 {title_zh[:100]}")
 
     # 2. 爆款点分析
     score = item.get("score", 0)
@@ -145,13 +220,30 @@ def _feishu_text(text: str) -> bool:
         return False
 
 
-def _feishu_card(title: str, body_lines: list[str]) -> bool:
-    """通过飞书机器人推送卡片消息"""
+def _feishu_card(title: str, body_lines: list[str], buttons: list[dict] = None) -> bool:
+    """通过飞书机器人推送卡片消息（支持 markdown + 可点击按钮）"""
     if not FEISHU_WEBHOOK:
         print("[push] 跳过飞书卡片：无 webhook")
         return False
 
     content = "\n".join(body_lines)
+    elements = [
+        {"tag": "markdown", "content": content[:3000]}
+    ]
+
+    # 添加可点击按钮（每个按钮一个链接）
+    if buttons:
+        btn_actions = []
+        for btn in buttons[:5]:  # 飞书卡片最多 5 个按钮
+            btn_actions.append({
+                "tag": "button",
+                "text": {"tag": "plain_text", "content": btn.get("text", "打开链接")[:20]},
+                "type": "primary",
+                "url": btn.get("url", "")
+            })
+        if btn_actions:
+            elements.append({"tag": "action", "actions": btn_actions})
+
     payload = {
         "msg_type": "interactive",
         "card": {
@@ -159,12 +251,7 @@ def _feishu_card(title: str, body_lines: list[str]) -> bool:
                 "title": {"tag": "plain_text", "content": title[:150]},
                 "template": "blue"
             },
-            "elements": [
-                {
-                    "tag": "markdown",
-                    "content": content[:3000]
-                }
-            ]
+            "elements": elements
         }
     }
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
@@ -211,6 +298,15 @@ def notify_status_card(
     """推送每小时状态卡片到飞书 + 简讯到 Server酱"""
     now = run_time
 
+    # --- 收集所有要显示的链接，做成飞书按钮 ---
+    all_buttons = []
+    if s_items:
+        for item in s_items[:3]:
+            url = item.get("url", "")
+            if url:
+                title_short = _translate_title(item.get('title', ''))[:15] or item.get('title', '')[:15]
+                all_buttons.append({"text": f"🔗 {title_short}", "url": url})
+
     # --- 飞书卡片 ---
     body_lines = [f"📡 **AI Radar 状态卡** | {now}"]
     body_lines.append(f"📊 共捕获 **{item_count}** 条信号")
@@ -218,21 +314,22 @@ def notify_status_card(
     if s_items:
         body_lines.append(f"\n🔥 **S 级爆款**（{len(s_items)} 条）")
         for item in s_items[:3]:
-            body_lines.append(f"\n• **{item.get('title','?')}** — 综合分 {item.get('score','?')} | {item.get('source','?')}")
+            title_zh = _translate_title(item.get('title', '?'))
+            body_lines.append(f"\n• **{title_zh[:60]}** — 综合分 {item.get('score','?')}")
             breakout = _generate_breakout_text(item)
             body_lines.extend(breakout)
             url = item.get("url", "")
             if url:
-                body_lines.append(f"  🔗 [原文链接]({url})")
+                body_lines.append(f"  🔗 {url}")  # 裸链接（飞书支持点按）
 
     if a_items and not s_items:
         body_lines.append(f"\n📈 **A 级信号**（{len(a_items)} 条）")
         for item in a_items[:5]:
-            body_lines.append(f"\n• **{item.get('title','?')}** — 综合分 {item.get('score','?')} | {item.get('source','?')}")
-            body_lines.append(f"  📋 {item.get('title','?')[:80]}")
+            title_zh = _translate_title(item.get('title', '?'))
+            body_lines.append(f"\n• **{title_zh[:60]}** — 综合分 {item.get('score','?')}")
             url = item.get("url", "")
             if url:
-                body_lines.append(f"  🔗 [原文链接]({url})")
+                body_lines.append(f"  🔗 {url}")
 
     if failed_sources:
         body_lines.append(f"\n⚠️ **信源异常**（{len(failed_sources)} 个）")
@@ -240,7 +337,7 @@ def notify_status_card(
             body_lines.append(f"• {s}")
 
     body_lines.append(f"\n🔗 [查看完整数据](https://github.com/mandydudubye-design/AI-ReaderDaily)")
-    _feishu_card("📡 AI Radar 状态卡", body_lines)
+    _feishu_card("📡 AI Radar 状态卡", body_lines, buttons=all_buttons[:5])
 
     # --- Server酱简讯 ---
     summary_parts = [f"📡 AI Radar | {now} | {item_count} 条"]
@@ -254,16 +351,20 @@ def notify_status_card(
 
 def notify_breaking(item: dict):
     """推送爆款紧急通知（仅 S 级 + 白名单更新）"""
-    title = f"🔥 AI 爆款: {item.get('title','?')[:60]}"
+    title_zh = _translate_title(item.get('title', '?'))
+    title = f"🔥 AI 爆款: {title_zh[:60]}"
     body = [
-        f"**{item.get('title','?')}**",
+        f"**{title_zh}**",
         f"来源: {item.get('source','?')} | 综合分: {item.get('score','?')}",
     ]
     breakout = _generate_breakout_text(item)
     body.extend(breakout)
     url = item.get("url", "")
     if url:
-        body.append(f"\n🔗 [原文链接]({url})")
+        body.append(f"\n🔗 {url}")
 
-    _feishu_card(title[:150], body)
+    buttons = []
+    if url:
+        buttons.append({"text": "打开原文", "url": url})
+    _feishu_card(title[:150], body, buttons=buttons)
     _serverchan(title, "\n".join(body))
