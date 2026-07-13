@@ -336,8 +336,11 @@ def notify_status_card(
         for s in failed_sources[:5]:
             body_lines.append(f"• {s}")
 
-    body_lines.append(f"\n🔗 [查看完整数据](https://github.com/mandydudubye-design/AI-ReaderDaily)")
-    _feishu_card("📡 AI Radar 状态卡", body_lines, buttons=all_buttons[:5])
+    # 雷达网页链接
+    radar_url = "https://mandydudubye-design.github.io/AI-ReaderDaily/"
+    body_lines.append(f"\n🔗 [查看全部雷达信号]({radar_url})")
+    _feishu_card("📡 AI Radar 状态卡", body_lines,
+                 buttons=all_buttons[:4] + [{"text": "📡 查看全部", "url": radar_url}])
 
     # --- Server酱简讯 ---
     summary_parts = [f"📡 AI Radar | {now} | {item_count} 条"]
@@ -345,7 +348,9 @@ def notify_status_card(
         summary_parts.append(f"🔥 {len(s_items)} 个爆款")
     if failed_sources:
         summary_parts.append(f"⚠️ {len(failed_sources)} 个异常源")
+    summary_parts.append(f"🔗 {radar_url}")
     desp_lines = [s.replace("\n", "  ") for s in body_lines]
+    desp_lines.append(f"\n——\n📡 查看全部雷达信号：{radar_url}")
     _serverchan(summary_parts[0], "\n".join(desp_lines))
 
 

@@ -147,6 +147,22 @@ def fetch_rss(url: str) -> list[dict]:
                 if not title or not item_url:
                     pass
         if title:
+            # === 动态 raw_score：按标题关键词区分 ===
+            text_lower = title.lower()
+            raw_score = 35  # 基础分
+            # 高分关键词
+            if any(kw in text_lower for kw in ["gpt-5", "gpt5", "claude 4", "gemini 3", "release", "launch", "发布", "新模型"]):
+                raw_score = 60
+            elif any(kw in text_lower for kw in ["agent", "mcp", "copilot", "codex", "tool use", "function calling"]):
+                raw_score = 55
+            elif any(kw in text_lower for kw in ["open source", "开源", "本地部署", "benchmark", "性能"]):
+                raw_score = 50
+            elif any(kw in text_lower for kw in ["update", "更新", "升级", "改进"]):
+                raw_score = 45
+            # 加分：HuggingFace blog 论文类降分
+            if "huggingface.co" in url and any(kw in text_lower for kw in ["paper", "论文", "research", "研究"]):
+                raw_score = max(raw_score - 10, 30)
+
             items.append({
                 "id": stable_id(title, item_url),
                 "title": html.unescape(title.strip()),
@@ -155,7 +171,7 @@ def fetch_rss(url: str) -> list[dict]:
                 "source_type": "rss",
                 "published_at": parse_time(published),
                 "category": "其他",
-                "raw_score": 50,
+                "raw_score": raw_score,
                 "source_count": 1,
             })
     return items
