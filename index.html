@@ -60,6 +60,14 @@ a:hover { text-decoration: underline; }
 .chart-bar.grade-b { background: var(--blue); }
 .chart-bar.grade-c { background: var(--text2); }
 
+/* Trend Chart */
+.trend-box { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; margin-bottom: 16px; }
+.trend-box h3 { font-size: 13px; color: var(--text2); margin-bottom: 8px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; }
+.trend-box h3 .trend-legend { display: flex; gap: 10px; font-size: 11px; font-weight: 400; }
+.trend-legend .lg-item { display: flex; align-items: center; gap: 4px; }
+.trend-legend .lg-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+#trendCanvas { width: 100%; height: 140px; display: block; border-radius: 4px; cursor: crosshair; }
+
 /* Stats breakdown grid */
 .stats-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; margin-bottom: 16px; }
 .stat-cell { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px; text-align: center; }
@@ -171,6 +179,20 @@ a:hover { text-decoration: underline; }
     </div>
   </div>
 
+  <!-- Trend Chart: S/A/B/C 分布走势 -->
+  <div class="trend-box" id="trendBox" style="display:none;">
+    <h3>
+      <span>📈 热度走势 (近 48h)</span>
+      <span class="trend-legend">
+        <span class="lg-item"><span class="lg-dot" style="background:#ef4444"></span> S</span>
+        <span class="lg-item"><span class="lg-dot" style="background:#f59e0b"></span> A</span>
+        <span class="lg-item"><span class="lg-dot" style="background:#3b82f6"></span> B</span>
+        <span class="lg-item"><span class="lg-dot" style="background:#6b7280"></span> C</span>
+      </span>
+    </h3>
+    <canvas id="trendCanvas" height="140"></canvas>
+  </div>
+
   <!-- Controls: Search + Filters + Sort -->
   <div class="controls">
     <input class="search-box" type="text" id="searchInput" placeholder="🔍 搜索关键词...">
@@ -199,6 +221,8 @@ a:hover { text-decoration: underline; }
         <button class="filter-btn active" data-group="srctype" data-val="all">全部</button>
         <button class="filter-btn" data-group="srctype" data-val="radar">📡 聚合</button>
         <button class="filter-btn" data-group="srctype" data-val="rss">📰 官方</button>
+        <button class="filter-btn" data-group="srctype" data-val="rsshub">🔗 RSSHub</button>
+        <button class="filter-btn" data-group="srctype" data-val="domestic">🇨🇳 国内</button>
       </div>
     </div>
     <select class="sort-select" id="sortSelect">
@@ -477,9 +501,123 @@ async function loadData() {
 document.getElementById('searchInput').addEventListener('input', applyFilters);
 document.getElementById('sortSelect').addEventListener('change', applyFilters);
 
+// === Trend Chart ===
+async function loadAndRenderTrend() {
+  try {
+    const resp = await fetch('data/trend.json');
+    if (!resp.ok) return;
+    const data = await resp.json();
+    if (!data || data.length < 2) return;
+
+    document.getElementById('trendBox').style.display = '';
+    const canvas = document.getElementById('trendCanvas');
+    const dpr = window.devicePixelRatio || 1;
+    const rect = canvas.getBoundingClientRect();
+    canvas.width = rect.width * dpr;
+    canvas.height = rect.height * dpr;
+    const ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+
+    const W = rect.width, H = rect.height;
+    const pad = { top: 20, right: 12, bottom: 28, left: 36 };
+    const plotW = W - pad.left - pad.right;
+    const plotH = H - pad.top - pad.bottom;
+
+    // Find max across all stacks
+    const maxVal = Math.max(...data.map(d => d.s + d.a + d.b + d.c), 1);
+
+    // Grid lines
+    ctx.strokeStyle = '#2a2d3e';
+    ctx.lineWidth = 0.5;
+    for (let i = 0; i <= 4; i++) {
+      const y = pad.top + plotH - (i / 4) * plotH;
+      ctx.beginPath(); ctx.moveTo(pad.left, y); ctx.lineTo(W - pad.right, y); ctx.stroke();
+      ctx.fillStyle = '#6b7280';
+      ctx.font = '10px -apple-system, sans-serif';
+      ctx.textAlign = 'right';
+      ctx.fillText(Math.round(maxVal * i / 4), pad.left - 4, y + 3);
+    }
+
+    // Time labels (show ~5 evenly spaced)
+    const step = Math.max(1, Math.floor(data.length / 5));
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#6b7280';
+    for (let i = 0; i < data.length; i += step) {
+      const x = pad.left + (i / (data.length - 1)) * plotW;
+      const label = (data[i].ts || '').replace('(UTC)', '').trim().slice(5, 10);
+      ctx.fillText(label, x, H - 8);
+    }
+    // Last point label
+    if (data.length > 1) {
+      const lx = pad.left + plotW;
+      const ll = (data[data.length - 1].ts || '').replace('(UTC)', '').trim().slice(5, 10);
+      ctx.fillText(ll, lx, H - 8);
+    }
+
+    // Stacked area: C (bottom) → B → A → S (top)
+    const layers = ['c', 'b', 'a', 's'];
+    const colors = { c: 'rgba(107,114,128,0.35)', b: 'rgba(59,130,246,0.35)', a: 'rgba(245,158,11,0.35)', s: 'rgba(239,68,68,0.35)' };
+    const strokeColors = { c: '#6b7280', b: '#3b82f6', a: '#f59e0b', s: '#ef4444' };
+
+    // Compute stacked values
+    const stacked = data.map(d => {
+      let cum = 0;
+      const vals = {};
+      for (const key of layers) {
+        vals[key] = { base: cum, top: cum + (d[key] || 0) };
+        cum += d[key] || 0;
+      }
+      vals.total = cum;
+      return vals;
+    });
+
+    // Draw filled areas (bottom-up: s, a, b, c)
+    for (const key of layers) {
+      ctx.beginPath();
+      for (let i = 0; i < data.length; i++) {
+        const x = pad.left + (i / Math.max(data.length - 1, 1)) * plotW;
+        const y = pad.top + plotH - (stacked[i][key].top / maxVal) * plotH;
+        if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+      }
+      for (let i = data.length - 1; i >= 0; i--) {
+        const x = pad.left + (i / Math.max(data.length - 1, 1)) * plotW;
+        const y = pad.top + plotH - (stacked[i][key].base / maxVal) * plotH;
+        ctx.lineTo(x, y);
+      }
+      ctx.closePath();
+      ctx.fillStyle = colors[key];
+      ctx.fill();
+
+      // Stroke top line
+      ctx.beginPath();
+      for (let i = 0; i < data.length; i++) {
+        const x = pad.left + (i / Math.max(data.length - 1, 1)) * plotW;
+        const y = pad.top + plotH - (stacked[i][key].top / maxVal) * plotH;
+        if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+      }
+      ctx.strokeStyle = strokeColors[key];
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }
+
+    // Tooltip on hover
+    canvas.onmousemove = (e) => {
+      const mx = e.offsetX;
+      const idx = Math.round(((mx - pad.left) / plotW) * (data.length - 1));
+      if (idx < 0 || idx >= data.length) return;
+      const d = data[idx];
+      canvas.title = `${d.ts}\nS:${d.s} A:${d.a} B:${d.b} C:${d.c} 总:${d.total || (d.s+d.a+d.b+d.c)}`;
+    };
+  } catch (e) {
+    console.warn('Trend chart load failed:', e);
+  }
+}
+
 // Load
 loadData();
-setInterval(loadData, 300000);
+loadAndRenderTrend();
+setInterval(() => { loadData(); loadAndRenderTrend(); }, 300000);
+window.addEventListener('resize', loadAndRenderTrend);
 </script>
 </body>
 </html>
