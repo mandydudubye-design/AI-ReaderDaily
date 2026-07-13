@@ -155,6 +155,37 @@ a:hover { text-decoration: underline; }
   .filter-group { justify-content: center; }
   .chart-box { min-width: 100%; }
 }
+
+/* Tab Navigation */
+.tab-bar { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
+.tab-btn { padding: 8px 18px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text2); font-size: 13px; cursor: pointer; transition: all 0.15s; font-weight: 500; }
+.tab-btn:hover { border-color: var(--accent); color: var(--text); }
+.tab-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.tab-pane { display: none; }
+.tab-pane.active { display: block; }
+
+/* Story card */
+.story-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 14px; margin-bottom: 8px; transition: border-color 0.15s; }
+.story-card:hover { border-color: var(--accent); }
+.story-card .story-title { font-size: 14px; font-weight: 600; margin-bottom: 4px; line-height: 1.5; }
+.story-card .story-title a { color: var(--text); }
+.story-card .story-title a:hover { color: var(--accent2); }
+.story-badges { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; margin-bottom: 4px; }
+.story-meta { display: flex; gap: 8px; font-size: 12px; color: var(--text2); flex-wrap: wrap; align-items: center; }
+.story-sources { font-size: 11px; color: var(--text3); margin-top: 4px; background: var(--bg3); padding: 4px 8px; border-radius: 4px; }
+
+/* Health panel */
+.health-summary { display: flex; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+.health-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 16px; text-align: center; min-width: 85px; }
+.health-card .num { font-size: 20px; font-weight: 700; }
+.health-card .label { font-size: 11px; color: var(--text2); margin-top: 2px; }
+.health-table-wrap { overflow-x: auto; }
+.health-table { width: 100%; border-collapse: collapse; font-size: 12px; min-width: 500px; }
+.health-table th { text-align: left; padding: 7px 8px; background: var(--bg3); color: var(--text2); border-bottom: 1px solid var(--border); font-weight: 500; white-space: nowrap; }
+.health-table td { padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+.health-table .ok { color: var(--green); font-weight: 600; }
+.health-table .fail { color: var(--red); font-weight: 600; }
+.health-table .ai-bar { display: inline-block; height: 6px; border-radius: 3px; background: var(--accent); margin-right: 4px; vertical-align: middle; }
 </style>
 </head>
 <body>
@@ -193,8 +224,17 @@ a:hover { text-decoration: underline; }
     <canvas id="trendCanvas" height="140"></canvas>
   </div>
 
-  <!-- Controls: Search + Filters + Sort -->
-  <div class="controls">
+  <!-- Tab Navigation -->
+  <div class="tab-bar">
+    <button class="tab-btn active" data-tab="all" onclick="switchTab('all')">📋 全部信号</button>
+    <button class="tab-btn" data-tab="stories" onclick="switchTab('stories')">🔗 故事线</button>
+    <button class="tab-btn" data-tab="health" onclick="switchTab('health')">🏥 信源健康</button>
+  </div>
+
+  <!-- TAB: 全部信号 -->
+  <div class="tab-pane active" id="tab-all">
+    <!-- Controls: Search + Filters + Sort -->
+    <div class="controls">
     <input class="search-box" type="text" id="searchInput" placeholder="🔍 搜索关键词...">
     <div>
       <div class="filter-group" style="margin-bottom:4px">
@@ -238,10 +278,27 @@ a:hover { text-decoration: underline; }
   <div class="result-count" id="resultCount"></div>
   <div class="item-list" id="itemList"></div>
 
-  <!-- Source health (collapsible) -->
+  <!-- Old-style health (kept for backward compat; now also shown in tab) -->
   <div class="source-health" id="sourceHealth" style="display:none;">
     <h3 onclick="toggleHealth()">📊 信源覆盖 <span class="toggle" id="healthToggle">▼ 展开</span></h3>
     <div class="health-grid collapsed" id="healthGrid"></div>
+  </div>
+  </div><!-- /tab-all -->
+
+  <!-- TAB: 故事线 -->
+  <div class="tab-pane" id="tab-stories">
+    <div class="stats" id="storyStatsBar"></div>
+    <div class="result-count" id="storyCount"></div>
+    <div id="storyList"></div>
+  </div>
+
+  <!-- TAB: 信源健康 -->
+  <div class="tab-pane" id="tab-health">
+    <div id="healthSummary" class="health-summary"></div>
+    <div class="result-count" id="healthCount"></div>
+    <div class="health-table-wrap"><table class="health-table" id="healthTable"><thead><tr>
+      <th>信源</th><th>状态</th><th>条目</th><th>AI 信号</th><th>AI 占比</th><th>耗时(秒)</th><th>备注</th>
+    </tr></thead><tbody id="healthBody"></tbody></table></div>
   </div>
 
   <div class="footer">
@@ -611,6 +668,113 @@ async function loadAndRenderTrend() {
   } catch (e) {
     console.warn('Trend chart load failed:', e);
   }
+}
+
+// === Tab switching ===
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.toggle('active', p.id === `tab-${tab}`));
+  if (tab === 'stories') loadStories();
+  if (tab === 'health') loadHealth();
+}
+
+// === Story rendering ===
+let storiesData = [];
+async function loadStories() {
+  try {
+    const resp = await fetch('data/stories-merged.json');
+    if (!resp.ok) throw new Error(resp.status);
+    const data = await resp.json();
+    storiesData = data.stories || [];
+    renderStories(storiesData);
+  } catch (e) {
+    document.getElementById('storyList').innerHTML = `<div class="empty-msg">⚠️ 故事线数据加载失败：${e.message}<br>请确认 data/stories-merged.json 存在</div>`;
+  }
+}
+function renderStories(stories) {
+  const list = document.getElementById('storyList');
+  const countEl = document.getElementById('storyCount');
+  const statsEl = document.getElementById('storyStatsBar');
+  if (!stories.length) {
+    countEl.textContent = '';
+    list.innerHTML = '<div class="empty-msg">暂无故事线数据</div>';
+    return;
+  }
+  // Stats
+  const s = stories.filter(s => s.importance_label === 'S').length;
+  const a = stories.filter(s => s.importance_label === 'A').length;
+  const multi = stories.filter(s => s.source_count >= 3).length;
+  statsEl.innerHTML = `
+    <div class="stat-card s"><div class="num">${s}</div><div class="label">S 故事</div></div>
+    <div class="stat-card a"><div class="num">${a}</div><div class="label">A 故事</div></div>
+    <div class="stat-card"><div class="num">${multi}</div><div class="label">≥3源</div></div>
+    <div class="stat-card"><div class="num">${stories.length}</div><div class="label">总计</div></div>`;
+  countEl.textContent = `共 ${stories.length} 条故事线`;
+
+  list.innerHTML = stories.map(s => {
+    const impCls = `grade-${s.importance_label}`;
+    const timeStr = s.latest_at ? formatTime(s.latest_at) : '';
+    const srcNames = (s.source_names || []).join(', ');
+    return `<div class="story-card">
+      <div class="story-badges">
+        <span class="grade-badge ${impCls}">${s.importance_label}</span>
+        <span class="score-pill">${s.importance_score}</span>
+        <span class="source-badge type-radar">${s.source_count}源</span>
+      </div>
+      <div class="story-title"><a href="${s.primary_url || '#'}" target="_blank" rel="noopener">${translateTitle(s.title)}</a></div>
+      <div class="story-meta">
+        <span>📡 ${s.source_count} 个信源</span>
+        <span>📦 ${s.item_count} 条</span>
+        ${timeStr ? `<span>🕐 ${timeStr}</span>` : ''}
+      </div>
+      ${srcNames ? `<div class="story-sources">📰 覆盖: ${srcNames}</div>` : ''}
+    </div>`;
+  }).join('');
+}
+
+// === Health panel ===
+let healthData = null;
+let allHealthSites = [];
+async function loadHealth() {
+  try {
+    // Load from source-status.json (produced by radar.py)
+    let resp = await fetch('data/source-status.json');
+    if (!resp.ok) throw new Error(resp.status + ' (source-status.json)');
+    const data = await resp.json();
+    healthData = data;
+    allHealthSites = data.sites || [];
+    renderHealth(allHealthSites, data);
+  } catch (e) {
+    // Fallback: compute from items snapshot
+    document.getElementById('healthSummary').innerHTML = `<div class="empty-msg">⚠️ 信源健康数据加载失败：${e.message}</div>`;
+  }
+}
+function renderHealth(sites, summary) {
+  // Summary cards
+  document.getElementById('healthSummary').innerHTML = `
+    <div class="health-card"><div class="num">${summary.successful_sites}</div><div class="label">✅ 成功</div></div>
+    <div class="health-card"><div class="num">${summary.failed_sites}</div><div class="label">❌ 失败</div></div>
+    <div class="health-card"><div class="num">${summary.source_count}</div><div class="label">总信源</div></div>
+    <div class="health-card"><div class="num">${summary.total_items}</div><div class="label">总条目</div></div>
+    <div class="health-card ${summary.ai_pct_total > 30 ? 's' : ''}"><div class="num">${summary.ai_pct_total}%</div><div class="label">AI 占比</div></div>`;
+  document.getElementById('healthCount').textContent = `共 ${sites.length} 个信源`;
+
+  // Table rows
+  const tbody = document.getElementById('healthBody');
+  tbody.innerHTML = sites.map(site => {
+    const statusCls = site.ok ? 'ok' : 'fail';
+    const statusTxt = site.ok ? '✅' : '❌';
+    const barW = Math.min(site.ai_pct, 100);
+    return `<tr>
+      <td><span title="${site.site_id}">${site.site_name}</span></td>
+      <td><span class="${statusCls}">${statusTxt}</span></td>
+      <td>${site.item_count}</td>
+      <td>${site.ai_count}</td>
+      <td><span class="ai-bar" style="width:${barW}px"></span>${site.ai_pct}%</td>
+      <td>${site.fetch_duration_s}</td>
+      <td>${site.note || ''}</td>
+    </tr>`;
+  }).join('');
 }
 
 // Load
