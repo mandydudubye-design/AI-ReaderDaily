@@ -76,5 +76,23 @@
     "url": "https://x.ai/blog/feed",
     "enabled": true,
     "priority": 90
+  },
+  {
+    "id": "rss_36kr",
+    "name": "36氪",
+    "type": "x_crawl_rss",
+    "url": "https://36kr.com/feed",
+    "enabled": true,
+    "priority": 80,
+    "note": "中文综合科技，混有 AI 内容，radar.py 按关键词过滤"
+  },
+  {
+    "id": "rss_ithome",
+    "name": "IT之家",
+    "type": "x_crawl_rss",
+    "url": "https://www.ithome.com/rss/",
+    "enabled": true,
+    "priority": 75,
+    "note": "中文科技综合，含 AI 新闻"
   }
 ]
