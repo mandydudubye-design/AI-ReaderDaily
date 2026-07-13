@@ -94,5 +94,53 @@
     "enabled": true,
     "priority": 75,
     "note": "中文科技综合，含 AI 新闻"
+  },
+  {
+    "id": "rss_zhihu_hot",
+    "name": "知乎热榜",
+    "type": "x_crawl_rss",
+    "url": "https://rsshub.rssforever.com/zhihu/hot",
+    "fallback_urls": [
+      "https://rsshub.bili.xyz/zhihu/hot"
+    ],
+    "enabled": true,
+    "priority": 78,
+    "note": "知乎全站热榜，混合话题，radar.py 按关键词过滤 AI 内容"
+  },
+  {
+    "id": "rss_zhihu_daily",
+    "name": "知乎日报",
+    "type": "x_crawl_rss",
+    "url": "https://rsshub.rssforever.com/zhihu/daily",
+    "fallback_urls": [
+      "https://rsshub.bili.xyz/zhihu/daily"
+    ],
+    "enabled": true,
+    "priority": 72,
+    "note": "知乎日报精选，混合话题"
+  },
+  {
+    "id": "rss_36kr_newsflashes",
+    "name": "36氪快讯",
+    "type": "x_crawl_rss",
+    "url": "https://rsshub.rssforever.com/36kr/newsflashes",
+    "fallback_urls": [
+      "https://rsshub.bili.xyz/36kr/newsflashes"
+    ],
+    "enabled": true,
+    "priority": 82,
+    "note": "36氪实时快讯，作者按关键词筛选 AI 内容"
+  },
+  {
+    "id": "rss_sspai_matrix",
+    "name": "少数派 Matrix",
+    "type": "x_crawl_rss",
+    "url": "https://rsshub.rssforever.com/sspai/matrix",
+    "fallback_urls": [
+      "https://rsshub.bili.xyz/sspai/matrix"
+    ],
+    "enabled": true,
+    "priority": 70,
+    "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
   }
 ]

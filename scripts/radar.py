@@ -120,7 +120,7 @@ def fetch_radar_daily_brief(url: str) -> list[dict]:
         })
     return items
 
-def fetch_rss(url: str) -> list[dict]:
+def fetch_rss(url: str, source_name: str = "") -> list[dict]:
     """Fetch RSS feed items"""
     text = fetch_text(url)
     items = []
@@ -171,7 +171,7 @@ def fetch_rss(url: str) -> list[dict]:
                 "id": stable_id(title, item_url),
                 "title": html.unescape(title.strip()),
                 "url": item_url,
-                "source": url,
+                "source": source_name or url,
                 "source_type": "rss",
                 "published_at": parse_time(published),
                 "category": "其他",
@@ -549,7 +549,7 @@ def main():
                 if stype in ("json_daily_brief",):
                     items = fetch_radar_daily_brief(u)
                 elif stype in ("x_crawl_rss",):
-                    items = fetch_rss(u)
+                    items = fetch_rss(u, source_name=sname)
                 else:
                     items = []
 
