@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-12T23:52:42.415870Z",
-  "run_time": "2026-07-12 23:52 (UTC)",
+  "generated_at": "2026-07-10T18:22:58.099430Z",
+  "run_time": "2026-07-10 18:22 (UTC)",
   "total_items": 863,
   "s_count": 0,
   "a_count": 16,
@@ -397,71 +397,75 @@
       "grade": "B"
     },
     {
-      "id": "5e3da560b9cd78dd",
-      "title": "如果你也经常日常使用ChatGPT、Codex做办公与代码开发，这份OpenAI官方提示词指南可以帮助你提升指令输出的质量。文中给出了通用的高效 Prompt 底层框架，还区分了普通对话、批量工作任务、代码工程三类专属指令逻辑，附上文件、插件、云端资源调用规范。",
-      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
-      "source": "WaytoAGI",
+      "id": "825c7988937b29f2",
+      "title": "GPT-5.6 现在是 Microsoft 365 Copilot 中的首选模型 / GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "source": "Official AI Updates",
       "source_type": "radar",
-      "published_at": "2026-07-11T17:58:59.524998Z",
+      "published_at": "2026-07-09T13:00:00Z",
       "category": "AI Coding",
-      "raw_score": 0.6134,
-      "source_count": 4,
+      "raw_score": 0.8164,
+      "source_count": 1,
       "reasons": [
-        "multi_source"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "importance_label": "多源热议",
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.4896,
-        "source_tier": 0.54,
-        "ai_relevance": 0.68,
-        "recency": 0.7596,
-        "story_heat": 0.75
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.7131,
+        "story_heat": 0.0
       },
       "source_names": [
-        "社区更新 · 2026-07-11"
+        "OpenAI News"
       ],
-      "score": 59,
+      "score": 50,
       "grade": "B"
     },
     {
-      "id": "1f71e7352d35382d",
-      "title": "“反向半人马”是解决人工智能悖论的答案（2025）",
-      "url": "https://pluralistic.net/2025/09/11/vulgar-thatcherism",
-      "source": "Buzzing",
+      "id": "1a948d0b7b99292b",
+      "title": "社交媒体AI生成内容泛滥：LinkedIn超过40%长文为AI写作",
+      "url": "https://www.pangram.com/blog/ai-in-your-feed",
+      "source": "AI HOT",
       "source_type": "radar",
-      "published_at": "2026-07-12T05:03:04.325000Z",
+      "published_at": "2026-07-09T21:46:29.789000Z",
       "category": "其他",
-      "raw_score": 0.5786,
+      "raw_score": 0.8083,
       "source_count": 4,
       "reasons": [
-        "multi_source"
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
       "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9044,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8095,
         "story_heat": 0.75
       },
       "source_names": [
         "Hacker News",
-        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
         "hackernews",
-        "pluralistic.net"
+        "www.pangram.com"
       ],
       "score": 44,
       "grade": "C"
     },
     {
-      "id": "b23ea1350931480b",
-      "title": "Tibo 分享通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法 / If you aren't yet bold enough to install the Codex app， you can stay in the presence of your orange …",
-      "url": "https://x.com/thsottiaux/status/2076119366647894371",
+      "id": "c106a82ffca4c584",
+      "title": "OpenAI 发布 GPT-5.6 公开版及 ChatGPT Work 智能体",
+      "url": "https://the-decoder.com/openai-pairs-its-gpt-5-6-public-rollout-with-chatgpt-work-a-new-agent-that-handles-entire-workflows",
       "source": "AI HOT",
       "source_type": "radar",
-      "published_at": "2026-07-12T01:40:04Z",
-      "category": "AI Coding",
-      "raw_score": 0.7766,
+      "published_at": "2026-07-09T17:59:22Z",
+      "category": "产品",
+      "raw_score": 0.7506,
       "source_count": 2,
       "reasons": [
         "multi_source",
@@ -470,27 +474,56 @@
       ],
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.75,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8613,
+        "recency": 0.7664,
         "story_heat": 0.25
       },
       "source_names": [
-        "Follow Builders · X · Thibault Sottiaux",
-        "X：Tibo (@thsottiaux)"
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
       ],
       "score": 43,
       "grade": "C"
     },
     {
-      "id": "fee2cfe811ebc54e",
-      "title": "OpenAI 发布 GPT-5.6 系列医疗评估结果 / \"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\"",
-      "url": "https://x.com/sama/status/2075985056846451123",
+      "id": "e578e4d7275e3630",
+      "title": "Claude 推出反思功能（Beta）",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
       "source": "AI HOT",
       "source_type": "radar",
-      "published_at": "2026-07-11T16:46:22Z",
-      "category": "产品",
+      "published_at": "2026-07-09T13:40:30.163000Z",
+      "category": "其他",
+      "raw_score": 0.7452,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7201,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "Anthropic：Newsroom（网页）",
+        "Hacker News · 24h最热"
+      ],
+      "score": 43,
+      "grade": "C"
+    },
+    {
+      "id": "5696582536c9a97d",
+      "title": "Claude Code v2.1.206 发布",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-10T01:45:26Z",
+      "category": "AI Coding",
       "raw_score": 0.7369,
       "source_count": 2,
       "reasons": [
@@ -499,477 +532,443 @@
       ],
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.68,
+        "editorial": 0.62,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7575,
+        "recency": 0.8574,
         "story_heat": 0.25
       },
       "source_names": [
-        "Follow Builders · X · Sam Altman",
-        "X：Sam Altman (@sama)"
+        "Claude Code Releases",
+        "Claude Code：GitHub Releases（RSS）"
       ],
       "score": 43,
       "grade": "C"
     },
     {
-      "id": "0698c672baa80652",
-      "title": "[AI Agent 智能体] 对于传统前后端开发，大家觉得哪款 ai agent 比较顺手？",
-      "url": "https://www.v2ex.com/t/1226732",
-      "source": "Info Flow",
+      "id": "d371e5f994a49367",
+      "title": "GitHub Mobile：改进了 Copilot 会话的过滤器和排序 / GitHub Mobile: Improved filters and sorting for Copilot sessions",
+      "url": "https://github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions",
+      "source": "Official AI Updates",
       "source_type": "radar",
-      "published_at": "2026-07-12T09:33:59Z",
-      "category": "Agent",
-      "raw_score": 0.5396,
-      "source_count": 2,
-      "reasons": [
-        "multi_source"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9653,
-        "story_heat": 0.25
-      },
-      "source_names": [
-        "V2EX (创意工作者社区)"
-      ],
-      "score": 43,
-      "grade": "C"
-    },
-    {
-      "id": "142bd8c8f989fcc0",
-      "title": "Mesh LLM：在 iroh 上进行分布式人工智能计算",
-      "url": "https://www.iroh.computer/blog/mesh-llm",
-      "source": "AI HOT",
-      "source_type": "radar",
-      "published_at": "2026-07-12T02:23:05.249000Z",
-      "category": "其他",
-      "raw_score": 0.8092,
-      "source_count": 3,
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8702,
-        "story_heat": 0.5
-      },
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews"
-      ],
-      "score": 36,
-      "grade": "C"
-    },
-    {
-      "id": "759ca8d2c1e4a3b4",
-      "title": "Show HN: Sqlsure——针对AI生成的SQL的确定性语义检查 / Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL",
-      "url": "https://news.ycombinator.com/item?id=48875342",
-      "source": "NewsNow",
-      "source_type": "radar",
-      "published_at": "2026-07-12T00:41:44.375000Z",
-      "category": "其他",
-      "raw_score": 0.5437,
-      "source_count": 3,
-      "reasons": [
-        "multi_source"
-      ],
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8493,
-        "story_heat": 0.5
-      },
-      "source_names": [
-        "Hacker News · 24h最热",
-        "github.com",
-        "hackernews"
-      ],
-      "score": 36,
-      "grade": "C"
-    },
-    {
-      "id": "f69ab4393cee4b19",
-      "title": "别再让我去问LLM了",
-      "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm",
-      "source": "Buzzing",
-      "source_type": "radar",
-      "published_at": "2026-07-11T23:59:09.075000Z",
-      "category": "其他",
-      "raw_score": 0.5421,
-      "source_count": 3,
-      "reasons": [
-        "multi_source"
-      ],
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8406,
-        "story_heat": 0.5
-      },
-      "source_names": [
-        "Hacker News · 24h最热",
-        "blog.yaelwrites.com",
-        "hackernews"
-      ],
-      "score": 36,
-      "grade": "C"
-    },
-    {
-      "id": "502c1cde4f786d47",
-      "title": "OpenAI CEO Altman 改口称 AI 净创造就业，Anthropic CEO 也修正早期言论 / OpenAI CEO Altman is now \"pretty sure\" AI is net job-creating， which is quite the pivot from predicting mass layoffs",
-      "url": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs",
-      "source": "AI HOT",
-      "source_type": "radar",
-      "published_at": "2026-07-12T09:15:49Z",
-      "category": "其他",
-      "raw_score": 0.7826,
-      "source_count": 2,
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9611,
-        "story_heat": 0.25
-      },
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "score": 28,
-      "grade": "C"
-    },
-    {
-      "id": "d4e2691c43cb6d45",
-      "title": "OpenAI GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想",
-      "url": "https://www.ithome.com/0/975/646.htm",
-      "source": "AI HOT",
-      "source_type": "radar",
-      "published_at": "2026-07-12T00:44:43Z",
-      "category": "其他",
-      "raw_score": 0.7746,
-      "source_count": 2,
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8499,
-        "story_heat": 0.25
-      },
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "score": 28,
-      "grade": "C"
-    },
-    {
-      "id": "7c2a409f41adbc20",
-      "title": "xAI Grok Build CLI 网络流量分析：上传仓库全部文件及 git 历史",
-      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
-      "source": "AI HOT",
-      "source_type": "radar",
-      "published_at": "2026-07-12T03:59:09.632000Z",
-      "category": "其他",
-      "raw_score": 0.7789,
-      "source_count": 2,
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8906,
-        "story_heat": 0.25
-      },
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "score": 28,
-      "grade": "C"
-    },
-    {
-      "id": "70d643a1df9f8ad3",
-      "title": "苹果起诉OpenAI挖角窃密，分析师称即使指控未证实也可能重创其硬件计划",
-      "url": "https://www.ithome.com/0/975/666.htm",
-      "source": "AI HOT",
-      "source_type": "radar",
-      "published_at": "2026-07-12T02:37:22Z",
-      "category": "其他",
-      "raw_score": 0.7638,
-      "source_count": 2,
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8732,
-        "story_heat": 0.25
-      },
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "score": 28,
-      "grade": "C"
-    },
-    {
-      "id": "63f189843096536e",
-      "title": "Ghost Font：一种人类能读懂但AI无法识别的反AI字体",
-      "url": "https://www.mixfont.com/ghost-font",
-      "source": "AI HOT",
-      "source_type": "radar",
-      "published_at": "2026-07-11T16:31:09.615000Z",
-      "category": "其他",
-      "raw_score": 0.7574,
-      "source_count": 2,
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7547,
-        "story_heat": 0.25
-      },
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "www.mixfont.com"
-      ],
-      "score": 28,
-      "grade": "C"
-    },
-    {
-      "id": "c8d003291ed2c819",
-      "title": "彭博社揭秘苹果起诉 OpenAI 内幕：前员工一句\"哈哈\"成窃密关键",
-      "url": "https://www.ithome.com/0/975/634.htm",
-      "source": "AI HOT",
-      "source_type": "radar",
-      "published_at": "2026-07-11T23:21:57Z",
-      "category": "其他",
-      "raw_score": 0.7566,
-      "source_count": 2,
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8331,
-        "story_heat": 0.25
-      },
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "score": 28,
-      "grade": "C"
-    },
-    {
-      "id": "d4437f1b0340f0dc",
-      "title": "AI热潮太费电，燃气轮机价格3年涨了300%",
-      "url": "https://36kr.com/newsflashes/3892556678543880?f=rss",
-      "source": "Info Flow",
-      "source_type": "radar",
-      "published_at": "2026-07-12T11:37:33Z",
-      "category": "其他",
-      "raw_score": 0.5448,
-      "source_count": 2,
-      "reasons": [
-        "multi_source"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9945,
-        "story_heat": 0.25
-      },
-      "source_names": [
-        "36氪 (36Kr)",
-        "Readhub · AI"
-      ],
-      "score": 28,
-      "grade": "C"
-    },
-    {
-      "id": "613899203ba4cb8b",
-      "title": "Nutlope / 标志 / Nutlope /      hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "source": "NewsNow",
-      "source_type": "radar",
-      "published_at": "2026-07-12T11:31:25.750000Z",
-      "category": "其他",
-      "raw_score": 0.5445,
-      "source_count": 2,
-      "reasons": [
-        "multi_source"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.993,
-        "story_heat": 0.25
-      },
-      "source_names": [
-        "GitHub · Trending Today",
-        "github"
-      ],
-      "score": 28,
-      "grade": "C"
-    },
-    {
-      "id": "1bb06c1604b368bd",
-      "title": "我是一名作家，为了加入旧金山的一家人工智能初创公司，我离开了洛杉矶。那感觉就像是踏入了一个全新的世界。",
-      "url": "https://www.businessinsider.com/left-la-san-francisco-ai-startup-job-offer-2026-7",
-      "source": "Buzzing",
-      "source_type": "radar",
-      "published_at": "2026-07-12T11:11:07.762000Z",
-      "category": "其他",
-      "raw_score": 0.5437,
-      "source_count": 2,
-      "reasons": [
-        "multi_source"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9882,
-        "story_heat": 0.25
-      },
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "score": 28,
-      "grade": "C"
-    },
-    {
-      "id": "a3f2da53f6101086",
-      "title": "全网骂Claude变笨，Anthropic下场揭秘：坑你的不是模型",
-      "url": "https://www.36kr.com/p/3892222176574211",
-      "source": "TopHub",
-      "source_type": "radar",
-      "published_at": "2026-07-12T10:55:45.275745Z",
-      "category": "其他",
-      "raw_score": 0.543,
-      "source_count": 2,
-      "reasons": [
-        "multi_source"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9845,
-        "story_heat": 0.25
-      },
-      "source_names": [
-        "36氪 (36Kr)",
-        "36氪 · 24小时热榜"
-      ],
-      "score": 28,
-      "grade": "C"
-    },
-    {
-      "id": "ac3c6ee40d08d7dd",
-      "title": "何夕2077 AI 深度信号周报 (2026年 W28) | GPT-5.6 开启自我演化与智能主权博弈",
-      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-07-12-hexi-2077-ai-weekly-2026-w28",
-      "source": "AI HubToday",
-      "source_type": "radar",
-      "published_at": "2026-07-12T03:09:47Z",
-      "category": "其他",
-      "raw_score": 0.746,
+      "published_at": "2026-07-10T09:45:30Z",
+      "category": "AI Coding",
+      "raw_score": 0.8452,
       "source_count": 1,
       "reasons": [
-        "high_ai_relevance"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9624,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 35,
+      "grade": "C"
+    },
+    {
+      "id": "fca36179a973afb3",
+      "title": "德国电信如何利用人工智能重新布线电信 / How Deutsche Telekom is rewiring telecommunications with AI",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-10T07:00:00Z",
+      "category": "其他",
+      "raw_score": 0.8385,
+      "source_count": 1,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9248,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "OpenAI News"
+      ],
+      "score": 35,
+      "grade": "C"
+    },
+    {
+      "id": "4f84ce4fe1846bc3",
+      "title": "OpenAI 的 GPT-5.6 Sol、Terra 和 Luna 现已在 GitHub Copilot 中提供 / OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T16:41:29Z",
+      "category": "AI Coding",
+      "raw_score": 0.8234,
+      "source_count": 1,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.7522,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 35,
+      "grade": "C"
+    },
+    {
+      "id": "45d3ebea256a5775",
+      "title": "AI日报：GPT5.6系列模型发布 Codex消失;腾讯拟接盘Manus成最大股东；MiniMax创始人宣布零薪酬直至实现AGI",
+      "url": "https://www.aibase.com/news/29529",
+      "source": "AIbase",
+      "source_type": "radar",
+      "published_at": "2026-07-10T09:35:00.128733Z",
+      "category": "AI Coding",
+      "raw_score": 0.7604,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
       ],
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8801,
+        "recency": 0.96,
         "story_heat": 0.0
       },
       "source_names": [
-        "Daily Digest"
+        "AIbase"
       ],
-      "score": 20,
+      "score": 35,
       "grade": "C"
     },
     {
-      "id": "fa3170fee44a1a83",
-      "title": "研究：博科圣地已使用ChatGPT、Claude等主流AI聊天机器人用于袭击策划与武器开发 / Terrorist groups are using every major AI chatbot for attack planning and weapons development",
-      "url": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development",
+      "id": "3d683e10bc01b391",
+      "title": "小红书发布大模型新架构 PIPO",
+      "url": "https://mp.weixin.qq.com/s/1eo7rrCAH-OA0TnXwwqJEg",
       "source": "AI HOT",
       "source_type": "radar",
-      "published_at": "2026-07-11T17:04:28Z",
-      "category": "其他",
-      "raw_score": 0.7275,
+      "published_at": "2026-07-10T09:59:00Z",
+      "category": "产品",
+      "raw_score": 0.7554,
       "source_count": 1,
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9655,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "公众号：小红书技术（dots.llm）"
+      ],
+      "score": 35,
+      "grade": "C"
+    },
+    {
+      "id": "222c8f7776f8a35d",
+      "title": "向 Copilot 询问存储库概述 / Ask Copilot for a repository overview",
+      "url": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-09T14:25:33Z",
+      "category": "AI Coding",
+      "raw_score": 0.803,
+      "source_count": 1,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.728,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 35,
+      "grade": "C"
+    },
+    {
+      "id": "533c304732371d15",
+      "title": "扎克伯格首度回应 Meta\"算力过剩\"：没人会嫌算力太多，但租出去更赚钱",
+      "url": "https://www.ithome.com/0/975/078.htm",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-10T07:26:10Z",
+      "category": "其他",
+      "raw_score": 0.7891,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9307,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "IT之家 (ITHome)",
+        "IT之家（RSS）"
+      ],
+      "score": 28,
+      "grade": "C"
+    },
+    {
+      "id": "a18e1f67b8a237f3",
+      "title": "Elon Musk称赞Anthropic并承诺不切断其算力",
+      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:57:42Z",
+      "category": "其他",
+      "raw_score": 0.7617,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7608,
+        "recency": 0.8117,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "score": 28,
+      "grade": "C"
+    },
+    {
+      "id": "d5721ad02a535408",
+      "title": "AI 能否回答 3 万亿美元的问题？",
+      "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T21:47:50Z",
+      "category": "其他",
+      "raw_score": 0.7614,
+      "source_count": 2,
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8097,
+        "story_heat": 0.25
+      },
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "score": 28,
+      "grade": "C"
+    },
+    {
+      "id": "e3d38db1f5b7d864",
+      "title": "PyTorch 中的分析（第 3 部分）：注意力就是您的分析 / Profiling in PyTorch (Part 3): Attention is all you profile",
+      "url": "https://huggingface.co/blog/torch-attention-profile",
+      "source": "Official AI Updates",
+      "source_type": "radar",
+      "published_at": "2026-07-10T00:00:00Z",
+      "category": "其他",
+      "raw_score": 0.8305,
+      "source_count": 1,
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8359,
         "story_heat": 0.0
       },
       "source_names": [
-        "The Decoder：AI News（RSS）"
+        "Hugging Face Blog"
+      ],
+      "score": 20,
+      "grade": "C"
+    },
+    {
+      "id": "6d45b7e580a1e892",
+      "title": "马斯克承认Anthropic是当前AI领导者",
+      "url": "https://x.com/rohanpaul_ai/status/2075480331600417141",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-10T07:20:46Z",
+      "category": "其他",
+      "raw_score": 0.7639,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9294,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "score": 20,
+      "grade": "C"
+    },
+    {
+      "id": "e3d9e65ad6f994a4",
+      "title": "Elon Musk 转发用户称赞 Grok Build 的反馈",
+      "url": "https://x.com/elonmusk/status/2075478792273842370",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-10T07:14:39Z",
+      "category": "其他",
+      "raw_score": 0.7427,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.68,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9281,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "X：Elon Musk (@elonmusk, xAI)"
+      ],
+      "score": 20,
+      "grade": "C"
+    },
+    {
+      "id": "99ffdba55ca6075f",
+      "title": "Google Research 推出 SensorFM：面向可穿戴健康数据的通用基础模型",
+      "url": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-10T00:20:20.110000Z",
+      "category": "其他",
+      "raw_score": 0.7328,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.84,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "Google Research：Blog（网页）"
+      ],
+      "score": 20,
+      "grade": "C"
+    },
+    {
+      "id": "8416a42e6dd002af",
+      "title": "OpenAI推出ChatGPT Work智能体",
+      "url": "https://x.com/OpenAI/status/2075274271845404744",
+      "source": "AI HOT",
+      "source_type": "radar",
+      "published_at": "2026-07-09T17:41:57Z",
+      "category": "其他",
+      "raw_score": 0.731,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7632,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "X：OpenAI (@OpenAI)"
+      ],
+      "score": 20,
+      "grade": "C"
+    },
+    {
+      "id": "0a8afd18737706fd",
+      "title": "Kimi联合美国运通与农业银行正式发行首张AI原生信用卡",
+      "url": "https://www.aibase.com/news/29526",
+      "source": "AIbase",
+      "source_type": "radar",
+      "published_at": "2026-07-10T09:35:00.128733Z",
+      "category": "其他",
+      "raw_score": 0.7604,
+      "source_count": 1,
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.96,
+        "story_heat": 0.0
+      },
+      "source_names": [
+        "AIbase"
       ],
       "score": 20,
       "grade": "C"
