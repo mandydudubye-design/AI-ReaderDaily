@@ -185,16 +185,24 @@ PREFERRED_CATEGORIES = [
 
 def categorize(title: str, summary: str = "") -> str:
     text = f"{title} {summary}".lower()
-    if any(kw in text for kw in ["claude code", "cursor", "windsurf", "aide", "copilot", "codex"]):
+    # AI Coding/编程工具
+    if any(kw in text for kw in ["claude code", "cursor", "windsurf", "aide", "copilot", "codex", "编程", "代码", "开发者工具", "开发效率"]):
         return "AI Coding"
-    if any(kw in text for kw in ["agent", "workflow", "mcp", "tool use", "function calling"]):
+    # Agent / 智能体
+    if any(kw in text for kw in ["agent", "workflow", "mcp", "tool use", "function calling", "智能体", "工作流", "自动化流程"]):
         return "Agent"
-    if any(kw in text for kw in ["开源", "open source", "本地部署", "ollama", "llama"]):
+    # 开源 / 本地部署
+    if any(kw in text for kw in ["开源", "open source", "本地部署", "ollama", "llama", "开源模型"]):
         return "开源"
-    if any(kw in text for kw in ["release", "发布", "launch", "上线", "new model"]):
+    # 产品发布
+    if any(kw in text for kw in ["release", "发布", "launch", "上线", "new model", "新模型", "推出", "正式发布"]):
         return "产品"
-    if any(kw in text for kw in ["融资", "funding", "投资", "收购", "估值"]):
+    # 商业/融资
+    if any(kw in text for kw in ["融资", "funding", "投资", "收购", "估值", "营收", "利润", "商业化"]):
         return "商业"
+    # 多模态
+    if any(kw in text for kw in ["多模态", "multimodal", "视频生成", "图像", "vision", "扩散模型", "sora", "文生图"]):
+        return "多模态"
     return "其他"
 
 
@@ -383,6 +391,23 @@ def main():
     write_json(DATA / f"snapshot-{ts}.json", payload)
     write_json(DATA / "latest-snapshot.json", payload)
     print(f"[radar] 数据已写入 data/ 目录")
+
+    # === 趋势数据（追加 trend.json，最多保留 48 小时）===
+    trend_path = DATA / "trend.json"
+    trend_entry = {
+        "ts": now.strftime("%Y-%m-%d %H:%M UTC"),
+        "total": len(diverse_items),
+        "s": len(s_items),
+        "a": len(a_items),
+        "b": sum(1 for i in diverse_items if i.get("grade") == "B"),
+        "c": sum(1 for i in diverse_items if i.get("grade") == "C"),
+    }
+    history = read_json(trend_path, [])
+    history.append(trend_entry)
+    # 保留最多 48 条（48 小时）
+    history = history[-48:]
+    write_json(trend_path, history)
+    print(f"[radar] 趋势数据已追加到 trend.json（共 {len(history)} 条）")
 
     # === 推送 ===
     whitelist_updates = [i for i in unique_items if i.get("grade") == "S"][:5] if s_items else None

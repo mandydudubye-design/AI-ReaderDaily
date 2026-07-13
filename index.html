@@ -9,9 +9,11 @@
   --bg: #0f1117;
   --bg2: #161822;
   --bg3: #1c1f2e;
+  --bg4: #232742;
   --border: #2a2d3e;
   --text: #e1e4ed;
   --text2: #9ca3b4;
+  --text3: #6b7280;
   --accent: #6366f1;
   --accent2: #818cf8;
   --red: #ef4444;
@@ -19,6 +21,7 @@
   --green: #22c55e;
   --blue: #3b82f6;
   --purple: #a855f7;
+  --teal: #14b8a6;
   --radius: 8px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -34,60 +37,101 @@ a:hover { text-decoration: underline; }
 .header .meta { font-size: 13px; color: var(--text2); }
 
 /* Stats bar */
-.stats { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
-.stat-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 16px; min-width: 80px; text-align: center; }
-.stat-card .num { font-size: 22px; font-weight: 700; }
+.stats { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+.stat-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 14px; min-width: 70px; text-align: center; cursor: pointer; transition: border-color 0.15s; }
+.stat-card:hover { border-color: var(--accent); }
+.stat-card .num { font-size: 20px; font-weight: 700; }
 .stat-card .label { font-size: 11px; color: var(--text2); text-transform: uppercase; letter-spacing: 0.5px; }
 .stat-card.s .num { color: var(--red); }
 .stat-card.a .num { color: var(--orange); }
 .stat-card.b .num { color: var(--blue); }
 .stat-card.c .num { color: var(--text2); }
 
+/* Chart area */
+.chart-area { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+.chart-box { flex: 1; min-width: 280px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; }
+.chart-box h3 { font-size: 13px; color: var(--text2); margin-bottom: 8px; font-weight: 500; }
+.chart-box .chart-inner { display: flex; align-items: flex-end; gap: 6px; height: 80px; }
+.chart-bar { flex: 1; border-radius: 4px 4px 0 0; min-height: 4px; transition: height 0.4s; position: relative; }
+.chart-bar .val { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); font-size: 12px; font-weight: 600; color: var(--text); }
+.chart-bar .lbl { position: absolute; bottom: -18px; left: 50%; transform: translateX(-50%); font-size: 10px; color: var(--text3); white-space: nowrap; }
+.chart-bar.grade-s { background: var(--red); }
+.chart-bar.grade-a { background: var(--orange); }
+.chart-bar.grade-b { background: var(--blue); }
+.chart-bar.grade-c { background: var(--text2); }
+
+/* Stats breakdown grid */
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; margin-bottom: 16px; }
+.stat-cell { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px; text-align: center; }
+.stat-cell .label { font-size: 11px; color: var(--text2); }
+.stat-cell .num { font-size: 16px; font-weight: 600; margin-top: 2px; }
+.stat-cell .num.s { color: var(--red); }
+.stat-cell .num.a { color: var(--orange); }
+.stat-cell .num.b { color: var(--blue); }
+.stat-cell .num.c { color: var(--text2); }
+
 /* Controls */
-.controls { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
-.search-box { flex: 1; min-width: 200px; padding: 8px 12px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-size: 14px; outline: none; }
+.controls { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center; }
+.search-box { flex: 1; min-width: 180px; padding: 8px 12px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-size: 14px; outline: none; }
 .search-box:focus { border-color: var(--accent); }
 .search-box::placeholder { color: var(--text2); }
-.filter-group { display: flex; gap: 4px; }
-.filter-btn { padding: 6px 12px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text2); font-size: 13px; cursor: pointer; transition: all 0.15s; }
+.filter-group { display: flex; gap: 4px; flex-wrap: wrap; }
+.filter-btn { padding: 6px 12px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text2); font-size: 12px; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
 .filter-btn:hover { border-color: var(--accent); color: var(--text); }
 .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
-.sort-select { padding: 6px 10px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-size: 13px; cursor: pointer; }
+.filter-btn.active-filter { background: rgba(99,102,241,0.15); border-color: var(--accent); color: var(--accent2); }
+.sort-select { padding: 6px 10px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-size: 12px; cursor: pointer; }
+.filter-label { font-size: 11px; color: var(--text3); margin-right: 2px; }
+
+/* Collapse / Expand */
+.collapse-bar { display: flex; justify-content: center; padding: 8px; cursor: pointer; color: var(--accent2); font-size: 13px; border-top: 1px solid var(--border); margin-top: -1px; transition: background 0.15s; border-radius: 0 0 var(--radius) var(--radius); }
+.collapse-bar:hover { background: var(--bg3); }
 
 /* Item list */
 .item-list { display: flex; flex-direction: column; gap: 8px; }
-.item-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; transition: border-color 0.15s; }
+.item-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 14px; transition: border-color 0.15s; }
 .item-card:hover { border-color: var(--accent); }
-.item-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px; }
-.item-title { font-size: 15px; font-weight: 600; color: var(--text); flex: 1; }
+.item-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 4px; }
+.item-title { font-size: 14px; font-weight: 600; color: var(--text); flex: 1; line-height: 1.5; }
 .item-title a { color: inherit; }
 .item-title a:hover { color: var(--accent2); }
-.grade-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 700; letter-spacing: 0.5px; flex-shrink: 0; }
+.item-badges { display: flex; gap: 4px; flex-shrink: 0; align-items: center; flex-wrap: wrap; }
+.grade-badge { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; }
 .grade-S { background: rgba(239,68,68,0.15); color: var(--red); border: 1px solid rgba(239,68,68,0.3); }
 .grade-A { background: rgba(245,158,11,0.15); color: var(--orange); border: 1px solid rgba(245,158,11,0.3); }
 .grade-B { background: rgba(59,130,246,0.15); color: var(--blue); border: 1px solid rgba(59,130,246,0.3); }
 .grade-C { background: rgba(156,163,180,0.15); color: var(--text2); border: 1px solid rgba(156,163,180,0.2); }
-.score-pill { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; background: var(--bg3); color: var(--text); flex-shrink: 0; }
-.item-meta { display: flex; gap: 12px; font-size: 12px; color: var(--text2); flex-wrap: wrap; align-items: center; }
-.item-meta .source-tag { background: var(--bg3); padding: 1px 6px; border-radius: 3px; }
-.item-meta .cat-tag { padding: 1px 6px; border-radius: 3px; }
+.source-badge { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+.source-badge.type-radar { background: rgba(168,85,247,0.15); color: var(--purple); border: 1px solid rgba(168,85,247,0.2); }
+.source-badge.type-rss { background: rgba(59,130,246,0.15); color: var(--blue); border: 1px solid rgba(59,130,246,0.2); }
+.source-badge.type-scrape { background: rgba(20,184,166,0.15); color: var(--teal); border: 1px solid rgba(20,184,166,0.2); }
+.score-pill { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 600; background: var(--bg3); color: var(--text); }
+.item-meta { display: flex; gap: 8px; font-size: 12px; color: var(--text2); flex-wrap: wrap; align-items: center; margin-top: 2px; }
+.item-meta .meta-tag { padding: 1px 6px; border-radius: 3px; font-size: 11px; }
+.item-meta .cat-tag { background: var(--bg3); }
 .cat-AI-Coding { background: rgba(99,102,241,0.15); color: var(--accent2); }
 .cat-Agent { background: rgba(168,85,247,0.15); color: var(--purple); }
 .cat-开源 { background: rgba(34,197,94,0.15); color: var(--green); }
 .cat-产品 { background: rgba(59,130,246,0.15); color: var(--blue); }
 .cat-商业 { background: rgba(245,158,11,0.15); color: var(--orange); }
-.cat-其他 { background: rgba(156,163,180,0.15); color: var(--text2); }
-.item-reasons { font-size: 12px; color: var(--text2); margin-top: 4px; }
+.cat-多模态 { background: rgba(20,184,166,0.15); color: var(--teal); }
+.cat-其他 { background: rgba(107,114,128,0.15); color: var(--text3); }
+.item-reasons { font-size: 12px; color: var(--text2); margin-top: 4px; padding: 4px 8px; background: var(--bg3); border-radius: 4px; }
 
 /* Source health */
-.source-health { margin-top: 20px; padding: 16px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); }
-.source-health h3 { font-size: 14px; margin-bottom: 10px; color: var(--text2); }
-.health-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
-.health-item { font-size: 13px; display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid var(--border); }
+.source-health { margin-top: 16px; padding: 14px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); }
+.source-health h3 { font-size: 14px; margin-bottom: 8px; color: var(--text2); display: flex; justify-content: space-between; cursor: pointer; }
+.source-health h3 .toggle { font-size: 12px; color: var(--accent2); }
+.health-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 6px; overflow: hidden; transition: max-height 0.3s; }
+.health-grid.collapsed { max-height: 0; }
+.health-item { font-size: 12px; display: flex; justify-content: space-between; padding: 3px 0; border-bottom: 1px solid var(--border); }
 .health-item .name { color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 140px; }
-.health-item .count { color: var(--accent2); font-weight: 600; }
+.health-item .count { color: var(--accent2); font-weight: 600; font-size: 11px; }
 
-/* No items */
+/* Result count */
+.result-count { font-size: 13px; color: var(--text2); margin-bottom: 8px; }
+
+/* Empty */
 .empty-msg { text-align: center; padding: 40px; color: var(--text2); font-size: 15px; }
 
 /* Footer */
@@ -96,11 +140,12 @@ a:hover { text-decoration: underline; }
 /* Responsive */
 @media (max-width: 640px) {
   .header h1 { font-size: 17px; }
-  .stats { gap: 8px; }
-  .stat-card { min-width: 60px; padding: 8px 10px; }
-  .stat-card .num { font-size: 18px; }
-  .controls { flex-direction: column; }
-  .search-box { min-width: 100%; }
+  .stats { gap: 6px; }
+  .stat-card { min-width: 55px; padding: 8px; }
+  .stat-card .num { font-size: 16px; }
+  .controls { flex-direction: column; align-items: stretch; }
+  .filter-group { justify-content: center; }
+  .chart-box { min-width: 100%; }
 }
 </style>
 </head>
@@ -111,36 +156,73 @@ a:hover { text-decoration: underline; }
     <div class="meta" id="updateTime">加载中...</div>
   </div>
 
+  <!-- Stats bar -->
   <div class="stats" id="statsBar"></div>
 
+  <!-- Chart: Grade Distribution + Source Breakdown -->
+  <div class="chart-area">
+    <div class="chart-box">
+      <h3>📊 等级分布</h3>
+      <div class="chart-inner" id="gradeChart"></div>
+    </div>
+    <div class="chart-box">
+      <h3>📡 来源分布</h3>
+      <div class="chart-inner" id="sourceChart"></div>
+    </div>
+  </div>
+
+  <!-- Controls: Search + Filters + Sort -->
   <div class="controls">
     <input class="search-box" type="text" id="searchInput" placeholder="🔍 搜索关键词...">
-    <div class="filter-group" id="gradeFilters">
-      <button class="filter-btn active" data-grade="all">全部</button>
-      <button class="filter-btn" data-grade="S">🔥 S</button>
-      <button class="filter-btn" data-grade="A">📈 A</button>
-      <button class="filter-btn" data-grade="B">📊 B</button>
-      <button class="filter-btn" data-grade="C">📝 C</button>
+    <div>
+      <div class="filter-group" style="margin-bottom:4px">
+        <span class="filter-label">等级:</span>
+        <button class="filter-btn active" data-group="grade" data-val="all">全部</button>
+        <button class="filter-btn" data-group="grade" data-val="S">🔥 S</button>
+        <button class="filter-btn" data-group="grade" data-val="A">📈 A</button>
+        <button class="filter-btn" data-group="grade" data-val="B">📊 B</button>
+        <button class="filter-btn" data-group="grade" data-val="C">📝 C</button>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">分类:</span>
+        <button class="filter-btn active" data-group="cat" data-val="all">全部</button>
+        <button class="filter-btn" data-group="cat" data-val="Agent">Agent</button>
+        <button class="filter-btn" data-group="cat" data-val="AI Coding">Coding</button>
+        <button class="filter-btn" data-group="cat" data-val="开源">开源</button>
+        <button class="filter-btn" data-group="cat" data-val="产品">产品</button>
+        <button class="filter-btn" data-group="cat" data-val="商业">商业</button>
+        <button class="filter-btn" data-group="cat" data-val="多模态">多模态</button>
+        <button class="filter-btn" data-group="cat" data-val="其他">其他</button>
+      </div>
+      <div class="filter-group" style="margin-top:4px">
+        <span class="filter-label">源类型:</span>
+        <button class="filter-btn active" data-group="srctype" data-val="all">全部</button>
+        <button class="filter-btn" data-group="srctype" data-val="radar">📡 聚合</button>
+        <button class="filter-btn" data-group="srctype" data-val="rss">📰 官方</button>
+      </div>
     </div>
     <select class="sort-select" id="sortSelect">
-      <option value="score-desc">按评分 ↓</option>
-      <option value="score-asc">按评分 ↑</option>
+      <option value="score-desc">评分 ↓</option>
+      <option value="score-asc">评分 ↑</option>
       <option value="time-desc">最新优先</option>
       <option value="time-asc">最早优先</option>
       <option value="source">按来源</option>
     </select>
   </div>
 
+  <!-- Result count + collapsible item list -->
+  <div class="result-count" id="resultCount"></div>
   <div class="item-list" id="itemList"></div>
 
+  <!-- Source health (collapsible) -->
   <div class="source-health" id="sourceHealth" style="display:none;">
-    <h3>📊 信源覆盖</h3>
-    <div class="health-grid" id="healthGrid"></div>
+    <h3 onclick="toggleHealth()">📊 信源覆盖 <span class="toggle" id="healthToggle">▼ 展开</span></h3>
+    <div class="health-grid collapsed" id="healthGrid"></div>
   </div>
 
   <div class="footer">
     Powered by <a href="https://github.com/mandydudubye-design/AI-ReaderDaily" target="_blank">Maren AI Radar</a>
-    · 数据来自 <a href="https://github.com/LearnPrompt/ai-news-radar" target="_blank">LearnPrompt AI News Radar</a> + 官方 RSS
+    · 数据来自 <a href="https://github.com/LearnPrompt/ai-news-radar" target="_blank">LearnPrompt AI News Radar</a> + 官方 RSS + 国内信源
     · 每小时自动更新
   </div>
 </div>
@@ -148,7 +230,11 @@ a:hover { text-decoration: underline; }
 <script>
 const SNAPSHOT_URL = 'data/latest-snapshot.json';
 let allItems = [];
-let currentGrade = 'all';
+let allData = {};
+
+// Filter state
+const filters = { grade: 'all', cat: 'all', srctype: 'all' };
+const COLLAPSE_TOP = 15;
 
 const CAT_CLASSES = {
   'AI Coding': 'cat-AI-Coding',
@@ -156,6 +242,7 @@ const CAT_CLASSES = {
   '开源': 'cat-开源',
   '产品': 'cat-产品',
   '商业': 'cat-商业',
+  '多模态': 'cat-多模态',
   '其他': 'cat-其他',
 };
 
@@ -166,11 +253,13 @@ function translateTitle(title) {
     'release': '发布', 'Release': '发布', 'launch': '发布',
     'update': '更新', 'Update': '更新', 'benchmark': '基准测试',
     'open source': '开源', 'Open Source': '开源', 'model': '模型',
-    'code': '代码', 'Code': '代码',
+    'code': '代码', 'Code': '代码', 'blog': '博客',
+    'mcp': 'MCP协议', 'MCP': 'MCP协议',
+    'benchmark': '基准', 'Benchmark': '基准',
   };
   let zh = title;
   for (const [en, cn] of Object.entries(dict).sort((a, b) => b[0].length - a[0].length)) {
-    zh = zh.replace(new RegExp(en, 'g'), cn);
+    zh = zh.replace(new RegExp(en.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), cn);
   }
   return zh;
 }
@@ -180,12 +269,43 @@ function formatTime(isoStr) {
   try {
     const d = new Date(isoStr);
     const now = new Date();
-    const diffH = Math.round((now - d) / 3600000);
-    if (diffH < 1) return '刚刚';
-    if (diffH < 24) return `${diffH}h 前`;
+    const diffMs = now - d;
+    const diffM = Math.round(diffMs / 60000);
+    if (diffM < 1) return '刚刚';
+    if (diffM < 60) return `${diffM}分钟前`;
+    const diffH = Math.round(diffM / 60);
+    if (diffH < 24) return `${diffH}h前`;
     const diffD = Math.round(diffH / 24);
-    return `${diffD}d 前`;
+    return `${diffD}d前`;
   } catch { return ''; }
+}
+
+function renderChart(items) {
+  // Grade distribution bar chart
+  const counts = { S: 0, A: 0, B: 0, C: 0 };
+  items.forEach(it => { const g = it.grade; if (counts[g] !== undefined) counts[g]++; });
+  const maxCount = Math.max(1, ...Object.values(counts));
+  const chartEl = document.getElementById('gradeChart');
+  chartEl.innerHTML = ['S','A','B','C'].map(g => {
+    const h = Math.round((counts[g] / maxCount) * 72);
+    return `<div class="chart-bar grade-${g.toLowerCase()}" style="height:${h}px"><span class="val">${counts[g]}</span><span class="lbl">${g}</span></div>`;
+  }).join('');
+
+  // Source type bar
+  const srcCounts = {};
+  items.forEach(it => {
+    const st = it.source_type || 'other';
+    srcCounts[st] = (srcCounts[st] || 0) + 1;
+  });
+  const srcMax = Math.max(1, ...Object.values(srcCounts));
+  const srcColors = { radar: '#a855f7', rss: '#3b82f6', scrape: '#14b8a6', other: '#6b7280' };
+  const srcLabels = { radar: '聚合', rss: '官方', scrape: '抓取', other: '其他' };
+  const srcEl = document.getElementById('sourceChart');
+  srcEl.innerHTML = Object.entries(srcCounts).map(([type, n]) => {
+    const h = Math.round((n / srcMax) * 72);
+    const color = srcColors[type] || '#6b7280';
+    return `<div class="chart-bar" style="height:${h}px;background:${color}"><span class="val">${n}</span><span class="lbl">${srcLabels[type]||type}</span></div>`;
+  }).join('');
 }
 
 function renderStats(items) {
@@ -194,47 +314,72 @@ function renderStats(items) {
   const sources = new Set(items.map(it => it.source)).size;
   const failed = allData.failed_sources ? allData.failed_sources.length : 0;
   document.getElementById('statsBar').innerHTML = `
-    <div class="stat-card s"><div class="num">${counts.S}</div><div class="label">S 级</div></div>
-    <div class="stat-card a"><div class="num">${counts.A}</div><div class="label">A 级</div></div>
-    <div class="stat-card b"><div class="num">${counts.B}</div><div class="label">B 级</div></div>
-    <div class="stat-card c"><div class="num">${counts.C}</div><div class="label">C 级</div></div>
-    <div class="stat-card"><div class="num">${sources}</div><div class="label">源</div></div>
+    <div class="stat-card s" onclick="setFilter('grade','S')"><div class="num">${counts.S}</div><div class="label">S 爆款</div></div>
+    <div class="stat-card a" onclick="setFilter('grade','A')"><div class="num">${counts.A}</div><div class="label">A 热</div></div>
+    <div class="stat-card b" onclick="setFilter('grade','B')"><div class="num">${counts.B}</div><div class="label">B 关注</div></div>
+    <div class="stat-card c" onclick="setFilter('grade','C')"><div class="num">${counts.C}</div><div class="label">C 一般</div></div>
+    <div class="stat-card"><div class="num">${sources}</div><div class="label">信源</div></div>
     <div class="stat-card"><div class="num">${items.length}</div><div class="label">总计</div></div>
-    ${failed ? `<div class="stat-card"><div class="num" style="color:var(--red)">${failed}</div><div class="label">失败源</div></div>` : ''}
+    ${failed ? `<div class="stat-card"><div class="num" style="color:var(--red)">${failed}</div><div class="label">失败</div></div>` : ''}
   `;
 }
 
 function renderItems(items) {
   const list = document.getElementById('itemList');
+  const countEl = document.getElementById('resultCount');
   if (!items.length) {
+    countEl.textContent = '';
     list.innerHTML = '<div class="empty-msg">暂无匹配的信号</div>';
     return;
   }
-  list.innerHTML = items.map(it => {
+
+  const showAll = list.dataset.showAll === 'true';
+  const display = showAll ? items : items.slice(0, COLLAPSE_TOP);
+  const hiddenCount = items.length - COLLAPSE_TOP;
+
+  countEl.textContent = `共 ${items.length} 条`;
+
+  list.innerHTML = display.map(it => {
     const catCls = CAT_CLASSES[it.category] || 'cat-其他';
     const zhTitle = translateTitle(it.title);
     const timeStr = formatTime(it.published_at);
     const reasonStr = (it.reasons || []).slice(0, 2).join(' · ');
     const sources = (it.source_names || []).slice(0, 3).join(', ');
     const sourceShort = (it.source || '').replace(/^https?:\/\//, '').split('/')[0];
+    const stType = it.source_type || 'rss';
     return `
       <div class="item-card">
         <div class="item-top">
           <div class="item-title"><a href="${it.url || '#'}" target="_blank" rel="noopener">${zhTitle || it.title}</a></div>
-          <span class="grade-badge grade-${it.grade}">${it.grade}</span>
-          <span class="score-pill">${it.score}</span>
+          <div class="item-badges">
+            <span class="grade-badge grade-${it.grade}">${it.grade}</span>
+            <span class="score-pill">${it.score}</span>
+            <span class="source-badge type-${stType}">${stType}</span>
+          </div>
         </div>
         <div class="item-meta">
-          <span class="cat-tag ${catCls}">${it.category}</span>
-          <span class="source-tag">${sourceShort}</span>
-          ${it.source_count > 1 ? `<span>🔗 ${it.source_count} 源</span>` : ''}
-          ${sources ? `<span>📡 ${sources}</span>` : ''}
+          <span class="meta-tag cat-tag ${catCls}">${it.category}</span>
+          <span class="meta-tag">${sourceShort}</span>
+          ${it.source_count > 1 ? `<span class="meta-tag">🔗 ${it.source_count}源</span>` : ''}
+          ${sources ? `<span class="meta-tag">📡 ${sources}</span>` : ''}
           ${timeStr ? `<span>🕐 ${timeStr}</span>` : ''}
           ${it.importance_label ? `<span>⭐ ${it.importance_label}</span>` : ''}
         </div>
         ${reasonStr ? `<div class="item-reasons">💡 ${reasonStr}</div>` : ''}
       </div>`;
   }).join('');
+
+  // Collapse/expand button
+  if (items.length > COLLAPSE_TOP) {
+    const bar = document.createElement('div');
+    bar.className = 'collapse-bar';
+    bar.textContent = showAll ? `▲ 收起，只显示 Top ${COLLAPSE_TOP}` : `▼ 展开全部 ${items.length} 条（+${hiddenCount}）`;
+    bar.onclick = () => {
+      list.dataset.showAll = list.dataset.showAll === 'true' ? '' : 'true';
+      renderItems(items);
+    };
+    list.appendChild(bar);
+  }
 }
 
 function renderSourceHealth(items) {
@@ -249,16 +394,42 @@ function renderSourceHealth(items) {
   const sorted = Object.entries(srcMap).sort((a, b) => b[1].count - a[1].count);
   grid.innerHTML = sorted.map(([name, info]) => {
     const gStr = Object.entries(info.grades).map(([g, n]) => `${g}:${n}`).join(' ');
-    return `<div class="health-item"><span class="name" title="${name}">${name}</span><span class="count">${info.count} 条 ${gStr}</span></div>`;
+    return `<div class="health-item"><span class="name" title="${name}">${name}</span><span class="count">${info.count}条 ${gStr}</span></div>`;
   }).join('');
   document.getElementById('sourceHealth').style.display = sorted.length ? '' : 'none';
 }
 
+function setFilter(group, val) {
+  filters[group] = val;
+  // Update button UI
+  document.querySelectorAll(`.filter-btn[data-group="${group}"]`).forEach(b => {
+    b.classList.toggle('active', b.dataset.val === val);
+  });
+  applyFilters();
+}
+
+function toggleHealth() {
+  const grid = document.getElementById('healthGrid');
+  const toggle = document.getElementById('healthToggle');
+  const isCollapsed = grid.classList.contains('collapsed');
+  grid.classList.toggle('collapsed');
+  toggle.textContent = isCollapsed ? '▲ 收起' : '▼ 展开';
+}
+
 function applyFilters() {
   let items = [...allItems];
+
   // Grade filter
-  if (currentGrade !== 'all') {
-    items = items.filter(it => it.grade === currentGrade);
+  if (filters.grade !== 'all') {
+    items = items.filter(it => it.grade === filters.grade);
+  }
+  // Category filter
+  if (filters.cat !== 'all') {
+    items = items.filter(it => it.category === filters.cat);
+  }
+  // Source type filter
+  if (filters.srctype !== 'all') {
+    items = items.filter(it => it.source_type === filters.srctype);
   }
   // Search
   const q = document.getElementById('searchInput').value.trim().toLowerCase();
@@ -272,18 +443,20 @@ function applyFilters() {
   }
   // Sort
   const sortKey = document.getElementById('sortSelect').value;
-  if (sortKey === 'score-desc') items.sort((a, b) => b.score - a.score);
-  else if (sortKey === 'score-asc') items.sort((a, b) => a.score - b.score);
+  if (sortKey === 'score-desc') items.sort((a, b) => (b.score || 0) - (a.score || 0));
+  else if (sortKey === 'score-asc') items.sort((a, b) => (a.score || 0) - (b.score || 0));
   else if (sortKey === 'time-desc') items.sort((a, b) => (b.published_at || '').localeCompare(a.published_at || ''));
   else if (sortKey === 'time-asc') items.sort((a, b) => (a.published_at || '').localeCompare(b.published_at || ''));
-  else if (sortKey === 'source') items.sort((a, b) => (a.source || '').localeCompare(b.source || '') || b.score - a.score);
+  else if (sortKey === 'source') items.sort((a, b) => (a.source || '').localeCompare(b.source || '') || (b.score || 0) - (a.score || 0));
+
+  // Reset collapse
+  document.getElementById('itemList').dataset.showAll = '';
 
   renderStats(items);
+  renderChart(items);
   renderItems(items);
-  renderSourceHealth(allItems); // Always show all sources
+  renderSourceHealth(allItems);
 }
-
-let allData = {};
 
 async function loadData() {
   try {
@@ -292,7 +465,7 @@ async function loadData() {
     allData = await resp.json();
     allItems = allData.items || [];
     document.getElementById('updateTime').textContent =
-      `更新于 ${allData.run_time || ''} · ${allData.total_items || 0} 条信号`;
+      `更新于 ${allData.run_time || ''} · 总数 ${allData.total_items || 0}`;
     applyFilters();
   } catch (e) {
     document.getElementById('itemList').innerHTML =
@@ -300,21 +473,12 @@ async function loadData() {
   }
 }
 
-// Events
-document.getElementById('gradeFilters').addEventListener('click', e => {
-  const btn = e.target.closest('.filter-btn');
-  if (!btn) return;
-  currentGrade = btn.dataset.grade;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  applyFilters();
-});
+// Search input
 document.getElementById('searchInput').addEventListener('input', applyFilters);
 document.getElementById('sortSelect').addEventListener('change', applyFilters);
 
 // Load
 loadData();
-// Auto-refresh every 5 minutes
 setInterval(loadData, 300000);
 </script>
 </body>
