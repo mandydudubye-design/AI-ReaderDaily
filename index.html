@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maren AI Radar | 24h AI 信号雷达</title>
+<style>
+:root {
+  --bg: #0f1117;
+  --bg2: #161822;
+  --bg3: #1c1f2e;
+  --border: #2a2d3e;
+  --text: #e1e4ed;
+  --text2: #9ca3b4;
+  --accent: #6366f1;
+  --accent2: #818cf8;
+  --red: #ef4444;
+  --orange: #f59e0b;
+  --green: #22c55e;
+  --blue: #3b82f6;
+  --purple: #a855f7;
+  --radius: 8px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+a { color: var(--accent2); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 960px; margin: 0 auto; padding: 16px; }
+
+/* Header */
+.header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0 12px; border-bottom: 1px solid var(--border); margin-bottom: 16px; flex-wrap: wrap; gap: 8px; }
+.header h1 { font-size: 20px; font-weight: 700; }
+.header h1 span { color: var(--accent2); }
+.header .meta { font-size: 13px; color: var(--text2); }
+
+/* Stats bar */
+.stats { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+.stat-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 16px; min-width: 80px; text-align: center; }
+.stat-card .num { font-size: 22px; font-weight: 700; }
+.stat-card .label { font-size: 11px; color: var(--text2); text-transform: uppercase; letter-spacing: 0.5px; }
+.stat-card.s .num { color: var(--red); }
+.stat-card.a .num { color: var(--orange); }
+.stat-card.b .num { color: var(--blue); }
+.stat-card.c .num { color: var(--text2); }
+
+/* Controls */
+.controls { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
+.search-box { flex: 1; min-width: 200px; padding: 8px 12px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-size: 14px; outline: none; }
+.search-box:focus { border-color: var(--accent); }
+.search-box::placeholder { color: var(--text2); }
+.filter-group { display: flex; gap: 4px; }
+.filter-btn { padding: 6px 12px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text2); font-size: 13px; cursor: pointer; transition: all 0.15s; }
+.filter-btn:hover { border-color: var(--accent); color: var(--text); }
+.filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.sort-select { padding: 6px 10px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-size: 13px; cursor: pointer; }
+
+/* Item list */
+.item-list { display: flex; flex-direction: column; gap: 8px; }
+.item-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; transition: border-color 0.15s; }
+.item-card:hover { border-color: var(--accent); }
+.item-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px; }
+.item-title { font-size: 15px; font-weight: 600; color: var(--text); flex: 1; }
+.item-title a { color: inherit; }
+.item-title a:hover { color: var(--accent2); }
+.grade-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 700; letter-spacing: 0.5px; flex-shrink: 0; }
+.grade-S { background: rgba(239,68,68,0.15); color: var(--red); border: 1px solid rgba(239,68,68,0.3); }
+.grade-A { background: rgba(245,158,11,0.15); color: var(--orange); border: 1px solid rgba(245,158,11,0.3); }
+.grade-B { background: rgba(59,130,246,0.15); color: var(--blue); border: 1px solid rgba(59,130,246,0.3); }
+.grade-C { background: rgba(156,163,180,0.15); color: var(--text2); border: 1px solid rgba(156,163,180,0.2); }
+.score-pill { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; background: var(--bg3); color: var(--text); flex-shrink: 0; }
+.item-meta { display: flex; gap: 12px; font-size: 12px; color: var(--text2); flex-wrap: wrap; align-items: center; }
+.item-meta .source-tag { background: var(--bg3); padding: 1px 6px; border-radius: 3px; }
+.item-meta .cat-tag { padding: 1px 6px; border-radius: 3px; }
+.cat-AI-Coding { background: rgba(99,102,241,0.15); color: var(--accent2); }
+.cat-Agent { background: rgba(168,85,247,0.15); color: var(--purple); }
+.cat-开源 { background: rgba(34,197,94,0.15); color: var(--green); }
+.cat-产品 { background: rgba(59,130,246,0.15); color: var(--blue); }
+.cat-商业 { background: rgba(245,158,11,0.15); color: var(--orange); }
+.cat-其他 { background: rgba(156,163,180,0.15); color: var(--text2); }
+.item-reasons { font-size: 12px; color: var(--text2); margin-top: 4px; }
+
+/* Source health */
+.source-health { margin-top: 20px; padding: 16px; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); }
+.source-health h3 { font-size: 14px; margin-bottom: 10px; color: var(--text2); }
+.health-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
+.health-item { font-size: 13px; display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid var(--border); }
+.health-item .name { color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 140px; }
+.health-item .count { color: var(--accent2); font-weight: 600; }
+
+/* No items */
+.empty-msg { text-align: center; padding: 40px; color: var(--text2); font-size: 15px; }
+
+/* Footer */
+.footer { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 12px; color: var(--text2); text-align: center; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .header h1 { font-size: 17px; }
+  .stats { gap: 8px; }
+  .stat-card { min-width: 60px; padding: 8px 10px; }
+  .stat-card .num { font-size: 18px; }
+  .controls { flex-direction: column; }
+  .search-box { min-width: 100%; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>📡 <span>Maren AI</span> Radar</h1>
+    <div class="meta" id="updateTime">加载中...</div>
+  </div>
+
+  <div class="stats" id="statsBar"></div>
+
+  <div class="controls">
+    <input class="search-box" type="text" id="searchInput" placeholder="🔍 搜索关键词...">
+    <div class="filter-group" id="gradeFilters">
+      <button class="filter-btn active" data-grade="all">全部</button>
+      <button class="filter-btn" data-grade="S">🔥 S</button>
+      <button class="filter-btn" data-grade="A">📈 A</button>
+      <button class="filter-btn" data-grade="B">📊 B</button>
+      <button class="filter-btn" data-grade="C">📝 C</button>
+    </div>
+    <select class="sort-select" id="sortSelect">
+      <option value="score-desc">按评分 ↓</option>
+      <option value="score-asc">按评分 ↑</option>
+      <option value="time-desc">最新优先</option>
+      <option value="time-asc">最早优先</option>
+      <option value="source">按来源</option>
+    </select>
+  </div>
+
+  <div class="item-list" id="itemList"></div>
+
+  <div class="source-health" id="sourceHealth" style="display:none;">
+    <h3>📊 信源覆盖</h3>
+    <div class="health-grid" id="healthGrid"></div>
+  </div>
+
+  <div class="footer">
+    Powered by <a href="https://github.com/mandydudubye-design/AI-ReaderDaily" target="_blank">Maren AI Radar</a>
+    · 数据来自 <a href="https://github.com/LearnPrompt/ai-news-radar" target="_blank">LearnPrompt AI News Radar</a> + 官方 RSS
+    · 每小时自动更新
+  </div>
+</div>
+
+<script>
+const SNAPSHOT_URL = 'data/latest-snapshot.json';
+let allItems = [];
+let currentGrade = 'all';
+
+const CAT_CLASSES = {
+  'AI Coding': 'cat-AI-Coding',
+  'Agent': 'cat-Agent',
+  '开源': 'cat-开源',
+  '产品': 'cat-产品',
+  '商业': 'cat-商业',
+  '其他': 'cat-其他',
+};
+
+function translateTitle(title) {
+  if (!title) return '';
+  const dict = {
+    'Agent': '智能体', 'Agents': '智能体', 'agent': '智能体', 'agents': '智能体',
+    'release': '发布', 'Release': '发布', 'launch': '发布',
+    'update': '更新', 'Update': '更新', 'benchmark': '基准测试',
+    'open source': '开源', 'Open Source': '开源', 'model': '模型',
+    'code': '代码', 'Code': '代码',
+  };
+  let zh = title;
+  for (const [en, cn] of Object.entries(dict).sort((a, b) => b[0].length - a[0].length)) {
+    zh = zh.replace(new RegExp(en, 'g'), cn);
+  }
+  return zh;
+}
+
+function formatTime(isoStr) {
+  if (!isoStr) return '';
+  try {
+    const d = new Date(isoStr);
+    const now = new Date();
+    const diffH = Math.round((now - d) / 3600000);
+    if (diffH < 1) return '刚刚';
+    if (diffH < 24) return `${diffH}h 前`;
+    const diffD = Math.round(diffH / 24);
+    return `${diffD}d 前`;
+  } catch { return ''; }
+}
+
+function renderStats(items) {
+  const counts = { S: 0, A: 0, B: 0, C: 0 };
+  items.forEach(it => { const g = it.grade; if (counts[g] !== undefined) counts[g]++; });
+  const sources = new Set(items.map(it => it.source)).size;
+  const failed = allData.failed_sources ? allData.failed_sources.length : 0;
+  document.getElementById('statsBar').innerHTML = `
+    <div class="stat-card s"><div class="num">${counts.S}</div><div class="label">S 级</div></div>
+    <div class="stat-card a"><div class="num">${counts.A}</div><div class="label">A 级</div></div>
+    <div class="stat-card b"><div class="num">${counts.B}</div><div class="label">B 级</div></div>
+    <div class="stat-card c"><div class="num">${counts.C}</div><div class="label">C 级</div></div>
+    <div class="stat-card"><div class="num">${sources}</div><div class="label">源</div></div>
+    <div class="stat-card"><div class="num">${items.length}</div><div class="label">总计</div></div>
+    ${failed ? `<div class="stat-card"><div class="num" style="color:var(--red)">${failed}</div><div class="label">失败源</div></div>` : ''}
+  `;
+}
+
+function renderItems(items) {
+  const list = document.getElementById('itemList');
+  if (!items.length) {
+    list.innerHTML = '<div class="empty-msg">暂无匹配的信号</div>';
+    return;
+  }
+  list.innerHTML = items.map(it => {
+    const catCls = CAT_CLASSES[it.category] || 'cat-其他';
+    const zhTitle = translateTitle(it.title);
+    const timeStr = formatTime(it.published_at);
+    const reasonStr = (it.reasons || []).slice(0, 2).join(' · ');
+    const sources = (it.source_names || []).slice(0, 3).join(', ');
+    const sourceShort = (it.source || '').replace(/^https?:\/\//, '').split('/')[0];
+    return `
+      <div class="item-card">
+        <div class="item-top">
+          <div class="item-title"><a href="${it.url || '#'}" target="_blank" rel="noopener">${zhTitle || it.title}</a></div>
+          <span class="grade-badge grade-${it.grade}">${it.grade}</span>
+          <span class="score-pill">${it.score}</span>
+        </div>
+        <div class="item-meta">
+          <span class="cat-tag ${catCls}">${it.category}</span>
+          <span class="source-tag">${sourceShort}</span>
+          ${it.source_count > 1 ? `<span>🔗 ${it.source_count} 源</span>` : ''}
+          ${sources ? `<span>📡 ${sources}</span>` : ''}
+          ${timeStr ? `<span>🕐 ${timeStr}</span>` : ''}
+          ${it.importance_label ? `<span>⭐ ${it.importance_label}</span>` : ''}
+        </div>
+        ${reasonStr ? `<div class="item-reasons">💡 ${reasonStr}</div>` : ''}
+      </div>`;
+  }).join('');
+}
+
+function renderSourceHealth(items) {
+  const grid = document.getElementById('healthGrid');
+  const srcMap = {};
+  items.forEach(it => {
+    const name = (it.source || '').replace(/^https?:\/\//, '').split('/')[0] || '未知';
+    if (!srcMap[name]) srcMap[name] = { count: 0, grades: {} };
+    srcMap[name].count++;
+    srcMap[name].grades[it.grade] = (srcMap[name].grades[it.grade] || 0) + 1;
+  });
+  const sorted = Object.entries(srcMap).sort((a, b) => b[1].count - a[1].count);
+  grid.innerHTML = sorted.map(([name, info]) => {
+    const gStr = Object.entries(info.grades).map(([g, n]) => `${g}:${n}`).join(' ');
+    return `<div class="health-item"><span class="name" title="${name}">${name}</span><span class="count">${info.count} 条 ${gStr}</span></div>`;
+  }).join('');
+  document.getElementById('sourceHealth').style.display = sorted.length ? '' : 'none';
+}
+
+function applyFilters() {
+  let items = [...allItems];
+  // Grade filter
+  if (currentGrade !== 'all') {
+    items = items.filter(it => it.grade === currentGrade);
+  }
+  // Search
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  if (q) {
+    items = items.filter(it =>
+      (it.title || '').toLowerCase().includes(q) ||
+      (it.category || '').toLowerCase().includes(q) ||
+      (it.source || '').toLowerCase().includes(q) ||
+      (it.importance_label || '').toLowerCase().includes(q)
+    );
+  }
+  // Sort
+  const sortKey = document.getElementById('sortSelect').value;
+  if (sortKey === 'score-desc') items.sort((a, b) => b.score - a.score);
+  else if (sortKey === 'score-asc') items.sort((a, b) => a.score - b.score);
+  else if (sortKey === 'time-desc') items.sort((a, b) => (b.published_at || '').localeCompare(a.published_at || ''));
+  else if (sortKey === 'time-asc') items.sort((a, b) => (a.published_at || '').localeCompare(b.published_at || ''));
+  else if (sortKey === 'source') items.sort((a, b) => (a.source || '').localeCompare(b.source || '') || b.score - a.score);
+
+  renderStats(items);
+  renderItems(items);
+  renderSourceHealth(allItems); // Always show all sources
+}
+
+let allData = {};
+
+async function loadData() {
+  try {
+    const resp = await fetch(SNAPSHOT_URL);
+    if (!resp.ok) throw new Error(resp.status);
+    allData = await resp.json();
+    allItems = allData.items || [];
+    document.getElementById('updateTime').textContent =
+      `更新于 ${allData.run_time || ''} · ${allData.total_items || 0} 条信号`;
+    applyFilters();
+  } catch (e) {
+    document.getElementById('itemList').innerHTML =
+      `<div class="empty-msg">⚠️ 数据加载失败：${e.message}<br>请确认 data/latest-snapshot.json 存在</div>`;
+  }
+}
+
+// Events
+document.getElementById('gradeFilters').addEventListener('click', e => {
+  const btn = e.target.closest('.filter-btn');
+  if (!btn) return;
+  currentGrade = btn.dataset.grade;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  applyFilters();
+});
+document.getElementById('searchInput').addEventListener('input', applyFilters);
+document.getElementById('sortSelect').addEventListener('change', applyFilters);
+
+// Load
+loadData();
+// Auto-refresh every 5 minutes
+setInterval(loadData, 300000);
+</script>
+</body>
+</html>
