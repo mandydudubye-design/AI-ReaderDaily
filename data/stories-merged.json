@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-13T13:25:51.667061Z",
+  "generated_at": "2026-07-13T16:32:08.430577Z",
   "total_stories": 90,
-  "s_stories": 0,
-  "a_stories": 18,
+  "s_stories": 1,
+  "a_stories": 20,
   "stories": [
     {
-      "title": "本周十篇顶尖前沿论文补齐了智能体生产落地全链路技术方案。内容包含无训练连续验证奖励、长记忆架构 HOLA、MoE 模型轻量化压缩、编排框架效率增益、长文本证据复用 ReContext 等创新方案，同时还给出智能体通用故障分类、超大文本检索、RLVR 风格坍缩修复、AI 复现学术论文等落地方法论。全部成果都经过多基准实测，可直接用于推理提速、智能体安全治理、长上下文性能优化，大幅降低生产环境部署成本与风险。",
+      "title": "晨然这篇文章戳破了一个很容易让 AI 视频创业者上头的幻觉：只要生成能力够强、自动化够深，行业就会被重做一遍。他用两年踩坑经历，把 AI 视频从“工具崇拜”拉回到“创意、制作、分发”的完整链路里。如果你也在关注 AI 视频创业，这篇复盘很值得看，它会带你重新判断：机会到底是在工具里，还是在工具之外。",
       "primary_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
       "source_count": 1,
       "source_names": [
@@ -13,50 +13,106 @@
       ],
       "cluster_size": 1,
       "item_count": 1,
-      "earliest_at": "2026-07-12T18:02:51.675834Z",
-      "latest_at": "2026-07-12T18:02:51.675834Z",
+      "earliest_at": "2026-07-13T15:44:54.282825Z",
+      "latest_at": "2026-07-13T15:44:54.282825Z",
+      "importance_score": 87.0,
+      "importance_label": "S"
+    },
+    {
+      "title": "德国AI协会发布开源模型Soofi S，在英语和德语基准测试中领先 / German AI consortium releases Soofi S， an open 30B model that tops benchmarks in both English and German",
+      "primary_url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german",
+      "source_count": 1,
+      "source_names": [
+        "AI HOT"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": "2026-07-13T11:41:01Z",
+      "latest_at": "2026-07-13T11:41:01Z",
+      "importance_score": 78.4,
+      "importance_label": "A"
+    },
+    {
+      "title": "努比亚AI宠物机器人iMoochi定档 7 月 17 日上线，主打情感陪伴与拟生命交互",
+      "primary_url": "https://www.aibase.com/news/29541",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": "2026-07-13T06:18:59.993938Z",
+      "latest_at": "2026-07-13T06:18:59.993938Z",
       "importance_score": 75.0,
       "importance_label": "A"
     },
     {
-      "title": "Mindwalk：在代码库 3D 地图上回放编码代理会话",
-      "primary_url": "https://github.com/cosmtrek/mindwalk",
+      "title": "别人敲钟，我们归零:智谱披露“摸高”计划，押注全自动化智能体生态",
+      "primary_url": "https://www.aibase.com/news/29537",
       "source_count": 1,
       "source_names": [
-        "AI HOT"
+        "AIbase"
       ],
       "cluster_size": 1,
       "item_count": 1,
-      "earliest_at": "2026-07-12T13:51:05.035000Z",
-      "latest_at": "2026-07-12T13:51:05.035000Z",
+      "earliest_at": "2026-07-13T02:47:55.497322Z",
+      "latest_at": "2026-07-13T02:47:55.497322Z",
       "importance_score": 75.0,
       "importance_label": "A"
     },
     {
-      "title": "Tibo 分享通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法 / If you aren't yet bold enough to install the Codex app， you can stay in the presence of your orange …",
-      "primary_url": "https://x.com/thsottiaux/status/2076119366647894371",
+      "title": "Codex CLI 0.144.2 / Codex CLI 0.144.2",
+      "primary_url": "https://developers.openai.com/codex/changelog",
       "source_count": 1,
       "source_names": [
-        "AI HOT"
+        "Official AI Updates"
       ],
       "cluster_size": 1,
       "item_count": 1,
-      "earliest_at": "2026-07-12T01:40:04Z",
-      "latest_at": "2026-07-12T01:40:04Z",
-      "importance_score": 74.4,
+      "earliest_at": "2026-07-13T00:00:00Z",
+      "latest_at": "2026-07-13T00:00:00Z",
+      "importance_score": 75.0,
       "importance_label": "A"
     },
     {
-      "title": "xAI Grok Build CLI 网络流量分析：上传仓库全部文件及 git 历史",
-      "primary_url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "title": "Ploy 将 AI 智能体默认模型从 Claude Opus 4.8 切换至 GPT-5.6 Sol",
+      "primary_url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
       "source_count": 1,
       "source_names": [
         "AI HOT"
       ],
       "cluster_size": 1,
       "item_count": 1,
-      "earliest_at": "2026-07-12T03:59:09.632000Z",
-      "latest_at": "2026-07-12T03:59:09.632000Z",
+      "earliest_at": "2026-07-12T23:41:11.951000Z",
+      "latest_at": "2026-07-12T23:41:11.951000Z",
+      "importance_score": 75.0,
+      "importance_label": "A"
+    },
+    {
+      "title": "腾讯混元发布 HyOCR-1.5：端到端 OCR 大模型全栈开源，推理提速 6.37 倍",
+      "primary_url": "https://mp.weixin.qq.com/s/vKFCa9FfoGBUGK8J1MhFag",
+      "source_count": 1,
+      "source_names": [
+        "AI HOT"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": "2026-07-13T11:12:59Z",
+      "latest_at": "2026-07-13T11:12:59Z",
+      "importance_score": 74.6,
+      "importance_label": "A"
+    },
+    {
+      "title": "xAI 官方 Grok CLI 被曝静默上传整个代码库及用户密钥",
+      "primary_url": "https://mp.weixin.qq.com/s/6c6vGMJAVMbh6UhNVw4dcg",
+      "source_count": 1,
+      "source_names": [
+        "AI HOT"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": "2026-07-13T00:05:00Z",
+      "latest_at": "2026-07-13T00:05:00Z",
       "importance_score": 73.2,
       "importance_label": "A"
     },
@@ -76,6 +132,90 @@
       "importance_label": "A"
     },
     {
+      "title": "Meta 宣布扩建路易斯安那州数据中心至 5GW，总投资超 500 亿美元",
+      "primary_url": "https://www.ithome.com/0/976/149.htm",
+      "source_count": 1,
+      "source_names": [
+        "AI HOT"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": "2026-07-13T09:58:56Z",
+      "latest_at": "2026-07-13T09:58:56Z",
+      "importance_score": 72.6,
+      "importance_label": "A"
+    },
+    {
+      "title": "Seedream 5.0 Pro 测评：图像编辑门槛爆降 / http://x.com/i/article/2076599995600621568",
+      "primary_url": "https://x.com/op7418/status/2076604797202161800",
+      "source_count": 1,
+      "source_names": [
+        "AI HOT"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": "2026-07-13T09:48:59Z",
+      "latest_at": "2026-07-13T09:48:59Z",
+      "importance_score": 72.6,
+      "importance_label": "A"
+    },
+    {
+      "title": "《智能体个人信息保护自律公约》正式发布，腾讯百度等31家企业首批签署",
+      "primary_url": "https://www.aibase.com/news/29552",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": "2026-07-13T09:53:28.295439Z",
+      "latest_at": "2026-07-13T09:53:28.295439Z",
+      "importance_score": 72.0,
+      "importance_label": "A"
+    },
+    {
+      "title": "微软全面引入AI挖掘Windows漏洞，后续安全补丁修复数量将大幅增加",
+      "primary_url": "https://www.aibase.com/news/29553",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": "2026-07-13T09:53:28.295439Z",
+      "latest_at": "2026-07-13T09:53:28.295439Z",
+      "importance_score": 70.8,
+      "importance_label": "A"
+    },
+    {
+      "title": "韩国编制 2027 财年 800 万亿韩元创纪录预算，AI芯片税收成主要财源",
+      "primary_url": "https://www.aibase.com/news/29549",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": "2026-07-13T09:53:28.295439Z",
+      "latest_at": "2026-07-13T09:53:28.295439Z",
+      "importance_score": 70.8,
+      "importance_label": "A"
+    },
+    {
+      "title": "黄仁勋：英伟达季度收入逼近千亿美元，Rubin Ultra 架构未延期",
+      "primary_url": "https://www.ithome.com/0/975/865.htm",
+      "source_count": 1,
+      "source_names": [
+        "AI HOT"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": "2026-07-13T06:18:59.993938Z",
+      "latest_at": "2026-07-13T06:18:59.993938Z",
+      "importance_score": 70.8,
+      "importance_label": "A"
+    },
+    {
       "title": "Codex 移除5小时限制，GPT 5.6 Sol 效率提升",
       "primary_url": "https://x.com/dotey/status/2076372677577576864",
       "source_count": 1,
@@ -86,7 +226,7 @@
       "item_count": 1,
       "earliest_at": "2026-07-12T18:26:38Z",
       "latest_at": "2026-07-12T18:26:38Z",
-      "importance_score": 72.6,
+      "importance_score": 70.8,
       "importance_label": "A"
     },
     {
@@ -100,7 +240,7 @@
       "item_count": 1,
       "earliest_at": "2026-07-12T17:59:57Z",
       "latest_at": "2026-07-12T17:59:57Z",
-      "importance_score": 72.6,
+      "importance_score": 70.8,
       "importance_label": "A"
     },
     {
@@ -114,147 +254,49 @@
       "item_count": 1,
       "earliest_at": "2026-07-12T16:24:32Z",
       "latest_at": "2026-07-12T16:24:32Z",
-      "importance_score": 72.0,
+      "importance_score": 70.2,
       "importance_label": "A"
     },
     {
-      "title": "OpenAI CEO Altman 改口称 AI 净创造就业，Anthropic CEO 也修正早期言论 / OpenAI CEO Altman is now \"pretty sure\" AI is net job-creating， which is quite the pivot from predicting mass layoffs",
-      "primary_url": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs",
+      "title": "旗舰模型需求激增，OpenAI紧急解锁GPT-5.6Sol算力限制",
+      "primary_url": "https://www.aibase.com/news/29548",
       "source_count": 1,
       "source_names": [
-        "AI HOT"
+        "AIbase"
       ],
       "cluster_size": 1,
       "item_count": 1,
-      "earliest_at": "2026-07-12T09:15:49Z",
-      "latest_at": "2026-07-12T09:15:49Z",
-      "importance_score": 69.6,
-      "importance_label": "A"
-    },
-    {
-      "title": "OpenAI GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想",
-      "primary_url": "https://www.ithome.com/0/975/646.htm",
-      "source_count": 1,
-      "source_names": [
-        "AI HOT"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": "2026-07-12T00:44:43Z",
-      "latest_at": "2026-07-12T00:44:43Z",
-      "importance_score": 69.6,
-      "importance_label": "A"
-    },
-    {
-      "title": "苹果起诉OpenAI挖角窃密，分析师称即使指控未证实也可能重创其硬件计划",
-      "primary_url": "https://www.ithome.com/0/975/666.htm",
-      "source_count": 1,
-      "source_names": [
-        "AI HOT"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": "2026-07-12T02:37:22Z",
-      "latest_at": "2026-07-12T02:37:22Z",
-      "importance_score": 68.4,
-      "importance_label": "A"
-    },
-    {
-      "title": "人工智能助推科研职业发展，却抑制了科学发现 / AI boosts research careers but narrow the span of ideas explored: study",
-      "primary_url": "https://news.ycombinator.com/item?id=48881043",
-      "source_count": 1,
-      "source_names": [
-        "NewsNow"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": "2026-07-12T19:24:10.159000Z",
-      "latest_at": "2026-07-12T19:24:10.159000Z",
-      "importance_score": 67.8,
-      "importance_label": "A"
-    },
-    {
-      "title": "纳德拉提出\"反向信息悖论\"：企业使用AI时需保护自身知识 / http://x.com/i/article/2076319195718090753",
-      "primary_url": "https://x.com/satyanadella/status/2076323181154230284",
-      "source_count": 1,
-      "source_names": [
-        "AI HOT"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": "2026-07-12T15:09:57Z",
-      "latest_at": "2026-07-12T15:09:57Z",
+      "earliest_at": "2026-07-13T09:53:28.295439Z",
+      "latest_at": "2026-07-13T09:53:28.295439Z",
       "importance_score": 67.2,
       "importance_label": "A"
     },
     {
-      "title": "Mesh LLM：在 iroh 上进行分布式人工智能计算",
-      "primary_url": "https://www.iroh.computer/blog/mesh-llm",
+      "title": "米哈游AI陪伴软件《BSide: Olivia Lin》开启抢先体验，支持MIDI上传生成音乐视频",
+      "primary_url": "https://www.aibase.com/news/29550",
       "source_count": 1,
       "source_names": [
-        "AI HOT"
+        "AIbase"
       ],
       "cluster_size": 1,
       "item_count": 1,
-      "earliest_at": "2026-07-12T02:23:05.249000Z",
-      "latest_at": "2026-07-12T02:23:05.249000Z",
-      "importance_score": 66.0,
+      "earliest_at": "2026-07-13T09:53:28.295439Z",
+      "latest_at": "2026-07-13T09:53:28.295439Z",
+      "importance_score": 67.2,
       "importance_label": "A"
     },
     {
-      "title": "何夕2077 AI 深度信号周报 (2026年 W28) | GPT-5.6 开启自我演化与智能主权博弈",
-      "primary_url": "https://hex2077.dev/zh-CN/blog/weekly/2026-07-12-hexi-2077-ai-weekly-2026-w28",
-      "source_count": 1,
-      "source_names": [
-        "AI HubToday"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": "2026-07-12T03:09:47Z",
-      "latest_at": "2026-07-12T03:09:47Z",
-      "importance_score": 65.4,
-      "importance_label": "A"
-    },
-    {
-      "title": "Claude Code 在读取提示前发送了 3.3 万个代币；OpenCode 发送了 7 千个",
-      "primary_url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "title": "Zig创始人直言不讳，Anthropic则故弄玄虚",
+      "primary_url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade",
       "source_count": 1,
       "source_names": [
         "Buzzing"
       ],
       "cluster_size": 1,
       "item_count": 1,
-      "earliest_at": "2026-07-12T19:27:07.004000Z",
-      "latest_at": "2026-07-12T19:27:07.004000Z",
-      "importance_score": 64.8,
-      "importance_label": "A"
-    },
-    {
-      "title": "将生产环境中的AI代理迁移至GPT-5.6：速度提升2.2倍，成本降低27%",
-      "primary_url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
-      "source_count": 1,
-      "source_names": [
-        "Buzzing"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": "2026-07-12T23:41:11.951000Z",
-      "latest_at": "2026-07-12T23:41:11.951000Z",
-      "importance_score": 61.2,
-      "importance_label": "A"
-    },
-    {
-      "title": "我喜欢大型语言模型，讨厌炒作",
-      "primary_url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
-      "source_count": 1,
-      "source_names": [
-        "Buzzing"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": "2026-07-12T20:14:25.500000Z",
-      "latest_at": "2026-07-12T20:14:25.500000Z",
-      "importance_score": 60.6,
+      "earliest_at": "2026-07-13T09:41:19.566000Z",
+      "latest_at": "2026-07-13T09:41:19.566000Z",
+      "importance_score": 60.0,
       "importance_label": "A"
     },
     {
@@ -370,39 +412,11 @@
       "importance_label": "B"
     },
     {
-      "title": "国务院发布《扩大消费“十五五”规划》批复：支持家居家电消费智能化升级，发展新一代智能终端",
-      "primary_url": "https://www.ithome.com/0/976/145.htm",
+      "title": "《南海仲裁案裁决新批驳》报告发布，释放哪些信号？",
+      "primary_url": "https://www.zhihu.com/question/2059980453814219344",
       "source_count": 1,
       "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 58.2,
-      "importance_label": "B"
-    },
-    {
-      "title": "游戏工委：2026 全球电竞大会 7 月 31 日上海举办，将发布最新产业报告",
-      "primary_url": "https://www.ithome.com/0/976/100.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 58.2,
-      "importance_label": "B"
-    },
-    {
-      "title": "尚界汽车法务部：MCN 机构小摩互娱旗下多账号发布尚界 Z7 不实内容，已启动法律维权",
-      "primary_url": "https://www.ithome.com/0/976/093.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
+        "知乎热榜"
       ],
       "cluster_size": 1,
       "item_count": 1,
@@ -514,48 +528,6 @@
       "earliest_at": null,
       "latest_at": null,
       "importance_score": 58.2,
-      "importance_label": "B"
-    },
-    {
-      "title": "中信建投：计算机板块半年报预告陆续披露，AI 算力硬件持续高景气",
-      "primary_url": "https://36kr.com/newsflashes/3892794471643912?f=rss",
-      "source_count": 1,
-      "source_names": [
-        "TopHub"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": "2026-07-12T23:54:20.564485Z",
-      "latest_at": "2026-07-12T23:54:20.564485Z",
-      "importance_score": 57.0,
-      "importance_label": "B"
-    },
-    {
-      "title": "萨姆·阿特曼分享了判断ChatGPT 5.6是否已成为全球最佳模型的“最可靠”方法",
-      "primary_url": "https://www.businessinsider.com/elon-musk-sam-altman-rivalry-apple-openai-lawsuit-2026-7",
-      "source_count": 1,
-      "source_names": [
-        "Buzzing"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": "2026-07-12T22:21:04.917000Z",
-      "latest_at": "2026-07-12T22:21:04.917000Z",
-      "importance_score": 57.0,
-      "importance_label": "B"
-    },
-    {
-      "title": "知己知彼：对人工智能辅助软件开发的批判性探讨",
-      "primary_url": "https://medium.com/bits-and-behavior/know-thine-enemy-a-critical-engagement-with-ai-assisted-software-development-e41d9b058ab1",
-      "source_count": 1,
-      "source_names": [
-        "Buzzing"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": "2026-07-12T22:21:04.799000Z",
-      "latest_at": "2026-07-12T22:21:04.799000Z",
-      "importance_score": 57.0,
       "importance_label": "B"
     },
     {
@@ -699,6 +671,20 @@
       "importance_label": "B"
     },
     {
+      "title": "“佩里科岛”以来首个大型抢劫任务更新：《GTA Online》“科兹中心豪劫”游戏更新明起上线",
+      "primary_url": "https://www.ithome.com/0/976/225.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 49.2,
+      "importance_label": "B"
+    },
+    {
       "title": "苹果更新 Vision Pro 空间配件设计指南，向开发者详解 visionOS 27 第三方手柄控制器支持",
       "primary_url": "https://www.ithome.com/0/976/180.htm",
       "source_count": 1,
@@ -713,20 +699,6 @@
       "importance_label": "B"
     },
     {
-      "title": "零跑汽车：D19 的 400 尊享版和 680 三电机性能版 8 月起陆续开启批量交付",
-      "primary_url": "https://www.ithome.com/0/976/172.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 47.4,
-      "importance_label": "B"
-    },
-    {
       "title": "为什么2026年了却感觉电脑CPU性能与三年前对比没有明显进步？",
       "primary_url": "https://daily.zhihu.com/story/9791043",
       "source_count": 1,
@@ -738,48 +710,6 @@
       "earliest_at": null,
       "latest_at": null,
       "importance_score": 47.4,
-      "importance_label": "B"
-    },
-    {
-      "title": "新增点对点自主领航，全新领克 07/08/10 EM-P 获推 LYNK Flyme Auto 2.3.0 升级",
-      "primary_url": "https://www.ithome.com/0/976/169.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 44.4,
-      "importance_label": "B"
-    },
-    {
-      "title": "微软：Windows 团队正全面利用 AI 挖掘漏洞，后续 Patch Tuesday 安全更新将包含更多修复补丁",
-      "primary_url": "https://www.ithome.com/0/976/101.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 44.4,
-      "importance_label": "B"
-    },
-    {
-      "title": "别信天上掉免费皮肤！快手宣布升级暑期未成年人保护治理，配合打击诈骗犯罪抓获 40 人",
-      "primary_url": "https://www.ithome.com/0/976/084.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 44.4,
       "importance_label": "B"
     },
     {
@@ -830,6 +760,34 @@
       "source_count": 1,
       "source_names": [
         "36氪"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 43.2,
+      "importance_label": "B"
+    },
+    {
+      "title": "业内人士称阶跃终端首款智能体手机 STEPX Neo 属自主设计，与魅族“没啥关系”",
+      "primary_url": "https://www.ithome.com/0/976/226.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 43.2,
+      "importance_label": "B"
+    },
+    {
+      "title": "韩国目标年内推出全民免费通用人工智能聊天机器人服务",
+      "primary_url": "https://www.ithome.com/0/976/223.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
       ],
       "cluster_size": 1,
       "item_count": 1,
@@ -911,6 +869,20 @@
     {
       "title": "小米推出“米家智能冲牙器 Pro”：第二代可旋转多效喷嘴、配彩屏支持 App 智连，399 元",
       "primary_url": "https://www.ithome.com/0/976/182.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 43.2,
+      "importance_label": "B"
+    },
+    {
+      "title": "众泰汽车：预计 2026 年上半年归母净利润 7800 万元-1.05 亿元，实现扭亏为盈",
+      "primary_url": "https://www.ithome.com/0/976/181.htm",
       "source_count": 1,
       "source_names": [
         "IT之家"
@@ -1133,11 +1105,11 @@
       "importance_label": "C"
     },
     {
-      "title": "《老友记》中为什么大家都喜欢往莫妮卡那个乱七八糟的家里跑？",
-      "primary_url": "https://daily.zhihu.com/story/9791140",
+      "title": "消息称华为鸿蒙 HarmonyOS 7 消费者 Beta 版预计下个月开启测试",
+      "primary_url": "https://www.ithome.com/0/976/239.htm",
       "source_count": 1,
       "source_names": [
-        "知乎日报"
+        "IT之家"
       ],
       "cluster_size": 1,
       "item_count": 1,
@@ -1147,11 +1119,11 @@
       "importance_label": "C"
     },
     {
-      "title": "间谍一般是怎么暴露的？",
-      "primary_url": "https://daily.zhihu.com/story/9791152",
+      "title": "周星驰导演电影《功夫女足》上映 3 天票房超 5.6 亿，登顶 2026 年暑期档票房榜",
+      "primary_url": "https://www.ithome.com/0/976/238.htm",
       "source_count": 1,
       "source_names": [
-        "知乎日报"
+        "IT之家"
       ],
       "cluster_size": 1,
       "item_count": 1,
@@ -1161,11 +1133,11 @@
       "importance_label": "C"
     },
     {
-      "title": "如何看待本次美国世界杯场馆没有遮雨棚，比赛期间暴雨所有观众和媒体都被惨浇，不装顶棚是因为气候还是成本？",
-      "primary_url": "https://daily.zhihu.com/story/9791148",
+      "title": "今年秋冬超强厄尔尼诺事件有望突破历史极值，将对我国海洋生态造成影响",
+      "primary_url": "https://www.ithome.com/0/976/237.htm",
       "source_count": 1,
       "source_names": [
-        "知乎日报"
+        "IT之家"
       ],
       "cluster_size": 1,
       "item_count": 1,
@@ -1175,11 +1147,11 @@
       "importance_label": "C"
     },
     {
-      "title": "瞎扯 · 如何正确地吐槽",
-      "primary_url": "https://daily.zhihu.com/story/9791154",
+      "title": "浙江一住户为防台风用「米」字胶带加固窗户，却成为全楼唯一一户碎玻璃的，为啥会这样？「米」字封窗有用吗？",
+      "primary_url": "https://www.zhihu.com/question/2060049184527480687",
       "source_count": 1,
       "source_names": [
-        "知乎日报"
+        "知乎热榜"
       ],
       "cluster_size": 1,
       "item_count": 1,
@@ -1189,11 +1161,11 @@
       "importance_label": "C"
     },
     {
-      "title": "为什么香港的冲厕水是咸的？",
-      "primary_url": "https://daily.zhihu.com/story/9791089",
+      "title": "阿根廷向国际足联申请，半决赛想穿客场深蓝色队服，这种配色的球衣什么典故，对球队能有什么影响么？",
+      "primary_url": "https://www.zhihu.com/question/2060002703879533053",
       "source_count": 1,
       "source_names": [
-        "知乎日报"
+        "知乎热榜"
       ],
       "cluster_size": 1,
       "item_count": 1,
@@ -1203,11 +1175,11 @@
       "importance_label": "C"
     },
     {
-      "title": "计算机专业曾经有哪些方向非常火后来却凉了？",
-      "primary_url": "https://daily.zhihu.com/story/9791133",
+      "title": "管泽元 2026 季中赛后发文谈《英雄联盟》双败赛制最大争议「胜者组冠军少一条命」对此你有什么解法吗？",
+      "primary_url": "https://www.zhihu.com/question/2059961230907946867",
       "source_count": 1,
       "source_names": [
-        "知乎日报"
+        "知乎热榜"
       ],
       "cluster_size": 1,
       "item_count": 1,
@@ -1217,11 +1189,11 @@
       "importance_label": "C"
     },
     {
-      "title": "如何评价战国四公子？",
-      "primary_url": "https://daily.zhihu.com/story/9791128",
+      "title": "河北宽城遭遇 6 小时持续暴雨，道路积水超 2 米，多辆汽车被洪水冲走，目前当地情况怎么样？",
+      "primary_url": "https://www.zhihu.com/question/2059956101601129404",
       "source_count": 1,
       "source_names": [
-        "知乎日报"
+        "知乎热榜"
       ],
       "cluster_size": 1,
       "item_count": 1,
@@ -1231,11 +1203,11 @@
       "importance_label": "C"
     },
     {
-      "title": "华盛顿一方面提出人人自由平等和公平正义，一方面又蓄奴200多名黑奴，他是不是一个伪君子？",
-      "primary_url": "https://daily.zhihu.com/story/9791118",
+      "title": "如何看待周星驰新电影《功夫女足》口碑两极分化的现象？无厘头是不是过时了？",
+      "primary_url": "https://www.zhihu.com/question/2059946981699728081",
       "source_count": 1,
       "source_names": [
-        "知乎日报"
+        "知乎热榜"
       ],
       "cluster_size": 1,
       "item_count": 1,
@@ -1245,11 +1217,11 @@
       "importance_label": "C"
     },
     {
-      "title": "历史圈有哪些谣言是现代人编造的，连野史算不上？",
-      "primary_url": "https://daily.zhihu.com/story/9791067",
+      "title": "受「巴威」影响沈阳突降暴雨，全市实行紧急避险措施，你那里情况怎么样？雨大吗？",
+      "primary_url": "https://www.zhihu.com/question/2059917780845946766",
       "source_count": 1,
       "source_names": [
-        "知乎日报"
+        "知乎热榜"
       ],
       "cluster_size": 1,
       "item_count": 1,
@@ -1259,11 +1231,39 @@
       "importance_label": "C"
     },
     {
-      "title": "为何后世文言文和先秦文章总是有些微妙的不同？",
-      "primary_url": "https://daily.zhihu.com/story/9791081",
+      "title": "周星驰电影《功夫女足》次日票房 2.39 亿，首周票房 5 亿，预测将破20亿甚至25亿，希望有多大？",
+      "primary_url": "https://www.zhihu.com/question/2059790933936137165",
       "source_count": 1,
       "source_names": [
-        "知乎日报"
+        "知乎热榜"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C"
+    },
+    {
+      "title": "以业内人视角评价一下《凡人修仙传》 177-182集问题出在哪里？",
+      "primary_url": "https://www.zhihu.com/question/2059735577881269182",
+      "source_count": 1,
+      "source_names": [
+        "知乎热榜"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C"
+    },
+    {
+      "title": "网传大连理工某学院领导连续两年卧底招生群，挑拨南开和天大的关系，真的吗？这种「招生小动作」普遍吗？",
+      "primary_url": "https://www.zhihu.com/question/2059729316993131464",
+      "source_count": 1,
+      "source_names": [
+        "知乎热榜"
       ],
       "cluster_size": 1,
       "item_count": 1,
