@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-14T05:28:44.654756Z",
+  "generated_at": "2026-07-14T08:02:01.302313Z",
   "source_count": 15,
-  "successful_sites": 12,
-  "failed_sites": 3,
-  "zero_item_sites": 10,
-  "total_items": 973,
-  "total_ai_items": 108,
-  "ai_pct_total": 11.1,
+  "successful_sites": 11,
+  "failed_sites": 4,
+  "zero_item_sites": 11,
+  "total_items": 953,
+  "total_ai_items": 100,
+  "ai_pct_total": 10.5,
   "sites": [
     {
       "site_id": "learnprompt_daily_brief",
@@ -16,7 +16,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.26,
+      "fetch_duration_s": 0.67,
       "note": ""
     },
     {
@@ -38,7 +38,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.52,
+      "fetch_duration_s": 3.66,
       "note": ""
     },
     {
@@ -49,7 +49,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.07,
+      "fetch_duration_s": 0.08,
       "note": ""
     },
     {
@@ -60,7 +60,7 @@
       "item_count": 20,
       "ai_count": 2,
       "ai_pct": 10.0,
-      "fetch_duration_s": 0.25,
+      "fetch_duration_s": 0.33,
       "note": ""
     },
     {
@@ -71,7 +71,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.71,
+      "fetch_duration_s": 0.89,
       "note": ""
     },
     {
@@ -82,7 +82,7 @@
       "item_count": 823,
       "ai_count": 74,
       "ai_pct": 9.0,
-      "fetch_duration_s": 0.18,
+      "fetch_duration_s": 0.21,
       "note": ""
     },
     {
@@ -93,7 +93,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.43,
+      "fetch_duration_s": 0.54,
       "note": ""
     },
     {
@@ -104,7 +104,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.17,
+      "fetch_duration_s": 0.13,
       "note": ""
     },
     {
@@ -113,9 +113,9 @@
       "ok": true,
       "enabled": true,
       "item_count": 30,
-      "ai_count": 2,
-      "ai_pct": 6.7,
-      "fetch_duration_s": 1.49,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 1.43,
       "note": "中文综合科技，混有 AI 内容，radar.py 按关键词过滤"
     },
     {
@@ -124,9 +124,9 @@
       "ok": true,
       "enabled": true,
       "item_count": 60,
-      "ai_count": 8,
-      "ai_pct": 13.3,
-      "fetch_duration_s": 3.63,
+      "ai_count": 4,
+      "ai_pct": 6.7,
+      "fetch_duration_s": 2.87,
       "note": "中文科技综合，含 AI 新闻"
     },
     {
@@ -137,7 +137,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 25.11,
+      "fetch_duration_s": 25.32,
       "note": "知乎全站热榜，混合话题，radar.py 按关键词过滤 AI 内容"
     },
     {
@@ -148,18 +148,18 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 25.12,
+      "fetch_duration_s": 25.3,
       "note": "知乎日报精选，混合话题"
     },
     {
       "site_id": "rss_36kr_newsflashes",
       "site_name": "36氪快讯",
-      "ok": true,
+      "ok": false,
       "enabled": true,
-      "item_count": 20,
-      "ai_count": 2,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 0.49,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 25.25,
       "note": "36氪实时快讯，作者按关键词筛选 AI 内容"
     },
     {
@@ -170,7 +170,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 25.07,
+      "fetch_duration_s": 25.18,
       "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
     }
   ]
