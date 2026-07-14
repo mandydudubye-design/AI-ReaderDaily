@@ -33,6 +33,7 @@ from typing import Any
 BASE = Path(__file__).resolve().parents[1]
 DATA = BASE / "data"
 SRC_CFG = BASE / "config" / "sources.json"
+SCORING_CFG = BASE / "config" / "scoring.json"
 
 DATA.mkdir(parents=True, exist_ok=True)
 
@@ -48,7 +49,7 @@ def stable_id(*parts: str) -> str:
 
 def fetch_text(url: str, timeout: int = 15) -> str:
     cmd = [
-        "curl", "-sS", "--noproxy", "*", "-L",
+        "curl", "-sS", "-L",
         "--connect-timeout", str(timeout),
         "--max-time", str(timeout + 10),
         "-A", USER_AGENT,
@@ -181,36 +182,42 @@ def fetch_rss(url: str, source_name: str = "") -> list[dict]:
     return items
 
 # ---------- SCORING ----------
-PREFERRED_CATEGORIES = [
-    "AI Coding", "AI Agent", "Agent", "AI Skill", "MCP",
-    "多模态", "模型", "产品", "开源", "工具",
-    "商业", "融资", "创业", "开发者",
-]
+def infer_source_type(url: str, source_type: str = "") -> str:
+    """Map feed origins to a small, configuration-driven trust taxonomy."""
+    url = (url or "").lower()
+    if source_type == "radar":
+        return "aggregator"
+    if "github.com" in url or "github.blog" in url:
+        return "github"
+    if any(domain in url for domain in [
+        "openai.com", "anthropic.com", "deepmind.google", "blog.google",
+        "ai.meta.com", "huggingface.co", "mistral.ai", "x.ai",
+    ]):
+        return "official"
+    return "unknown"
 
-def categorize(title: str, summary: str = "") -> str:
+
+def is_ai_relevant(title: str, scoring: dict) -> bool:
+    """Avoid putting unrelated general-tech and social-feed items on the radar."""
+    text = title.lower()
+    keywords = scoring.get("ai_keywords", [])
+    return any(keyword.lower() in text for keyword in keywords)
+
+
+def categorize(title: str, scoring: dict, summary: str = "") -> str:
     text = f"{title} {summary}".lower()
-    # AI Coding/编程工具
-    if any(kw in text for kw in ["claude code", "cursor", "windsurf", "aide", "copilot", "codex", "编程", "代码", "开发者工具", "开发效率"]):
-        return "AI Coding"
-    # Agent / 智能体
-    if any(kw in text for kw in ["agent", "workflow", "mcp", "tool use", "function calling", "智能体", "工作流", "自动化流程"]):
-        return "Agent"
-    # 开源 / 本地部署
-    if any(kw in text for kw in ["开源", "open source", "本地部署", "ollama", "llama", "开源模型"]):
-        return "开源"
-    # 产品发布
-    if any(kw in text for kw in ["release", "发布", "launch", "上线", "new model", "新模型", "推出", "正式发布"]):
-        return "产品"
-    # 商业/融资
-    if any(kw in text for kw in ["融资", "funding", "投资", "收购", "估值", "营收", "利润", "商业化"]):
-        return "商业"
-    # 多模态
-    if any(kw in text for kw in ["多模态", "multimodal", "视频生成", "图像", "vision", "扩散模型", "sora", "文生图"]):
-        return "多模态"
+    best_category = "其他"
+    best_hits = 0
+    for category, keywords in scoring.get("category_keywords", {}).items():
+        hits = sum(1 for keyword in keywords if keyword.lower() in text)
+        if hits > best_hits:
+            best_category, best_hits = category, hits
+    if best_hits:
+        return best_category
     return "其他"
 
 
-def score_and_grade(item: dict, now: dt.datetime) -> tuple[int, str]:
+def score_and_grade(item: dict, now: dt.datetime, scoring: dict) -> tuple[int, str]:
     """评分 + 分级 S/A/B/C"""
     score = int(float(item.get("raw_score") or 0))
 
@@ -219,17 +226,13 @@ def score_and_grade(item: dict, now: dt.datetime) -> tuple[int, str]:
 
     # 加分：偏好类目
     cat = item.get("category", "")
-    if cat in PREFERRED_CATEGORIES or any(k in cat for k in ["Coding", "Agent", "多模态"]):
-        score += 8
+    if cat in scoring.get("preferred_categories", []):
+        score += int(scoring.get("preferred_category_bonus", 8))
 
     # 加分：官方源 / RSS 官方源
-    st = item.get("source_type", "")
-    if st == "radar":
-        score += 8  # LearnPrompt 聚合源，多源共振
-    # 不再为 rss / official 单独加分类分，避免与 URL 加分叠加
-
-    if any(official in (item.get("url") or "") for official in ["openai.com", "anthropic.com", "deepmind", "github.blog"]):
-        score += 6
+    st = infer_source_type(item.get("url", ""), item.get("source_type", ""))
+    item["source_type"] = st
+    score += int(scoring.get("source_type_weights", {}).get(st, 0))
 
     # 减分：过老
     published = item.get("published_at")
@@ -245,16 +248,44 @@ def score_and_grade(item: dict, now: dt.datetime) -> tuple[int, str]:
     score = max(score, 0)
 
     # 定级（S 稀缺，避免全 S）
-    if score >= 100:
+    thresholds = scoring.get("grade_thresholds", {})
+    if score >= int(thresholds.get("S", 100)):
         grade = "S"
-    elif score >= 80:
+    elif score >= int(thresholds.get("A", 80)):
         grade = "A"
-    elif score >= 60:
+    elif score >= int(thresholds.get("B", 60)):
         grade = "B"
     else:
         grade = "C"
 
     return score, grade
+
+
+def build_information_card(item: dict) -> dict:
+    """Stable, downstream-facing card schema for the website and writing tools."""
+    category = item.get("category") or "其他"
+    angle_map = {
+        "AI 编程": "关注开发效率、工具体验与团队协作方式的变化。",
+        "智能体": "关注 Agent 的可落地场景、工作流和可靠性。",
+        "模型": "关注能力边界、成本、生态和真实使用影响。",
+        "产品": "关注产品定位、用户价值与竞品差异。",
+        "开源": "关注部署门槛、社区生态和可复用能力。",
+        "多模态": "关注图像、视频、语音与创作工作流的实际价值。",
+        "商业": "关注商业化、融资、企业采用和行业格局。",
+    }
+    return {
+        "id": item.get("id"),
+        "title": item.get("title"),
+        "url": item.get("url"),
+        "source": item.get("source"),
+        "published_at": item.get("published_at"),
+        "category": category,
+        "score": item.get("score"),
+        "grade": item.get("grade"),
+        "why_it_matters": f"{item.get('source_count', 1)} 个来源信号；{category} 方向；综合评分 {item.get('score', 0)}。",
+        "topic_angle": angle_map.get(category, "作为 AI 行业动态线索，回看原文后判断是否值得跟进。"),
+        "source_names": item.get("source_names") or [item.get("source")],
+    }
 
 
 # ---------- STORY MERGING ----------
@@ -429,11 +460,11 @@ def build_source_stats(
     src_items_count: dict[str, int] = {}
     src_ai_count: dict[str, int] = {}
     for item in all_items:
-        src_name = item.get("source", "未知")
-        src_items_count[src_name] = src_items_count.get(src_name, 0) + 1
+        source_id = item.get("_source_id", "unknown")
+        src_items_count[source_id] = src_items_count.get(source_id, 0) + 1
         grade = item.get("grade", "")
         if grade in ("S", "A", "B"):
-            src_ai_count[src_name] = src_ai_count.get(src_name, 0) + 1
+            src_ai_count[source_id] = src_ai_count.get(source_id, 0) + 1
             total_ai_items += 1
 
     for src in src_config:
@@ -443,8 +474,8 @@ def build_source_stats(
         if not enabled:
             continue
         ok = sname not in failed_names
-        item_count = src_items_count.get(sname, 0)
-        ai_count = src_ai_count.get(sname, 0)
+        item_count = src_items_count.get(sid, 0)
+        ai_count = src_ai_count.get(sid, 0)
         ai_pct = round(ai_count / item_count * 100, 1) if item_count > 0 else 0.0
         duration = fetch_durations.get(sid, 0.0)
 
@@ -518,6 +549,7 @@ def push_breaking(item: dict):
 # ---------- MAIN ----------
 def main():
     sources = read_json(SRC_CFG, [])
+    scoring = read_json(SCORING_CFG, {})
 
     all_items: list[dict] = []
     failed_sources: list[str] = []
@@ -550,9 +582,17 @@ def main():
                     items = fetch_radar_daily_brief(u)
                 elif stype in ("x_crawl_rss",):
                     items = fetch_rss(u, source_name=sname)
-                else:
+                    if src.get("filter_ai", False):
+                        items = [item for item in items if is_ai_relevant(item["title"], scoring)]
+                elif stype == "json_source_status":
+                    # Metadata-only upstream source: useful for provenance, but not a news feed.
+                    fetch_text(u)
                     items = []
+                else:
+                    raise ValueError(f"不支持的信源类型: {stype}")
 
+                for item in items:
+                    item["_source_id"] = sid
                 all_items.extend(items)
                 print(f"  [OK] {sid} ({sname}) → {len(items)} 条 | {u[:60]}...")
                 ok = True
@@ -576,9 +616,9 @@ def main():
 
     # 评分
     for item in unique_items:
-        cat = categorize(item.get("title", ""), item.get("source", ""))
+        cat = categorize(item.get("title", ""), scoring, item.get("source", ""))
         item["category"] = cat
-        score, grade = score_and_grade(item, now)
+        score, grade = score_and_grade(item, now, scoring)
         item["score"] = score
         item["grade"] = grade
 
@@ -638,6 +678,17 @@ def main():
         "stories": stories,
     })
     write_json(DATA / "source-status.json", source_status)
+    cards = [build_information_card(item) for item in diverse_items[:100]]
+    write_json(DATA / "daily-brief.json", {
+        "schema_version": "1.0",
+        "generated_at": now.isoformat().replace("+00:00", "Z"),
+        "items": cards,
+    })
+    write_json(DATA / "latest-24h.json", {
+        "schema_version": "1.0",
+        "generated_at": now.isoformat().replace("+00:00", "Z"),
+        "items": [card for card in cards if card.get("grade") in ("S", "A", "B")],
+    })
     print(f"[radar] 数据已写入 data/ 目录（含 stories-merged.json + source-status.json）")
 
     # === 趋势数据（追加 trend.json，最多保留 48 小时）===
