@@ -28,8 +28,10 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
+from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 # ---------- paths ----------
 BASE = Path(__file__).resolve().parents[1]
@@ -52,6 +54,12 @@ PER_SOURCE_LIMITS = {
     "creator": 12,
     "default": 15,
 }
+PLATFORM_QUOTAS = {
+    "wechat": int(os.environ.get("RADAR_WECHAT_QUOTA", "35")),
+    "twitter": int(os.environ.get("RADAR_TWITTER_QUOTA", "10")),
+    "xiaohongshu": int(os.environ.get("RADAR_XHS_QUOTA", "10")),
+}
+PLATFORM_HEAD_SLOTS = 5
 
 # ---------- HELPERS ----------
 def resolve_source_url(url: str) -> str:
@@ -141,6 +149,75 @@ def expand_social_sources(base_sources: list[dict]) -> list[dict]:
 def per_source_cap(src: dict) -> int:
     mode = src.get("discovery_mode", "")
     return int(PER_SOURCE_LIMITS.get(mode, PER_SOURCE_LIMITS["default"]))
+
+
+def order_with_social_headline(items: list[dict], head_per_platform: int = PLATFORM_HEAD_SLOTS) -> list[dict]:
+    """把各社交源高分条目前置，避免默认列表被聚合源霸榜。"""
+    by_platform: dict[str, list[dict]] = defaultdict(list)
+    for item in items:
+        platform = infer_source_type(item.get("url", ""), item.get("source_type", ""))
+        by_platform[platform].append(item)
+    for platform_items in by_platform.values():
+        platform_items.sort(key=lambda x: x.get("score", 0), reverse=True)
+
+    head: list[dict] = []
+    used: set[str] = set()
+    for platform in ("wechat", "twitter", "xiaohongshu"):
+        for item in by_platform.get(platform, [])[:head_per_platform]:
+            key = str(item.get("id") or item.get("url") or "")
+            if key and key not in used:
+                head.append(item)
+                used.add(key)
+
+    tail = [item for item in items if str(item.get("id") or item.get("url") or "") not in used]
+    tail.sort(key=lambda x: x.get("score", 0), reverse=True)
+    return head + tail
+
+
+def select_diverse_items(unique_items: list[dict], sources: list[dict]) -> list[dict]:
+    """按源限流 + 社交源配额，保证公众号/Twitter/小红书能进 snapshot。"""
+    source_meta = {src.get("id", "?"): src for src in sources}
+    selected: list[dict] = []
+    selected_keys: set[str] = set()
+    source_counters: dict[str, int] = {}
+
+    def item_key(item: dict) -> str:
+        return str(item.get("id") or item.get("url") or item.get("title") or "")
+
+    def take(item: dict) -> bool:
+        key = item_key(item)
+        if not key or key in selected_keys:
+            return False
+        src_key = item.get("source", "unknown")
+        src_id = item.get("_source_id", "?")
+        cap = per_source_cap(source_meta.get(src_id, {}))
+        if source_counters.get(src_key, 0) >= cap:
+            return False
+        selected.append(item)
+        selected_keys.add(key)
+        source_counters[src_key] = source_counters.get(src_key, 0) + 1
+        return True
+
+    by_platform: dict[str, list[dict]] = defaultdict(list)
+    for item in unique_items:
+        platform = infer_source_type(item.get("url", ""), item.get("source_type", ""))
+        item["source_type"] = platform
+        by_platform[platform].append(item)
+
+    for platform, quota in PLATFORM_QUOTAS.items():
+        picked = 0
+        for item in by_platform.get(platform, []):
+            if picked >= quota:
+                break
+            if take(item):
+                picked += 1
+
+    for item in unique_items:
+        if len(selected) >= MAX_OUTPUT_ITEMS:
+            break
+        take(item)
+
+    return order_with_social_headline(selected)[:MAX_OUTPUT_ITEMS]
 
 
 def fetch_one_source(src: dict, scoring: dict) -> tuple[str, str, list[dict], bool, float]:
@@ -466,94 +543,205 @@ def build_information_card(item: dict) -> dict:
     }
 
 
-# ---------- STORY MERGING ----------
+# ---------- STORY MERGING (LearnPrompt-style: same event + time window + entity guard) ----------
+TITLE_STOPWORDS = {
+    "a", "an", "the", "and", "or", "for", "to", "of", "in", "on", "with", "is", "are",
+    "的", "了", "在", "与", "和", "及", "等", "将", "已", "被", "对", "从", "为", "是",
+}
+VENDOR_ALIASES = {
+    "openai": "openai", "gpt": "openai", "chatgpt": "openai", "codex": "openai",
+    "anthropic": "anthropic", "claude": "anthropic",
+    "google": "google", "gemini": "google", "deepmind": "google",
+    "meta": "meta", "llama": "meta",
+    "microsoft": "microsoft", "copilot": "microsoft",
+    "deepseek": "deepseek", "qwen": "alibaba", "alibaba": "alibaba", "通义": "alibaba",
+    "智谱": "zhipu", "zhipu": "zhipu", "glm": "zhipu",
+    "字节": "bytedance", "bytedance": "bytedance", "doubao": "bytedance", "豆包": "bytedance",
+    "腾讯": "tencent", "元宝": "tencent",
+    "京东": "jd", "百度": "baidu", "文心": "baidu",
+}
+MODEL_RE = re.compile(
+    r"\b(gpt[- ]?\d[\w.-]*|claude[- ]?\d[\w.-]*|gemini[- ]?\d[\w.-]*|llama[- ]?\d[\w.-]*|"
+    r"deepseek[- ]?\w*|qwen[- ]?\d[\w.-]*|glm[- ]?\d[\w.-]*)\b",
+    re.I,
+)
+TITLE_SIMILARITY_THRESHOLD = 0.86
+TITLE_WINDOW_HOURS = 6
+
+
+def event_time(item: dict) -> dt.datetime | None:
+    raw = parse_time(item.get("published_at"))
+    if not raw:
+        return None
+    return dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+
+
+def item_site_key(item: dict) -> str:
+    return str(item.get("site_id") or item.get("source") or "").strip().lower()
+
+
+def canonical_story_url(raw_url: str) -> str:
+    url = (raw_url or "").strip()
+    if not url:
+        return ""
+    parsed = urlparse(url.split("#")[0])
+    host = (parsed.netloc or "").lower()
+    if host.startswith("www."):
+        host = host[4:]
+    parsed = parsed._replace(netloc=host)
+    query_pairs = parse_qsl(parsed.query, keep_blank_values=True)
+    if query_pairs:
+        # 保留标识文章身份的 query（含 sogou 的 url/query/type）
+        identity_keys = {"id", "item", "p", "url", "query", "type", "token"}
+        kept = [(k, v) for k, v in query_pairs if k.lower() in identity_keys]
+        if not kept:
+            parsed = parsed._replace(query="")
+        else:
+            parsed = parsed._replace(query=urlencode(kept, doseq=True))
+    else:
+        parsed = parsed._replace(query="")
+    canonical = urlunparse(parsed).rstrip("/")
+    if parsed.path in ("", "/") and not parsed.query:
+        return url.rstrip("/")
+    return canonical
+
+
+def title_tokens(title: str) -> set[str]:
+    compact = re.sub(r"https?://\S+", " ", str(title or "").lower())
+    tokens = re.findall(r"[a-z0-9]+|[\u4e00-\u9fff]{2,}", compact)
+    return {tok for tok in tokens if tok not in TITLE_STOPWORDS and len(tok) >= 2}
+
+
+def normalized_story_title(item: dict) -> str:
+    return re.sub(r"\s+", " ", str(item.get("title") or "").strip().lower())
+
+
+def title_is_mergeable(title: str) -> bool:
+    tokens = title_tokens(title)
+    return len(tokens) >= 4 and len(str(title or "").strip()) >= 18
+
+
 def _title_similarity(t1: str, t2: str) -> float:
-    """计算两条标题的文本相似度（0-1），基于词袋 Jaccard + 公共子串"""
+    """标题相似度：SequenceMatcher + Jaccard 混合（对齐 LearnPrompt）"""
     if not t1 or not t2:
         return 0.0
-    t1_low, t2_low = t1.lower(), t2.lower()
-    # 完全包含
-    if t1_low in t2_low or t2_low in t1_low:
-        return 0.95
-    # 词袋 Jaccard
-    def tokenize(s: str) -> set:
-        # 按空格、标点切分，保留英文词 + 中文词
-        tokens = set(re.findall(r'[a-zA-Z0-9]+|[\u4e00-\u9fff]+', s.lower()))
-        return tokens
-    s1, s2 = tokenize(t1), tokenize(t2)
-    if not s1 or not s2:
+    ta, tb = title_tokens(t1), title_tokens(t2)
+    if not ta or not tb:
         return 0.0
-    inter = len(s1 & s2)
-    union = len(s1 | s2)
-    return inter / union if union > 0 else 0.0
+    jaccard = len(ta & tb) / len(ta | tb)
+    sequence = SequenceMatcher(None, t1.lower(), t2.lower()).ratio()
+    return round(max(sequence, (sequence * 0.6) + (jaccard * 0.4)), 4)
+
+
+def title_entities(title: str) -> tuple[set[str], set[str]]:
+    lower = str(title or "").lower()
+    vendors = {canonical for alias, canonical in VENDOR_ALIASES.items() if alias in lower}
+    models = {re.sub(r"\s+", "-", match.group(1).lower()) for match in MODEL_RE.finditer(lower)}
+    return vendors, models
+
+
+def story_titles_can_merge(a: str, b: str) -> bool:
+    """不同厂商/不同模型的事件不应被标题相似度误并"""
+    vendors_a, models_a = title_entities(a)
+    vendors_b, models_b = title_entities(b)
+    if vendors_a and vendors_b and vendors_a.isdisjoint(vendors_b):
+        return False
+    if models_a and models_b and models_a.isdisjoint(models_b):
+        return False
+    return True
+
+
+def story_id_for_item(item: dict) -> str:
+    url = canonical_story_url(str(item.get("url") or ""))
+    title = normalized_story_title(item)
+    if url and title:
+        basis = f"{url}\x1f{title}"
+    else:
+        basis = url or title or str(item.get("id") or "")
+    return stable_id(basis)
+
+
+def merge_story_clusters(
+    items: list[dict],
+    title_window_hours: int = TITLE_WINDOW_HOURS,
+    title_threshold: float = TITLE_SIMILARITY_THRESHOLD,
+) -> dict[str, list[dict]]:
+    """将条目聚为「同一事件」簇：canonical URL 相同，或标题高度相似且在时间窗内。"""
+    groups: dict[str, list[dict]] = {}
+    group_titles: dict[str, str] = {}
+    group_times: dict[str, dt.datetime | None] = {}
+    group_site_ids: dict[str, str] = {}
+    canonical_to_story: dict[str, list[str]] = {}
+
+    ordered = sorted(items, key=lambda item: event_time(item) or dt.datetime.min.replace(tzinfo=dt.timezone.utc))
+    for item in ordered:
+        canonical_url = canonical_story_url(str(item.get("url") or ""))
+        title = normalized_story_title(item)
+        item_site_id = item_site_key(item)
+        item_time = event_time(item)
+        story_id: str | None = None
+
+        if canonical_url:
+            for candidate_id in canonical_to_story.get(canonical_url, []):
+                candidate_title = group_titles.get(candidate_id, "")
+                candidate_site_id = group_site_ids.get(candidate_id, "")
+                if (
+                    item_site_id
+                    and candidate_site_id == item_site_id
+                    and title != candidate_title
+                    and _title_similarity(title, candidate_title) < title_threshold
+                ):
+                    continue
+                story_id = candidate_id
+                break
+
+        if story_id is None and title_is_mergeable(title):
+            for candidate_id, candidate_title in group_titles.items():
+                candidate_time = group_times.get(candidate_id)
+                # 标题合并必须双方都有发布时间，且在时间窗内
+                if not (item_time and candidate_time):
+                    continue
+                delta_hours = abs((item_time - candidate_time).total_seconds()) / 3600
+                if delta_hours > title_window_hours:
+                    continue
+                sim = _title_similarity(title, candidate_title)
+                if sim >= title_threshold and story_titles_can_merge(title, candidate_title):
+                    story_id = candidate_id
+                    break
+
+        if story_id is None:
+            story_id = story_id_for_item(item)
+            groups[story_id] = []
+            group_titles[story_id] = title
+            group_times[story_id] = item_time
+            group_site_ids[story_id] = item_site_id
+            if canonical_url:
+                canonical_to_story.setdefault(canonical_url, []).append(story_id)
+        elif canonical_url:
+            bucket = canonical_to_story.setdefault(canonical_url, [])
+            if story_id not in bucket:
+                bucket.append(story_id)
+
+        groups.setdefault(story_id, []).append(item)
+
+    return groups
 
 
 def merge_stories(items: list[dict], now: dt.datetime) -> list[dict]:
-    """基于标题相似度 + 时间窗口 + URL 域名匹配，将分散条目合并成故事线
-
-    返回 stories 列表，每项含：
-      - title: 最佳标题
-      - primary_url: 最佳 URL
-      - source_count: 去重后的站源数
-      - source_names: 站源名称列表
-      - sources: 原始条目列表
-      - earliest_at: 最早发布时间
-      - latest_at: 最晚发布时间
-      - importance_score: 聚合重要性（综合源数 + 最高分 + 新泽西）
-      - importance_label: S/A/B/C
-    """
+    """基于「同一事件 + 时间窗 + 实体 guard」将分散条目合并成故事线"""
     if not items:
         return []
 
-    SIMILARITY_THRESHOLD = 0.58  # LearnPrompt 用 0.86；此处略宽松以适配中文标题差异
-    TIME_WINDOW_HOURS = 24
-
-    # 按时间排序（最新的在前）
-    sorted_items = sorted(items, key=lambda i: i.get("published_at") or "", reverse=True)
-
-    used = set()
+    groups = merge_story_clusters(items)
     stories: list[dict] = []
 
-    for i, item in enumerate(sorted_items):
-        iid = item.get("id") or item.get("url") or item.get("title", "")
-        if iid in used:
-            continue
-
-        cluster = [item]
-        used.add(iid)
-        title_i = item.get("title", "")
-        pub_i = item.get("published_at")
-
-        for j in range(i + 1, len(sorted_items)):
-            jid = sorted_items[j].get("id") or sorted_items[j].get("url") or sorted_items[j].get("title", "")
-            if jid in used:
-                continue
-            title_j = sorted_items[j].get("title", "")
-            if _title_similarity(title_i, title_j) >= SIMILARITY_THRESHOLD:
-                # 时间窗口检查
-                pub_j = sorted_items[j].get("published_at")
-                if pub_i and pub_j:
-                    try:
-                        ti = dt.datetime.fromisoformat(pub_i.replace("Z", "+00:00"))
-                        tj = dt.datetime.fromisoformat(pub_j.replace("Z", "+00:00"))
-                        diff_h = abs((ti - tj).total_seconds()) / 3600
-                        if diff_h > TIME_WINDOW_HOURS:
-                            continue
-                    except Exception:
-                        pass
-                cluster.append(sorted_items[j])
-                used.add(jid)
-
-        if len(cluster) < 1:
-            continue
-
-        # 聚合
-        sources_set: dict[str, str] = {}  # source_name -> url
-        all_titles = []
-        all_urls = []
-        all_scores = []
-        earliest = None
-        latest = None
+    for story_id, cluster in groups.items():
+        sources_set: dict[str, str] = {}
+        all_titles: list[str] = []
+        all_urls: list[str] = []
+        all_scores: list[float] = []
+        earliest: dt.datetime | None = None
+        latest: dt.datetime | None = None
 
         for c in cluster:
             src = c.get("source", "未知")
@@ -565,33 +753,25 @@ def merge_stories(items: list[dict], now: dt.datetime) -> list[dict]:
                 all_urls.append(c_url)
             score = c.get("score") or c.get("raw_score") or 0
             if isinstance(score, (int, float)):
-                all_scores.append(score)
-            pub = c.get("published_at")
-            if pub:
-                try:
-                    pt = dt.datetime.fromisoformat(pub.replace("Z", "+00:00"))
-                    if earliest is None or pt < earliest:
-                        earliest = pt
-                    if latest is None or pt > latest:
-                        latest = pt
-                except Exception:
-                    pass
+                all_scores.append(float(score))
+            pt = event_time(c)
+            if pt:
+                if earliest is None or pt < earliest:
+                    earliest = pt
+                if latest is None or pt > latest:
+                    latest = pt
 
-        # 选最具代表性标题（选字数最长的，通常是信息最完整的）
         best_title = max(all_titles, key=lambda t: len(t)) if all_titles else "未知"
         primary_url = all_urls[0] if all_urls else ""
         source_count = len(sources_set)
         max_score = max(all_scores) if all_scores else 0
 
-        # 热度因子：多源 + 最高分 + 新鲜度
         heat = source_count * 15 + min(max_score, 100) * 0.6
-        # 新鲜度加分（< 6h 加分）
         if latest:
             age_h = (now - latest).total_seconds() / 3600
             if age_h < 6:
                 heat += (6 - age_h) * 3
 
-        # S/A/B/C 定级
         if heat >= 80:
             imp_label = "S"
         elif heat >= 60:
@@ -601,7 +781,6 @@ def merge_stories(items: list[dict], now: dt.datetime) -> list[dict]:
         else:
             imp_label = "C"
 
-        story_id = stable_id(best_title, primary_url)
         cluster_payload = [
             {
                 "id": c.get("id"),
@@ -642,7 +821,6 @@ def merge_stories(items: list[dict], now: dt.datetime) -> list[dict]:
             "category": "multi_source" if source_count >= 2 else "watch",
         })
 
-    # 按 importance 降序
     stories.sort(key=lambda s: -s["importance_score"])
     return stories
 
@@ -880,20 +1058,8 @@ def main():
 
     unique_items.sort(key=lambda x: x.get("score", 0), reverse=True)
 
-    # === 多样性截取：按发现模式限流，避免关键词源霸榜 ===
-    source_meta = {src.get("id", "?"): src for src in sources}
-    source_counters: dict[str, int] = {}
-    diverse_items: list[dict] = []
-    for item in unique_items:
-        src_id = item.get("_source_id", "unknown")
-        src_key = item.get("source", "unknown")
-        cap = per_source_cap(source_meta.get(src_id, {}))
-        cnt = source_counters.get(src_key, 0)
-        if cnt < cap:
-            diverse_items.append(item)
-            source_counters[src_key] = cnt + 1
-        if len(diverse_items) >= MAX_OUTPUT_ITEMS:
-            break
+    # === 多样性截取：按发现模式限流 + 社交源配额，避免关键词源/聚合源霸榜 ===
+    diverse_items = select_diverse_items(unique_items, sources)
 
     # 分级列表
     s_items = [i for i in diverse_items if i.get("grade") == "S"]

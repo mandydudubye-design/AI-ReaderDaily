@@ -47,6 +47,12 @@ a:hover { text-decoration: underline; }
 .stat-card.b .num { color: var(--blue); }
 .stat-card.c .num { color: var(--text2); }
 .stat-card.active-filter { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.social-stats { margin-top: -8px; margin-bottom: 12px; }
+.stat-card.wechat .num { color: #22c55e; }
+.stat-card.twitter .num { color: #0ea5e9; }
+.stat-card.xiaohongshu .num { color: #f43f5e; }
+.social-hint { font-size: 12px; color: var(--text2); background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 8px 12px; margin-bottom: 12px; line-height: 1.5; }
+.social-hint a { color: var(--accent2); }
 
 /* Controls */
 .controls { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center; }
@@ -205,6 +211,8 @@ a:hover { text-decoration: underline; }
 
   <!-- Stats bar -->
   <div class="stats" id="statsBar"></div>
+  <div class="stats social-stats" id="socialStatsBar"></div>
+  <div class="social-hint" id="socialHint" hidden></div>
 
   <!-- Tab Navigation -->
   <div class="tab-bar">
@@ -297,7 +305,7 @@ a:hover { text-decoration: underline; }
   <div class="footer">
     Powered by <a href="https://github.com/mandydudubye-design/AI-ReaderDaily" target="_blank">Maren AI Radar</a>
     · 数据来自 LearnPrompt AI News Radar + 官方 RSS + 公众号 / Twitter / 小红书 + 国内信源
-    · 每小时自动更新 · 看板 v2026.07.15.8
+    · 每小时自动更新 · 看板 v2026.07.15.9
   </div>
 </div>
 
@@ -345,13 +353,22 @@ function discoveryTag(it) {
   return `<span class="meta-tag">🏷 ${label}${kw}</span>`;
 }
 
+function isNativeSocial(it, platform) {
+  const st = (it.source_type || '').toLowerCase();
+  const src = it.source || '';
+  if (platform === 'wechat') return st === 'wechat' || src.includes('公众号');
+  if (platform === 'twitter') return st === 'twitter' || src.includes('Twitter·');
+  if (platform === 'xiaohongshu') return st === 'xiaohongshu' || src.includes('小红书·');
+  return false;
+}
+
 function getSourceBucket(it) {
   const src = it.source || '';
   const st = (it.source_type || '').toLowerCase();
   const url = (it.url || '').toLowerCase();
-  if (st === 'wechat' || src.includes('公众号') || url.includes('/wechat/') || url.includes('mp.weixin.qq.com')) return 'wechat';
-  if (st === 'twitter' || url.includes('x.com/') || url.includes('twitter.com/') || url.includes('/twitter/') || src.includes('Twitter·')) return 'twitter';
-  if (st === 'xiaohongshu' || url.includes('xiaohongshu.com') || url.includes('xhslink.com') || url.includes('/xiaohongshu/') || src.includes('小红书·')) return 'xiaohongshu';
+  if (isNativeSocial(it, 'wechat') || url.includes('/wechat/') || url.includes('mp.weixin.qq.com') || url.includes('weixin.sogou.com')) return 'wechat';
+  if (isNativeSocial(it, 'twitter')) return 'twitter';
+  if (isNativeSocial(it, 'xiaohongshu') || url.includes('xiaohongshu.com') || url.includes('xhslink.com') || url.includes('/xiaohongshu/')) return 'xiaohongshu';
   if (DOMESTIC_SOURCES.some(name => src.includes(name))) return 'domestic';
   if (url.includes('rsshub') || src.toLowerCase().includes('rsshub')) return 'rsshub';
   if (st === 'radar' || st === 'aggregator') return 'radar';
@@ -391,6 +408,37 @@ function formatTime(isoStr) {
     const diffD = Math.round(diffH / 24);
     return `${diffD}d前`;
   } catch { return ''; }
+}
+
+function countByPlatform(items) {
+  const counts = { wechat: 0, twitter: 0, xiaohongshu: 0 };
+  items.forEach(it => {
+    const bucket = getSourceBucket(it);
+    if (counts[bucket] !== undefined) counts[bucket]++;
+  });
+  return counts;
+}
+
+function renderSocialStats() {
+  const counts = countByPlatform(allItems);
+  const hintEl = document.getElementById('socialHint');
+  document.getElementById('socialStatsBar').innerHTML = `
+    <div class="stat-card wechat ${filters.srctype === 'wechat' ? 'active-filter' : ''}" data-srctype="wechat"><div class="num">${counts.wechat}</div><div class="label">💬 公众号</div></div>
+    <div class="stat-card twitter ${filters.srctype === 'twitter' ? 'active-filter' : ''}" data-srctype="twitter"><div class="num">${counts.twitter}</div><div class="label">🐦 Twitter</div></div>
+    <div class="stat-card xiaohongshu ${filters.srctype === 'xiaohongshu' ? 'active-filter' : ''}" data-srctype="xiaohongshu"><div class="num">${counts.xiaohongshu}</div><div class="label">📕 小红书</div></div>`;
+
+  const missing = [];
+  if (counts.twitter === 0) missing.push('Twitter 需自建 RSSHub + TWITTER_AUTH_TOKEN');
+  if (counts.xiaohongshu === 0) missing.push('小红书需自建 RSSHub + XIAOHONGSHU_COOKIE');
+  if (missing.length) {
+    hintEl.hidden = false;
+    hintEl.innerHTML = `⚠️ ${missing.join('；')}。公众号数据已采集，点击上方卡片可筛选。配置见 <a href="https://github.com/mandydudubye-design/AI-ReaderDaily#github-actions-配置" target="_blank" rel="noopener">README 配置说明</a>`;
+  } else if (counts.wechat === 0) {
+    hintEl.hidden = false;
+    hintEl.textContent = '⚠️ 公众号暂无数据，请检查 RSSHub 或信源健康 Tab。';
+  } else {
+    hintEl.hidden = true;
+  }
 }
 
 function renderStats() {
@@ -592,6 +640,7 @@ function applyFilters() {
   document.getElementById('itemList').dataset.showAll = '';
 
   renderStats();
+  renderSocialStats();
   renderItems(items);
   renderSourceHealth(allItems);
 }
@@ -630,6 +679,12 @@ document.getElementById('statsBar').addEventListener('click', (e) => {
   const card = e.target.closest('.stat-card[data-grade]');
   if (!card) return;
   setFilter('grade', card.dataset.grade);
+});
+document.getElementById('socialStatsBar').addEventListener('click', (e) => {
+  const card = e.target.closest('.stat-card[data-srctype]');
+  if (!card) return;
+  const next = filters.srctype === card.dataset.srctype ? 'all' : card.dataset.srctype;
+  setFilter('srctype', next);
 });
 document.getElementById('searchInput').addEventListener('input', applyFilters);
 document.getElementById('sortSelect').addEventListener('change', applyFilters);

@@ -65,7 +65,9 @@ python3 scripts/radar.py
 | --- | --- |
 | `FEISHU_WEBHOOK` | 飞书机器人 Webhook URL（可选） |
 | `SERVERCHAN_KEY` | Server酱 SendKey（可选） |
-| `RSSHUB_BASE_URL` | 自建 RSSHub 地址（可选，用于 Twitter / 小红书直连） |
+| `RSSHUB_BASE_URL` | 自建 RSSHub 地址（可选；**Twitter / 小红书必填**） |
+
+自建步骤见 [`deploy/rsshub/README.md`](deploy/rsshub/README.md)（含 `docker compose` 一键部署）。
 
 ### 公众号 / Twitter / 小红书
 
