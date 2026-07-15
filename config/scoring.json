@@ -1,0 +1,29 @@
+{
+  "category_keywords": {
+    "AI 编程": ["claude code", "cursor", "windsurf", "copilot", "codex", "coding", "vibe coding", "编程", "代码", "开发者"],
+    "智能体": ["agent", "agentic", "mcp", "tool use", "function calling", "workflow", "智能体", "代理", "工作流", "自动化"],
+    "模型": ["model", "llm", "gpt", "claude", "gemini", "qwen", "kimi", "deepseek", "glm", "mistral", "模型", "大模型"],
+    "产品": ["launch", "release", "introducing", "product", "platform", "browser", "发布", "上线", "推出", "产品"],
+    "开源": ["open source", "open-weight", "ollama", "llama", "开源", "本地部署", "权重"],
+    "多模态": ["multimodal", "video", "image", "audio", "vision", "视频", "图像", "语音", "多模态"],
+    "商业": ["pricing", "revenue", "subscription", "enterprise", "commercial", "funding", "融资", "商业", "订阅", "企业", "收购"]
+  },
+  "preferred_categories": ["AI 编程", "智能体", "模型", "产品", "开源", "多模态", "商业"],
+  "preferred_category_bonus": 8,
+  "source_type_weights": {
+    "official": 10,
+    "github": 8,
+    "aggregator": 8,
+    "unknown": 0
+  },
+  "grade_thresholds": {
+    "S": 100,
+    "A": 80,
+    "B": 60
+  },
+  "ai_keywords": [
+    "ai", "artificial intelligence", "llm", "gpt", "chatgpt", "claude", "gemini", "deepseek",
+    "qwen", "kimi", "glm", "model", "agent", "mcp", "copilot", "codex", "cursor",
+    "大模型", "人工智能", "智能体", "模型", "生成式", "机器学习", "深度学习", "算法", "算力"
+  ]
+}

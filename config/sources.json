@@ -11,17 +11,6 @@
     "priority": 90
   },
   {
-    "id": "learnprompt_source_status",
-    "name": "AI News Radar Source Status",
-    "type": "json_source_status",
-    "url": "https://cdn.jsdelivr.net/gh/LearnPrompt/ai-news-radar@master/data/source-status.json",
-    "fallback_urls": [
-      "https://raw.githubusercontent.com/LearnPrompt/ai-news-radar/master/data/source-status.json"
-    ],
-    "enabled": true,
-    "priority": 80
-  },
-  {
     "id": "rss_anthropic_blog",
     "name": "Anthropic Blog",
     "type": "x_crawl_rss",
@@ -84,6 +73,7 @@
     "url": "https://36kr.com/feed",
     "enabled": true,
     "priority": 80,
+    "filter_ai": true,
     "note": "中文综合科技，混有 AI 内容，radar.py 按关键词过滤"
   },
   {
@@ -93,6 +83,7 @@
     "url": "https://www.ithome.com/rss/",
     "enabled": true,
     "priority": 75,
+    "filter_ai": true,
     "note": "中文科技综合，含 AI 新闻"
   },
   {
@@ -105,6 +96,7 @@
     ],
     "enabled": true,
     "priority": 78,
+    "filter_ai": true,
     "note": "知乎全站热榜，混合话题，radar.py 按关键词过滤 AI 内容"
   },
   {
@@ -117,6 +109,7 @@
     ],
     "enabled": true,
     "priority": 72,
+    "filter_ai": true,
     "note": "知乎日报精选，混合话题"
   },
   {
@@ -129,6 +122,7 @@
     ],
     "enabled": true,
     "priority": 82,
+    "filter_ai": true,
     "note": "36氪实时快讯，作者按关键词筛选 AI 内容"
   },
   {
@@ -141,6 +135,7 @@
     ],
     "enabled": true,
     "priority": 70,
+    "filter_ai": true,
     "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
   }
 ]

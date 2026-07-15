@@ -63,7 +63,7 @@ def _translate_title(title: str) -> str:
         try:
             encoded = urllib.parse.quote(title)
             api_url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q={encoded}"
-            cmd = ["curl", "-sS", "--noproxy", "*", "-L", "--connect-timeout", "5", "--max-time", "8", api_url]
+            cmd = ["curl", "-sS", "-L", "--connect-timeout", "5", "--max-time", "8", api_url]
             import subprocess
             result = subprocess.run(cmd, capture_output=True, text=True, timeout=12)
             if result.returncode == 0 and result.stdout:
