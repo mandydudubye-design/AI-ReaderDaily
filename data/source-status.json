@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-15T04:38:32.637086Z",
+  "generated_at": "2026-07-15T06:12:31.190280Z",
   "source_count": 231,
-  "successful_sites": 223,
-  "failed_sites": 8,
-  "zero_item_sites": 166,
-  "total_items": 1453,
-  "total_ai_items": 235,
-  "ai_pct_total": 16.2,
+  "successful_sites": 166,
+  "failed_sites": 65,
+  "zero_item_sites": 223,
+  "total_items": 890,
+  "total_ai_items": 117,
+  "ai_pct_total": 13.1,
   "sites": [
     {
       "site_id": "learnprompt_daily_brief",
@@ -19,7 +19,7 @@
       "item_count": 20,
       "ai_count": 20,
       "ai_pct": 100.0,
-      "fetch_duration_s": 1.27,
+      "fetch_duration_s": 0.08,
       "note": ""
     },
     {
@@ -33,7 +33,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 5.24,
+      "fetch_duration_s": 2.14,
       "note": ""
     },
     {
@@ -47,7 +47,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.72,
+      "fetch_duration_s": 0.05,
       "note": ""
     },
     {
@@ -61,7 +61,7 @@
       "item_count": 20,
       "ai_count": 2,
       "ai_pct": 10.0,
-      "fetch_duration_s": 1.31,
+      "fetch_duration_s": 0.19,
       "note": ""
     },
     {
@@ -75,7 +75,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 2.04,
+      "fetch_duration_s": 0.78,
       "note": ""
     },
     {
@@ -89,7 +89,7 @@
       "item_count": 823,
       "ai_count": 89,
       "ai_pct": 10.8,
-      "fetch_duration_s": 1.71,
+      "fetch_duration_s": 0.17,
       "note": ""
     },
     {
@@ -103,7 +103,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.99,
+      "fetch_duration_s": 0.38,
       "note": ""
     },
     {
@@ -117,7 +117,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.86,
+      "fetch_duration_s": 0.06,
       "note": ""
     },
     {
@@ -128,10 +128,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 8,
+      "item_count": 7,
       "ai_count": 1,
-      "ai_pct": 12.5,
-      "fetch_duration_s": 2.09,
+      "ai_pct": 14.3,
+      "fetch_duration_s": 1.89,
       "note": "中文综合科技，混有 AI 内容，radar.py 按关键词过滤"
     },
     {
@@ -142,10 +142,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 9,
-      "ai_count": 4,
-      "ai_pct": 44.4,
-      "fetch_duration_s": 4.67,
+      "item_count": 10,
+      "ai_count": 3,
+      "ai_pct": 30.0,
+      "fetch_duration_s": 3.47,
       "note": "中文科技综合，含 AI 新闻"
     },
     {
@@ -159,7 +159,7 @@
       "item_count": 4,
       "ai_count": 1,
       "ai_pct": 25.0,
-      "fetch_duration_s": 1.19,
+      "fetch_duration_s": 3.8,
       "note": "知乎全站热榜，混合话题，radar.py 按关键词过滤 AI 内容"
     },
     {
@@ -173,7 +173,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 2.39,
+      "fetch_duration_s": 1.35,
       "note": "知乎日报精选，混合话题"
     },
     {
@@ -187,7 +187,7 @@
       "item_count": 2,
       "ai_count": 1,
       "ai_pct": 50.0,
-      "fetch_duration_s": 40.67,
+      "fetch_duration_s": 0.5,
       "note": "36氪实时快讯，作者按关键词筛选 AI 内容"
     },
     {
@@ -201,315 +201,315 @@
       "item_count": 4,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.2,
+      "fetch_duration_s": 2.89,
       "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
     },
     {
       "site_id": "wechat_jiqizhiixin",
       "site_name": "公众号·机器之心",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 0.94,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 产业与模型研究，RSSHub 搜狗公众号路由"
     },
     {
       "site_id": "wechat_liangziwei",
       "site_name": "公众号·量子位",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 0.92,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 新闻与产业动态"
     },
     {
       "site_id": "wechat_xinzhiyuan",
       "site_name": "公众号·新智元",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 0.9,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 产业资讯"
     },
     {
       "site_id": "wechat_aitec",
       "site_name": "公众号·AI科技评论",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.99,
+      "fetch_duration_s": 0.01,
       "note": "AI 技术与产业评论"
     },
     {
       "site_id": "wechat_kaer",
       "site_name": "公众号·卡尔的AI沃茨",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 8,
-      "ai_count": 4,
-      "ai_pct": 50.0,
-      "fetch_duration_s": 0.88,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 工具与产品体验"
     },
     {
       "site_id": "wechat_kazike",
       "site_name": "公众号·数字生命卡兹克",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 9,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.87,
+      "fetch_duration_s": 0.01,
       "note": "AI 应用与创作实践"
     },
     {
       "site_id": "wechat_hunyuan",
       "site_name": "公众号·腾讯混元",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 2,
-      "ai_pct": 20.0,
-      "fetch_duration_s": 0.92,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "腾讯混元大模型官方动态"
     },
     {
       "site_id": "wechat_minicpm",
       "site_name": "公众号·面壁智能",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 2,
-      "ai_pct": 20.0,
-      "fetch_duration_s": 0.86,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "MiniCPM 等端侧模型"
     },
     {
       "site_id": "wechat_xhs_tech",
       "site_name": "公众号·小红书技术",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.92,
+      "fetch_duration_s": 0.01,
       "note": "小红书 AI 技术团队（dots.llm 等），间接覆盖小红书官方技术信号"
     },
     {
       "site_id": "wechat_baidu_ai",
       "site_name": "公众号·百度智能云",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 1.01,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "文心大模型与百度 AI 云动态"
     },
     {
       "site_id": "wechat_canghe",
       "site_name": "公众号·苍何",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.95,
+      "fetch_duration_s": 0.01,
       "note": "AI 产品观察与深度分析"
     },
     {
       "site_id": "wechat_huashu",
       "site_name": "公众号·花叔",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 1.05,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 工具与效率实践"
     },
     {
       "site_id": "wechat_daishudi",
       "site_name": "公众号·袋鼠帝AI客栈",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 8,
-      "ai_count": 3,
-      "ai_pct": 37.5,
-      "fetch_duration_s": 0.99,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 应用教程与工具评测"
     },
     {
       "site_id": "wechat_kw_11fb682be0",
       "site_name": "公众号关键词·AI",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 1.29,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_9c53c074d7",
       "site_name": "公众号关键词·skill",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 3,
-      "ai_pct": 30.0,
-      "fetch_duration_s": 2.92,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_cf07194ee2",
       "site_name": "公众号关键词·prompt",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 0.98,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_53f13ae99e",
       "site_name": "公众号关键词·MCP",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 10,
-      "ai_pct": 100.0,
-      "fetch_duration_s": 0.98,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_50a4122943",
       "site_name": "公众号关键词·ChatGPT",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.96,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_0615570f9e",
       "site_name": "公众号关键词·Claude",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 2,
-      "ai_pct": 20.0,
-      "fetch_duration_s": 0.94,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_744205e435",
       "site_name": "公众号关键词·Anthropic",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 1.04,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_0648d2111e",
       "site_name": "公众号关键词·DeepSeek",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.09,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_8bcef51236",
       "site_name": "公众号关键词·智谱",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 0.97,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -523,259 +523,259 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.95,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_b341ca824d",
       "site_name": "公众号关键词·LongCat",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 2,
-      "ai_pct": 20.0,
-      "fetch_duration_s": 0.97,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_83f10a4472",
       "site_name": "公众号关键词·Kimi",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.08,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_3b1228de96",
       "site_name": "公众号关键词·GLM",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 2,
-      "ai_pct": 20.0,
-      "fetch_duration_s": 0.99,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_b248f2e018",
       "site_name": "公众号关键词·MiniMax",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.99,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_f6ece80b88",
       "site_name": "公众号关键词·Gemini",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 4,
-      "ai_pct": 40.0,
-      "fetch_duration_s": 0.97,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_49f5b0e488",
       "site_name": "公众号关键词·Copilot",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 10,
-      "ai_pct": 100.0,
-      "fetch_duration_s": 1.01,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_2c014f8f89",
       "site_name": "公众号关键词·Cursor",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 2,
-      "ai_pct": 20.0,
-      "fetch_duration_s": 0.96,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_616efbe968",
       "site_name": "公众号关键词·Codex",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 10,
-      "ai_pct": 100.0,
-      "fetch_duration_s": 0.98,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_11b39c9377",
       "site_name": "公众号关键词·Agent",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 10,
-      "ai_pct": 100.0,
-      "fetch_duration_s": 0.97,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_2df7697dbb",
       "site_name": "公众号关键词·智能体",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 0.96,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_25d7abe586",
       "site_name": "公众号关键词·大模型",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 2,
-      "ai_pct": 20.0,
-      "fetch_duration_s": 1.0,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_4b47dbae97",
       "site_name": "公众号关键词·提示词",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 3,
-      "ai_pct": 30.0,
-      "fetch_duration_s": 1.04,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_f77fb5fc13",
       "site_name": "公众号关键词·RAG",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.12,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_674900a77b",
       "site_name": "公众号关键词·LLM",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 3,
-      "ai_pct": 30.0,
-      "fetch_duration_s": 0.92,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_8b7d1a3187",
       "site_name": "公众号关键词·OpenAI",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.99,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_dca61d3236",
       "site_name": "公众号关键词·Grok",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_f394cc2a6d",
       "site_name": "公众号关键词·Perplexity",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 0.96,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_d019cd1dbe",
       "site_name": "公众号关键词·Midjourney",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 0.96,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -789,161 +789,161 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.16,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_eb82ef8976",
       "site_name": "公众号关键词·Ollama",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 2.08,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_9384f8e757",
       "site_name": "公众号关键词·Llama",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 2,
-      "ai_pct": 20.0,
-      "fetch_duration_s": 0.94,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_c74d329b66",
       "site_name": "公众号关键词·MoE",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 1.22,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_bf06a361b0",
       "site_name": "公众号关键词·微调",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 1.46,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_242a7e0404",
       "site_name": "公众号关键词·fine-tuning",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 0.94,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_2c56afdd8a",
       "site_name": "公众号关键词·vibe coding",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 0.96,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_95d56e5cd7",
       "site_name": "公众号关键词·文心",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 1.04,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_41a8d6a98f",
       "site_name": "公众号关键词·通义",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 3,
-      "ai_pct": 30.0,
-      "fetch_duration_s": 1.04,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_3a7294dc5c",
       "site_name": "公众号关键词·混元",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.37,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_f64660efbe",
       "site_name": "公众号关键词·豆包",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 1,
-      "ai_pct": 10.0,
-      "fetch_duration_s": 1.0,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_8794cf8bf8",
       "site_name": "公众号关键词·MiniCPM",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 3,
-      "ai_pct": 30.0,
-      "fetch_duration_s": 0.96,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -957,7 +957,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.87,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -971,63 +971,63 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.89,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_845bbc27a3",
       "site_name": "公众号关键词·LangGraph",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 4,
-      "ai_pct": 40.0,
-      "fetch_duration_s": 0.96,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_a96e259b07",
       "site_name": "公众号关键词·ComfyUI",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 8,
-      "ai_count": 1,
-      "ai_pct": 12.5,
-      "fetch_duration_s": 0.89,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_aa580156f3",
       "site_name": "公众号关键词·embedding",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_9caff5d2d2",
       "site_name": "公众号关键词·multimodal",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.97,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -1041,35 +1041,35 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_6ca8251a48",
       "site_name": "公众号关键词·Stable Diffusion",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 2,
-      "ai_pct": 20.0,
-      "fetch_duration_s": 0.91,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
       "site_id": "wechat_kw_4878e7111b",
       "site_name": "公众号关键词·function calling",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "wechat",
       "discovery_mode": "keyword",
       "soft_fail": false,
-      "item_count": 10,
-      "ai_count": 9,
-      "ai_pct": 90.0,
-      "fetch_duration_s": 1.21,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -1083,7 +1083,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.88,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -1097,7 +1097,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -1111,7 +1111,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -1125,7 +1125,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1139,7 +1139,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1153,7 +1153,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.9,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1167,7 +1167,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1181,7 +1181,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.97,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1195,7 +1195,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1209,7 +1209,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.9,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1223,7 +1223,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.92,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1237,7 +1237,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.86,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1251,7 +1251,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.89,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1265,7 +1265,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.89,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1279,7 +1279,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.89,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1293,7 +1293,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.89,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1307,7 +1307,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.9,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1321,7 +1321,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.89,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1335,7 +1335,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1349,7 +1349,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1363,7 +1363,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.15,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1377,7 +1377,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1391,7 +1391,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.92,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1405,7 +1405,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.92,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1419,7 +1419,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1433,7 +1433,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.89,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1447,7 +1447,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1461,7 +1461,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.95,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1475,7 +1475,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1489,7 +1489,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1503,7 +1503,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.9,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1517,7 +1517,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1531,7 +1531,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.9,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1545,7 +1545,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.97,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1559,7 +1559,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1573,7 +1573,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1587,7 +1587,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1601,7 +1601,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.89,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1615,7 +1615,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.9,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1629,7 +1629,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.87,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1643,7 +1643,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.87,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1657,7 +1657,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1671,7 +1671,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.97,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1685,7 +1685,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.9,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1699,7 +1699,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.95,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1713,7 +1713,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1727,7 +1727,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1741,7 +1741,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1755,7 +1755,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.37,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1769,7 +1769,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.49,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1783,7 +1783,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.09,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1797,7 +1797,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.51,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1811,7 +1811,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1825,7 +1825,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.21,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1839,7 +1839,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.92,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1853,7 +1853,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1867,7 +1867,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.96,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1881,7 +1881,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.98,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1895,7 +1895,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.95,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1909,7 +1909,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.99,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1923,7 +1923,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.92,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1937,7 +1937,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.11,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1951,7 +1951,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.5,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1965,7 +1965,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1979,7 +1979,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.98,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1993,7 +1993,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2007,7 +2007,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2021,7 +2021,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.92,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2035,7 +2035,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2049,7 +2049,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.92,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2063,7 +2063,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.96,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2077,7 +2077,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2091,7 +2091,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2105,7 +2105,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.45,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2119,7 +2119,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.89,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2133,7 +2133,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.98,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2147,7 +2147,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.26,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2161,7 +2161,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.19,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2175,7 +2175,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2189,7 +2189,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2203,7 +2203,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2217,7 +2217,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.97,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2231,7 +2231,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.14,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2245,7 +2245,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.89,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2259,7 +2259,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.96,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2273,7 +2273,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.11,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2287,7 +2287,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.89,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2301,7 +2301,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.07,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2315,7 +2315,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.31,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2329,7 +2329,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2343,7 +2343,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.9,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2357,7 +2357,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.92,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2371,7 +2371,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.9,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2385,7 +2385,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.13,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2399,7 +2399,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.92,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2413,7 +2413,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2427,7 +2427,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2441,7 +2441,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.07,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2455,7 +2455,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.03,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2469,7 +2469,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.88,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2483,7 +2483,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.95,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2497,7 +2497,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2511,7 +2511,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.95,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2525,7 +2525,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.02,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2539,7 +2539,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.98,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2553,7 +2553,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.11,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2567,7 +2567,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.04,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2581,7 +2581,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2595,7 +2595,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2609,7 +2609,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.06,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2623,7 +2623,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.04,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2637,7 +2637,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2651,7 +2651,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.05,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2665,7 +2665,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.98,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2679,7 +2679,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.99,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2693,7 +2693,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.98,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2707,7 +2707,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.96,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2721,7 +2721,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.91,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2735,7 +2735,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2749,7 +2749,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.88,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2763,7 +2763,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2777,7 +2777,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.03,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2791,7 +2791,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.99,
+      "fetch_duration_s": 0.01,
       "note": "官方"
     },
     {
@@ -2805,7 +2805,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.05,
+      "fetch_duration_s": 0.01,
       "note": "官方"
     },
     {
@@ -2819,7 +2819,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.5,
+      "fetch_duration_s": 0.01,
       "note": "官方"
     },
     {
@@ -2833,7 +2833,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "官方"
     },
     {
@@ -2847,7 +2847,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.15,
+      "fetch_duration_s": 0.01,
       "note": "OpenAI/xAI"
     },
     {
@@ -2861,7 +2861,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.95,
+      "fetch_duration_s": 0.01,
       "note": "AI 研究/工程"
     },
     {
@@ -2875,7 +2875,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.16,
+      "fetch_duration_s": 0.01,
       "note": "Meta AI 首席科学家"
     },
     {
@@ -2889,7 +2889,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.03,
+      "fetch_duration_s": 0.01,
       "note": "AI 教育/产业"
     },
     {
@@ -2903,7 +2903,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.95,
+      "fetch_duration_s": 0.01,
       "note": "AI 商业/教育"
     },
     {
@@ -2917,7 +2917,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.95,
+      "fetch_duration_s": 0.01,
       "note": "NVIDIA AI"
     },
     {
@@ -2931,7 +2931,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 3.05,
+      "fetch_duration_s": 0.01,
       "note": "Stanford HAI"
     },
     {
@@ -2945,7 +2945,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 2.04,
+      "fetch_duration_s": 0.01,
       "note": "Agent/推理"
     },
     {
@@ -2959,7 +2959,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.03,
+      "fetch_duration_s": 0.01,
       "note": "DeepMind 研究"
     },
     {
@@ -2973,7 +2973,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.8,
+      "fetch_duration_s": 0.01,
       "note": "AI 工程/Latent Space"
     },
     {
@@ -2987,7 +2987,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.04,
+      "fetch_duration_s": 0.01,
       "note": "官方"
     },
     {
@@ -3001,7 +3001,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.05,
+      "fetch_duration_s": 0.01,
       "note": "AI 编程工具"
     },
     {
@@ -3015,7 +3015,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 2.41,
+      "fetch_duration_s": 0.01,
       "note": "官方"
     },
     {
@@ -3029,7 +3029,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.58,
+      "fetch_duration_s": 0.01,
       "note": "官方"
     },
     {
@@ -3043,7 +3043,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.58,
+      "fetch_duration_s": 0.01,
       "note": "阿里通义"
     },
     {
@@ -3057,7 +3057,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.46,
+      "fetch_duration_s": 0.01,
       "note": "官方"
     },
     {
@@ -3071,7 +3071,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.02,
+      "fetch_duration_s": 0.01,
       "note": "官方"
     },
     {
@@ -3085,7 +3085,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.64,
+      "fetch_duration_s": 0.01,
       "note": "官方"
     },
     {
@@ -3099,7 +3099,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 2.11,
+      "fetch_duration_s": 0.01,
       "note": "Chatbot Arena"
     },
     {
@@ -3113,7 +3113,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.51,
+      "fetch_duration_s": 0.01,
       "note": "AI 资讯/The Rundown"
     },
     {
@@ -3127,7 +3127,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.07,
+      "fetch_duration_s": 0.01,
       "note": "AI 编程平台"
     },
     {
@@ -3141,7 +3141,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.68,
+      "fetch_duration_s": 0.01,
       "note": "GAN 作者"
     },
     {
@@ -3155,7 +3155,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.02,
+      "fetch_duration_s": 0.01,
       "note": "AI 安全/FLI"
     },
     {
@@ -3169,7 +3169,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 0.01,
       "note": "Perplexity CEO"
     },
     {
@@ -3183,7 +3183,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.95,
+      "fetch_duration_s": 0.01,
       "note": "AI 论文速递"
     },
     {
@@ -3197,7 +3197,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.03,
+      "fetch_duration_s": 0.01,
       "note": "AI 研究/创业"
     },
     {
@@ -3211,7 +3211,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.01,
+      "fetch_duration_s": 0.01,
       "note": "HuggingFace CEO"
     },
     {
@@ -3225,7 +3225,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.01,
+      "fetch_duration_s": 0.01,
       "note": "Abacus AI"
     },
     {
@@ -3239,7 +3239,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.01,
+      "fetch_duration_s": 0.01,
       "note": "AI 工具资讯"
     }
   ]
