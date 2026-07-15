@@ -34,6 +34,7 @@ jobs:
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+          RSSHUB_BASE_URL: ${{ secrets.RSSHUB_BASE_URL }}
         run: |
           python3 scripts/radar.py
 

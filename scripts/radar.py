@@ -38,8 +38,14 @@ SCORING_CFG = BASE / "config" / "scoring.json"
 DATA.mkdir(parents=True, exist_ok=True)
 
 USER_AGENT = "MarenAIRadar/1.0 (+https://github.com/mandydudubye-design/maren-ai-radar)"
+RSSHUB_BASE = os.environ.get("RSSHUB_BASE_URL", "https://rsshub.rssforever.com").rstrip("/")
 
 # ---------- HELPERS ----------
+def resolve_source_url(url: str) -> str:
+    """Allow RSSHub base override via RSSHUB_BASE_URL for Twitter / 小红书等需鉴权路由."""
+    if not url:
+        return url
+    return url.replace("{{RSSHUB_BASE}}", RSSHUB_BASE)
 def now_utc() -> dt.datetime:
     return dt.datetime.now(dt.timezone.utc)
 
@@ -179,14 +185,25 @@ def fetch_rss(url: str, source_name: str = "") -> list[dict]:
                 "raw_score": raw_score,
                 "source_count": 1,
             })
+    if not items and "Welcome to RSSHub" in text:
+        raise RuntimeError("RSSHub 路由不可用（公共实例常需鉴权或已限流）")
     return items
 
 # ---------- SCORING ----------
 def infer_source_type(url: str, source_type: str = "") -> str:
     """Map feed origins to a small, configuration-driven trust taxonomy."""
     url = (url or "").lower()
+    st = (source_type or "").lower()
+    if st in ("wechat", "twitter", "xiaohongshu", "radar", "aggregator", "official", "github"):
+        return "aggregator" if st == "radar" else st
     if source_type == "radar":
         return "aggregator"
+    if "mp.weixin.qq.com" in url or "/wechat/" in url:
+        return "wechat"
+    if any(domain in url for domain in ["x.com/", "twitter.com/", "/twitter/"]):
+        return "twitter"
+    if any(domain in url for domain in ["xiaohongshu.com", "xhslink.com", "/xiaohongshu/"]):
+        return "xiaohongshu"
     if "github.com" in url or "github.blog" in url:
         return "github"
     if any(domain in url for domain in [
@@ -626,7 +643,8 @@ def main():
             continue
 
         ok = False
-        urls_to_try = [url] + fallbacks
+        urls_to_try = [resolve_source_url(u) for u in [url] + fallbacks if u]
+        platform = src.get("platform") or src.get("source_type") or ""
         start_t = time.time()
         for u in urls_to_try:
             if not u:
@@ -647,6 +665,8 @@ def main():
 
                 for item in items:
                     item["_source_id"] = sid
+                    if platform:
+                        item["source_type"] = platform
                 all_items.extend(items)
                 print(f"  [OK] {sid} ({sname}) → {len(items)} 条 | {u[:60]}...")
                 ok = True
@@ -657,7 +677,10 @@ def main():
         fetch_durations[sid] = round(time.time() - start_t, 2)
 
         if not ok:
-            failed_sources.append(sname)
+            if src.get("soft_fail", False):
+                print(f"  [可选源跳过] {sid} ({sname}) — 需自建 RSSHub 或 Cookie 鉴权")
+            else:
+                failed_sources.append(sname)
 
     # 去重
     seen_ids = set()

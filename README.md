@@ -56,8 +56,19 @@ python3 scripts/radar.py
 | --- | --- |
 | `FEISHU_WEBHOOK` | 飞书机器人 Webhook URL（可选） |
 | `SERVERCHAN_KEY` | Server酱 SendKey（可选） |
+| `RSSHUB_BASE_URL` | 自建 RSSHub 地址（可选，用于 Twitter / 小红书直连） |
 
-请勿将真实 Token、Webhook 或 SendKey 写入 `.env.example`、提交记录或 Git remote URL。
+### 公众号 / Twitter / 小红书
+
+| 平台 | 当前状态 | 说明 |
+| --- | --- | --- |
+| 公众号 | ✅ 已接入 | 通过 RSSHub `/wechat/sogou/:name` 抓取机器之心、量子位等 10 个 AI 公众号 |
+| Twitter | ⚠️ 需自建 RSSHub | 公共 RSSHub 对 `/twitter/user/*` 常返回 503；配置 `RSSHUB_BASE_URL` 并在 RSSHub 容器注入 `TWITTER_AUTH_TOKEN` 后生效 |
+| 小红书 | ⚠️ 需自建 RSSHub | 已配置搜索路由；公共实例需 `XIAOHONGSHU_COOKIE`。`公众号·小红书技术` 可作为官方技术信号补充 |
+
+Twitter / 小红书源标记为 `soft_fail`：抓取失败不会触发飞书异常告警，LearnPrompt 聚合仍会间接带入部分 X / 公众号内容。
+
+请勿将真实 Token、Webhook、Cookie 或 SendKey 写入 `.env.example`、提交记录或 Git remote URL。
 
 ## 数据来源与致谢
 

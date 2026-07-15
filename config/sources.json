@@ -137,5 +137,217 @@
     "priority": 70,
     "filter_ai": true,
     "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
+  },
+  {
+    "id": "wechat_jiqizhiixin",
+    "name": "公众号·机器之心",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/机器之心",
+    "enabled": true,
+    "priority": 92,
+    "note": "AI 产业与模型研究，RSSHub 搜狗公众号路由"
+  },
+  {
+    "id": "wechat_liangziwei",
+    "name": "公众号·量子位",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/量子位",
+    "enabled": true,
+    "priority": 91,
+    "note": "AI 新闻与产业动态"
+  },
+  {
+    "id": "wechat_xinzhiyuan",
+    "name": "公众号·新智元",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/新智元",
+    "enabled": true,
+    "priority": 90,
+    "note": "AI 产业资讯"
+  },
+  {
+    "id": "wechat_aitec",
+    "name": "公众号·AI科技评论",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/AI科技评论",
+    "enabled": true,
+    "priority": 88,
+    "note": "AI 技术与产业评论"
+  },
+  {
+    "id": "wechat_kaer",
+    "name": "公众号·卡尔的AI沃茨",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/卡尔的AI沃茨",
+    "enabled": true,
+    "priority": 87,
+    "note": "AI 工具与产品体验"
+  },
+  {
+    "id": "wechat_kazike",
+    "name": "公众号·数字生命卡兹克",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/数字生命卡兹克",
+    "enabled": true,
+    "priority": 86,
+    "note": "AI 应用与创作实践"
+  },
+  {
+    "id": "wechat_hunyuan",
+    "name": "公众号·腾讯混元",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/腾讯混元",
+    "enabled": true,
+    "priority": 85,
+    "note": "腾讯混元大模型官方动态"
+  },
+  {
+    "id": "wechat_minicpm",
+    "name": "公众号·面壁智能",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/面壁智能",
+    "enabled": true,
+    "priority": 84,
+    "note": "MiniCPM 等端侧模型"
+  },
+  {
+    "id": "wechat_xhs_tech",
+    "name": "公众号·小红书技术",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/小红书技术",
+    "enabled": true,
+    "priority": 83,
+    "note": "小红书 AI 技术团队（dots.llm 等），间接覆盖小红书官方技术信号"
+  },
+  {
+    "id": "wechat_baidu_ai",
+    "name": "公众号·百度智能云",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/百度智能云",
+    "enabled": true,
+    "priority": 82,
+    "note": "文心大模型与百度 AI 云动态"
+  },
+  {
+    "id": "twitter_openai",
+    "name": "Twitter·OpenAI",
+    "type": "x_crawl_rss",
+    "platform": "twitter",
+    "url": "{{RSSHUB_BASE}}/twitter/user/OpenAI",
+    "enabled": true,
+    "priority": 80,
+    "soft_fail": true,
+    "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN；公共实例常 503"
+  },
+  {
+    "id": "twitter_anthropic",
+    "name": "Twitter·Anthropic",
+    "type": "x_crawl_rss",
+    "platform": "twitter",
+    "url": "{{RSSHUB_BASE}}/twitter/user/AnthropicAI",
+    "enabled": true,
+    "priority": 80,
+    "soft_fail": true,
+    "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
+  },
+  {
+    "id": "twitter_google_deepmind",
+    "name": "Twitter·Google DeepMind",
+    "type": "x_crawl_rss",
+    "platform": "twitter",
+    "url": "{{RSSHUB_BASE}}/twitter/user/GoogleDeepMind",
+    "enabled": true,
+    "priority": 79,
+    "soft_fail": true,
+    "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
+  },
+  {
+    "id": "twitter_huggingface",
+    "name": "Twitter·Hugging Face",
+    "type": "x_crawl_rss",
+    "platform": "twitter",
+    "url": "{{RSSHUB_BASE}}/twitter/user/huggingface",
+    "enabled": true,
+    "priority": 78,
+    "soft_fail": true,
+    "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
+  },
+  {
+    "id": "twitter_sama",
+    "name": "Twitter·sama",
+    "type": "x_crawl_rss",
+    "platform": "twitter",
+    "url": "{{RSSHUB_BASE}}/twitter/user/sama",
+    "enabled": true,
+    "priority": 77,
+    "soft_fail": true,
+    "note": "OpenAI / xAI 相关动态，需自建 RSSHub"
+  },
+  {
+    "id": "twitter_nvidia",
+    "name": "Twitter·NVIDIA AI",
+    "type": "x_crawl_rss",
+    "platform": "twitter",
+    "url": "{{RSSHUB_BASE}}/twitter/user/nvidia",
+    "enabled": true,
+    "priority": 76,
+    "soft_fail": true,
+    "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
+  },
+  {
+    "id": "twitter_cursor",
+    "name": "Twitter·Cursor",
+    "type": "x_crawl_rss",
+    "platform": "twitter",
+    "url": "{{RSSHUB_BASE}}/twitter/user/cursor_ai",
+    "enabled": true,
+    "priority": 75,
+    "soft_fail": true,
+    "note": "AI 编程工具动态，需自建 RSSHub"
+  },
+  {
+    "id": "twitter_karpathy",
+    "name": "Twitter·Karpathy",
+    "type": "x_crawl_rss",
+    "platform": "twitter",
+    "url": "{{RSSHUB_BASE}}/twitter/user/karpathy",
+    "enabled": true,
+    "priority": 74,
+    "soft_fail": true,
+    "note": "AI 研究与工程观点，需自建 RSSHub"
+  },
+  {
+    "id": "xhs_search_ai",
+    "name": "小红书·AI 搜索",
+    "type": "x_crawl_rss",
+    "platform": "xiaohongshu",
+    "url": "{{RSSHUB_BASE}}/xiaohongshu/search/AI",
+    "enabled": true,
+    "priority": 72,
+    "soft_fail": true,
+    "filter_ai": true,
+    "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE；公共实例常 503"
+  },
+  {
+    "id": "xhs_search_llm",
+    "name": "小红书·大模型搜索",
+    "type": "x_crawl_rss",
+    "platform": "xiaohongshu",
+    "url": "{{RSSHUB_BASE}}/xiaohongshu/search/大模型",
+    "enabled": true,
+    "priority": 71,
+    "soft_fail": true,
+    "filter_ai": true,
+    "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
   }
 ]
