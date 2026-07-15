@@ -1,0 +1,30 @@
+# 自建 RSSHub — 供 Maren AI Radar 抓取 Twitter / 小红书 / 公众号
+# 用法见同目录 README.md
+
+services:
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    volumes:
+      - redis-data:/data
+
+  rsshub:
+    image: diygod/rsshub:latest
+    restart: unless-stopped
+    ports:
+      - "${RSSHUB_PORT:-1200}:1200"
+    environment:
+      NODE_ENV: production
+      CACHE_TYPE: redis
+      REDIS_URL: redis://redis:6379/
+      # Twitter：浏览器登录 x.com 后，从 Cookie 中取 auth_token
+      TWITTER_AUTH_TOKEN: ${TWITTER_AUTH_TOKEN:-}
+      # 小红书：浏览器登录后复制完整 Cookie
+      XIAOHONGSHU_COOKIE: ${XIAOHONGSHU_COOKIE:-}
+      # 可选：降低被限流概率
+      REQUEST_RETRY: 3
+    depends_on:
+      - redis
+
+volumes:
+  redis-data:
