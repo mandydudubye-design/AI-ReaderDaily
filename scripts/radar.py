@@ -441,6 +441,60 @@ def merge_stories(items: list[dict], now: dt.datetime) -> list[dict]:
     return stories
 
 
+def _load_snapshot_history(max_snapshots: int = 48) -> list[tuple[str, list[dict]]]:
+    history: list[tuple[str, list[dict]]] = []
+    for path in sorted(DATA.glob("snapshot-*.json"))[-max_snapshots:]:
+        payload = read_json(path, {})
+        if not payload:
+            continue
+        ts = payload.get("run_time") or payload.get("generated_at") or path.stem.replace("snapshot-", "")
+        history.append((str(ts), payload.get("items") or []))
+    return history
+
+
+def _match_item_points(title: str, url: str, history: list[tuple[str, list[dict]]]) -> list[dict]:
+    url = (url or "").split("?")[0]
+    points: list[dict] = []
+    for ts, items in history:
+        best_score = 0
+        best_sources = 0
+        for item in items:
+            item_url = (item.get("url") or "").split("?")[0]
+            same_url = bool(url and item_url and url == item_url)
+            similar = _title_similarity(title, item.get("title", "")) >= 0.35
+            if not (same_url or similar):
+                continue
+            best_score = max(best_score, int(item.get("score") or 0))
+            best_sources = max(best_sources, int(item.get("source_count") or 1))
+        if best_score > 0:
+            points.append({"ts": ts, "score": best_score, "source_count": best_sources})
+    return points
+
+
+def attach_story_heat_trends(stories: list[dict], max_snapshots: int = 48) -> None:
+    """Attach per-story heat trend points from recent hourly snapshots."""
+    history = _load_snapshot_history(max_snapshots)
+    for story in stories:
+        title = story.get("title", "")
+        url = story.get("primary_url", "")
+        points = _match_item_points(title, url, history)
+        story["story_id"] = stable_id(title, url)
+        story["heat_trend"] = points[-24:]
+        story["heat_delta"] = 0
+        if len(points) >= 2:
+            story["heat_delta"] = points[-1]["source_count"] - points[0]["source_count"]
+
+
+def attach_item_heat_trends(items: list[dict], max_snapshots: int = 48) -> None:
+    history = _load_snapshot_history(max_snapshots)
+    for item in items:
+        points = _match_item_points(item.get("title", ""), item.get("url", ""), history)
+        item["heat_trend"] = points[-24:]
+        item["heat_delta"] = 0
+        if len(points) >= 2:
+            item["heat_delta"] = points[-1]["source_count"] - points[0]["source_count"]
+
+
 # ---------- SOURCE HEALTH STATS ----------
 def build_source_stats(
     src_config: list[dict],
@@ -646,6 +700,8 @@ def main():
 
     # === 故事线合并（多源聚簇）===
     stories = merge_stories(diverse_items, now)
+    attach_story_heat_trends(stories)
+    attach_item_heat_trends(diverse_items)
     stories_s = [s for s in stories if s["importance_label"] == "S"]
     stories_a = [s for s in stories if s["importance_label"] == "A"]
     print(f"[radar] 故事线合并: {len(stories)} 条故事 | S 级: {len(stories_s)} | A 级: {len(stories_a)}")
