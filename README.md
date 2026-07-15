@@ -51,6 +51,7 @@ python3 scripts/radar.py
 | 变量 | 说明 |
 | --- | --- |
 | `RADAR_FETCH_WORKERS` | 并发抓取线程数，默认 8 |
+| `RSSHUB_FETCH_WORKERS` | RSSHub 专用并发数，默认 2（避免搜狗/公众号路由超时） |
 | `RADAR_MAX_ITEMS` | 输出热点条数上限，默认 150 |
 | `RSSHUB_BASE_URL` | 自建 RSSHub 地址 |
 

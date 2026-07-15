@@ -44,6 +44,7 @@ DATA.mkdir(parents=True, exist_ok=True)
 USER_AGENT = "MarenAIRadar/1.0 (+https://github.com/mandydudubye-design/maren-ai-radar)"
 RSSHUB_BASE = os.environ.get("RSSHUB_BASE_URL", "https://rsshub.rssforever.com").rstrip("/")
 FETCH_WORKERS = max(1, min(int(os.environ.get("RADAR_FETCH_WORKERS", "8")), 16))
+RSSHUB_FETCH_WORKERS = max(1, min(int(os.environ.get("RSSHUB_FETCH_WORKERS", "2")), 8))
 MAX_OUTPUT_ITEMS = int(os.environ.get("RADAR_MAX_ITEMS", "150"))
 PER_SOURCE_LIMITS = {
     "keyword": 5,
@@ -273,9 +274,20 @@ def fetch_radar_daily_brief(url: str) -> list[dict]:
         })
     return items
 
+def is_rsshub_url(url: str) -> bool:
+    u = (url or "").lower()
+    return "rsshub" in u or RSSHUB_BASE.lower() in u
+
+
+def source_uses_rsshub(src: dict) -> bool:
+    urls = [src.get("url", "")] + list(src.get("fallback_urls") or [])
+    return any(is_rsshub_url(resolve_source_url(u)) for u in urls if u)
+
+
 def fetch_rss(url: str, source_name: str = "") -> list[dict]:
     """Fetch RSS feed items"""
-    text = fetch_text(url)
+    timeout = 35 if is_rsshub_url(url) else 15
+    text = fetch_text(url, timeout=timeout)
     items = []
     try:
         root = ET.fromstring(text)
@@ -781,32 +793,45 @@ def main():
     run_time = now.strftime("%Y-%m-%d %H:%M (UTC)")
 
     print(f"[radar] 开始运行 | {run_time}")
-    print(f"[radar] 共 {len(sources)} 个源 | 并发 {FETCH_WORKERS} 线程")
+    print(f"[radar] 共 {len(sources)} 个源 | 并发 {FETCH_WORKERS}/{RSSHUB_FETCH_WORKERS} (普通/RSSHub)")
 
     enabled_sources = [src for src in sources if src.get("enabled", True)]
-    with ThreadPoolExecutor(max_workers=FETCH_WORKERS) as pool:
-        futures = {pool.submit(fetch_one_source, src, scoring): src for src in enabled_sources}
-        for future in as_completed(futures):
-            src = futures[future]
-            sid = src.get("id", "?")
-            sname = src.get("name", sid)
-            try:
-                sid, sname, items, ok, duration = future.result()
-            except Exception as e:
-                print(f"  [异常] {sid} ({sname}): {e}")
-                ok = False
-                items = []
-                duration = 0.0
+    fast_sources = [src for src in enabled_sources if not source_uses_rsshub(src)]
+    rsshub_sources = [src for src in enabled_sources if source_uses_rsshub(src)]
 
-            fetch_durations[sid] = duration
-            if ok:
-                all_items.extend(items)
-                print(f"  [OK] {sid} ({sname}) → {len(items)} 条")
-            elif src.get("soft_fail", False):
-                print(f"  [可选源跳过] {sid} ({sname}) — 需自建 RSSHub 或 Cookie 鉴权")
-            else:
-                failed_sources.append(sname)
-                print(f"  [失败] {sid} ({sname})")
+    def process_future(future, src):
+        nonlocal all_items, failed_sources, fetch_durations
+        sid = src.get("id", "?")
+        sname = src.get("name", sid)
+        try:
+            sid, sname, items, ok, duration = future.result()
+        except Exception as e:
+            print(f"  [异常] {sid} ({sname}): {e}")
+            ok = False
+            items = []
+            duration = 0.0
+
+        fetch_durations[sid] = duration
+        if ok:
+            all_items.extend(items)
+            print(f"  [OK] {sid} ({sname}) → {len(items)} 条")
+        elif src.get("soft_fail", False):
+            print(f"  [可选源跳过] {sid} ({sname}) — 需自建 RSSHub 或 Cookie 鉴权")
+        else:
+            failed_sources.append(sname)
+            print(f"  [失败] {sid} ({sname})")
+
+    if fast_sources:
+        with ThreadPoolExecutor(max_workers=FETCH_WORKERS) as pool:
+            futures = {pool.submit(fetch_one_source, src, scoring): src for src in fast_sources}
+            for future in as_completed(futures):
+                process_future(future, futures[future])
+
+    if rsshub_sources:
+        with ThreadPoolExecutor(max_workers=RSSHUB_FETCH_WORKERS) as pool:
+            futures = {pool.submit(fetch_one_source, src, scoring): src for src in rsshub_sources}
+            for future in as_completed(futures):
+                process_future(future, futures[future])
 
     # 去重
     seen_ids = set()
