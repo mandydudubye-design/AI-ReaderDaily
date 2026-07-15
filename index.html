@@ -136,37 +136,51 @@ a:hover { text-decoration: underline; }
 .tab-pane { display: none; }
 .tab-pane.active { display: block; }
 
-/* Story card */
-.story-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 14px; margin-bottom: 8px; transition: border-color 0.15s; }
-.story-card:hover { border-color: var(--accent); }
-.story-card .story-title { font-size: 14px; font-weight: 600; margin-bottom: 4px; line-height: 1.5; }
-.story-card .story-title a { color: var(--text); }
-.story-card .story-title a:hover { color: var(--accent2); }
-.story-badges { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; margin-bottom: 4px; }
-.story-meta { display: flex; gap: 8px; font-size: 12px; color: var(--text2); flex-wrap: wrap; align-items: center; }
-.story-sources { font-size: 11px; color: var(--text3); margin-top: 4px; background: var(--bg3); padding: 4px 8px; border-radius: 4px; }
+/* Storyline (LearnPrompt-style) */
+.hot-board-wrap { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 14px; overflow: hidden; }
+.hot-board-head { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; border-bottom: 1px solid var(--border); }
+.hot-board-head h3 { font-size: 14px; font-weight: 700; }
+.hot-board-meta { font-size: 12px; color: var(--text3); }
+.hot-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; min-height: 40px; padding: 8px 14px; border-top: 1px solid var(--border); }
+.hot-row .event-expand-list { flex: 1 1 100%; margin-left: 34px; }
+.hot-row:first-child { border-top: 0; }
+.hot-row-rank { flex: 0 0 auto; min-width: 24px; color: var(--accent2); font-weight: 800; }
+.hot-row-title { min-width: 0; flex: 1 1 auto; overflow: hidden; color: var(--text); font-size: 14px; text-decoration: none; text-overflow: ellipsis; white-space: nowrap; }
+.hot-row-title:hover { color: var(--accent2); }
+.hot-row-meta { flex: 0 0 auto; color: var(--text3); font-size: 12px; white-space: nowrap; }
+.hot-row-source-toggle { background: none; border: none; color: var(--accent2); font-size: 12px; cursor: pointer; padding: 0; font-family: inherit; }
+.hot-row-source-toggle:hover { text-decoration: underline; }
+.date-group-header { margin-top: 4px; padding: 10px 4px 6px; border-top: 1px solid var(--border); display: flex; align-items: baseline; gap: 6px; font-size: 13px; font-weight: 800; }
+.date-group-header:first-child { margin-top: 0; border-top: 0; }
+.date-group-meta { color: var(--text3); font-weight: 400; }
+.timeline-item { position: relative; display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 0 10px; padding-bottom: 8px; }
+.timeline-item::before { content: ""; position: absolute; top: 0; bottom: 0; left: 36px; width: 1px; background: var(--border); transform: translateX(-50%); }
+.timeline-item:has(+ .timeline-item)::before { bottom: -8px; }
+.timeline-rail { display: flex; flex-direction: column; align-items: center; padding: 13px 0; }
+.timeline-time { font-size: 11px; color: var(--text3); font-variant-numeric: tabular-nums; }
+.timeline-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: 6px; }
+.story-feed-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 14px; }
+.story-feed-card:hover { border-color: var(--accent); }
+.story-feed-top { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; margin-bottom: 6px; }
+.story-feed-title { font-size: 14px; font-weight: 600; line-height: 1.5; flex: 1; }
+.story-feed-title a { color: var(--text); }
+.story-feed-title a:hover { color: var(--accent2); }
+.story-feed-chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 6px; }
+.multi-chip { padding: 2px 8px; border-radius: 4px; border: 1px solid var(--border); background: var(--bg3); color: var(--text); font-size: 11px; font-weight: 600; cursor: pointer; font-family: inherit; }
+.multi-chip:hover, .multi-chip[aria-expanded="true"] { border-color: var(--accent); color: var(--accent2); }
+.semantic-chip { padding: 2px 8px; border-radius: 4px; font-size: 11px; background: rgba(168,85,247,0.15); color: var(--purple); border: 1px solid rgba(168,85,247,0.2); }
+.event-expand-list { display: grid; gap: 6px; margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--border); }
+.event-expand-list[hidden] { display: none !important; }
+.event-source-row { display: grid; grid-template-columns: 1fr auto auto; gap: 8px; align-items: center; font-size: 12px; padding: 4px 0; }
+.event-source-title { color: var(--text); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.event-source-title:hover { color: var(--accent2); }
+.event-source-name { color: var(--text3); white-space: nowrap; }
+.event-source-time { color: var(--text3); white-space: nowrap; font-size: 11px; }
 .heat-text { margin-top: 6px; font-size: 11px; color: var(--text3); line-height: 1.5; }
 .heat-text strong { color: var(--orange); font-weight: 600; }
 .heat-text.up strong { color: var(--green); }
 .heat-text.down strong { color: var(--text2); }
 .heat-text.hot strong { color: var(--red); }
-.item-card.clickable { cursor: pointer; }
-.item-card.clickable:hover { border-color: var(--accent); }
-.item-card .open-story-hint { font-size: 11px; color: var(--accent2); margin-top: 6px; }
-
-/* Story modal */
-.story-modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.55); z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px; }
-.story-modal-backdrop.open { display: flex; }
-.story-modal { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; max-width: 720px; width: 100%; max-height: 85vh; overflow: auto; padding: 18px 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
-.story-modal-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
-.story-modal-title { font-size: 16px; font-weight: 700; line-height: 1.5; }
-.story-modal-close { background: var(--bg3); border: 1px solid var(--border); color: var(--text2); border-radius: 6px; padding: 4px 10px; cursor: pointer; flex-shrink: 0; }
-.story-modal-close:hover { color: var(--text); border-color: var(--accent); }
-.story-modal-items { margin-top: 12px; }
-.story-modal-item { padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 6px; background: var(--bg3); font-size: 13px; }
-.story-modal-item a { color: var(--text); font-weight: 500; }
-.story-modal-item a:hover { color: var(--accent2); }
-.story-modal-item-meta { font-size: 11px; color: var(--text3); margin-top: 4px; }
 
 /* Health panel */
 .health-summary { display: flex; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
@@ -260,8 +274,15 @@ a:hover { text-decoration: underline; }
   <!-- TAB: 故事线 -->
   <div class="tab-pane" id="tab-stories">
     <div class="stats" id="storyStatsBar"></div>
+    <div class="hot-board-wrap" id="hotBoardWrap">
+      <div class="hot-board-head">
+        <h3>🔥 当前热点</h3>
+        <span class="hot-board-meta" id="hotBoardMeta">多信源交叉 · 按热度排序</span>
+      </div>
+      <div id="hotBoardList"></div>
+    </div>
     <div class="result-count" id="storyCount"></div>
-    <div id="storyList"></div>
+    <div id="storyTimeline"></div>
   </div>
 
   <!-- TAB: 信源健康 -->
@@ -276,17 +297,7 @@ a:hover { text-decoration: underline; }
   <div class="footer">
     Powered by <a href="https://github.com/mandydudubye-design/AI-ReaderDaily" target="_blank">Maren AI Radar</a>
     · 数据来自 LearnPrompt AI News Radar + 官方 RSS + 公众号 / Twitter / 小红书 + 国内信源
-    · 每小时自动更新 · 看板 v2026.07.15.6
-  </div>
-</div>
-
-<div class="story-modal-backdrop" id="storyModal" onclick="if(event.target===this)closeStoryModal()">
-  <div class="story-modal" role="dialog" aria-modal="true">
-    <div class="story-modal-header">
-      <div class="story-modal-title" id="storyModalTitle"></div>
-      <button class="story-modal-close" type="button" onclick="closeStoryModal()">关闭</button>
-    </div>
-    <div id="storyModalBody"></div>
+    · 每小时自动更新 · 看板 v2026.07.15.8
   </div>
 </div>
 
@@ -459,14 +470,16 @@ function renderItems(items) {
     const sourceShort = (it.source || '').replace(/^https?:\/\//, '').split('/')[0];
     const stType = it.source_type || 'rss';
     const heatTrend = it.heat_trend || [];
-    const storyId = it.story_id || '';
+    const story = it.story_id ? storyById[it.story_id] : null;
     const heatHtml = heatTrend.length >= 2
       ? formatHeatText(heatTrend, it.heat_delta)
       : (it.source_count > 1 ? `<div class="heat-text"><strong>多源共振</strong> · ${it.source_count} 个来源同时出现</div>` : '');
-    const clickable = storyId ? ' clickable' : '';
-    const storyHint = storyId ? '<div class="open-story-hint">点击查看故事线 · 覆盖多源详情</div>' : '';
+    const multiChip = story && storySourceCount(story) >= 2
+      ? `<button type="button" class="multi-chip" data-story-id="${story.story_id}" aria-expanded="false">多源 ${storySourceCount(story)} ▸</button>` : '';
+    const expandSlot = story && storySourceCount(story) >= 2
+      ? `<div class="event-expand-list" data-expand-for="${story.story_id}" hidden></div>` : '';
     return `
-      <div class="item-card${clickable}" data-story-id="${storyId}">
+      <div class="item-card" data-item-id="${it.id || ''}">
         <div class="item-top">
           <div class="item-title"><a href="${it.url || '#'}" target="_blank" rel="noopener">${zhTitle || it.title}</a></div>
           <div class="item-badges">
@@ -481,12 +494,13 @@ function renderItems(items) {
           ${it.source_count > 1 ? `<span class="meta-tag">🔗 ${it.source_count}源</span>` : ''}
           ${sources ? `<span class="meta-tag">📡 ${sources}</span>` : ''}
           ${discoveryTag(it)}
+          ${multiChip}
           ${timeStr ? `<span>🕐 ${timeStr}</span>` : ''}
           ${it.importance_label ? `<span>⭐ ${it.importance_label}</span>` : ''}
         </div>
         ${reasonStr ? `<div class="item-reasons">💡 ${reasonStr}</div>` : ''}
         ${heatHtml}
-        ${storyHint}
+        ${expandSlot}
       </div>`;
   }).join('');
 
@@ -629,9 +643,11 @@ function switchTab(tab) {
   if (tab === 'all') applyFilters();
 }
 
-// === Story rendering ===
+// === Story rendering (LearnPrompt-style) ===
 let storiesData = [];
 let storyById = {};
+const HOT_DECAY_HOURS = 12;
+const HOT_BOARD_LIMIT = 20;
 
 function buildStoryIndex() {
   storyById = {};
@@ -641,129 +657,242 @@ function buildStoryIndex() {
     for (const id of s.cluster_item_ids || []) itemToStory[id] = s.story_id;
   }
   for (const it of allItems) {
-    if (!it.story_id && it.id && itemToStory[it.id]) {
-      it.story_id = itemToStory[it.id];
-    }
+    if (!it.story_id && it.id && itemToStory[it.id]) it.story_id = itemToStory[it.id];
   }
 }
 
-function findStoryForItem(item) {
-  if (item.story_id && storyById[item.story_id]) return storyById[item.story_id];
-  const title = (item.title || '').toLowerCase();
-  return storiesData.find(s => {
-    const st = (s.title || '').toLowerCase();
-    return st && (st.includes(title.slice(0, 20)) || title.includes(st.slice(0, 20)));
-  });
+function storySources(story) {
+  return story.sources || story.cluster_items || story.items || [];
 }
 
-function openStoryModal(storyId, fallbackItem) {
-  const story = storyById[storyId] || (fallbackItem ? findStoryForItem(fallbackItem) : null);
-  if (!story) {
-    switchTab('stories');
+function storySourceCount(story) {
+  const n = Number(story.duplicate_count || story.source_count || 0);
+  if (n > 0) return n;
+  return Math.max(1, storySources(story).length);
+}
+
+function storyTimeMs(story, field = 'latest_at') {
+  const raw = story[field] || story.latest_at || story.earliest_at;
+  if (!raw) return 0;
+  const ms = Date.parse(raw);
+  return Number.isFinite(ms) ? ms : 0;
+}
+
+function storyHotness(story) {
+  const sources = storySourceCount(story);
+  if (sources < 2) return 0;
+  const latest = storyTimeMs(story, 'latest_at') || storyTimeMs(story, 'earliest_at');
+  const ageHours = latest ? Math.max(0, (Date.now() - latest) / 3600000) : 24;
+  return (sources - 1) * Math.exp(-ageHours / HOT_DECAY_HOURS);
+}
+
+function storyRepresentative(story) {
+  const sources = storySources(story);
+  return story.primary_item || sources[0] || story;
+}
+
+function dedupedStorySources(story) {
+  const sources = storySources(story);
+  const primary = storyRepresentative(story);
+  const primaryUrl = primary.url || story.primary_url || '';
+  const filtered = primaryUrl ? sources.filter(s => s && s.url !== primaryUrl) : sources;
+  return filtered.length ? filtered : sources;
+}
+
+function buildEventSourceListHtml(story) {
+  const sources = dedupedStorySources(story);
+  if (!sources.length) return '';
+  return sources.map(src => `
+    <div class="event-source-row">
+      <a class="event-source-title" href="${src.url || '#'}" target="_blank" rel="noopener">${src.title || '无标题'}</a>
+      <span class="event-source-name">${src.source || src.source_name || ''}</span>
+      <span class="event-source-time">${formatTime(src.published_at)}</span>
+    </div>`).join('');
+}
+
+function toggleStoryExpand(btn) {
+  const storyId = btn.dataset.storyId;
+  const story = storyById[storyId];
+  if (!story) return;
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  const row = btn.closest('.hot-row, .item-card, .story-feed-card');
+  let list = row?.querySelector(`[data-expand-for="${storyId}"]`);
+  if (!list) {
+    list = document.createElement('div');
+    list.className = 'event-expand-list';
+    list.dataset.expandFor = storyId;
+    if (row) row.appendChild(list);
+    else btn.insertAdjacentElement('afterend', list);
+  }
+  if (expanded) {
+    list.hidden = true;
+    btn.setAttribute('aria-expanded', 'false');
+    btn.textContent = btn.textContent.replace('▾', '▸');
     return;
   }
-  const modal = document.getElementById('storyModal');
-  const titleEl = document.getElementById('storyModalTitle');
-  const bodyEl = document.getElementById('storyModalBody');
-  const trend = story.heat_trend || [];
-  const delta = Number(story.heat_delta || 0);
-  const items = story.cluster_items || [];
-  titleEl.innerHTML = `<span class="grade-badge grade-${story.importance_label}">${story.importance_label}</span> ${translateTitle(story.title)}`;
-  bodyEl.innerHTML = `
-    <div class="story-meta">
-      <span>📡 ${story.source_count} 个信源</span>
-      <span>📦 ${story.item_count || items.length} 条相关</span>
-      <span>⭐ 综合分 ${story.importance_score}</span>
-    </div>
-    ${(story.source_names || []).length ? `<div class="story-sources">📰 覆盖: ${(story.source_names || []).join(', ')}</div>` : ''}
-    ${trend.length >= 2 ? formatHeatText(trend, delta) : ''}
-    <div class="story-modal-items">
-      <div style="font-size:12px;color:var(--text2);margin-bottom:6px">故事线关联条目</div>
-      ${items.length ? items.map(it => `
-        <div class="story-modal-item">
-          <a href="${it.url || '#'}" target="_blank" rel="noopener">${it.title || '无标题'}</a>
-          <div class="story-modal-item-meta">${it.source || ''} · ${it.grade || ''} · ${it.score || ''}</div>
-        </div>`).join('') : `<div class="story-modal-item"><a href="${story.primary_url || '#'}" target="_blank" rel="noopener">查看原文</a></div>`}
-    </div>`;
-  modal.classList.add('open');
+  list.innerHTML = buildEventSourceListHtml(story);
+  list.hidden = false;
+  btn.setAttribute('aria-expanded', 'true');
+  btn.textContent = btn.textContent.replace('▸', '▾');
 }
 
-function closeStoryModal() {
-  document.getElementById('storyModal').classList.remove('open');
+function dateGroupKey(ms) {
+  if (!ms) return 'unknown';
+  const d = new Date(ms);
+  return `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
 }
 
-document.getElementById('itemList').addEventListener('click', (e) => {
-  if (e.target.closest('a')) return;
-  const card = e.target.closest('.item-card[data-story-id]');
-  if (!card || !card.dataset.storyId) return;
-  const item = allItems.find(it => it.story_id === card.dataset.storyId) || allItems.find(it => (it.title || '').slice(0, 30) === card.querySelector('.item-title')?.textContent?.slice(0, 30));
-  openStoryModal(card.dataset.storyId, item);
-});
+function dateGroupLabel(ms) {
+  if (!ms) return '时间未知';
+  const d = new Date(ms);
+  const now = new Date();
+  const opts = d.getFullYear() === now.getFullYear()
+    ? { month: 'long', day: 'numeric' }
+    : { year: 'numeric', month: 'long', day: 'numeric' };
+  return new Intl.DateTimeFormat('zh-CN', opts).format(d);
+}
 
-document.getElementById('storyList').addEventListener('click', (e) => {
-  if (e.target.closest('a')) return;
-  const card = e.target.closest('.story-card[data-story-id]');
-  if (card) openStoryModal(card.dataset.storyId);
-});
+function dateGroupWeekday(ms) {
+  if (!ms) return '';
+  return new Intl.DateTimeFormat('zh-CN', { weekday: 'long' }).format(new Date(ms));
+}
 
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') closeStoryModal();
-});
-async function loadStories() {
-  try {
-    const resp = await fetch('data/stories-merged.json');
-    if (!resp.ok) throw new Error(resp.status);
-    const data = await resp.json();
-    storiesData = data.stories || [];
-    renderStories(storiesData);
-  } catch (e) {
-    document.getElementById('storyList').innerHTML = `<div class="empty-msg">⚠️ 故事线数据加载失败：${e.message}<br>请确认 data/stories-merged.json 存在</div>`;
+function fmtHHMM(ms) {
+  if (!ms) return '--:--';
+  return new Intl.DateTimeFormat('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(ms));
+}
+
+function renderHotBoard(stories) {
+  const list = document.getElementById('hotBoardList');
+  const meta = document.getElementById('hotBoardMeta');
+  const hot = stories
+    .filter(s => storySourceCount(s) >= 2 && storyHotness(s) > 0)
+    .sort((a, b) => storyHotness(b) - storyHotness(a))
+    .slice(0, HOT_BOARD_LIMIT);
+
+  if (!hot.length) {
+    meta.textContent = '暂无多信源交叉热点';
+    list.innerHTML = '<div class="empty-msg" style="padding:16px">当前没有 2 个以上信源同时报道的事件</div>';
+    return;
   }
+  meta.textContent = `当前 ${hot.length} 条热点 · 按多源热度降序`;
+  list.innerHTML = hot.map((story, idx) => {
+    const rep = storyRepresentative(story);
+    const rel = formatTime(story.latest_at || rep.published_at);
+    const count = storySourceCount(story);
+    return `<div class="hot-row" data-story-id="${story.story_id}">
+      <span class="hot-row-rank">#${idx + 1}</span>
+      <a class="hot-row-title" href="${rep.url || story.primary_url || '#'}" target="_blank" rel="noopener">${translateTitle(story.title)}</a>
+      <span class="hot-row-meta">
+        <button type="button" class="hot-row-source-toggle multi-chip" data-story-id="${story.story_id}" aria-expanded="false">${count} 个信源 ▸</button>
+        · ${rel}
+      </span>
+      <div class="event-expand-list" data-expand-for="${story.story_id}" hidden></div>
+    </div>`;
+  }).join('');
 }
+
+function renderStoryFeedCard(story) {
+  const rep = storyRepresentative(story);
+  const count = storySourceCount(story);
+  const semantic = story.importance_label_cn || (count >= 3 ? '多源热议' : '值得关注');
+  const trend = story.heat_trend || [];
+  const multiBtn = count >= 2
+    ? `<button type="button" class="multi-chip" data-story-id="${story.story_id}" aria-expanded="false">多源 ${count} ▸</button>` : '';
+  return `<div class="story-feed-card" data-story-id="${story.story_id}">
+    <div class="story-feed-top">
+      <div class="story-feed-title"><a href="${rep.url || story.primary_url || '#'}" target="_blank" rel="noopener">${translateTitle(story.title)}</a></div>
+      <div class="item-badges">
+        <span class="grade-badge grade-${story.importance_label}">${story.importance_label}</span>
+        <span class="score-pill">${story.importance_score}</span>
+      </div>
+    </div>
+    <div class="story-feed-chips">
+      <span class="semantic-chip">${semantic}</span>
+      ${multiBtn}
+      <span class="meta-tag">${formatTime(story.latest_at || rep.published_at)}</span>
+    </div>
+    ${trend.length >= 2 ? formatHeatText(trend, story.heat_delta) : ''}
+    <div class="event-expand-list" data-expand-for="${story.story_id}" hidden></div>
+  </div>`;
+}
+
+function renderStoryTimeline(stories) {
+  const root = document.getElementById('storyTimeline');
+  const entries = stories
+    .map(story => ({ story, timeMs: storyTimeMs(story, 'latest_at') || storyTimeMs(story, 'earliest_at') }))
+    .sort((a, b) => b.timeMs - a.timeMs);
+
+  if (!entries.length) {
+    root.innerHTML = '<div class="empty-msg">暂无故事线数据</div>';
+    return;
+  }
+
+  let html = '';
+  let lastKey = null;
+  const groupCounts = {};
+  entries.forEach(e => { const k = dateGroupKey(e.timeMs); groupCounts[k] = (groupCounts[k] || 0) + 1; });
+
+  entries.forEach(({ story, timeMs }) => {
+    const key = dateGroupKey(timeMs);
+    if (key !== lastKey) {
+      html += `<div class="date-group-header"><span>${dateGroupLabel(timeMs)}</span><span class="date-group-meta">· ${dateGroupWeekday(timeMs)} · ${groupCounts[key]} 条</span></div>`;
+      lastKey = key;
+    }
+    html += `<div class="timeline-item">
+      <div class="timeline-rail"><span class="timeline-time">${fmtHHMM(timeMs)}</span><span class="timeline-dot"></span></div>
+      <div>${renderStoryFeedCard(story)}</div>
+    </div>`;
+  });
+  root.innerHTML = html;
+}
+
 function renderStories(stories) {
-  const list = document.getElementById('storyList');
   const countEl = document.getElementById('storyCount');
   const statsEl = document.getElementById('storyStatsBar');
   if (!stories.length) {
     countEl.textContent = '';
-    list.innerHTML = '<div class="empty-msg">暂无故事线数据</div>';
+    document.getElementById('hotBoardList').innerHTML = '';
+    document.getElementById('storyTimeline').innerHTML = '<div class="empty-msg">暂无故事线数据</div>';
     return;
   }
-  // Stats
   const s = stories.filter(s => s.importance_label === 'S').length;
   const a = stories.filter(s => s.importance_label === 'A').length;
-  const multi = stories.filter(s => s.source_count >= 3).length;
+  const multi = stories.filter(s => storySourceCount(s) >= 2).length;
   statsEl.innerHTML = `
     <div class="stat-card s"><div class="num">${s}</div><div class="label">S 故事</div></div>
     <div class="stat-card a"><div class="num">${a}</div><div class="label">A 故事</div></div>
-    <div class="stat-card"><div class="num">${multi}</div><div class="label">≥3源</div></div>
+    <div class="stat-card"><div class="num">${multi}</div><div class="label">多源</div></div>
     <div class="stat-card"><div class="num">${stories.length}</div><div class="label">总计</div></div>`;
-  countEl.textContent = `共 ${stories.length} 条故事线`;
-
-  list.innerHTML = stories.map(s => {
-    const impCls = `grade-${s.importance_label}`;
-    const timeStr = s.latest_at ? formatTime(s.latest_at) : '';
-    const srcNames = (s.source_names || []).join(', ');
-    const trend = s.heat_trend || [];
-    const delta = Number(s.heat_delta || 0);
-    const trendHtml = trend.length >= 2 ? formatHeatText(trend, delta) : '';
-    return `<div class="story-card clickable" data-story-id="${s.story_id || ''}" style="cursor:pointer">
-      <div class="story-badges">
-        <span class="grade-badge ${impCls}">${s.importance_label}</span>
-        <span class="score-pill">${s.importance_score}</span>
-        <span class="source-badge type-radar">${s.source_count}源</span>
-      </div>
-      <div class="story-title"><a href="${s.primary_url || '#'}" target="_blank" rel="noopener">${translateTitle(s.title)}</a></div>
-      <div class="story-meta">
-        <span>📡 ${s.source_count} 个信源</span>
-        <span>📦 ${s.item_count} 条</span>
-        ${timeStr ? `<span>🕐 ${timeStr}</span>` : ''}
-      </div>
-      ${srcNames ? `<div class="story-sources">📰 覆盖: ${srcNames}</div>` : ''}
-      ${trendHtml}
-    </div>`;
-  }).join('');
+  countEl.textContent = `时间线 ${stories.length} 条 · 点击「多源 N ▸」展开各信源报道`;
+  renderHotBoard(stories);
+  renderStoryTimeline(stories);
 }
+
+async function loadStories() {
+  if (storiesData.length) {
+    renderStories(storiesData);
+    return;
+  }
+  try {
+    const resp = await fetch(`data/stories-merged.json?v=${Date.now()}`, { cache: 'no-store' });
+    if (!resp.ok) throw new Error(resp.status);
+    const data = await resp.json();
+    storiesData = data.stories || [];
+    buildStoryIndex();
+    renderStories(storiesData);
+  } catch (e) {
+    document.getElementById('storyTimeline').innerHTML = `<div class="empty-msg">⚠️ 故事线数据加载失败：${e.message}</div>`;
+  }
+}
+
+document.addEventListener('click', (e) => {
+  const btn = e.target.closest('.multi-chip, .hot-row-source-toggle');
+  if (!btn || !btn.dataset.storyId) return;
+  e.preventDefault();
+  e.stopPropagation();
+  toggleStoryExpand(btn);
+});
 
 // === Health panel ===
 let healthData = null;

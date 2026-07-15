@@ -505,8 +505,8 @@ def merge_stories(items: list[dict], now: dt.datetime) -> list[dict]:
     if not items:
         return []
 
-    SIMILARITY_THRESHOLD = 0.35  # 词袋 Jaccard >= 0.35 认为同一事件
-    TIME_WINDOW_HOURS = 36       # 最多跨 36h 合并
+    SIMILARITY_THRESHOLD = 0.58  # LearnPrompt 用 0.86；此处略宽松以适配中文标题差异
+    TIME_WINDOW_HOURS = 24
 
     # 按时间排序（最新的在前）
     sorted_items = sorted(items, key=lambda i: i.get("published_at") or "", reverse=True)
@@ -602,8 +602,23 @@ def merge_stories(items: list[dict], now: dt.datetime) -> list[dict]:
             imp_label = "C"
 
         story_id = stable_id(best_title, primary_url)
+        cluster_payload = [
+            {
+                "id": c.get("id"),
+                "title": c.get("title"),
+                "url": c.get("url"),
+                "source": c.get("source"),
+                "source_name": c.get("source"),
+                "score": c.get("score"),
+                "grade": c.get("grade"),
+                "published_at": c.get("published_at"),
+            }
+            for c in cluster
+        ]
         for c in cluster:
             c["story_id"] = story_id
+
+        semantic_label = "多源热议" if source_count >= 3 else ("官方更新" if source_count >= 2 else "值得关注")
 
         stories.append({
             "story_id": story_id,
@@ -613,22 +628,18 @@ def merge_stories(items: list[dict], now: dt.datetime) -> list[dict]:
             "source_names": list(sources_set.keys()),
             "cluster_size": len(cluster),
             "item_count": len(cluster),
+            "duplicate_count": len(cluster),
             "cluster_item_ids": [c.get("id") for c in cluster if c.get("id")],
-            "cluster_items": [
-                {
-                    "id": c.get("id"),
-                    "title": c.get("title"),
-                    "url": c.get("url"),
-                    "source": c.get("source"),
-                    "score": c.get("score"),
-                    "grade": c.get("grade"),
-                }
-                for c in cluster
-            ],
+            "cluster_items": cluster_payload,
+            "sources": cluster_payload,
+            "items": cluster_payload,
+            "primary_item": cluster_payload[0] if cluster_payload else None,
             "earliest_at": earliest.isoformat().replace("+00:00", "Z") if earliest else None,
             "latest_at": latest.isoformat().replace("+00:00", "Z") if latest else None,
             "importance_score": round(heat, 1),
             "importance_label": imp_label,
+            "importance_label_cn": semantic_label,
+            "category": "multi_source" if source_count >= 2 else "watch",
         })
 
     # 按 importance 降序
