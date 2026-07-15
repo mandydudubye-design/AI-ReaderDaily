@@ -145,14 +145,11 @@ a:hover { text-decoration: underline; }
 .story-badges { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; margin-bottom: 4px; }
 .story-meta { display: flex; gap: 8px; font-size: 12px; color: var(--text2); flex-wrap: wrap; align-items: center; }
 .story-sources { font-size: 11px; color: var(--text3); margin-top: 4px; background: var(--bg3); padding: 4px 8px; border-radius: 4px; }
-.story-heat { margin-top: 8px; }
-.story-heat-label { font-size: 11px; color: var(--text3); margin-bottom: 4px; display: flex; justify-content: space-between; gap: 8px; }
-.story-heat-track { display: flex; align-items: flex-end; gap: 2px; height: 28px; padding: 4px 0; }
-.story-heat-bar { flex: 1; min-width: 3px; border-radius: 2px 2px 0 0; background: var(--accent); opacity: 0.85; }
-.story-heat-bar.empty { background: var(--bg4); opacity: 0.35; }
-.item-heat { margin-top: 6px; font-size: 11px; color: var(--text3); }
-.item-heat-track { display: flex; align-items: flex-end; gap: 2px; height: 18px; margin-top: 4px; }
-.item-heat-bar { flex: 1; min-width: 2px; border-radius: 2px 2px 0 0; background: var(--orange); opacity: 0.8; }
+.heat-text { margin-top: 6px; font-size: 11px; color: var(--text3); line-height: 1.5; }
+.heat-text strong { color: var(--orange); font-weight: 600; }
+.heat-text.up strong { color: var(--green); }
+.heat-text.down strong { color: var(--text2); }
+.heat-text.hot strong { color: var(--red); }
 .item-card.clickable { cursor: pointer; }
 .item-card.clickable:hover { border-color: var(--accent); }
 .item-card .open-story-hint { font-size: 11px; color: var(--accent2); margin-top: 6px; }
@@ -279,7 +276,7 @@ a:hover { text-decoration: underline; }
   <div class="footer">
     Powered by <a href="https://github.com/mandydudubye-design/AI-ReaderDaily" target="_blank">Maren AI Radar</a>
     · 数据来自 LearnPrompt AI News Radar + 官方 RSS + 公众号 / Twitter / 小红书 + 国内信源
-    · 每小时自动更新 · 看板 v2026.07.15.5
+    · 每小时自动更新 · 看板 v2026.07.15.6
   </div>
 </div>
 
@@ -402,20 +399,27 @@ function renderStats() {
   `;
 }
 
-function renderHeatBars(points, maxBars = 12, cls = 'story-heat-bar') {
-  if (!points || !points.length) return '';
-  const slice = points.slice(-maxBars);
-  const maxScore = Math.max(...slice.map(p => p.score || 0), 1);
-  return slice.map(p => {
-    const h = Math.max(4, Math.round(((p.score || 0) / maxScore) * 24));
-    const tip = `${p.ts || ''} · 评分 ${p.score || 0} · ${p.source_count || 1} 个信源`;
-    return `<span class="${cls}" style="height:${h}px" title="${tip}"></span>`;
-  }).join('');
-}
-
-function heatTrendLabel(points) {
+function formatHeatText(points, delta) {
+  if (!points || points.length < 2) return '';
   const n = points.length;
-  return `近 ${n} 次 hourly 评分走势（悬停看每次评分）`;
+  const first = points[0];
+  const last = points[points.length - 1];
+  const scores = points.map(p => p.score || 0);
+  const avg = Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+  const scoreDelta = (last.score || 0) - (first.score || 0);
+  const srcDelta = delta ?? ((last.source_count || 1) - (first.source_count || 1));
+
+  let label = '热度平稳';
+  let cls = '';
+  if (scores.every(s => s >= 95)) { label = '持续高热'; cls = 'hot'; }
+  else if (scoreDelta >= 8 || srcDelta > 0) { label = '持续升温'; cls = 'up'; }
+  else if (scoreDelta <= -8) { label = '正在降温'; cls = 'down'; }
+
+  const parts = [`<strong>${label}</strong>`, `近${n}次抓取`, `均分${avg}`];
+  if (srcDelta > 0) parts.push(`+${srcDelta}源共振`);
+  else if ((last.source_count || 1) > 1) parts.push(`${last.source_count}源`);
+  if (scoreDelta !== 0) parts.push(`评分 ${first.score || 0}→${last.score || 0}`);
+  return `<div class="heat-text ${cls}">📈 ${parts.join(' · ')}</div>`;
 }
 
 function filterSummary() {
@@ -456,11 +460,9 @@ function renderItems(items) {
     const stType = it.source_type || 'rss';
     const heatTrend = it.heat_trend || [];
     const storyId = it.story_id || '';
-    const heatHtml = heatTrend.length >= 2 ? `
-        <div class="item-heat">
-          <div title="每根柱 = 一次 hourly 抓取时该话题的综合评分；越高说明当时越热">${heatTrendLabel(heatTrend)}</div>
-          <div class="item-heat-track">${renderHeatBars(heatTrend, 12, 'item-heat-bar')}</div>
-        </div>` : (it.source_count > 1 ? `<div class="item-heat">🔥 ${it.source_count} 个来源同时出现</div>` : '');
+    const heatHtml = heatTrend.length >= 2
+      ? formatHeatText(heatTrend, it.heat_delta)
+      : (it.source_count > 1 ? `<div class="heat-text"><strong>多源共振</strong> · ${it.source_count} 个来源同时出现</div>` : '');
     const clickable = storyId ? ' clickable' : '';
     const storyHint = storyId ? '<div class="open-story-hint">点击查看故事线 · 覆盖多源详情</div>' : '';
     return `
@@ -665,7 +667,6 @@ function openStoryModal(storyId, fallbackItem) {
   const bodyEl = document.getElementById('storyModalBody');
   const trend = story.heat_trend || [];
   const delta = Number(story.heat_delta || 0);
-  const deltaText = delta > 0 ? `升温 +${delta} 源` : (delta < 0 ? `降温 ${delta} 源` : '热度平稳');
   const items = story.cluster_items || [];
   titleEl.innerHTML = `<span class="grade-badge grade-${story.importance_label}">${story.importance_label}</span> ${translateTitle(story.title)}`;
   bodyEl.innerHTML = `
@@ -675,7 +676,7 @@ function openStoryModal(storyId, fallbackItem) {
       <span>⭐ 综合分 ${story.importance_score}</span>
     </div>
     ${(story.source_names || []).length ? `<div class="story-sources">📰 覆盖: ${(story.source_names || []).join(', ')}</div>` : ''}
-    ${trend.length ? `<div class="story-heat"><div class="story-heat-label"><span>${heatTrendLabel(trend)}</span><span>${deltaText}</span></div><div class="story-heat-track">${renderHeatBars(trend, 16, 'story-heat-bar')}</div></div>` : ''}
+    ${trend.length >= 2 ? formatHeatText(trend, delta) : ''}
     <div class="story-modal-items">
       <div style="font-size:12px;color:var(--text2);margin-bottom:6px">故事线关联条目</div>
       ${items.length ? items.map(it => `
@@ -745,12 +746,7 @@ function renderStories(stories) {
     const srcNames = (s.source_names || []).join(', ');
     const trend = s.heat_trend || [];
     const delta = Number(s.heat_delta || 0);
-    const deltaText = delta > 0 ? `升温 +${delta} 源` : (delta < 0 ? `降温 ${delta} 源` : '热度平稳');
-    const trendHtml = trend.length ? `
-      <div class="story-heat">
-        <div class="story-heat-label"><span>${heatTrendLabel(trend)}</span><span>${deltaText}</span></div>
-        <div class="story-heat-track">${renderHeatBars(trend, 16, 'story-heat-bar')}</div>
-      </div>` : '';
+    const trendHtml = trend.length >= 2 ? formatHeatText(trend, delta) : '';
     return `<div class="story-card clickable" data-story-id="${s.story_id || ''}" style="cursor:pointer">
       <div class="story-badges">
         <span class="grade-badge ${impCls}">${s.importance_label}</span>
