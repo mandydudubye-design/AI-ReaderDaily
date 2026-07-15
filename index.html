@@ -198,32 +198,6 @@ a:hover { text-decoration: underline; }
   <!-- Stats bar -->
   <div class="stats" id="statsBar"></div>
 
-  <!-- Chart: Grade Distribution + Source Breakdown -->
-  <div class="chart-area">
-    <div class="chart-box">
-      <h3>📊 等级分布</h3>
-      <div class="chart-inner" id="gradeChart"></div>
-    </div>
-    <div class="chart-box">
-      <h3>📡 来源分布</h3>
-      <div class="chart-inner" id="sourceChart"></div>
-    </div>
-  </div>
-
-  <!-- Trend Chart: S/A/B/C 分布走势 -->
-  <div class="trend-box" id="trendBox" style="display:none;">
-    <h3>
-      <span>📈 热度走势 (近 48h)</span>
-      <span class="trend-legend">
-        <span class="lg-item"><span class="lg-dot" style="background:#ef4444"></span> S</span>
-        <span class="lg-item"><span class="lg-dot" style="background:#f59e0b"></span> A</span>
-        <span class="lg-item"><span class="lg-dot" style="background:#3b82f6"></span> B</span>
-        <span class="lg-item"><span class="lg-dot" style="background:#6b7280"></span> C</span>
-      </span>
-    </h3>
-    <canvas id="trendCanvas" height="140"></canvas>
-  </div>
-
   <!-- Tab Navigation -->
   <div class="tab-bar">
     <button class="tab-btn active" data-tab="all" onclick="switchTab('all')">📋 全部信号</button>
@@ -248,8 +222,9 @@ a:hover { text-decoration: underline; }
       <div class="filter-group">
         <span class="filter-label">分类:</span>
         <button class="filter-btn active" data-group="cat" data-val="all">全部</button>
-        <button class="filter-btn" data-group="cat" data-val="Agent">Agent</button>
-        <button class="filter-btn" data-group="cat" data-val="AI Coding">Coding</button>
+        <button class="filter-btn" data-group="cat" data-val="智能体">智能体</button>
+        <button class="filter-btn" data-group="cat" data-val="AI 编程">编程</button>
+        <button class="filter-btn" data-group="cat" data-val="模型">模型</button>
         <button class="filter-btn" data-group="cat" data-val="开源">开源</button>
         <button class="filter-btn" data-group="cat" data-val="产品">产品</button>
         <button class="filter-btn" data-group="cat" data-val="商业">商业</button>
@@ -318,14 +293,41 @@ const filters = { grade: 'all', cat: 'all', srctype: 'all' };
 const COLLAPSE_TOP = 15;
 
 const CAT_CLASSES = {
+  'AI 编程': 'cat-AI-Coding',
   'AI Coding': 'cat-AI-Coding',
+  '智能体': 'cat-Agent',
   'Agent': 'cat-Agent',
+  '模型': 'cat-产品',
   '开源': 'cat-开源',
   '产品': 'cat-产品',
   '商业': 'cat-商业',
   '多模态': 'cat-多模态',
   '其他': 'cat-其他',
 };
+
+const CAT_ALIASES = {
+  '智能体': ['智能体', 'Agent'],
+  'AI 编程': ['AI 编程', 'AI Coding'],
+  '模型': ['模型'],
+  '开源': ['开源'],
+  '产品': ['产品'],
+  '商业': ['商业'],
+  '多模态': ['多模态'],
+  '其他': ['其他'],
+};
+
+const DOMESTIC_SOURCES = ['36氪', 'IT之家', '知乎', '少数派'];
+
+function getSourceBucket(it) {
+  const src = it.source || '';
+  const st = (it.source_type || '').toLowerCase();
+  const url = (it.url || '').toLowerCase();
+  if (DOMESTIC_SOURCES.some(name => src.includes(name))) return 'domestic';
+  if (url.includes('rsshub') || src.toLowerCase().includes('rsshub')) return 'rsshub';
+  if (st === 'radar' || st === 'aggregator') return 'radar';
+  if (st === 'rss' || st === 'official' || st === 'github') return 'rss';
+  return st || 'other';
+}
 
 function translateTitle(title) {
   if (!title) return '';
@@ -359,34 +361,6 @@ function formatTime(isoStr) {
     const diffD = Math.round(diffH / 24);
     return `${diffD}d前`;
   } catch { return ''; }
-}
-
-function renderChart(items) {
-  // Grade distribution bar chart
-  const counts = { S: 0, A: 0, B: 0, C: 0 };
-  items.forEach(it => { const g = it.grade; if (counts[g] !== undefined) counts[g]++; });
-  const maxCount = Math.max(1, ...Object.values(counts));
-  const chartEl = document.getElementById('gradeChart');
-  chartEl.innerHTML = ['S','A','B','C'].map(g => {
-    const h = Math.round((counts[g] / maxCount) * 72);
-    return `<div class="chart-bar grade-${g.toLowerCase()}" style="height:${h}px"><span class="val">${counts[g]}</span><span class="lbl">${g}</span></div>`;
-  }).join('');
-
-  // Source type bar
-  const srcCounts = {};
-  items.forEach(it => {
-    const st = it.source_type || 'other';
-    srcCounts[st] = (srcCounts[st] || 0) + 1;
-  });
-  const srcMax = Math.max(1, ...Object.values(srcCounts));
-  const srcColors = { radar: '#a855f7', rss: '#3b82f6', scrape: '#14b8a6', other: '#6b7280' };
-  const srcLabels = { radar: '聚合', rss: '官方', scrape: '抓取', other: '其他' };
-  const srcEl = document.getElementById('sourceChart');
-  srcEl.innerHTML = Object.entries(srcCounts).map(([type, n]) => {
-    const h = Math.round((n / srcMax) * 72);
-    const color = srcColors[type] || '#6b7280';
-    return `<div class="chart-bar" style="height:${h}px;background:${color}"><span class="val">${n}</span><span class="lbl">${srcLabels[type]||type}</span></div>`;
-  }).join('');
 }
 
 function renderStats(items) {
@@ -482,11 +456,14 @@ function renderSourceHealth(items) {
 
 function setFilter(group, val) {
   filters[group] = val;
-  // Update button UI
   document.querySelectorAll(`.filter-btn[data-group="${group}"]`).forEach(b => {
     b.classList.toggle('active', b.dataset.val === val);
   });
-  applyFilters();
+  if (document.querySelector('.tab-btn.active')?.dataset.tab !== 'all') {
+    switchTab('all');
+  } else {
+    applyFilters();
+  }
 }
 
 function toggleHealth() {
@@ -506,11 +483,12 @@ function applyFilters() {
   }
   // Category filter
   if (filters.cat !== 'all') {
-    items = items.filter(it => it.category === filters.cat);
+    const allowed = CAT_ALIASES[filters.cat] || [filters.cat];
+    items = items.filter(it => allowed.includes(it.category));
   }
   // Source type filter
   if (filters.srctype !== 'all') {
-    items = items.filter(it => it.source_type === filters.srctype);
+    items = items.filter(it => getSourceBucket(it) === filters.srctype);
   }
   // Search
   const q = document.getElementById('searchInput').value.trim().toLowerCase();
@@ -534,7 +512,6 @@ function applyFilters() {
   document.getElementById('itemList').dataset.showAll = '';
 
   renderStats(items);
-  renderChart(items);
   renderItems(items);
   renderSourceHealth(allItems);
 }
@@ -554,121 +531,16 @@ async function loadData() {
   }
 }
 
-// Search input
+// Search + filter controls
 document.getElementById('searchInput').addEventListener('input', applyFilters);
 document.getElementById('sortSelect').addEventListener('change', applyFilters);
-
-// === Trend Chart ===
-async function loadAndRenderTrend() {
-  try {
-    const resp = await fetch('data/trend.json');
-    if (!resp.ok) return;
-    const data = await resp.json();
-    if (!data || data.length < 2) return;
-
-    document.getElementById('trendBox').style.display = '';
-    const canvas = document.getElementById('trendCanvas');
-    const dpr = window.devicePixelRatio || 1;
-    const rect = canvas.getBoundingClientRect();
-    canvas.width = rect.width * dpr;
-    canvas.height = rect.height * dpr;
-    const ctx = canvas.getContext('2d');
-    ctx.scale(dpr, dpr);
-
-    const W = rect.width, H = rect.height;
-    const pad = { top: 20, right: 12, bottom: 28, left: 36 };
-    const plotW = W - pad.left - pad.right;
-    const plotH = H - pad.top - pad.bottom;
-
-    // Find max across all stacks
-    const maxVal = Math.max(...data.map(d => d.s + d.a + d.b + d.c), 1);
-
-    // Grid lines
-    ctx.strokeStyle = '#2a2d3e';
-    ctx.lineWidth = 0.5;
-    for (let i = 0; i <= 4; i++) {
-      const y = pad.top + plotH - (i / 4) * plotH;
-      ctx.beginPath(); ctx.moveTo(pad.left, y); ctx.lineTo(W - pad.right, y); ctx.stroke();
-      ctx.fillStyle = '#6b7280';
-      ctx.font = '10px -apple-system, sans-serif';
-      ctx.textAlign = 'right';
-      ctx.fillText(Math.round(maxVal * i / 4), pad.left - 4, y + 3);
-    }
-
-    // Time labels (show ~5 evenly spaced)
-    const step = Math.max(1, Math.floor(data.length / 5));
-    ctx.textAlign = 'center';
-    ctx.fillStyle = '#6b7280';
-    for (let i = 0; i < data.length; i += step) {
-      const x = pad.left + (i / (data.length - 1)) * plotW;
-      const label = (data[i].ts || '').replace('(UTC)', '').trim().slice(5, 10);
-      ctx.fillText(label, x, H - 8);
-    }
-    // Last point label
-    if (data.length > 1) {
-      const lx = pad.left + plotW;
-      const ll = (data[data.length - 1].ts || '').replace('(UTC)', '').trim().slice(5, 10);
-      ctx.fillText(ll, lx, H - 8);
-    }
-
-    // Stacked area: C (bottom) → B → A → S (top)
-    const layers = ['c', 'b', 'a', 's'];
-    const colors = { c: 'rgba(107,114,128,0.35)', b: 'rgba(59,130,246,0.35)', a: 'rgba(245,158,11,0.35)', s: 'rgba(239,68,68,0.35)' };
-    const strokeColors = { c: '#6b7280', b: '#3b82f6', a: '#f59e0b', s: '#ef4444' };
-
-    // Compute stacked values
-    const stacked = data.map(d => {
-      let cum = 0;
-      const vals = {};
-      for (const key of layers) {
-        vals[key] = { base: cum, top: cum + (d[key] || 0) };
-        cum += d[key] || 0;
-      }
-      vals.total = cum;
-      return vals;
-    });
-
-    // Draw filled areas (bottom-up: s, a, b, c)
-    for (const key of layers) {
-      ctx.beginPath();
-      for (let i = 0; i < data.length; i++) {
-        const x = pad.left + (i / Math.max(data.length - 1, 1)) * plotW;
-        const y = pad.top + plotH - (stacked[i][key].top / maxVal) * plotH;
-        if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-      }
-      for (let i = data.length - 1; i >= 0; i--) {
-        const x = pad.left + (i / Math.max(data.length - 1, 1)) * plotW;
-        const y = pad.top + plotH - (stacked[i][key].base / maxVal) * plotH;
-        ctx.lineTo(x, y);
-      }
-      ctx.closePath();
-      ctx.fillStyle = colors[key];
-      ctx.fill();
-
-      // Stroke top line
-      ctx.beginPath();
-      for (let i = 0; i < data.length; i++) {
-        const x = pad.left + (i / Math.max(data.length - 1, 1)) * plotW;
-        const y = pad.top + plotH - (stacked[i][key].top / maxVal) * plotH;
-        if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-      }
-      ctx.strokeStyle = strokeColors[key];
-      ctx.lineWidth = 1.5;
-      ctx.stroke();
-    }
-
-    // Tooltip on hover
-    canvas.onmousemove = (e) => {
-      const mx = e.offsetX;
-      const idx = Math.round(((mx - pad.left) / plotW) * (data.length - 1));
-      if (idx < 0 || idx >= data.length) return;
-      const d = data[idx];
-      canvas.title = `${d.ts}\nS:${d.s} A:${d.a} B:${d.b} C:${d.c} 总:${d.total || (d.s+d.a+d.b+d.c)}`;
-    };
-  } catch (e) {
-    console.warn('Trend chart load failed:', e);
-  }
-}
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const group = btn.dataset.group;
+    const val = btn.dataset.val;
+    if (group && val !== undefined) setFilter(group, val);
+  });
+});
 
 // === Tab switching ===
 function switchTab(tab) {
@@ -676,6 +548,7 @@ function switchTab(tab) {
   document.querySelectorAll('.tab-pane').forEach(p => p.classList.toggle('active', p.id === `tab-${tab}`));
   if (tab === 'stories') loadStories();
   if (tab === 'health') loadHealth();
+  if (tab === 'all') applyFilters();
 }
 
 // === Story rendering ===
@@ -779,9 +652,7 @@ function renderHealth(sites, summary) {
 
 // Load
 loadData();
-loadAndRenderTrend();
-setInterval(() => { loadData(); loadAndRenderTrend(); }, 300000);
-window.addEventListener('resize', loadAndRenderTrend);
+setInterval(loadData, 300000);
 </script>
 </body>
 </html>
