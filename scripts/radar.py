@@ -601,13 +601,30 @@ def merge_stories(items: list[dict], now: dt.datetime) -> list[dict]:
         else:
             imp_label = "C"
 
+        story_id = stable_id(best_title, primary_url)
+        for c in cluster:
+            c["story_id"] = story_id
+
         stories.append({
+            "story_id": story_id,
             "title": best_title,
             "primary_url": primary_url,
             "source_count": source_count,
             "source_names": list(sources_set.keys()),
             "cluster_size": len(cluster),
             "item_count": len(cluster),
+            "cluster_item_ids": [c.get("id") for c in cluster if c.get("id")],
+            "cluster_items": [
+                {
+                    "id": c.get("id"),
+                    "title": c.get("title"),
+                    "url": c.get("url"),
+                    "source": c.get("source"),
+                    "score": c.get("score"),
+                    "grade": c.get("grade"),
+                }
+                for c in cluster
+            ],
             "earliest_at": earliest.isoformat().replace("+00:00", "Z") if earliest else None,
             "latest_at": latest.isoformat().replace("+00:00", "Z") if latest else None,
             "importance_score": round(heat, 1),
@@ -876,6 +893,9 @@ def main():
 
     # === 故事线合并（多源聚簇）===
     stories = merge_stories(diverse_items, now)
+    for item in diverse_items:
+        if not item.get("story_id"):
+            item["story_id"] = stable_id(item.get("title", ""), item.get("url", ""))
     attach_story_heat_trends(stories)
     attach_item_heat_trends(diverse_items)
     stories_s = [s for s in stories if s["importance_label"] == "S"]
