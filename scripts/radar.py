@@ -23,8 +23,10 @@ import subprocess
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
@@ -34,12 +36,162 @@ BASE = Path(__file__).resolve().parents[1]
 DATA = BASE / "data"
 SRC_CFG = BASE / "config" / "sources.json"
 SCORING_CFG = BASE / "config" / "scoring.json"
+SOCIAL_KW_CFG = BASE / "config" / "social-keywords.json"
+TWITTER_CREATORS_CFG = BASE / "config" / "twitter-creators.json"
 
 DATA.mkdir(parents=True, exist_ok=True)
 
 USER_AGENT = "MarenAIRadar/1.0 (+https://github.com/mandydudubye-design/maren-ai-radar)"
+RSSHUB_BASE = os.environ.get("RSSHUB_BASE_URL", "https://rsshub.rssforever.com").rstrip("/")
+FETCH_WORKERS = max(1, min(int(os.environ.get("RADAR_FETCH_WORKERS", "8")), 16))
+MAX_OUTPUT_ITEMS = int(os.environ.get("RADAR_MAX_ITEMS", "150"))
+PER_SOURCE_LIMITS = {
+    "keyword": 5,
+    "viral": 8,
+    "creator": 12,
+    "default": 15,
+}
 
 # ---------- HELPERS ----------
+def resolve_source_url(url: str) -> str:
+    """Allow RSSHub base override via RSSHUB_BASE_URL for Twitter / 小红书等需鉴权路由."""
+    if not url:
+        return url
+    return url.replace("{{RSSHUB_BASE}}", RSSHUB_BASE)
+
+
+def keyword_slug(text: str) -> str:
+    return hashlib.sha256(text.encode()).hexdigest()[:10]
+
+
+def expand_social_sources(base_sources: list[dict]) -> list[dict]:
+    """Expand keyword searches and Twitter creator feeds from sidecar configs."""
+    expanded = list(base_sources)
+
+    kw_cfg = read_json(SOCIAL_KW_CFG, {})
+    keywords = kw_cfg.get("keywords", [])
+    viral_queries = kw_cfg.get("twitter_viral_queries", [])
+    platforms = kw_cfg.get("platforms", {})
+
+    for platform, pcfg in platforms.items():
+        if not pcfg.get("enabled", True):
+            continue
+        route_tmpl = pcfg.get("route", "")
+        label = pcfg.get("label", platform)
+        priority = int(pcfg.get("priority", 65))
+        soft_fail = bool(pcfg.get("soft_fail", True))
+        note = pcfg.get("note", "")
+
+        for kw in keywords:
+            encoded = urllib.parse.quote(kw, safe="")
+            url = route_tmpl.replace("{keyword}", encoded)
+            expanded.append({
+                "id": f"{platform}_kw_{keyword_slug(kw)}",
+                "name": f"{label}·{kw}",
+                "type": "x_crawl_rss",
+                "platform": platform,
+                "url": url,
+                "enabled": True,
+                "priority": priority,
+                "soft_fail": soft_fail,
+                "keyword": kw,
+                "discovery_mode": "keyword",
+                "note": note,
+            })
+
+    for query in viral_queries:
+        encoded = urllib.parse.quote(query, safe="")
+        expanded.append({
+            "id": f"twitter_viral_{keyword_slug(query)}",
+            "name": f"Twitter爆款·{query}",
+            "type": "x_crawl_rss",
+            "platform": "twitter",
+            "url": "{{RSSHUB_BASE}}/twitter/keyword/" + encoded,
+            "enabled": True,
+            "priority": 66,
+            "soft_fail": True,
+            "keyword": query,
+            "discovery_mode": "viral",
+            "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub",
+        })
+
+    creators_cfg = read_json(TWITTER_CREATORS_CFG, {})
+    defaults = creators_cfg.get("defaults", {})
+    for creator in creators_cfg.get("creators", []):
+        handle = creator.get("handle", "")
+        if not handle:
+            continue
+        expanded.append({
+            "id": f"twitter_user_{handle.lower()}",
+            "name": f"Twitter·{creator.get('name', handle)}",
+            "type": "x_crawl_rss",
+            "platform": "twitter",
+            "url": f"{{{{RSSHUB_BASE}}}}/twitter/user/{handle}",
+            "enabled": True,
+            "priority": int(creator.get("priority", defaults.get("priority", 73))),
+            "soft_fail": bool(creator.get("soft_fail", defaults.get("soft_fail", True))),
+            "note": creator.get("note") or creator.get("followers_note") or defaults.get("note", ""),
+            "discovery_mode": "creator",
+        })
+
+    return expanded
+
+
+def per_source_cap(src: dict) -> int:
+    mode = src.get("discovery_mode", "")
+    return int(PER_SOURCE_LIMITS.get(mode, PER_SOURCE_LIMITS["default"]))
+
+
+def fetch_one_source(src: dict, scoring: dict) -> tuple[str, str, list[dict], bool, float]:
+    """Fetch a single configured source. Returns sid, sname, items, ok, duration."""
+    sid = src.get("id", "?")
+    sname = src.get("name", sid)
+    stype = src.get("type", "")
+    url = src.get("url", "")
+    fallbacks = src.get("fallback_urls", [])
+    platform = src.get("platform") or src.get("source_type") or ""
+    discovery_mode = src.get("discovery_mode", "")
+    keyword = src.get("keyword", "")
+
+    if not src.get("enabled", True):
+        return sid, sname, [], True, 0.0
+
+    ok = False
+    items: list[dict] = []
+    urls_to_try = [resolve_source_url(u) for u in [url] + fallbacks if u]
+    start_t = time.time()
+
+    for u in urls_to_try:
+        if not u:
+            continue
+        try:
+            if stype in ("json_daily_brief",):
+                items = fetch_radar_daily_brief(u)
+            elif stype in ("x_crawl_rss",):
+                items = fetch_rss(u, source_name=sname)
+                if src.get("filter_ai", False):
+                    items = [item for item in items if is_ai_relevant(item["title"], scoring)]
+            elif stype == "json_source_status":
+                fetch_text(u)
+                items = []
+            else:
+                raise ValueError(f"不支持的信源类型: {stype}")
+
+            for item in items:
+                item["_source_id"] = sid
+                if platform:
+                    item["source_type"] = platform
+                if discovery_mode:
+                    item["discovery_mode"] = discovery_mode
+                if keyword:
+                    item["keyword"] = keyword
+            ok = True
+            break
+        except Exception as e:
+            print(f"  [失败] {sid} ({sname}): {e}")
+
+    duration = round(time.time() - start_t, 2)
+    return sid, sname, items, ok, duration
 def now_utc() -> dt.datetime:
     return dt.datetime.now(dt.timezone.utc)
 
@@ -179,14 +331,25 @@ def fetch_rss(url: str, source_name: str = "") -> list[dict]:
                 "raw_score": raw_score,
                 "source_count": 1,
             })
+    if not items and "Welcome to RSSHub" in text:
+        raise RuntimeError("RSSHub 路由不可用（公共实例常需鉴权或已限流）")
     return items
 
 # ---------- SCORING ----------
 def infer_source_type(url: str, source_type: str = "") -> str:
     """Map feed origins to a small, configuration-driven trust taxonomy."""
     url = (url or "").lower()
+    st = (source_type or "").lower()
+    if st in ("wechat", "twitter", "xiaohongshu", "radar", "aggregator", "official", "github"):
+        return "aggregator" if st == "radar" else st
     if source_type == "radar":
         return "aggregator"
+    if "mp.weixin.qq.com" in url or "/wechat/" in url:
+        return "wechat"
+    if any(domain in url for domain in ["x.com/", "twitter.com/", "/twitter/"]):
+        return "twitter"
+    if any(domain in url for domain in ["xiaohongshu.com", "xhslink.com", "/xiaohongshu/"]):
+        return "xiaohongshu"
     if "github.com" in url or "github.blog" in url:
         return "github"
     if any(domain in url for domain in [
@@ -278,6 +441,9 @@ def build_information_card(item: dict) -> dict:
         "title": item.get("title"),
         "url": item.get("url"),
         "source": item.get("source"),
+        "source_type": item.get("source_type"),
+        "discovery_mode": item.get("discovery_mode"),
+        "keyword": item.get("keyword"),
         "published_at": item.get("published_at"),
         "category": category,
         "score": item.get("score"),
@@ -545,6 +711,9 @@ def build_source_stats(
             "site_name": sname,
             "ok": ok,
             "enabled": enabled,
+            "platform": src.get("platform", ""),
+            "discovery_mode": src.get("discovery_mode", ""),
+            "soft_fail": bool(src.get("soft_fail", False)),
             "item_count": item_count,
             "ai_count": ai_count,
             "ai_pct": ai_pct,
@@ -602,7 +771,7 @@ def push_breaking(item: dict):
 
 # ---------- MAIN ----------
 def main():
-    sources = read_json(SRC_CFG, [])
+    sources = expand_social_sources(read_json(SRC_CFG, []))
     scoring = read_json(SCORING_CFG, {})
 
     all_items: list[dict] = []
@@ -612,52 +781,32 @@ def main():
     run_time = now.strftime("%Y-%m-%d %H:%M (UTC)")
 
     print(f"[radar] 开始运行 | {run_time}")
-    print(f"[radar] 共 {len(sources)} 个源")
+    print(f"[radar] 共 {len(sources)} 个源 | 并发 {FETCH_WORKERS} 线程")
 
-    for src in sources:
-        sid = src.get("id", "?")
-        sname = src.get("name", sid)
-        stype = src.get("type", "")
-        url = src.get("url", "")
-        fallbacks = src.get("fallback_urls", [])
-        enabled = src.get("enabled", True)
-        if not enabled:
-            print(f"  [跳过] {sid}")
-            continue
-
-        ok = False
-        urls_to_try = [url] + fallbacks
-        start_t = time.time()
-        for u in urls_to_try:
-            if not u:
-                continue
+    enabled_sources = [src for src in sources if src.get("enabled", True)]
+    with ThreadPoolExecutor(max_workers=FETCH_WORKERS) as pool:
+        futures = {pool.submit(fetch_one_source, src, scoring): src for src in enabled_sources}
+        for future in as_completed(futures):
+            src = futures[future]
+            sid = src.get("id", "?")
+            sname = src.get("name", sid)
             try:
-                if stype in ("json_daily_brief",):
-                    items = fetch_radar_daily_brief(u)
-                elif stype in ("x_crawl_rss",):
-                    items = fetch_rss(u, source_name=sname)
-                    if src.get("filter_ai", False):
-                        items = [item for item in items if is_ai_relevant(item["title"], scoring)]
-                elif stype == "json_source_status":
-                    # Metadata-only upstream source: useful for provenance, but not a news feed.
-                    fetch_text(u)
-                    items = []
-                else:
-                    raise ValueError(f"不支持的信源类型: {stype}")
-
-                for item in items:
-                    item["_source_id"] = sid
-                all_items.extend(items)
-                print(f"  [OK] {sid} ({sname}) → {len(items)} 条 | {u[:60]}...")
-                ok = True
-                break
+                sid, sname, items, ok, duration = future.result()
             except Exception as e:
-                print(f"  [失败] {sid} ({sname}): {e}")
+                print(f"  [异常] {sid} ({sname}): {e}")
+                ok = False
+                items = []
+                duration = 0.0
 
-        fetch_durations[sid] = round(time.time() - start_t, 2)
-
-        if not ok:
-            failed_sources.append(sname)
+            fetch_durations[sid] = duration
+            if ok:
+                all_items.extend(items)
+                print(f"  [OK] {sid} ({sname}) → {len(items)} 条")
+            elif src.get("soft_fail", False):
+                print(f"  [可选源跳过] {sid} ({sname}) — 需自建 RSSHub 或 Cookie 鉴权")
+            else:
+                failed_sources.append(sname)
+                print(f"  [失败] {sid} ({sname})")
 
     # 去重
     seen_ids = set()
@@ -678,17 +827,19 @@ def main():
 
     unique_items.sort(key=lambda x: x.get("score", 0), reverse=True)
 
-    # === 多样性截取：每源最多保留 N 条，避免单源霸榜 ===
-    MAX_PER_SOURCE = 15
+    # === 多样性截取：按发现模式限流，避免关键词源霸榜 ===
+    source_meta = {src.get("id", "?"): src for src in sources}
     source_counters: dict[str, int] = {}
     diverse_items: list[dict] = []
     for item in unique_items:
+        src_id = item.get("_source_id", "unknown")
         src_key = item.get("source", "unknown")
+        cap = per_source_cap(source_meta.get(src_id, {}))
         cnt = source_counters.get(src_key, 0)
-        if cnt < MAX_PER_SOURCE:
+        if cnt < cap:
             diverse_items.append(item)
             source_counters[src_key] = cnt + 1
-        if len(diverse_items) >= 100:
+        if len(diverse_items) >= MAX_OUTPUT_ITEMS:
             break
 
     # 分级列表
@@ -718,7 +869,7 @@ def main():
         "s_count": len(s_items),
         "a_count": len(a_items),
         "failed_sources": failed_sources,
-        "items": diverse_items[:100],
+        "items": diverse_items[:MAX_OUTPUT_ITEMS],
         "s_items": s_items[:10],
         "a_items": a_items[:20],
     }
@@ -734,7 +885,7 @@ def main():
         "stories": stories,
     })
     write_json(DATA / "source-status.json", source_status)
-    cards = [build_information_card(item) for item in diverse_items[:100]]
+    cards = [build_information_card(item) for item in diverse_items[:MAX_OUTPUT_ITEMS]]
     write_json(DATA / "daily-brief.json", {
         "schema_version": "1.0",
         "generated_at": now.isoformat().replace("+00:00", "Z"),

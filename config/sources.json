@@ -137,5 +137,135 @@
     "priority": 70,
     "filter_ai": true,
     "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
+  },
+  {
+    "id": "wechat_jiqizhiixin",
+    "name": "公众号·机器之心",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/机器之心",
+    "enabled": true,
+    "priority": 92,
+    "note": "AI 产业与模型研究，RSSHub 搜狗公众号路由"
+  },
+  {
+    "id": "wechat_liangziwei",
+    "name": "公众号·量子位",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/量子位",
+    "enabled": true,
+    "priority": 91,
+    "note": "AI 新闻与产业动态"
+  },
+  {
+    "id": "wechat_xinzhiyuan",
+    "name": "公众号·新智元",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/新智元",
+    "enabled": true,
+    "priority": 90,
+    "note": "AI 产业资讯"
+  },
+  {
+    "id": "wechat_aitec",
+    "name": "公众号·AI科技评论",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/AI科技评论",
+    "enabled": true,
+    "priority": 88,
+    "note": "AI 技术与产业评论"
+  },
+  {
+    "id": "wechat_kaer",
+    "name": "公众号·卡尔的AI沃茨",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/卡尔的AI沃茨",
+    "enabled": true,
+    "priority": 87,
+    "note": "AI 工具与产品体验"
+  },
+  {
+    "id": "wechat_kazike",
+    "name": "公众号·数字生命卡兹克",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/数字生命卡兹克",
+    "enabled": true,
+    "priority": 86,
+    "note": "AI 应用与创作实践"
+  },
+  {
+    "id": "wechat_hunyuan",
+    "name": "公众号·腾讯混元",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/腾讯混元",
+    "enabled": true,
+    "priority": 85,
+    "note": "腾讯混元大模型官方动态"
+  },
+  {
+    "id": "wechat_minicpm",
+    "name": "公众号·面壁智能",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/面壁智能",
+    "enabled": true,
+    "priority": 84,
+    "note": "MiniCPM 等端侧模型"
+  },
+  {
+    "id": "wechat_xhs_tech",
+    "name": "公众号·小红书技术",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/小红书技术",
+    "enabled": true,
+    "priority": 83,
+    "note": "小红书 AI 技术团队（dots.llm 等），间接覆盖小红书官方技术信号"
+  },
+  {
+    "id": "wechat_baidu_ai",
+    "name": "公众号·百度智能云",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/百度智能云",
+    "enabled": true,
+    "priority": 82,
+    "note": "文心大模型与百度 AI 云动态"
+  },
+  {
+    "id": "wechat_canghe",
+    "name": "公众号·苍何",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/苍何",
+    "enabled": true,
+    "priority": 81,
+    "note": "AI 产品观察与深度分析"
+  },
+  {
+    "id": "wechat_huashu",
+    "name": "公众号·花叔",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/花叔",
+    "enabled": true,
+    "priority": 80,
+    "note": "AI 工具与效率实践"
+  },
+  {
+    "id": "wechat_daishudi",
+    "name": "公众号·袋鼠帝AI客栈",
+    "type": "x_crawl_rss",
+    "platform": "wechat",
+    "url": "{{RSSHUB_BASE}}/wechat/sogou/袋鼠帝AI客栈",
+    "enabled": true,
+    "priority": 79,
+    "note": "AI 应用教程与工具评测"
   }
 ]

@@ -46,6 +46,14 @@ index.html              GitHub Pages 看板
 python3 scripts/radar.py
 ```
 
+可选环境变量：
+
+| 变量 | 说明 |
+| --- | --- |
+| `RADAR_FETCH_WORKERS` | 并发抓取线程数，默认 8 |
+| `RADAR_MAX_ITEMS` | 输出热点条数上限，默认 150 |
+| `RSSHUB_BASE_URL` | 自建 RSSHub 地址 |
+
 没有配置 `FEISHU_WEBHOOK` 和 `SERVERCHAN_KEY` 时，脚本会跳过通知，仍会生成本地 JSON 数据。
 
 ## GitHub Actions 配置
@@ -56,8 +64,19 @@ python3 scripts/radar.py
 | --- | --- |
 | `FEISHU_WEBHOOK` | 飞书机器人 Webhook URL（可选） |
 | `SERVERCHAN_KEY` | Server酱 SendKey（可选） |
+| `RSSHUB_BASE_URL` | 自建 RSSHub 地址（可选，用于 Twitter / 小红书直连） |
 
-请勿将真实 Token、Webhook 或 SendKey 写入 `.env.example`、提交记录或 Git remote URL。
+### 公众号 / Twitter / 小红书
+
+| 平台 | 当前状态 | 说明 |
+| --- | --- | --- |
+| 公众号 | ✅ 已接入 | 通过 RSSHub `/wechat/sogou/:name` 抓取机器之心、量子位等 AI 公众号；另支持 [`config/social-keywords.json`](config/social-keywords.json) 关键词扩展 |
+| Twitter | ⚠️ 需自建 RSSHub | 33 个 1w+ 粉丝 AI 博主见 [`config/twitter-creators.json`](config/twitter-creators.json)；爆款帖通过 `min_faves` 关键词搜索；需 `TWITTER_AUTH_TOKEN` |
+| 小红书 | ⚠️ 需自建 RSSHub | 关键词搜索见 `social-keywords.json`；需 `XIAOHONGSHU_COOKIE`。`公众号·小红书技术` 可作为官方技术信号补充 |
+
+Twitter / 小红书源标记为 `soft_fail`：抓取失败不会触发飞书异常告警，LearnPrompt 聚合仍会间接带入部分 X / 公众号内容。
+
+请勿将真实 Token、Webhook、Cookie 或 SendKey 写入 `.env.example`、提交记录或 Git remote URL。
 
 ## 数据来源与致谢
 

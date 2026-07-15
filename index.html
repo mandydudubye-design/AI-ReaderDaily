@@ -82,6 +82,9 @@ a:hover { text-decoration: underline; }
 .source-badge { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: 600; }
 .source-badge.type-radar { background: rgba(168,85,247,0.15); color: var(--purple); border: 1px solid rgba(168,85,247,0.2); }
 .source-badge.type-rss { background: rgba(59,130,246,0.15); color: var(--blue); border: 1px solid rgba(59,130,246,0.2); }
+.source-badge.type-wechat { background: rgba(34,197,94,0.15); color: #22c55e; border: 1px solid rgba(34,197,94,0.2); }
+.source-badge.type-twitter { background: rgba(14,165,233,0.15); color: #0ea5e9; border: 1px solid rgba(14,165,233,0.2); }
+.source-badge.type-xiaohongshu { background: rgba(244,63,94,0.15); color: #f43f5e; border: 1px solid rgba(244,63,94,0.2); }
 .source-badge.type-scrape { background: rgba(20,184,166,0.15); color: var(--teal); border: 1px solid rgba(20,184,166,0.2); }
 .score-pill { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 600; background: var(--bg3); color: var(--text); }
 .item-meta { display: flex; gap: 8px; font-size: 12px; color: var(--text2); flex-wrap: wrap; align-items: center; margin-top: 2px; }
@@ -215,6 +218,9 @@ a:hover { text-decoration: underline; }
         <button class="filter-btn" data-group="srctype" data-val="rss">📰 官方</button>
         <button class="filter-btn" data-group="srctype" data-val="rsshub">🔗 RSSHub</button>
         <button class="filter-btn" data-group="srctype" data-val="domestic">🇨🇳 国内</button>
+        <button class="filter-btn" data-group="srctype" data-val="wechat">💬 公众号</button>
+        <button class="filter-btn" data-group="srctype" data-val="twitter">🐦 Twitter</button>
+        <button class="filter-btn" data-group="srctype" data-val="xiaohongshu">📕 小红书</button>
       </div>
     </div>
     <select class="sort-select" id="sortSelect">
@@ -249,14 +255,14 @@ a:hover { text-decoration: underline; }
     <div id="healthSummary" class="health-summary"></div>
     <div class="result-count" id="healthCount"></div>
     <div class="health-table-wrap"><table class="health-table" id="healthTable"><thead><tr>
-      <th>信源</th><th>状态</th><th>条目</th><th>AI 信号</th><th>AI 占比</th><th>耗时(秒)</th><th>备注</th>
+      <th>信源</th><th>平台</th><th>状态</th><th>条目</th><th>AI 信号</th><th>AI 占比</th><th>耗时(秒)</th><th>备注</th>
     </tr></thead><tbody id="healthBody"></tbody></table></div>
   </div>
 
   <div class="footer">
     Powered by <a href="https://github.com/mandydudubye-design/AI-ReaderDaily" target="_blank">Maren AI Radar</a>
-    · 数据来自 <a href="https://github.com/LearnPrompt/ai-news-radar" target="_blank">LearnPrompt AI News Radar</a> + 官方 RSS + 国内信源
-    · 每小时自动更新 · 看板 v2026.07.15
+    · 数据来自 LearnPrompt AI News Radar + 官方 RSS + 公众号 / Twitter / 小红书 + 国内信源
+    · 每小时自动更新 · 看板 v2026.07.15.4
   </div>
 </div>
 
@@ -293,12 +299,24 @@ const CAT_ALIASES = {
   '其他': ['其他'],
 };
 
+const DISCOVERY_LABELS = { keyword: '关键词', viral: '爆款', creator: '博主' };
 const DOMESTIC_SOURCES = ['36氪', 'IT之家', '知乎', '少数派'];
+
+function discoveryTag(it) {
+  const mode = it.discovery_mode;
+  if (!mode) return '';
+  const label = DISCOVERY_LABELS[mode] || mode;
+  const kw = it.keyword ? `·${it.keyword}` : '';
+  return `<span class="meta-tag">🏷 ${label}${kw}</span>`;
+}
 
 function getSourceBucket(it) {
   const src = it.source || '';
   const st = (it.source_type || '').toLowerCase();
   const url = (it.url || '').toLowerCase();
+  if (st === 'wechat' || src.includes('公众号') || url.includes('/wechat/') || url.includes('mp.weixin.qq.com')) return 'wechat';
+  if (st === 'twitter' || url.includes('x.com/') || url.includes('twitter.com/') || url.includes('/twitter/') || src.includes('Twitter·')) return 'twitter';
+  if (st === 'xiaohongshu' || url.includes('xiaohongshu.com') || url.includes('xhslink.com') || url.includes('/xiaohongshu/') || src.includes('小红书·')) return 'xiaohongshu';
   if (DOMESTIC_SOURCES.some(name => src.includes(name))) return 'domestic';
   if (url.includes('rsshub') || src.toLowerCase().includes('rsshub')) return 'rsshub';
   if (st === 'radar' || st === 'aggregator') return 'radar';
@@ -372,7 +390,7 @@ function filterSummary() {
   if (filters.grade !== 'all') parts.push(`等级 ${filters.grade}`);
   if (filters.cat !== 'all') parts.push(`分类 ${filters.cat}`);
   if (filters.srctype !== 'all') {
-    const labels = { radar: '聚合', rss: '官方', rsshub: 'RSSHub', domestic: '国内' };
+    const labels = { radar: '聚合', rss: '官方', rsshub: 'RSSHub', domestic: '国内', wechat: '公众号', twitter: 'Twitter', xiaohongshu: '小红书' };
     parts.push(`来源 ${labels[filters.srctype] || filters.srctype}`);
   }
   const q = document.getElementById('searchInput').value.trim();
@@ -424,6 +442,7 @@ function renderItems(items) {
           <span class="meta-tag">${sourceShort}</span>
           ${it.source_count > 1 ? `<span class="meta-tag">🔗 ${it.source_count}源</span>` : ''}
           ${sources ? `<span class="meta-tag">📡 ${sources}</span>` : ''}
+          ${discoveryTag(it)}
           ${timeStr ? `<span>🕐 ${timeStr}</span>` : ''}
           ${it.importance_label ? `<span>⭐ ${it.importance_label}</span>` : ''}
         </div>
@@ -650,16 +669,18 @@ function renderHealth(sites, summary) {
     <div class="health-card"><div class="num">${summary.source_count}</div><div class="label">总信源</div></div>
     <div class="health-card"><div class="num">${summary.total_items}</div><div class="label">总条目</div></div>
     <div class="health-card ${summary.ai_pct_total > 30 ? 's' : ''}"><div class="num">${summary.ai_pct_total}%</div><div class="label">AI 占比</div></div>`;
-  document.getElementById('healthCount').textContent = `共 ${sites.length} 个信源`;
+  document.getElementById('healthCount').textContent = `共 ${sites.length} 个信源 · 公众号 ${sites.filter(s=>s.platform==='wechat').length} · Twitter ${sites.filter(s=>s.platform==='twitter').length} · 小红书 ${sites.filter(s=>s.platform==='xiaohongshu').length}`;
 
   // Table rows
   const tbody = document.getElementById('healthBody');
   tbody.innerHTML = sites.map(site => {
     const statusCls = site.ok ? 'ok' : 'fail';
-    const statusTxt = site.ok ? '✅' : '❌';
+    const statusTxt = site.ok ? (site.item_count > 0 ? '✅' : (site.soft_fail ? '⚪' : '✅')) : '❌';
     const barW = Math.min(site.ai_pct, 100);
+    const platform = site.platform || '-';
     return `<tr>
       <td><span title="${site.site_id}">${site.site_name}</span></td>
+      <td>${platform}</td>
       <td><span class="${statusCls}">${statusTxt}</span></td>
       <td>${site.item_count}</td>
       <td>${site.ai_count}</td>
