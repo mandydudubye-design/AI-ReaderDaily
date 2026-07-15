@@ -153,6 +153,23 @@ a:hover { text-decoration: underline; }
 .item-heat { margin-top: 6px; font-size: 11px; color: var(--text3); }
 .item-heat-track { display: flex; align-items: flex-end; gap: 2px; height: 18px; margin-top: 4px; }
 .item-heat-bar { flex: 1; min-width: 2px; border-radius: 2px 2px 0 0; background: var(--orange); opacity: 0.8; }
+.item-card.clickable { cursor: pointer; }
+.item-card.clickable:hover { border-color: var(--accent); }
+.item-card .open-story-hint { font-size: 11px; color: var(--accent2); margin-top: 6px; }
+
+/* Story modal */
+.story-modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.55); z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px; }
+.story-modal-backdrop.open { display: flex; }
+.story-modal { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; max-width: 720px; width: 100%; max-height: 85vh; overflow: auto; padding: 18px 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
+.story-modal-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+.story-modal-title { font-size: 16px; font-weight: 700; line-height: 1.5; }
+.story-modal-close { background: var(--bg3); border: 1px solid var(--border); color: var(--text2); border-radius: 6px; padding: 4px 10px; cursor: pointer; flex-shrink: 0; }
+.story-modal-close:hover { color: var(--text); border-color: var(--accent); }
+.story-modal-items { margin-top: 12px; }
+.story-modal-item { padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 6px; background: var(--bg3); font-size: 13px; }
+.story-modal-item a { color: var(--text); font-weight: 500; }
+.story-modal-item a:hover { color: var(--accent2); }
+.story-modal-item-meta { font-size: 11px; color: var(--text3); margin-top: 4px; }
 
 /* Health panel */
 .health-summary { display: flex; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
@@ -262,7 +279,17 @@ a:hover { text-decoration: underline; }
   <div class="footer">
     Powered by <a href="https://github.com/mandydudubye-design/AI-ReaderDaily" target="_blank">Maren AI Radar</a>
     · 数据来自 LearnPrompt AI News Radar + 官方 RSS + 公众号 / Twitter / 小红书 + 国内信源
-    · 每小时自动更新 · 看板 v2026.07.15.4
+    · 每小时自动更新 · 看板 v2026.07.15.5
+  </div>
+</div>
+
+<div class="story-modal-backdrop" id="storyModal" onclick="if(event.target===this)closeStoryModal()">
+  <div class="story-modal" role="dialog" aria-modal="true">
+    <div class="story-modal-header">
+      <div class="story-modal-title" id="storyModalTitle"></div>
+      <button class="story-modal-close" type="button" onclick="closeStoryModal()">关闭</button>
+    </div>
+    <div id="storyModalBody"></div>
   </div>
 </div>
 
@@ -381,8 +408,14 @@ function renderHeatBars(points, maxBars = 12, cls = 'story-heat-bar') {
   const maxScore = Math.max(...slice.map(p => p.score || 0), 1);
   return slice.map(p => {
     const h = Math.max(4, Math.round(((p.score || 0) / maxScore) * 24));
-    return `<span class="${cls}" style="height:${h}px" title="${p.ts || ''} · 评分 ${p.score || 0} · ${p.source_count || 1}源"></span>`;
+    const tip = `${p.ts || ''} · 评分 ${p.score || 0} · ${p.source_count || 1} 个信源`;
+    return `<span class="${cls}" style="height:${h}px" title="${tip}"></span>`;
   }).join('');
+}
+
+function heatTrendLabel(points) {
+  const n = points.length;
+  return `近 ${n} 次 hourly 评分走势（悬停看每次评分）`;
 }
 
 function filterSummary() {
@@ -422,13 +455,16 @@ function renderItems(items) {
     const sourceShort = (it.source || '').replace(/^https?:\/\//, '').split('/')[0];
     const stType = it.source_type || 'rss';
     const heatTrend = it.heat_trend || [];
+    const storyId = it.story_id || '';
     const heatHtml = heatTrend.length >= 2 ? `
         <div class="item-heat">
-          <div>近 ${heatTrend.length} 次抓取热度</div>
+          <div title="每根柱 = 一次 hourly 抓取时该话题的综合评分；越高说明当时越热">${heatTrendLabel(heatTrend)}</div>
           <div class="item-heat-track">${renderHeatBars(heatTrend, 12, 'item-heat-bar')}</div>
         </div>` : (it.source_count > 1 ? `<div class="item-heat">🔥 ${it.source_count} 个来源同时出现</div>` : '');
+    const clickable = storyId ? ' clickable' : '';
+    const storyHint = storyId ? '<div class="open-story-hint">点击查看故事线 · 覆盖多源详情</div>' : '';
     return `
-      <div class="item-card">
+      <div class="item-card${clickable}" data-story-id="${storyId}">
         <div class="item-top">
           <div class="item-title"><a href="${it.url || '#'}" target="_blank" rel="noopener">${zhTitle || it.title}</a></div>
           <div class="item-badges">
@@ -448,6 +484,7 @@ function renderItems(items) {
         </div>
         ${reasonStr ? `<div class="item-reasons">💡 ${reasonStr}</div>` : ''}
         ${heatHtml}
+        ${storyHint}
       </div>`;
   }).join('');
 
@@ -545,10 +582,19 @@ function applyFilters() {
 
 async function loadData() {
   try {
-    const resp = await fetch(`${SNAPSHOT_URL}?v=${Date.now()}`, { cache: 'no-store' });
-    if (!resp.ok) throw new Error(resp.status);
-    allData = await resp.json();
+    const v = Date.now();
+    const [snapResp, storiesResp] = await Promise.all([
+      fetch(`${SNAPSHOT_URL}?v=${v}`, { cache: 'no-store' }),
+      fetch(`data/stories-merged.json?v=${v}`, { cache: 'no-store' }),
+    ]);
+    if (!snapResp.ok) throw new Error(snapResp.status);
+    allData = await snapResp.json();
     allItems = allData.items || [];
+    if (storiesResp.ok) {
+      const storiesJson = await storiesResp.json();
+      storiesData = storiesJson.stories || [];
+      buildStoryIndex();
+    }
     document.getElementById('updateTime').textContent =
       `更新于 ${allData.run_time || ''} · 总数 ${allData.total_items || 0}`;
     applyFilters();
@@ -583,6 +629,85 @@ function switchTab(tab) {
 
 // === Story rendering ===
 let storiesData = [];
+let storyById = {};
+
+function buildStoryIndex() {
+  storyById = {};
+  const itemToStory = {};
+  for (const s of storiesData) {
+    if (s.story_id) storyById[s.story_id] = s;
+    for (const id of s.cluster_item_ids || []) itemToStory[id] = s.story_id;
+  }
+  for (const it of allItems) {
+    if (!it.story_id && it.id && itemToStory[it.id]) {
+      it.story_id = itemToStory[it.id];
+    }
+  }
+}
+
+function findStoryForItem(item) {
+  if (item.story_id && storyById[item.story_id]) return storyById[item.story_id];
+  const title = (item.title || '').toLowerCase();
+  return storiesData.find(s => {
+    const st = (s.title || '').toLowerCase();
+    return st && (st.includes(title.slice(0, 20)) || title.includes(st.slice(0, 20)));
+  });
+}
+
+function openStoryModal(storyId, fallbackItem) {
+  const story = storyById[storyId] || (fallbackItem ? findStoryForItem(fallbackItem) : null);
+  if (!story) {
+    switchTab('stories');
+    return;
+  }
+  const modal = document.getElementById('storyModal');
+  const titleEl = document.getElementById('storyModalTitle');
+  const bodyEl = document.getElementById('storyModalBody');
+  const trend = story.heat_trend || [];
+  const delta = Number(story.heat_delta || 0);
+  const deltaText = delta > 0 ? `升温 +${delta} 源` : (delta < 0 ? `降温 ${delta} 源` : '热度平稳');
+  const items = story.cluster_items || [];
+  titleEl.innerHTML = `<span class="grade-badge grade-${story.importance_label}">${story.importance_label}</span> ${translateTitle(story.title)}`;
+  bodyEl.innerHTML = `
+    <div class="story-meta">
+      <span>📡 ${story.source_count} 个信源</span>
+      <span>📦 ${story.item_count || items.length} 条相关</span>
+      <span>⭐ 综合分 ${story.importance_score}</span>
+    </div>
+    ${(story.source_names || []).length ? `<div class="story-sources">📰 覆盖: ${(story.source_names || []).join(', ')}</div>` : ''}
+    ${trend.length ? `<div class="story-heat"><div class="story-heat-label"><span>${heatTrendLabel(trend)}</span><span>${deltaText}</span></div><div class="story-heat-track">${renderHeatBars(trend, 16, 'story-heat-bar')}</div></div>` : ''}
+    <div class="story-modal-items">
+      <div style="font-size:12px;color:var(--text2);margin-bottom:6px">故事线关联条目</div>
+      ${items.length ? items.map(it => `
+        <div class="story-modal-item">
+          <a href="${it.url || '#'}" target="_blank" rel="noopener">${it.title || '无标题'}</a>
+          <div class="story-modal-item-meta">${it.source || ''} · ${it.grade || ''} · ${it.score || ''}</div>
+        </div>`).join('') : `<div class="story-modal-item"><a href="${story.primary_url || '#'}" target="_blank" rel="noopener">查看原文</a></div>`}
+    </div>`;
+  modal.classList.add('open');
+}
+
+function closeStoryModal() {
+  document.getElementById('storyModal').classList.remove('open');
+}
+
+document.getElementById('itemList').addEventListener('click', (e) => {
+  if (e.target.closest('a')) return;
+  const card = e.target.closest('.item-card[data-story-id]');
+  if (!card || !card.dataset.storyId) return;
+  const item = allItems.find(it => it.story_id === card.dataset.storyId) || allItems.find(it => (it.title || '').slice(0, 30) === card.querySelector('.item-title')?.textContent?.slice(0, 30));
+  openStoryModal(card.dataset.storyId, item);
+});
+
+document.getElementById('storyList').addEventListener('click', (e) => {
+  if (e.target.closest('a')) return;
+  const card = e.target.closest('.story-card[data-story-id]');
+  if (card) openStoryModal(card.dataset.storyId);
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeStoryModal();
+});
 async function loadStories() {
   try {
     const resp = await fetch('data/stories-merged.json');
@@ -623,10 +748,10 @@ function renderStories(stories) {
     const deltaText = delta > 0 ? `升温 +${delta} 源` : (delta < 0 ? `降温 ${delta} 源` : '热度平稳');
     const trendHtml = trend.length ? `
       <div class="story-heat">
-        <div class="story-heat-label"><span>单条热度走势（近 ${trend.length} 次抓取）</span><span>${deltaText}</span></div>
+        <div class="story-heat-label"><span>${heatTrendLabel(trend)}</span><span>${deltaText}</span></div>
         <div class="story-heat-track">${renderHeatBars(trend, 16, 'story-heat-bar')}</div>
       </div>` : '';
-    return `<div class="story-card">
+    return `<div class="story-card clickable" data-story-id="${s.story_id || ''}" style="cursor:pointer">
       <div class="story-badges">
         <span class="grade-badge ${impCls}">${s.importance_label}</span>
         <span class="score-pill">${s.importance_score}</span>
