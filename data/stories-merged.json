@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-17T09:08:21.793805Z",
-  "total_stories": 55,
-  "s_stories": 5,
-  "a_stories": 31,
+  "generated_at": "2026-07-17T11:20:23.608633Z",
+  "total_stories": 73,
+  "s_stories": 3,
+  "a_stories": 35,
   "stories": [
     {
       "story_id": "90e7f7690a469b1c",
@@ -37,7 +37,7 @@
           "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 103,
+          "score": 104,
           "grade": "S",
           "published_at": "2026-07-16T16:01:21Z"
         }
@@ -59,7 +59,7 @@
           "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 103,
+          "score": 104,
           "grade": "S",
           "published_at": "2026-07-16T16:01:21Z"
         }
@@ -81,7 +81,7 @@
           "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 103,
+          "score": 104,
           "grade": "S",
           "published_at": "2026-07-16T16:01:21Z"
         }
@@ -137,6 +137,11 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 77,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 103,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -174,7 +179,7 @@
           "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 107,
+          "score": 109,
           "grade": "S",
           "published_at": "2026-07-16T16:00:00Z"
         }
@@ -196,7 +201,7 @@
           "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 107,
+          "score": 109,
           "grade": "S",
           "published_at": "2026-07-16T16:00:00Z"
         }
@@ -218,7 +223,7 @@
           "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 107,
+          "score": 109,
           "grade": "S",
           "published_at": "2026-07-16T16:00:00Z"
         }
@@ -240,11 +245,6 @@
       "importance_label_cn": "官方更新",
       "category": "multi_source",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
@@ -359,9 +359,14 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 107,
+          "source_count": 2
         }
       ],
-      "heat_delta": 0
+      "heat_delta": 1
     },
     {
       "story_id": "a38a64dd0ec372f2",
@@ -396,7 +401,7 @@
           "url": "https://blog.google/products-and-platforms/products/search/connected-apps",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 93,
+          "score": 94,
           "grade": "A",
           "published_at": "2026-07-16T16:00:00Z"
         }
@@ -418,7 +423,7 @@
           "url": "https://blog.google/products-and-platforms/products/search/connected-apps",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 93,
+          "score": 94,
           "grade": "A",
           "published_at": "2026-07-16T16:00:00Z"
         }
@@ -440,7 +445,7 @@
           "url": "https://blog.google/products-and-platforms/products/search/connected-apps",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 93,
+          "score": 94,
           "grade": "A",
           "published_at": "2026-07-16T16:00:00Z"
         }
@@ -457,16 +462,11 @@
       },
       "earliest_at": "2026-07-16T16:00:00Z",
       "latest_at": "2026-07-16T16:00:00Z",
-      "importance_score": 85.8,
+      "importance_score": 86.4,
       "importance_label": "S",
       "importance_label_cn": "官方更新",
       "category": "multi_source",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:33 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 04:38 (UTC)",
           "score": 77,
@@ -581,99 +581,9 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 96,
           "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "cf14350ffa68a80b",
-      "title": "天工短剧工作台上线Agent智能分镜与无限画布，昆仑万维要把AI短剧从随机抽卡拉向可控生产",
-      "primary_url": "https://www.aibase.com/news/29684",
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "cf14350ffa68a80b"
-      ],
-      "cluster_items": [
-        {
-          "id": "cf14350ffa68a80b",
-          "title": "天工短剧工作台上线Agent智能分镜与无限画布，昆仑万维要把AI短剧从随机抽卡拉向可控生产",
-          "url": "https://www.aibase.com/news/29684",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "score": 96,
-          "grade": "A",
-          "published_at": "2026-07-17T06:28:09.659100Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "cf14350ffa68a80b",
-          "title": "天工短剧工作台上线Agent智能分镜与无限画布，昆仑万维要把AI短剧从随机抽卡拉向可控生产",
-          "url": "https://www.aibase.com/news/29684",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "score": 96,
-          "grade": "A",
-          "published_at": "2026-07-17T06:28:09.659100Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "cf14350ffa68a80b",
-          "title": "天工短剧工作台上线Agent智能分镜与无限画布，昆仑万维要把AI短剧从随机抽卡拉向可控生产",
-          "url": "https://www.aibase.com/news/29684",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "score": 96,
-          "grade": "A",
-          "published_at": "2026-07-17T06:28:09.659100Z"
-        }
-      ],
-      "primary_item": {
-        "id": "cf14350ffa68a80b",
-        "title": "天工短剧工作台上线Agent智能分镜与无限画布，昆仑万维要把AI短剧从随机抽卡拉向可控生产",
-        "url": "https://www.aibase.com/news/29684",
-        "source": "AIbase",
-        "source_name": "AIbase",
-        "score": 96,
-        "grade": "A",
-        "published_at": "2026-07-17T06:28:09.659100Z"
-      },
-      "earliest_at": "2026-07-17T06:28:09.659100Z",
-      "latest_at": "2026-07-17T06:28:09.659100Z",
-      "importance_score": 82.6,
-      "importance_label": "S",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-16 10:58 (UTC)",
-          "score": 93,
-          "source_count": 1
         },
         {
-          "ts": "2026-07-16 12:25 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 22:04 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 03:24 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 93,
           "source_count": 1
         }
@@ -681,150 +591,190 @@
       "heat_delta": 0
     },
     {
-      "story_id": "4a738ea8268991af",
-      "title": "百度沈抖：每位员工每月发 1000 元额度自由体验主流大模型，强制推行AI办公难见效",
-      "primary_url": "https://www.aibase.com/news/29685",
+      "story_id": "062d2fc2b217b9b2",
+      "title": "Codex CLI 0.144.5",
+      "primary_url": "https://developers.openai.com/codex/changelog",
       "source_count": 1,
       "source_names": [
-        "AIbase"
+        "Official AI Updates"
       ],
       "cluster_size": 1,
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "4a738ea8268991af"
+        "062d2fc2b217b9b2"
       ],
       "cluster_items": [
         {
-          "id": "4a738ea8268991af",
-          "title": "百度沈抖：每位员工每月发 1000 元额度自由体验主流大模型，强制推行AI办公难见效",
-          "url": "https://www.aibase.com/news/29685",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "score": 96,
-          "grade": "A",
-          "published_at": "2026-07-17T06:28:09.659100Z"
+          "id": "062d2fc2b217b9b2",
+          "title": "Codex CLI 0.144.5",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "Official AI Updates",
+          "source_name": "Official AI Updates",
+          "score": 101,
+          "grade": "S",
+          "published_at": "2026-07-16T00:00:00Z"
         }
       ],
       "sources": [
         {
-          "id": "4a738ea8268991af",
-          "title": "百度沈抖：每位员工每月发 1000 元额度自由体验主流大模型，强制推行AI办公难见效",
-          "url": "https://www.aibase.com/news/29685",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "score": 96,
-          "grade": "A",
-          "published_at": "2026-07-17T06:28:09.659100Z"
+          "id": "062d2fc2b217b9b2",
+          "title": "Codex CLI 0.144.5",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "Official AI Updates",
+          "source_name": "Official AI Updates",
+          "score": 101,
+          "grade": "S",
+          "published_at": "2026-07-16T00:00:00Z"
         }
       ],
       "items": [
         {
-          "id": "4a738ea8268991af",
-          "title": "百度沈抖：每位员工每月发 1000 元额度自由体验主流大模型，强制推行AI办公难见效",
-          "url": "https://www.aibase.com/news/29685",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "score": 96,
-          "grade": "A",
-          "published_at": "2026-07-17T06:28:09.659100Z"
+          "id": "062d2fc2b217b9b2",
+          "title": "Codex CLI 0.144.5",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "Official AI Updates",
+          "source_name": "Official AI Updates",
+          "score": 101,
+          "grade": "S",
+          "published_at": "2026-07-16T00:00:00Z"
         }
       ],
       "primary_item": {
-        "id": "4a738ea8268991af",
-        "title": "百度沈抖：每位员工每月发 1000 元额度自由体验主流大模型，强制推行AI办公难见效",
-        "url": "https://www.aibase.com/news/29685",
-        "source": "AIbase",
-        "source_name": "AIbase",
-        "score": 96,
-        "grade": "A",
-        "published_at": "2026-07-17T06:28:09.659100Z"
+        "id": "062d2fc2b217b9b2",
+        "title": "Codex CLI 0.144.5",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "Official AI Updates",
+        "source_name": "Official AI Updates",
+        "score": 101,
+        "grade": "S",
+        "published_at": "2026-07-16T00:00:00Z"
       },
-      "earliest_at": "2026-07-17T06:28:09.659100Z",
-      "latest_at": "2026-07-17T06:28:09.659100Z",
-      "importance_score": 82.6,
-      "importance_label": "S",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 47,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "fbd434dc8809a453",
-      "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
-      "primary_url": "https://x.com/AYi_AInotes/status/2077981025905316253",
-      "source_count": 1,
-      "source_names": [
-        "AI HOT"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "fbd434dc8809a453"
-      ],
-      "cluster_items": [
-        {
-          "id": "fbd434dc8809a453",
-          "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
-          "url": "https://x.com/AYi_AInotes/status/2077981025905316253",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 97,
-          "grade": "A",
-          "published_at": "2026-07-17T04:57:38Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "fbd434dc8809a453",
-          "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
-          "url": "https://x.com/AYi_AInotes/status/2077981025905316253",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 97,
-          "grade": "A",
-          "published_at": "2026-07-17T04:57:38Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "fbd434dc8809a453",
-          "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
-          "url": "https://x.com/AYi_AInotes/status/2077981025905316253",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 97,
-          "grade": "A",
-          "published_at": "2026-07-17T04:57:38Z"
-        }
-      ],
-      "primary_item": {
-        "id": "fbd434dc8809a453",
-        "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
-        "url": "https://x.com/AYi_AInotes/status/2077981025905316253",
-        "source": "AI HOT",
-        "source_name": "AI HOT",
-        "score": 97,
-        "grade": "A",
-        "published_at": "2026-07-17T04:57:38Z"
-      },
-      "earliest_at": "2026-07-17T04:57:38Z",
-      "latest_at": "2026-07-17T04:57:38Z",
-      "importance_score": 78.7,
+      "earliest_at": "2026-07-16T00:00:00Z",
+      "latest_at": "2026-07-16T00:00:00Z",
+      "importance_score": 75.0,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
         {
+          "ts": "2026-07-14 14:49 (UTC)",
+          "score": 111,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 16:13 (UTC)",
+          "score": 111,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 18:01 (UTC)",
+          "score": 111,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 20:10 (UTC)",
+          "score": 108,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 21:56 (UTC)",
+          "score": 108,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 22:58 (UTC)",
+          "score": 108,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 23:58 (UTC)",
+          "score": 108,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 03:01 (UTC)",
+          "score": 102,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 03:03 (UTC)",
+          "score": 102,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 03:05 (UTC)",
+          "score": 102,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 03:20 (UTC)",
+          "score": 102,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 04:33 (UTC)",
+          "score": 102,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 04:38 (UTC)",
+          "score": 102,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 06:12 (UTC)",
+          "score": 102,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 11:27 (UTC)",
+          "score": 102,
+          "source_count": 1
+        },
+        {
           "ts": "2026-07-16 10:58 (UTC)",
-          "score": 72,
+          "score": 104,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 12:25 (UTC)",
+          "score": 104,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 17:14 (UTC)",
+          "score": 102,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 19:07 (UTC)",
+          "score": 102,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 20:55 (UTC)",
+          "score": 102,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 22:04 (UTC)",
+          "score": 104,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 23:58 (UTC)",
+          "score": 101,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 03:24 (UTC)",
+          "score": 104,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 06:14 (UTC)",
+          "score": 104,
           "source_count": 1
         }
       ],
@@ -851,7 +801,7 @@
           "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 101,
+          "score": 103,
           "grade": "S",
           "published_at": "2026-07-16T11:49:48Z"
         }
@@ -863,7 +813,7 @@
           "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 101,
+          "score": 103,
           "grade": "S",
           "published_at": "2026-07-16T11:49:48Z"
         }
@@ -875,7 +825,7 @@
           "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 101,
+          "score": 103,
           "grade": "S",
           "published_at": "2026-07-16T11:49:48Z"
         }
@@ -886,7 +836,7 @@
         "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
         "source": "Official AI Updates",
         "source_name": "Official AI Updates",
-        "score": 101,
+        "score": 103,
         "grade": "S",
         "published_at": "2026-07-16T11:49:48Z"
       },
@@ -971,6 +921,11 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 102,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 101,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -996,7 +951,7 @@
           "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 100,
+          "score": 101,
           "grade": "S",
           "published_at": "2026-07-16T16:40:48Z"
         }
@@ -1008,7 +963,7 @@
           "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 100,
+          "score": 101,
           "grade": "S",
           "published_at": "2026-07-16T16:40:48Z"
         }
@@ -1020,7 +975,7 @@
           "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 100,
+          "score": 101,
           "grade": "S",
           "published_at": "2026-07-16T16:40:48Z"
         }
@@ -1031,7 +986,7 @@
         "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
         "source": "AI HOT",
         "source_name": "AI HOT",
-        "score": 100,
+        "score": 101,
         "grade": "S",
         "published_at": "2026-07-16T16:40:48Z"
       },
@@ -1045,6 +1000,11 @@
         {
           "ts": "2026-07-16 23:58 (UTC)",
           "score": 101,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 100,
           "source_count": 2
         }
       ],
@@ -1071,7 +1031,7 @@
           "url": "https://github.blog/changelog/2026-07-16-rest-api-endpoints-for-visual-studio-subscription-management",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 101,
+          "score": 103,
           "grade": "S",
           "published_at": "2026-07-16T18:06:52Z"
         }
@@ -1083,7 +1043,7 @@
           "url": "https://github.blog/changelog/2026-07-16-rest-api-endpoints-for-visual-studio-subscription-management",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 101,
+          "score": 103,
           "grade": "S",
           "published_at": "2026-07-16T18:06:52Z"
         }
@@ -1095,7 +1055,7 @@
           "url": "https://github.blog/changelog/2026-07-16-rest-api-endpoints-for-visual-studio-subscription-management",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 101,
+          "score": 103,
           "grade": "S",
           "published_at": "2026-07-16T18:06:52Z"
         }
@@ -1106,7 +1066,7 @@
         "url": "https://github.blog/changelog/2026-07-16-rest-api-endpoints-for-visual-studio-subscription-management",
         "source": "Official AI Updates",
         "source_name": "Official AI Updates",
-        "score": 101,
+        "score": 103,
         "grade": "S",
         "published_at": "2026-07-16T18:06:52Z"
       },
@@ -1216,6 +1176,11 @@
           "ts": "2026-07-16 23:58 (UTC)",
           "score": 103,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 101,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -1241,7 +1206,7 @@
           "url": "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 101,
+          "score": 103,
           "grade": "S",
           "published_at": "2026-07-16T19:07:14Z"
         }
@@ -1253,7 +1218,7 @@
           "url": "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 101,
+          "score": 103,
           "grade": "S",
           "published_at": "2026-07-16T19:07:14Z"
         }
@@ -1265,7 +1230,7 @@
           "url": "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 101,
+          "score": 103,
           "grade": "S",
           "published_at": "2026-07-16T19:07:14Z"
         }
@@ -1276,7 +1241,7 @@
         "url": "https://github.blog/changelog/2026-07-16-advanced-search-for-projects-is-generally-available",
         "source": "Official AI Updates",
         "source_name": "Official AI Updates",
-        "score": 101,
+        "score": 103,
         "grade": "S",
         "published_at": "2026-07-16T19:07:14Z"
       },
@@ -1290,6 +1255,11 @@
         {
           "ts": "2026-07-16 23:58 (UTC)",
           "score": 103,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 101,
           "source_count": 1
         }
       ],
@@ -1316,7 +1286,7 @@
           "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 105,
+          "score": 107,
           "grade": "S",
           "published_at": "2026-07-16T20:26:23Z"
         }
@@ -1328,7 +1298,7 @@
           "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 105,
+          "score": 107,
           "grade": "S",
           "published_at": "2026-07-16T20:26:23Z"
         }
@@ -1340,7 +1310,7 @@
           "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 105,
+          "score": 107,
           "grade": "S",
           "published_at": "2026-07-16T20:26:23Z"
         }
@@ -1351,7 +1321,7 @@
         "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
         "source": "AI HOT",
         "source_name": "AI HOT",
-        "score": 105,
+        "score": 107,
         "grade": "S",
         "published_at": "2026-07-16T20:26:23Z"
       },
@@ -1366,14 +1336,19 @@
           "ts": "2026-07-16 23:58 (UTC)",
           "score": 107,
           "source_count": 2
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 105,
+          "source_count": 2
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "1d59ae82479e5138",
-      "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
-      "primary_url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
+      "story_id": "fcc7c5948f1f6529",
+      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果 / Automations in Grok",
+      "primary_url": "https://x.ai/news/grok-automations",
       "source_count": 1,
       "source_names": [
         "AI HOT"
@@ -1382,61 +1357,72 @@
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "1d59ae82479e5138"
+        "fcc7c5948f1f6529"
       ],
       "cluster_items": [
         {
-          "id": "1d59ae82479e5138",
-          "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
-          "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
+          "id": "fcc7c5948f1f6529",
+          "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果 / Automations in Grok",
+          "url": "https://x.ai/news/grok-automations",
           "source": "AI HOT",
           "source_name": "AI HOT",
           "score": 100,
           "grade": "S",
-          "published_at": "2026-07-17T00:40:20.333000Z"
+          "published_at": "2026-07-16T21:39:40.165000Z"
         }
       ],
       "sources": [
         {
-          "id": "1d59ae82479e5138",
-          "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
-          "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
+          "id": "fcc7c5948f1f6529",
+          "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果 / Automations in Grok",
+          "url": "https://x.ai/news/grok-automations",
           "source": "AI HOT",
           "source_name": "AI HOT",
           "score": 100,
           "grade": "S",
-          "published_at": "2026-07-17T00:40:20.333000Z"
+          "published_at": "2026-07-16T21:39:40.165000Z"
         }
       ],
       "items": [
         {
-          "id": "1d59ae82479e5138",
-          "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
-          "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
+          "id": "fcc7c5948f1f6529",
+          "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果 / Automations in Grok",
+          "url": "https://x.ai/news/grok-automations",
           "source": "AI HOT",
           "source_name": "AI HOT",
           "score": 100,
           "grade": "S",
-          "published_at": "2026-07-17T00:40:20.333000Z"
+          "published_at": "2026-07-16T21:39:40.165000Z"
         }
       ],
       "primary_item": {
-        "id": "1d59ae82479e5138",
-        "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
-        "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
+        "id": "fcc7c5948f1f6529",
+        "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果 / Automations in Grok",
+        "url": "https://x.ai/news/grok-automations",
         "source": "AI HOT",
         "source_name": "AI HOT",
         "score": 100,
         "grade": "S",
-        "published_at": "2026-07-17T00:40:20.333000Z"
+        "published_at": "2026-07-16T21:39:40.165000Z"
       },
-      "earliest_at": "2026-07-17T00:40:20.333000Z",
-      "latest_at": "2026-07-17T00:40:20.333000Z",
+      "earliest_at": "2026-07-16T21:39:40.165000Z",
+      "latest_at": "2026-07-16T21:39:40.165000Z",
       "importance_score": 75.0,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [],
+      "heat_trend": [
+        {
+          "ts": "2026-07-16 23:58 (UTC)",
+          "score": 100,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 98,
+          "source_count": 1
+        }
+      ],
       "heat_delta": 0
     },
     {
@@ -1460,7 +1446,7 @@
           "url": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 98,
+          "score": 99,
           "grade": "A",
           "published_at": "2026-07-16T07:42:49Z"
         }
@@ -1472,7 +1458,7 @@
           "url": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 98,
+          "score": 99,
           "grade": "A",
           "published_at": "2026-07-16T07:42:49Z"
         }
@@ -1484,7 +1470,7 @@
           "url": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 98,
+          "score": 99,
           "grade": "A",
           "published_at": "2026-07-16T07:42:49Z"
         }
@@ -1495,13 +1481,13 @@
         "url": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks",
         "source": "AI HOT",
         "source_name": "AI HOT",
-        "score": 98,
+        "score": 99,
         "grade": "A",
         "published_at": "2026-07-16T07:42:49Z"
       },
       "earliest_at": "2026-07-16T07:42:49Z",
       "latest_at": "2026-07-16T07:42:49Z",
-      "importance_score": 73.8,
+      "importance_score": 74.4,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
@@ -1550,81 +1536,11 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 102,
           "source_count": 2
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "fcc7c5948f1f6529",
-      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果 / Automations in Grok",
-      "primary_url": "https://x.ai/news/grok-automations",
-      "source_count": 1,
-      "source_names": [
-        "AI HOT"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "fcc7c5948f1f6529"
-      ],
-      "cluster_items": [
+        },
         {
-          "id": "fcc7c5948f1f6529",
-          "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果 / Automations in Grok",
-          "url": "https://x.ai/news/grok-automations",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 98,
-          "grade": "A",
-          "published_at": "2026-07-16T21:39:40.165000Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "fcc7c5948f1f6529",
-          "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果 / Automations in Grok",
-          "url": "https://x.ai/news/grok-automations",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 98,
-          "grade": "A",
-          "published_at": "2026-07-16T21:39:40.165000Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "fcc7c5948f1f6529",
-          "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果 / Automations in Grok",
-          "url": "https://x.ai/news/grok-automations",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 98,
-          "grade": "A",
-          "published_at": "2026-07-16T21:39:40.165000Z"
-        }
-      ],
-      "primary_item": {
-        "id": "fcc7c5948f1f6529",
-        "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果 / Automations in Grok",
-        "url": "https://x.ai/news/grok-automations",
-        "source": "AI HOT",
-        "source_name": "AI HOT",
-        "score": 98,
-        "grade": "A",
-        "published_at": "2026-07-16T21:39:40.165000Z"
-      },
-      "earliest_at": "2026-07-16T21:39:40.165000Z",
-      "latest_at": "2026-07-16T21:39:40.165000Z",
-      "importance_score": 73.8,
-      "importance_label": "A",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-16 23:58 (UTC)",
-          "score": 100,
-          "source_count": 1
+          "source_count": 2
         }
       ],
       "heat_delta": 0
@@ -1650,7 +1566,7 @@
           "url": "https://x.com/ChatGPTapp/status/2077826846373380535",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 97,
+          "score": 99,
           "grade": "A",
           "published_at": "2026-07-16T18:44:58Z"
         }
@@ -1662,7 +1578,7 @@
           "url": "https://x.com/ChatGPTapp/status/2077826846373380535",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 97,
+          "score": 99,
           "grade": "A",
           "published_at": "2026-07-16T18:44:58Z"
         }
@@ -1674,7 +1590,7 @@
           "url": "https://x.com/ChatGPTapp/status/2077826846373380535",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 97,
+          "score": 99,
           "grade": "A",
           "published_at": "2026-07-16T18:44:58Z"
         }
@@ -1685,13 +1601,13 @@
         "url": "https://x.com/ChatGPTapp/status/2077826846373380535",
         "source": "AI HOT",
         "source_name": "AI HOT",
-        "score": 97,
+        "score": 99,
         "grade": "A",
         "published_at": "2026-07-16T18:44:58Z"
       },
       "earliest_at": "2026-07-16T18:44:58Z",
       "latest_at": "2026-07-16T18:44:58Z",
-      "importance_score": 73.2,
+      "importance_score": 74.4,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
@@ -1760,6 +1676,202 @@
           "ts": "2026-07-16 23:58 (UTC)",
           "score": 99,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 97,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "73e57b768cfda280",
+      "title": "优刻得携手上海理工大学发布“太空算力”样机系统",
+      "primary_url": "https://36kr.com/newsflashes/3899605243250309?f=rss",
+      "source_count": 2,
+      "source_names": [
+        "36氪",
+        "36氪快讯"
+      ],
+      "cluster_size": 2,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "cluster_item_ids": [
+        "73e57b768cfda280",
+        "291e91ccf1134ebb"
+      ],
+      "cluster_items": [
+        {
+          "id": "73e57b768cfda280",
+          "title": "优刻得携手上海理工大学发布“太空算力”样机系统",
+          "url": "https://36kr.com/newsflashes/3899605243250309?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        },
+        {
+          "id": "291e91ccf1134ebb",
+          "title": "优刻得携手上海理工大学发布“太空算力”样机系统",
+          "url": "https://www.36kr.com/newsflashes/3899605243250309",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "73e57b768cfda280",
+          "title": "优刻得携手上海理工大学发布“太空算力”样机系统",
+          "url": "https://36kr.com/newsflashes/3899605243250309?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        },
+        {
+          "id": "291e91ccf1134ebb",
+          "title": "优刻得携手上海理工大学发布“太空算力”样机系统",
+          "url": "https://www.36kr.com/newsflashes/3899605243250309",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "73e57b768cfda280",
+          "title": "优刻得携手上海理工大学发布“太空算力”样机系统",
+          "url": "https://36kr.com/newsflashes/3899605243250309?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        },
+        {
+          "id": "291e91ccf1134ebb",
+          "title": "优刻得携手上海理工大学发布“太空算力”样机系统",
+          "url": "https://www.36kr.com/newsflashes/3899605243250309",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "73e57b768cfda280",
+        "title": "优刻得携手上海理工大学发布“太空算力”样机系统",
+        "url": "https://36kr.com/newsflashes/3899605243250309?f=rss",
+        "source": "36氪",
+        "source_name": "36氪",
+        "score": 72,
+        "grade": "B",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 73.2,
+      "importance_label": "A",
+      "importance_label_cn": "官方更新",
+      "category": "multi_source",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "020be89fdc44f110",
+      "title": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
+      "primary_url": "https://mp.weixin.qq.com/s/RWveWvw9yBH6YQINBQ-XjA",
+      "source_count": 1,
+      "source_names": [
+        "AI HOT"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "020be89fdc44f110"
+      ],
+      "cluster_items": [
+        {
+          "id": "020be89fdc44f110",
+          "title": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
+          "url": "https://mp.weixin.qq.com/s/RWveWvw9yBH6YQINBQ-XjA",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 95,
+          "grade": "A",
+          "published_at": "2026-07-16T10:00:00Z"
+        }
+      ],
+      "sources": [
+        {
+          "id": "020be89fdc44f110",
+          "title": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
+          "url": "https://mp.weixin.qq.com/s/RWveWvw9yBH6YQINBQ-XjA",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 95,
+          "grade": "A",
+          "published_at": "2026-07-16T10:00:00Z"
+        }
+      ],
+      "items": [
+        {
+          "id": "020be89fdc44f110",
+          "title": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
+          "url": "https://mp.weixin.qq.com/s/RWveWvw9yBH6YQINBQ-XjA",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 95,
+          "grade": "A",
+          "published_at": "2026-07-16T10:00:00Z"
+        }
+      ],
+      "primary_item": {
+        "id": "020be89fdc44f110",
+        "title": "HYPIC：小红书联合北大、上交提出首个混合注意力大模型位置无关缓存系统",
+        "url": "https://mp.weixin.qq.com/s/RWveWvw9yBH6YQINBQ-XjA",
+        "source": "AI HOT",
+        "source_name": "AI HOT",
+        "score": 95,
+        "grade": "A",
+        "published_at": "2026-07-16T10:00:00Z"
+      },
+      "earliest_at": "2026-07-16T10:00:00Z",
+      "latest_at": "2026-07-16T10:00:00Z",
+      "importance_score": 72.0,
+      "importance_label": "A",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-07-16 17:14 (UTC)",
+          "score": 96,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 19:07 (UTC)",
+          "score": 96,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 20:55 (UTC)",
+          "score": 96,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 23:58 (UTC)",
+          "score": 95,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -1785,7 +1897,7 @@
           "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 94,
+          "score": 95,
           "grade": "A",
           "published_at": "2026-07-16T12:06:51Z"
         }
@@ -1797,7 +1909,7 @@
           "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 94,
+          "score": 95,
           "grade": "A",
           "published_at": "2026-07-16T12:06:51Z"
         }
@@ -1809,7 +1921,7 @@
           "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 94,
+          "score": 95,
           "grade": "A",
           "published_at": "2026-07-16T12:06:51Z"
         }
@@ -1820,13 +1932,13 @@
         "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
         "source": "AI HOT",
         "source_name": "AI HOT",
-        "score": 94,
+        "score": 95,
         "grade": "A",
         "published_at": "2026-07-16T12:06:51Z"
       },
       "earliest_at": "2026-07-16T12:06:51Z",
       "latest_at": "2026-07-16T12:06:51Z",
-      "importance_score": 71.4,
+      "importance_score": 72.0,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
@@ -1849,6 +1961,11 @@
         {
           "ts": "2026-07-16 23:58 (UTC)",
           "score": 95,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 94,
           "source_count": 1
         }
       ],
@@ -1875,7 +1992,7 @@
           "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 93,
+          "score": 95,
           "grade": "A",
           "published_at": "2026-07-16T16:00:00Z"
         }
@@ -1887,7 +2004,7 @@
           "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 93,
+          "score": 95,
           "grade": "A",
           "published_at": "2026-07-16T16:00:00Z"
         }
@@ -1899,7 +2016,7 @@
           "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 93,
+          "score": 95,
           "grade": "A",
           "published_at": "2026-07-16T16:00:00Z"
         }
@@ -1910,13 +2027,13 @@
         "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
         "source": "Official AI Updates",
         "source_name": "Official AI Updates",
-        "score": 93,
+        "score": 95,
         "grade": "A",
         "published_at": "2026-07-16T16:00:00Z"
       },
       "earliest_at": "2026-07-16T16:00:00Z",
       "latest_at": "2026-07-16T16:00:00Z",
-      "importance_score": 70.8,
+      "importance_score": 72.0,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
@@ -1939,6 +2056,11 @@
         {
           "ts": "2026-07-16 23:58 (UTC)",
           "score": 95,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 93,
           "source_count": 1
         }
       ],
@@ -1965,7 +2087,7 @@
           "url": "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 93,
+          "score": 95,
           "grade": "A",
           "published_at": "2026-07-16T19:01:09Z"
         }
@@ -1977,7 +2099,7 @@
           "url": "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 93,
+          "score": 95,
           "grade": "A",
           "published_at": "2026-07-16T19:01:09Z"
         }
@@ -1989,7 +2111,7 @@
           "url": "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 93,
+          "score": 95,
           "grade": "A",
           "published_at": "2026-07-16T19:01:09Z"
         }
@@ -2000,13 +2122,13 @@
         "url": "https://github.blog/changelog/2026-07-16-repository-admins-can-archive-pull-requests",
         "source": "Official AI Updates",
         "source_name": "Official AI Updates",
-        "score": 93,
+        "score": 95,
         "grade": "A",
         "published_at": "2026-07-16T19:01:09Z"
       },
       "earliest_at": "2026-07-16T19:01:09Z",
       "latest_at": "2026-07-16T19:01:09Z",
-      "importance_score": 70.8,
+      "importance_score": 72.0,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
@@ -2105,6 +2227,86 @@
           "ts": "2026-07-16 23:58 (UTC)",
           "score": 95,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 93,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "c10e2692deae8743",
+      "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准 / PerceptionBench",
+      "primary_url": "https://www.kimi.com/blog/perception-bench",
+      "source_count": 1,
+      "source_names": [
+        "AI HOT"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "c10e2692deae8743"
+      ],
+      "cluster_items": [
+        {
+          "id": "c10e2692deae8743",
+          "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准 / PerceptionBench",
+          "url": "https://www.kimi.com/blog/perception-bench",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 95,
+          "grade": "A",
+          "published_at": "2026-07-16T19:11:01.192000Z"
+        }
+      ],
+      "sources": [
+        {
+          "id": "c10e2692deae8743",
+          "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准 / PerceptionBench",
+          "url": "https://www.kimi.com/blog/perception-bench",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 95,
+          "grade": "A",
+          "published_at": "2026-07-16T19:11:01.192000Z"
+        }
+      ],
+      "items": [
+        {
+          "id": "c10e2692deae8743",
+          "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准 / PerceptionBench",
+          "url": "https://www.kimi.com/blog/perception-bench",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 95,
+          "grade": "A",
+          "published_at": "2026-07-16T19:11:01.192000Z"
+        }
+      ],
+      "primary_item": {
+        "id": "c10e2692deae8743",
+        "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准 / PerceptionBench",
+        "url": "https://www.kimi.com/blog/perception-bench",
+        "source": "AI HOT",
+        "source_name": "AI HOT",
+        "score": 95,
+        "grade": "A",
+        "published_at": "2026-07-16T19:11:01.192000Z"
+      },
+      "earliest_at": "2026-07-16T19:11:01.192000Z",
+      "latest_at": "2026-07-16T19:11:01.192000Z",
+      "importance_score": 72.0,
+      "importance_label": "A",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-07-16 23:58 (UTC)",
+          "score": 95,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -2130,7 +2332,7 @@
           "url": "https://deepmind.google/blog/our-approach-to-bioresilience",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 91,
+          "score": 93,
           "grade": "A",
           "published_at": "2026-07-16T09:30:42Z"
         }
@@ -2142,7 +2344,7 @@
           "url": "https://deepmind.google/blog/our-approach-to-bioresilience",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 91,
+          "score": 93,
           "grade": "A",
           "published_at": "2026-07-16T09:30:42Z"
         }
@@ -2154,7 +2356,7 @@
           "url": "https://deepmind.google/blog/our-approach-to-bioresilience",
           "source": "Official AI Updates",
           "source_name": "Official AI Updates",
-          "score": 91,
+          "score": 93,
           "grade": "A",
           "published_at": "2026-07-16T09:30:42Z"
         }
@@ -2165,22 +2367,17 @@
         "url": "https://deepmind.google/blog/our-approach-to-bioresilience",
         "source": "Official AI Updates",
         "source_name": "Official AI Updates",
-        "score": 91,
+        "score": 93,
         "grade": "A",
         "published_at": "2026-07-16T09:30:42Z"
       },
       "earliest_at": "2026-07-16T09:30:42Z",
       "latest_at": "2026-07-16T09:30:42Z",
-      "importance_score": 69.6,
+      "importance_score": 70.8,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:33 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 04:38 (UTC)",
           "score": 82,
@@ -2295,6 +2492,323 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 91,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "f9bb73a6fca8465a",
+      "title": "阶跃与支付宝达成AI Agent系统级合作",
+      "primary_url": "https://36kr.com/newsflashes/3899555853862537?f=rss",
+      "source_count": 2,
+      "source_names": [
+        "36氪",
+        "36氪快讯"
+      ],
+      "cluster_size": 2,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "cluster_item_ids": [
+        "f9bb73a6fca8465a",
+        "fb8fb601e970e462"
+      ],
+      "cluster_items": [
+        {
+          "id": "f9bb73a6fca8465a",
+          "title": "阶跃与支付宝达成AI Agent系统级合作",
+          "url": "https://36kr.com/newsflashes/3899555853862537?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 67,
+          "grade": "B",
+          "published_at": null
+        },
+        {
+          "id": "fb8fb601e970e462",
+          "title": "阶跃与支付宝达成AI Agent系统级合作",
+          "url": "https://www.36kr.com/newsflashes/3899555853862537",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 67,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "f9bb73a6fca8465a",
+          "title": "阶跃与支付宝达成AI Agent系统级合作",
+          "url": "https://36kr.com/newsflashes/3899555853862537?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 67,
+          "grade": "B",
+          "published_at": null
+        },
+        {
+          "id": "fb8fb601e970e462",
+          "title": "阶跃与支付宝达成AI Agent系统级合作",
+          "url": "https://www.36kr.com/newsflashes/3899555853862537",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 67,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "f9bb73a6fca8465a",
+          "title": "阶跃与支付宝达成AI Agent系统级合作",
+          "url": "https://36kr.com/newsflashes/3899555853862537?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 67,
+          "grade": "B",
+          "published_at": null
+        },
+        {
+          "id": "fb8fb601e970e462",
+          "title": "阶跃与支付宝达成AI Agent系统级合作",
+          "url": "https://www.36kr.com/newsflashes/3899555853862537",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 67,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "f9bb73a6fca8465a",
+        "title": "阶跃与支付宝达成AI Agent系统级合作",
+        "url": "https://36kr.com/newsflashes/3899555853862537?f=rss",
+        "source": "36氪",
+        "source_name": "36氪",
+        "score": 67,
+        "grade": "B",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 70.2,
+      "importance_label": "A",
+      "importance_label_cn": "官方更新",
+      "category": "multi_source",
+      "heat_trend": [
+        {
+          "ts": "2026-07-14 21:56 (UTC)",
+          "score": 67,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 22:58 (UTC)",
+          "score": 67,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 23:58 (UTC)",
+          "score": 67,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 03:01 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 03:03 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 03:05 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 03:20 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 04:33 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 04:38 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 06:12 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 09:08 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 11:27 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 13:40 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 15:25 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 17:16 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 19:08 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 20:58 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 22:08 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 23:56 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 02:51 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 05:39 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 10:58 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 12:25 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 15:00 (UTC)",
+          "score": 77,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "98422982bed88725",
+      "title": "Cars24如何借助OpenAI扩展对话能力并加速开发 / How Cars24 scales conversations and builds faster with OpenAI",
+      "primary_url": "https://openai.com/index/cars24",
+      "source_count": 1,
+      "source_names": [
+        "Official AI Updates"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "98422982bed88725"
+      ],
+      "cluster_items": [
+        {
+          "id": "98422982bed88725",
+          "title": "Cars24如何借助OpenAI扩展对话能力并加速开发 / How Cars24 scales conversations and builds faster with OpenAI",
+          "url": "https://openai.com/index/cars24",
+          "source": "Official AI Updates",
+          "source_name": "Official AI Updates",
+          "score": 92,
+          "grade": "A",
+          "published_at": "2026-07-16T00:00:00Z"
+        }
+      ],
+      "sources": [
+        {
+          "id": "98422982bed88725",
+          "title": "Cars24如何借助OpenAI扩展对话能力并加速开发 / How Cars24 scales conversations and builds faster with OpenAI",
+          "url": "https://openai.com/index/cars24",
+          "source": "Official AI Updates",
+          "source_name": "Official AI Updates",
+          "score": 92,
+          "grade": "A",
+          "published_at": "2026-07-16T00:00:00Z"
+        }
+      ],
+      "items": [
+        {
+          "id": "98422982bed88725",
+          "title": "Cars24如何借助OpenAI扩展对话能力并加速开发 / How Cars24 scales conversations and builds faster with OpenAI",
+          "url": "https://openai.com/index/cars24",
+          "source": "Official AI Updates",
+          "source_name": "Official AI Updates",
+          "score": 92,
+          "grade": "A",
+          "published_at": "2026-07-16T00:00:00Z"
+        }
+      ],
+      "primary_item": {
+        "id": "98422982bed88725",
+        "title": "Cars24如何借助OpenAI扩展对话能力并加速开发 / How Cars24 scales conversations and builds faster with OpenAI",
+        "url": "https://openai.com/index/cars24",
+        "source": "Official AI Updates",
+        "source_name": "Official AI Updates",
+        "score": 92,
+        "grade": "A",
+        "published_at": "2026-07-16T00:00:00Z"
+      },
+      "earliest_at": "2026-07-16T00:00:00Z",
+      "latest_at": "2026-07-16T00:00:00Z",
+      "importance_score": 70.2,
+      "importance_label": "A",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-07-16 17:14 (UTC)",
+          "score": 93,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 19:07 (UTC)",
+          "score": 93,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 20:55 (UTC)",
+          "score": 93,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 23:58 (UTC)",
+          "score": 92,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -2320,7 +2834,7 @@
           "url": "https://www.ithome.com/0/977/793.htm",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 85,
+          "score": 87,
           "grade": "A",
           "published_at": "2026-07-16T14:38:08Z"
         }
@@ -2332,7 +2846,7 @@
           "url": "https://www.ithome.com/0/977/793.htm",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 85,
+          "score": 87,
           "grade": "A",
           "published_at": "2026-07-16T14:38:08Z"
         }
@@ -2344,7 +2858,7 @@
           "url": "https://www.ithome.com/0/977/793.htm",
           "source": "AI HOT",
           "source_name": "AI HOT",
-          "score": 85,
+          "score": 87,
           "grade": "A",
           "published_at": "2026-07-16T14:38:08Z"
         }
@@ -2355,13 +2869,13 @@
         "url": "https://www.ithome.com/0/977/793.htm",
         "source": "AI HOT",
         "source_name": "AI HOT",
-        "score": 85,
+        "score": 87,
         "grade": "A",
         "published_at": "2026-07-16T14:38:08Z"
       },
       "earliest_at": "2026-07-16T14:38:08Z",
       "latest_at": "2026-07-16T14:38:08Z",
-      "importance_score": 66.0,
+      "importance_score": 67.2,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
@@ -2399,6 +2913,11 @@
         {
           "ts": "2026-07-16 23:58 (UTC)",
           "score": 87,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 85,
           "source_count": 1
         }
       ],
@@ -2471,11 +2990,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
@@ -2590,9 +3104,14 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 92,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 107,
+          "source_count": 2
         }
       ],
-      "heat_delta": 0
+      "heat_delta": 1
     },
     {
       "story_id": "7dc813ea646e5a9f",
@@ -2661,11 +3180,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:33 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 04:38 (UTC)",
           "score": 82,
@@ -2778,6 +3292,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -2852,11 +3371,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
           "source_count": 1
@@ -2970,6 +3484,11 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 94,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -3041,11 +3560,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
@@ -3158,6 +3672,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -3232,11 +3751,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 87,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 87,
           "source_count": 1
@@ -3350,6 +3864,11 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -3421,11 +3940,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
@@ -3538,6 +4052,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -3612,11 +4131,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 98,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 98,
           "source_count": 1
@@ -3730,6 +4244,11 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -3801,11 +4320,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
@@ -3920,6 +4434,11 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 91,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -3991,11 +4510,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
@@ -4110,6 +4624,11 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 94,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -4181,11 +4700,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 77,
@@ -4300,9 +4814,14 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 120,
           "source_count": 5
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 77,
+          "source_count": 1
         }
       ],
-      "heat_delta": 4
+      "heat_delta": 0
     },
     {
       "story_id": "00e6f17fca848de8",
@@ -4371,11 +4890,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:33 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 04:38 (UTC)",
           "score": 77,
@@ -4488,6 +5002,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 77,
           "source_count": 1
         }
@@ -4562,11 +5081,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 98,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 98,
           "source_count": 1
@@ -4679,6 +5193,11 @@
         {
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 93,
           "source_count": 1
         }
       ],
@@ -4752,11 +5271,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
           "source_count": 1
@@ -4870,6 +5384,11 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 92,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -4941,11 +5460,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 98,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 98,
@@ -5058,6 +5572,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -5132,11 +5651,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 77,
           "source_count": 1
@@ -5248,6 +5762,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 77,
           "source_count": 1
         }
@@ -5322,11 +5841,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 98,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 98,
           "source_count": 1
@@ -5440,131 +5954,400 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 92,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "ae2b16711b529b53",
-      "title": "网易智企携全新升级的一站式AI应用服务亮相WAIC 2026",
-      "primary_url": "https://36kr.com/newsflashes/3899490626684544?f=rss",
-      "source_count": 2,
+      "story_id": "d2316153f35df86c",
+      "title": "零刻发布 ME Pro 370 两盘位 / 四盘位 NAS 型迷你主机：AI 9 HX 370 处理器，3999 元起",
+      "primary_url": "https://www.ithome.com/0/978/270.htm",
+      "source_count": 1,
       "source_names": [
-        "36氪",
-        "36氪快讯"
+        "IT之家"
       ],
-      "cluster_size": 2,
-      "item_count": 2,
-      "duplicate_count": 2,
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
       "cluster_item_ids": [
-        "ae2b16711b529b53",
-        "6735d02df67f8485"
+        "d2316153f35df86c"
       ],
       "cluster_items": [
         {
-          "id": "ae2b16711b529b53",
-          "title": "网易智企携全新升级的一站式AI应用服务亮相WAIC 2026",
-          "url": "https://36kr.com/newsflashes/3899490626684544?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
-          "score": 49,
-          "grade": "C",
-          "published_at": null
-        },
-        {
-          "id": "6735d02df67f8485",
-          "title": "网易智企携全新升级的一站式AI应用服务亮相WAIC 2026",
-          "url": "https://www.36kr.com/newsflashes/3899490626684544",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 49,
-          "grade": "C",
+          "id": "d2316153f35df86c",
+          "title": "零刻发布 ME Pro 370 两盘位 / 四盘位 NAS 型迷你主机：AI 9 HX 370 处理器，3999 元起",
+          "url": "https://www.ithome.com/0/978/270.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
           "published_at": null
         }
       ],
       "sources": [
         {
-          "id": "ae2b16711b529b53",
-          "title": "网易智企携全新升级的一站式AI应用服务亮相WAIC 2026",
-          "url": "https://36kr.com/newsflashes/3899490626684544?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
-          "score": 49,
-          "grade": "C",
-          "published_at": null
-        },
-        {
-          "id": "6735d02df67f8485",
-          "title": "网易智企携全新升级的一站式AI应用服务亮相WAIC 2026",
-          "url": "https://www.36kr.com/newsflashes/3899490626684544",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 49,
-          "grade": "C",
+          "id": "d2316153f35df86c",
+          "title": "零刻发布 ME Pro 370 两盘位 / 四盘位 NAS 型迷你主机：AI 9 HX 370 处理器，3999 元起",
+          "url": "https://www.ithome.com/0/978/270.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
           "published_at": null
         }
       ],
       "items": [
         {
-          "id": "ae2b16711b529b53",
-          "title": "网易智企携全新升级的一站式AI应用服务亮相WAIC 2026",
-          "url": "https://36kr.com/newsflashes/3899490626684544?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
-          "score": 49,
-          "grade": "C",
-          "published_at": null
-        },
-        {
-          "id": "6735d02df67f8485",
-          "title": "网易智企携全新升级的一站式AI应用服务亮相WAIC 2026",
-          "url": "https://www.36kr.com/newsflashes/3899490626684544",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 49,
-          "grade": "C",
+          "id": "d2316153f35df86c",
+          "title": "零刻发布 ME Pro 370 两盘位 / 四盘位 NAS 型迷你主机：AI 9 HX 370 处理器，3999 元起",
+          "url": "https://www.ithome.com/0/978/270.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
           "published_at": null
         }
       ],
       "primary_item": {
-        "id": "ae2b16711b529b53",
-        "title": "网易智企携全新升级的一站式AI应用服务亮相WAIC 2026",
-        "url": "https://36kr.com/newsflashes/3899490626684544?f=rss",
-        "source": "36氪",
-        "source_name": "36氪",
-        "score": 49,
-        "grade": "C",
+        "id": "d2316153f35df86c",
+        "title": "零刻发布 ME Pro 370 两盘位 / 四盘位 NAS 型迷你主机：AI 9 HX 370 处理器，3999 元起",
+        "url": "https://www.ithome.com/0/978/270.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 72,
+        "grade": "B",
         "published_at": null
       },
       "earliest_at": null,
       "latest_at": null,
-      "importance_score": 59.4,
+      "importance_score": 58.2,
       "importance_label": "B",
-      "importance_label_cn": "官方更新",
-      "category": "multi_source",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-14 10:44 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-14 12:10 (UTC)",
           "score": 72,
           "source_count": 1
         },
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 47,
+          "ts": "2026-07-14 14:49 (UTC)",
+          "score": 72,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 16:13 (UTC)",
+          "score": 72,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 18:01 (UTC)",
+          "score": 72,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 20:10 (UTC)",
+          "score": 72,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 21:56 (UTC)",
+          "score": 72,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-14 22:58 (UTC)",
+          "score": 72,
           "source_count": 1
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "428eed6d9c346485",
-      "title": "2连板道明光学：目前不存在AI手机相关业务",
-      "primary_url": "https://36kr.com/newsflashes/3899502733199238?f=rss",
+      "story_id": "16b67ae883b84fb7",
+      "title": "打造开放可信普惠生态：AI 智能体互信互联互操作全球合作倡议发布",
+      "primary_url": "https://www.ithome.com/0/978/197.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "16b67ae883b84fb7"
+      ],
+      "cluster_items": [
+        {
+          "id": "16b67ae883b84fb7",
+          "title": "打造开放可信普惠生态：AI 智能体互信互联互操作全球合作倡议发布",
+          "url": "https://www.ithome.com/0/978/197.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "16b67ae883b84fb7",
+          "title": "打造开放可信普惠生态：AI 智能体互信互联互操作全球合作倡议发布",
+          "url": "https://www.ithome.com/0/978/197.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "16b67ae883b84fb7",
+          "title": "打造开放可信普惠生态：AI 智能体互信互联互操作全球合作倡议发布",
+          "url": "https://www.ithome.com/0/978/197.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "16b67ae883b84fb7",
+        "title": "打造开放可信普惠生态：AI 智能体互信互联互操作全球合作倡议发布",
+        "url": "https://www.ithome.com/0/978/197.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 72,
+        "grade": "B",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 58.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "0dd5dea86ee4c9b7",
+      "title": "阿里通义实验室发布 Wan-Streamer v0.2 模型，AI 视频电话响应延迟仅 550ms",
+      "primary_url": "https://www.ithome.com/0/978/125.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "0dd5dea86ee4c9b7"
+      ],
+      "cluster_items": [
+        {
+          "id": "0dd5dea86ee4c9b7",
+          "title": "阿里通义实验室发布 Wan-Streamer v0.2 模型，AI 视频电话响应延迟仅 550ms",
+          "url": "https://www.ithome.com/0/978/125.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "0dd5dea86ee4c9b7",
+          "title": "阿里通义实验室发布 Wan-Streamer v0.2 模型，AI 视频电话响应延迟仅 550ms",
+          "url": "https://www.ithome.com/0/978/125.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "0dd5dea86ee4c9b7",
+          "title": "阿里通义实验室发布 Wan-Streamer v0.2 模型，AI 视频电话响应延迟仅 550ms",
+          "url": "https://www.ithome.com/0/978/125.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "0dd5dea86ee4c9b7",
+        "title": "阿里通义实验室发布 Wan-Streamer v0.2 模型，AI 视频电话响应延迟仅 550ms",
+        "url": "https://www.ithome.com/0/978/125.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 72,
+        "grade": "B",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 58.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "4b6a9f3b42b289ae",
+      "title": "中国气象局发布“妈祖”风云卫星 AI 工具箱",
+      "primary_url": "https://www.ithome.com/0/978/103.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "4b6a9f3b42b289ae"
+      ],
+      "cluster_items": [
+        {
+          "id": "4b6a9f3b42b289ae",
+          "title": "中国气象局发布“妈祖”风云卫星 AI 工具箱",
+          "url": "https://www.ithome.com/0/978/103.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "4b6a9f3b42b289ae",
+          "title": "中国气象局发布“妈祖”风云卫星 AI 工具箱",
+          "url": "https://www.ithome.com/0/978/103.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "4b6a9f3b42b289ae",
+          "title": "中国气象局发布“妈祖”风云卫星 AI 工具箱",
+          "url": "https://www.ithome.com/0/978/103.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "4b6a9f3b42b289ae",
+        "title": "中国气象局发布“妈祖”风云卫星 AI 工具箱",
+        "url": "https://www.ithome.com/0/978/103.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 72,
+        "grade": "B",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 58.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "604f7782f4d5874b",
+      "title": "腾讯发布具身 VLM 基座模型 Hy-Embodied-VLM-1.0，A3B 规模整体性能接近上一代 A32B 模型",
+      "primary_url": "https://www.ithome.com/0/978/080.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "604f7782f4d5874b"
+      ],
+      "cluster_items": [
+        {
+          "id": "604f7782f4d5874b",
+          "title": "腾讯发布具身 VLM 基座模型 Hy-Embodied-VLM-1.0，A3B 规模整体性能接近上一代 A32B 模型",
+          "url": "https://www.ithome.com/0/978/080.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "604f7782f4d5874b",
+          "title": "腾讯发布具身 VLM 基座模型 Hy-Embodied-VLM-1.0，A3B 规模整体性能接近上一代 A32B 模型",
+          "url": "https://www.ithome.com/0/978/080.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "604f7782f4d5874b",
+          "title": "腾讯发布具身 VLM 基座模型 Hy-Embodied-VLM-1.0，A3B 规模整体性能接近上一代 A32B 模型",
+          "url": "https://www.ithome.com/0/978/080.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "604f7782f4d5874b",
+        "title": "腾讯发布具身 VLM 基座模型 Hy-Embodied-VLM-1.0，A3B 规模整体性能接近上一代 A32B 模型",
+        "url": "https://www.ithome.com/0/978/080.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 72,
+        "grade": "B",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 58.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "943b21fca73f571b",
+      "title": "国科微：拟定增募资不超过50.61亿元，用于端侧AI芯片研发及产业化项目等",
+      "primary_url": "https://36kr.com/newsflashes/3899639438280323?f=rss",
       "source_count": 2,
       "source_names": [
         "36氪",
@@ -5574,14 +6357,14 @@
       "item_count": 2,
       "duplicate_count": 2,
       "cluster_item_ids": [
-        "428eed6d9c346485",
-        "e894bc22260e9760"
+        "943b21fca73f571b",
+        "ff759002de9a05b6"
       ],
       "cluster_items": [
         {
-          "id": "428eed6d9c346485",
-          "title": "2连板道明光学：目前不存在AI手机相关业务",
-          "url": "https://36kr.com/newsflashes/3899502733199238?f=rss",
+          "id": "943b21fca73f571b",
+          "title": "国科微：拟定增募资不超过50.61亿元，用于端侧AI芯片研发及产业化项目等",
+          "url": "https://36kr.com/newsflashes/3899639438280323?f=rss",
           "source": "36氪",
           "source_name": "36氪",
           "score": 39,
@@ -5589,9 +6372,9 @@
           "published_at": null
         },
         {
-          "id": "e894bc22260e9760",
-          "title": "2连板道明光学：目前不存在AI手机相关业务",
-          "url": "https://www.36kr.com/newsflashes/3899502733199238",
+          "id": "ff759002de9a05b6",
+          "title": "国科微：拟定增募资不超过50.61亿元，用于端侧AI芯片研发及产业化项目等",
+          "url": "https://www.36kr.com/newsflashes/3899639438280323",
           "source": "36氪快讯",
           "source_name": "36氪快讯",
           "score": 39,
@@ -5601,9 +6384,9 @@
       ],
       "sources": [
         {
-          "id": "428eed6d9c346485",
-          "title": "2连板道明光学：目前不存在AI手机相关业务",
-          "url": "https://36kr.com/newsflashes/3899502733199238?f=rss",
+          "id": "943b21fca73f571b",
+          "title": "国科微：拟定增募资不超过50.61亿元，用于端侧AI芯片研发及产业化项目等",
+          "url": "https://36kr.com/newsflashes/3899639438280323?f=rss",
           "source": "36氪",
           "source_name": "36氪",
           "score": 39,
@@ -5611,9 +6394,9 @@
           "published_at": null
         },
         {
-          "id": "e894bc22260e9760",
-          "title": "2连板道明光学：目前不存在AI手机相关业务",
-          "url": "https://www.36kr.com/newsflashes/3899502733199238",
+          "id": "ff759002de9a05b6",
+          "title": "国科微：拟定增募资不超过50.61亿元，用于端侧AI芯片研发及产业化项目等",
+          "url": "https://www.36kr.com/newsflashes/3899639438280323",
           "source": "36氪快讯",
           "source_name": "36氪快讯",
           "score": 39,
@@ -5623,9 +6406,9 @@
       ],
       "items": [
         {
-          "id": "428eed6d9c346485",
-          "title": "2连板道明光学：目前不存在AI手机相关业务",
-          "url": "https://36kr.com/newsflashes/3899502733199238?f=rss",
+          "id": "943b21fca73f571b",
+          "title": "国科微：拟定增募资不超过50.61亿元，用于端侧AI芯片研发及产业化项目等",
+          "url": "https://36kr.com/newsflashes/3899639438280323?f=rss",
           "source": "36氪",
           "source_name": "36氪",
           "score": 39,
@@ -5633,9 +6416,9 @@
           "published_at": null
         },
         {
-          "id": "e894bc22260e9760",
-          "title": "2连板道明光学：目前不存在AI手机相关业务",
-          "url": "https://www.36kr.com/newsflashes/3899502733199238",
+          "id": "ff759002de9a05b6",
+          "title": "国科微：拟定增募资不超过50.61亿元，用于端侧AI芯片研发及产业化项目等",
+          "url": "https://www.36kr.com/newsflashes/3899639438280323",
           "source": "36氪快讯",
           "source_name": "36氪快讯",
           "score": 39,
@@ -5644,9 +6427,9 @@
         }
       ],
       "primary_item": {
-        "id": "428eed6d9c346485",
-        "title": "2连板道明光学：目前不存在AI手机相关业务",
-        "url": "https://36kr.com/newsflashes/3899502733199238?f=rss",
+        "id": "943b21fca73f571b",
+        "title": "国科微：拟定增募资不超过50.61亿元，用于端侧AI芯片研发及产业化项目等",
+        "url": "https://36kr.com/newsflashes/3899639438280323?f=rss",
         "source": "36氪",
         "source_name": "36氪",
         "score": 39,
@@ -5659,6 +6442,75 @@
       "importance_label": "B",
       "importance_label_cn": "官方更新",
       "category": "multi_source",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "bdf72ae926a44931",
+      "title": "全球首个千亿参数级！中国气象局启动“风和”模型全球开源计划",
+      "primary_url": "https://www.ithome.com/0/978/082.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "bdf72ae926a44931"
+      ],
+      "cluster_items": [
+        {
+          "id": "bdf72ae926a44931",
+          "title": "全球首个千亿参数级！中国气象局启动“风和”模型全球开源计划",
+          "url": "https://www.ithome.com/0/978/082.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 62,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "bdf72ae926a44931",
+          "title": "全球首个千亿参数级！中国气象局启动“风和”模型全球开源计划",
+          "url": "https://www.ithome.com/0/978/082.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 62,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "bdf72ae926a44931",
+          "title": "全球首个千亿参数级！中国气象局启动“风和”模型全球开源计划",
+          "url": "https://www.ithome.com/0/978/082.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 62,
+          "grade": "B",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "bdf72ae926a44931",
+        "title": "全球首个千亿参数级！中国气象局启动“风和”模型全球开源计划",
+        "url": "https://www.ithome.com/0/978/082.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 62,
+        "grade": "B",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 52.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
       "heat_trend": [],
       "heat_delta": 0
     },
@@ -5729,11 +6581,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
@@ -5848,6 +6695,11 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 101,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -5919,11 +6771,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
@@ -6038,6 +6885,121 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 107,
+          "source_count": 2
+        }
+      ],
+      "heat_delta": 1
+    },
+    {
+      "story_id": "21d887a472cef7c1",
+      "title": "阿里千问 AI 眼镜将升级为智能体眼镜，联合 Bose 打造首款 AI 智能体耳机同步亮相",
+      "primary_url": "https://www.ithome.com/0/978/215.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "21d887a472cef7c1"
+      ],
+      "cluster_items": [
+        {
+          "id": "21d887a472cef7c1",
+          "title": "阿里千问 AI 眼镜将升级为智能体眼镜，联合 Bose 打造首款 AI 智能体耳机同步亮相",
+          "url": "https://www.ithome.com/0/978/215.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 57,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "21d887a472cef7c1",
+          "title": "阿里千问 AI 眼镜将升级为智能体眼镜，联合 Bose 打造首款 AI 智能体耳机同步亮相",
+          "url": "https://www.ithome.com/0/978/215.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 57,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "21d887a472cef7c1",
+          "title": "阿里千问 AI 眼镜将升级为智能体眼镜，联合 Bose 打造首款 AI 智能体耳机同步亮相",
+          "url": "https://www.ithome.com/0/978/215.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 57,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "21d887a472cef7c1",
+        "title": "阿里千问 AI 眼镜将升级为智能体眼镜，联合 Bose 打造首款 AI 智能体耳机同步亮相",
+        "url": "https://www.ithome.com/0/978/215.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 57,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 49.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-07-15 20:58 (UTC)",
+          "score": 94,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 22:08 (UTC)",
+          "score": 94,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 23:56 (UTC)",
+          "score": 94,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 05:39 (UTC)",
+          "score": 94,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 08:10 (UTC)",
+          "score": 94,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 10:58 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 12:25 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 15:00 (UTC)",
+          "score": 94,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -6109,11 +7071,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 95,
@@ -6226,6 +7183,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -6300,11 +7262,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
           "source_count": 1
@@ -6416,6 +7373,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -6490,11 +7452,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 87,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 87,
           "source_count": 1
@@ -6606,6 +7563,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 67,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 67,
           "source_count": 1
         }
@@ -6680,11 +7642,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 104,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 104,
           "source_count": 1
@@ -6796,6 +7753,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 49,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 49,
           "source_count": 1
         }
@@ -6870,11 +7832,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 98,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 98,
           "source_count": 1
@@ -6986,6 +7943,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -7060,11 +8022,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
           "source_count": 1
@@ -7176,6 +8133,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -7250,11 +8212,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
           "source_count": 1
@@ -7367,6 +8324,11 @@
         {
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 92,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 82,
           "source_count": 1
         }
       ],
@@ -7440,11 +8402,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 102,
           "source_count": 1
@@ -7558,6 +8515,11 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 49,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 49,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -7629,11 +8591,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 82,
@@ -7748,8 +8705,157 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "0d15f3e4a685292e",
+      "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+      "primary_url": "https://www.ithome.com/0/978/277.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "0d15f3e4a685292e"
+      ],
+      "cluster_items": [
+        {
+          "id": "0d15f3e4a685292e",
+          "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+          "url": "https://www.ithome.com/0/978/277.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 49,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "0d15f3e4a685292e",
+          "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+          "url": "https://www.ithome.com/0/978/277.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 49,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "0d15f3e4a685292e",
+          "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+          "url": "https://www.ithome.com/0/978/277.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 49,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "0d15f3e4a685292e",
+        "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+        "url": "https://www.ithome.com/0/978/277.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 49,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 44.4,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-07-16 02:51 (UTC)",
+          "score": 47,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "764565c092ddcfac",
+      "title": "2026最受投资人关注人工智能/具身智能企业50揭晓",
+      "primary_url": "https://36kr.com/p/3899597215745664?f=rss",
+      "source_count": 1,
+      "source_names": [
+        "36氪"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "764565c092ddcfac"
+      ],
+      "cluster_items": [
+        {
+          "id": "764565c092ddcfac",
+          "title": "2026最受投资人关注人工智能/具身智能企业50揭晓",
+          "url": "https://36kr.com/p/3899597215745664?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "764565c092ddcfac",
+          "title": "2026最受投资人关注人工智能/具身智能企业50揭晓",
+          "url": "https://36kr.com/p/3899597215745664?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "764565c092ddcfac",
+          "title": "2026最受投资人关注人工智能/具身智能企业50揭晓",
+          "url": "https://36kr.com/p/3899597215745664?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "764565c092ddcfac",
+        "title": "2026最受投资人关注人工智能/具身智能企业50揭晓",
+        "url": "https://36kr.com/p/3899597215745664?f=rss",
+        "source": "36氪",
+        "source_name": "36氪",
+        "score": 47,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 43.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -7819,11 +8925,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-14 14:49 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-14 16:13 (UTC)",
           "score": 39,
@@ -7938,6 +9039,318 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 47,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 47,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "3af462e0e76bd24d",
+      "title": "阿里千问输入法移动版上线：无广告无弹窗无需注册，支持 AI 自动润色",
+      "primary_url": "https://www.ithome.com/0/978/194.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "3af462e0e76bd24d"
+      ],
+      "cluster_items": [
+        {
+          "id": "3af462e0e76bd24d",
+          "title": "阿里千问输入法移动版上线：无广告无弹窗无需注册，支持 AI 自动润色",
+          "url": "https://www.ithome.com/0/978/194.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "3af462e0e76bd24d",
+          "title": "阿里千问输入法移动版上线：无广告无弹窗无需注册，支持 AI 自动润色",
+          "url": "https://www.ithome.com/0/978/194.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "3af462e0e76bd24d",
+          "title": "阿里千问输入法移动版上线：无广告无弹窗无需注册，支持 AI 自动润色",
+          "url": "https://www.ithome.com/0/978/194.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "3af462e0e76bd24d",
+        "title": "阿里千问输入法移动版上线：无广告无弹窗无需注册，支持 AI 自动润色",
+        "url": "https://www.ithome.com/0/978/194.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 47,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 43.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "5ff8735148cd24df",
+      "title": "银河通用机器人创始人王鹤：具身智能的 ChatGPT 时刻 2028 年有望到来",
+      "primary_url": "https://www.ithome.com/0/978/136.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "5ff8735148cd24df"
+      ],
+      "cluster_items": [
+        {
+          "id": "5ff8735148cd24df",
+          "title": "银河通用机器人创始人王鹤：具身智能的 ChatGPT 时刻 2028 年有望到来",
+          "url": "https://www.ithome.com/0/978/136.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "5ff8735148cd24df",
+          "title": "银河通用机器人创始人王鹤：具身智能的 ChatGPT 时刻 2028 年有望到来",
+          "url": "https://www.ithome.com/0/978/136.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "5ff8735148cd24df",
+          "title": "银河通用机器人创始人王鹤：具身智能的 ChatGPT 时刻 2028 年有望到来",
+          "url": "https://www.ithome.com/0/978/136.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "5ff8735148cd24df",
+        "title": "银河通用机器人创始人王鹤：具身智能的 ChatGPT 时刻 2028 年有望到来",
+        "url": "https://www.ithome.com/0/978/136.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 47,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 43.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "105b9db3c9c14bce",
+      "title": "新 AI 漏洞披露：可从 Claude 记忆中泄露姓名与工作单位等信息",
+      "primary_url": "https://www.ithome.com/0/978/084.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "105b9db3c9c14bce"
+      ],
+      "cluster_items": [
+        {
+          "id": "105b9db3c9c14bce",
+          "title": "新 AI 漏洞披露：可从 Claude 记忆中泄露姓名与工作单位等信息",
+          "url": "https://www.ithome.com/0/978/084.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "105b9db3c9c14bce",
+          "title": "新 AI 漏洞披露：可从 Claude 记忆中泄露姓名与工作单位等信息",
+          "url": "https://www.ithome.com/0/978/084.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "105b9db3c9c14bce",
+          "title": "新 AI 漏洞披露：可从 Claude 记忆中泄露姓名与工作单位等信息",
+          "url": "https://www.ithome.com/0/978/084.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "105b9db3c9c14bce",
+        "title": "新 AI 漏洞披露：可从 Claude 记忆中泄露姓名与工作单位等信息",
+        "url": "https://www.ithome.com/0/978/084.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 47,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 43.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "2cba811292ec8d8c",
+      "title": "阶跃终端首款智能体手机 STEPX Neo 现场实拍，Amoo 助手可与飞书等 App 深度联动",
+      "primary_url": "https://www.ithome.com/0/978/081.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "2cba811292ec8d8c"
+      ],
+      "cluster_items": [
+        {
+          "id": "2cba811292ec8d8c",
+          "title": "阶跃终端首款智能体手机 STEPX Neo 现场实拍，Amoo 助手可与飞书等 App 深度联动",
+          "url": "https://www.ithome.com/0/978/081.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "2cba811292ec8d8c",
+          "title": "阶跃终端首款智能体手机 STEPX Neo 现场实拍，Amoo 助手可与飞书等 App 深度联动",
+          "url": "https://www.ithome.com/0/978/081.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "2cba811292ec8d8c",
+          "title": "阶跃终端首款智能体手机 STEPX Neo 现场实拍，Amoo 助手可与飞书等 App 深度联动",
+          "url": "https://www.ithome.com/0/978/081.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "2cba811292ec8d8c",
+        "title": "阶跃终端首款智能体手机 STEPX Neo 现场实拍，Amoo 助手可与飞书等 App 深度联动",
+        "url": "https://www.ithome.com/0/978/081.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 47,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 43.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-07-13 16:32 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-13 18:42 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-13 20:13 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-13 21:55 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-13 22:55 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-13 23:54 (UTC)",
+          "score": 47,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -8010,11 +9423,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 78,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 47,
           "source_count": 1
@@ -8128,14 +9536,19 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 47,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 47,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "6c0c3ee9af27ac09",
-      "title": "独家 | 智谱 ARR 达到10 亿美元，半年增长 15 倍",
-      "primary_url": "https://36kr.com/p/3898662052693894?f=rss",
+      "story_id": "12bfda04847907be",
+      "title": "对话森博科技董事长于林义：AI应用拼的不只是技术，更是实证有效的业务闭环",
+      "primary_url": "https://36kr.com/p/3899556701128578?f=rss",
       "source_count": 1,
       "source_names": [
         "36氪"
@@ -8144,13 +9557,13 @@
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "6c0c3ee9af27ac09"
+        "12bfda04847907be"
       ],
       "cluster_items": [
         {
-          "id": "6c0c3ee9af27ac09",
-          "title": "独家 | 智谱 ARR 达到10 亿美元，半年增长 15 倍",
-          "url": "https://36kr.com/p/3898662052693894?f=rss",
+          "id": "12bfda04847907be",
+          "title": "对话森博科技董事长于林义：AI应用拼的不只是技术，更是实证有效的业务闭环",
+          "url": "https://36kr.com/p/3899556701128578?f=rss",
           "source": "36氪",
           "source_name": "36氪",
           "score": 39,
@@ -8160,9 +9573,9 @@
       ],
       "sources": [
         {
-          "id": "6c0c3ee9af27ac09",
-          "title": "独家 | 智谱 ARR 达到10 亿美元，半年增长 15 倍",
-          "url": "https://36kr.com/p/3898662052693894?f=rss",
+          "id": "12bfda04847907be",
+          "title": "对话森博科技董事长于林义：AI应用拼的不只是技术，更是实证有效的业务闭环",
+          "url": "https://36kr.com/p/3899556701128578?f=rss",
           "source": "36氪",
           "source_name": "36氪",
           "score": 39,
@@ -8172,9 +9585,9 @@
       ],
       "items": [
         {
-          "id": "6c0c3ee9af27ac09",
-          "title": "独家 | 智谱 ARR 达到10 亿美元，半年增长 15 倍",
-          "url": "https://36kr.com/p/3898662052693894?f=rss",
+          "id": "12bfda04847907be",
+          "title": "对话森博科技董事长于林义：AI应用拼的不只是技术，更是实证有效的业务闭环",
+          "url": "https://36kr.com/p/3899556701128578?f=rss",
           "source": "36氪",
           "source_name": "36氪",
           "score": 39,
@@ -8183,9 +9596,9 @@
         }
       ],
       "primary_item": {
-        "id": "6c0c3ee9af27ac09",
-        "title": "独家 | 智谱 ARR 达到10 亿美元，半年增长 15 倍",
-        "url": "https://36kr.com/p/3898662052693894?f=rss",
+        "id": "12bfda04847907be",
+        "title": "对话森博科技董事长于林义：AI应用拼的不只是技术，更是实证有效的业务闭环",
+        "url": "https://36kr.com/p/3899556701128578?f=rss",
         "source": "36氪",
         "source_name": "36氪",
         "score": 39,
@@ -8198,53 +9611,214 @@
       "importance_label": "C",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "7a39992b625da76c",
+      "title": "人工智能终端智能化分级首批测试结果公布，涉及手机、电脑、眼镜、电视、汽车座舱等",
+      "primary_url": "https://www.ithome.com/0/978/276.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "7a39992b625da76c"
+      ],
+      "cluster_items": [
         {
-          "ts": "2026-07-14 12:10 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-14 14:49 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-14 16:13 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-14 18:01 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-14 20:10 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-14 21:56 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-14 22:58 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 03:24 (UTC)",
+          "id": "7a39992b625da76c",
+          "title": "人工智能终端智能化分级首批测试结果公布，涉及手机、电脑、眼镜、电视、汽车座舱等",
+          "url": "https://www.ithome.com/0/978/276.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
           "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 39,
-          "source_count": 1
+          "grade": "C",
+          "published_at": null
         }
       ],
+      "sources": [
+        {
+          "id": "7a39992b625da76c",
+          "title": "人工智能终端智能化分级首批测试结果公布，涉及手机、电脑、眼镜、电视、汽车座舱等",
+          "url": "https://www.ithome.com/0/978/276.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "7a39992b625da76c",
+          "title": "人工智能终端智能化分级首批测试结果公布，涉及手机、电脑、眼镜、电视、汽车座舱等",
+          "url": "https://www.ithome.com/0/978/276.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "7a39992b625da76c",
+        "title": "人工智能终端智能化分级首批测试结果公布，涉及手机、电脑、眼镜、电视、汽车座舱等",
+        "url": "https://www.ithome.com/0/978/276.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 39,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "2c5824ad16efe47e",
+      "title": "图灵奖得主理查德 · 萨顿 WAIC 2026 发言：AI 还“比较弱小且不可靠”",
+      "primary_url": "https://www.ithome.com/0/978/247.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "2c5824ad16efe47e"
+      ],
+      "cluster_items": [
+        {
+          "id": "2c5824ad16efe47e",
+          "title": "图灵奖得主理查德 · 萨顿 WAIC 2026 发言：AI 还“比较弱小且不可靠”",
+          "url": "https://www.ithome.com/0/978/247.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "2c5824ad16efe47e",
+          "title": "图灵奖得主理查德 · 萨顿 WAIC 2026 发言：AI 还“比较弱小且不可靠”",
+          "url": "https://www.ithome.com/0/978/247.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "2c5824ad16efe47e",
+          "title": "图灵奖得主理查德 · 萨顿 WAIC 2026 发言：AI 还“比较弱小且不可靠”",
+          "url": "https://www.ithome.com/0/978/247.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "2c5824ad16efe47e",
+        "title": "图灵奖得主理查德 · 萨顿 WAIC 2026 发言：AI 还“比较弱小且不可靠”",
+        "url": "https://www.ithome.com/0/978/247.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 39,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "1ac7693b1b6e30fd",
+      "title": "2299 元起 Moonix AI 眼镜发售：砍掉翻译、导航只做记录，14.9 克主打轻量化佩戴",
+      "primary_url": "https://www.ithome.com/0/978/206.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "1ac7693b1b6e30fd"
+      ],
+      "cluster_items": [
+        {
+          "id": "1ac7693b1b6e30fd",
+          "title": "2299 元起 Moonix AI 眼镜发售：砍掉翻译、导航只做记录，14.9 克主打轻量化佩戴",
+          "url": "https://www.ithome.com/0/978/206.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "1ac7693b1b6e30fd",
+          "title": "2299 元起 Moonix AI 眼镜发售：砍掉翻译、导航只做记录，14.9 克主打轻量化佩戴",
+          "url": "https://www.ithome.com/0/978/206.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "1ac7693b1b6e30fd",
+          "title": "2299 元起 Moonix AI 眼镜发售：砍掉翻译、导航只做记录，14.9 克主打轻量化佩戴",
+          "url": "https://www.ithome.com/0/978/206.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "1ac7693b1b6e30fd",
+        "title": "2299 元起 Moonix AI 眼镜发售：砍掉翻译、导航只做记录，14.9 克主打轻量化佩戴",
+        "url": "https://www.ithome.com/0/978/206.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 39,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -8315,11 +9889,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:33 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 39,
           "source_count": 1
@@ -8431,6 +10000,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 39,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 39,
           "source_count": 1
         }
@@ -8505,11 +10079,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:33 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 39,
           "source_count": 1
@@ -8621,6 +10190,11 @@
         },
         {
           "ts": "2026-07-17 06:14 (UTC)",
+          "score": 39,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
           "score": 39,
           "source_count": 1
         }
@@ -8695,11 +10269,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:33 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 06:12 (UTC)",
           "score": 39,
           "source_count": 1
@@ -8813,8 +10382,82 @@
           "ts": "2026-07-17 06:14 (UTC)",
           "score": 39,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 39,
+          "source_count": 1
         }
       ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "82dcc4a72f21a9ff",
+      "title": "今年的世界人工智能大会（WAIC）有哪些看点？",
+      "primary_url": "https://www.zhihu.com/question/2059240244864611894",
+      "source_count": 1,
+      "source_names": [
+        "知乎热榜"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "82dcc4a72f21a9ff"
+      ],
+      "cluster_items": [
+        {
+          "id": "82dcc4a72f21a9ff",
+          "title": "今年的世界人工智能大会（WAIC）有哪些看点？",
+          "url": "https://www.zhihu.com/question/2059240244864611894",
+          "source": "知乎热榜",
+          "source_name": "知乎热榜",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "82dcc4a72f21a9ff",
+          "title": "今年的世界人工智能大会（WAIC）有哪些看点？",
+          "url": "https://www.zhihu.com/question/2059240244864611894",
+          "source": "知乎热榜",
+          "source_name": "知乎热榜",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "82dcc4a72f21a9ff",
+          "title": "今年的世界人工智能大会（WAIC）有哪些看点？",
+          "url": "https://www.zhihu.com/question/2059240244864611894",
+          "source": "知乎热榜",
+          "source_name": "知乎热榜",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "82dcc4a72f21a9ff",
+        "title": "今年的世界人工智能大会（WAIC）有哪些看点？",
+        "url": "https://www.zhihu.com/question/2059240244864611894",
+        "source": "知乎热榜",
+        "source_name": "知乎热榜",
+        "score": 39,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
       "heat_delta": 0
     }
   ]
