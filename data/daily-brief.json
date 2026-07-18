@@ -1,25 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-18T02:22:50.206727Z",
+  "generated_at": "2026-07-18T05:24:53.119958Z",
   "items": [
-    {
-      "id": "3a41b75b96d9623a",
-      "title": "GitHub Mobile：用Copilot云端代理修复拉取请求评论 / GitHub Mobile: Fix pull request comments with Copilot cloud agent",
-      "url": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-17T19:47:45Z",
-      "category": "智能体",
-      "score": 105,
-      "grade": "S",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 105。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "GitHub Changelog"
-      ]
-    },
     {
       "id": "1db8d40a0fcd3281",
       "title": "使用NVIDIA NeMo Automodel和🤗 Diffusers大规模微调视频和图像模型 / Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
@@ -30,30 +12,31 @@
       "keyword": null,
       "published_at": "2026-07-17T15:57:54Z",
       "category": "多模态",
-      "score": 104,
+      "score": 105,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 104。",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 105。",
       "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
       "source_names": [
         "Hugging Face Blog"
       ]
     },
     {
-      "id": "c648f2ed94e5dc47",
-      "title": "Copilot代码审查：定制化与可配置性改进 / Copilot code review: Customization and configurability improvements",
-      "url": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
-      "source": "Official AI Updates",
+      "id": "e6e6c2c86e7b5886",
+      "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用 / xAI can't deny Grok makes CSAM anymore. So it's suing users.",
+      "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
+      "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-07-17T21:08:30Z",
-      "category": "AI 编程",
-      "score": 104,
+      "published_at": "2026-07-16T20:26:23Z",
+      "category": "模型",
+      "score": 102,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 104。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 102。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "GitHub Changelog"
+        "Ars Technica",
+        "Ars Technica：AI（RSS）"
       ]
     },
     {
@@ -102,12 +85,30 @@
       "keyword": null,
       "published_at": "2026-07-17T17:11:19Z",
       "category": "模型",
-      "score": 96,
+      "score": 97,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 97。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "X：Artificial Analysis (@ArtificialAnlys)"
+      ]
+    },
+    {
+      "id": "7cb60c85a2bef8c5",
+      "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准 / BrowseComp went from 30% → 90% in 10 months. Search-agent benchmarks are saturating. So we built Lo…",
+      "url": "https://x.com/Meituan_LongCat/status/2078119654632124547",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-17T14:08:29Z",
+      "category": "智能体",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 96。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "X：美团 LongCat (@Meituan_LongCat)"
       ]
     },
     {
@@ -130,21 +131,21 @@
       ]
     },
     {
-      "id": "7cb60c85a2bef8c5",
-      "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准 / BrowseComp went from 30% → 90% in 10 months. Search-agent benchmarks are saturating. So we built Lo…",
-      "url": "https://x.com/Meituan_LongCat/status/2078119654632124547",
+      "id": "fcc7c5948f1f6529",
+      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果 / Automations in Grok",
+      "url": "https://x.ai/news/grok-automations",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-07-17T14:08:29Z",
-      "category": "智能体",
+      "published_at": "2026-07-16T21:39:40.165000Z",
+      "category": "产品",
       "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 95。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 95。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
-        "X：美团 LongCat (@Meituan_LongCat)"
+        "xAI：News（网页）"
       ]
     },
     {
@@ -193,9 +194,9 @@
       "keyword": null,
       "published_at": "2026-07-17T09:21:51.096110Z",
       "category": "产品",
-      "score": 93,
+      "score": 94,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 93。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 94。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "AIbase"
@@ -211,9 +212,9 @@
       "keyword": null,
       "published_at": "2026-07-17T09:21:51.096110Z",
       "category": "产品",
-      "score": 93,
+      "score": 94,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 93。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 94。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "AIbase"
@@ -229,9 +230,9 @@
       "keyword": null,
       "published_at": "2026-07-17T09:21:51.096110Z",
       "category": "产品",
-      "score": 93,
+      "score": 94,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 93。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 94。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "AIbase"
@@ -247,9 +248,9 @@
       "keyword": null,
       "published_at": "2026-07-17T16:32:51.023000Z",
       "category": "AI 编程",
-      "score": 92,
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 92。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 93。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "Claude：Blog（网页）"
@@ -265,9 +266,9 @@
       "keyword": null,
       "published_at": "2026-07-17T07:53:02Z",
       "category": "产品",
-      "score": 92,
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 92。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 93。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "MarkTechPost（RSS）"
@@ -338,9 +339,9 @@
       "keyword": null,
       "published_at": "2026-07-17T11:10:01Z",
       "category": "其他",
-      "score": 86,
+      "score": 87,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 86。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 87。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "IT之家（RSS）"
@@ -671,9 +672,9 @@
       ]
     },
     {
-      "id": "6664baa0c3b8c025",
-      "title": "神玑公司首次参加世界人工智能大会，发布睿动具身智能开发平台",
-      "url": "https://36kr.com/newsflashes/3899667446613640?f=rss",
+      "id": "fc62562314c6aa88",
+      "title": "阿里巴巴发布企业级AI应用创作平台秒悟团队版",
+      "url": "https://36kr.com/newsflashes/3900586757375878?f=rss",
       "source": "36氪",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -725,45 +726,27 @@
       ]
     },
     {
-      "id": "7e91c92889de2fdb",
-      "title": "类似 Anthropic Mythos 模型：消息称微软正开发 AI 漏洞检测工具，最快 7 月发布",
-      "url": "https://www.ithome.com/0/978/292.htm",
-      "source": "IT之家",
+      "id": "5a4ea7a30e6ef40d",
+      "title": "努比亚即将发布全球首款 AI 智能体手机，内置豆包手机助手，对此你有哪些期待？会成手机行业未来趋势吗？",
+      "url": "https://www.zhihu.com/question/2058326197759743941",
+      "source": "知乎热榜",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
       "published_at": null,
-      "category": "模型",
+      "category": "智能体",
       "score": 72,
       "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 72。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 72。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
-        "IT之家"
+        "知乎热榜"
       ]
     },
     {
-      "id": "e2698a33f4a1bc88",
-      "title": "抖音严打 AI 虚假灾害画面，发布防汛期涉灾信息治理公告",
-      "url": "https://www.ithome.com/0/978/291.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "产品",
-      "score": 72,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 72。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "IT之家"
-      ]
-    },
-    {
-      "id": "c7944bb2d2e33968",
-      "title": "神玑公司首次参加世界人工智能大会，发布睿动具身智能开发平台",
-      "url": "https://www.36kr.com/newsflashes/3899667446613640",
+      "id": "098bc68b2fab780a",
+      "title": "阿里巴巴发布企业级AI应用创作平台秒悟团队版",
+      "url": "https://www.36kr.com/newsflashes/3900586757375878",
       "source": "36氪快讯",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -1103,28 +1086,10 @@
       ]
     },
     {
-      "id": "b29ca8d6ab9071b9",
-      "title": "腾讯智能体集中亮相世界人工智能大会",
-      "url": "https://36kr.com/newsflashes/3899736051484552?f=rss",
+      "id": "9995a68b5569506d",
+      "title": "日媒：印企越来越依赖中国AI大模型",
+      "url": "https://36kr.com/newsflashes/3900548047177344?f=rss",
       "source": "36氪",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 47。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "36氪"
-      ]
-    },
-    {
-      "id": "79071183794f9ace",
-      "title": "如何看待 Kimi K3 模型价格较上一代翻5倍，达到输出100元，输入20元，缓存命中1元？",
-      "url": "https://www.zhihu.com/question/2061233239566685346",
-      "source": "知乎热榜",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -1135,7 +1100,43 @@
       "why_it_matters": "1 个来源信号；模型 方向；综合评分 47。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "知乎热榜"
+        "36氪"
+      ]
+    },
+    {
+      "id": "ab4700dff9e54cdd",
+      "title": "医疗AI独角兽OpenEvidence再传融资意向，潜在估值升至200亿美元",
+      "url": "https://36kr.com/newsflashes/3900510926276486?f=rss",
+      "source": "36氪",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "商业",
+      "score": 47,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；商业 方向；综合评分 47。",
+      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
+      "source_names": [
+        "36氪"
+      ]
+    },
+    {
+      "id": "c5fe0b348dd21814",
+      "title": "Claude Fable 5 入驻 AI 订阅计划，网友称限额 50% 还不如用 Kimi K3",
+      "url": "https://www.ithome.com/0/978/440.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 47,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 47。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "IT之家"
       ]
     },
     {
@@ -1175,37 +1176,37 @@
       ]
     },
     {
-      "id": "8e54df5e53dc08ff",
-      "title": "国家超算互联网招募科学智能体开发者，可享受全国首个十万卡 AI 超集群算力",
-      "url": "https://www.ithome.com/0/978/307.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "AI 编程",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 47。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "IT之家"
-      ]
-    },
-    {
-      "id": "8b14db4e2718b115",
-      "title": "腾讯智能体集中亮相世界人工智能大会",
-      "url": "https://www.36kr.com/newsflashes/3899736051484552",
+      "id": "52befed37ea5d930",
+      "title": "日媒：印企越来越依赖中国AI大模型",
+      "url": "https://www.36kr.com/newsflashes/3900548047177344",
       "source": "36氪快讯",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
       "published_at": null,
-      "category": "智能体",
+      "category": "模型",
       "score": 47,
       "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 47。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 47。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "36氪快讯"
+      ]
+    },
+    {
+      "id": "20412faa52fb99bb",
+      "title": "医疗AI独角兽OpenEvidence再传融资意向，潜在估值升至200亿美元",
+      "url": "https://www.36kr.com/newsflashes/3900510926276486",
+      "source": "36氪快讯",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "商业",
+      "score": 47,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；商业 方向；综合评分 47。",
+      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
       "source_names": [
         "36氪快讯"
       ]
@@ -1247,6 +1248,60 @@
       ]
     },
     {
+      "id": "21584e79570f06de",
+      "title": "首届世界人工智能大会·学术正式亮相",
+      "url": "https://36kr.com/newsflashes/3900588780095104?f=rss",
+      "source": "36氪",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 39,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "36氪"
+      ]
+    },
+    {
+      "id": "741082f8c6a47c5f",
+      "title": "深度原理AI科学家平台获WAIC 2026 SAIL之星奖",
+      "url": "https://36kr.com/newsflashes/3900651285726857?f=rss",
+      "source": "36氪",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 39,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "36氪"
+      ]
+    },
+    {
+      "id": "2709a7e42cb3f4bd",
+      "title": "国家能源局：将加快构建新型能源体系 赋能AI发展",
+      "url": "https://36kr.com/newsflashes/3900549667456901?f=rss",
+      "source": "36氪",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 39,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "36氪"
+      ]
+    },
+    {
       "id": "8bd4730c5d97cd10",
       "title": "“智领新程 融创未来” 两岸人工智能系列活动亮相上海世界人工智能大会",
       "url": "https://36kr.com/newsflashes/3900456408631171?f=rss",
@@ -1265,10 +1320,10 @@
       ]
     },
     {
-      "id": "a33160e16c74b8e1",
-      "title": "网传阿根廷绝杀前犯规的「证据图」被证实为AI篡改，如何评价？球衣号码都错误的AI假图为何能被大量转发？",
-      "url": "https://www.zhihu.com/question/2061411962487924266",
-      "source": "知乎热榜",
+      "id": "b0870ea39f407203",
+      "title": "华为 MateBook Pro 获国家级人工智能认证 L3 级首证",
+      "url": "https://www.ithome.com/0/978/446.htm",
+      "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -1279,14 +1334,14 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "知乎热榜"
+        "IT之家"
       ]
     },
     {
-      "id": "b6e68f14e63a5d05",
-      "title": "Linus 称 Linux 不搞「反 AI」，并要求「要么 fork，要么走人」，这会带来哪些影响？",
-      "url": "https://www.zhihu.com/question/2061099332632416849",
-      "source": "知乎热榜",
+      "id": "2628f51e6ac35c02",
+      "title": "首款专为智能眼镜打造的原生 AI 系统：乐奇 YodaOS 亮相 WAIC 2026",
+      "url": "https://www.ithome.com/0/978/439.htm",
+      "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -1297,7 +1352,61 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "知乎热榜"
+        "IT之家"
+      ]
+    },
+    {
+      "id": "3aae5381533aa540",
+      "title": "国家能源局：将加快构建新型能源体系，赋能 AI 发展",
+      "url": "https://www.ithome.com/0/978/416.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 39,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家"
+      ]
+    },
+    {
+      "id": "34be188394add6c3",
+      "title": "台积电：A14 制程过去三个月进展迅速，手机、AI 等领域客户兴趣强烈",
+      "url": "https://www.ithome.com/0/978/387.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 39,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家"
+      ]
+    },
+    {
+      "id": "6b0e026ff234aaa6",
+      "title": "东方算芯首次展出全球首颗软件定义近存计算 3D AI 芯片 DF1000，算力可达 520 TFLOPS",
+      "url": "https://www.ithome.com/0/978/368.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 39,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家"
       ]
     },
     {
@@ -1355,10 +1464,10 @@
       ]
     },
     {
-      "id": "d749070438fc6abc",
-      "title": "超 4500 名员工联名致信谷歌皮查伊，要求 AI 浪潮中保障被裁员者权益",
-      "url": "https://www.ithome.com/0/978/345.htm",
-      "source": "IT之家",
+      "id": "a33160e16c74b8e1",
+      "title": "网传阿根廷绝杀前犯规的「证据图」被证实为AI篡改，如何评价？球衣号码都错误的AI假图为何能被大量转发？",
+      "url": "https://www.zhihu.com/question/2061411962487924266",
+      "source": "知乎热榜",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -1369,14 +1478,14 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "IT之家"
+        "知乎热榜"
       ]
     },
     {
-      "id": "01370af15f4bb03b",
-      "title": "“反 AI”情绪愈演愈烈，多家头部 AI 公司加强高管安保",
-      "url": "https://www.ithome.com/0/978/344.htm",
-      "source": "IT之家",
+      "id": "b6e68f14e63a5d05",
+      "title": "Linus 称 Linux 不搞「反 AI」，并要求「要么 fork，要么走人」，这会带来哪些影响？",
+      "url": "https://www.zhihu.com/question/2061099332632416849",
+      "source": "知乎热榜",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -1387,14 +1496,14 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "IT之家"
+        "知乎热榜"
       ]
     },
     {
-      "id": "e8c72b4bb3356fa8",
-      "title": "华为昇腾 950 超节点荣获 2026 世界人工智能大会最高荣誉 SAIL 奖",
-      "url": "https://www.ithome.com/0/978/338.htm",
-      "source": "IT之家",
+      "id": "f97f5be8f18cc1f2",
+      "title": "首届世界人工智能大会·学术正式亮相",
+      "url": "https://www.36kr.com/newsflashes/3900588780095104",
+      "source": "36氪快讯",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -1405,7 +1514,43 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "IT之家"
+        "36氪快讯"
+      ]
+    },
+    {
+      "id": "3f505c4709bf0c9b",
+      "title": "深度原理AI科学家平台获WAIC 2026 SAIL之星奖",
+      "url": "https://www.36kr.com/newsflashes/3900651285726857",
+      "source": "36氪快讯",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 39,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "36氪快讯"
+      ]
+    },
+    {
+      "id": "52f99e93d4590bd6",
+      "title": "国家能源局：将加快构建新型能源体系 赋能AI发展",
+      "url": "https://www.36kr.com/newsflashes/3900549667456901",
+      "source": "36氪快讯",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 39,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "36氪快讯"
       ]
     },
     {
