@@ -1,924 +1,9 @@
 {
-  "generated_at": "2026-07-18T23:52:46.603447Z",
-  "total_stories": 80,
+  "generated_at": "2026-07-19T02:35:18.111048Z",
+  "total_stories": 68,
   "s_stories": 0,
-  "a_stories": 32,
+  "a_stories": 27,
   "stories": [
-    {
-      "story_id": "1db8d40a0fcd3281",
-      "title": "使用NVIDIA NeMo Automodel和🤗 Diffusers大规模微调视频和图像模型 / Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
-      "primary_url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-      "source_count": 1,
-      "source_names": [
-        "Official AI Updates"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "1db8d40a0fcd3281"
-      ],
-      "cluster_items": [
-        {
-          "id": "1db8d40a0fcd3281",
-          "title": "使用NVIDIA NeMo Automodel和🤗 Diffusers大规模微调视频和图像模型 / Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
-          "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T15:57:54Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "1db8d40a0fcd3281",
-          "title": "使用NVIDIA NeMo Automodel和🤗 Diffusers大规模微调视频和图像模型 / Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
-          "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T15:57:54Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "1db8d40a0fcd3281",
-          "title": "使用NVIDIA NeMo Automodel和🤗 Diffusers大规模微调视频和图像模型 / Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
-          "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T15:57:54Z"
-        }
-      ],
-      "primary_item": {
-        "id": "1db8d40a0fcd3281",
-        "title": "使用NVIDIA NeMo Automodel和🤗 Diffusers大规模微调视频和图像模型 / Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
-        "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-        "source": "Official AI Updates",
-        "source_name": "Official AI Updates",
-        "score": 101,
-        "grade": "S",
-        "published_at": "2026-07-17T15:57:54Z"
-      },
-      "earliest_at": "2026-07-17T15:57:54Z",
-      "latest_at": "2026-07-17T15:57:54Z",
-      "importance_score": 75.0,
-      "importance_label": "A",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-17 20:53 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 21:52 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 104,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 104,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 104,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 05:24 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 101,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "3a41b75b96d9623a",
-      "title": "GitHub Mobile：用Copilot云端代理修复拉取请求评论 / GitHub Mobile: Fix pull request comments with Copilot cloud agent",
-      "primary_url": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
-      "source_count": 1,
-      "source_names": [
-        "Official AI Updates"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "3a41b75b96d9623a"
-      ],
-      "cluster_items": [
-        {
-          "id": "3a41b75b96d9623a",
-          "title": "GitHub Mobile：用Copilot云端代理修复拉取请求评论 / GitHub Mobile: Fix pull request comments with Copilot cloud agent",
-          "url": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 102,
-          "grade": "S",
-          "published_at": "2026-07-17T19:47:45Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "3a41b75b96d9623a",
-          "title": "GitHub Mobile：用Copilot云端代理修复拉取请求评论 / GitHub Mobile: Fix pull request comments with Copilot cloud agent",
-          "url": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 102,
-          "grade": "S",
-          "published_at": "2026-07-17T19:47:45Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "3a41b75b96d9623a",
-          "title": "GitHub Mobile：用Copilot云端代理修复拉取请求评论 / GitHub Mobile: Fix pull request comments with Copilot cloud agent",
-          "url": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 102,
-          "grade": "S",
-          "published_at": "2026-07-17T19:47:45Z"
-        }
-      ],
-      "primary_item": {
-        "id": "3a41b75b96d9623a",
-        "title": "GitHub Mobile：用Copilot云端代理修复拉取请求评论 / GitHub Mobile: Fix pull request comments with Copilot cloud agent",
-        "url": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
-        "source": "Official AI Updates",
-        "source_name": "Official AI Updates",
-        "score": 102,
-        "grade": "S",
-        "published_at": "2026-07-17T19:47:45Z"
-      },
-      "earliest_at": "2026-07-17T19:47:45Z",
-      "latest_at": "2026-07-17T19:47:45Z",
-      "importance_score": 75.0,
-      "importance_label": "A",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-15 13:40 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 15:25 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 17:16 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 19:08 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 20:58 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 22:08 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 23:56 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 02:51 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 05:39 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 08:10 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 15:00 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 102,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "c648f2ed94e5dc47",
-      "title": "Copilot代码审查：定制化与可配置性改进 / Copilot code review: Customization and configurability improvements",
-      "primary_url": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
-      "source_count": 1,
-      "source_names": [
-        "Official AI Updates"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "c648f2ed94e5dc47"
-      ],
-      "cluster_items": [
-        {
-          "id": "c648f2ed94e5dc47",
-          "title": "Copilot代码审查：定制化与可配置性改进 / Copilot code review: Customization and configurability improvements",
-          "url": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T21:08:30Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "c648f2ed94e5dc47",
-          "title": "Copilot代码审查：定制化与可配置性改进 / Copilot code review: Customization and configurability improvements",
-          "url": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T21:08:30Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "c648f2ed94e5dc47",
-          "title": "Copilot代码审查：定制化与可配置性改进 / Copilot code review: Customization and configurability improvements",
-          "url": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T21:08:30Z"
-        }
-      ],
-      "primary_item": {
-        "id": "c648f2ed94e5dc47",
-        "title": "Copilot代码审查：定制化与可配置性改进 / Copilot code review: Customization and configurability improvements",
-        "url": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
-        "source": "Official AI Updates",
-        "source_name": "Official AI Updates",
-        "score": 101,
-        "grade": "S",
-        "published_at": "2026-07-17T21:08:30Z"
-      },
-      "earliest_at": "2026-07-17T21:08:30Z",
-      "latest_at": "2026-07-17T21:08:30Z",
-      "importance_score": 75.0,
-      "importance_label": "A",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-16 02:51 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 17:14 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 19:07 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 20:55 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 23:58 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 09:08 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 11:20 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 13:25 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 15:12 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 17:09 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 19:05 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 104,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 104,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 104,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 101,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "116a3570983c8331",
-      "title": "GitHub Copilot 应用现已可在使用量指标 API 中使用 / GitHub Copilot app now available in the usage metrics API",
-      "primary_url": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
-      "source_count": 1,
-      "source_names": [
-        "Official AI Updates"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "116a3570983c8331"
-      ],
-      "cluster_items": [
-        {
-          "id": "116a3570983c8331",
-          "title": "GitHub Copilot 应用现已可在使用量指标 API 中使用 / GitHub Copilot app now available in the usage metrics API",
-          "url": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T22:05:11Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "116a3570983c8331",
-          "title": "GitHub Copilot 应用现已可在使用量指标 API 中使用 / GitHub Copilot app now available in the usage metrics API",
-          "url": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T22:05:11Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "116a3570983c8331",
-          "title": "GitHub Copilot 应用现已可在使用量指标 API 中使用 / GitHub Copilot app now available in the usage metrics API",
-          "url": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T22:05:11Z"
-        }
-      ],
-      "primary_item": {
-        "id": "116a3570983c8331",
-        "title": "GitHub Copilot 应用现已可在使用量指标 API 中使用 / GitHub Copilot app now available in the usage metrics API",
-        "url": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
-        "source": "Official AI Updates",
-        "source_name": "Official AI Updates",
-        "score": 101,
-        "grade": "S",
-        "published_at": "2026-07-17T22:05:11Z"
-      },
-      "earliest_at": "2026-07-17T22:05:11Z",
-      "latest_at": "2026-07-17T22:05:11Z",
-      "importance_score": 75.0,
-      "importance_label": "A",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-15 13:40 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 15:25 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 17:16 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 19:08 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 20:58 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 22:08 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 23:56 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 02:51 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 05:39 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 08:10 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 15:00 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 102,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "9a17ce451978c5ea",
-      "title": "仓库级GitHub Copilot使用指标正式推出 / Repository-level GitHub Copilot usage metrics generally available",
-      "primary_url": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
-      "source_count": 1,
-      "source_names": [
-        "Official AI Updates"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "9a17ce451978c5ea"
-      ],
-      "cluster_items": [
-        {
-          "id": "9a17ce451978c5ea",
-          "title": "仓库级GitHub Copilot使用指标正式推出 / Repository-level GitHub Copilot usage metrics generally available",
-          "url": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T22:05:18Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "9a17ce451978c5ea",
-          "title": "仓库级GitHub Copilot使用指标正式推出 / Repository-level GitHub Copilot usage metrics generally available",
-          "url": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T22:05:18Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "9a17ce451978c5ea",
-          "title": "仓库级GitHub Copilot使用指标正式推出 / Repository-level GitHub Copilot usage metrics generally available",
-          "url": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
-          "source": "Official AI Updates",
-          "source_name": "Official AI Updates",
-          "score": 101,
-          "grade": "S",
-          "published_at": "2026-07-17T22:05:18Z"
-        }
-      ],
-      "primary_item": {
-        "id": "9a17ce451978c5ea",
-        "title": "仓库级GitHub Copilot使用指标正式推出 / Repository-level GitHub Copilot usage metrics generally available",
-        "url": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
-        "source": "Official AI Updates",
-        "source_name": "Official AI Updates",
-        "score": 101,
-        "grade": "S",
-        "published_at": "2026-07-17T22:05:18Z"
-      },
-      "earliest_at": "2026-07-17T22:05:18Z",
-      "latest_at": "2026-07-17T22:05:18Z",
-      "importance_score": 75.0,
-      "importance_label": "A",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-16 02:51 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 05:39 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 08:10 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 15:00 (UTC)",
-          "score": 100,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 23:58 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 09:08 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 11:20 (UTC)",
-          "score": 103,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 13:25 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 15:12 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 17:09 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 19:05 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 105,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 102,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
     {
       "story_id": "735b35cc3a5c26cd",
       "title": "腾讯云智能体硬件生态提速，首款接入WorkBuddy AI记忆眼镜发布",
@@ -1065,6 +150,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 72,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 72,
           "source_count": 1
         }
@@ -1217,6 +307,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 72,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 72,
           "source_count": 1
         }
@@ -1376,324 +471,19 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 72,
           "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "6edc46ee73c239ee",
-      "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
-      "primary_url": "https://x.com/dotey/status/2078172517085085951",
-      "source_count": 1,
-      "source_names": [
-        "AI HOT"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "6edc46ee73c239ee"
-      ],
-      "cluster_items": [
-        {
-          "id": "6edc46ee73c239ee",
-          "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
-          "url": "https://x.com/dotey/status/2078172517085085951",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 95,
-          "grade": "A",
-          "published_at": "2026-07-17T17:38:33Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "6edc46ee73c239ee",
-          "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
-          "url": "https://x.com/dotey/status/2078172517085085951",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 95,
-          "grade": "A",
-          "published_at": "2026-07-17T17:38:33Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "6edc46ee73c239ee",
-          "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
-          "url": "https://x.com/dotey/status/2078172517085085951",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 95,
-          "grade": "A",
-          "published_at": "2026-07-17T17:38:33Z"
-        }
-      ],
-      "primary_item": {
-        "id": "6edc46ee73c239ee",
-        "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
-        "url": "https://x.com/dotey/status/2078172517085085951",
-        "source": "AI HOT",
-        "source_name": "AI HOT",
-        "score": 95,
-        "grade": "A",
-        "published_at": "2026-07-17T17:38:33Z"
-      },
-      "earliest_at": "2026-07-17T17:38:33Z",
-      "latest_at": "2026-07-17T17:38:33Z",
-      "importance_score": 72.0,
-      "importance_label": "A",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-17 20:53 (UTC)",
-          "score": 98,
-          "source_count": 1
         },
         {
-          "ts": "2026-07-17 21:52 (UTC)",
-          "score": 98,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 98,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 98,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 98,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 05:24 (UTC)",
-          "score": 98,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 98,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 95,
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 72,
           "source_count": 1
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "d4c8d8354480bb00",
-      "title": "Sora 2 视频克隆效果惊人，真假难辨 / nothing comes close to the perfect video deep clone of sora a year later. it catches mine and sams e…",
-      "primary_url": "https://x.com/gabriel1/status/2078156277247881438",
-      "source_count": 1,
-      "source_names": [
-        "AI HOT"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "d4c8d8354480bb00"
-      ],
-      "cluster_items": [
-        {
-          "id": "d4c8d8354480bb00",
-          "title": "Sora 2 视频克隆效果惊人，真假难辨 / nothing comes close to the perfect video deep clone of sora a year later. it catches mine and sams e…",
-          "url": "https://x.com/gabriel1/status/2078156277247881438",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 94,
-          "grade": "A",
-          "published_at": "2026-07-17T16:34:01Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "d4c8d8354480bb00",
-          "title": "Sora 2 视频克隆效果惊人，真假难辨 / nothing comes close to the perfect video deep clone of sora a year later. it catches mine and sams e…",
-          "url": "https://x.com/gabriel1/status/2078156277247881438",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 94,
-          "grade": "A",
-          "published_at": "2026-07-17T16:34:01Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "d4c8d8354480bb00",
-          "title": "Sora 2 视频克隆效果惊人，真假难辨 / nothing comes close to the perfect video deep clone of sora a year later. it catches mine and sams e…",
-          "url": "https://x.com/gabriel1/status/2078156277247881438",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 94,
-          "grade": "A",
-          "published_at": "2026-07-17T16:34:01Z"
-        }
-      ],
-      "primary_item": {
-        "id": "d4c8d8354480bb00",
-        "title": "Sora 2 视频克隆效果惊人，真假难辨 / nothing comes close to the perfect video deep clone of sora a year later. it catches mine and sams e…",
-        "url": "https://x.com/gabriel1/status/2078156277247881438",
-        "source": "AI HOT",
-        "source_name": "AI HOT",
-        "score": 94,
-        "grade": "A",
-        "published_at": "2026-07-17T16:34:01Z"
-      },
-      "earliest_at": "2026-07-17T16:34:01Z",
-      "latest_at": "2026-07-17T16:34:01Z",
-      "importance_score": 71.4,
-      "importance_label": "A",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-17 20:53 (UTC)",
-          "score": 97,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 21:52 (UTC)",
-          "score": 97,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 97,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 97,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 97,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 05:24 (UTC)",
-          "score": 97,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 97,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 94,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "40d9f494fa5627a0",
-      "title": "开源AI模型面临成本与可持续性挑战",
-      "primary_url": "https://news.ycombinator.com/item?id=48947825",
+      "story_id": "4bc7975ffa647f4a",
+      "title": "Ada：一款基于CSV和Excel的AI商业智能软件（没错，也用到LLM，但不止于此） / Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)",
+      "primary_url": "https://news.ycombinator.com/item?id=48962405",
       "source_count": 1,
       "source_names": [
         "NewsNow"
@@ -1702,57 +492,57 @@
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "40d9f494fa5627a0"
+        "4bc7975ffa647f4a"
       ],
       "cluster_items": [
         {
-          "id": "40d9f494fa5627a0",
-          "title": "开源AI模型面临成本与可持续性挑战",
-          "url": "https://news.ycombinator.com/item?id=48947825",
+          "id": "4bc7975ffa647f4a",
+          "title": "Ada：一款基于CSV和Excel的AI商业智能软件（没错，也用到LLM，但不止于此） / Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)",
+          "url": "https://news.ycombinator.com/item?id=48962405",
           "source": "NewsNow",
           "source_name": "NewsNow",
-          "score": 94,
-          "grade": "A",
-          "published_at": "2026-07-17T21:08:49.566000Z"
+          "score": 78,
+          "grade": "B",
+          "published_at": "2026-07-18T22:52:16.925000Z"
         }
       ],
       "sources": [
         {
-          "id": "40d9f494fa5627a0",
-          "title": "开源AI模型面临成本与可持续性挑战",
-          "url": "https://news.ycombinator.com/item?id=48947825",
+          "id": "4bc7975ffa647f4a",
+          "title": "Ada：一款基于CSV和Excel的AI商业智能软件（没错，也用到LLM，但不止于此） / Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)",
+          "url": "https://news.ycombinator.com/item?id=48962405",
           "source": "NewsNow",
           "source_name": "NewsNow",
-          "score": 94,
-          "grade": "A",
-          "published_at": "2026-07-17T21:08:49.566000Z"
+          "score": 78,
+          "grade": "B",
+          "published_at": "2026-07-18T22:52:16.925000Z"
         }
       ],
       "items": [
         {
-          "id": "40d9f494fa5627a0",
-          "title": "开源AI模型面临成本与可持续性挑战",
-          "url": "https://news.ycombinator.com/item?id=48947825",
+          "id": "4bc7975ffa647f4a",
+          "title": "Ada：一款基于CSV和Excel的AI商业智能软件（没错，也用到LLM，但不止于此） / Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)",
+          "url": "https://news.ycombinator.com/item?id=48962405",
           "source": "NewsNow",
           "source_name": "NewsNow",
-          "score": 94,
-          "grade": "A",
-          "published_at": "2026-07-17T21:08:49.566000Z"
+          "score": 78,
+          "grade": "B",
+          "published_at": "2026-07-18T22:52:16.925000Z"
         }
       ],
       "primary_item": {
-        "id": "40d9f494fa5627a0",
-        "title": "开源AI模型面临成本与可持续性挑战",
-        "url": "https://news.ycombinator.com/item?id=48947825",
+        "id": "4bc7975ffa647f4a",
+        "title": "Ada：一款基于CSV和Excel的AI商业智能软件（没错，也用到LLM，但不止于此） / Ada: An AI business intelligence software from CSV and Excel(yes LLMs but more)",
+        "url": "https://news.ycombinator.com/item?id=48962405",
         "source": "NewsNow",
         "source_name": "NewsNow",
-        "score": 94,
-        "grade": "A",
-        "published_at": "2026-07-17T21:08:49.566000Z"
+        "score": 78,
+        "grade": "B",
+        "published_at": "2026-07-18T22:52:16.925000Z"
       },
-      "earliest_at": "2026-07-17T21:08:49.566000Z",
-      "latest_at": "2026-07-17T21:08:49.566000Z",
-      "importance_score": 71.4,
+      "earliest_at": "2026-07-18T22:52:16.925000Z",
+      "latest_at": "2026-07-18T22:52:16.925000Z",
+      "importance_score": 68.6,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
@@ -1806,615 +596,260 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 94,
           "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 94,
+          "source_count": 5
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "7dd630ed7771647e",
-      "title": "八天四款前沿模型发布，Kimi K3 跻身第三 / The frontier has opened up： four frontier launches in eight days - Grok 4.5， GPT-5.6， Muse Spark 1.1…",
-      "primary_url": "https://x.com/ArtificialAnlys/status/2078165665278730490",
+      "story_id": "13995388242ad23f",
+      "title": "市长Mamdani表示房东不能使用AI图片做广告 / Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+      "primary_url": "https://news.ycombinator.com/item?id=48962983",
       "source_count": 1,
       "source_names": [
-        "AI HOT"
+        "NewsNow"
       ],
       "cluster_size": 1,
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "7dd630ed7771647e"
+        "13995388242ad23f"
       ],
       "cluster_items": [
         {
-          "id": "7dd630ed7771647e",
-          "title": "八天四款前沿模型发布，Kimi K3 跻身第三 / The frontier has opened up： four frontier launches in eight days - Grok 4.5， GPT-5.6， Muse Spark 1.1…",
-          "url": "https://x.com/ArtificialAnlys/status/2078165665278730490",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 93,
-          "grade": "A",
-          "published_at": "2026-07-17T17:11:19Z"
+          "id": "13995388242ad23f",
+          "title": "市长Mamdani表示房东不能使用AI图片做广告 / Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+          "url": "https://news.ycombinator.com/item?id=48962983",
+          "source": "NewsNow",
+          "source_name": "NewsNow",
+          "score": 78,
+          "grade": "B",
+          "published_at": "2026-07-18T22:52:16.925000Z"
         }
       ],
       "sources": [
         {
-          "id": "7dd630ed7771647e",
-          "title": "八天四款前沿模型发布，Kimi K3 跻身第三 / The frontier has opened up： four frontier launches in eight days - Grok 4.5， GPT-5.6， Muse Spark 1.1…",
-          "url": "https://x.com/ArtificialAnlys/status/2078165665278730490",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 93,
-          "grade": "A",
-          "published_at": "2026-07-17T17:11:19Z"
+          "id": "13995388242ad23f",
+          "title": "市长Mamdani表示房东不能使用AI图片做广告 / Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+          "url": "https://news.ycombinator.com/item?id=48962983",
+          "source": "NewsNow",
+          "source_name": "NewsNow",
+          "score": 78,
+          "grade": "B",
+          "published_at": "2026-07-18T22:52:16.925000Z"
         }
       ],
       "items": [
         {
-          "id": "7dd630ed7771647e",
-          "title": "八天四款前沿模型发布，Kimi K3 跻身第三 / The frontier has opened up： four frontier launches in eight days - Grok 4.5， GPT-5.6， Muse Spark 1.1…",
-          "url": "https://x.com/ArtificialAnlys/status/2078165665278730490",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 93,
-          "grade": "A",
-          "published_at": "2026-07-17T17:11:19Z"
+          "id": "13995388242ad23f",
+          "title": "市长Mamdani表示房东不能使用AI图片做广告 / Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+          "url": "https://news.ycombinator.com/item?id=48962983",
+          "source": "NewsNow",
+          "source_name": "NewsNow",
+          "score": 78,
+          "grade": "B",
+          "published_at": "2026-07-18T22:52:16.925000Z"
         }
       ],
       "primary_item": {
-        "id": "7dd630ed7771647e",
-        "title": "八天四款前沿模型发布，Kimi K3 跻身第三 / The frontier has opened up： four frontier launches in eight days - Grok 4.5， GPT-5.6， Muse Spark 1.1…",
-        "url": "https://x.com/ArtificialAnlys/status/2078165665278730490",
-        "source": "AI HOT",
-        "source_name": "AI HOT",
-        "score": 93,
-        "grade": "A",
-        "published_at": "2026-07-17T17:11:19Z"
+        "id": "13995388242ad23f",
+        "title": "市长Mamdani表示房东不能使用AI图片做广告 / Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+        "url": "https://news.ycombinator.com/item?id=48962983",
+        "source": "NewsNow",
+        "source_name": "NewsNow",
+        "score": 78,
+        "grade": "B",
+        "published_at": "2026-07-18T22:52:16.925000Z"
       },
-      "earliest_at": "2026-07-17T17:11:19Z",
-      "latest_at": "2026-07-17T17:11:19Z",
-      "importance_score": 70.8,
-      "importance_label": "A",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-17 20:53 (UTC)",
-          "score": 97,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 21:52 (UTC)",
-          "score": 97,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 96,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 96,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 96,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 05:24 (UTC)",
-          "score": 97,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 97,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 93,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "7cb60c85a2bef8c5",
-      "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准 / BrowseComp went from 30% → 90% in 10 months. Search-agent benchmarks are saturating. So we built Lo…",
-      "primary_url": "https://x.com/Meituan_LongCat/status/2078119654632124547",
-      "source_count": 1,
-      "source_names": [
-        "AI HOT"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "7cb60c85a2bef8c5"
-      ],
-      "cluster_items": [
-        {
-          "id": "7cb60c85a2bef8c5",
-          "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准 / BrowseComp went from 30% → 90% in 10 months. Search-agent benchmarks are saturating. So we built Lo…",
-          "url": "https://x.com/Meituan_LongCat/status/2078119654632124547",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 92,
-          "grade": "A",
-          "published_at": "2026-07-17T14:08:29Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "7cb60c85a2bef8c5",
-          "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准 / BrowseComp went from 30% → 90% in 10 months. Search-agent benchmarks are saturating. So we built Lo…",
-          "url": "https://x.com/Meituan_LongCat/status/2078119654632124547",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 92,
-          "grade": "A",
-          "published_at": "2026-07-17T14:08:29Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "7cb60c85a2bef8c5",
-          "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准 / BrowseComp went from 30% → 90% in 10 months. Search-agent benchmarks are saturating. So we built Lo…",
-          "url": "https://x.com/Meituan_LongCat/status/2078119654632124547",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 92,
-          "grade": "A",
-          "published_at": "2026-07-17T14:08:29Z"
-        }
-      ],
-      "primary_item": {
-        "id": "7cb60c85a2bef8c5",
-        "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准 / BrowseComp went from 30% → 90% in 10 months. Search-agent benchmarks are saturating. So we built Lo…",
-        "url": "https://x.com/Meituan_LongCat/status/2078119654632124547",
-        "source": "AI HOT",
-        "source_name": "AI HOT",
-        "score": 92,
-        "grade": "A",
-        "published_at": "2026-07-17T14:08:29Z"
-      },
-      "earliest_at": "2026-07-17T14:08:29Z",
-      "latest_at": "2026-07-17T14:08:29Z",
-      "importance_score": 70.2,
-      "importance_label": "A",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-17 20:53 (UTC)",
-          "score": 96,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 21:52 (UTC)",
-          "score": 96,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 05:24 (UTC)",
-          "score": 96,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 96,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 92,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 92,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 92,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 92,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 92,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 92,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "e572c1d968b80fdc",
-      "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？ / Apple's plot to crush OpenAI",
-      "primary_url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-      "source_count": 1,
-      "source_names": [
-        "AI HOT"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "e572c1d968b80fdc"
-      ],
-      "cluster_items": [
-        {
-          "id": "e572c1d968b80fdc",
-          "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？ / Apple's plot to crush OpenAI",
-          "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 91,
-          "grade": "A",
-          "published_at": "2026-07-17T17:41:32Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "e572c1d968b80fdc",
-          "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？ / Apple's plot to crush OpenAI",
-          "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 91,
-          "grade": "A",
-          "published_at": "2026-07-17T17:41:32Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "e572c1d968b80fdc",
-          "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？ / Apple's plot to crush OpenAI",
-          "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 91,
-          "grade": "A",
-          "published_at": "2026-07-17T17:41:32Z"
-        }
-      ],
-      "primary_item": {
-        "id": "e572c1d968b80fdc",
-        "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？ / Apple's plot to crush OpenAI",
-        "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-        "source": "AI HOT",
-        "source_name": "AI HOT",
-        "score": 91,
-        "grade": "A",
-        "published_at": "2026-07-17T17:41:32Z"
-      },
-      "earliest_at": "2026-07-17T17:41:32Z",
-      "latest_at": "2026-07-17T17:41:32Z",
-      "importance_score": 69.6,
+      "earliest_at": "2026-07-18T22:52:16.925000Z",
+      "latest_at": "2026-07-18T22:52:16.925000Z",
+      "importance_score": 68.6,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
         {
           "ts": "2026-07-16 17:14 (UTC)",
-          "score": 93,
+          "score": 97,
           "source_count": 1
         },
         {
           "ts": "2026-07-16 19:07 (UTC)",
-          "score": 93,
+          "score": 97,
           "source_count": 1
         },
         {
           "ts": "2026-07-16 20:55 (UTC)",
-          "score": 93,
+          "score": 97,
           "source_count": 1
         },
         {
           "ts": "2026-07-16 23:58 (UTC)",
-          "score": 92,
+          "score": 95,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-17 09:08 (UTC)",
+          "score": 93,
           "source_count": 1
         },
         {
           "ts": "2026-07-17 11:20 (UTC)",
-          "score": 92,
+          "score": 95,
           "source_count": 1
         },
         {
-          "ts": "2026-07-17 20:53 (UTC)",
-          "score": 95,
-          "source_count": 2
+          "ts": "2026-07-17 13:25 (UTC)",
+          "score": 93,
+          "source_count": 1
         },
         {
-          "ts": "2026-07-17 21:52 (UTC)",
-          "score": 95,
-          "source_count": 2
+          "ts": "2026-07-17 15:12 (UTC)",
+          "score": 93,
+          "source_count": 1
         },
         {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 95,
-          "source_count": 2
+          "ts": "2026-07-17 17:09 (UTC)",
+          "score": 93,
+          "source_count": 1
         },
         {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 95,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 95,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 05:24 (UTC)",
-          "score": 95,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 95,
-          "source_count": 2
+          "ts": "2026-07-17 19:05 (UTC)",
+          "score": 93,
+          "source_count": 1
         },
         {
           "ts": "2026-07-18 09:23 (UTC)",
-          "score": 92,
-          "source_count": 3
+          "score": 95,
+          "source_count": 5
         },
         {
           "ts": "2026-07-18 11:02 (UTC)",
-          "score": 92,
-          "source_count": 3
+          "score": 95,
+          "source_count": 5
         },
         {
           "ts": "2026-07-18 13:11 (UTC)",
-          "score": 91,
-          "source_count": 2
+          "score": 94,
+          "source_count": 5
         },
         {
           "ts": "2026-07-18 14:50 (UTC)",
-          "score": 91,
-          "source_count": 2
+          "score": 94,
+          "source_count": 5
         },
         {
           "ts": "2026-07-18 15:55 (UTC)",
-          "score": 92,
-          "source_count": 3
+          "score": 95,
+          "source_count": 5
         },
         {
           "ts": "2026-07-18 16:58 (UTC)",
-          "score": 92,
-          "source_count": 3
+          "score": 95,
+          "source_count": 5
         },
         {
           "ts": "2026-07-18 18:00 (UTC)",
-          "score": 91,
-          "source_count": 2
+          "score": 94,
+          "source_count": 5
         },
         {
           "ts": "2026-07-18 20:03 (UTC)",
-          "score": 91,
-          "source_count": 2
+          "score": 94,
+          "source_count": 5
         },
         {
           "ts": "2026-07-18 21:50 (UTC)",
-          "score": 91,
-          "source_count": 2
+          "score": 94,
+          "source_count": 5
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
-          "score": 91,
-          "source_count": 2
+          "score": 94,
+          "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 94,
+          "source_count": 5
         }
       ],
-      "heat_delta": 1
+      "heat_delta": 4
     },
     {
-      "story_id": "c83aa86ba8cf76c1",
-      "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\" / Neil Rimer thinks the AI money is coming back out",
-      "primary_url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
+      "story_id": "aa829654373dd5be",
+      "title": "设置备用 Mac 以便由 Claude Code 进行控制：分步指南",
+      "primary_url": "https://ykdojo.github.io/claude-controls-mac",
       "source_count": 1,
       "source_names": [
-        "AI HOT"
+        "Buzzing"
       ],
       "cluster_size": 1,
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "c83aa86ba8cf76c1"
+        "aa829654373dd5be"
       ],
       "cluster_items": [
         {
-          "id": "c83aa86ba8cf76c1",
-          "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\" / Neil Rimer thinks the AI money is coming back out",
-          "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 86,
+          "id": "aa829654373dd5be",
+          "title": "设置备用 Mac 以便由 Claude Code 进行控制：分步指南",
+          "url": "https://ykdojo.github.io/claude-controls-mac",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 83,
           "grade": "A",
-          "published_at": "2026-07-18T04:47:25Z"
+          "published_at": "2026-07-18T19:37:23.960000Z"
         }
       ],
       "sources": [
         {
-          "id": "c83aa86ba8cf76c1",
-          "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\" / Neil Rimer thinks the AI money is coming back out",
-          "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 86,
+          "id": "aa829654373dd5be",
+          "title": "设置备用 Mac 以便由 Claude Code 进行控制：分步指南",
+          "url": "https://ykdojo.github.io/claude-controls-mac",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 83,
           "grade": "A",
-          "published_at": "2026-07-18T04:47:25Z"
+          "published_at": "2026-07-18T19:37:23.960000Z"
         }
       ],
       "items": [
         {
-          "id": "c83aa86ba8cf76c1",
-          "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\" / Neil Rimer thinks the AI money is coming back out",
-          "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 86,
+          "id": "aa829654373dd5be",
+          "title": "设置备用 Mac 以便由 Claude Code 进行控制：分步指南",
+          "url": "https://ykdojo.github.io/claude-controls-mac",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 83,
           "grade": "A",
-          "published_at": "2026-07-18T04:47:25Z"
+          "published_at": "2026-07-18T19:37:23.960000Z"
         }
       ],
       "primary_item": {
-        "id": "c83aa86ba8cf76c1",
-        "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\" / Neil Rimer thinks the AI money is coming back out",
-        "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
-        "source": "AI HOT",
-        "source_name": "AI HOT",
-        "score": 86,
+        "id": "aa829654373dd5be",
+        "title": "设置备用 Mac 以便由 Claude Code 进行控制：分步指南",
+        "url": "https://ykdojo.github.io/claude-controls-mac",
+        "source": "Buzzing",
+        "source_name": "Buzzing",
+        "score": 83,
         "grade": "A",
-        "published_at": "2026-07-18T04:47:25Z"
+        "published_at": "2026-07-18T19:37:23.960000Z"
       },
-      "earliest_at": "2026-07-18T04:47:25Z",
-      "latest_at": "2026-07-18T04:47:25Z",
-      "importance_score": 66.6,
+      "earliest_at": "2026-07-18T19:37:23.960000Z",
+      "latest_at": "2026-07-18T19:37:23.960000Z",
+      "importance_score": 64.8,
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 87,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 87,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 87,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 87,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 86,
+          "ts": "2026-07-15 04:38 (UTC)",
+          "score": 73,
           "source_count": 1
         }
       ],
@@ -2487,11 +922,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 92,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 107,
@@ -2606,6 +1036,11 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -2677,11 +1112,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
@@ -2794,6 +1224,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -2868,11 +1303,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 94,
           "source_count": 1
@@ -2984,6 +1414,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -3058,11 +1493,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -3174,6 +1604,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -3248,11 +1683,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -3364,6 +1794,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -3438,11 +1873,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -3554,6 +1984,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -3628,11 +2063,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -3746,6 +2176,11 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -3817,11 +2252,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 91,
@@ -3936,8 +2366,261 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "d0770ea9dc227a99",
+      "title": "GPT-5.6 通过一个提示词，弥合了凸优化领域长达 30 年的研究空白",
+      "primary_url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a",
+      "source_count": 1,
+      "source_names": [
+        "Buzzing"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "d0770ea9dc227a99"
+      ],
+      "cluster_items": [
+        {
+          "id": "d0770ea9dc227a99",
+          "title": "GPT-5.6 通过一个提示词，弥合了凸优化领域长达 30 年的研究空白",
+          "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 82,
+          "grade": "A",
+          "published_at": "2026-07-18T14:17:48.882000Z"
+        }
+      ],
+      "sources": [
+        {
+          "id": "d0770ea9dc227a99",
+          "title": "GPT-5.6 通过一个提示词，弥合了凸优化领域长达 30 年的研究空白",
+          "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 82,
+          "grade": "A",
+          "published_at": "2026-07-18T14:17:48.882000Z"
+        }
+      ],
+      "items": [
+        {
+          "id": "d0770ea9dc227a99",
+          "title": "GPT-5.6 通过一个提示词，弥合了凸优化领域长达 30 年的研究空白",
+          "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 82,
+          "grade": "A",
+          "published_at": "2026-07-18T14:17:48.882000Z"
+        }
+      ],
+      "primary_item": {
+        "id": "d0770ea9dc227a99",
+        "title": "GPT-5.6 通过一个提示词，弥合了凸优化领域长达 30 年的研究空白",
+        "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a",
+        "source": "Buzzing",
+        "source_name": "Buzzing",
+        "score": 82,
+        "grade": "A",
+        "published_at": "2026-07-18T14:17:48.882000Z"
+      },
+      "earliest_at": "2026-07-18T14:17:48.882000Z",
+      "latest_at": "2026-07-18T14:17:48.882000Z",
+      "importance_score": 64.2,
+      "importance_label": "A",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "7568c06948c8a636",
+      "title": "《Fable 5》与 GPT-5.6 Sol 在 NP-难问题上的对比：/goal 参数是否有效？",
+      "primary_url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal",
+      "source_count": 1,
+      "source_names": [
+        "Buzzing"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "7568c06948c8a636"
+      ],
+      "cluster_items": [
+        {
+          "id": "7568c06948c8a636",
+          "title": "《Fable 5》与 GPT-5.6 Sol 在 NP-难问题上的对比：/goal 参数是否有效？",
+          "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 82,
+          "grade": "A",
+          "published_at": "2026-07-18T15:05:23.818000Z"
+        }
+      ],
+      "sources": [
+        {
+          "id": "7568c06948c8a636",
+          "title": "《Fable 5》与 GPT-5.6 Sol 在 NP-难问题上的对比：/goal 参数是否有效？",
+          "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 82,
+          "grade": "A",
+          "published_at": "2026-07-18T15:05:23.818000Z"
+        }
+      ],
+      "items": [
+        {
+          "id": "7568c06948c8a636",
+          "title": "《Fable 5》与 GPT-5.6 Sol 在 NP-难问题上的对比：/goal 参数是否有效？",
+          "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 82,
+          "grade": "A",
+          "published_at": "2026-07-18T15:05:23.818000Z"
+        }
+      ],
+      "primary_item": {
+        "id": "7568c06948c8a636",
+        "title": "《Fable 5》与 GPT-5.6 Sol 在 NP-难问题上的对比：/goal 参数是否有效？",
+        "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal",
+        "source": "Buzzing",
+        "source_name": "Buzzing",
+        "score": 82,
+        "grade": "A",
+        "published_at": "2026-07-18T15:05:23.818000Z"
+      },
+      "earliest_at": "2026-07-18T15:05:23.818000Z",
+      "latest_at": "2026-07-18T15:05:23.818000Z",
+      "importance_score": 64.2,
+      "importance_label": "A",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-07-15 09:08 (UTC)",
+          "score": 92,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 13:40 (UTC)",
+          "score": 92,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 15:25 (UTC)",
+          "score": 92,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 17:16 (UTC)",
+          "score": 92,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-15 19:08 (UTC)",
+          "score": 92,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-16 02:51 (UTC)",
+          "score": 92,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 02:22 (UTC)",
+          "score": 72,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 05:24 (UTC)",
+          "score": 72,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "2793d5c9e3c356ac",
+      "title": "为什么人工智能公司的标志看起来像肛门？",
+      "primary_url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+      "source_count": 1,
+      "source_names": [
+        "Buzzing"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "2793d5c9e3c356ac"
+      ],
+      "cluster_items": [
+        {
+          "id": "2793d5c9e3c356ac",
+          "title": "为什么人工智能公司的标志看起来像肛门？",
+          "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 80,
+          "grade": "A",
+          "published_at": "2026-07-18T12:09:54.152000Z"
+        }
+      ],
+      "sources": [
+        {
+          "id": "2793d5c9e3c356ac",
+          "title": "为什么人工智能公司的标志看起来像肛门？",
+          "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 80,
+          "grade": "A",
+          "published_at": "2026-07-18T12:09:54.152000Z"
+        }
+      ],
+      "items": [
+        {
+          "id": "2793d5c9e3c356ac",
+          "title": "为什么人工智能公司的标志看起来像肛门？",
+          "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 80,
+          "grade": "A",
+          "published_at": "2026-07-18T12:09:54.152000Z"
+        }
+      ],
+      "primary_item": {
+        "id": "2793d5c9e3c356ac",
+        "title": "为什么人工智能公司的标志看起来像肛门？",
+        "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+        "source": "Buzzing",
+        "source_name": "Buzzing",
+        "score": 80,
+        "grade": "A",
+        "published_at": "2026-07-18T12:09:54.152000Z"
+      },
+      "earliest_at": "2026-07-18T12:09:54.152000Z",
+      "latest_at": "2026-07-18T12:09:54.152000Z",
+      "importance_score": 63.0,
+      "importance_label": "A",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -4007,11 +2690,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 94,
@@ -4126,6 +2804,11 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -4197,11 +2880,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 120,
-          "source_count": 5
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 77,
@@ -4314,6 +2992,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 77,
           "source_count": 1
         }
@@ -4388,11 +3071,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 77,
           "source_count": 1
@@ -4506,6 +3184,11 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 77,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 77,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -4577,11 +3260,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 93,
@@ -4696,6 +3374,11 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 77,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 77,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -4767,11 +3450,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 92,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
@@ -4884,6 +3562,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -4958,11 +3641,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -5074,6 +3752,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -5148,11 +3831,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 77,
           "source_count": 1
@@ -5264,6 +3942,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 77,
           "source_count": 1
         }
@@ -5338,11 +4021,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 92,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -5454,6 +4132,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 2
         }
@@ -5528,11 +4211,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -5646,6 +4324,136 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 82,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "9c94c1b04525fd6d",
+      "title": "最近AI代理频频随机重置每周配额，怎么回事？ / What's the deal with all the random weekly quota resets for agents lately?",
+      "primary_url": "https://news.ycombinator.com/item?id=48961157",
+      "source_count": 1,
+      "source_names": [
+        "NewsNow"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "9c94c1b04525fd6d"
+      ],
+      "cluster_items": [
+        {
+          "id": "9c94c1b04525fd6d",
+          "title": "最近AI代理频频随机重置每周配额，怎么回事？ / What's the deal with all the random weekly quota resets for agents lately?",
+          "url": "https://news.ycombinator.com/item?id=48961157",
+          "source": "NewsNow",
+          "source_name": "NewsNow",
+          "score": 77,
+          "grade": "B",
+          "published_at": "2026-07-18T19:21:37.366000Z"
+        }
+      ],
+      "sources": [
+        {
+          "id": "9c94c1b04525fd6d",
+          "title": "最近AI代理频频随机重置每周配额，怎么回事？ / What's the deal with all the random weekly quota resets for agents lately?",
+          "url": "https://news.ycombinator.com/item?id=48961157",
+          "source": "NewsNow",
+          "source_name": "NewsNow",
+          "score": 77,
+          "grade": "B",
+          "published_at": "2026-07-18T19:21:37.366000Z"
+        }
+      ],
+      "items": [
+        {
+          "id": "9c94c1b04525fd6d",
+          "title": "最近AI代理频频随机重置每周配额，怎么回事？ / What's the deal with all the random weekly quota resets for agents lately?",
+          "url": "https://news.ycombinator.com/item?id=48961157",
+          "source": "NewsNow",
+          "source_name": "NewsNow",
+          "score": 77,
+          "grade": "B",
+          "published_at": "2026-07-18T19:21:37.366000Z"
+        }
+      ],
+      "primary_item": {
+        "id": "9c94c1b04525fd6d",
+        "title": "最近AI代理频频随机重置每周配额，怎么回事？ / What's the deal with all the random weekly quota resets for agents lately?",
+        "url": "https://news.ycombinator.com/item?id=48961157",
+        "source": "NewsNow",
+        "source_name": "NewsNow",
+        "score": 77,
+        "grade": "B",
+        "published_at": "2026-07-18T19:21:37.366000Z"
+      },
+      "earliest_at": "2026-07-18T19:21:37.366000Z",
+      "latest_at": "2026-07-18T19:21:37.366000Z",
+      "importance_score": 61.2,
+      "importance_label": "A",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-07-18 09:23 (UTC)",
+          "score": 95,
+          "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 11:02 (UTC)",
+          "score": 95,
+          "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 13:11 (UTC)",
+          "score": 94,
+          "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 14:50 (UTC)",
+          "score": 94,
+          "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 15:55 (UTC)",
+          "score": 95,
+          "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 16:58 (UTC)",
+          "score": 95,
+          "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 18:00 (UTC)",
+          "score": 94,
+          "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 20:03 (UTC)",
+          "score": 94,
+          "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 21:50 (UTC)",
+          "score": 94,
+          "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 22:47 (UTC)",
+          "score": 94,
+          "source_count": 5
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 94,
+          "source_count": 5
         }
       ],
       "heat_delta": 0
@@ -5803,14 +4611,19 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 49,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 49,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "6388ffd587e7a29d",
-      "title": "凯泽医疗中心的护士们表示，人工智能和工作场所监控正在使他们的工作和护理质量恶化",
-      "primary_url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
+      "story_id": "5be5fa3c3d9f162a",
+      "title": "图表展示：AI对Stack Overflow的影响",
+      "primary_url": "https://data.stackexchange.com/stackoverflow/query/1953768",
       "source_count": 1,
       "source_names": [
         "Buzzing"
@@ -5819,397 +4632,251 @@
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "6388ffd587e7a29d"
+        "5be5fa3c3d9f162a"
       ],
       "cluster_items": [
         {
-          "id": "6388ffd587e7a29d",
-          "title": "凯泽医疗中心的护士们表示，人工智能和工作场所监控正在使他们的工作和护理质量恶化",
-          "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
+          "id": "5be5fa3c3d9f162a",
+          "title": "图表展示：AI对Stack Overflow的影响",
+          "url": "https://data.stackexchange.com/stackoverflow/query/1953768",
           "source": "Buzzing",
           "source_name": "Buzzing",
           "score": 74,
           "grade": "B",
-          "published_at": "2026-07-17T23:38:00.200000Z"
+          "published_at": "2026-07-18T13:29:15.879000Z"
         }
       ],
       "sources": [
         {
-          "id": "6388ffd587e7a29d",
-          "title": "凯泽医疗中心的护士们表示，人工智能和工作场所监控正在使他们的工作和护理质量恶化",
-          "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
+          "id": "5be5fa3c3d9f162a",
+          "title": "图表展示：AI对Stack Overflow的影响",
+          "url": "https://data.stackexchange.com/stackoverflow/query/1953768",
           "source": "Buzzing",
           "source_name": "Buzzing",
           "score": 74,
           "grade": "B",
-          "published_at": "2026-07-17T23:38:00.200000Z"
+          "published_at": "2026-07-18T13:29:15.879000Z"
         }
       ],
       "items": [
         {
-          "id": "6388ffd587e7a29d",
-          "title": "凯泽医疗中心的护士们表示，人工智能和工作场所监控正在使他们的工作和护理质量恶化",
-          "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
+          "id": "5be5fa3c3d9f162a",
+          "title": "图表展示：AI对Stack Overflow的影响",
+          "url": "https://data.stackexchange.com/stackoverflow/query/1953768",
           "source": "Buzzing",
           "source_name": "Buzzing",
           "score": 74,
           "grade": "B",
-          "published_at": "2026-07-17T23:38:00.200000Z"
+          "published_at": "2026-07-18T13:29:15.879000Z"
         }
       ],
       "primary_item": {
-        "id": "6388ffd587e7a29d",
-        "title": "凯泽医疗中心的护士们表示，人工智能和工作场所监控正在使他们的工作和护理质量恶化",
-        "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
+        "id": "5be5fa3c3d9f162a",
+        "title": "图表展示：AI对Stack Overflow的影响",
+        "url": "https://data.stackexchange.com/stackoverflow/query/1953768",
         "source": "Buzzing",
         "source_name": "Buzzing",
         "score": 74,
         "grade": "B",
-        "published_at": "2026-07-17T23:38:00.200000Z"
+        "published_at": "2026-07-18T13:29:15.879000Z"
       },
-      "earliest_at": "2026-07-17T23:38:00.200000Z",
-      "latest_at": "2026-07-17T23:38:00.200000Z",
+      "earliest_at": "2026-07-18T13:29:15.879000Z",
+      "latest_at": "2026-07-18T13:29:15.879000Z",
       "importance_score": 59.4,
       "importance_label": "B",
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 74,
-          "source_count": 3
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 74,
-          "source_count": 3
-        },
-        {
           "ts": "2026-07-18 13:11 (UTC)",
-          "score": 74,
-          "source_count": 3
+          "score": 70,
+          "source_count": 2
         },
         {
           "ts": "2026-07-18 14:50 (UTC)",
-          "score": 74,
-          "source_count": 3
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 74,
-          "source_count": 3
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 74,
-          "source_count": 3
+          "score": 70,
+          "source_count": 2
         },
         {
           "ts": "2026-07-18 18:00 (UTC)",
-          "score": 74,
-          "source_count": 3
+          "score": 70,
+          "source_count": 2
         },
         {
           "ts": "2026-07-18 20:03 (UTC)",
-          "score": 74,
-          "source_count": 3
+          "score": 70,
+          "source_count": 2
         },
         {
           "ts": "2026-07-18 21:50 (UTC)",
-          "score": 74,
-          "source_count": 3
+          "score": 70,
+          "source_count": 2
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
-          "score": 74,
-          "source_count": 3
+          "score": 70,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 70,
+          "source_count": 2
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "4ab901e5aa23d84c",
-      "title": "Claude Code：一个反功能的剖析 / Claude Code: Anatomy of a Misfeature",
-      "primary_url": "https://news.ycombinator.com/item?id=48947776",
+      "story_id": "c506e110e398cfc5",
+      "title": "荣耀新一代伙伴型多模态智能体操作系统 AgenticOS 发布，8 月 Robot Phone 首发内核",
+      "primary_url": "https://www.ithome.com/0/978/621.htm",
       "source_count": 1,
       "source_names": [
-        "NewsNow"
+        "IT之家"
       ],
       "cluster_size": 1,
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "4ab901e5aa23d84c"
+        "c506e110e398cfc5"
       ],
       "cluster_items": [
         {
-          "id": "4ab901e5aa23d84c",
-          "title": "Claude Code：一个反功能的剖析 / Claude Code: Anatomy of a Misfeature",
-          "url": "https://news.ycombinator.com/item?id=48947776",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 73,
+          "id": "c506e110e398cfc5",
+          "title": "荣耀新一代伙伴型多模态智能体操作系统 AgenticOS 发布，8 月 Robot Phone 首发内核",
+          "url": "https://www.ithome.com/0/978/621.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
           "grade": "B",
-          "published_at": "2026-07-17T15:28:14.046000Z"
+          "published_at": null
         }
       ],
       "sources": [
         {
-          "id": "4ab901e5aa23d84c",
-          "title": "Claude Code：一个反功能的剖析 / Claude Code: Anatomy of a Misfeature",
-          "url": "https://news.ycombinator.com/item?id=48947776",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 73,
+          "id": "c506e110e398cfc5",
+          "title": "荣耀新一代伙伴型多模态智能体操作系统 AgenticOS 发布，8 月 Robot Phone 首发内核",
+          "url": "https://www.ithome.com/0/978/621.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
           "grade": "B",
-          "published_at": "2026-07-17T15:28:14.046000Z"
+          "published_at": null
         }
       ],
       "items": [
         {
-          "id": "4ab901e5aa23d84c",
-          "title": "Claude Code：一个反功能的剖析 / Claude Code: Anatomy of a Misfeature",
-          "url": "https://news.ycombinator.com/item?id=48947776",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 73,
+          "id": "c506e110e398cfc5",
+          "title": "荣耀新一代伙伴型多模态智能体操作系统 AgenticOS 发布，8 月 Robot Phone 首发内核",
+          "url": "https://www.ithome.com/0/978/621.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
           "grade": "B",
-          "published_at": "2026-07-17T15:28:14.046000Z"
+          "published_at": null
         }
       ],
       "primary_item": {
-        "id": "4ab901e5aa23d84c",
-        "title": "Claude Code：一个反功能的剖析 / Claude Code: Anatomy of a Misfeature",
-        "url": "https://news.ycombinator.com/item?id=48947776",
-        "source": "NewsNow",
-        "source_name": "NewsNow",
-        "score": 73,
+        "id": "c506e110e398cfc5",
+        "title": "荣耀新一代伙伴型多模态智能体操作系统 AgenticOS 发布，8 月 Robot Phone 首发内核",
+        "url": "https://www.ithome.com/0/978/621.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 72,
         "grade": "B",
-        "published_at": "2026-07-17T15:28:14.046000Z"
+        "published_at": null
       },
-      "earliest_at": "2026-07-17T15:28:14.046000Z",
-      "latest_at": "2026-07-17T15:28:14.046000Z",
-      "importance_score": 58.8,
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 58.2,
       "importance_label": "B",
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:38 (UTC)",
-          "score": 73,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 10:58 (UTC)",
-          "score": 96,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 12:25 (UTC)",
-          "score": 96,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 17:14 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 19:07 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 20:55 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-16 22:04 (UTC)",
-          "score": 96,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 03:24 (UTC)",
-          "score": 96,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 96,
+          "ts": "2026-07-18 07:47 (UTC)",
+          "score": 72,
           "source_count": 1
         },
         {
           "ts": "2026-07-18 09:23 (UTC)",
-          "score": 95,
-          "source_count": 5
+          "score": 72,
+          "source_count": 1
         },
         {
           "ts": "2026-07-18 11:02 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 94,
-          "source_count": 5
+          "score": 72,
+          "source_count": 1
         }
       ],
-      "heat_delta": 4
+      "heat_delta": 0
     },
     {
-      "story_id": "10a42a11b8d40433",
-      "title": "Show HN: 一个由AI代理发行债券的链上市场 / Show HN: On-chain bond market where the issuers are AI agents",
-      "primary_url": "https://news.ycombinator.com/item?id=48947754",
+      "story_id": "2c872c25c25fa9f4",
+      "title": "美国初创公司发布机器人 AI 模型 ACT-2，宣称在陌生家庭叠衣成功率超 99%",
+      "primary_url": "https://www.ithome.com/0/978/617.htm",
       "source_count": 1,
       "source_names": [
-        "NewsNow"
+        "IT之家"
       ],
       "cluster_size": 1,
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "10a42a11b8d40433"
+        "2c872c25c25fa9f4"
       ],
       "cluster_items": [
         {
-          "id": "10a42a11b8d40433",
-          "title": "Show HN: 一个由AI代理发行债券的链上市场 / Show HN: On-chain bond market where the issuers are AI agents",
-          "url": "https://news.ycombinator.com/item?id=48947754",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 73,
+          "id": "2c872c25c25fa9f4",
+          "title": "美国初创公司发布机器人 AI 模型 ACT-2，宣称在陌生家庭叠衣成功率超 99%",
+          "url": "https://www.ithome.com/0/978/617.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
           "grade": "B",
-          "published_at": "2026-07-17T15:28:14.046000Z"
+          "published_at": null
         }
       ],
       "sources": [
         {
-          "id": "10a42a11b8d40433",
-          "title": "Show HN: 一个由AI代理发行债券的链上市场 / Show HN: On-chain bond market where the issuers are AI agents",
-          "url": "https://news.ycombinator.com/item?id=48947754",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 73,
+          "id": "2c872c25c25fa9f4",
+          "title": "美国初创公司发布机器人 AI 模型 ACT-2，宣称在陌生家庭叠衣成功率超 99%",
+          "url": "https://www.ithome.com/0/978/617.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
           "grade": "B",
-          "published_at": "2026-07-17T15:28:14.046000Z"
+          "published_at": null
         }
       ],
       "items": [
         {
-          "id": "10a42a11b8d40433",
-          "title": "Show HN: 一个由AI代理发行债券的链上市场 / Show HN: On-chain bond market where the issuers are AI agents",
-          "url": "https://news.ycombinator.com/item?id=48947754",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 73,
+          "id": "2c872c25c25fa9f4",
+          "title": "美国初创公司发布机器人 AI 模型 ACT-2，宣称在陌生家庭叠衣成功率超 99%",
+          "url": "https://www.ithome.com/0/978/617.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 72,
           "grade": "B",
-          "published_at": "2026-07-17T15:28:14.046000Z"
+          "published_at": null
         }
       ],
       "primary_item": {
-        "id": "10a42a11b8d40433",
-        "title": "Show HN: 一个由AI代理发行债券的链上市场 / Show HN: On-chain bond market where the issuers are AI agents",
-        "url": "https://news.ycombinator.com/item?id=48947754",
-        "source": "NewsNow",
-        "source_name": "NewsNow",
-        "score": 73,
+        "id": "2c872c25c25fa9f4",
+        "title": "美国初创公司发布机器人 AI 模型 ACT-2，宣称在陌生家庭叠衣成功率超 99%",
+        "url": "https://www.ithome.com/0/978/617.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 72,
         "grade": "B",
-        "published_at": "2026-07-17T15:28:14.046000Z"
+        "published_at": null
       },
-      "earliest_at": "2026-07-17T15:28:14.046000Z",
-      "latest_at": "2026-07-17T15:28:14.046000Z",
-      "importance_score": 58.8,
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 58.2,
       "importance_label": "B",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 94,
-          "source_count": 5
-        }
-      ],
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -6278,7 +4945,13 @@
       "importance_label": "B",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [],
+      "heat_trend": [
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 72,
+          "source_count": 1
+        }
+      ],
       "heat_delta": 0
     },
     {
@@ -6385,6 +5058,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 72,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 72,
           "source_count": 1
         }
@@ -6497,234 +5175,9 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 72,
           "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "f0b1f863d312795e",
-      "title": "商汤科技发布日日新 U1 Pro 图片创作模型：最高 8K 原生分辨率输出，宣称告别“AI 味”",
-      "primary_url": "https://www.ithome.com/0/978/562.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "f0b1f863d312795e"
-      ],
-      "cluster_items": [
-        {
-          "id": "f0b1f863d312795e",
-          "title": "商汤科技发布日日新 U1 Pro 图片创作模型：最高 8K 原生分辨率输出，宣称告别“AI 味”",
-          "url": "https://www.ithome.com/0/978/562.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "f0b1f863d312795e",
-          "title": "商汤科技发布日日新 U1 Pro 图片创作模型：最高 8K 原生分辨率输出，宣称告别“AI 味”",
-          "url": "https://www.ithome.com/0/978/562.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "f0b1f863d312795e",
-          "title": "商汤科技发布日日新 U1 Pro 图片创作模型：最高 8K 原生分辨率输出，宣称告别“AI 味”",
-          "url": "https://www.ithome.com/0/978/562.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "f0b1f863d312795e",
-        "title": "商汤科技发布日日新 U1 Pro 图片创作模型：最高 8K 原生分辨率输出，宣称告别“AI 味”",
-        "url": "https://www.ithome.com/0/978/562.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 72,
-        "grade": "B",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 58.2,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 72,
-          "source_count": 1
         },
         {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 72,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "f70f2451bdacd123",
-      "title": "上海发布太空算力星座工程“星枢计划”，商业运营阶段将完成千星部署",
-      "primary_url": "https://www.ithome.com/0/978/530.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "f70f2451bdacd123"
-      ],
-      "cluster_items": [
-        {
-          "id": "f70f2451bdacd123",
-          "title": "上海发布太空算力星座工程“星枢计划”，商业运营阶段将完成千星部署",
-          "url": "https://www.ithome.com/0/978/530.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "f70f2451bdacd123",
-          "title": "上海发布太空算力星座工程“星枢计划”，商业运营阶段将完成千星部署",
-          "url": "https://www.ithome.com/0/978/530.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "f70f2451bdacd123",
-          "title": "上海发布太空算力星座工程“星枢计划”，商业运营阶段将完成千星部署",
-          "url": "https://www.ithome.com/0/978/530.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "f70f2451bdacd123",
-        "title": "上海发布太空算力星座工程“星枢计划”，商业运营阶段将完成千星部署",
-        "url": "https://www.ithome.com/0/978/530.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 72,
-        "grade": "B",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 58.2,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 72,
           "source_count": 1
         }
@@ -6852,318 +5305,114 @@
           "ts": "2026-07-18 21:50 (UTC)",
           "score": 72,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 72,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "abb6a4d32c51883e",
-      "title": "一张图看懂AI对Stack Overflow做了什么 / What AI did to stackoverflow in a graph",
-      "primary_url": "https://news.ycombinator.com/item?id=48956949",
-      "source_count": 1,
+      "story_id": "1920923b310b03a5",
+      "title": "阶跃与上海期智研究院共建智能体前沿研究院",
+      "primary_url": "https://36kr.com/newsflashes/3901840300754822?f=rss",
+      "source_count": 2,
       "source_names": [
-        "NewsNow"
+        "36氪",
+        "36氪快讯"
       ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
+      "cluster_size": 2,
+      "item_count": 2,
+      "duplicate_count": 2,
       "cluster_item_ids": [
-        "abb6a4d32c51883e"
+        "1920923b310b03a5",
+        "148ddf9625a82206"
       ],
       "cluster_items": [
         {
-          "id": "abb6a4d32c51883e",
-          "title": "一张图看懂AI对Stack Overflow做了什么 / What AI did to stackoverflow in a graph",
-          "url": "https://news.ycombinator.com/item?id=48956949",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 70,
-          "grade": "B",
-          "published_at": "2026-07-18T11:55:45.415000Z"
+          "id": "1920923b310b03a5",
+          "title": "阶跃与上海期智研究院共建智能体前沿研究院",
+          "url": "https://36kr.com/newsflashes/3901840300754822?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        },
+        {
+          "id": "148ddf9625a82206",
+          "title": "阶跃与上海期智研究院共建智能体前沿研究院",
+          "url": "https://www.36kr.com/newsflashes/3901840300754822",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
         }
       ],
       "sources": [
         {
-          "id": "abb6a4d32c51883e",
-          "title": "一张图看懂AI对Stack Overflow做了什么 / What AI did to stackoverflow in a graph",
-          "url": "https://news.ycombinator.com/item?id=48956949",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 70,
-          "grade": "B",
-          "published_at": "2026-07-18T11:55:45.415000Z"
+          "id": "1920923b310b03a5",
+          "title": "阶跃与上海期智研究院共建智能体前沿研究院",
+          "url": "https://36kr.com/newsflashes/3901840300754822?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        },
+        {
+          "id": "148ddf9625a82206",
+          "title": "阶跃与上海期智研究院共建智能体前沿研究院",
+          "url": "https://www.36kr.com/newsflashes/3901840300754822",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
         }
       ],
       "items": [
         {
-          "id": "abb6a4d32c51883e",
-          "title": "一张图看懂AI对Stack Overflow做了什么 / What AI did to stackoverflow in a graph",
-          "url": "https://news.ycombinator.com/item?id=48956949",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 70,
-          "grade": "B",
-          "published_at": "2026-07-18T11:55:45.415000Z"
+          "id": "1920923b310b03a5",
+          "title": "阶跃与上海期智研究院共建智能体前沿研究院",
+          "url": "https://36kr.com/newsflashes/3901840300754822?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        },
+        {
+          "id": "148ddf9625a82206",
+          "title": "阶跃与上海期智研究院共建智能体前沿研究院",
+          "url": "https://www.36kr.com/newsflashes/3901840300754822",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
         }
       ],
       "primary_item": {
-        "id": "abb6a4d32c51883e",
-        "title": "一张图看懂AI对Stack Overflow做了什么 / What AI did to stackoverflow in a graph",
-        "url": "https://news.ycombinator.com/item?id=48956949",
-        "source": "NewsNow",
-        "source_name": "NewsNow",
-        "score": 70,
-        "grade": "B",
-        "published_at": "2026-07-18T11:55:45.415000Z"
+        "id": "1920923b310b03a5",
+        "title": "阶跃与上海期智研究院共建智能体前沿研究院",
+        "url": "https://36kr.com/newsflashes/3901840300754822?f=rss",
+        "source": "36氪",
+        "source_name": "36氪",
+        "score": 47,
+        "grade": "C",
+        "published_at": null
       },
-      "earliest_at": "2026-07-18T11:55:45.415000Z",
-      "latest_at": "2026-07-18T11:55:45.415000Z",
-      "importance_score": 57.0,
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 58.2,
       "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 09:08 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 11:20 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 13:25 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 15:12 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 17:09 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 19:05 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 20:53 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 21:52 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 05:24 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 94,
-          "source_count": 5
-        }
-      ],
-      "heat_delta": 4
-    },
-    {
-      "story_id": "2ab02ccb5bee3cf7",
-      "title": "为什么AI公司的Logo都长得像菊花？ / Why do AI company logos look like buttholes?",
-      "primary_url": "https://news.ycombinator.com/item?id=48956924",
-      "source_count": 1,
-      "source_names": [
-        "NewsNow"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "2ab02ccb5bee3cf7"
-      ],
-      "cluster_items": [
-        {
-          "id": "2ab02ccb5bee3cf7",
-          "title": "为什么AI公司的Logo都长得像菊花？ / Why do AI company logos look like buttholes?",
-          "url": "https://news.ycombinator.com/item?id=48956924",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 70,
-          "grade": "B",
-          "published_at": "2026-07-18T11:55:45.415000Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "2ab02ccb5bee3cf7",
-          "title": "为什么AI公司的Logo都长得像菊花？ / Why do AI company logos look like buttholes?",
-          "url": "https://news.ycombinator.com/item?id=48956924",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 70,
-          "grade": "B",
-          "published_at": "2026-07-18T11:55:45.415000Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "2ab02ccb5bee3cf7",
-          "title": "为什么AI公司的Logo都长得像菊花？ / Why do AI company logos look like buttholes?",
-          "url": "https://news.ycombinator.com/item?id=48956924",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 70,
-          "grade": "B",
-          "published_at": "2026-07-18T11:55:45.415000Z"
-        }
-      ],
-      "primary_item": {
-        "id": "2ab02ccb5bee3cf7",
-        "title": "为什么AI公司的Logo都长得像菊花？ / Why do AI company logos look like buttholes?",
-        "url": "https://news.ycombinator.com/item?id=48956924",
-        "source": "NewsNow",
-        "source_name": "NewsNow",
-        "score": 70,
-        "grade": "B",
-        "published_at": "2026-07-18T11:55:45.415000Z"
-      },
-      "earliest_at": "2026-07-18T11:55:45.415000Z",
-      "latest_at": "2026-07-18T11:55:45.415000Z",
-      "importance_score": 57.0,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 94,
-          "source_count": 5
-        }
-      ],
+      "importance_label_cn": "官方更新",
+      "category": "multi_source",
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -7233,11 +5482,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 107,
@@ -7352,730 +5596,82 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 77,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 77,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "268be5f6cbb86929",
-      "title": "人人都觉得AI怪怪的——除了那些硬塞给我们的人。 / Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
-      "primary_url": "https://news.ycombinator.com/item?id=48952445",
+      "story_id": "ebc5503d4f22dce5",
+      "title": "安谋科技发起“开源 AIOS 联盟”，合作伙伴包含瑞芯微、紫光展锐、全志等",
+      "primary_url": "https://www.ithome.com/0/978/628.htm",
       "source_count": 1,
       "source_names": [
-        "NewsNow"
+        "IT之家"
       ],
       "cluster_size": 1,
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "268be5f6cbb86929"
+        "ebc5503d4f22dce5"
       ],
       "cluster_items": [
         {
-          "id": "268be5f6cbb86929",
-          "title": "人人都觉得AI怪怪的——除了那些硬塞给我们的人。 / Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
-          "url": "https://news.ycombinator.com/item?id=48952445",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 67,
+          "id": "ebc5503d4f22dce5",
+          "title": "安谋科技发起“开源 AIOS 联盟”，合作伙伴包含瑞芯微、紫光展锐、全志等",
+          "url": "https://www.ithome.com/0/978/628.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 62,
           "grade": "B",
-          "published_at": "2026-07-17T22:07:21.841000Z"
+          "published_at": null
         }
       ],
       "sources": [
         {
-          "id": "268be5f6cbb86929",
-          "title": "人人都觉得AI怪怪的——除了那些硬塞给我们的人。 / Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
-          "url": "https://news.ycombinator.com/item?id=48952445",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 67,
+          "id": "ebc5503d4f22dce5",
+          "title": "安谋科技发起“开源 AIOS 联盟”，合作伙伴包含瑞芯微、紫光展锐、全志等",
+          "url": "https://www.ithome.com/0/978/628.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 62,
           "grade": "B",
-          "published_at": "2026-07-17T22:07:21.841000Z"
+          "published_at": null
         }
       ],
       "items": [
         {
-          "id": "268be5f6cbb86929",
-          "title": "人人都觉得AI怪怪的——除了那些硬塞给我们的人。 / Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
-          "url": "https://news.ycombinator.com/item?id=48952445",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 67,
+          "id": "ebc5503d4f22dce5",
+          "title": "安谋科技发起“开源 AIOS 联盟”，合作伙伴包含瑞芯微、紫光展锐、全志等",
+          "url": "https://www.ithome.com/0/978/628.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 62,
           "grade": "B",
-          "published_at": "2026-07-17T22:07:21.841000Z"
+          "published_at": null
         }
       ],
       "primary_item": {
-        "id": "268be5f6cbb86929",
-        "title": "人人都觉得AI怪怪的——除了那些硬塞给我们的人。 / Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
-        "url": "https://news.ycombinator.com/item?id=48952445",
-        "source": "NewsNow",
-        "source_name": "NewsNow",
-        "score": 67,
+        "id": "ebc5503d4f22dce5",
+        "title": "安谋科技发起“开源 AIOS 联盟”，合作伙伴包含瑞芯微、紫光展锐、全志等",
+        "url": "https://www.ithome.com/0/978/628.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 62,
         "grade": "B",
-        "published_at": "2026-07-17T22:07:21.841000Z"
-      },
-      "earliest_at": "2026-07-17T22:07:21.841000Z",
-      "latest_at": "2026-07-17T22:07:21.841000Z",
-      "importance_score": 55.2,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 94,
-          "source_count": 5
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "7880c84c5da32a11",
-      "title": "Meta正洽谈向Anthropic出租算力，潜在交易额达100亿美元 / Meta in Talks to Lease Computing Power to Anthropic in Potential $10B Deal",
-      "primary_url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
-      "source_count": 1,
-      "source_names": [
-        "Zeli"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "7880c84c5da32a11"
-      ],
-      "cluster_items": [
-        {
-          "id": "7880c84c5da32a11",
-          "title": "Meta正洽谈向Anthropic出租算力，潜在交易额达100亿美元 / Meta in Talks to Lease Computing Power to Anthropic in Potential $10B Deal",
-          "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
-          "source": "Zeli",
-          "source_name": "Zeli",
-          "score": 66,
-          "grade": "B",
-          "published_at": "2026-07-17T16:33:48Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "7880c84c5da32a11",
-          "title": "Meta正洽谈向Anthropic出租算力，潜在交易额达100亿美元 / Meta in Talks to Lease Computing Power to Anthropic in Potential $10B Deal",
-          "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
-          "source": "Zeli",
-          "source_name": "Zeli",
-          "score": 66,
-          "grade": "B",
-          "published_at": "2026-07-17T16:33:48Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "7880c84c5da32a11",
-          "title": "Meta正洽谈向Anthropic出租算力，潜在交易额达100亿美元 / Meta in Talks to Lease Computing Power to Anthropic in Potential $10B Deal",
-          "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
-          "source": "Zeli",
-          "source_name": "Zeli",
-          "score": 66,
-          "grade": "B",
-          "published_at": "2026-07-17T16:33:48Z"
-        }
-      ],
-      "primary_item": {
-        "id": "7880c84c5da32a11",
-        "title": "Meta正洽谈向Anthropic出租算力，潜在交易额达100亿美元 / Meta in Talks to Lease Computing Power to Anthropic in Potential $10B Deal",
-        "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
-        "source": "Zeli",
-        "source_name": "Zeli",
-        "score": 66,
-        "grade": "B",
-        "published_at": "2026-07-17T16:33:48Z"
-      },
-      "earliest_at": "2026-07-17T16:33:48Z",
-      "latest_at": "2026-07-17T16:33:48Z",
-      "importance_score": 54.6,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 09:08 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 11:20 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 13:25 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 15:12 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 17:09 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 19:05 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 20:53 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 21:52 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 05:24 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 77,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 77,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 77,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 77,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 77,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 77,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 77,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 77,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 77,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 77,
-          "source_count": 2
-        }
-      ],
-      "heat_delta": 1
-    },
-    {
-      "story_id": "bf0a3cf9f04f3afb",
-      "title": "AI与密码学2：AI在OpenVM的ZkVM中的发现 / AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
-      "primary_url": "https://news.ycombinator.com/item?id=48947714",
-      "source_count": 1,
-      "source_names": [
-        "NewsNow"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "bf0a3cf9f04f3afb"
-      ],
-      "cluster_items": [
-        {
-          "id": "bf0a3cf9f04f3afb",
-          "title": "AI与密码学2：AI在OpenVM的ZkVM中的发现 / AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
-          "url": "https://news.ycombinator.com/item?id=48947714",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 65,
-          "grade": "B",
-          "published_at": "2026-07-17T15:28:14.046000Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "bf0a3cf9f04f3afb",
-          "title": "AI与密码学2：AI在OpenVM的ZkVM中的发现 / AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
-          "url": "https://news.ycombinator.com/item?id=48947714",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 65,
-          "grade": "B",
-          "published_at": "2026-07-17T15:28:14.046000Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "bf0a3cf9f04f3afb",
-          "title": "AI与密码学2：AI在OpenVM的ZkVM中的发现 / AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
-          "url": "https://news.ycombinator.com/item?id=48947714",
-          "source": "NewsNow",
-          "source_name": "NewsNow",
-          "score": 65,
-          "grade": "B",
-          "published_at": "2026-07-17T15:28:14.046000Z"
-        }
-      ],
-      "primary_item": {
-        "id": "bf0a3cf9f04f3afb",
-        "title": "AI与密码学2：AI在OpenVM的ZkVM中的发现 / AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
-        "url": "https://news.ycombinator.com/item?id=48947714",
-        "source": "NewsNow",
-        "source_name": "NewsNow",
-        "score": 65,
-        "grade": "B",
-        "published_at": "2026-07-17T15:28:14.046000Z"
-      },
-      "earliest_at": "2026-07-17T15:28:14.046000Z",
-      "latest_at": "2026-07-17T15:28:14.046000Z",
-      "importance_score": 54.0,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 09:08 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 11:20 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 13:25 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 15:12 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 17:09 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 19:05 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 20:53 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 21:52 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 05:24 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 95,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 94,
-          "source_count": 5
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 94,
-          "source_count": 5
-        }
-      ],
-      "heat_delta": 4
-    },
-    {
-      "story_id": "21584e79570f06de",
-      "title": "首届世界人工智能大会·学术正式亮相",
-      "primary_url": "https://36kr.com/newsflashes/3900588780095104?f=rss",
-      "source_count": 2,
-      "source_names": [
-        "36氪",
-        "36氪快讯"
-      ],
-      "cluster_size": 2,
-      "item_count": 2,
-      "duplicate_count": 2,
-      "cluster_item_ids": [
-        "21584e79570f06de",
-        "f97f5be8f18cc1f2"
-      ],
-      "cluster_items": [
-        {
-          "id": "21584e79570f06de",
-          "title": "首届世界人工智能大会·学术正式亮相",
-          "url": "https://36kr.com/newsflashes/3900588780095104?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        },
-        {
-          "id": "f97f5be8f18cc1f2",
-          "title": "首届世界人工智能大会·学术正式亮相",
-          "url": "https://www.36kr.com/newsflashes/3900588780095104",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "21584e79570f06de",
-          "title": "首届世界人工智能大会·学术正式亮相",
-          "url": "https://36kr.com/newsflashes/3900588780095104?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        },
-        {
-          "id": "f97f5be8f18cc1f2",
-          "title": "首届世界人工智能大会·学术正式亮相",
-          "url": "https://www.36kr.com/newsflashes/3900588780095104",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "21584e79570f06de",
-          "title": "首届世界人工智能大会·学术正式亮相",
-          "url": "https://36kr.com/newsflashes/3900588780095104?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        },
-        {
-          "id": "f97f5be8f18cc1f2",
-          "title": "首届世界人工智能大会·学术正式亮相",
-          "url": "https://www.36kr.com/newsflashes/3900588780095104",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "21584e79570f06de",
-        "title": "首届世界人工智能大会·学术正式亮相",
-        "url": "https://36kr.com/newsflashes/3900588780095104?f=rss",
-        "source": "36氪",
-        "source_name": "36氪",
-        "score": 39,
-        "grade": "C",
         "published_at": null
       },
       "earliest_at": null,
       "latest_at": null,
-      "importance_score": 53.4,
+      "importance_score": 52.2,
       "importance_label": "B",
-      "importance_label_cn": "官方更新",
-      "category": "multi_source",
-      "heat_trend": [
-        {
-          "ts": "2026-07-16 22:04 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 03:24 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 11:20 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 13:25 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 15:12 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 17:09 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 19:05 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 20:53 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 21:52 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 23:51 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 02:22 (UTC)",
-          "score": 72,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 05:24 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 39,
-          "source_count": 1
-        }
-      ],
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -8145,11 +5741,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 101,
@@ -8264,6 +5855,11 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -8335,11 +5931,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 107,
@@ -8454,6 +6045,11 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -8525,11 +6121,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 93,
@@ -8644,6 +6235,11 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 77,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 77,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -8715,11 +6311,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
@@ -8832,6 +6423,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -8906,11 +6502,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -9022,6 +6613,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -9096,11 +6692,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 67,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 67,
           "source_count": 1
@@ -9212,6 +6803,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 67,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 67,
           "source_count": 1
         }
@@ -9286,11 +6882,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 49,
           "source_count": 1
@@ -9402,6 +6993,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 77,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 77,
           "source_count": 2
         }
@@ -9476,11 +7072,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -9592,6 +7183,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -9666,11 +7262,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -9782,6 +7373,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -9856,11 +7452,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 92,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -9972,6 +7563,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -10046,11 +7642,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 49,
           "source_count": 1
@@ -10162,6 +7753,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 49,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 49,
           "source_count": 1
         }
@@ -10236,11 +7832,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 82,
           "source_count": 1
@@ -10354,6 +7945,11 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -10424,123 +8020,9 @@
       "importance_label": "B",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "382863c41ed0fbd7",
-      "title": "联想拯救者 Y900 系列平板推送 7 月升级：新增游戏助手 AI 游戏伙伴、CAJ Viewer PC 版应用等",
-      "primary_url": "https://www.ithome.com/0/978/517.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "382863c41ed0fbd7"
-      ],
-      "cluster_items": [
-        {
-          "id": "382863c41ed0fbd7",
-          "title": "联想拯救者 Y900 系列平板推送 7 月升级：新增游戏助手 AI 游戏伙伴、CAJ Viewer PC 版应用等",
-          "url": "https://www.ithome.com/0/978/517.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 49,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "382863c41ed0fbd7",
-          "title": "联想拯救者 Y900 系列平板推送 7 月升级：新增游戏助手 AI 游戏伙伴、CAJ Viewer PC 版应用等",
-          "url": "https://www.ithome.com/0/978/517.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 49,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "382863c41ed0fbd7",
-          "title": "联想拯救者 Y900 系列平板推送 7 月升级：新增游戏助手 AI 游戏伙伴、CAJ Viewer PC 版应用等",
-          "url": "https://www.ithome.com/0/978/517.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 49,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "382863c41ed0fbd7",
-        "title": "联想拯救者 Y900 系列平板推送 7 月升级：新增游戏助手 AI 游戏伙伴、CAJ Viewer PC 版应用等",
-        "url": "https://www.ithome.com/0/978/517.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 49,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 44.4,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-18 09:23 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 49,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 49,
           "source_count": 1
         }
@@ -10676,6 +8158,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 47,
           "source_count": 1
         }
@@ -10851,6 +8338,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 47,
           "source_count": 1
         }
@@ -11033,8 +8525,82 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 47,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 47,
+          "source_count": 1
         }
       ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "10db7204039b9b7d",
+      "title": "谷歌安卓系统最新漏洞曝光：Gemini 可绕过锁屏密码发送短信，官方即将修复",
+      "primary_url": "https://www.ithome.com/0/978/622.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "10db7204039b9b7d"
+      ],
+      "cluster_items": [
+        {
+          "id": "10db7204039b9b7d",
+          "title": "谷歌安卓系统最新漏洞曝光：Gemini 可绕过锁屏密码发送短信，官方即将修复",
+          "url": "https://www.ithome.com/0/978/622.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "10db7204039b9b7d",
+          "title": "谷歌安卓系统最新漏洞曝光：Gemini 可绕过锁屏密码发送短信，官方即将修复",
+          "url": "https://www.ithome.com/0/978/622.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "10db7204039b9b7d",
+          "title": "谷歌安卓系统最新漏洞曝光：Gemini 可绕过锁屏密码发送短信，官方即将修复",
+          "url": "https://www.ithome.com/0/978/622.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "10db7204039b9b7d",
+        "title": "谷歌安卓系统最新漏洞曝光：Gemini 可绕过锁屏密码发送短信，官方即将修复",
+        "url": "https://www.ithome.com/0/978/622.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 47,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 43.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -11103,7 +8669,13 @@
       "importance_label": "B",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [],
+      "heat_trend": [
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 47,
+          "source_count": 1
+        }
+      ],
       "heat_delta": 0
     },
     {
@@ -11174,11 +8746,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-15 04:33 (UTC)",
-          "score": 53,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-15 04:38 (UTC)",
           "score": 53,
           "source_count": 1
@@ -11196,6 +8763,11 @@
         {
           "ts": "2026-07-18 05:24 (UTC)",
           "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 47,
           "source_count": 1
         }
       ],
@@ -11297,274 +8869,9 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 47,
           "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "0413bb01f527f543",
-      "title": "社交平台 Soul 推出 AI 智能硬件 B Soul：提供智能交互与定制化语音体验，预计 8 月逐步量产销售",
-      "primary_url": "https://www.ithome.com/0/978/563.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "0413bb01f527f543"
-      ],
-      "cluster_items": [
-        {
-          "id": "0413bb01f527f543",
-          "title": "社交平台 Soul 推出 AI 智能硬件 B Soul：提供智能交互与定制化语音体验，预计 8 月逐步量产销售",
-          "url": "https://www.ithome.com/0/978/563.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 47,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "0413bb01f527f543",
-          "title": "社交平台 Soul 推出 AI 智能硬件 B Soul：提供智能交互与定制化语音体验，预计 8 月逐步量产销售",
-          "url": "https://www.ithome.com/0/978/563.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 47,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "0413bb01f527f543",
-          "title": "社交平台 Soul 推出 AI 智能硬件 B Soul：提供智能交互与定制化语音体验，预计 8 月逐步量产销售",
-          "url": "https://www.ithome.com/0/978/563.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 47,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "0413bb01f527f543",
-        "title": "社交平台 Soul 推出 AI 智能硬件 B Soul：提供智能交互与定制化语音体验，预计 8 月逐步量产销售",
-        "url": "https://www.ithome.com/0/978/563.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 47,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 43.2,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-15 11:27 (UTC)",
-          "score": 47,
-          "source_count": 1
         },
         {
-          "ts": "2026-07-15 13:40 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 15:25 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 17:16 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 19:08 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 20:58 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-15 22:08 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
-          "score": 47,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "e5a853480d926ab1",
-      "title": "消息称月之暗面 Kimi 已通知投资者调整公司架构，有望最快 6 个月内赴港上市",
-      "primary_url": "https://www.ithome.com/0/978/527.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "e5a853480d926ab1"
-      ],
-      "cluster_items": [
-        {
-          "id": "e5a853480d926ab1",
-          "title": "消息称月之暗面 Kimi 已通知投资者调整公司架构，有望最快 6 个月内赴港上市",
-          "url": "https://www.ithome.com/0/978/527.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 47,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "e5a853480d926ab1",
-          "title": "消息称月之暗面 Kimi 已通知投资者调整公司架构，有望最快 6 个月内赴港上市",
-          "url": "https://www.ithome.com/0/978/527.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 47,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "e5a853480d926ab1",
-          "title": "消息称月之暗面 Kimi 已通知投资者调整公司架构，有望最快 6 个月内赴港上市",
-          "url": "https://www.ithome.com/0/978/527.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 47,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "e5a853480d926ab1",
-        "title": "消息称月之暗面 Kimi 已通知投资者调整公司架构，有望最快 6 个月内赴港上市",
-        "url": "https://www.ithome.com/0/978/527.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 47,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 43.2,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 11:02 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 13:11 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 14:50 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 47,
           "source_count": 1
         }
@@ -11638,11 +8945,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 47,
@@ -11755,6 +9057,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 47,
           "source_count": 1
         }
@@ -11937,8 +9244,226 @@
           "ts": "2026-07-18 22:47 (UTC)",
           "score": 39,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
+          "score": 39,
+          "source_count": 1
         }
       ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "66a809af7f8b5292",
+      "title": "为防 AI 作弊，澳大利亚高校重新拥抱口试和线下考试",
+      "primary_url": "https://www.ithome.com/0/978/625.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "66a809af7f8b5292"
+      ],
+      "cluster_items": [
+        {
+          "id": "66a809af7f8b5292",
+          "title": "为防 AI 作弊，澳大利亚高校重新拥抱口试和线下考试",
+          "url": "https://www.ithome.com/0/978/625.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "66a809af7f8b5292",
+          "title": "为防 AI 作弊，澳大利亚高校重新拥抱口试和线下考试",
+          "url": "https://www.ithome.com/0/978/625.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "66a809af7f8b5292",
+          "title": "为防 AI 作弊，澳大利亚高校重新拥抱口试和线下考试",
+          "url": "https://www.ithome.com/0/978/625.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "66a809af7f8b5292",
+        "title": "为防 AI 作弊，澳大利亚高校重新拥抱口试和线下考试",
+        "url": "https://www.ithome.com/0/978/625.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 39,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "e5be5795b30f53a0",
+      "title": "华为 Pura X Max、智慧屏 S7 Pro 获国标人工智能 L3 等级手机、电视首证",
+      "primary_url": "https://www.ithome.com/0/978/615.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "e5be5795b30f53a0"
+      ],
+      "cluster_items": [
+        {
+          "id": "e5be5795b30f53a0",
+          "title": "华为 Pura X Max、智慧屏 S7 Pro 获国标人工智能 L3 等级手机、电视首证",
+          "url": "https://www.ithome.com/0/978/615.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "e5be5795b30f53a0",
+          "title": "华为 Pura X Max、智慧屏 S7 Pro 获国标人工智能 L3 等级手机、电视首证",
+          "url": "https://www.ithome.com/0/978/615.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "e5be5795b30f53a0",
+          "title": "华为 Pura X Max、智慧屏 S7 Pro 获国标人工智能 L3 等级手机、电视首证",
+          "url": "https://www.ithome.com/0/978/615.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "e5be5795b30f53a0",
+        "title": "华为 Pura X Max、智慧屏 S7 Pro 获国标人工智能 L3 等级手机、电视首证",
+        "url": "https://www.ithome.com/0/978/615.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 39,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-07-18 05:24 (UTC)",
+          "score": 39,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "db0cdfe091d96c97",
+      "title": "英伟达 CEO 黄仁勋东京行：敲定国家级 AI 工厂合作，送粉丝红豆糕",
+      "primary_url": "https://www.ithome.com/0/978/614.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "db0cdfe091d96c97"
+      ],
+      "cluster_items": [
+        {
+          "id": "db0cdfe091d96c97",
+          "title": "英伟达 CEO 黄仁勋东京行：敲定国家级 AI 工厂合作，送粉丝红豆糕",
+          "url": "https://www.ithome.com/0/978/614.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "db0cdfe091d96c97",
+          "title": "英伟达 CEO 黄仁勋东京行：敲定国家级 AI 工厂合作，送粉丝红豆糕",
+          "url": "https://www.ithome.com/0/978/614.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "db0cdfe091d96c97",
+          "title": "英伟达 CEO 黄仁勋东京行：敲定国家级 AI 工厂合作，送粉丝红豆糕",
+          "url": "https://www.ithome.com/0/978/614.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "db0cdfe091d96c97",
+        "title": "英伟达 CEO 黄仁勋东京行：敲定国家级 AI 工厂合作，送粉丝红豆糕",
+        "url": "https://www.ithome.com/0/978/614.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 39,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -12007,172 +9532,9 @@
       "importance_label": "C",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "74e2318d41f38085",
-      "title": "小米获首批《人工智能终端智能化分级》系列国家标准 L3 评级证书",
-      "primary_url": "https://www.ithome.com/0/978/603.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "74e2318d41f38085"
-      ],
-      "cluster_items": [
-        {
-          "id": "74e2318d41f38085",
-          "title": "小米获首批《人工智能终端智能化分级》系列国家标准 L3 评级证书",
-          "url": "https://www.ithome.com/0/978/603.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "74e2318d41f38085",
-          "title": "小米获首批《人工智能终端智能化分级》系列国家标准 L3 评级证书",
-          "url": "https://www.ithome.com/0/978/603.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "74e2318d41f38085",
-          "title": "小米获首批《人工智能终端智能化分级》系列国家标准 L3 评级证书",
-          "url": "https://www.ithome.com/0/978/603.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "74e2318d41f38085",
-        "title": "小米获首批《人工智能终端智能化分级》系列国家标准 L3 评级证书",
-        "url": "https://www.ithome.com/0/978/603.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 39,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 38.4,
-      "importance_label": "C",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "ef0fee0003a7075e",
-      "title": "AMD Zen 6 APU 跑分再曝光：单核跑分超越锐龙 AI 9 365 近 35%",
-      "primary_url": "https://www.ithome.com/0/978/598.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "ef0fee0003a7075e"
-      ],
-      "cluster_items": [
-        {
-          "id": "ef0fee0003a7075e",
-          "title": "AMD Zen 6 APU 跑分再曝光：单核跑分超越锐龙 AI 9 365 近 35%",
-          "url": "https://www.ithome.com/0/978/598.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "ef0fee0003a7075e",
-          "title": "AMD Zen 6 APU 跑分再曝光：单核跑分超越锐龙 AI 9 365 近 35%",
-          "url": "https://www.ithome.com/0/978/598.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "ef0fee0003a7075e",
-          "title": "AMD Zen 6 APU 跑分再曝光：单核跑分超越锐龙 AI 9 365 近 35%",
-          "url": "https://www.ithome.com/0/978/598.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "ef0fee0003a7075e",
-        "title": "AMD Zen 6 APU 跑分再曝光：单核跑分超越锐龙 AI 9 365 近 35%",
-        "url": "https://www.ithome.com/0/978/598.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 39,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 38.4,
-      "importance_label": "C",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-18 15:55 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 16:58 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 18:00 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 20:03 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 21:50 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 22:47 (UTC)",
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 39,
           "source_count": 1
         }
@@ -12180,9 +9542,9 @@
       "heat_delta": 0
     },
     {
-      "story_id": "801787bb175ed62f",
-      "title": "WAIC 2026有什么值得看的？",
-      "primary_url": "https://www.zhihu.com/question/2058376747633189052",
+      "story_id": "34b24f831bf4af9e",
+      "title": "参加 2026 世界人工智能大会 (WAIC) 是一种怎样的体验？",
+      "primary_url": "https://www.zhihu.com/question/2060398351212700649",
       "source_count": 1,
       "source_names": [
         "知乎热榜"
@@ -12191,13 +9553,13 @@
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "801787bb175ed62f"
+        "34b24f831bf4af9e"
       ],
       "cluster_items": [
         {
-          "id": "801787bb175ed62f",
-          "title": "WAIC 2026有什么值得看的？",
-          "url": "https://www.zhihu.com/question/2058376747633189052",
+          "id": "34b24f831bf4af9e",
+          "title": "参加 2026 世界人工智能大会 (WAIC) 是一种怎样的体验？",
+          "url": "https://www.zhihu.com/question/2060398351212700649",
           "source": "知乎热榜",
           "source_name": "知乎热榜",
           "score": 39,
@@ -12207,9 +9569,9 @@
       ],
       "sources": [
         {
-          "id": "801787bb175ed62f",
-          "title": "WAIC 2026有什么值得看的？",
-          "url": "https://www.zhihu.com/question/2058376747633189052",
+          "id": "34b24f831bf4af9e",
+          "title": "参加 2026 世界人工智能大会 (WAIC) 是一种怎样的体验？",
+          "url": "https://www.zhihu.com/question/2060398351212700649",
           "source": "知乎热榜",
           "source_name": "知乎热榜",
           "score": 39,
@@ -12219,9 +9581,9 @@
       ],
       "items": [
         {
-          "id": "801787bb175ed62f",
-          "title": "WAIC 2026有什么值得看的？",
-          "url": "https://www.zhihu.com/question/2058376747633189052",
+          "id": "34b24f831bf4af9e",
+          "title": "参加 2026 世界人工智能大会 (WAIC) 是一种怎样的体验？",
+          "url": "https://www.zhihu.com/question/2060398351212700649",
           "source": "知乎热榜",
           "source_name": "知乎热榜",
           "score": 39,
@@ -12230,9 +9592,9 @@
         }
       ],
       "primary_item": {
-        "id": "801787bb175ed62f",
-        "title": "WAIC 2026有什么值得看的？",
-        "url": "https://www.zhihu.com/question/2058376747633189052",
+        "id": "34b24f831bf4af9e",
+        "title": "参加 2026 世界人工智能大会 (WAIC) 是一种怎样的体验？",
+        "url": "https://www.zhihu.com/question/2060398351212700649",
         "source": "知乎热榜",
         "source_name": "知乎热榜",
         "score": 39,
@@ -12247,13 +9609,8 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 09:08 (UTC)",
-          "score": 49,
+          "ts": "2026-07-17 03:24 (UTC)",
+          "score": 39,
           "source_count": 1
         },
         {
@@ -12272,43 +9629,23 @@
           "source_count": 1
         },
         {
-          "ts": "2026-07-17 20:53 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 21:52 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-17 22:48 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 23:51 (UTC)",
-          "score": 93,
+          "score": 39,
           "source_count": 1
         },
         {
           "ts": "2026-07-18 02:22 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 05:24 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-18 07:47 (UTC)",
-          "score": 94,
+          "score": 39,
           "source_count": 1
         },
         {
           "ts": "2026-07-18 09:23 (UTC)",
-          "score": 39,
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 11:02 (UTC)",
+          "score": 47,
           "source_count": 1
         }
       ],
@@ -12381,11 +9718,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 39,
@@ -12498,6 +9830,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 39,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 39,
           "source_count": 1
         }
@@ -12572,11 +9909,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 39,
           "source_count": 1
@@ -12688,6 +10020,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 39,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 39,
           "source_count": 1
         }
@@ -12762,11 +10099,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-17 06:14 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-17 09:08 (UTC)",
           "score": 39,
           "source_count": 1
@@ -12878,6 +10210,11 @@
         },
         {
           "ts": "2026-07-18 22:47 (UTC)",
+          "score": 39,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-18 23:52 (UTC)",
           "score": 39,
           "source_count": 1
         }
