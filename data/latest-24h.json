@@ -1,7 +1,29 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-24T11:40:30.539670Z",
+  "generated_at": "2026-07-24T13:42:09.741260Z",
   "items": [
+    {
+      "id": "4b4317d017ff42b5",
+      "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+      "url": "https://github.com/izeigerman/claude-thermos",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-24T09:47:29.601000Z",
+      "category": "模型",
+      "score": 124,
+      "grade": "S",
+      "why_it_matters": "5 个来源信号；模型 方向；综合评分 124。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News",
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "github.com",
+        "hackernews"
+      ]
+    },
     {
       "id": "9a8d243abc9665d1",
       "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
@@ -12,15 +34,34 @@
       "keyword": null,
       "published_at": "2026-07-23T20:11:31.906000Z",
       "category": "其他",
-      "score": 105,
+      "score": 104,
       "grade": "S",
-      "why_it_matters": "4 个来源信号；其他 方向；综合评分 105。",
+      "why_it_matters": "4 个来源信号；其他 方向；综合评分 104。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "hackernews",
         "www.darpa.mil"
+      ]
+    },
+    {
+      "id": "75b5cd9825a4faf3",
+      "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因 / Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+      "url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-24T09:48:32Z",
+      "category": "模型",
+      "score": 103,
+      "grade": "S",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 103。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
       ]
     },
     {
@@ -33,9 +74,9 @@
       "keyword": null,
       "published_at": "2026-07-23T22:32:23Z",
       "category": "智能体",
-      "score": 103,
+      "score": 102,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 103。",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 102。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
         "GitHub Changelog"
@@ -69,9 +110,9 @@
       "keyword": null,
       "published_at": "2026-07-23T20:38:22Z",
       "category": "智能体",
-      "score": 102,
+      "score": 101,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 102。",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 101。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
         "GitHub Changelog"
@@ -87,9 +128,9 @@
       "keyword": null,
       "published_at": "2026-07-23T15:30:29Z",
       "category": "智能体",
-      "score": 100,
-      "grade": "S",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 100。",
+      "score": 99,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 99。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
         "GitHub Changelog"
@@ -105,13 +146,67 @@
       "keyword": null,
       "published_at": "2026-07-23T14:52:44Z",
       "category": "产品",
-      "score": 99,
+      "score": 98,
       "grade": "A",
-      "why_it_matters": "2 个来源信号；产品 方向；综合评分 99。",
+      "why_it_matters": "2 个来源信号；产品 方向；综合评分 98。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "TechCrunch AI",
         "TechCrunch：AI（RSS）"
+      ]
+    },
+    {
+      "id": "4ed855604e9d09d5",
+      "title": "Kimi K3 攻防考卷翻车：漏洞利用只到美国前沿模型四成，蒸馏疑云被安全机构摆上台",
+      "url": "https://www.aibase.com/news/29881",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-24T11:56:06.157386Z",
+      "category": "模型",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ]
+    },
+    {
+      "id": "a9e9af6ac871633c",
+      "title": "红果短剧发布AI角色规范，专项整治“高频AI脸”与素材侵权",
+      "url": "https://www.aibase.com/news/29879",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-24T11:56:06.157386Z",
+      "category": "产品",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 96。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "AIbase"
+      ]
+    },
+    {
+      "id": "f5921e31c4c0da50",
+      "title": "黑森林实验室FLUX3 多模态模型登场：单次生成 20 秒音视频，胜率碾压Grok与Seedance",
+      "url": "https://www.aibase.com/news/29880",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-24T11:56:06.157386Z",
+      "category": "多模态",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 96。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "source_names": [
+        "AIbase"
       ]
     },
     {
@@ -124,30 +219,12 @@
       "keyword": null,
       "published_at": "2026-07-24T06:48:04Z",
       "category": "多模态",
-      "score": 96,
+      "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 96。",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 95。",
       "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
       "source_names": [
         "IT之家（RSS）"
-      ]
-    },
-    {
-      "id": "bde2c22a8cf20bc7",
-      "title": "Runway推出Media Router：自动切换AI模型帮你省Token，创意验证到成片一条龙搞定",
-      "url": "https://www.aibase.com/news/29877",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-24T09:34:45.367737Z",
-      "category": "模型",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
       ]
     },
     {
@@ -196,9 +273,9 @@
       "keyword": null,
       "published_at": "2026-07-23T19:55:29.530000Z",
       "category": "模型",
-      "score": 94,
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "Claude：Blog（网页）"
@@ -214,48 +291,12 @@
       "keyword": null,
       "published_at": "2026-07-23T12:33:27Z",
       "category": "模型",
-      "score": 94,
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "X：通义千问 / Qwen (@Alibaba_Qwen)"
-      ]
-    },
-    {
-      "id": "b2f8f93f9e0298be",
-      "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体 / One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
-      "url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-23T17:01:30Z",
-      "category": "智能体",
-      "score": 92,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 92。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "The Decoder：AI News（RSS）"
-      ]
-    },
-    {
-      "id": "69d04ce99853362b",
-      "title": "ChatGPT 向美国用户推出健康功能 / Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
-      "url": "https://x.com/gdb/status/2080351159638704615",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-23T17:55:42Z",
-      "category": "产品",
-      "score": 92,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 92。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "X：Greg Brockman (@gdb)"
       ]
     },
     {
@@ -314,42 +355,6 @@
       ]
     },
     {
-      "id": "ff8b5cb44fb45682",
-      "title": "小鹏人形机器人广州工厂开启小批量试生产 预计2026年实现量产",
-      "url": "https://www.aibase.com/news/29875",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-24T09:34:45.367737Z",
-      "category": "其他",
-      "score": 88,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ]
-    },
-    {
-      "id": "252561fabaadb69b",
-      "title": "快手入局AI互动内容赛道，开放首批创作者招募",
-      "url": "https://www.aibase.com/news/29872",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-24T09:34:45.367737Z",
-      "category": "其他",
-      "score": 88,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ]
-    },
-    {
       "id": "d2e7ae4053fcec55",
       "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
       "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
@@ -359,9 +364,9 @@
       "keyword": null,
       "published_at": "2026-07-23T18:35:29.016000Z",
       "category": "其他",
-      "score": 86,
+      "score": 85,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 86。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 85。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
@@ -689,42 +694,6 @@
       "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
       "source_names": [
         "Google DeepMind Blog"
-      ]
-    },
-    {
-      "id": "e0e846febf2ef55f",
-      "title": "美图旗下AI Agent RoboNeo上线专业级3D导演台功能",
-      "url": "https://36kr.com/newsflashes/3909538588742787?f=rss",
-      "source": "36氪",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 67,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 67。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "36氪"
-      ]
-    },
-    {
-      "id": "198bf76e63464aba",
-      "title": "美图旗下AI Agent RoboNeo上线专业级3D导演台功能",
-      "url": "https://www.36kr.com/newsflashes/3909538588742787",
-      "source": "36氪快讯",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 67,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 67。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "36氪快讯"
       ]
     },
     {
