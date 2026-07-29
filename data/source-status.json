@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-29T16:20:35.918369Z",
+  "generated_at": "2026-07-29T18:06:24.525788Z",
   "source_count": 231,
-  "successful_sites": 165,
-  "failed_sites": 66,
-  "zero_item_sites": 223,
-  "total_items": 906,
+  "successful_sites": 166,
+  "failed_sites": 65,
+  "zero_item_sites": 222,
+  "total_items": 908,
   "total_ai_items": 117,
   "ai_pct_total": 12.9,
   "sites": [
@@ -19,7 +19,7 @@
       "item_count": 20,
       "ai_count": 20,
       "ai_pct": 100.0,
-      "fetch_duration_s": 0.22,
+      "fetch_duration_s": 0.5,
       "note": ""
     },
     {
@@ -33,7 +33,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.24,
+      "fetch_duration_s": 0.19,
       "note": ""
     },
     {
@@ -47,7 +47,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.11,
+      "fetch_duration_s": 0.04,
       "note": ""
     },
     {
@@ -75,7 +75,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 2.83,
+      "fetch_duration_s": 1.19,
       "note": ""
     },
     {
@@ -89,7 +89,7 @@
       "item_count": 833,
       "ai_count": 89,
       "ai_pct": 10.7,
-      "fetch_duration_s": 0.22,
+      "fetch_duration_s": 0.15,
       "note": ""
     },
     {
@@ -103,7 +103,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.88,
+      "fetch_duration_s": 0.72,
       "note": ""
     },
     {
@@ -117,7 +117,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.11,
+      "fetch_duration_s": 0.28,
       "note": ""
     },
     {
@@ -131,7 +131,7 @@
       "item_count": 11,
       "ai_count": 2,
       "ai_pct": 18.2,
-      "fetch_duration_s": 1.56,
+      "fetch_duration_s": 1.64,
       "note": "中文综合科技，混有 AI 内容，radar.py 按关键词过滤"
     },
     {
@@ -145,21 +145,21 @@
       "item_count": 12,
       "ai_count": 2,
       "ai_pct": 16.7,
-      "fetch_duration_s": 3.48,
+      "fetch_duration_s": 2.06,
       "note": "中文科技综合，含 AI 新闻"
     },
     {
       "site_id": "rss_zhihu_hot",
       "site_name": "知乎热榜",
-      "ok": false,
+      "ok": true,
       "enabled": true,
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 0,
+      "item_count": 2,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.94,
+      "fetch_duration_s": 1.05,
       "note": "知乎全站热榜，混合话题，radar.py 按关键词过滤 AI 内容"
     },
     {
@@ -173,7 +173,7 @@
       "item_count": 1,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.26,
+      "fetch_duration_s": 0.22,
       "note": "知乎日报精选，混合话题"
     },
     {
@@ -187,7 +187,7 @@
       "item_count": 5,
       "ai_count": 1,
       "ai_pct": 20.0,
-      "fetch_duration_s": 1.13,
+      "fetch_duration_s": 0.14,
       "note": "36氪实时快讯，作者按关键词筛选 AI 内容"
     },
     {
@@ -201,7 +201,7 @@
       "item_count": 4,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 8.85,
+      "fetch_duration_s": 2.87,
       "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
     },
     {
@@ -1979,7 +1979,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2077,7 +2077,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2091,7 +2091,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2105,7 +2105,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2133,7 +2133,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2301,7 +2301,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2343,7 +2343,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2595,7 +2595,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2651,7 +2651,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2679,7 +2679,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2735,7 +2735,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2749,7 +2749,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2791,7 +2791,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "官方"
     },
     {
@@ -2819,7 +2819,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "官方"
     },
     {
@@ -2847,7 +2847,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "OpenAI/xAI"
     },
     {
@@ -2861,7 +2861,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "AI 研究/工程"
     },
     {
@@ -2875,7 +2875,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "Meta AI 首席科学家"
     },
     {
@@ -2903,7 +2903,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "AI 商业/教育"
     },
     {
@@ -2917,7 +2917,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "NVIDIA AI"
     },
     {
