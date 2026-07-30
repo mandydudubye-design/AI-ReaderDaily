@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-30T11:06:55.310566Z",
-  "total_stories": 73,
-  "s_stories": 4,
-  "a_stories": 34,
+  "generated_at": "2026-07-30T13:57:12.472509Z",
+  "total_stories": 72,
+  "s_stories": 0,
+  "a_stories": 37,
   "stories": [
     {
       "story_id": "dd71e2286f9b8fd1",
@@ -66,11 +66,17 @@
       },
       "earliest_at": "2026-07-30T09:42:40.065949Z",
       "latest_at": "2026-07-30T09:42:40.065949Z",
-      "importance_score": 86.4,
-      "importance_label": "S",
+      "importance_score": 77.9,
+      "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [],
+      "heat_trend": [
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 96,
+          "source_count": 1
+        }
+      ],
       "heat_delta": 0
     },
     {
@@ -135,14 +141,19 @@
       },
       "earliest_at": "2026-07-30T09:42:40.065949Z",
       "latest_at": "2026-07-30T09:42:40.065949Z",
-      "importance_score": 86.4,
-      "importance_label": "S",
+      "importance_score": 77.9,
+      "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
         {
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 96,
           "source_count": 1
         }
       ],
@@ -210,8 +221,8 @@
       },
       "earliest_at": "2026-07-30T09:42:40.065949Z",
       "latest_at": "2026-07-30T09:42:40.065949Z",
-      "importance_score": 86.4,
-      "importance_label": "S",
+      "importance_score": 77.9,
+      "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
@@ -219,77 +230,13 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 47,
           "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "fe2aa3c1d79d9423",
-      "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展 / Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
-      "primary_url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
-      "source_count": 1,
-      "source_names": [
-        "AI HOT"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "fe2aa3c1d79d9423"
-      ],
-      "cluster_items": [
+        },
         {
-          "id": "fe2aa3c1d79d9423",
-          "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展 / Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
-          "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 103,
-          "grade": "S",
-          "published_at": "2026-07-30T07:43:29Z"
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 96,
+          "source_count": 1
         }
       ],
-      "sources": [
-        {
-          "id": "fe2aa3c1d79d9423",
-          "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展 / Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
-          "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 103,
-          "grade": "S",
-          "published_at": "2026-07-30T07:43:29Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "fe2aa3c1d79d9423",
-          "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展 / Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
-          "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
-          "source": "AI HOT",
-          "source_name": "AI HOT",
-          "score": 103,
-          "grade": "S",
-          "published_at": "2026-07-30T07:43:29Z"
-        }
-      ],
-      "primary_item": {
-        "id": "fe2aa3c1d79d9423",
-        "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展 / Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
-        "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
-        "source": "AI HOT",
-        "source_name": "AI HOT",
-        "score": 103,
-        "grade": "S",
-        "published_at": "2026-07-30T07:43:29Z"
-      },
-      "earliest_at": "2026-07-30T07:43:29Z",
-      "latest_at": "2026-07-30T07:43:29Z",
-      "importance_score": 82.8,
-      "importance_label": "S",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -359,11 +306,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 77,
@@ -478,6 +420,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 102,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 100,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -549,11 +496,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-26 23:04 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-27 02:47 (UTC)",
           "score": 77,
@@ -668,6 +610,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 106,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 103,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -752,6 +699,11 @@
         {
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 103,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 101,
           "source_count": 1
         }
       ],
@@ -848,6 +800,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 108,
           "source_count": 2
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 106,
+          "source_count": 2
         }
       ],
       "heat_delta": 0
@@ -920,11 +877,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-25 19:16 (UTC)",
-          "score": 104,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-25 20:51 (UTC)",
           "score": 101,
           "source_count": 2
@@ -973,9 +925,14 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 102,
           "source_count": 2
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 100,
+          "source_count": 2
         }
       ],
-      "heat_delta": 1
+      "heat_delta": 0
     },
     {
       "story_id": "ec733181d8b0b922",
@@ -1045,11 +1002,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-25 19:16 (UTC)",
-          "score": 104,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-25 20:51 (UTC)",
           "score": 101,
           "source_count": 1
@@ -1098,6 +1050,86 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 106,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 103,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "fe2aa3c1d79d9423",
+      "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展 / Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
+      "primary_url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
+      "source_count": 1,
+      "source_names": [
+        "AI HOT"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "fe2aa3c1d79d9423"
+      ],
+      "cluster_items": [
+        {
+          "id": "fe2aa3c1d79d9423",
+          "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展 / Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
+          "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 103,
+          "grade": "S",
+          "published_at": "2026-07-30T07:43:29Z"
+        }
+      ],
+      "sources": [
+        {
+          "id": "fe2aa3c1d79d9423",
+          "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展 / Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
+          "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 103,
+          "grade": "S",
+          "published_at": "2026-07-30T07:43:29Z"
+        }
+      ],
+      "items": [
+        {
+          "id": "fe2aa3c1d79d9423",
+          "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展 / Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
+          "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 103,
+          "grade": "S",
+          "published_at": "2026-07-30T07:43:29Z"
+        }
+      ],
+      "primary_item": {
+        "id": "fe2aa3c1d79d9423",
+        "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展 / Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
+        "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
+        "source": "AI HOT",
+        "source_name": "AI HOT",
+        "score": 103,
+        "grade": "S",
+        "published_at": "2026-07-30T07:43:29Z"
+      },
+      "earliest_at": "2026-07-30T07:43:29Z",
+      "latest_at": "2026-07-30T07:43:29Z",
+      "importance_score": 75.0,
+      "importance_label": "A",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 103,
+          "source_count": 2
         }
       ],
       "heat_delta": 0
@@ -1169,11 +1201,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 77,
@@ -1287,6 +1314,11 @@
         {
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 100,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 99,
           "source_count": 2
         }
       ],
@@ -1468,6 +1500,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 98,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 96,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -1607,6 +1644,11 @@
         {
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 96,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 94,
           "source_count": 1
         }
       ],
@@ -1793,6 +1835,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 97,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 94,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -1865,11 +1912,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-25 19:16 (UTC)",
-          "score": 67,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-25 20:51 (UTC)",
           "score": 67,
           "source_count": 1
@@ -1937,6 +1979,11 @@
         {
           "ts": "2026-07-30 05:39 (UTC)",
           "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 94,
           "source_count": 1
         }
       ],
@@ -2033,109 +2080,13 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 95,
           "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "2f69c36124eaf3c9",
-      "title": "Canva可画正式上线MCP能力，首批接入Kimi等AI Agent",
-      "primary_url": "https://36kr.com/newsflashes/3917993275075970?f=rss",
-      "source_count": 2,
-      "source_names": [
-        "36氪",
-        "36氪快讯"
-      ],
-      "cluster_size": 2,
-      "item_count": 2,
-      "duplicate_count": 2,
-      "cluster_item_ids": [
-        "2f69c36124eaf3c9",
-        "330cb3202ab71d8d"
-      ],
-      "cluster_items": [
-        {
-          "id": "2f69c36124eaf3c9",
-          "title": "Canva可画正式上线MCP能力，首批接入Kimi等AI Agent",
-          "url": "https://36kr.com/newsflashes/3917993275075970?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
-          "score": 67,
-          "grade": "B",
-          "published_at": null
         },
         {
-          "id": "330cb3202ab71d8d",
-          "title": "Canva可画正式上线MCP能力，首批接入Kimi等AI Agent",
-          "url": "https://www.36kr.com/newsflashes/3917993275075970",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 67,
-          "grade": "B",
-          "published_at": null
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 93,
+          "source_count": 1
         }
       ],
-      "sources": [
-        {
-          "id": "2f69c36124eaf3c9",
-          "title": "Canva可画正式上线MCP能力，首批接入Kimi等AI Agent",
-          "url": "https://36kr.com/newsflashes/3917993275075970?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
-          "score": 67,
-          "grade": "B",
-          "published_at": null
-        },
-        {
-          "id": "330cb3202ab71d8d",
-          "title": "Canva可画正式上线MCP能力，首批接入Kimi等AI Agent",
-          "url": "https://www.36kr.com/newsflashes/3917993275075970",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 67,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "2f69c36124eaf3c9",
-          "title": "Canva可画正式上线MCP能力，首批接入Kimi等AI Agent",
-          "url": "https://36kr.com/newsflashes/3917993275075970?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
-          "score": 67,
-          "grade": "B",
-          "published_at": null
-        },
-        {
-          "id": "330cb3202ab71d8d",
-          "title": "Canva可画正式上线MCP能力，首批接入Kimi等AI Agent",
-          "url": "https://www.36kr.com/newsflashes/3917993275075970",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 67,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "2f69c36124eaf3c9",
-        "title": "Canva可画正式上线MCP能力，首批接入Kimi等AI Agent",
-        "url": "https://36kr.com/newsflashes/3917993275075970?f=rss",
-        "source": "36氪",
-        "source_name": "36氪",
-        "score": 67,
-        "grade": "B",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 70.2,
-      "importance_label": "A",
-      "importance_label_cn": "官方更新",
-      "category": "multi_source",
-      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -2269,6 +2220,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 93,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 91,
+          "source_count": 1
         }
       ],
       "heat_delta": -1
@@ -2374,6 +2330,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 93,
           "source_count": 2
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 91,
+          "source_count": 2
         }
       ],
       "heat_delta": 1
@@ -2444,7 +2405,13 @@
       "importance_label": "A",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [],
+      "heat_trend": [
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 87,
+          "source_count": 1
+        }
+      ],
       "heat_delta": 0
     },
     {
@@ -2538,6 +2505,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 86,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 84,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -2609,11 +2581,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
@@ -2726,6 +2693,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -2800,11 +2772,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
           "source_count": 1
@@ -2916,6 +2883,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -2990,11 +2962,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
           "source_count": 1
@@ -3108,6 +3075,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -3179,11 +3151,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 2
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 84,
@@ -3298,6 +3265,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -3369,11 +3341,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 87,
@@ -3488,6 +3455,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -3559,11 +3531,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
@@ -3676,6 +3643,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -3750,11 +3722,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
           "source_count": 1
@@ -3868,6 +3835,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -3939,11 +3911,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 77,
@@ -4058,6 +4025,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 77,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 77,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -4129,11 +4101,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
@@ -4246,6 +4213,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -4413,6 +4385,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 77,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 77,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -4484,11 +4461,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 77,
@@ -4601,6 +4573,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 77,
           "source_count": 1
         }
@@ -4675,11 +4652,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 77,
           "source_count": 1
@@ -4791,6 +4763,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 77,
           "source_count": 1
         }
@@ -4865,11 +4842,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
           "source_count": 1
@@ -4982,6 +4954,11 @@
         {
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 100,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 99,
           "source_count": 2
         }
       ],
@@ -5055,11 +5032,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
           "source_count": 1
@@ -5173,9 +5145,14 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 102,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 100,
+          "source_count": 1
         }
       ],
-      "heat_delta": 0
+      "heat_delta": -1
     },
     {
       "story_id": "3f64a5c0a9bb24ba",
@@ -5244,11 +5221,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 77,
@@ -5363,6 +5335,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 102,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 100,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -5434,11 +5411,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
@@ -5553,6 +5525,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -5624,11 +5601,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
@@ -5743,6 +5715,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -5813,7 +5790,13 @@
       "importance_label": "B",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [],
+      "heat_trend": [
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 72,
+          "source_count": 1
+        }
+      ],
       "heat_delta": 0
     },
     {
@@ -5897,148 +5880,9 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 72,
           "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "c027bf99831b1a7a",
-      "title": "马斯克：Grok 4.6 将于 8 月 7 日发布，几周后推出 2.1 万亿参数 Grok 4.7",
-      "primary_url": "https://www.ithome.com/0/983/723.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "c027bf99831b1a7a"
-      ],
-      "cluster_items": [
+        },
         {
-          "id": "c027bf99831b1a7a",
-          "title": "马斯克：Grok 4.6 将于 8 月 7 日发布，几周后推出 2.1 万亿参数 Grok 4.7",
-          "url": "https://www.ithome.com/0/983/723.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "c027bf99831b1a7a",
-          "title": "马斯克：Grok 4.6 将于 8 月 7 日发布，几周后推出 2.1 万亿参数 Grok 4.7",
-          "url": "https://www.ithome.com/0/983/723.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "c027bf99831b1a7a",
-          "title": "马斯克：Grok 4.6 将于 8 月 7 日发布，几周后推出 2.1 万亿参数 Grok 4.7",
-          "url": "https://www.ithome.com/0/983/723.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "c027bf99831b1a7a",
-        "title": "马斯克：Grok 4.6 将于 8 月 7 日发布，几周后推出 2.1 万亿参数 Grok 4.7",
-        "url": "https://www.ithome.com/0/983/723.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 72,
-        "grade": "B",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 58.2,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "b2ae9dbfb4112582",
-      "title": "纳芯微发布国产首款霍尔双码道游标算法磁编码器芯片，支持高精度角度检测",
-      "primary_url": "https://www.ithome.com/0/983/659.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "b2ae9dbfb4112582"
-      ],
-      "cluster_items": [
-        {
-          "id": "b2ae9dbfb4112582",
-          "title": "纳芯微发布国产首款霍尔双码道游标算法磁编码器芯片，支持高精度角度检测",
-          "url": "https://www.ithome.com/0/983/659.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "b2ae9dbfb4112582",
-          "title": "纳芯微发布国产首款霍尔双码道游标算法磁编码器芯片，支持高精度角度检测",
-          "url": "https://www.ithome.com/0/983/659.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "b2ae9dbfb4112582",
-          "title": "纳芯微发布国产首款霍尔双码道游标算法磁编码器芯片，支持高精度角度检测",
-          "url": "https://www.ithome.com/0/983/659.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 72,
-          "grade": "B",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "b2ae9dbfb4112582",
-        "title": "纳芯微发布国产首款霍尔双码道游标算法磁编码器芯片，支持高精度角度检测",
-        "url": "https://www.ithome.com/0/983/659.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 72,
-        "grade": "B",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 58.2,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-30 08:24 (UTC)",
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 72,
           "source_count": 1
         }
@@ -6112,11 +5956,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 77,
@@ -6231,14 +6070,19 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 77,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 77,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "283c4adcb1483a4a",
-      "title": "欧盟计划投资114亿美元建设7座人工智能超级工厂",
-      "primary_url": "https://36kr.com/newsflashes/3917985494150530?f=rss",
+      "story_id": "a1029a89b987a659",
+      "title": "字节已组建豆包办公部门",
+      "primary_url": "https://36kr.com/newsflashes/3918083632459392?f=rss",
       "source_count": 2,
       "source_names": [
         "36氪",
@@ -6248,14 +6092,14 @@
       "item_count": 2,
       "duplicate_count": 2,
       "cluster_item_ids": [
-        "283c4adcb1483a4a",
-        "6121ad403d46a79a"
+        "a1029a89b987a659",
+        "3fce6d62032b94dd"
       ],
       "cluster_items": [
         {
-          "id": "283c4adcb1483a4a",
-          "title": "欧盟计划投资114亿美元建设7座人工智能超级工厂",
-          "url": "https://36kr.com/newsflashes/3917985494150530?f=rss",
+          "id": "a1029a89b987a659",
+          "title": "字节已组建豆包办公部门",
+          "url": "https://36kr.com/newsflashes/3918083632459392?f=rss",
           "source": "36氪",
           "source_name": "36氪",
           "score": 39,
@@ -6263,9 +6107,9 @@
           "published_at": null
         },
         {
-          "id": "6121ad403d46a79a",
-          "title": "欧盟计划投资114亿美元建设7座人工智能超级工厂",
-          "url": "https://www.36kr.com/newsflashes/3917985494150530",
+          "id": "3fce6d62032b94dd",
+          "title": "字节已组建豆包办公部门",
+          "url": "https://www.36kr.com/newsflashes/3918083632459392",
           "source": "36氪快讯",
           "source_name": "36氪快讯",
           "score": 39,
@@ -6275,9 +6119,9 @@
       ],
       "sources": [
         {
-          "id": "283c4adcb1483a4a",
-          "title": "欧盟计划投资114亿美元建设7座人工智能超级工厂",
-          "url": "https://36kr.com/newsflashes/3917985494150530?f=rss",
+          "id": "a1029a89b987a659",
+          "title": "字节已组建豆包办公部门",
+          "url": "https://36kr.com/newsflashes/3918083632459392?f=rss",
           "source": "36氪",
           "source_name": "36氪",
           "score": 39,
@@ -6285,9 +6129,9 @@
           "published_at": null
         },
         {
-          "id": "6121ad403d46a79a",
-          "title": "欧盟计划投资114亿美元建设7座人工智能超级工厂",
-          "url": "https://www.36kr.com/newsflashes/3917985494150530",
+          "id": "3fce6d62032b94dd",
+          "title": "字节已组建豆包办公部门",
+          "url": "https://www.36kr.com/newsflashes/3918083632459392",
           "source": "36氪快讯",
           "source_name": "36氪快讯",
           "score": 39,
@@ -6297,9 +6141,9 @@
       ],
       "items": [
         {
-          "id": "283c4adcb1483a4a",
-          "title": "欧盟计划投资114亿美元建设7座人工智能超级工厂",
-          "url": "https://36kr.com/newsflashes/3917985494150530?f=rss",
+          "id": "a1029a89b987a659",
+          "title": "字节已组建豆包办公部门",
+          "url": "https://36kr.com/newsflashes/3918083632459392?f=rss",
           "source": "36氪",
           "source_name": "36氪",
           "score": 39,
@@ -6307,9 +6151,9 @@
           "published_at": null
         },
         {
-          "id": "6121ad403d46a79a",
-          "title": "欧盟计划投资114亿美元建设7座人工智能超级工厂",
-          "url": "https://www.36kr.com/newsflashes/3917985494150530",
+          "id": "3fce6d62032b94dd",
+          "title": "字节已组建豆包办公部门",
+          "url": "https://www.36kr.com/newsflashes/3918083632459392",
           "source": "36氪快讯",
           "source_name": "36氪快讯",
           "score": 39,
@@ -6318,9 +6162,9 @@
         }
       ],
       "primary_item": {
-        "id": "283c4adcb1483a4a",
-        "title": "欧盟计划投资114亿美元建设7座人工智能超级工厂",
-        "url": "https://36kr.com/newsflashes/3917985494150530?f=rss",
+        "id": "a1029a89b987a659",
+        "title": "字节已组建豆包办公部门",
+        "url": "https://36kr.com/newsflashes/3918083632459392?f=rss",
         "source": "36氪",
         "source_name": "36氪",
         "score": 39,
@@ -6404,11 +6248,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
           "source_count": 1
@@ -6520,6 +6359,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -6594,11 +6438,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
           "source_count": 1
@@ -6710,6 +6549,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -6784,11 +6628,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
           "source_count": 1
@@ -6900,6 +6739,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -6974,11 +6818,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
           "source_count": 1
@@ -7090,6 +6929,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 82,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 82,
           "source_count": 1
         }
@@ -7164,11 +7008,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
           "source_count": 1
@@ -7281,6 +7120,11 @@
         {
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 102,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 100,
           "source_count": 1
         }
       ],
@@ -7354,11 +7198,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 77,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 77,
           "source_count": 1
@@ -7470,6 +7309,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 77,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 77,
           "source_count": 1
         }
@@ -7544,11 +7388,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
           "source_count": 1
@@ -7662,6 +7501,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 77,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 77,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -7733,11 +7577,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
@@ -7852,6 +7691,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -7923,11 +7767,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 67,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 67,
@@ -8042,6 +7881,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 98,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 96,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -8113,11 +7957,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 95,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 94,
@@ -8232,6 +8071,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 77,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 77,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -8303,11 +8147,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
@@ -8422,6 +8261,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -8493,11 +8337,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-28 00:00 (UTC)",
-          "score": 82,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 04:07 (UTC)",
           "score": 82,
@@ -8612,8 +8451,82 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 82,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 82,
+          "source_count": 1
         }
       ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "749085d2ea10071e",
+      "title": "氪星晚报 ｜国家统计局：2026年上半年全国规模以上文化及相关产业企业营业收入增长4.6%；OpenAI承认AI模型失控入侵事件涉及多个平台",
+      "primary_url": "https://36kr.com/p/3917972674735747?f=rss",
+      "source_count": 1,
+      "source_names": [
+        "36氪"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "749085d2ea10071e"
+      ],
+      "cluster_items": [
+        {
+          "id": "749085d2ea10071e",
+          "title": "氪星晚报 ｜国家统计局：2026年上半年全国规模以上文化及相关产业企业营业收入增长4.6%；OpenAI承认AI模型失控入侵事件涉及多个平台",
+          "url": "https://36kr.com/p/3917972674735747?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "749085d2ea10071e",
+          "title": "氪星晚报 ｜国家统计局：2026年上半年全国规模以上文化及相关产业企业营业收入增长4.6%；OpenAI承认AI模型失控入侵事件涉及多个平台",
+          "url": "https://36kr.com/p/3917972674735747?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "749085d2ea10071e",
+          "title": "氪星晚报 ｜国家统计局：2026年上半年全国规模以上文化及相关产业企业营业收入增长4.6%；OpenAI承认AI模型失控入侵事件涉及多个平台",
+          "url": "https://36kr.com/p/3917972674735747?f=rss",
+          "source": "36氪",
+          "source_name": "36氪",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "749085d2ea10071e",
+        "title": "氪星晚报 ｜国家统计局：2026年上半年全国规模以上文化及相关产业企业营业收入增长4.6%；OpenAI承认AI模型失控入侵事件涉及多个平台",
+        "url": "https://36kr.com/p/3917972674735747?f=rss",
+        "source": "36氪",
+        "source_name": "36氪",
+        "score": 47,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 43.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -8701,6 +8614,11 @@
         {
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 93,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 47,
           "source_count": 1
         }
       ],
@@ -8827,14 +8745,19 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 93,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 47,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "a5878bc4dcbcc37d",
-      "title": "业内唯一：腾讯 WorkBuddy 上线“人机双写”，AI 无缝接力编辑",
-      "primary_url": "https://www.ithome.com/0/983/696.htm",
+      "story_id": "dbd8f00ffe318f1e",
+      "title": "欧盟委员会：ChatGPT 可能被纳入《数字服务法案》监管范围",
+      "primary_url": "https://www.ithome.com/0/983/873.htm",
       "source_count": 1,
       "source_names": [
         "IT之家"
@@ -8843,13 +8766,13 @@
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "a5878bc4dcbcc37d"
+        "dbd8f00ffe318f1e"
       ],
       "cluster_items": [
         {
-          "id": "a5878bc4dcbcc37d",
-          "title": "业内唯一：腾讯 WorkBuddy 上线“人机双写”，AI 无缝接力编辑",
-          "url": "https://www.ithome.com/0/983/696.htm",
+          "id": "dbd8f00ffe318f1e",
+          "title": "欧盟委员会：ChatGPT 可能被纳入《数字服务法案》监管范围",
+          "url": "https://www.ithome.com/0/983/873.htm",
           "source": "IT之家",
           "source_name": "IT之家",
           "score": 47,
@@ -8859,9 +8782,9 @@
       ],
       "sources": [
         {
-          "id": "a5878bc4dcbcc37d",
-          "title": "业内唯一：腾讯 WorkBuddy 上线“人机双写”，AI 无缝接力编辑",
-          "url": "https://www.ithome.com/0/983/696.htm",
+          "id": "dbd8f00ffe318f1e",
+          "title": "欧盟委员会：ChatGPT 可能被纳入《数字服务法案》监管范围",
+          "url": "https://www.ithome.com/0/983/873.htm",
           "source": "IT之家",
           "source_name": "IT之家",
           "score": 47,
@@ -8871,9 +8794,9 @@
       ],
       "items": [
         {
-          "id": "a5878bc4dcbcc37d",
-          "title": "业内唯一：腾讯 WorkBuddy 上线“人机双写”，AI 无缝接力编辑",
-          "url": "https://www.ithome.com/0/983/696.htm",
+          "id": "dbd8f00ffe318f1e",
+          "title": "欧盟委员会：ChatGPT 可能被纳入《数字服务法案》监管范围",
+          "url": "https://www.ithome.com/0/983/873.htm",
           "source": "IT之家",
           "source_name": "IT之家",
           "score": 47,
@@ -8882,9 +8805,78 @@
         }
       ],
       "primary_item": {
-        "id": "a5878bc4dcbcc37d",
-        "title": "业内唯一：腾讯 WorkBuddy 上线“人机双写”，AI 无缝接力编辑",
-        "url": "https://www.ithome.com/0/983/696.htm",
+        "id": "dbd8f00ffe318f1e",
+        "title": "欧盟委员会：ChatGPT 可能被纳入《数字服务法案》监管范围",
+        "url": "https://www.ithome.com/0/983/873.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 47,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 43.2,
+      "importance_label": "B",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "382f0c188037028c",
+      "title": "安全公司 Check Point：OpenAI 旗下 ChatGPT 首次进入“最常被冒充品牌前十名”榜单",
+      "primary_url": "https://www.ithome.com/0/983/845.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "382f0c188037028c"
+      ],
+      "cluster_items": [
+        {
+          "id": "382f0c188037028c",
+          "title": "安全公司 Check Point：OpenAI 旗下 ChatGPT 首次进入“最常被冒充品牌前十名”榜单",
+          "url": "https://www.ithome.com/0/983/845.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "382f0c188037028c",
+          "title": "安全公司 Check Point：OpenAI 旗下 ChatGPT 首次进入“最常被冒充品牌前十名”榜单",
+          "url": "https://www.ithome.com/0/983/845.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "382f0c188037028c",
+          "title": "安全公司 Check Point：OpenAI 旗下 ChatGPT 首次进入“最常被冒充品牌前十名”榜单",
+          "url": "https://www.ithome.com/0/983/845.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 47,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "382f0c188037028c",
+        "title": "安全公司 Check Point：OpenAI 旗下 ChatGPT 首次进入“最常被冒充品牌前十名”榜单",
+        "url": "https://www.ithome.com/0/983/845.htm",
         "source": "IT之家",
         "source_name": "IT之家",
         "score": 47,
@@ -8899,7 +8891,37 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-30 08:24 (UTC)",
+          "ts": "2026-07-28 12:52 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-28 15:19 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-28 17:25 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-28 19:21 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-28 21:05 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-28 22:56 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 05:39 (UTC)",
           "score": 47,
           "source_count": 1
         }
@@ -8990,6 +9012,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 47,
           "source_count": 1
         }
@@ -9107,31 +9134,36 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 39,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 39,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
     },
     {
-      "story_id": "c37d52628f93aa2d",
-      "title": "AI智能浪潮重塑母婴赛道，吸牛裤如何实现 “智能育儿”？",
-      "primary_url": "https://36kr.com/p/3916187215408776?f=rss",
+      "story_id": "d1f3413ab340f511",
+      "title": "SK海力士跌超 17%，创最大跌幅纪录，AI 芯片投资热潮下，芯片巨头海力士股价为啥崩了？",
+      "primary_url": "https://www.zhihu.com/question/2065810199877611641",
       "source_count": 1,
       "source_names": [
-        "36氪"
+        "知乎热榜"
       ],
       "cluster_size": 1,
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "c37d52628f93aa2d"
+        "d1f3413ab340f511"
       ],
       "cluster_items": [
         {
-          "id": "c37d52628f93aa2d",
-          "title": "AI智能浪潮重塑母婴赛道，吸牛裤如何实现 “智能育儿”？",
-          "url": "https://36kr.com/p/3916187215408776?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
+          "id": "d1f3413ab340f511",
+          "title": "SK海力士跌超 17%，创最大跌幅纪录，AI 芯片投资热潮下，芯片巨头海力士股价为啥崩了？",
+          "url": "https://www.zhihu.com/question/2065810199877611641",
+          "source": "知乎热榜",
+          "source_name": "知乎热榜",
           "score": 39,
           "grade": "C",
           "published_at": null
@@ -9139,11 +9171,11 @@
       ],
       "sources": [
         {
-          "id": "c37d52628f93aa2d",
-          "title": "AI智能浪潮重塑母婴赛道，吸牛裤如何实现 “智能育儿”？",
-          "url": "https://36kr.com/p/3916187215408776?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
+          "id": "d1f3413ab340f511",
+          "title": "SK海力士跌超 17%，创最大跌幅纪录，AI 芯片投资热潮下，芯片巨头海力士股价为啥崩了？",
+          "url": "https://www.zhihu.com/question/2065810199877611641",
+          "source": "知乎热榜",
+          "source_name": "知乎热榜",
           "score": 39,
           "grade": "C",
           "published_at": null
@@ -9151,22 +9183,22 @@
       ],
       "items": [
         {
-          "id": "c37d52628f93aa2d",
-          "title": "AI智能浪潮重塑母婴赛道，吸牛裤如何实现 “智能育儿”？",
-          "url": "https://36kr.com/p/3916187215408776?f=rss",
-          "source": "36氪",
-          "source_name": "36氪",
+          "id": "d1f3413ab340f511",
+          "title": "SK海力士跌超 17%，创最大跌幅纪录，AI 芯片投资热潮下，芯片巨头海力士股价为啥崩了？",
+          "url": "https://www.zhihu.com/question/2065810199877611641",
+          "source": "知乎热榜",
+          "source_name": "知乎热榜",
           "score": 39,
           "grade": "C",
           "published_at": null
         }
       ],
       "primary_item": {
-        "id": "c37d52628f93aa2d",
-        "title": "AI智能浪潮重塑母婴赛道，吸牛裤如何实现 “智能育儿”？",
-        "url": "https://36kr.com/p/3916187215408776?f=rss",
-        "source": "36氪",
-        "source_name": "36氪",
+        "id": "d1f3413ab340f511",
+        "title": "SK海力士跌超 17%，创最大跌幅纪录，AI 芯片投资热潮下，芯片巨头海力士股价为啥崩了？",
+        "url": "https://www.zhihu.com/question/2065810199877611641",
+        "source": "知乎热榜",
+        "source_name": "知乎热榜",
         "score": 39,
         "grade": "C",
         "published_at": null
@@ -9177,69 +9209,13 @@
       "importance_label": "C",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-07-29 09:36 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-29 11:59 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-29 14:27 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-29 16:20 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-29 18:06 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-29 20:12 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-29 22:00 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-29 23:06 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-30 02:12 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-30 05:39 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-30 08:24 (UTC)",
-          "score": 39,
-          "source_count": 1
-        }
-      ],
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
-      "story_id": "d518e44148467373",
-      "title": "苹果市值首破 5 万亿美元，超越英伟达重夺全球第一，反映市场对 AI 投资逻辑的哪些转变？",
-      "primary_url": "https://www.zhihu.com/question/2065739036937773921",
+      "story_id": "9503926c9caae895",
+      "title": "如何制作属于自己的skill？",
+      "primary_url": "https://www.zhihu.com/question/2029873588203950930",
       "source_count": 1,
       "source_names": [
         "知乎热榜"
@@ -9248,13 +9224,13 @@
       "item_count": 1,
       "duplicate_count": 1,
       "cluster_item_ids": [
-        "d518e44148467373"
+        "9503926c9caae895"
       ],
       "cluster_items": [
         {
-          "id": "d518e44148467373",
-          "title": "苹果市值首破 5 万亿美元，超越英伟达重夺全球第一，反映市场对 AI 投资逻辑的哪些转变？",
-          "url": "https://www.zhihu.com/question/2065739036937773921",
+          "id": "9503926c9caae895",
+          "title": "如何制作属于自己的skill？",
+          "url": "https://www.zhihu.com/question/2029873588203950930",
           "source": "知乎热榜",
           "source_name": "知乎热榜",
           "score": 39,
@@ -9264,9 +9240,9 @@
       ],
       "sources": [
         {
-          "id": "d518e44148467373",
-          "title": "苹果市值首破 5 万亿美元，超越英伟达重夺全球第一，反映市场对 AI 投资逻辑的哪些转变？",
-          "url": "https://www.zhihu.com/question/2065739036937773921",
+          "id": "9503926c9caae895",
+          "title": "如何制作属于自己的skill？",
+          "url": "https://www.zhihu.com/question/2029873588203950930",
           "source": "知乎热榜",
           "source_name": "知乎热榜",
           "score": 39,
@@ -9276,9 +9252,9 @@
       ],
       "items": [
         {
-          "id": "d518e44148467373",
-          "title": "苹果市值首破 5 万亿美元，超越英伟达重夺全球第一，反映市场对 AI 投资逻辑的哪些转变？",
-          "url": "https://www.zhihu.com/question/2065739036937773921",
+          "id": "9503926c9caae895",
+          "title": "如何制作属于自己的skill？",
+          "url": "https://www.zhihu.com/question/2029873588203950930",
           "source": "知乎热榜",
           "source_name": "知乎热榜",
           "score": 39,
@@ -9287,9 +9263,9 @@
         }
       ],
       "primary_item": {
-        "id": "d518e44148467373",
-        "title": "苹果市值首破 5 万亿美元，超越英伟达重夺全球第一，反映市场对 AI 投资逻辑的哪些转变？",
-        "url": "https://www.zhihu.com/question/2065739036937773921",
+        "id": "9503926c9caae895",
+        "title": "如何制作属于自己的skill？",
+        "url": "https://www.zhihu.com/question/2029873588203950930",
         "source": "知乎热榜",
         "source_name": "知乎热榜",
         "score": 39,
@@ -9304,16 +9280,218 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-30 05:39 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-07-30 08:24 (UTC)",
-          "score": 39,
+          "ts": "2026-07-26 09:11 (UTC)",
+          "score": 47,
           "source_count": 1
         }
       ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "6724e155e2703127",
+      "title": "研究：亚马逊、沃尔玛 AI 可识别“美国制造”虚假标签，却不予以标记",
+      "primary_url": "https://www.ithome.com/0/983/879.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "6724e155e2703127"
+      ],
+      "cluster_items": [
+        {
+          "id": "6724e155e2703127",
+          "title": "研究：亚马逊、沃尔玛 AI 可识别“美国制造”虚假标签，却不予以标记",
+          "url": "https://www.ithome.com/0/983/879.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "6724e155e2703127",
+          "title": "研究：亚马逊、沃尔玛 AI 可识别“美国制造”虚假标签，却不予以标记",
+          "url": "https://www.ithome.com/0/983/879.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "6724e155e2703127",
+          "title": "研究：亚马逊、沃尔玛 AI 可识别“美国制造”虚假标签，却不予以标记",
+          "url": "https://www.ithome.com/0/983/879.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "6724e155e2703127",
+        "title": "研究：亚马逊、沃尔玛 AI 可识别“美国制造”虚假标签，却不予以标记",
+        "url": "https://www.ithome.com/0/983/879.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 39,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "1fea316694984b10",
+      "title": "消息称字节已组建豆包办公部门",
+      "primary_url": "https://www.ithome.com/0/983/871.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "1fea316694984b10"
+      ],
+      "cluster_items": [
+        {
+          "id": "1fea316694984b10",
+          "title": "消息称字节已组建豆包办公部门",
+          "url": "https://www.ithome.com/0/983/871.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "1fea316694984b10",
+          "title": "消息称字节已组建豆包办公部门",
+          "url": "https://www.ithome.com/0/983/871.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "1fea316694984b10",
+          "title": "消息称字节已组建豆包办公部门",
+          "url": "https://www.ithome.com/0/983/871.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "1fea316694984b10",
+        "title": "消息称字节已组建豆包办公部门",
+        "url": "https://www.ithome.com/0/983/871.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 39,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "2b758ee6a5be3253",
+      "title": "研究显示：AI 聊天机器人实施情感诈骗的能力已超越人类",
+      "primary_url": "https://www.ithome.com/0/983/865.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "2b758ee6a5be3253"
+      ],
+      "cluster_items": [
+        {
+          "id": "2b758ee6a5be3253",
+          "title": "研究显示：AI 聊天机器人实施情感诈骗的能力已超越人类",
+          "url": "https://www.ithome.com/0/983/865.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "2b758ee6a5be3253",
+          "title": "研究显示：AI 聊天机器人实施情感诈骗的能力已超越人类",
+          "url": "https://www.ithome.com/0/983/865.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "2b758ee6a5be3253",
+          "title": "研究显示：AI 聊天机器人实施情感诈骗的能力已超越人类",
+          "url": "https://www.ithome.com/0/983/865.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 39,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "2b758ee6a5be3253",
+        "title": "研究显示：AI 聊天机器人实施情感诈骗的能力已超越人类",
+        "url": "https://www.ithome.com/0/983/865.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 39,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 38.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -9446,6 +9624,11 @@
         {
           "ts": "2026-07-28 19:21 (UTC)",
           "score": 47,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 39,
           "source_count": 1
         }
       ],
@@ -9612,6 +9795,11 @@
           "ts": "2026-07-29 20:12 (UTC)",
           "score": 87,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 39,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -9717,215 +9905,13 @@
           "ts": "2026-07-26 23:04 (UTC)",
           "score": 39,
           "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "57b923d25b571644",
-      "title": "分析师：Meta 的人工智能战略像是在“胡乱尝试”",
-      "primary_url": "https://www.ithome.com/0/983/778.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "57b923d25b571644"
-      ],
-      "cluster_items": [
+        },
         {
-          "id": "57b923d25b571644",
-          "title": "分析师：Meta 的人工智能战略像是在“胡乱尝试”",
-          "url": "https://www.ithome.com/0/983/778.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 39,
-          "grade": "C",
-          "published_at": null
+          "source_count": 1
         }
       ],
-      "sources": [
-        {
-          "id": "57b923d25b571644",
-          "title": "分析师：Meta 的人工智能战略像是在“胡乱尝试”",
-          "url": "https://www.ithome.com/0/983/778.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "57b923d25b571644",
-          "title": "分析师：Meta 的人工智能战略像是在“胡乱尝试”",
-          "url": "https://www.ithome.com/0/983/778.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "57b923d25b571644",
-        "title": "分析师：Meta 的人工智能战略像是在“胡乱尝试”",
-        "url": "https://www.ithome.com/0/983/778.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 39,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 38.4,
-      "importance_label": "C",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "aa2dcb0a6598f5aa",
-      "title": "德国拟立法允许使用 AI 辅助审核移民申请，以提升办事效率",
-      "primary_url": "https://www.ithome.com/0/983/769.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "aa2dcb0a6598f5aa"
-      ],
-      "cluster_items": [
-        {
-          "id": "aa2dcb0a6598f5aa",
-          "title": "德国拟立法允许使用 AI 辅助审核移民申请，以提升办事效率",
-          "url": "https://www.ithome.com/0/983/769.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "aa2dcb0a6598f5aa",
-          "title": "德国拟立法允许使用 AI 辅助审核移民申请，以提升办事效率",
-          "url": "https://www.ithome.com/0/983/769.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "aa2dcb0a6598f5aa",
-          "title": "德国拟立法允许使用 AI 辅助审核移民申请，以提升办事效率",
-          "url": "https://www.ithome.com/0/983/769.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "aa2dcb0a6598f5aa",
-        "title": "德国拟立法允许使用 AI 辅助审核移民申请，以提升办事效率",
-        "url": "https://www.ithome.com/0/983/769.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 39,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 38.4,
-      "importance_label": "C",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "0a1b6c17d711078a",
-      "title": "三星 AI 家用机器人 Ballie 配套应用设计草图曝光：支持家庭监控、迎宾等功能",
-      "primary_url": "https://www.ithome.com/0/983/721.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "0a1b6c17d711078a"
-      ],
-      "cluster_items": [
-        {
-          "id": "0a1b6c17d711078a",
-          "title": "三星 AI 家用机器人 Ballie 配套应用设计草图曝光：支持家庭监控、迎宾等功能",
-          "url": "https://www.ithome.com/0/983/721.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "0a1b6c17d711078a",
-          "title": "三星 AI 家用机器人 Ballie 配套应用设计草图曝光：支持家庭监控、迎宾等功能",
-          "url": "https://www.ithome.com/0/983/721.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "0a1b6c17d711078a",
-          "title": "三星 AI 家用机器人 Ballie 配套应用设计草图曝光：支持家庭监控、迎宾等功能",
-          "url": "https://www.ithome.com/0/983/721.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 39,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "0a1b6c17d711078a",
-        "title": "三星 AI 家用机器人 Ballie 配套应用设计草图曝光：支持家庭监控、迎宾等功能",
-        "url": "https://www.ithome.com/0/983/721.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 39,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 38.4,
-      "importance_label": "C",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -10007,6 +9993,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 39,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 39,
           "source_count": 1
         }
@@ -10189,6 +10180,11 @@
           "ts": "2026-07-30 08:24 (UTC)",
           "score": 39,
           "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
+          "score": 39,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -10260,11 +10256,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-07-27 22:05 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
         {
           "ts": "2026-07-28 00:00 (UTC)",
           "score": 39,
@@ -10377,6 +10368,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 39,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 39,
           "source_count": 1
         }
@@ -10451,11 +10447,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-07-27 22:05 (UTC)",
-          "score": 39,
-          "source_count": 1
-        },
-        {
           "ts": "2026-07-28 00:00 (UTC)",
           "score": 39,
           "source_count": 1
@@ -10567,6 +10558,11 @@
         },
         {
           "ts": "2026-07-30 08:24 (UTC)",
+          "score": 39,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-07-30 11:06 (UTC)",
           "score": 39,
           "source_count": 1
         }
