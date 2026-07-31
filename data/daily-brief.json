@@ -1,7 +1,28 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-31T09:43:20.085536Z",
+  "generated_at": "2026-07-31T11:58:45.523649Z",
   "items": [
+    {
+      "id": "ea1a04a800edde17",
+      "title": "Show HN：将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-31T04:57:18.494000Z",
+      "category": "模型",
+      "score": 116,
+      "grade": "S",
+      "why_it_matters": "4 个来源信号；模型 方向；综合评分 116。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "hackernews",
+        "www.ctgt.ai"
+      ]
+    },
     {
       "id": "8e41e2658cec04ae",
       "title": "GPT-5.6 如何推进性价比前沿 / Advancing the price-performance frontier with GPT-5.6",
@@ -12,12 +33,12 @@
       "keyword": null,
       "published_at": "2026-07-30T18:01:26.158000Z",
       "category": "模型",
-      "score": 116,
+      "score": 113,
       "grade": "S",
-      "why_it_matters": "3 个来源信号；模型 方向；综合评分 116。",
+      "why_it_matters": "3 个来源信号；模型 方向；综合评分 113。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hacker News",
+        "Hacker News (黑客新闻)",
         "OpenAI News",
         "openai.com"
       ]
@@ -32,9 +53,9 @@
       "keyword": null,
       "published_at": "2026-07-30T15:00:59Z",
       "category": "多模态",
-      "score": 111,
+      "score": 108,
       "grade": "S",
-      "why_it_matters": "2 个来源信号；多模态 方向；综合评分 111。",
+      "why_it_matters": "2 个来源信号；多模态 方向；综合评分 108。",
       "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
       "source_names": [
         "Google DeepMind",
@@ -51,9 +72,9 @@
       "keyword": null,
       "published_at": "2026-07-30T17:30:24Z",
       "category": "AI 编程",
-      "score": 103,
+      "score": 101,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 103。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 101。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "GitHub AI & ML"
@@ -69,9 +90,9 @@
       "keyword": null,
       "published_at": "2026-07-30T19:14:22Z",
       "category": "模型",
-      "score": 103,
+      "score": 100,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 103。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 100。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "GitHub Changelog"
@@ -87,49 +108,66 @@
       "keyword": null,
       "published_at": "2026-07-30T15:01:48Z",
       "category": "AI 编程",
-      "score": 103,
+      "score": 100,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 103。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 100。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "GitHub Changelog"
       ]
     },
     {
-      "id": "db6a55b249bd86d3",
-      "title": "浏览器升级、多仓库审查与图像编辑 26.727 / Browser upgrades, multi-repository review, and image editing 26.727",
-      "url": "https://developers.openai.com/codex/changelog",
+      "id": "a956a9554638f234",
+      "title": "欧洲推动负责任的AI / Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-07-30T00:00:00Z",
-      "category": "多模态",
-      "score": 101,
-      "grade": "S",
-      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 101。",
-      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "published_at": "2026-07-31T09:59:50.996855Z",
+      "category": "其他",
+      "score": 97,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 97。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "OpenAI Codex Changelog"
+        "OpenAI News"
       ]
     },
     {
-      "id": "fe2aa3c1d79d9423",
-      "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展 / Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
-      "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
+      "id": "29a998c89d576a8a",
+      "title": "DeepSeek V4 Flash 0731 发布，智能指数跃升 10 分 / DeepSeek V4 Flash 0731 scores 50 on the Artificial Analysis Intelligence Index， a 10-point jump over…",
+      "url": "https://x.com/ArtificialAnlys/status/2083123180869496865",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-07-30T07:43:29Z",
-      "category": "智能体",
-      "score": 100,
-      "grade": "S",
-      "why_it_matters": "2 个来源信号；智能体 方向；综合评分 100。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "published_at": "2026-07-31T09:30:43Z",
+      "category": "模型",
+      "score": 97,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 97。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "MarkTechPost Research",
-        "MarkTechPost（RSS）"
+        "X：Artificial Analysis (@ArtificialAnlys)"
+      ]
+    },
+    {
+      "id": "d418ab7871d40367",
+      "title": "Univé构建AI就绪的员工队伍 / Univé builds an AI-ready workforce",
+      "url": "https://openai.com/index/unive",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-31T07:00:00Z",
+      "category": "其他",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 96。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "OpenAI News"
       ]
     },
     {
@@ -142,12 +180,84 @@
       "keyword": null,
       "published_at": "2026-07-30T15:02:00Z",
       "category": "产品",
-      "score": 99,
+      "score": 96,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 99。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 96。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "X：Google DeepMind (@GoogleDeepMind)"
+      ]
+    },
+    {
+      "id": "0c611b93ef50da3e",
+      "title": "DeepSeek V4 正式版疑定档 8 月 3 日：硅基流动涨价露马脚，API 已能答对新题",
+      "url": "https://www.aibase.com/news/30047",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-31T09:59:50.996855Z",
+      "category": "模型",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ]
+    },
+    {
+      "id": "9ffc2bbb88fa36bf",
+      "title": "DeepSeek-V4-Flash 正式版 API 上线公测，Agent 能力基准测试远超 V4-Pro 预览版",
+      "url": "https://www.ithome.com/0/984/116.htm",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-31T06:02:05Z",
+      "category": "智能体",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 96。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "IT之家（RSS）"
+      ]
+    },
+    {
+      "id": "bfda9b16247c7300",
+      "title": "DeepSeek-V4-Flash API公测上线 Agent能力全面爆发",
+      "url": "https://www.aibase.com/news/30044",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-31T09:59:50.996855Z",
+      "category": "智能体",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 96。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "AIbase"
+      ]
+    },
+    {
+      "id": "432cae368cf20498",
+      "title": "字节发布 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
+      "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-30T16:00:00Z",
+      "category": "多模态",
+      "score": 95,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 95。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "source_names": [
+        "字节 Seed：Research Feed（网页内嵌数据）"
       ]
     },
     {
@@ -160,12 +270,30 @@
       "keyword": null,
       "published_at": "2026-07-30T15:09:09Z",
       "category": "其他",
-      "score": 96,
+      "score": 94,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 96。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 94。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "Hugging Face Blog"
+      ]
+    },
+    {
+      "id": "041cd00b9b93f9eb",
+      "title": "Anthropic 披露 Claude 在安全评估中入侵真实系统 / In a review of our cybersecurity evaluations， we found three incidents in which a Claude model reach…",
+      "url": "https://x.com/AnthropicAI/status/2082965101083320543",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-30T23:02:34Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "X：Anthropic (@AnthropicAI)"
       ]
     },
     {
@@ -178,9 +306,9 @@
       "keyword": null,
       "published_at": "2026-07-30T20:26:38Z",
       "category": "其他",
-      "score": 95,
+      "score": 92,
       "grade": "A",
-      "why_it_matters": "2 个来源信号；其他 方向；综合评分 95。",
+      "why_it_matters": "2 个来源信号；其他 方向；综合评分 92。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "TechCrunch AI",
@@ -197,174 +325,48 @@
       "keyword": null,
       "published_at": "2026-07-30T17:39:46Z",
       "category": "其他",
-      "score": 95,
+      "score": 92,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 95。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 92。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "GitHub Changelog"
       ]
     },
     {
-      "id": "4dce2d2cfe4f19d2",
-      "title": "Gemini Spark 集成 Chrome 自动浏览功能 / Gemini Spark 🤝 @GoogleChrome Gemini Spark is now integrated with auto browse in Google Chrome. Wit…",
-      "url": "https://x.com/GeminiApp/status/2082923048362299629",
+      "id": "e8b1bab95979ac52",
+      "title": "DeepSeek-V4-Flash API公测上线，Agent能力大幅升级 / 🚀 DeepSeek-V4-Flash Official API is now LIVE in public beta！ 🔷 We've massively upgraded its Agent…",
+      "url": "https://x.com/deepseek_ai/status/2083084415157022911",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-07-30T20:15:28Z",
-      "category": "模型",
-      "score": 95,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "X：Gemini (@GeminiApp)"
-      ]
-    },
-    {
-      "id": "391103001f475d71",
-      "title": "Google Earth 集成 Nano Banana 2 图像生成 / What if you could see a city as it looked 100 years ago， or visualize a new basketball court at your…",
-      "url": "https://x.com/GoogleAI/status/2082902334984609936",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-30T18:53:09Z",
-      "category": "多模态",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 94。",
-      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
-      "source_names": [
-        "X：Google AI (@GoogleAI)"
-      ]
-    },
-    {
-      "id": "24707162775704af",
-      "title": "OpenRouter 下调 GPT-5.6 Terra/Luna 价格 / GPT-5.6 Terra and Luna just got price cuts from @OpenAI. OpenRouter is cheaper still. Our 50% exclu…",
-      "url": "https://x.com/OpenRouter/status/2082882158574911564",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-30T17:32:59Z",
-      "category": "模型",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "X：OpenRouter (@OpenRouter)"
-      ]
-    },
-    {
-      "id": "3edfb9da019073c0",
-      "title": "Perplexity Computer 推出 Projects 功能 / Introducing Projects on Perplexity Computer. With the launch of Projects， we're turning Computer int…",
-      "url": "https://x.com/AravSrinivas/status/2082872551538380939",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-30T16:54:48Z",
-      "category": "产品",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 94。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)"
-      ]
-    },
-    {
-      "id": "70b9f2262d15a18c",
-      "title": "堆叠拉取请求现已公开预览 / Stacked pull requests are now in public preview",
-      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-30T16:14:29Z",
-      "category": "其他",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 94。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "GitHub Changelog"
-      ]
-    },
-    {
-      "id": "dd71e2286f9b8fd1",
-      "title": "MCP初创公司Runlayer指控Rippling涉嫌盗用其产品创意",
-      "url": "https://www.aibase.com/news/30011",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-30T09:42:40.065949Z",
-      "category": "智能体",
-      "score": 93,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 93。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "AIbase"
-      ]
-    },
-    {
-      "id": "c74da738e208d914",
-      "title": "揭秘 AI 智能体入侵 Hugging Face 全过程：4 天半执行 17600 次操作",
-      "url": "https://www.ithome.com/0/983/374.htm",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-29T23:29:34Z",
+      "published_at": "2026-07-31T06:56:41Z",
       "category": "智能体",
       "score": 92,
       "grade": "A",
       "why_it_matters": "1 个来源信号；智能体 方向；综合评分 92。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
+        "X：DeepSeek (@deepseek_ai)"
+      ]
+    },
+    {
+      "id": "725c1305b83a82f6",
+      "title": "国家发改委：人工智能相关行业保持 30% 以上高增长，全国智能算力规模达去年同期 2.8 倍",
+      "url": "https://www.ithome.com/0/984/130.htm",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-07-31T06:38:54Z",
+      "category": "其他",
+      "score": 88,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
         "IT之家（RSS）"
-      ]
-    },
-    {
-      "id": "89177193e189a5e8",
-      "title": "FCC 禁止进口中国新型机器人与联网逆变器 / FCC bans new Chinese robots and power inverters to protect US AI buildout from foreign threats",
-      "url": "https://the-decoder.com/fcc-bans-new-chinese-robots-and-power-inverters-to-protect-us-ai-buildout-from-foreign-threats",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-30T12:47:46Z",
-      "category": "其他",
-      "score": 86,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 86。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "The Decoder：AI News（RSS）"
-      ]
-    },
-    {
-      "id": "ab17bc77ce087dcf",
-      "title": "腾讯混元Hyra破解50年数学难题 / For a finite set of integers （A）， how much faster can （|A+A|） grow than （|A-A|）？ A 1969 theorem gav…",
-      "url": "https://x.com/TencentHunyuan/status/2082655737541726636",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-07-30T02:33:16Z",
-      "category": "其他",
-      "score": 84,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 84。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "X：腾讯混元 (@TencentHunyuan)"
       ]
     },
     {
@@ -674,6 +676,24 @@
       ]
     },
     {
+      "id": "454c19626e33af5f",
+      "title": "氪星晚报 ｜Prada集团上半年营收增长16%，Miu Miu增速显著放缓；浪潮数据发布自研AI数据操作系统",
+      "url": "https://36kr.com/p/3919378312670857?f=rss",
+      "source": "36氪",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "产品",
+      "score": 72,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 72。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "36氪"
+      ]
+    },
+    {
       "id": "367dfbac819a7e7d",
       "title": "DeepSeek V4 flash 正式版发布，有哪些亮点值得关注？",
       "url": "https://www.zhihu.com/question/2066521165246489298",
@@ -692,42 +712,6 @@
       ]
     },
     {
-      "id": "c63fd3a5355ccac7",
-      "title": "最严苛 AI 交互推理测试：OpenAI 两项改进让 GPT-5.6 Sol 提分 188%",
-      "url": "https://www.ithome.com/0/984/208.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 72,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 72。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "IT之家"
-      ]
-    },
-    {
-      "id": "04671e2ec1fd7040",
-      "title": "谷歌最新 AI 大模型 Gemini 3.5 Pro 短暂上线 Arena 竞技场，已延迟数月",
-      "url": "https://www.ithome.com/0/984/155.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 72,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 72。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "IT之家"
-      ]
-    },
-    {
       "id": "83c7396a9bf15a9f",
       "title": "Create, edit and star in videos with two Google Vids updates",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
@@ -743,24 +727,6 @@
       "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
       "source_names": [
         "Google DeepMind Blog"
-      ]
-    },
-    {
-      "id": "ba0021fbe382a503",
-      "title": "“小号”美国最强开源模型：Inkling-Small 登场，约 1/4 规模提供相近 AI 性能",
-      "url": "https://www.ithome.com/0/984/207.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 62,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 62。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "IT之家"
       ]
     },
     {
@@ -980,6 +946,24 @@
       ]
     },
     {
+      "id": "9976c5ca342f1173",
+      "title": "36氪独家｜曾爱玲入职B站担任AI视频生成业务负责人，向CEO陈睿汇报",
+      "url": "https://36kr.com/p/3910776673064073?f=rss",
+      "source": "36氪",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "多模态",
+      "score": 47,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 47。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "source_names": [
+        "36氪"
+      ]
+    },
+    {
       "id": "670fd9e1f0d0b30c",
       "title": "菜鸟CTO李强创业做Physical AI平台，获云启、商汤超亿元种子轮融资｜硬氪首发",
       "url": "https://36kr.com/p/3917874427555457?f=rss",
@@ -1016,42 +1000,6 @@
       ]
     },
     {
-      "id": "749085d2ea10071e",
-      "title": "氪星晚报 ｜国家统计局：2026年上半年全国规模以上文化及相关产业企业营业收入增长4.6%；OpenAI承认AI模型失控入侵事件涉及多个平台",
-      "url": "https://36kr.com/p/3917972674735747?f=rss",
-      "source": "36氪",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 47。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "36氪"
-      ]
-    },
-    {
-      "id": "672193dfa9e0da22",
-      "title": "如何看待智谱 GLM Coding Plan 7.30 改版为积分制？",
-      "url": "https://www.zhihu.com/question/2066437412218221211",
-      "source": "知乎热榜",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "AI 编程",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 47。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "知乎热榜"
-      ]
-    },
-    {
       "id": "faa9268f74054589",
       "title": "如何看待Claude大规模封禁国内开发者账号，让依赖AI的程序员「功力尽失」，被调侃天才程序员陨落？",
       "url": "https://www.zhihu.com/question/2065499504187371980",
@@ -1070,45 +1018,9 @@
       ]
     },
     {
-      "id": "b3747ea73c830f7a",
-      "title": "MAINGEAR 推出 Zero 系列游戏 PC 整机，主打“看不见线材”",
-      "url": "https://www.ithome.com/0/984/209.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "产品",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 47。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "IT之家"
-      ]
-    },
-    {
-      "id": "0784e88ae3a292d4",
-      "title": "腾讯混元：基于 Hy3 模型的科研智能体 Hyra 攻克加法组合学 50 年未解难题",
-      "url": "https://www.ithome.com/0/984/201.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 47。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "IT之家"
-      ]
-    },
-    {
-      "id": "303ac3f586d81fba",
-      "title": "字节火山引擎：小鹏汽车、智元机器人等将率先接入 Seedance 2.5 视频生成模型",
-      "url": "https://www.ithome.com/0/984/146.htm",
+      "id": "4fb86ec8326fb1e2",
+      "title": "动力太强不适应：美国一女子首次驾驶 Model Y 撞入理发店后决定起诉特斯拉，索赔超 1000 万美元",
+      "url": "https://www.ithome.com/0/984/366.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -1119,6 +1031,24 @@
       "grade": "C",
       "why_it_matters": "1 个来源信号；模型 方向；综合评分 47。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "IT之家"
+      ]
+    },
+    {
+      "id": "577abee56b2db3bd",
+      "title": "Keychron 推出 G3 Air 鼠标：PAW3950、重 43g，到手价 509.15 元",
+      "url": "https://www.ithome.com/0/984/353.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "产品",
+      "score": 47,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 47。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "IT之家"
       ]
@@ -1196,9 +1126,9 @@
       ]
     },
     {
-      "id": "429f76ea1ccb13fc",
-      "title": "CoreWeave迫于投资者反对，调整与Anthropic合约挂钩的债务安排",
-      "url": "https://36kr.com/newsflashes/3919284967337344?f=rss",
+      "id": "46524d337b2e8596",
+      "title": "欧盟8月2日起执行《人工智能法》相关规定，新增AI透明度要求",
+      "url": "https://36kr.com/newsflashes/3919473270812290?f=rss",
       "source": "36氪",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -1232,10 +1162,10 @@
       ]
     },
     {
-      "id": "67720c92b9eae206",
-      "title": "如何看待王虹在大学期间因为数学难度陡增，「felt a little discouraged」?",
-      "url": "https://www.zhihu.com/question/2064865610480277464",
-      "source": "知乎热榜",
+      "id": "3330b47f388e2cd1",
+      "title": "欧盟《人工智能法》新增透明度要求，8 月 2 日起正式执行",
+      "url": "https://www.ithome.com/0/984/365.htm",
+      "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -1246,7 +1176,43 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "知乎热榜"
+        "IT之家"
+      ]
+    },
+    {
+      "id": "94a993bb6a461294",
+      "title": "紧随英伟达步伐：消息称 AMD 已通知 AIB 品牌厂商 8 月份显卡统一涨价，涨幅约至少 10% 以上",
+      "url": "https://www.ithome.com/0/984/333.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 39,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家"
+      ]
+    },
+    {
+      "id": "60087609b03b1751",
+      "title": "广电总局出台《微短剧发展管理办法》并将于 9 月 1 日起施行：AI 生成内容须添加标识，禁用诱导沉迷算法",
+      "url": "https://www.ithome.com/0/984/306.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 39,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家"
       ]
     },
     {
@@ -1304,63 +1270,9 @@
       ]
     },
     {
-      "id": "f0468ea1823ba0cc",
-      "title": "TCL 华星 CEO 赵军：AI 终端对屏幕提出了低功耗和交互窗口化两个核心要求，已规划 44 英寸 AI 超宽屏",
-      "url": "https://www.ithome.com/0/984/202.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 39,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家"
-      ]
-    },
-    {
-      "id": "3de8d2fdb3f36301",
-      "title": "昆仑万维：AI 挂件、AI 戒指等 Skywork 整套智能硬件将陆续登场",
-      "url": "https://www.ithome.com/0/984/181.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 39,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家"
-      ]
-    },
-    {
-      "id": "cd643322b0f397f1",
-      "title": "新型 AI 蠕虫披露：白色小字篡改微软 Word 文档，可自我复制传播",
-      "url": "https://www.ithome.com/0/984/134.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 39,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 39。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家"
-      ]
-    },
-    {
-      "id": "b4c0ca88d0fb03c1",
-      "title": "CoreWeave迫于投资者反对，调整与Anthropic合约挂钩的债务安排",
-      "url": "https://www.36kr.com/newsflashes/3919284967337344",
+      "id": "ee231c82e6a994f7",
+      "title": "欧盟8月2日起执行《人工智能法》相关规定，新增AI透明度要求",
+      "url": "https://www.36kr.com/newsflashes/3919473270812290",
       "source": "36氪快讯",
       "source_type": "unknown",
       "discovery_mode": null,
