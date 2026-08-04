@@ -11,6 +11,17 @@
     "priority": 90
   },
   {
+    "id": "learnprompt_latest_24h",
+    "name": "AI News Radar Latest 24h",
+    "type": "json_latest_24h",
+    "url": "https://cdn.jsdelivr.net/gh/LearnPrompt/ai-news-radar@master/data/latest-24h.json",
+    "fallback_urls": [
+      "https://raw.githubusercontent.com/LearnPrompt/ai-news-radar/master/data/latest-24h.json"
+    ],
+    "enabled": true,
+    "priority": 80
+  },
+  {
     "id": "rss_anthropic_blog",
     "name": "Anthropic Blog",
     "type": "x_crawl_rss",

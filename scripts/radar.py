@@ -245,6 +245,8 @@ def fetch_one_source(src: dict, scoring: dict) -> tuple[str, str, list[dict], bo
         try:
             if stype in ("json_daily_brief",):
                 items = fetch_radar_daily_brief(u)
+            elif stype in ("json_latest_24h",):
+                items = fetch_radar_latest_24h(u)
             elif stype in ("x_crawl_rss",):
                 items = fetch_rss(u, source_name=sname)
                 if src.get("filter_ai", False):
@@ -348,6 +350,38 @@ def fetch_radar_daily_brief(url: str) -> list[dict]:
             "importance_label": entry.get("importance_label") or "",
             "importance_breakdown": entry.get("importance_breakdown") or {},
             "source_names": entry.get("source_names") or [],
+            "summary": (primary.get("summary")
+                        or next((s.get("summary") for s in entry.get("sources", []) if s.get("summary")), "")
+                        or entry.get("summary") or ""),
+        })
+    return items
+
+
+def fetch_radar_latest_24h(url: str) -> list[dict]:
+    """Fetch from LearnPrompt ai-news-radar latest-24h.json (broader coverage than daily-brief)."""
+    text = fetch_text(url)
+    data = json.loads(text)
+    items = []
+    for entry in data.get("items", []):
+        title = entry.get("title") or ""
+        if not title:
+            continue
+        item_url = entry.get("url") or ""
+        source = entry.get("source") or entry.get("source_name") or "Radar"
+        published = entry.get("published_at")
+        source_names = entry.get("source_names") or []
+        source_count = max(len(source_names), 1)
+        items.append({
+            "id": stable_id(title, item_url),
+            "title": title,
+            "url": item_url,
+            "source": source,
+            "source_type": "radar",
+            "published_at": parse_time(published),
+            "category": entry.get("category") or "其他",
+            "raw_score": 40,
+            "source_count": int(source_count),
+            "source_names": source_names,
         })
     return items
 
@@ -496,6 +530,9 @@ def score_and_grade(item: dict, now: dt.datetime, scoring: dict) -> tuple[int, s
                 score -= 15
         except Exception:
             pass
+    else:
+        # 无发布时间：无法验证新鲜度，大幅降分防止混入 latest-24h
+        score -= 25
 
     score = max(score, 0)
 
@@ -540,6 +577,9 @@ def build_information_card(item: dict) -> dict:
         "why_it_matters": f"{item.get('source_count', 1)} 个来源信号；{category} 方向；综合评分 {item.get('score', 0)}。",
         "topic_angle": angle_map.get(category, "作为 AI 行业动态线索，回看原文后判断是否值得跟进。"),
         "source_names": item.get("source_names") or [item.get("source")],
+        "summary": item.get("summary", ""),
+        "importance_label": item.get("importance_label", ""),
+        "importance_breakdown": item.get("importance_breakdown", {}),
     }
 
 
@@ -1116,7 +1156,9 @@ def main():
     write_json(DATA / "latest-24h.json", {
         "schema_version": "1.0",
         "generated_at": now.isoformat().replace("+00:00", "Z"),
-        "items": [card for card in cards if card.get("grade") in ("S", "A", "B")],
+        "items": [card for card in cards
+                  if card.get("grade") in ("S", "A", "B")
+                  and card.get("published_at")],
     })
     print(f"[radar] 数据已写入 data/ 目录（含 stories-merged.json + source-status.json）")
 
