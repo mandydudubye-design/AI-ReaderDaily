@@ -28,7 +28,10 @@ import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-import requests
+try:
+    import requests
+except ImportError:
+    requests = None
 
 DEFAULT_API_BASE_URL = "https://api.deepseek.com"
 DEFAULT_MODEL = "deepseek-chat"

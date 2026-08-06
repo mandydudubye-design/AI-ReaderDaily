@@ -22,7 +22,9 @@ import json, os, re, sys, time, hashlib
 from pathlib import Path
 from datetime import datetime, timezone
 
-import requests
+import urllib.request
+import urllib.parse
+import urllib.error
 
 # ---------- paths ----------
 BASE = Path(__file__).resolve().parent.parent
@@ -103,13 +105,11 @@ def has_cjk(text: str) -> bool:
 
 def translate_google(text: str) -> str | None:
     try:
-        resp = requests.get(
-            "https://translate.googleapis.com/translate_a/single",
-            params={"client": "gtx", "sl": "en", "tl": "zh-CN", "dt": "t", "q": text},
-            timeout=10,
-        )
-        resp.raise_for_status()
-        segs = resp.json()
+        params = urllib.parse.urlencode({"client": "gtx", "sl": "en", "tl": "zh-CN", "dt": "t", "q": text})
+        url = f"https://translate.googleapis.com/translate_a/single?{params}"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            segs = json.loads(resp.read().decode("utf-8"))
         translated = "".join(str(seg[0]) for seg in segs[0] if isinstance(seg, list) and seg and seg[0])
         return translated.strip() if translated.strip() and translated.strip() != text else None
     except Exception:
@@ -117,21 +117,23 @@ def translate_google(text: str) -> str | None:
 
 def translate_deepseek(text: str, api_key: str) -> str | None:
     try:
-        resp = requests.post(
+        payload = json.dumps({
+            "model": "deepseek-chat",
+            "messages": [
+                {"role": "system", "content": "你是科技新闻编辑，把英文 AI/科技新闻标题翻译成地道的简体中文。产品名、公司名、模型名、媒体名、人名一律保留英文原文不翻译。用自然的中文表达，说人话，避免翻译腔。只返回翻译结果，不要解释。"},
+                {"role": "user", "content": text},
+            ],
+            "temperature": 0.1,
+        }).encode("utf-8")
+        req = urllib.request.Request(
             "https://api.deepseek.com/chat/completions",
-            headers={"Authorization": f"Bearer {api_key}", "Content-Agent": "application/json"},
-            json={
-                "model": "deepseek-chat",
-                "messages": [
-                    {"role": "system", "content": "你是科技新闻编辑，把英文 AI/科技新闻标题翻译成地道的简体中文。产品名、公司名、模型名、媒体名、人名一律保留英文原文不翻译。用自然的中文表达，说人话，避免翻译腔。只返回翻译结果，不要解释。"},
-                    {"role": "user", "content": text},
-                ],
-                "temperature": 0.1,
-            },
-            timeout=20,
+            data=payload,
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            method="POST",
         )
-        resp.raise_for_status()
-        return resp.json()["choices"][0]["message"]["content"].strip()
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            body = json.loads(resp.read().decode("utf-8"))
+        return body["choices"][0]["message"]["content"].strip()
     except Exception:
         return None
 
