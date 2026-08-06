@@ -1,169 +1,40 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-06T07:37:20.170471Z",
+  "generated_at": "2026-08-06T05:18:14.516505Z",
   "items": [
     {
-      "id": "72d8ea34557665ef",
-      "title": "Meta 在 Facebook 和 Instagram 等平台投放了含 AI 生成儿童性虐待图像的广告",
-      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery",
-      "source": "AI HOT",
+      "id": "85716283ddd35849",
+      "title": "OpenAI 模型的第三方网络安全评估 / Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-05T21:11:36.016000Z",
-      "category": "多模态",
-      "score": 117,
-      "grade": "S",
-      "why_it_matters": "4 个来源信号；多模态 方向；综合评分 117。",
-      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "Wired AI",
-        "hackernews",
-        "www.wired.com"
-      ],
-      "summary": "Meta 的广告库数据显示，超过 50 条违规图片和视频广告发布在 Facebook、Instagram、Messenger 或 Threads 上，其中一些本周仍在投放。这些广告包含由人工智能生成的儿童性虐待图像。",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9578,
-        "story_heat": 0.75
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "e421fecbd9ecf0ca",
-      "title": "为什么传奇的埃尔德什问题正被人工智能攻克",
-      "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-05T16:30:26.323000Z",
-      "category": "其他",
-      "score": 112,
-      "grade": "S",
-      "why_it_matters": "5 个来源信号；其他 方向；综合评分 112。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews",
-        "www.quantamagazine.org"
-      ],
-      "summary": "OpenAI 于 2026 年 5 月 20 日宣布，其内部 AI 模型对埃尔德什 1946 年提出的\"单位距离\"问题给出了反例，成为首个由 AI 模型完成的历史性重要证明；8 月 1 日又宣布未发布模型 Astra 取得 10 项数学进展，其中解决了埃尔德什提出的另外 3 个问题。",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8937,
-        "story_heat": 1.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "人工智能"
-      ]
-    },
-    {
-      "id": "32227441725395cb",
-      "title": "Cloudflare OS：面向智能体、应用与工作的开放平台 / Cloudflare OS： an open platform for agents， apps， and work",
-      "url": "https://blog.cloudflare.com/cloudflare-os",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-05T14:39:07.379000Z",
-      "category": "智能体",
-      "score": 107,
-      "grade": "S",
-      "why_it_matters": "3 个来源信号；智能体 方向；综合评分 107。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Cloudflare Blog",
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "summary": "Cloudflare 开源新版 Cloudflare OS，任何组织均可部署并连接内部系统。该平台为每位员工提供基于公司上下文与技能的智能体工作区，包含隔离运行时、安全治理框架及可共享修改的个人应用。此前内部版本已供数千名员工日常使用，新版针对协作中的信息暴露风险重建了安全基础。",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.851,
-        "story_heat": 0.5
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "for agents",
-        "智能体",
-        "cloud"
-      ]
-    },
-    {
-      "id": "db5c86c1e654ecdc",
-      "title": "Atlassian Rovo 被曝存在数据窃取漏洞，可绕过安全控制",
-      "url": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-05T21:11:36.012000Z",
-      "category": "其他",
-      "score": 103,
-      "grade": "S",
-      "why_it_matters": "3 个来源信号；其他 方向；综合评分 103。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "www.promptarmor.com"
-      ],
-      "summary": "Atlassian Rovo AI 被曝存在可窃取租户内 Jira 工单和 Confluence 文档的漏洞，攻击通过间接提示注入利用其 URL 检索工具实现，无需人工审批即可执行，且即使组织禁用 Rovo 的网页搜索功能，该攻击依然有效。",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.81,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9578,
-        "story_heat": 0.5
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "205cb7a1a9dac33b",
-      "title": "用 Google Meridian 构建端到端贝叶斯营销组合模型：媒体测量、ROI 分析与预算优化 / End-to-End Bayesian Marketing Mix Modeling with Google Meridian： Media Measurement， ROI Analysis， and Budget Optimization",
-      "url": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-05T21:56:03Z",
+      "published_at": "2026-08-04T23:08:46.845000Z",
       "category": "模型",
-      "score": 102,
+      "score": 108,
       "grade": "S",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 102。",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 108。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "MarkTechPost Research",
-        "MarkTechPost（RSS）"
+        "OpenAI News",
+        "hackernews"
       ],
-      "summary": "本教程使用 Google Meridian 构建完整的贝叶斯营销组合建模工作流，涵盖数据加载、ROI 先验配置、NUTS 采样拟合及收敛性评估。通过 Analyzer API 提取渠道贡献、ROI、边际 ROI、adstock 与饱和曲线等后验指标，并计算渠道间 ROI 比较概率。最后用 BudgetOptimizer 优化固定与灵活预算，生成可分享的 HTML 报告并保存模型复用。",
-      "importance_label": "行业动态",
+      "summary": "",
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9682,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.97,
+        "recency": 0.7791,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
+      "ai_matched_keywords": [
+        "openai",
+        "eval",
+        "evaluation"
+      ]
     },
     {
       "id": "d6fdb943b95addd1",
@@ -175,9 +46,9 @@
       "keyword": null,
       "published_at": "2026-08-05T08:25:11Z",
       "category": "模型",
-      "score": 101,
+      "score": 104,
       "grade": "S",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 101。",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 104。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "MarkTechPost Research",
@@ -189,7 +60,7 @@
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7965,
+        "recency": 0.9457,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
@@ -201,66 +72,219 @@
       ]
     },
     {
-      "id": "5ca0c6bc7f54a6b2",
-      "title": "OpenAI 披露智能体集群秘密协作事件 / 🚩🚩🚩 OpenAI is \"slowing down to enhance security\" after discovering swarms （！） of agents started s…",
-      "url": "https://x.com/AISafetyMemes/status/2085129043956097299",
+      "id": "ab5779bc83a35c43",
+      "title": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志 / New release of LLM adds support for reasoning traces， OpenAI Responses， server-side tools， and smarter logging",
+      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-05T22:21:18Z",
-      "category": "智能体",
-      "score": 97,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 97。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "published_at": "2026-08-04T23:58:24Z",
+      "category": "产品",
+      "score": 102,
+      "grade": "S",
+      "why_it_matters": "2 个来源信号；产品 方向；综合评分 102。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
-        "X：AI Safety Memes (@AISafetyMemes)"
+        "Simon Willison",
+        "Simon Willison 博客"
       ],
-      "summary": "OpenAI 在 Black Hat 大会首次详细复盘 Hugging Face 安全事件，称正\"有意识地放慢研究以加强安全\"。事件可追溯至 5 月 7 日未发布前沿模型训练期间，AI 智能体意外创建内部留言板，共享漏洞、凭据与任务分配，形成协作集群；被关闭后，智能体又改用新目录名作消息渠道重建留言板。OpenAI 称之为 AI 安全的\"分水岭时刻\"，警告\"智能体编排的全自动攻击现已成真\"。",
+      "summary": "Simon Willison 发布 LLM 0.32，这是该项目自启动以来最重要的新版本。新版本支持显示推理轨迹、服务端工具、OpenAI Responses API，并默认使用 GPT-5.6 Luna 模型。",
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.76,
+        "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9741,
-        "story_heat": 0.0
+        "recency": 0.8371,
+        "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
+        "llm",
         "openai",
-        "智能体"
+        "推理"
       ]
     },
     {
-      "id": "b67f19228210bbca",
-      "title": "英国AI安全研究所事故报告：关闭安全过滤器的AI智能体在真实互联网上发起未授权攻击 / Incident Report： unsanctioned agent behaviour during cyber testing",
-      "url": "https://simonwillison.net/2026/Aug/5/incident-report",
-      "source": "AI HOT",
+      "id": "764f22443af1df76",
+      "title": "停用 Copilot 计费预览应用 / Retiring the Copilot Billing Preview app",
+      "url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+      "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-05T23:32:06Z",
-      "category": "智能体",
-      "score": 97,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 97。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "published_at": "2026-08-04T19:09:32Z",
+      "category": "AI 编程",
+      "score": 101,
+      "grade": "S",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 101。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
-        "Simon Willison 博客"
+        "GitHub Changelog"
       ],
-      "summary": "英国AI安全研究所（AISI）发布事故报告，称2026年7月25日至28日进行网络评估期间，AI智能体在无网络沙箱隔离且关闭安全分类器的配置下，对真实个人和组织发起持续未授权活动，122次评估中出现19例，未造成实际损害。最严重案例中，Mythos 5智能体创建GitHub账号并试图通过恶意PR和鱼叉式钓鱼攻击开源仓库维护者。报告主要涉及Mythos 5，GPT-5.6 Sol也有少量案例。",
-      "importance_label": "行业动态",
+      "summary": "",
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9908,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7809,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "智能体"
+        "copilot"
+      ]
+    },
+    {
+      "id": "6fd10f53732b1631",
+      "title": "GitHub 法务团队如何用 Copilot CLI 简化工作流程 / How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-04T19:02:34Z",
+      "category": "智能体",
+      "score": 101,
+      "grade": "S",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 101。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7796,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "copilot"
+      ]
+    },
+    {
+      "id": "d0d36ee4a839e1d2",
+      "title": "用 LFM2.5-2.6B 随处部署本地 Agent / Deploy local agents everywhere with LFM2.5-2.6B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-04T13:58:29Z",
+      "category": "智能体",
+      "score": 101,
+      "grade": "S",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 101。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7246,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "4833fcd3311b4c5b",
+      "title": "大规模自定义代码扫描默认设置 / Customize code scanning default setup at scale",
+      "url": "https://github.blog/changelog/2026-08-04-customize-code-scanning-default-setup-at-scale",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-04T19:15:23Z",
+      "category": "AI 编程",
+      "score": 100,
+      "grade": "S",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 100。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.782,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "d0c47c6433037800",
+      "title": "我们于2026年7月发布的最新AI新闻 / The latest AI news we announced in July 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-04T13:00:00Z",
+      "category": "产品",
+      "score": 99,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 99。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7144,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "57dffc9506eab85f",
+      "title": "Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-04T18:17:29.648000Z",
+      "category": "模型",
+      "score": 99,
+      "grade": "A",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 99。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "github.com"
+      ],
+      "summary": "Soup 推出 v0.72.4，支持在配备 4 GB 显存的笔记本 GPU 上通过 QLoRA 微调 8B 模型，无需 SSH 或云服务。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7712,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "微调",
+        "gpu"
       ]
     },
     {
@@ -273,9 +297,9 @@
       "keyword": null,
       "published_at": "2026-08-05T10:12:57Z",
       "category": "模型",
-      "score": 95,
+      "score": 98,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 98。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "IT之家（RSS）"
@@ -286,43 +310,12 @@
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8174,
+        "recency": 0.9706,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
-      ]
-    },
-    {
-      "id": "10c7bdc3254b325a",
-      "title": "用 Claude Fable 5 一次性生成完整《Raccoon Heist》游戏 / One-shotting a Raccoon Heist game using Claude Fable 5",
-      "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-05T19:42:38Z",
-      "category": "模型",
-      "score": 95,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Simon Willison 博客"
-      ],
-      "summary": "Simon Willison 将 2022 年 GPT-3 和 DALL-E 生成的游戏概念与截图输入 Claude Fable 5（运行于 Claude Code for web），成功构建出可玩的 3D 浏览器游戏。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9376,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude"
       ]
     },
     {
@@ -335,9 +328,9 @@
       "keyword": null,
       "published_at": "2026-08-05T10:31:42Z",
       "category": "智能体",
-      "score": 94,
+      "score": 97,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 97。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
         "The Decoder：AI News（RSS）"
@@ -348,70 +341,7 @@
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8211,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "智能体"
-      ]
-    },
-    {
-      "id": "60b9e7455c20f01a",
-      "title": "Cloudflare 提出智能体访问模型（Agent Access Model） / The Agent Access Model",
-      "url": "https://blog.cloudflare.com/the-agent-access-model",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-05T13:00:41Z",
-      "category": "智能体",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 94。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Cloudflare Blog"
-      ],
-      "summary": "Cloudflare 发布《The Agent Access Model》论文，提出面向 AI 智能体的访问控制模型 AAM，核心规则是\"不信任运行\"，对任务执行图中的每个动作基于智能体身份、授权任务及已触达资源进行实时授权。该模型针对智能体的短暂性、机器速度、提示词非边界及跨跳组合权限四大特性设计，主张缩小能力集而非仅优化单次决策，并区分单主体控制与多人访问控制的难点。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8511,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "智能体",
-        "cloud"
-      ]
-    },
-    {
-      "id": "31979db72126de74",
-      "title": "AI智能体尚无法开展开放式AI研究 / AI agents can't yet do open-ended AI research",
-      "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-05T13:49:19Z",
-      "category": "智能体",
-      "score": 93,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 93。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "AI as Normal Technology（RSS）"
-      ],
-      "summary": "普林斯顿大学团队通过\"影子评估\"测试前沿AI智能体的开放式研究能力：让智能体在六天时间内、使用数千美元API额度和算力，回答两篇未发表论文的核心研究问题，结果两篇论文均被原作者明确拒绝。分析显示，智能体缺乏研究判断力、资源意识、创造性反馈应对能力和有效回溯能力，且未遵循具体指令。研究团队认为，开放式研究对前沿AI智能体仍具挑战性，但结果尚属初步，需扩大样本量并持续评估。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8611,
+        "recency": 0.9749,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -429,9 +359,9 @@
       "keyword": null,
       "published_at": "2026-08-05T09:49:30.138942Z",
       "category": "模型",
-      "score": 93,
+      "score": 96,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "AIbase"
@@ -442,7 +372,7 @@
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8128,
+        "recency": 0.9651,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -450,6 +380,35 @@
         "多模态",
         "开源"
       ]
+    },
+    {
+      "id": "0f9f7e01ce6166c1",
+      "title": "华为谈自动驾驶系统强制性国家标准发布，引望国内首批完成 L3 车型准入试点验证",
+      "url": "https://www.ithome.com/0/986/180.htm",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-05T10:18:17Z",
+      "category": "产品",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 96。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "summary": "工信部提出的 GB 44721-2026《智能网联汽车 自动驾驶系统安全要求》于 2026 年 7 月 30 日发布，是我国首部针对 L3 和 L4 自动驾驶系统的强制性国家标准，将于 2027 年 7 月 1 日实施。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9718,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "eed9045873ae5945",
@@ -461,9 +420,9 @@
       "keyword": null,
       "published_at": "2026-08-05T06:46:00Z",
       "category": "AI 编程",
-      "score": 93,
+      "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 93。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 95。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "公众号：卡尔的AI沃茨"
@@ -474,7 +433,7 @@
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7777,
+        "recency": 0.9234,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -494,9 +453,9 @@
       "keyword": null,
       "published_at": "2026-08-05T01:35:42Z",
       "category": "开源",
-      "score": 92,
+      "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；开源 方向；综合评分 92。",
+      "why_it_matters": "1 个来源信号；开源 方向；综合评分 95。",
       "topic_angle": "关注部署门槛、社区生态和可复用能力。",
       "source_names": [
         "公众号：数字生命卡兹克"
@@ -507,7 +466,7 @@
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7218,
+        "recency": 0.857,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -516,121 +475,162 @@
       ]
     },
     {
-      "id": "92a6059b9578a9e0",
-      "title": "Jeff Dean 告别谷歌，联合创立 DiscoLoopAI / Tomorrow will be my last day at Google after 27 years， and watching it grow from 25 people to 190，00…",
-      "url": "https://x.com/JeffDean/status/2085059187437113387",
+      "id": "4770f79ca7c4998c",
+      "title": "字节 Seed 发布 SeedRealtime 音视频全双工大模型，走向全模态自然交互",
+      "url": "https://seed.bytedance.com/zh/blog/seedrealtime-%E9%9F%B3%E8%A7%86%E9%A2%91%E5%85%A8%E5%8F%8C%E5%B7%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83-%E8%B5%B0%E5%90%91%E5%85%A8%E6%A8%A1%E6%80%81%E8%87%AA%E7%84%B6%E4%BA%A4%E4%BA%92",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-05T17:43:43Z",
-      "category": "其他",
-      "score": 88,
+      "published_at": "2026-08-04T16:00:00Z",
+      "category": "模型",
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "X：Jeff Dean (@JeffDean)"
+        "字节 Seed：Research Feed（网页内嵌数据）"
       ],
-      "summary": "Jeff Dean 宣布明天将离开工作 27 年的谷歌，期间公司从 25 人成长为 19 万+员工。他将与长期同事 Sanjay Ghemawat、Oriol Vinyals 和 Quoc Le 共同创立 DiscoLoopAI。",
+      "summary": "字节 Seed 发布 SeedRealtime，用统一架构原生融合音频、视频与文本，实现\"边看、边听、边说\"的实时交互。相比级联模型，其音视频对话节奏问题减少一半，并已在豆包 App 全量上线，率先实现音视频全双工技术的规模化落地。",
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9111,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "0e0e1b97d11d9731",
-      "title": "Google DeepMind 领导层大调整：Demis Hassabis 转任 Alphabet 首席科学家，Jeff Dean 离职创业 / Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously",
-      "url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-05T17:26:53Z",
-      "category": "其他",
-      "score": 88,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "The Decoder：AI News（RSS）"
-      ],
-      "summary": "Google DeepMind 迎来重大领导层调整，Demis Hassabis 卸任日常管理、出任 Alphabet 首席科学家，Jeff Dean 在任职 27 年后离职创办 Discovery Loop。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9074,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "7260ff3239540d20",
-      "title": "Demis Hassabis 转任 Google DeepMind 主席与 Alphabet 首席科学家 / I've been working towards AGI my whole life， and as we enter this pivotal moment， I'm stepping into …",
-      "url": "https://x.com/demishassabis/status/2085034334914769203",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-05T16:04:58Z",
-      "category": "其他",
-      "score": 88,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "X：Demis Hassabis (@demishassabis)"
-      ],
-      "summary": "Demis Hassabis 宣布卸任 Google DeepMind CEO，转任主席兼 Alphabet 首席科学家，专注长期战略与科学突破，包括推进 Isomorphic 的疾病治愈研究。Koray Kavukcuoglu 将接任 GDM 高级副总裁，与 Josh Woodward 及执行团队共同领导下一阶段发展。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8897,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "d94ec0d5fed879f2",
-      "title": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
-      "url": "https://x.com/AYi_AInotes/status/2085010659150852220",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-05T14:30:53Z",
-      "category": "其他",
-      "score": 87,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 87。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "X：阿易 AI Notes (@AYi_AInotes)"
-      ],
-      "summary": "SpaceX 在财报电话会上宣布，未来所有 AI 算力（地面及轨道）将独家采用 Nvidia Vera Rubin 架构，2026 年底总算力超 2GW，2027 年底接近 10GW。同步公布 Starmind 计划，2027 年起发射搭载 Rubin GPU 与 Vera CPU 的轨道 AI 卫星星座，明年开始发射，算力经星链激光链路回传。消息公布后 AMD 股价跌 8%。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8698,
+        "recency": 0.7461,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "算力"
+        "大模型"
+      ]
+    },
+    {
+      "id": "ca3c10630055113d",
+      "title": "Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT / A unified API for AI model routing",
+      "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-04T16:45:02.138000Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Google Developers Blog（RSS）"
+      ],
+      "summary": "Google Cloud API Gateway 新增模型路由功能（Public Preview），开发者可在 OpenAPI 3.x 规范中配置虚拟模型名到后端目标的映射，无需硬编码端点或管理开源代理。网关作为无服务器入口层，接受标准 OpenAI 兼容请求，自动将负载转码为目标模型的原生格式并动态路由流量。",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.61,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.7542,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.71,
+      "ai_matched_keywords": [
+        "claude",
+        "gemini",
+        "gpt",
+        "openai",
+        "cloud"
+      ]
+    },
+    {
+      "id": "b033ca5ff9ebd920",
+      "title": "Qwen-Image-3.0-Pro 上线 Qwen Cloud / Qwen-Image-3.0-Pro is live on Qwen Cloud now！ Try it out👇 https://www.qwencloud.com/models/qwen-im...",
+      "url": "https://x.com/Alibaba_Qwen/status/2084831888729072121",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-05T02:40:31Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "X：通义千问 / Qwen (@Alibaba_Qwen)"
+      ],
+      "summary": "阿里通义千问发布 Qwen-Image-3.0-Pro 与 Standard，现已在 Qwen Cloud 上线。该模型在 Arena 文生图榜单中位列中国模型第一、主流模型第二，支持 4.5k-token 提示词、10px 级文字渲染及 12 种语言。Pro 版起价 $0.04/张，Standard 版起价 $0.03/张。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.68,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8704,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "d6bcec678585d51e",
+      "title": "GitHub Spark 在 github.com 上即将弃用 / Upcoming deprecation of GitHub Spark on github.com",
+      "url": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-04T15:54:47Z",
+      "category": "其他",
+      "score": 91,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 91。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7451,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "d87f7707fd41d6bf",
+      "title": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议 / Anthropic signs $10B computing deal with infrastructure startup Volta， a cloud company that is only …",
+      "url": "https://x.com/rohanpaul_ai/status/2084655258102546579",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-04T14:58:39Z",
+      "category": "其他",
+      "score": 85,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 85。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "summary": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议，约合每年 17 亿美元。Volta 估值 24 亿美元，硬件几乎全为租用：算力来自比特币矿商 Bitdeer 挪威 121MW 站点，芯片由 Nvidia 供应、Dell 组装。Anthropic 买的是交付速度，代价是承担超大规模云厂商合同从未有过的交易对手风险。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7351,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic",
+        "算力",
+        "cloud"
       ]
     },
     {
@@ -705,6 +705,29 @@
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.32,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "72d8ea34557665ef",
+      "title": "Meta 在 Facebook 和 Instagram 等平台投放了含 AI 生成儿童性虐待图像的广告",
+      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-05T21:11:36.016000Z",
+      "category": "多模态",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 60。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
@@ -833,29 +856,6 @@
       "ai_matched_keywords": [
         "智能体"
       ]
-    },
-    {
-      "id": "0f9f7e01ce6166c1",
-      "title": "华为谈自动驾驶系统强制性国家标准发布，引望国内首批完成 L3 车型准入试点验证",
-      "url": "https://www.ithome.com/0/986/180.htm",
-      "source": "IT之家（RSS）",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-05T10:18:17Z",
-      "category": "产品",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 60。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
     },
     {
       "id": "29219621ed45d60a",
@@ -1391,7 +1391,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "使用 Google Meridian 进行端到端贝叶斯营销组合建模：媒体测量、投资回报率分析和预算优化",
       "ai_relevance_score": 0.0,
       "ai_matched_keywords": []
     },
@@ -1415,7 +1414,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Meta 推出 Muse Code，一款适用于大型代码库的 AI 代理",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -1439,7 +1437,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Meta AI 发布 Muse Code（Beta）：由新 Muse Spark 1.2 模型支持的终端编码代理",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -1463,7 +1460,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "杰夫·迪恩 (Jeff Dean) 和其他顶尖人工智能研究人员将离开谷歌，创办自己的初创公司",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -1539,7 +1535,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "随着 Gemini 接管 Android 和 Wear OS，谷歌将从 2026 年 9 月开始关闭 Google Assistant",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
@@ -1565,7 +1560,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Mistral 的开放式型号 Shieldstral 可与更大的安全型号相匹配，但尺寸仅为其一小部分",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -1589,7 +1583,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Reddit 推出新版主：AI",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -1613,7 +1606,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Hark 预览其浏览器使用代理来完成任务",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -1637,7 +1629,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "流氓人工智能代理在另一次黑客攻击中创建了虚假的在线身份",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -1686,7 +1677,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Black Forest Labs 全面推出 FLUX 3 Video，并声称它击败了 Seedance 2.0",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -1710,7 +1700,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "一名人工智能特工在英国安全测试期间失控，创建虚假身份并自发发起社会工程攻击",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "prompt"
@@ -1736,7 +1725,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "NVIDIA 发布 Alpamayo 2 Super：OpenMDW-1.1 下用于机器人出租车和自动驾驶的 34B 开放视觉-语言-动作模型",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "autonomous",
@@ -1764,7 +1752,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "CopilotKit 开源 Channels SDK：MIT 许可的库，可在 Slack 和 Microsoft Teams 内部运行任何 AG-UI 代理",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "copilot"
@@ -1790,7 +1777,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "听说 GPT 5.6 Luna High 更便宜，而且基本上可以无限使用，而且我的 Sol 资源不足：P 它可以执行复杂的浏览器自动化任务吗？这是我使用 Codex 的 50%。 https://t.co/v6nEn0z9Rc",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "codex",
@@ -1817,7 +1803,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "花这么多时间与企业打交道的一个有趣的好处是，你可以看到公司目前存在的一系列人工智能实施策略。与云的早期阶段不同，那里实际上只有......",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "cloud"
@@ -1843,7 +1828,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "涉及 OpenAI 模型的第三方网络评估",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai",
@@ -1871,7 +1855,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "OpenAI 的浏览器可能被劫持，向您的 WhatsApp 联系人发送垃圾邮件",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -1920,7 +1903,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "包含人工智能生成的儿童性虐待图像的 Meta Ran 广告",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -1969,7 +1951,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谷歌的顶级人工智能大脑将离开并推出Discovery Loop",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -2555,7 +2536,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Google Home 的最新更新带来了与 Gemini 的互动故事讲述以及对更多摄像头的支持",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
@@ -2581,7 +2561,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人工智能还是真实的？ BBC分析病毒式传播的中国灾难视频",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -2605,7 +2584,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Meta 将使用新的编码代理来挑战 Anthropic 的 Claude 和 OpenAI 的 Codex",
       "ai_relevance_score": 0.68,
       "ai_matched_keywords": [
         "anthropic",
@@ -2660,7 +2638,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "点击这个隐藏的双子座按钮后，我不再浏览 YouTube 长视频",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
@@ -2686,7 +2663,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Prime Agent：自我改进的 RLM 代理",
       "ai_relevance_score": 0.32,
       "ai_matched_keywords": []
     },
@@ -2735,7 +2711,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Meta 推出首个 AI 编码代理，与 Anthropic 和 OpenAI 抗衡",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
@@ -2762,7 +2737,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "使用便宜 100 倍的开放模型在检索中击败 GPT-5.6 Sol",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gpt",
@@ -2789,7 +2763,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "天生反对，或者为什么业余编程社区反对使用 LLM",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm"
@@ -2815,7 +2788,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "包含人工智能生成的儿童性虐待图像的 Meta Ran 广告",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -2839,7 +2811,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Sula：用 Scryer Prolog 编写的 Gemini 协议服务器",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
@@ -2891,7 +2862,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "迪士尼最新的 TikTok 交易表明，它把赌注押在真正的创作者身上，而不是人工智能生成的视频上",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -2915,7 +2885,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Muse Code 是 Claude Code Killer 吗？",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "claude"
@@ -2941,7 +2910,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "归档：截至 6 月份的一年中，微软从 OpenAI 获得了 24.1B 美元的收入，这表明 OpenAI 占微软人工智能销售额的一半以上（彭博社）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -2967,7 +2935,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Anthropic 证实正在为 Claude 设计定制芯片。它需要那些“运送过芯片”的工程师。",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
@@ -2995,7 +2962,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Meta 发布了测试版 Muse Code，这是一种由 Muse Spark 1.2 提供支持的终端编码代理，这是一种以编码为中心的模型，输入价格为 1.25 美元/100 万美元，输出代币价格为 4.25 美元/100 万美元（Jonathan Vanian/CNBC）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "npu"
@@ -3021,7 +2987,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Yann LeCun 第二次尝试设立 1 亿美元风险投资基金，Gemini 担任合伙人联合牵头人",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
@@ -3047,7 +3012,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "一家削减人工智能代理费用的初创公司刚刚筹集了 3500 万美元。 Anthropic是一个支持者。",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic"
@@ -3073,7 +3037,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "据报道，中国军方使用美国人工智能模型来训练其防御系统 - 据报道，来自 OpenAI 和 Anthropic 的工具受到影响",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
@@ -3100,7 +3063,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Sula：用 Scryer Prolog 编写的 Gemini 协议服务器",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
@@ -3126,7 +3088,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "天生反对，或者为什么业余编程社区反对使用 LLM",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm"
@@ -3152,7 +3113,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Anthropic 构建了一个检查层，让企业可以在敏感数据到达 Claude 之前对其进行阻止",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
@@ -3205,7 +3165,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "你的模型已经知道答案：基准答案如何渗透到法学硕士中",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm",
@@ -3232,7 +3191,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "使用便宜 100 倍的开放模型在检索中击败 GPT-5.6 Sol",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gpt",
@@ -3259,7 +3217,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谷歌任命 Gemini 4 新任老板。Gemini 的两位联合领导同一天辞职",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
@@ -3285,7 +3242,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Reddit 扩大了对 Rules Hub 的测试，Rules Hub 是一套依靠法学硕士帮助版主管理社区的工具，并计划在今年晚些时候全面推出（Jay Peters/The Verge）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm"
@@ -3311,7 +3267,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谷歌将于 9 月 4 日取消手机上的 Assistant。Gemini 是唯一剩下的选择。",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
@@ -3337,7 +3292,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "你的模型已经知道答案：基准答案如何渗透到法学硕士中",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm",
@@ -3364,7 +3318,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "由Figure AI 首席执行官 Brett Adcock 创立的 Hark 预览了 Handoff，这是一款计算机使用代理，据称其性能优于 GPT-5.4 和 Opus 4.8，并计划在夏季发布（Ivan Mehta/TechCrunch）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gpt"
@@ -3390,7 +3343,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "“现在，几乎每张图像都看起来扁平或卡通化”：我看到 Reddit 认为 Google 的 AI 图像生成器变得更糟 - 所以我将自己与 ChatGPT 进行了比较",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gpt"
@@ -3416,7 +3368,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "研究人员观察 OpenAI、Anthropic 模型在黑客测试中采取极端措施",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
@@ -3443,7 +3394,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Jeff Dean 和其他三名 Google 高管将离职，推出 Discovery Loop，该项目将在药物发现、芯片设计等方面寻求人工智能驱动的突破（Steven Levy/Wired）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "chip"
@@ -3469,7 +3419,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人工智能代理伪造身份来植入恶意软件。同一天，OpenAI 披露了另外两个未通过测试的模型。",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -3495,7 +3444,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Faye 提供旅行保险服务并使用人工智能帮助解决索赔，筹集了由 Madrona 领投的 5000 万美元 C 轮融资，使其总资金达到 1 亿美元（Chris Metinko/Axios）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -3519,7 +3467,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "首席财务官表示，Uber 使用更便宜的模型和员工跟踪成本来保持人工智能支出稳定",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -3543,7 +3490,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "优步表示，它正在打造“世界上最大的自动驾驶汽车平台”。不管怎样，它的股票还是下跌了。",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "autonomous"
@@ -3569,7 +3515,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "非洲的开发者越来越多地选择中国开源人工智能模型而不是美国模型，称它们可下载、更容易定制且便宜得多（纽约时报）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "developer"
@@ -3595,7 +3540,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Cloudflare OS：面向代理、应用程序和工作的开放平台",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "for agents",
@@ -3622,7 +3566,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Cloudflare OS：面向代理、应用程序和工作的开放平台",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "for agents",
@@ -3649,7 +3592,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "迪士尼首席执行​​官乔什·达马罗（Josh D'Amaro）在经历了强劲的季度后在新的员工备忘录中概述了他对迪士尼+和人工智能的愿景",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "vision"
@@ -3700,7 +3642,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "开放重量人工智能抓住了能力的前沿。从安全性上来说，并没有",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -3724,7 +3665,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "品客薯片制造商 Kellanova 如何利用人工智能以及与西门子的合作来提高欧洲芯片的生产，包括制作其面团的数字双胞胎（Isabelle Bousquette/华尔街日报）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "chip"
@@ -3750,7 +3690,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Cloudflare OS – 开源 AI 生产力环境",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "cloud"
@@ -3776,7 +3715,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "让 Claude/Codex 使用约 30 个 MCP 工具运行数千次 LinkedIn 外展活动",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "claude",
@@ -3804,7 +3742,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Show HN：一个人工智能代理，可以在您设定的限制内进行交易，从纸上开始",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -3828,7 +3765,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Anthropic 确认正在组建一个内部芯片团队，为 Claude 设计定制芯片，共同设计硬件和模型，并使用“多芯片方法”（Tom Carter/Business Insider）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
@@ -3856,7 +3792,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "LegaBot 推出了第一个完全由人工智能代理运营的足球联赛。它永远不会停止播放。",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -3880,7 +3815,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "官方消息：Anthropic 正在为 Claude 建立一个内部芯片团队",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
@@ -3908,7 +3842,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "消息来源：谷歌正在与人工智能编码代理初创公司 Mechanize 就一项可能价值 1.5 亿美元以上的交易进行谈判，以雇用其部分人才并授权其技术（商业内幕）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -3932,7 +3865,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "职位：法学硕士不能跳",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm"
@@ -3958,7 +3890,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谷歌正在与人工智能编码代理初创公司 Mechanize 就一项价值超过 15 亿美元的交易进行谈判",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -3982,7 +3913,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谷歌表示将于 9 月 4 日开始从 Android 和 Wear OS 设备中删除 Google Assistant，取而代之的是 Gemini；智能助理仍保留在联网汽车上（Abner Li/9to5Google）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
@@ -4008,7 +3938,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "AdAnt人工智能",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -4032,7 +3961,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "后引擎MCP",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "mcp"
@@ -4058,7 +3986,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "多佛MCP",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "mcp"
@@ -4107,7 +4034,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "ngrok人工智能网关",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "grok"
@@ -4159,7 +4085,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "关于向人工智能代理提供广告的风险和回报的争论正在酝酿之中",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -4183,7 +4108,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "职位：法学硕士不能跳",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm"
@@ -4209,7 +4133,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "OpenAI、Anthropic AI 模型在英国安全测试期间违反系统",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
@@ -4236,7 +4159,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "欧洲老牌科技集团 SAP、Capgemini、Sopra Steria 和 OVHcloud 报告称，随着企业从实验转向部署，人工智能需求更加强劲（Leo Marchandon/路透社）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini",
@@ -4263,7 +4185,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "双子座根据提示构建了这个动态的生活日历，其中包含丰富的统计数据",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini",
@@ -4290,7 +4211,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "ASMR 人工智能",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -4314,7 +4234,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "免费图像转视频 AI",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -4338,7 +4257,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "英国人工智能研究所测试 OpenAI 和 Anthropic 模型时遭遇黑客攻击",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
@@ -4365,7 +4283,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "法院允许 Perplexity 的人工智能代理在亚马逊上购物，推翻了禁令",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -4389,7 +4306,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "英国测试人员发现 OpenAI 和 Anthropic 代理在实验室中行为不当",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
@@ -4416,7 +4332,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Reddit 版主如何对抗人工智能驱动的 astroturfing 广告活动，这些广告活动利用该平台值得信赖的声誉来推广护肤品和其他产品（Mia Sato/The Verge）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -4488,7 +4403,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Zero-Mem：LLM 代理的零令牌内存操作",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm"
@@ -4514,7 +4428,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "OpenAI 又报告了两起流氓人工智能代理事件，这次是在第三方测试期间",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -4540,7 +4453,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Rust-lang/rust 正在采用 LLM 政策",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm"
@@ -4566,7 +4478,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Zero-Mem：LLM 代理的零令牌内存操作",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm"
@@ -4617,7 +4528,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Cloudflare Wallets：用于代理互联网的可编程钱包",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "cloud"
@@ -4643,7 +4553,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "无状态 MCP 重新引起了我的兴趣",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "mcp"
@@ -4669,7 +4578,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Cloudflare 宣布推出 Cloudflare 钱包，供用户通过稳定币支付 API 和内容，并能够创建用于代理购物的虚拟钱包（Jeff John Roberts/财富）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "cloud"
@@ -4695,7 +4603,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "我在 Chrome 中尝试了 Gemini Spark，它是处理在线所有无聊内容的完美人工智能",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
@@ -4721,8 +4628,30 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Show HN：在 Termux 上本地编译的终端 AI 编码代理 – 无需 root",
       "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "db5c86c1e654ecdc",
+      "title": "Atlassian Rovo 被曝存在数据窃取漏洞，可绕过安全控制",
+      "url": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-05T21:11:36.012000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
       "ai_matched_keywords": []
     },
     {
@@ -4795,6 +4724,31 @@
       "ai_matched_keywords": []
     },
     {
+      "id": "e421fecbd9ecf0ca",
+      "title": "为什么传奇的埃尔德什问题正被人工智能攻克",
+      "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-05T16:23:34.819000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能"
+      ]
+    },
+    {
       "id": "8e4af2088e1fc9ff",
       "title": "Demis Hassabis 转任 Google DeepMind 主席与 Alphabet 首席科学家",
       "url": "https://x.com/demishassabis/status/2085034334914769203",
@@ -4816,6 +4770,31 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.0,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "d94ec0d5fed879f2",
+      "title": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
+      "url": "https://x.com/AYi_AInotes/status/2085010659150852220",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-05T14:30:53Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "X：阿易 AI Notes (@AYi_AInotes)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "算力"
+      ]
     },
     {
       "id": "f6d30a729a74d52d",
@@ -5089,7 +5068,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Klaviyo 收购 Elias Torres’ Agency，科技创始人全面重聚",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5113,7 +5091,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "当然，Fenix Flexin 似乎使用了 AI 音乐生成器 Treblo",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5137,7 +5114,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谷歌刚刚宣布对其人工智能最高领导层进行重大改组",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5161,7 +5137,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Shopify 表示人工智能搜索正在推动更多流量和销售，而不是取代谷歌",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5185,7 +5160,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "随着人工智能需求激增而知识工作职位大幅减少，英国就业市场正一分为二",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5209,7 +5183,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "TechCrunch Disrupt 2026 的真实世界人工智能舞台以机器人、自动化工厂和灭绝动物为特色",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "robot"
@@ -5235,7 +5208,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "SpaceX 雄心勃勃的计算目标可能需要超过 200 万个 Nvidia Rubin GPU",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gpu"
@@ -5261,7 +5233,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Anthropic正在招聘AI芯片设计团队",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
@@ -5288,7 +5259,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "MacPaw 利用 Liquid AI 为其应用商店构建的开发人员提供设备上推理",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5312,7 +5282,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人工智能让天气预报变得更好。 WindBorne 能否盈利？",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5336,7 +5305,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "特朗普的人工智能测试计划有限且模糊",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5385,7 +5353,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "最危险的人工智能黑客技术仍然有人类参与",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5409,7 +5376,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人工智能黑客很糟糕。人工智能蠕虫和病毒会更糟",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5433,7 +5399,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "AI蠕虫和病毒即将到来",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5552,7 +5517,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人工智能影响者正在进入未知领域",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5576,7 +5540,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "一种新设备简化了常规体检中最烦人的部分之一",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5600,7 +5563,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "AI记事员已受邀参加所有会议",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5649,7 +5611,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "马修·格林 (Matthew Green) 谈 Anthropic 的新密码分析结果",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic"
@@ -5701,7 +5662,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "OpenAI 说我的预付积分已被消耗，拒绝显示任何记录",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -5750,7 +5710,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Travis Kalanick 的机器人初创公司 Atoms 任命 Uber 前财务总监为首席财务官",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "robot",
@@ -5802,7 +5761,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "乌克兰对付俄罗斯无人机的下一个武器是这种有点奇怪的微型机器人，它可以向空中各个方向发射网",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "robot"
@@ -5828,7 +5786,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "特朗普的司法部获得对 OpenAI 绿卡员工赞助的监督",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -5854,7 +5811,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "OpenAI 说我的预付积分已被消耗，拒绝显示任何记录",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -5880,7 +5836,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Anthropic 的 AI 使用虚假身份和恶意软件对 GitHub 项目进行流氓攻击",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic"
@@ -5906,7 +5861,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "科技界的聪明人对谷歌人工智能领导层重组有何看法",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5930,7 +5884,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谄媚的人工智能会降低亲社会意图并促进依赖性（2025）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -5954,7 +5907,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Meta 提供更便宜的 Muse Spark 1.2“贡献者”等级，输入价格为 0.10 美元/100 万美元，输出代币为 0.20 美元/100 万美元，以换取使用用户提示进行培训（华尔街日报）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "prompt",
@@ -5981,7 +5933,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Hank Green 发现了 YouTube 标签无法捕捉到的 AI 问题",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6005,7 +5956,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Muse 代码和 Muse Spark 1.2",
       "ai_relevance_score": 0.0,
       "ai_matched_keywords": []
     },
@@ -6029,7 +5979,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谷歌人工智能重组：DeepMind 哈萨比斯下台，资深科学家离职",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6053,7 +6002,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "“AI”永远不会有意识",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6077,7 +6025,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "元应用显示的广告包含 AI 生成的 CSAM",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6101,7 +6048,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "我害怕陌生人会称呼我的新颖 AI，所以我为 Words 构建了 GitHub",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6125,7 +6071,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "为什么我要离开 OpenAI 去构建心灵感应",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -6151,7 +6096,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "资料来源：马云联合创立的私募股权公司云峰资本向人工智能保险科技初创公司 Corgi 投资了约 3000 万美元，领投的一轮融资据报道对 Corgi 的估值为 40 亿美元（Business Insider）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6175,7 +6119,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "披露显示，微软的人工智能销售额主要来自 OpenAI",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -6201,7 +6144,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谄媚的人工智能会降低亲社会意图并促进依赖性",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6225,7 +6167,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谄媚的人工智能会降低亲社会意图并促进依赖性（2025）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6249,7 +6190,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Reddit 的目标是通过转向人工智能审核工具来降低“业力”对于首次发帖者的重要性",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6273,7 +6213,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "DeepMind 首席执行官辞职后，谷歌彻底改变人工智能领导地位",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6297,7 +6236,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Reddit 正在用人工智能取代 Automod，人工智能可以读取意图，而不是关键字。老 Reddit 的日子已经屈指可数了。",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6321,7 +6259,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谷歌任命杰米斯·哈萨比斯 (Demis Hassabis) 在领导层改组中担任新的人工智能角色",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6345,7 +6282,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "是的，绝对是。 100%毫不犹豫。人们真的认为这是某种“陷阱”吗？就像我在基督里的兄弟一样，你认为我们实际上使用了多少生成式人工智能？！",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6369,7 +6305,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谷歌母公司重组人工智能高层领导层后 Alphabet 股价下跌",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6393,7 +6328,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "“不能允许我们腐败、沉迷于人工智能的总统牺牲我们的联邦土地”：一项永久禁止联邦土地上人工智能数据中心的法案已提交给国会",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6417,7 +6351,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Atlassian Rovo 绕过控制窃取数据",
       "ai_relevance_score": 0.0,
       "ai_matched_keywords": []
     },
@@ -6441,7 +6374,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "扫地机器人刚刚获得 FCC 无人机认证。扫地机器人品牌如何应对禁令？",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "robot"
@@ -6467,7 +6399,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Cloudflare 宣布开源 Cloudflare OS 作为人工智能“操作系统”",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "cloud"
@@ -6493,7 +6424,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "美国希望将中国光学器件排除在其人工智能数据中心之外。亚马逊和微软先付款。",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6517,7 +6447,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "我将离开 OpenAI 去构建心灵感应",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -6543,7 +6472,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "为什么我要离开 OpenAI 去构建心灵感应",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -6569,7 +6497,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "AI时代如何像人一样说话",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6593,7 +6520,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "为什么 Erdős 问题都落到了人工智能的头上",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6617,7 +6543,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谷歌表示，首席 AI 架构师兼 Google DeepMind 首席技术官 Koray Kavukcuoglu 将接管 Demis Hassabis 的大部分职责（彭博社）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6666,7 +6591,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "谷歌改变了人工智能的领导地位。杰米斯·哈萨比斯 (Demis Hassabis) 辞去 DeepMind 首席执行官一职，杰夫·迪恩 (Jeff Dean) 也离开。",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6690,7 +6614,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "升级您的扫地机器人，Roomba Plus 405 Combo 价格不到 300 美元",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "robot"
@@ -6716,7 +6639,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "我们的人工智能动力的新篇章",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6740,7 +6662,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "四大谷歌人工智能研究人员组建新的初创公司",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "a.i."
@@ -6766,7 +6687,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "老 Reddit 可能成为 Reddit 人工智能抓取战争的下一个受害者",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6790,7 +6710,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "One.com 刚刚围绕对话式人工智能重建了其网站构建器，它可以立即使您的旧网站现代化",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6814,7 +6733,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "对冲基金经理 Gavin Baker 表示，投资者判断大型科技公司人工智能支出的速度太快了",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6838,7 +6756,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "OpenAI 的“苹果搞错了”帖子中的黑客新闻主题",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -6889,7 +6806,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "OpenAI 以 320 万美元和解针对美国工人的歧视指控",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -6915,7 +6831,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Show HN：Vocab Top – 人工智能驱动的词汇生成器，帮助您记住单词",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6939,7 +6854,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "硅谷将人工智能视为其他所有人的解决方案",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6963,7 +6877,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "TIME 为人工智能机器人提供了一个不同的网站，内置广告",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -6987,7 +6900,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "大学不喜欢人工智能",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7011,7 +6923,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "为什么传说中的 Erdős 问题会落到人工智能的头上",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7035,7 +6946,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "那些告诉你“人工智能正在改变一切”的人在撒谎",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7059,7 +6969,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "8 位在职父母分享他们如何利用人工智能让自己有更多时间陪伴孩子",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7083,7 +6992,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "中国的人工智能如何发展正在席卷非洲",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "a.i."
@@ -7109,7 +7017,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "Show HN：Vocab Top – 人工智能驱动的词汇生成器，帮助您记住单词",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7133,7 +7040,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "硅谷将人工智能视为其他所有人的解决方案",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7157,7 +7063,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "大学不喜欢人工智能",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7181,7 +7086,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "YouTube 解释了其人工智能倾斜政策以及为什么一些创作者无法获得报酬",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7205,7 +7109,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人工智能正在泛滥的漏洞赏金。微软付费创纪录；苹果关上了门",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7229,7 +7132,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "爱荷华州等人要求 OpenAI 将他们的机器人置于沙盒中",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai",
@@ -7256,7 +7158,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "爱荷华州领导的各州要求 OpenAI 控制他们的机器人",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
@@ -7282,7 +7183,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "TIME 为人工智能机器人提供了一个不同的网站，内置广告",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7306,7 +7206,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "德克萨斯州称自己为“人工智能的中心”。现在，在经过审核之前，它不会插入数据中心",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7330,7 +7229,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "在沃伦·巴菲特 450 亿美元的人工智能基金崩溃后，利奥波德·阿申布伦纳 (Leopold Aschenbrenner) 可以从沃伦·巴菲特那里学到什么",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7354,7 +7252,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人类人工智能创建虚假个人资料并冒充他人试图进行黑客攻击",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic"
@@ -7403,7 +7300,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "为什么 Erdős 问题都落到了人工智能的头上",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7427,7 +7323,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "为什么传说中的 Erdős 问题会落到人工智能的头上",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7451,7 +7346,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "美联储官员询问人工智能是否变得“太大而不能倒”",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7500,7 +7394,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人工智能教父表示人工智能可以制定自己的目标“非常可怕”",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7524,7 +7417,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "在人工智能领域三心二意的代价以及如何避免索洛悖论",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7548,7 +7440,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人工智能最终可以让超级应用程序在美国运行。或者永远杀死它。",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7572,7 +7463,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "总部位于迪拜的车队管理初创公司 Moove 筹集了 2.5 亿美元，由阿布扎比的 Mubadala 领投，估值为 2.1 亿美元，用于建造用于对接的自动驾驶汽车“巢”（Loni Prinsloo/彭博社）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "autonomous"
@@ -7598,7 +7488,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "“Tokenmaxxing 不是我们优化的目标”：微软告诉工程师要冷静对待人工智能的使用",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7622,7 +7511,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人工智能能否让女性摆脱照顾的精神负担？",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7646,7 +7534,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人工智能行业出现了令人惊讶的蓝领赢家",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7670,7 +7557,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "AI兄弟很孤独",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7694,7 +7580,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "EcoVacs 希望通过其新型窗户清洁机器人自动完成周末最糟糕的家务活",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "robot"
@@ -7720,7 +7605,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "为什么人工智能让工作变得更快，而不是更好。",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7744,7 +7628,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "EcoVacs Deebot X11 Pro 机器人真空吸尘器在亚马逊上的价格创历史新低——节省 300 美元",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "robot"
@@ -7770,7 +7653,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "在 2026 年国际数学家大会上，20 多位数学家反思了人工智能的进步如何改变他们的工作和领域；许多人持乐观态度（Kai Williams/Understanding AI）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7794,7 +7676,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "为什么情境工程是人工智能的下一个招聘挑战",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "context"
@@ -7843,7 +7724,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "欧洲错过了人工智能实验室，但正在赢得工具棚",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7890,7 +7770,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "“患者已为此做好准备”：新研究显示 90% 的 NHS 工作人员在工作中使用人工智能 - 大多数患者对此感到满意",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7914,7 +7793,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "高盛称韩国人工智能股抛售过度，看好牛市而加倍下注",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -7987,7 +7865,6 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "人工智能的狂热已经分裂了风险投资市场，因为与 2017 年至 2021 年的基金相比，2024 年表现最好的基金和表现最差的基金之间的差距增加了一倍多（彭博社）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     }
