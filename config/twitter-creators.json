@@ -6,38 +6,270 @@
     "note": "AI 领域粉丝 1w+ 博主，需自建 RSSHub + TWITTER_AUTH_TOKEN"
   },
   "creators": [
-    { "handle": "OpenAI", "name": "OpenAI", "followers_note": "官方" },
-    { "handle": "AnthropicAI", "name": "Anthropic", "followers_note": "官方" },
-    { "handle": "GoogleDeepMind", "name": "Google DeepMind", "followers_note": "官方" },
-    { "handle": "huggingface", "name": "Hugging Face", "followers_note": "官方" },
-    { "handle": "sama", "name": "Sam Altman", "followers_note": "OpenAI/xAI" },
-    { "handle": "karpathy", "name": "Andrej Karpathy", "followers_note": "AI 研究/工程" },
-    { "handle": "ylecun", "name": "Yann LeCun", "followers_note": "Meta AI 首席科学家" },
-    { "handle": "AndrewYNg", "name": "Andrew Ng", "followers_note": "AI 教育/产业" },
-    { "handle": "emollick", "name": "Ethan Mollick", "followers_note": "AI 商业/教育" },
-    { "handle": "drjimfan", "name": "Jim Fan", "followers_note": "NVIDIA AI" },
-    { "handle": "drfeifei", "name": "Fei-Fei Li", "followers_note": "Stanford HAI" },
-    { "handle": "tszzl", "name": "Shunyu Yao", "followers_note": "Agent/推理" },
-    { "handle": "_jasonwei", "name": "Jason Wei", "followers_note": "DeepMind 研究" },
-    { "handle": "swyx", "name": "Shawn Wang", "followers_note": "AI 工程/Latent Space" },
-    { "handle": "nvidia", "name": "NVIDIA", "followers_note": "官方" },
-    { "handle": "cursor_ai", "name": "Cursor", "followers_note": "AI 编程工具" },
-    { "handle": "mistralai", "name": "Mistral AI", "followers_note": "官方" },
-    { "handle": "deepseek_ai", "name": "DeepSeek", "followers_note": "官方" },
-    { "handle": "QwenLM", "name": "Qwen", "followers_note": "阿里通义" },
-    { "handle": "ZhipuAI", "name": "智谱 AI", "followers_note": "官方" },
-    { "handle": "xaboratory", "name": "xAI", "followers_note": "官方" },
-    { "handle": "perplexity_ai", "name": "Perplexity", "followers_note": "官方" },
-    { "handle": "lmsysorg", "name": "LMSYS", "followers_note": "Chatbot Arena" },
-    { "handle": "rowancheung", "name": "Rowan Cheung", "followers_note": "AI 资讯/The Rundown" },
-    { "handle": "Replit", "name": "Replit", "followers_note": "AI 编程平台" },
-    { "handle": "goodfellow_ian", "name": "Ian Goodfellow", "followers_note": "GAN 作者" },
-    { "handle": "tegmark", "name": "Max Tegmark", "followers_note": "AI 安全/FLI" },
-    { "handle": "AravSrinivas", "name": "Arav Srinivas", "followers_note": "Perplexity CEO" },
-    { "handle": "_akhaliq", "name": "AK", "followers_note": "AI 论文速递" },
-    { "handle": "hardmaru", "name": "David Ha", "followers_note": "AI 研究/创业" },
-    { "handle": "clem", "name": "Clément Delangue", "followers_note": "HuggingFace CEO" },
-    { "handle": "bindureddy", "name": "Bindu Reddy", "followers_note": "Abacus AI" },
-    { "handle": "TheAiGrid", "name": "The AI Grid", "followers_note": "AI 工具资讯" }
+    {
+      "handle": "OpenAI",
+      "name": "OpenAI",
+      "followers_note": "官方"
+    },
+    {
+      "handle": "AnthropicAI",
+      "name": "Anthropic",
+      "followers_note": "官方"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "name": "Google DeepMind",
+      "followers_note": "官方"
+    },
+    {
+      "handle": "huggingface",
+      "name": "Hugging Face",
+      "followers_note": "官方"
+    },
+    {
+      "handle": "sama",
+      "name": "Sam Altman",
+      "followers_note": "OpenAI/xAI"
+    },
+    {
+      "handle": "karpathy",
+      "name": "Andrej Karpathy",
+      "followers_note": "AI 研究/工程"
+    },
+    {
+      "handle": "ylecun",
+      "name": "Yann LeCun",
+      "followers_note": "Meta AI 首席科学家"
+    },
+    {
+      "handle": "AndrewYNg",
+      "name": "Andrew Ng",
+      "followers_note": "AI 教育/产业"
+    },
+    {
+      "handle": "emollick",
+      "name": "Ethan Mollick",
+      "followers_note": "AI 商业/教育"
+    },
+    {
+      "handle": "drjimfan",
+      "name": "Jim Fan",
+      "followers_note": "NVIDIA AI"
+    },
+    {
+      "handle": "drfeifei",
+      "name": "Fei-Fei Li",
+      "followers_note": "Stanford HAI"
+    },
+    {
+      "handle": "tszzl",
+      "name": "Shunyu Yao",
+      "followers_note": "Agent/推理"
+    },
+    {
+      "handle": "_jasonwei",
+      "name": "Jason Wei",
+      "followers_note": "DeepMind 研究"
+    },
+    {
+      "handle": "swyx",
+      "name": "Shawn Wang",
+      "followers_note": "AI 工程/Latent Space"
+    },
+    {
+      "handle": "nvidia",
+      "name": "NVIDIA",
+      "followers_note": "官方"
+    },
+    {
+      "handle": "cursor_ai",
+      "name": "Cursor",
+      "followers_note": "AI 编程工具"
+    },
+    {
+      "handle": "mistralai",
+      "name": "Mistral AI",
+      "followers_note": "官方"
+    },
+    {
+      "handle": "deepseek_ai",
+      "name": "DeepSeek",
+      "followers_note": "官方"
+    },
+    {
+      "handle": "QwenLM",
+      "name": "Qwen",
+      "followers_note": "阿里通义"
+    },
+    {
+      "handle": "ZhipuAI",
+      "name": "智谱 AI",
+      "followers_note": "官方"
+    },
+    {
+      "handle": "xaboratory",
+      "name": "xAI",
+      "followers_note": "官方"
+    },
+    {
+      "handle": "perplexity_ai",
+      "name": "Perplexity",
+      "followers_note": "官方"
+    },
+    {
+      "handle": "lmsysorg",
+      "name": "LMSYS",
+      "followers_note": "Chatbot Arena"
+    },
+    {
+      "handle": "rowancheung",
+      "name": "Rowan Cheung",
+      "followers_note": "AI 资讯/The Rundown"
+    },
+    {
+      "handle": "Replit",
+      "name": "Replit",
+      "followers_note": "AI 编程平台"
+    },
+    {
+      "handle": "goodfellow_ian",
+      "name": "Ian Goodfellow",
+      "followers_note": "GAN 作者"
+    },
+    {
+      "handle": "tegmark",
+      "name": "Max Tegmark",
+      "followers_note": "AI 安全/FLI"
+    },
+    {
+      "handle": "AravSrinivas",
+      "name": "Arav Srinivas",
+      "followers_note": "Perplexity CEO"
+    },
+    {
+      "handle": "_akhaliq",
+      "name": "AK",
+      "followers_note": "AI 论文速递"
+    },
+    {
+      "handle": "hardmaru",
+      "name": "David Ha",
+      "followers_note": "AI 研究/创业"
+    },
+    {
+      "handle": "clem",
+      "name": "Clément Delangue",
+      "followers_note": "HuggingFace CEO"
+    },
+    {
+      "handle": "bindureddy",
+      "name": "Bindu Reddy",
+      "followers_note": "Abacus AI"
+    },
+    {
+      "handle": "TheAiGrid",
+      "name": "The AI Grid",
+      "followers_note": "AI 工具资讯"
+    },
+    {
+      "handle": "xiaohu",
+      "name": "小互/AI快讯",
+      "followers_note": "AI快讯搬运，产出最高"
+    },
+    {
+      "handle": "gengdaJ",
+      "name": "更大杰",
+      "followers_note": "Claude Code/Skill 实践"
+    },
+    {
+      "handle": "HoodyLiu",
+      "name": "Hood Liu",
+      "followers_note": "AI视频/MJ+Seedance"
+    },
+    {
+      "handle": "AYi_AInotes",
+      "name": "A Yi AI笔记",
+      "followers_note": "AI编程/AGENTS.md"
+    },
+    {
+      "handle": "LawrenceW_Zen",
+      "name": "Lawrence",
+      "followers_note": "Agent产品排名"
+    },
+    {
+      "handle": "paramiao",
+      "name": "Para Miao",
+      "followers_note": "AI日更"
+    },
+    {
+      "handle": "yibie",
+      "name": "一别",
+      "followers_note": "企业AI/Stripe"
+    },
+    {
+      "handle": "AISuperDomain",
+      "name": "AI超级领域",
+      "followers_note": "LiveKit/语音Agent"
+    },
+    {
+      "handle": "Zen_with_AI",
+      "name": "Zen with AI",
+      "followers_note": "AI洞察"
+    },
+    {
+      "handle": "ai_super_niko",
+      "name": "AI超能niko",
+      "followers_note": "AI工具"
+    },
+    {
+      "handle": "tianyi",
+      "name": "天一",
+      "followers_note": "AI资讯"
+    },
+    {
+      "handle": "vintcessun",
+      "name": "Vintce Sun",
+      "followers_note": "AI洞察"
+    },
+    {
+      "handle": "NTDChinese",
+      "name": "NTD中文",
+      "followers_note": "AI新闻中文"
+    },
+    {
+      "handle": "PragmaLens",
+      "name": "PragmaLens",
+      "followers_note": "AI预测市场"
+    },
+    {
+      "handle": "MetaEraCN",
+      "name": "MetaEra中文",
+      "followers_note": "AI活动/AMA"
+    },
+    {
+      "handle": "AlexanderXQ_",
+      "name": "Alexander",
+      "followers_note": "AI生态周报"
+    },
+    {
+      "handle": "latepostnews",
+      "name": "LatePost",
+      "followers_note": "科技/AI新闻"
+    },
+    {
+      "handle": "mylifcc",
+      "name": "MyLifeCC",
+      "followers_note": "AI coding洞察"
+    },
+    {
+      "handle": "fgchiu",
+      "name": "FG Chiu",
+      "followers_note": "Web3 AI"
+    },
+    {
+      "handle": "rohanpaul_ai",
+      "name": "Rohan Paul",
+      "followers_note": "AI研究/论文英文"
+    }
   ]
 }
