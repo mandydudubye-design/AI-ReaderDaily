@@ -25,11 +25,11 @@
     "id": "rss_anthropic_blog",
     "name": "Anthropic Blog",
     "type": "x_crawl_rss",
-    "url": "https://www.anthropic.com/feed.xml",
+    "url": "https://www.anthropic.com/blog/feed.xml",
     "enabled": true,
     "priority": 95,
     "fallback_urls": [
-      "https://www.anthropic.com/blog/feed.xml",
+      "https://www.anthropic.com/feed.xml",
       "https://www.anthropic.com/rss.xml"
     ]
   },
@@ -42,7 +42,8 @@
     "priority": 95,
     "fallback_urls": [
       "https://openai.com/index/feed.xml"
-    ]
+    ],
+    "filter_ai": true
   },
   {
     "id": "rss_google_blog",
@@ -74,29 +75,29 @@
     "url": "https://huggingface.co/blog/feed.xml",
     "enabled": true,
     "priority": 85,
-    "filter_ai": true
+    "filter_ai": false
   },
   {
     "id": "rss_mistral_blog",
     "name": "Mistral AI Blog",
     "type": "x_crawl_rss",
-    "url": "https://mistral.ai/feed/",
+    "url": "https://mistral.ai/news/feed.xml",
     "enabled": true,
     "priority": 85,
     "fallback_urls": [
-      "https://mistral.ai/feed.xml",
-      "https://mistral.ai/rss/"
+      "https://mistral.ai/feed/",
+      "https://mistral.ai/feed.xml"
     ]
   },
   {
     "id": "rss_xai_blog",
     "name": "xAI Blog",
     "type": "x_crawl_rss",
-    "url": "https://x.ai/blog/feed",
+    "url": "https://x.ai/blog/rss.xml",
     "enabled": true,
     "priority": 90,
     "fallback_urls": [
-      "https://x.ai/blog/rss.xml",
+      "https://x.ai/blog/feed",
       "https://x.ai/feed.xml"
     ]
   },

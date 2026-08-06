@@ -206,9 +206,9 @@ def main():
         if HAS_AI_RELEVANCE:
             record = {"title": title, "source": item.get("source", ""), "summary": item.get("summary", "")}
             result = score_ai_relevance(record)
-            if result.get("ai_relevance_score") is not None:
-                item["ai_relevance_score"] = round(result["ai_relevance_score"], 3)
-                item["ai_matched_keywords"] = result.get("matched_keywords", [])
+            if result.get("score") is not None:
+                item["ai_relevance_score"] = round(result["score"], 3)
+                item["ai_matched_keywords"] = result.get("signals", [])
                 item["is_ai_related"] = result.get("is_ai_related", False)
                 ai_scored_count += 1
                 changed = True
@@ -241,9 +241,9 @@ def main():
             if HAS_AI_RELEVANCE:
                 record = {"title": title, "source": item.get("source", ""), "summary": item.get("summary", "")}
                 result = score_ai_relevance(record)
-                if result.get("ai_relevance_score") is not None:
-                    item["ai_relevance_score"] = round(result["ai_relevance_score"], 3)
-                    item["ai_matched_keywords"] = result.get("matched_keywords", [])
+                if result.get("score") is not None:
+                    item["ai_relevance_score"] = round(result["score"], 3)
+                    item["ai_matched_keywords"] = result.get("signals", [])
         db_path.write_text(json.dumps(db, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"[enrich] daily-brief.json: 已增强")
 
@@ -260,9 +260,9 @@ def main():
             if HAS_AI_RELEVANCE:
                 record = {"title": title, "source": item.get("source", ""), "summary": item.get("summary", "")}
                 result = score_ai_relevance(record)
-                if result.get("ai_relevance_score") is not None:
-                    item["ai_relevance_score"] = round(result.get("ai_relevance_score"), 3)
-                    item["ai_matched_keywords"] = result.get("matched_keywords", [])
+                if result.get("score") is not None:
+                    item["ai_relevance_score"] = round(result.get("score"), 3)
+                    item["ai_matched_keywords"] = result.get("signals", [])
         l24_path.write_text(json.dumps(l24, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"[enrich] latest-24h.json: 已增强")
 
