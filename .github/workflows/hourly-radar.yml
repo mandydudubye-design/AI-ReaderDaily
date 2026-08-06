@@ -30,6 +30,9 @@ jobs:
           git config user.name "maren-ai-radar-bot"
           git config user.email "actions@github.com"
 
+      - name: Install dependencies
+        run: pip install requests
+
       - name: Run radar
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
@@ -37,6 +40,14 @@ jobs:
           RSSHUB_BASE_URL: ${{ secrets.RSSHUB_BASE_URL }}
         run: |
           python3 scripts/radar.py
+
+      - name: Enrich data (translate + AI score + persona)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+        continue-on-error: true
+        run: |
+          python3 scripts/enrich.py
 
       - name: Commit & push snapshot
         run: |
