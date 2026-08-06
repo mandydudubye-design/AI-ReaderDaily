@@ -144,7 +144,10 @@ def apply_glossary(text: str, original_en: str) -> str:
         text = text.replace(bad, good)
     return text
 
+SKIP_TRANSLATE = os.environ.get("ENRICH_SKIP_TRANSLATE", "") == "1"
 def translate_title(title: str, api_key: str | None = None) -> str | None:
+    if SKIP_TRANSLATE:
+        return None
     if not title or has_cjk(title):
         return None  # already Chinese or empty
     # Check cache
