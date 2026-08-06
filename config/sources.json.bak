@@ -27,22 +27,15 @@
     "type": "x_crawl_rss",
     "url": "https://www.anthropic.com/feed.xml",
     "enabled": true,
-    "priority": 95,
-    "fallback_urls": [
-      "https://www.anthropic.com/blog/feed.xml",
-      "https://www.anthropic.com/rss.xml"
-    ]
+    "priority": 95
   },
   {
     "id": "rss_openai_blog",
     "name": "OpenAI Blog",
     "type": "x_crawl_rss",
-    "url": "https://openai.com/news/rss.xml",
+    "url": "https://openai.com/index/feed.xml",
     "enabled": true,
-    "priority": 95,
-    "fallback_urls": [
-      "https://openai.com/index/feed.xml"
-    ]
+    "priority": 95
   },
   {
     "id": "rss_google_blog",
@@ -50,10 +43,7 @@
     "type": "x_crawl_rss",
     "url": "https://blog.google/technology/ai/rss/",
     "enabled": true,
-    "priority": 95,
-    "fallback_urls": [
-      "https://blog.google/technology/ai/rss"
-    ]
+    "priority": 95
   },
   {
     "id": "rss_meta_ai_blog",
@@ -61,11 +51,7 @@
     "type": "x_crawl_rss",
     "url": "https://ai.meta.com/blog/rss.xml",
     "enabled": true,
-    "priority": 85,
-    "fallback_urls": [
-      "https://ai.meta.com/blog/feed.xml",
-      "https://ai.meta.com/blog/rss/"
-    ]
+    "priority": 85
   },
   {
     "id": "rss_huggingface_blog",
@@ -73,8 +59,7 @@
     "type": "x_crawl_rss",
     "url": "https://huggingface.co/blog/feed.xml",
     "enabled": true,
-    "priority": 85,
-    "filter_ai": true
+    "priority": 85
   },
   {
     "id": "rss_mistral_blog",
@@ -82,11 +67,7 @@
     "type": "x_crawl_rss",
     "url": "https://mistral.ai/feed/",
     "enabled": true,
-    "priority": 85,
-    "fallback_urls": [
-      "https://mistral.ai/feed.xml",
-      "https://mistral.ai/rss/"
-    ]
+    "priority": 85
   },
   {
     "id": "rss_xai_blog",
@@ -94,11 +75,7 @@
     "type": "x_crawl_rss",
     "url": "https://x.ai/blog/feed",
     "enabled": true,
-    "priority": 90,
-    "fallback_urls": [
-      "https://x.ai/blog/rss.xml",
-      "https://x.ai/feed.xml"
-    ]
+    "priority": 90
   },
   {
     "id": "rss_36kr",
@@ -280,10 +257,7 @@
     "url": "{{RSSHUB_BASE}}/wechat/sogou/苍何",
     "enabled": true,
     "priority": 81,
-    "note": "AI 产品观察与深度分析",
-    "fallback_urls": [
-      "{{RSSHUB_BASE}}/wechat/sogou/%E8%8B%8D%E4%BD%95"
-    ]
+    "note": "AI 产品观察与深度分析"
   },
   {
     "id": "wechat_huashu",
@@ -293,10 +267,7 @@
     "url": "{{RSSHUB_BASE}}/wechat/sogou/花叔",
     "enabled": true,
     "priority": 80,
-    "note": "AI 工具与效率实践",
-    "fallback_urls": [
-      "{{RSSHUB_BASE}}/wechat/sogou/%E8%8A%B1%E5%8F%94"
-    ]
+    "note": "AI 工具与效率实践"
   },
   {
     "id": "wechat_daishudi",
@@ -306,10 +277,6 @@
     "url": "{{RSSHUB_BASE}}/wechat/sogou/袋鼠帝AI客栈",
     "enabled": true,
     "priority": 79,
-    "note": "AI 应用教程与工具评测",
-    "fallback_urls": [
-      "{{RSSHUB_BASE}}/wechat/sogou/%E8%A2%8B%E9%BC%A0%E5%B8%9DAI%E5%AE%A2%E6%A0%88",
-      "{{RSSHUB_BASE}}/wechat/sogou/%E8%A2%8B%E9%BC%A0%E5%B8%9D"
-    ]
+    "note": "AI 应用教程与工具评测"
   }
 ]
