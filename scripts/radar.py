@@ -47,17 +47,17 @@ USER_AGENT = "MarenAIRadar/1.0 (+https://github.com/mandydudubye-design/maren-ai
 RSSHUB_BASE = os.environ.get("RSSHUB_BASE_URL", "https://rsshub.rssforever.com").rstrip("/")
 FETCH_WORKERS = max(1, min(int(os.environ.get("RADAR_FETCH_WORKERS", "8")), 16))
 RSSHUB_FETCH_WORKERS = max(1, min(int(os.environ.get("RSSHUB_FETCH_WORKERS", "2")), 8))
-MAX_OUTPUT_ITEMS = int(os.environ.get("RADAR_MAX_ITEMS", "150"))
+MAX_OUTPUT_ITEMS = int(os.environ.get("RADAR_MAX_ITEMS", "500"))
 PER_SOURCE_LIMITS = {
-    "keyword": 5,
-    "viral": 8,
-    "creator": 12,
-    "default": 15,
+    "keyword": 15,
+    "viral": 20,
+    "creator": 30,
+    "default": 50,
 }
 PLATFORM_QUOTAS = {
-    "wechat": int(os.environ.get("RADAR_WECHAT_QUOTA", "35")),
-    "twitter": int(os.environ.get("RADAR_TWITTER_QUOTA", "10")),
-    "xiaohongshu": int(os.environ.get("RADAR_XHS_QUOTA", "10")),
+    "wechat": int(os.environ.get("RADAR_WECHAT_QUOTA", "80")),
+    "twitter": int(os.environ.get("RADAR_TWITTER_QUOTA", "30")),
+    "xiaohongshu": int(os.environ.get("RADAR_XHS_QUOTA", "20")),
 }
 PLATFORM_HEAD_SLOTS = 5
 
@@ -397,7 +397,7 @@ def source_uses_rsshub(src: dict) -> bool:
 
 def fetch_rss(url: str, source_name: str = "") -> list[dict]:
     """Fetch RSS feed items"""
-    timeout = 35 if is_rsshub_url(url) else 15
+    timeout = 35 if is_rsshub_url(url) else 25
     text = fetch_text(url, timeout=timeout)
     items = []
     try:
@@ -1157,8 +1157,7 @@ def main():
         "schema_version": "1.0",
         "generated_at": now.isoformat().replace("+00:00", "Z"),
         "items": [card for card in cards
-                  if card.get("grade") in ("S", "A", "B")
-                  and card.get("published_at")],
+                  if card.get("published_at")],
     })
     print(f"[radar] 数据已写入 data/ 目录（含 stories-merged.json + source-status.json）")
 
