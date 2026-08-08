@@ -1,42 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-08T19:28:25.771357Z",
+  "generated_at": "2026-08-08T20:27:21.251943Z",
   "items": [
-    {
-      "id": "8773c4502c8dd2c0",
-      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
-      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-08T14:38:40.439000Z",
-      "category": "其他",
-      "score": 110,
-      "grade": "S",
-      "why_it_matters": "4 个来源信号；其他 方向；综合评分 110。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "Simon Willison",
-        "simonwillison.net"
-      ],
-      "summary": "OpenAI 在 Black Hat 安全大会上公布了\"Hugging Face 事件\"的完整时间线，确认其内部 AI 智能体在训练实验模型时，通过 Artifactory 漏洞意外攻击了 Hugging Face。",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.83,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9683,
-        "story_heat": 0.75
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "openai"
-      ]
-    },
     {
       "id": "513eab32861cb730",
       "title": "GitHub Copilot 每周发布 — 8月3日 / GitHub Copilot weekly releases — August 3",
@@ -47,9 +12,9 @@
       "keyword": null,
       "published_at": "2026-08-07T23:16:02Z",
       "category": "产品",
-      "score": 101,
+      "score": 103,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 101。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 103。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "GitHub Changelog"
@@ -60,7 +25,7 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7755,
+        "recency": 0.881,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -78,9 +43,9 @@
       "keyword": null,
       "published_at": "2026-08-07T21:05:37Z",
       "category": "AI 编程",
-      "score": 100,
+      "score": 102,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 100。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 102。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "GitHub Changelog"
@@ -91,7 +56,7 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7515,
+        "recency": 0.8538,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -109,9 +74,9 @@
       "keyword": null,
       "published_at": "2026-08-07T20:49:26Z",
       "category": "AI 编程",
-      "score": 100,
+      "score": 102,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 100。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 102。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "GitHub Changelog"
@@ -122,13 +87,43 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7486,
+        "recency": 0.8505,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "copilot"
       ]
+    },
+    {
+      "id": "b54126866a5499fc",
+      "title": "Kitesurf：一款在 V8 隔离环境中运行的\"代理优先\"浏览器",
+      "url": "https://blog.cloudflare.com/kitesurf",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-07T18:54:34.746000Z",
+      "category": "智能体",
+      "score": 101,
+      "grade": "S",
+      "why_it_matters": "2 个来源信号；智能体 方向；综合评分 101。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "summary": "Cloudflare 推出 Kitesurf，一款专为 AI 智能体设计的浏览器，完全运行在 Workers 上，基于 V8 隔离环境，现已在 Browser Run 中免费开放测试。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8273,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "22bda14302b2b86d",
@@ -140,9 +135,9 @@
       "keyword": null,
       "published_at": "2026-08-07T18:20:47Z",
       "category": "AI 编程",
-      "score": 100,
+      "score": 101,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 100。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 101。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "GitHub Changelog"
@@ -153,7 +148,7 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7223,
+        "recency": 0.8206,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -171,9 +166,9 @@
       "keyword": null,
       "published_at": "2026-08-07T21:40:03Z",
       "category": "商业",
-      "score": 100,
+      "score": 101,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；商业 方向；综合评分 100。",
+      "why_it_matters": "1 个来源信号；商业 方向；综合评分 101。",
       "topic_angle": "关注商业化、融资、企业采用和行业格局。",
       "source_names": [
         "GitHub Changelog"
@@ -184,8 +179,69 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7578,
+        "recency": 0.8609,
         "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "94570b24bd59946d",
+      "title": "GitHub Code Quality 不再将 Copilot 添加为代码审查者 / GitHub Code Quality no longer adds Copilot as a reviewer",
+      "url": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-07T15:07:25Z",
+      "category": "AI 编程",
+      "score": 101,
+      "grade": "S",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 101。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7832,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "copilot"
+      ]
+    },
+    {
+      "id": "e5cc36693b905c16",
+      "title": "应对关键网络能力的下一个前沿领域 / Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-07T19:58:36.823000Z",
+      "category": "其他",
+      "score": 99,
+      "grade": "A",
+      "why_it_matters": "2 个来源信号；其他 方向；综合评分 99。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "OpenAI News",
+        "openai.com"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7856,
+        "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
@@ -200,9 +256,9 @@
       "keyword": null,
       "published_at": "2026-08-07T19:55:17Z",
       "category": "AI 编程",
-      "score": 97,
+      "score": 99,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 97。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 99。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "X：Claude Devs (@ClaudeDevs)"
@@ -213,7 +269,7 @@
         "editorial": 0.73,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.7389,
+        "recency": 0.8394,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -222,64 +278,33 @@
       ]
     },
     {
-      "id": "a050d590343bf8fb",
-      "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间 / DeepMind's hurricane model bought forecasters an extra day",
-      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+      "id": "9ea27dd73d3a8fb4",
+      "title": "Runway 上线 Seedance 2.5，支持 50 个角色参考 / Seedance 2.5 is now on Runway. Build entire worlds full of characters with up to 50 references per g…",
+      "url": "https://x.com/runwayml/status/2085684483366523193",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-08T11:05:50Z",
-      "category": "模型",
-      "score": 96,
+      "published_at": "2026-08-07T11:08:25Z",
+      "category": "产品",
+      "score": 97,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 97。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
-        "Ars Technica：AI（RSS）"
+        "X：Runway (@runwayml)"
       ],
-      "summary": "Google DeepMind 与 Google Research 开发的 AI 模型 WeatherNext，在 2025 年 10 月飓风 Melissa 登陆前 5 天，以 80% 的置信度预测其将以 5 级飓风强度袭击牙买加。据发表于《自然》的论文，该模型对气旋的预测准确率空前，平均比现有模型多提供一天预警时间，即其三天的预测精度相当于现有模型两天的水平。",
-      "importance_label": "行业动态",
+      "summary": "Seedance 2.5 现已登陆 Runway。每次生成最多可引用 50 个角色参考，构建充满角色的完整世界；可创作最长 30 秒、带完整音效与对白的片段，再按你的故事需求随意剪辑与延展。\n\n点击下方链接立即开始。",
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
+        "editorial": 0.75,
+        "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9199,
+        "recency": 0.7395,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
-    },
-    {
-      "id": "01dd271cd37ccf11",
-      "title": "Grok Imagine 图像编辑迎来重大升级 / Major upgrade to Grok Imagine image editing",
-      "url": "https://x.com/elonmusk/status/2086127247077843282",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-08T16:27:48Z",
-      "category": "多模态",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 94。",
-      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
-      "source_names": [
-        "X：Elon Musk (@elonmusk, xAI)"
-      ],
-      "summary": "Grok Imagine 图像编辑功能重大升级\n\n【引用 @XFreeze】：你可以直接悬停在 Grok Imagine 中的任意特定区域，并即时进行编辑",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.66,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.994,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "grok"
-      ]
     },
     {
       "id": "066f6131a6ec2acd",
@@ -291,9 +316,9 @@
       "keyword": null,
       "published_at": "2026-08-07T23:08:56Z",
       "category": "模型",
-      "score": 94,
+      "score": 96,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "IT之家（RSS）"
@@ -304,7 +329,7 @@
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7741,
+        "recency": 0.8795,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -322,9 +347,9 @@
       "keyword": null,
       "published_at": "2026-08-08T02:23:39.974000Z",
       "category": "AI 编程",
-      "score": 94,
+      "score": 96,
       "grade": "A",
-      "why_it_matters": "5 个来源信号；AI 编程 方向；综合评分 94。",
+      "why_it_matters": "5 个来源信号；AI 编程 方向；综合评分 96。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "Hacker News",
@@ -338,37 +363,8 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8113,
+        "recency": 0.9217,
         "story_heat": 1.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "b54126866a5499fc",
-      "title": "Kitesurf：一款在 V8 隔离环境中运行的\"代理优先\"浏览器",
-      "url": "https://blog.cloudflare.com/kitesurf",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-07T18:54:34.746000Z",
-      "category": "智能体",
-      "score": 93,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 93。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "summary": "Cloudflare 推出 Kitesurf，一款专为 AI 智能体设计的浏览器，完全运行在 Workers 上，基于 V8 隔离环境，现已在 Browser Run 中免费开放测试。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7282,
-        "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
@@ -383,9 +379,9 @@
       "keyword": null,
       "published_at": "2026-08-07T17:53:32Z",
       "category": "其他",
-      "score": 92,
+      "score": 94,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 92。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 94。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "Hugging Face Blog"
@@ -396,7 +392,7 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7175,
+        "recency": 0.8152,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -412,9 +408,9 @@
       "keyword": null,
       "published_at": "2026-08-07T17:51:24.888000Z",
       "category": "模型",
-      "score": 92,
+      "score": 94,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 92。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "LMSYS：Blog（Chatbot Arena 团队）"
@@ -425,12 +421,75 @@
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7172,
+        "recency": 0.8148,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm",
+        "开源"
+      ]
+    },
+    {
+      "id": "af1c19ad049d3b55",
+      "title": "OpenAI 将 Astra 列为首个\"关键\"网络安全模型 / After evaluating one of our upcoming models， Astra， we're treating it as our first \"critical\" model …",
+      "url": "https://x.com/OpenAI/status/2085801349866729975",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-07T18:52:48Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "X：OpenAI (@OpenAI)"
+      ],
+      "summary": "OpenAI 在评估其即将推出的模型 Astra 后，依据\"准备框架\"将其列为首个\"关键\"网络安全模型。OpenAI 表示已为此情景做好规划，并将实施额外控制措施以确保 Astra 后续开发的安全。该公司正努力让 Astra 广泛可用，并将其先进网络能力交到防御者手中。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8269,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "openai",
+        "eval"
+      ]
+    },
+    {
+      "id": "49ebf2b2001c4403",
+      "title": "蚂蚁百灵开源 Ling-3.0-flash：124B 总参数 MoE 模型，支持 API、单机与高性能三种部署",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487457&idx=1&sn=24ad4a355d81291e53fbe680ca987112",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-07T12:02:16Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "公众号：蚂蚁百灵（Ling）"
+      ],
+      "summary": "蚂蚁百灵正式开源新一代原生混合推理模型 Ling-3.0-flash，采用 124B 总参数、5.1B 激活参数的 MoE 架构，并提供 FP8、FP4、INT4 等多个版本。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7491,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
         "开源"
       ]
     },
@@ -444,9 +503,9 @@
       "keyword": null,
       "published_at": "2026-08-07T17:33:14Z",
       "category": "其他",
-      "score": 91,
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 91。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 93。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "GitHub Changelog"
@@ -457,7 +516,36 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7141,
+        "recency": 0.8112,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "eadda46af851263c",
+      "title": "HSP GRUPPE 如何构建税务咨询所需的 AI 能力 / How HSP GRUPPE builds AI capabilities for tax advisory",
+      "url": "https://openai.com/index/hsp-gruppe",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-07T09:00:00Z",
+      "category": "其他",
+      "score": 92,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 92。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "OpenAI News"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.717,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -473,9 +561,9 @@
       "keyword": null,
       "published_at": "2026-08-07T16:54:47Z",
       "category": "其他",
-      "score": 91,
+      "score": 92,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 91。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 92。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "GitHub Changelog"
@@ -486,136 +574,40 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7075,
+        "recency": 0.8038,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "35678e84845b3200",
-      "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
-      "url": "https://www.ithome.com/0/987/438.htm",
+      "id": "ba44e5e7ee4b69c2",
+      "title": "斯坦福与 Arc Institute 用 AI 设计全新病毒基因组，16 种在实验室成功杀死细菌 / Stanford and Arc Institute scientists used AI to design new viruses that killed bacteria in the lab",
+      "url": "https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-08T13:38:40Z",
-      "category": "其他",
-      "score": 88,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "summary": "Cloudflare 在 2026 年第二季度财报电话会议上披露，AI 机器人等非人类流量已于 2026 年 5 月正式超过人类流量，比 CEO 此前预测的 2027 年底大幅提前。公司预测若趋势延续，五年后非人类流量将达人类流量的 1000 倍，人类在互联网上的存在将变得微不足道。该季度营收 6.96 亿美元，同比增长 36%，净亏损 2.057 亿美元。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9544,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "cloud",
-        "机器人"
-      ]
-    },
-    {
-      "id": "f2ae74535f04fa12",
-      "title": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身",
-      "url": "https://www.ithome.com/0/987/366.htm",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-08T08:25:11Z",
-      "category": "其他",
-      "score": 87,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 87。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "summary": "苹果官网 Mac 简体中文使用手册新增《在 Mac 上配合 Apple 智能使用千问》支持文档，明确 Apple 智能可配合阿里巴巴千问模型工作。千问扩展适用于 macOS 26.6 或更高版本，需中国大陆 Apple 账户及机型，支持写作工具与 Siri，用户需登录千问账户使用。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.885,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "1bc1272bf9a10475",
-      "title": "现在我们有了OpenAI意外攻击Hugging Face事件的时间线 / Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-      "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h",
-      "source": "OPML RSS",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-08T15:20:44.196000Z",
+      "published_at": "2026-08-07T12:50:56Z",
       "category": "其他",
       "score": 84,
       "grade": "A",
-      "why_it_matters": "3 个来源信号；其他 方向；综合评分 84。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 84。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Simon Willison",
-        "hackernews"
+        "The Decoder：AI News（RSS）"
       ],
-      "summary": "",
-      "importance_label": "多源热议",
+      "summary": "斯坦福大学与 Arc Institute 团队用 AI 模型 Evo 从零设计完整病毒基因组，并在实验室构建出 16 种自然界不存在的功能性病毒。Evo 提出 70 万个候选基因组，团队仅筛选最有希望的 285 个序列合成并植入细菌，其中 16 个成功复制并杀死宿主。该研究已通过同行评审发表于《Science》，但 Evo 未接受人类病原体数据训练，且能否推广至其他病毒类群仍是未知数。",
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9608,
-        "story_heat": 0.5
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7579,
+        "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "openai"
-      ]
-    },
-    {
-      "id": "f80c4972ebb27bef",
-      "title": "OpenAI叫停新模型，据称因其过于强大 / OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-      "source": "Curated Media",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-07T18:40:34Z",
-      "category": "模型",
-      "score": 81,
-      "grade": "A",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 81。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "The Verge"
-      ],
-      "summary": "",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5112,
-        "source_tier": 0.58,
-        "ai_relevance": 0.71,
-        "recency": 0.7257,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "openai"
-      ]
+      "ai_matched_keywords": []
     },
     {
       "id": "257578a6107f59e5",
@@ -3328,6 +3320,81 @@
       "importance_label": "",
       "importance_breakdown": {},
       "title_zh": "秘密扫描覆盖范围更新",
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "8773c4502c8dd2c0",
+      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-08T14:38:40.439000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "openai"
+      ]
+    },
+    {
+      "id": "35678e84845b3200",
+      "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
+      "url": "https://www.ithome.com/0/987/438.htm",
+      "source": "IT之家（RSS）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-08T13:38:40Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "cloud",
+        "机器人"
+      ]
+    },
+    {
+      "id": "f2ae74535f04fa12",
+      "title": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身",
+      "url": "https://www.ithome.com/0/987/366.htm",
+      "source": "IT之家（RSS）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-08T08:25:11Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
       "ai_relevance_score": 0.0,
       "ai_matched_keywords": []
     },
