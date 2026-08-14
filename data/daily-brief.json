@@ -1,117 +1,85 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-14T18:51:49.022904Z",
+  "generated_at": "2026-08-14T23:19:56.830238Z",
   "items": [
     {
-      "id": "e01f66747cb45594",
-      "title": "GPT-5.6 构建者指南：如何以更低成本实现前沿智能体性能 / The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "source": "Official AI Updates",
+      "id": "9308874eb51b5f1a",
+      "title": "Claude 文本水印机制如何运作 / How Claude's text watermark works",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-13T11:00:00Z",
-      "category": "智能体",
-      "score": 107,
+      "published_at": "2026-08-14T20:46:13.974000Z",
+      "category": "模型",
+      "score": 111,
       "grade": "S",
-      "why_it_matters": "2 个来源信号；智能体 方向；综合评分 107。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "why_it_matters": "3 个来源信号；模型 方向；综合评分 111。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        "Anthropic：Newsroom（网页）",
+        "Hacker News · 24h最热",
+        "hackernews"
       ],
-      "summary": "GPT-5.6 模型家族以更低成本实现前沿级智能体性能，并新增推理持久化、原生多智能体编排和程序化工具调用等 API 能力。在 ARC-AGI-3 上，启用保留推理和压缩后，Sol 得分从 13.3% 跃升至 38.3%，且输出 token 减少约 6 倍。Luna 在 BrowseComp 上以 84.04% 的得分追平 GPT-5.5（84.36%），成本从 $33.27 降至 $1.33。",
+      "summary": "未来 Claude 模型生成的文本将包含水印，用于判断文本由 Claude 撰写的可能性，这是 Anthropic 为遵守欧盟《AI 法案》而实施的变更。该方法基于 Google DeepMind 的 SynthID-Text 技术，对输出质量、创造力和可读性无实际影响，读者无法区分水印文本与普通文本，且不增加额外 token 或成本。",
       "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.9,
+        "editorial": 0.65,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7317,
-        "story_heat": 0.25
+        "ai_relevance": 1.0,
+        "recency": 0.9533,
+        "story_heat": 0.5
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "gpt",
-        "智能体"
+        "claude"
       ]
     },
     {
-      "id": "3fb67dec3d6d5d10",
-      "title": "预览超快模式：GPT-5.6 Sol 速度最高提升 14 倍 / Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "url": "https://openai.com/index/previewing-ultrafast",
+      "id": "0afdfe4583fc1636",
+      "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量 / State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-13T16:59:06Z",
+      "published_at": "2026-08-14T00:00:00Z",
       "category": "模型",
       "score": 107,
       "grade": "S",
       "why_it_matters": "2 个来源信号；模型 方向；综合评分 107。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hacker News · 24h最热",
-        "OpenAI News"
+        "Hugging Face Blog",
+        "Hugging Face：Blog（RSS）"
       ],
-      "summary": "",
+      "summary": "2026年1至8月，Hugging Face公开模型仓库从243万增至296万，但85.6%的模型下载量不足200次，1.5%的仓库占据99.2%下载量。中国实验室月度最大开源模型参数规模在754B至2.78万亿之间，美国实验室七个月中五个月低于130B。AMD与NVIDIA各发布超200个新模型仓库，成为发布开源模型最多的机构。",
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7212,
+        "recency": 0.7206,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "gpt"
+        "开源"
       ]
     },
     {
-      "id": "6a618121014de727",
-      "title": "通过Strands Agents、LeRobot和Hugging Face Storage Buckets，在一个地方完成记录、训练和部署。 / Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "id": "5f31b4967dae5226",
+      "title": "Grok 4.6现已登陆 GitHub Copilot / Grok 4.6 is now available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-13T17:16:04Z",
-      "category": "智能体",
-      "score": 103,
-      "grade": "S",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 103。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.8011,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "robot"
-      ]
-    },
-    {
-      "id": "6750c7568f283016",
-      "title": "Gemini 3.7 Flash 现已登陆 GitHub Copilot / Gemini 3.7 Flash is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-13T14:00:53Z",
+      "published_at": "2026-08-14T16:17:46Z",
       "category": "AI 编程",
-      "score": 101,
+      "score": 104,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 101。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 104。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "GitHub Changelog"
@@ -122,64 +90,31 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7643,
+        "recency": 0.9118,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "copilot",
-        "gemini"
+        "grok"
       ]
     },
     {
-      "id": "975e4f679e74bd23",
-      "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型 / Introducing Gemini 3.7 Flash",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+      "id": "2dfa01a86772f94b",
+      "title": "如何借助 Agent 应用将软件交付工作流接入 GitHub / How to bring your software delivery workflow into GitHub with agent apps",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-13T17:04:18Z",
-      "category": "模型",
-      "score": 101,
+      "published_at": "2026-08-14T16:00:00Z",
+      "category": "智能体",
+      "score": 102,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 101。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 102。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
-        "Google DeepMind"
-      ],
-      "summary": "",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7988,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gemini",
-        "智能体",
-        "编程"
-      ]
-    },
-    {
-      "id": "4401a6b9058fd1ee",
-      "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用 / Bring your spreadsheet data to life with Sheets canvas",
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-13T16:45:00Z",
-      "category": "模型",
-      "score": 100,
-      "grade": "S",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 100。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Google AI Blog"
+        "GitHub AI & ML"
       ],
       "summary": "",
       "importance_label": "官方更新",
@@ -187,30 +122,30 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7951,
+        "recency": 0.9079,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "gemini"
+        "软件"
       ]
     },
     {
-      "id": "ce74e834a5081cbc",
-      "title": "OpenAI任命Dali Rajic为首席营收官 / OpenAI appoints Dali Rajic as Chief Revenue Officer",
-      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "id": "3d2c91406e4cc15f",
+      "title": "GitHub Copilot 每周发布（8月10日） / GitHub Copilot weekly releases — August 10",
+      "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-13T09:00:00Z",
-      "category": "商业",
+      "published_at": "2026-08-14T03:15:56Z",
+      "category": "产品",
       "score": 100,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；商业 方向；综合评分 100。",
-      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 100。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
-        "OpenAI News"
+        "GitHub Changelog"
       ],
       "summary": "",
       "importance_label": "官方更新",
@@ -218,77 +153,201 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7109,
+        "recency": 0.7554,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "openai"
+        "copilot"
       ]
     },
     {
-      "id": "8935784774dadc67",
-      "title": "Claude 接管应用日常维护：388 个 PR 的实践 / A weird experiment I've been trying the last few weeks is having Claude take over day-to-day mainten…",
-      "url": "https://x.com/bcherny/status/2088014489438621990",
+      "id": "4781c738b05b5085",
+      "title": "Cursor 正式被 SpaceX 收购 / Cursor is now a part of SpaceX",
+      "url": "https://cursor.com/blog/joining-spacex",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-13T21:27:02Z",
-      "category": "模型",
-      "score": 98,
+      "published_at": "2026-08-14T17:12:30.187000Z",
+      "category": "AI 编程",
+      "score": 99,
       "grade": "A",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 98。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 99。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
-        "Follow Builders · X · Boris Cherny",
-        "X：Boris Cherny (@bcherny)"
+        "Cursor Blog",
+        "hackernews"
       ],
-      "summary": "Boris Cherny 尝试让 Claude 接管其应用的日常维护，通过 Slack 频道运行崩溃模糊测试、重复代码统一、死代码移除等日常任务。数周内自动开出 388 个 PR，其中 180 个经 Claude Code Review 和人工审核后合并。Claude 通常一次就能改对，出错时可通过调整例程次日改进。",
+      "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。合并后 Cursor 将获得全球最大 GPU 集群，以构建更强且运行成本更低的模型，从而以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.66,
+        "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8509,
+        "recency": 0.857,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "claude"
+        "cursor"
       ]
     },
     {
-      "id": "8537fb6c0e6c13a3",
-      "title": "DeepSeek V4 Pro 登陆硅基流动：百万级上下文窗口配三档推理强度，缓存命中每百万 token 只要 0.44 美元",
-      "url": "https://www.aibase.com/news/30358",
+      "id": "438256021c835630",
+      "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-14T11:25:29Z",
+      "category": "智能体",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 96。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "公众号：小红书技术（dots.llm）"
+      ],
+      "summary": "小红书技术开源 dots3-note Preview，这是 dots3 系列最轻量模型，总参数 280B、激活参数 16B，支持 512K 上下文及文本、视觉、语音多模态理解，并针对复杂推理和长程 Agent 任务优化。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8499,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.67,
+      "ai_matched_keywords": [
+        "多模态",
+        "推理",
+        "智能体",
+        "开源"
+      ]
+    },
+    {
+      "id": "c3f2fae155d48e9a",
+      "title": "Cursor 正式并入 SpaceXAI 助力 Grok / Welcome to the SpaceXAI team！ Cursor will help us move faster on the path to the world's most usefu…",
+      "url": "https://x.com/SpaceXAI/status/2088250109188608289",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-14T13:03:18Z",
+      "category": "AI 编程",
+      "score": 95,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 95。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "X：SpaceXAI (@SpaceXAI)"
+      ],
+      "summary": "Cursor 正式完成被 SpaceX 收购，团队加入 SpaceXAI，共同打造 Grok 为全球最实用的 AI。合作将聚焦软件工程，并扩展至知识工作领域，同时改进 Grok Build、Grok Bot、Grok API 及 Cursor 等产品。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8701,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "cursor",
+        "grok"
+      ]
+    },
+    {
+      "id": "e98040caba723e4b",
+      "title": "通义千问开源 Qwen3.8 系列模型 / We promised open weights for Qwen3.8. Now， time to meet them！ 🎉 ⚡ Qwen3.8-27B： - A native multimod…",
+      "url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-14T15:02:48Z",
+      "category": "模型",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "X：通义千问 / Qwen (@Alibaba_Qwen)"
+      ],
+      "summary": "通义千问兑现承诺，开源 Qwen3.8 系列模型。其中 Qwen3.8-27B 为原生多模态稠密模型，仅 27B 参数即全面超越 Qwen3.7-Plus，原生支持 262K 上下文，可通过 YaRN 扩展至 1M tokens，采用 Apache 2.0 许可。Max 级 Qwen3.8-2.4T-A95B 的开放权重也已同步发布。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8955,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "开源"
+      ]
+    },
+    {
+      "id": "4ae2f97bcb49b23b",
+      "title": "AI企业也能按Token融资：广东首推“Token贷”",
+      "url": "https://www.aibase.com/news/30365",
       "source": "AIbase",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-14T08:37:45.150379Z",
-      "category": "模型",
-      "score": 96,
+      "published_at": "2026-08-14T10:16:57.254156Z",
+      "category": "商业",
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "1 个来源信号；商业 方向；综合评分 93。",
+      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
       "source_names": [
         "AIbase"
       ],
-      "summary": "DeepSeek-V4-Pro-0813 is officially launched on SiliconFlow, and it's a Day-0 launch. The core highlights of this update are three numbers and one orientation: a\nDeepSeek-V4-Pro-0813 is officially launched on SiliconFlow, and it's a Day-0 launch. The core highlights of this update are three numbers and one orientation: a\nDeepSeek-V4-Pro-0813 is officially launched on SiliconFlow, and it's a Day-0 launch. The core highlights of this update are three numbers and one orientation: a\nExplore AI Fronti",
+      "summary": "",
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.836,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "a76a4371fb0131a5",
+      "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户 / Gemini 3.7 Flash is now available to all Pro and Ultra users in Gemini chat. This model update deli…",
+      "url": "https://x.com/GeminiApp/status/2088326407730692538",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-14T18:06:29Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "X：Gemini (@GeminiApp)"
+      ],
+      "summary": "Gemini 3.7 Flash 现已向 Gemini 聊天中的 Pro 和 Ultra 用户开放。该模型更新提升了多步骤任务的推理与准确性，如智能整合数十个文件和邮件为一份主文档。同时，Gemini Spark 也已运行于 3.7 Flash，通过改进对 Google Workspace 应用的工具调用，让个人 AI 智能体更精准。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.66,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.936,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "deepseek",
-        "推理",
-        "上下文"
+        "gemini"
       ]
     },
     {
@@ -301,9 +360,9 @@
       "keyword": null,
       "published_at": "2026-08-14T05:31:04Z",
       "category": "AI 编程",
-      "score": 96,
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 96。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 93。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "公众号：智谱（GLM）"
@@ -314,13 +373,77 @@
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9561,
+        "recency": 0.7804,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "开源",
         "编程"
+      ]
+    },
+    {
+      "id": "00ec6977f2baab17",
+      "title": "微软又弃一 AI 形象：Copilot 黄色小怪 Mico 退场，转岗学习平台",
+      "url": "https://www.aibase.com/news/30364",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-14T10:16:57.254156Z",
+      "category": "AI 编程",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 93。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.836,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "copilot"
+      ]
+    },
+    {
+      "id": "8537fb6c0e6c13a3",
+      "title": "DeepSeek V4 Pro 登陆硅基流动：百万级上下文窗口配三档推理强度，缓存命中每百万 token 只要 0.44 美元",
+      "url": "https://www.aibase.com/news/30358",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-14T08:37:45.150379Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8162,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "deepseek",
+        "推理",
+        "上下文"
       ]
     },
     {
@@ -333,20 +456,20 @@
       "keyword": null,
       "published_at": "2026-08-14T08:37:45.150379Z",
       "category": "模型",
-      "score": 96,
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "AIbase"
       ],
-      "summary": "MiniMax has launched the music generation model MiniMax-Music3. By inputting lyrics and a musical description, it can generate a complete song up to 5 minutes l\nMiniMax has launched the music generation model MiniMax-Music3. By inputting lyrics and a musical description, it can generate a complete song up to 5 minutes l\nMiniMax has launched the music generation model MiniMax-Music3. By inputting lyrics and a musical description, it can generate a complete song up to 5 minutes l\nExplore AI Fronti",
+      "summary": "",
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8162,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.32,
@@ -362,20 +485,20 @@
       "keyword": null,
       "published_at": "2026-08-14T08:37:45.150379Z",
       "category": "智能体",
-      "score": 96,
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 96。",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 93。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
         "AIbase"
       ],
-      "summary": "The ability of a model to be deployed locally does not mean it can handle real-world business scenarios effortlessly. In specific business processes, AI not onl\nThe ability of a model to be deployed locally does not mean it can handle real-world business scenarios effortlessly. In specific business processes, AI not onl\nThe ability of a model to be deployed locally does not mean it can handle real-world business scenarios effortlessly. In specific business processes, AI not onl\nExplore AI Fronti",
+      "summary": "",
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8162,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -384,216 +507,36 @@
       ]
     },
     {
-      "id": "e3d78034d5ac5718",
-      "title": "DeepSeek-V4-Pro 正式版上线，Agent 能力大幅增强",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates",
+      "id": "168021cbf8e3eb1c",
+      "title": "OpenAI和Anthropic陷入价格战，中国AI竞争对手势头正劲 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-13T11:16:42.199000Z",
-      "category": "智能体",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 94。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "DeepSeek：API 更新日志"
-      ],
-      "summary": "DeepSeek-V4-Pro 正式版已在 APP、网页端和 API 同步上线，模型名设为 deepseek-v4-pro 即可使用。其 Agent 能力显著提升，HLE （wo/w tools） 达 42.7/60.0，Terminal Bench 2.1 为 87.9。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.81,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7347,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "871ffc02ab274fee",
-      "title": "许可证数据质量提升 / License data quality improvements",
-      "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-13T19:14:12Z",
+      "published_at": "2026-08-14T14:27:14Z",
       "category": "其他",
-      "score": 93,
+      "score": 87,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 93。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 87。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "GitHub Changelog"
-      ],
-      "summary": "",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8242,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "46c257ae341825e3",
-      "title": "在个人仓库中屏蔽用户评论 / Block users from comments in personal repositories",
-      "url": "https://github.blog/changelog/2026-08-13-block-users-from-comments-in-personal-repositories",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-13T19:02:46Z",
-      "category": "其他",
-      "score": 93,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 93。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "summary": "",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8219,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "72201173b84a5a05",
-      "title": "从0到1带你速通DeepSeek Harness。",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685238&idx=1&sn=c3159dba0dd5a141f8dd726fd474e6e2",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-13T23:58:00Z",
-      "category": "模型",
-      "score": 93,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "公众号：数字生命卡兹克"
+        "Ars Technica：AI（RSS）"
       ],
       "summary": "",
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.69,
+        "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8824,
+        "recency": 0.8879,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "deepseek"
+        "anthropic",
+        "openai"
       ]
-    },
-    {
-      "id": "a10766374b6fca8a",
-      "title": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文 / This time， it's official. DeepSeek V4 Pro just landed. 🚀 @deepseek_ai DeepSeek-V4-Pro-0813 is now l…",
-      "url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T04:55:56Z",
-      "category": "模型",
-      "score": 93,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "X：硅基流动 SiliconFlow (@SiliconFlowAI)"
-      ],
-      "summary": "DeepSeek-V4-Pro-0813 正式上线硅基流动 SiliconFlow，提供 Day-0 支持，具备 1M 上下文窗口及低/高/最大三档推理强度，更侧重编码、工具调用与智能体工作流，仍保持 MIT 开源协议。定价为输入 $1.32/M、输出 $3.96/M、缓存命中 $0.44/M。同系列 DeepSeek-V4-Flash-0731 则面向追求速度与成本效益的日常生产场景。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.948,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "deepseek",
-        "上下文"
-      ]
-    },
-    {
-      "id": "b4a0d66bd6b83805",
-      "title": "小红书开源连续自回归语音合成模型 dots.tts：打造可持续扩展的 TTS 基座",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-13T09:59:00Z",
-      "category": "模型",
-      "score": 92,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 92。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "公众号：小红书技术（dots.llm）"
-      ],
-      "summary": "小红书 dots 团队开源 20 亿参数全连续端到端自回归语音合成模型 dots.tts，在 Seed-TTS-Eval 三个子集上取得最佳平均内容准确度和平均说话人相似度。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7211,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "开源"
-      ]
-    },
-    {
-      "id": "0925b38a2cd5e4aa",
-      "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T04:00:00Z",
-      "category": "智能体",
-      "score": 92,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 92。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "公众号：蚂蚁百灵（Ling）"
-      ],
-      "summary": "蚂蚁百灵与 ASystem 团队合作，用 Ling-3.0-tiny 和 AReno 在 DGX Spark 上跑通单机 Agentic RL 后训练闭环。以井字棋为最小验证任务，用 GSPO 算法训练 400 步后，rollout/rewards_mean 从约 -0.5 升至 0.4，response_len 降至约 850 tokens，工具调用与动作选择趋于稳定。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.62,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9353,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
     },
     {
       "id": "9255e5a59e6d9958",
@@ -605,26 +548,87 @@
       "keyword": null,
       "published_at": "2026-08-14T08:37:45.150379Z",
       "category": "其他",
-      "score": 88,
+      "score": 85,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 85。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "AIbase"
       ],
-      "summary": "JD.com's Qixian Coffee announced today that its first 24-hour intelligent unmanned coffee shop will open on August 16th at Galaxy Soho in Beijing, located on th\nJD.com's Qixian Coffee announced today that its first 24-hour intelligent unmanned coffee shop will open on August 16th at Galaxy Soho in Beijing, located on th\nJD.com's Qixian Coffee announced today that its first 24-hour intelligent unmanned coffee shop will open on August 16th at Galaxy Soho in Beijing, located on th\nExplore AI Fronti",
+      "summary": "",
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8162,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "机器人"
       ]
+    },
+    {
+      "id": "991573420a4a62ad",
+      "title": "Google Gemini 的可见水印现在可以关闭了 / You can now turn off Google Gemini&#8217;s visible watermarks",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "source": "Curated Media",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-14T16:39:32Z",
+      "category": "模型",
+      "score": 85,
+      "grade": "A",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 85。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "The Verge"
+      ],
+      "summary": "",
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5112,
+        "source_tier": 0.58,
+        "ai_relevance": 0.71,
+        "recency": 0.9166,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "e8d53caa08301263",
+      "title": "谷歌现已允许用户从其AI生成内容中移除可见水印 / Google will now allow users to remove visible watermark from its AI generations",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations",
+      "source": "Curated Media",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-14T19:04:42Z",
+      "category": "其他",
+      "score": 79,
+      "grade": "B",
+      "why_it_matters": "2 个来源信号；其他 方向；综合评分 79。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Engadget",
+        "TechCrunch AI"
+      ],
+      "summary": "",
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.9109,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "e21ef23bb39ce8c7",
@@ -704,6 +708,32 @@
       ]
     },
     {
+      "id": "f0d3bc758a7d0129",
+      "title": "State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": "Hugging Face Blog",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-14T00:00:00Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "开放模型状况：2026 年夏季观察",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
       "id": "7f2c694eeb43bdff",
       "title": "通义千问开源 Qwen3.8 系列模型",
       "url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
@@ -777,84 +807,6 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "cursor"
-      ]
-    },
-    {
-      "id": "438256021c835630",
-      "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
-      "source": "公众号：小红书技术（dots.llm）",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T11:25:29Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "公众号：小红书技术（dots.llm）"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.74,
-      "ai_matched_keywords": [
-        "llm",
-        "多模态",
-        "推理",
-        "智能体",
-        "开源",
-        "技术"
-      ]
-    },
-    {
-      "id": "4ae2f97bcb49b23b",
-      "title": "AI企业也能按Token融资：广东首推“Token贷”",
-      "url": "https://www.aibase.com/news/30365",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T10:16:57.254156Z",
-      "category": "商业",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；商业 方向；综合评分 60。",
-      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "00ec6977f2baab17",
-      "title": "微软又弃一 AI 形象：Copilot 黄色小怪 Mico 退场，转岗学习平台",
-      "url": "https://www.aibase.com/news/30364",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T10:16:57.254156Z",
-      "category": "AI 编程",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "copilot"
       ]
     },
     {
@@ -1108,6 +1060,29 @@
         "deepseek",
         "上下文"
       ]
+    },
+    {
+      "id": "0925b38a2cd5e4aa",
+      "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-14T04:00:00Z",
+      "category": "智能体",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "公众号：蚂蚁百灵（Ling）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.32,
+      "ai_matched_keywords": []
     },
     {
       "id": "18d8880581b3c5b3",
@@ -1509,6 +1484,31 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "hugging face"
+      ]
+    },
+    {
+      "id": "72201173b84a5a05",
+      "title": "从0到1带你速通DeepSeek Harness。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685238&idx=1&sn=c3159dba0dd5a141f8dd726fd474e6e2",
+      "source": "公众号：数字生命卡兹克",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-13T23:58:00Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "deepseek"
       ]
     },
     {
@@ -6554,1202 +6554,6 @@
       ]
     },
     {
-      "id": "128baee4153700c3",
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google DeepMind Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Google DeepMind Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Gemini API 托管代理：3.6 Flash、挂钩等",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "31a8e14f3dc29347",
-      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google DeepMind Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Google DeepMind Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "在 Gemini API 中扩展托管代理：后台任务、远程 MCP 等",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gemini",
-        "mcp"
-      ]
-    },
-    {
-      "id": "45f924f1eb7f33d1",
-      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "robot"
-      ]
-    },
-    {
-      "id": "61e04870d444f3db",
-      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
-      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "构建低延迟多语言语音代理：使用 NVIDIA Magpie TTS 进行开放权重和全面部署控制",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "fb2c1edc0045f943",
-      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "url": "https://huggingface.co/blog/muse-glimmer",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "4dbd51e8c3fddefe",
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "前沿实验室特工入侵剖析：2026 年 7 月事件的技术时间表",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "00e6f17fca848de8",
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "benchmark"
-      ]
-    },
-    {
-      "id": "4db4139d2383e5b1",
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "是否足够代理？在您自己的工具上对开放模型进行基准测试",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "benchmark"
-      ]
-    },
-    {
-      "id": "ae83ff8627325da2",
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "从 Hugging Face Hub 到 Strands Agents 和 LeRobot 的机器人硬件",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "robot"
-      ]
-    },
-    {
-      "id": "08856e64fd7b8681",
-      "title": "Agentic Resource Discovery: Let agents search",
-      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "代理资源发现：让代理进行搜索",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "3f64a5c0a9bb24ba",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "特工如何通过链接两个拥抱的面部空间来构建 3D 巴黎画廊",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "61d4c86319ffa129",
-      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
-      "url": "https://huggingface.co/blog/openenv-agentic-rl",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "开源社区支持 OpenEnv 用于 Agentic RL",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "12a74f5e1a36997f",
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "将 hf CLI 设计为与 Hub 配合使用的代理优化方式",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "ea3d554958db0323",
-      "title": "Adding MCP Tools to Reachy Mini",
-      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "将 MCP 工具添加到 Reachy Mini",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "mcp"
-      ]
-    },
-    {
-      "id": "ddacabab84b9631c",
-      "title": "Holo3.1: Fast & Local Computer Use Agents",
-      "url": "https://huggingface.co/blog/Hcompany/holo31",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Holo3.1：快速且本地计算机使用代理",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "60339420228e218b",
-      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "超越法学硕士：为什么可扩展的企业人工智能采用取决于代理逻辑",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "llm"
-      ]
-    },
-    {
-      "id": "e424f8ef24e8c8da",
-      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-      "url": "https://huggingface.co/blog/agent-glossary",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "值得正确使用的工具、脚手架和人工智能代理术语",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "8bce070b39657150",
-      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "多模态",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 52。",
-      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "NVIDIA Nemotron 3 Nano Omni 简介：适用于文档、音频和视频代理的长上下文多模态智能",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "context"
-      ]
-    },
-    {
-      "id": "26102abc5aa600fe",
-      "title": "DeepSeek-V4: a million-token context that agents can actually use",
-      "url": "https://huggingface.co/blog/deepseekv4",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "DeepSeek-V4：代理可以实际使用的百万令牌上下文",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "deepseek",
-        "hugging face",
-        "context"
-      ]
-    },
-    {
-      "id": "21e4cad35290800c",
-      "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
-      "url": "https://huggingface.co/blog/ecom-rlve",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Ecom-RLVE：电子商务会话代理的自适应可验证环境",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "02fd3e8a4124330e",
-      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
-      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "VAKRA 内部：代理的推理、工具使用和故障模式",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "2d51705b291d1c68",
-      "title": "A New Framework for Evaluating Voice Agents (EVA)",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/eva",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "评估语音代理 (EVA) 的新框架",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "eval"
-      ]
-    },
-    {
-      "id": "63425be485711f8a",
-      "title": "Holotron-12B - High Throughput Computer Use Agent",
-      "url": "https://huggingface.co/blog/Hcompany/holotron-12b",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Holotron-12B - 高吞吐量计算机使用代理",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "73136dc2fdb2aafc",
-      "title": "IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST",
-      "url": "https://huggingface.co/blog/ibm-research/itbenchandmast",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "IBM 和加州大学伯克利分校使用 IT-Bench 和 MAST 诊断企业代理失败的原因",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "90f66bb189dd35fc",
-      "title": "Custom Kernels for All from Codex and Claude",
-      "url": "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "AI 编程",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 52。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Codex 和 Claude 为所有人提供的定制内核",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude",
-        "codex",
-        "hugging face"
-      ]
-    },
-    {
-      "id": "f7bc5efae8fcbba5",
-      "title": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments",
-      "url": "https://huggingface.co/blog/openenv-turing",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "OpenEnv 实践：评估现实环境中使用工具的代理",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "eval"
-      ]
-    },
-    {
-      "id": "fad3438dc92a984e",
-      "title": "Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective",
-      "url": "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "解锁 GPT-OSS 的代理 RL 训练：实用回顾",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "hugging face"
-      ]
-    },
-    {
-      "id": "851f5dead56abec5",
-      "title": "AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality",
-      "url": "https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "AssetOpsBench：缩小 AI 代理基准与工业现实之间的差距",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "benchmark"
-      ]
-    },
-    {
-      "id": "22ddd071ab14fbfe",
-      "title": "NVIDIA brings agents to life with DGX Spark and Reachy Mini",
-      "url": "https://huggingface.co/blog/nvidia-reachy-mini",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "NVIDIA 通过 DGX Spark 和 Reachy Mini 让智能体栩栩如生",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "184a00d12476944d",
-      "title": "CUGA on Hugging Face: Democratizing Configurable AI Agents",
-      "url": "https://huggingface.co/blog/ibm-research/cuga-on-hugging-face",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "CUGA 拥抱脸部：可配置 AI 代理的大众化",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "8d86a05daa763bc9",
-      "title": "Codex is Open Sourcing AI models",
-      "url": "https://huggingface.co/blog/hf-skills-training-codex",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "AI 编程",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 52。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Codex 是开源 AI 模型",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "codex",
-        "hugging face"
-      ]
-    },
-    {
-      "id": "7d60deb77c4e3340",
-      "title": "DeepMath: A lightweight math reasoning Agent with smolagents",
-      "url": "https://huggingface.co/blog/intel-deepmath",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "DeepMath：带有 smolagents 的轻量级数学推理代理",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "7ee038064f197119",
-      "title": "Aligning to What? Rethinking Agent Generalization in MiniMax M2",
-      "url": "https://huggingface.co/blog/MiniMax-AI/aligning-to-what",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "对齐什么？重新思考 MiniMax M2 中的代理泛化",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "c77643742bcaf7c6",
-      "title": "Building the Open Agent Ecosystem Together: Introducing OpenEnv",
-      "url": "https://huggingface.co/blog/openenv",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "共同构建开放代理生态系统：OpenEnv 简介",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "44323f8774ad09c4",
-      "title": "Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models",
-      "url": "https://huggingface.co/blog/intel-qwen3-agent",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 52。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "使用深度修剪草图模型加速 Intel® Core™ Ultra 上的 Qwen3-8B Agent",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "d6770df6edd85ce3",
-      "title": "Smol2Operator: Post-Training GUI Agents for Computer Use",
-      "url": "https://huggingface.co/blog/smol2operator",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Smol2Operator：供计算机使用的训练后 GUI 代理",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "38e2a687138768f0",
-      "title": "Gaia2 and ARE: Empowering the community to study agents",
-      "url": "https://huggingface.co/blog/gaia2",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Gaia2 和 ARE：让社区能够研究代理",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "2ef3386862df71ad",
-      "title": "Jupyter Agents: training LLMs to reason with notebooks",
-      "url": "https://huggingface.co/blog/jupyter-agent-2",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Jupyter Agents：训练法学硕士使用笔记本进行推理",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "llm"
-      ]
-    },
-    {
-      "id": "0cc5cd56076088cf",
-      "title": "Implementing MCP Servers in Python: An AI Shopping Assistant with Gradio",
-      "url": "https://huggingface.co/blog/gradio-vton-mcp",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "用 Python 实现 MCP 服务器：带有 Gradio 的 AI 购物助手",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "mcp"
-      ]
-    },
-    {
-      "id": "12f0989233e9dc8b",
-      "title": "Back to The Future: Evaluating AI Agents on Predicting Future Events",
-      "url": "https://huggingface.co/blog/futurebench",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "回到未来：评估人工智能代理预测未来事件的能力",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "eval"
-      ]
-    },
-    {
-      "id": "e1aa01f18905cb79",
-      "title": "Five Big Improvements to Gradio MCP Servers",
-      "url": "https://huggingface.co/blog/gradio-mcp-updates",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Gradio MCP 服务器的五项重大改进",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "mcp"
-      ]
-    },
-    {
-      "id": "91724f02b8b4153e",
-      "title": "ScreenEnv: Deploy your full stack Desktop Agent",
-      "url": "https://huggingface.co/blog/screenenv",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "ScreenEnv：部署全栈 Desktop Agent",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "54fff8814a327658",
-      "title": "Building the Hugging Face MCP Server",
-      "url": "https://huggingface.co/blog/building-hf-mcp",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "构建拥抱脸部 MCP 服务器",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "mcp"
-      ]
-    },
-    {
-      "id": "da3620128916fcb0",
-      "title": "Upskill your LLMs With Gradio MCP Servers",
-      "url": "https://huggingface.co/blog/gradio-mcp-servers",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "使用 Gradio MCP 服务器提高法学硕士的技能",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "llm",
-        "mcp"
-      ]
-    },
-    {
-      "id": "b27eabb3fbbd7877",
-      "title": "ScreenSuite - The most comprehensive evaluation suite for GUI Agents!",
-      "url": "https://huggingface.co/blog/screensuite",
-      "source": "Hugging Face Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "ScreenSuite - 最全面的 GUI 代理评估套件！",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "eval",
-        "evaluation"
-      ]
-    },
-    {
       "id": "8f22905677eb6ed4",
       "title": "License data quality improvements",
       "url": "https://github.blog/changelog/2026-08-13-license-data-quality-improvements",
@@ -10146,6 +8950,1174 @@
       "ai_matched_keywords": []
     },
     {
+      "id": "128baee4153700c3",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "Google DeepMind Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Google DeepMind Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Gemini API 托管代理：3.6 Flash、挂钩等",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "31a8e14f3dc29347",
+      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google DeepMind Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Google DeepMind Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "在 Gemini API 中扩展托管代理：后台任务、远程 MCP 等",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gemini",
+        "mcp"
+      ]
+    },
+    {
+      "id": "45f924f1eb7f33d1",
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "使用 Strands Agents、LeRobot 和 Hugging Face Storage Buckets 从一处进行记录、训练和部署",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "robot"
+      ]
+    },
+    {
+      "id": "61e04870d444f3db",
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "构建低延迟多语言语音代理：使用 NVIDIA Magpie TTS 进行开放权重和全面部署控制",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "fb2c1edc0045f943",
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "4dbd51e8c3fddefe",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "前沿实验室特工入侵剖析：2026 年 7 月事件的技术时间表",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "00e6f17fca848de8",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "4db4139d2383e5b1",
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "url": "https://huggingface.co/blog/is-it-agentic-enough",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "是否足够代理？在您自己的工具上对开放模型进行基准测试",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "ae83ff8627325da2",
+      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "从 Hugging Face Hub 到 Strands Agents 和 LeRobot 的机器人硬件",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "robot"
+      ]
+    },
+    {
+      "id": "08856e64fd7b8681",
+      "title": "Agentic Resource Discovery: Let agents search",
+      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "代理资源发现：让代理进行搜索",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "3f64a5c0a9bb24ba",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "特工如何通过链接两个拥抱的面部空间来构建 3D 巴黎画廊",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "61d4c86319ffa129",
+      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "url": "https://huggingface.co/blog/openenv-agentic-rl",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "开源社区支持 OpenEnv 用于 Agentic RL",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "12a74f5e1a36997f",
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "将 hf CLI 设计为与 Hub 配合使用的代理优化方式",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "ea3d554958db0323",
+      "title": "Adding MCP Tools to Reachy Mini",
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "将 MCP 工具添加到 Reachy Mini",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "mcp"
+      ]
+    },
+    {
+      "id": "ddacabab84b9631c",
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Holo3.1：快速且本地计算机使用代理",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "60339420228e218b",
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "超越法学硕士：为什么可扩展的企业人工智能采用取决于代理逻辑",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "llm"
+      ]
+    },
+    {
+      "id": "e424f8ef24e8c8da",
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "值得正确使用的工具、脚手架和人工智能代理术语",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "8bce070b39657150",
+      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "多模态",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 52。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "NVIDIA Nemotron 3 Nano Omni 简介：适用于文档、音频和视频代理的长上下文多模态智能",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "context"
+      ]
+    },
+    {
+      "id": "26102abc5aa600fe",
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "url": "https://huggingface.co/blog/deepseekv4",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "DeepSeek-V4：代理可以实际使用的百万令牌上下文",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "deepseek",
+        "hugging face",
+        "context"
+      ]
+    },
+    {
+      "id": "21e4cad35290800c",
+      "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
+      "url": "https://huggingface.co/blog/ecom-rlve",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Ecom-RLVE：电子商务会话代理的自适应可验证环境",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "02fd3e8a4124330e",
+      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "VAKRA 内部：代理的推理、工具使用和故障模式",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "2d51705b291d1c68",
+      "title": "A New Framework for Evaluating Voice Agents (EVA)",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "评估语音代理 (EVA) 的新框架",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "eval"
+      ]
+    },
+    {
+      "id": "63425be485711f8a",
+      "title": "Holotron-12B - High Throughput Computer Use Agent",
+      "url": "https://huggingface.co/blog/Hcompany/holotron-12b",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Holotron-12B - 高吞吐量计算机使用代理",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "73136dc2fdb2aafc",
+      "title": "IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST",
+      "url": "https://huggingface.co/blog/ibm-research/itbenchandmast",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "IBM 和加州大学伯克利分校使用 IT-Bench 和 MAST 诊断企业代理失败的原因",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "90f66bb189dd35fc",
+      "title": "Custom Kernels for All from Codex and Claude",
+      "url": "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "AI 编程",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 52。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Codex 和 Claude 为所有人提供的定制内核",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "claude",
+        "codex",
+        "hugging face"
+      ]
+    },
+    {
+      "id": "f7bc5efae8fcbba5",
+      "title": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments",
+      "url": "https://huggingface.co/blog/openenv-turing",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "OpenEnv 实践：评估现实环境中使用工具的代理",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "eval"
+      ]
+    },
+    {
+      "id": "fad3438dc92a984e",
+      "title": "Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective",
+      "url": "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "解锁 GPT-OSS 的代理 RL 训练：实用回顾",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "hugging face"
+      ]
+    },
+    {
+      "id": "851f5dead56abec5",
+      "title": "AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality",
+      "url": "https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "AssetOpsBench：缩小 AI 代理基准与工业现实之间的差距",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "22ddd071ab14fbfe",
+      "title": "NVIDIA brings agents to life with DGX Spark and Reachy Mini",
+      "url": "https://huggingface.co/blog/nvidia-reachy-mini",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "NVIDIA 通过 DGX Spark 和 Reachy Mini 让智能体栩栩如生",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "184a00d12476944d",
+      "title": "CUGA on Hugging Face: Democratizing Configurable AI Agents",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-on-hugging-face",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "CUGA 拥抱脸部：可配置 AI 代理的大众化",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "8d86a05daa763bc9",
+      "title": "Codex is Open Sourcing AI models",
+      "url": "https://huggingface.co/blog/hf-skills-training-codex",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "AI 编程",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 52。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Codex 是开源 AI 模型",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "codex",
+        "hugging face"
+      ]
+    },
+    {
+      "id": "7d60deb77c4e3340",
+      "title": "DeepMath: A lightweight math reasoning Agent with smolagents",
+      "url": "https://huggingface.co/blog/intel-deepmath",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "DeepMath：带有 smolagents 的轻量级数学推理代理",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "7ee038064f197119",
+      "title": "Aligning to What? Rethinking Agent Generalization in MiniMax M2",
+      "url": "https://huggingface.co/blog/MiniMax-AI/aligning-to-what",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "对齐什么？重新思考 MiniMax M2 中的代理泛化",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "c77643742bcaf7c6",
+      "title": "Building the Open Agent Ecosystem Together: Introducing OpenEnv",
+      "url": "https://huggingface.co/blog/openenv",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "共同构建开放代理生态系统：OpenEnv 简介",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "44323f8774ad09c4",
+      "title": "Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models",
+      "url": "https://huggingface.co/blog/intel-qwen3-agent",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 52。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "使用深度修剪草图模型加速 Intel® Core™ Ultra 上的 Qwen3-8B Agent",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "d6770df6edd85ce3",
+      "title": "Smol2Operator: Post-Training GUI Agents for Computer Use",
+      "url": "https://huggingface.co/blog/smol2operator",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Smol2Operator：供计算机使用的训练后 GUI 代理",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "38e2a687138768f0",
+      "title": "Gaia2 and ARE: Empowering the community to study agents",
+      "url": "https://huggingface.co/blog/gaia2",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Gaia2 和 ARE：让社区能够研究代理",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "2ef3386862df71ad",
+      "title": "Jupyter Agents: training LLMs to reason with notebooks",
+      "url": "https://huggingface.co/blog/jupyter-agent-2",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Jupyter Agents：训练法学硕士使用笔记本进行推理",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "llm"
+      ]
+    },
+    {
+      "id": "0cc5cd56076088cf",
+      "title": "Implementing MCP Servers in Python: An AI Shopping Assistant with Gradio",
+      "url": "https://huggingface.co/blog/gradio-vton-mcp",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "用 Python 实现 MCP 服务器：带有 Gradio 的 AI 购物助手",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "mcp"
+      ]
+    },
+    {
+      "id": "12f0989233e9dc8b",
+      "title": "Back to The Future: Evaluating AI Agents on Predicting Future Events",
+      "url": "https://huggingface.co/blog/futurebench",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "回到未来：评估人工智能代理预测未来事件的能力",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "eval"
+      ]
+    },
+    {
+      "id": "e1aa01f18905cb79",
+      "title": "Five Big Improvements to Gradio MCP Servers",
+      "url": "https://huggingface.co/blog/gradio-mcp-updates",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Gradio MCP 服务器的五项重大改进",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "mcp"
+      ]
+    },
+    {
+      "id": "91724f02b8b4153e",
+      "title": "ScreenEnv: Deploy your full stack Desktop Agent",
+      "url": "https://huggingface.co/blog/screenenv",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "ScreenEnv：部署全栈 Desktop Agent",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face"
+      ]
+    },
+    {
+      "id": "54fff8814a327658",
+      "title": "Building the Hugging Face MCP Server",
+      "url": "https://huggingface.co/blog/building-hf-mcp",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "构建拥抱脸部 MCP 服务器",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "mcp"
+      ]
+    },
+    {
+      "id": "da3620128916fcb0",
+      "title": "Upskill your LLMs With Gradio MCP Servers",
+      "url": "https://huggingface.co/blog/gradio-mcp-servers",
+      "source": "Hugging Face Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "使用 Gradio MCP 服务器提高法学硕士的技能",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "llm",
+        "mcp"
+      ]
+    },
+    {
       "id": "0bed368740600399",
       "title": "中国医生用 GPT-5.6 破解 22 年数学难题，Crouzeix 本人确认正确",
       "url": "https://www.ithome.com/0/989/952.htm",
@@ -10193,32 +10165,6 @@
       "title_zh": "通过两项 Google Vids 更新创建、编辑视频并为其加注星标",
       "ai_relevance_score": 0.0,
       "ai_matched_keywords": []
-    },
-    {
-      "id": "1a8280c0588e6ef8",
-      "title": "微软 Mico 聊天机器人疑似被“降职”，从 Copilot 语音功能移至学习中心",
-      "url": "https://www.ithome.com/0/989/810.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "AI 编程",
-      "score": 42,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 42。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "copilot",
-        "机器人"
-      ]
     },
     {
       "id": "4ffb01bfe90019f9",
@@ -10678,83 +10624,6 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "e8016ca26f0d730f",
-      "title": "科技行业史上最大收购之一，SpaceX 豪掷 600 亿美元拿下 AI 编程公司 Cursor",
-      "url": "https://www.ithome.com/0/989/944.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "AI 编程",
-      "score": 22,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 22。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "cursor",
-        "编程"
-      ]
-    },
-    {
-      "id": "a3f33cf6e86f2c12",
-      "title": "谷歌 Chrome 浏览器新功能曝光：Gemini 帮你修改弱密码和重复密码",
-      "url": "https://www.ithome.com/0/989/933.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 22,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "a24d589fcf19df85",
-      "title": "荣耀方飞：Robot Phone 只是第一代探索，未来手机会从“应用的容器”走向“智能体的舞台”",
-      "url": "https://www.ithome.com/0/989/866.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 22,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 22。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "智能体",
-        "robot"
-      ]
-    },
-    {
       "id": "7c8a14377b534352",
       "title": "如何看待OpenAI下一代模型Astra大量解决数学猜想？",
       "url": "https://daily.zhihu.com/story/9791839",
@@ -10803,6 +10672,57 @@
       "ai_matched_keywords": [
         "编程",
         "软件"
+      ]
+    },
+    {
+      "id": "e8016ca26f0d730f",
+      "title": "科技行业史上最大收购之一，SpaceX 豪掷 600 亿美元拿下 AI 编程公司 Cursor",
+      "url": "https://www.ithome.com/0/989/944.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "AI 编程",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 22。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "cursor",
+        "编程"
+      ]
+    },
+    {
+      "id": "a3f33cf6e86f2c12",
+      "title": "谷歌 Chrome 浏览器新功能曝光：Gemini 帮你修改弱密码和重复密码",
+      "url": "https://www.ithome.com/0/989/933.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gemini"
       ]
     },
     {
@@ -10877,31 +10797,6 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "388eee1e9adf61b2",
-      "title": "如何看待Anthropic传出最快10月IPO，估值目标飙升至2万亿美元？",
-      "url": "https://www.zhihu.com/question/2071279053672277791",
-      "source": "知乎热榜",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "知乎热榜"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
       "id": "ae0e55796d94be08",
       "title": "围棋与境界、修养之类的东西毫无关系，能赢是因为计算力强，这么明显的道理在AI以前人们怎么不懂？",
       "url": "https://www.zhihu.com/question/2068917345393940011",
@@ -10925,6 +10820,29 @@
       "ai_matched_keywords": [
         "算力"
       ]
+    },
+    {
+      "id": "44b34c7e32193e15",
+      "title": "随机生成5位数，得到11111和得到54176的概率相同，为什么遇到前者时我们会觉得随机算法有问题？",
+      "url": "https://daily.zhihu.com/story/9791779",
+      "source": "知乎日报",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "知乎日报"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
     },
     {
       "id": "a5ec7c0250ea0018",
@@ -10988,52 +10906,6 @@
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "44b34c7e32193e15",
-      "title": "随机生成5位数，得到11111和得到54176的概率相同，为什么遇到前者时我们会觉得随机算法有问题？",
-      "url": "https://daily.zhihu.com/story/9791779",
-      "source": "知乎日报",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "知乎日报"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "07cb232de879d8e5",
-      "title": "如果我毕生追求的知识在AI面前毫无价值，那我存在的意义是什么？",
-      "url": "https://daily.zhihu.com/story/9791758",
-      "source": "知乎日报",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "知乎日报"
       ],
       "summary": "",
       "importance_label": "",
