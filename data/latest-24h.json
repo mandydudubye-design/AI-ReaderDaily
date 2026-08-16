@@ -1,65 +1,135 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-16T04:34:15.158909Z",
+  "generated_at": "2026-08-16T05:26:15.888507Z",
   "items": [
     {
-      "id": "9308874eb51b5f1a",
-      "title": "Claude 文本水印机制如何运作 / How Claude's text watermark works",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "source": "AI HOT",
+      "id": "8483dfe67695ff3a",
+      "title": "何夕2077 AI 深度信号周报 (2026-W33) | 智能体失控危机与开源大模型百团大战",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-16-hexi-2077-ai-weekly-2026-w33",
+      "source": "AI HubToday",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-14T20:46:13.974000Z",
+      "published_at": "2026-08-16T03:15:09Z",
       "category": "模型",
-      "score": 107,
-      "grade": "S",
-      "why_it_matters": "3 个来源信号；模型 方向；综合评分 107。",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Anthropic：Newsroom（网页）",
-        "Hacker News · 24h最热",
-        "hackernews"
+        "Daily Digest"
       ],
-      "summary": "未来 Claude 模型生成的文本将包含水印，用于判断文本由 Claude 撰写的可能性，这是 Anthropic 为遵守欧盟《AI 法案》而实施的变更。该方法基于 Google DeepMind 的 SynthID-Text 技术，对输出质量、创造力和可读性无实际影响，读者无法区分水印文本与普通文本，且不增加额外 token 或成本。",
-      "importance_label": "官方更新",
+      "summary": "",
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 1.0,
+        "editorial": 0.72,
+        "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.735,
-        "story_heat": 0.5
+        "recency": 0.9774,
+        "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
+        "大模型",
+        "智能体",
+        "开源"
+      ]
+    },
+    {
+      "id": "fae914f5286245fe",
+      "title": "人工智能在药物研发中的应用——概述、现状及未来发展方向",
+      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+      "source": "Buzzing",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-16T02:46:42.706000Z",
+      "category": "其他",
+      "score": 89,
+      "grade": "A",
+      "why_it_matters": "5 个来源信号；其他 方向；综合评分 89。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "www.science.org"
+      ],
+      "summary": "",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9707,
+        "story_heat": 1.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能"
+      ]
+    },
+    {
+      "id": "9b7578bf39d87f92",
+      "title": "Anthropic 进一步披露了 Claude 新水印的运作方式 / Anthropic shares more details about how Claude’s new watermarks will work",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+      "source": "Curated Media",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T22:07:08Z",
+      "category": "模型",
+      "score": 88,
+      "grade": "A",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 88。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "HN Algolia · AI 24h",
+        "TechCrunch AI"
+      ],
+      "summary": "",
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5904,
+        "source_tier": 0.58,
+        "ai_relevance": 0.82,
+        "recency": 0.8673,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic",
         "claude"
       ]
     },
     {
-      "id": "b1e399ac0e18f2d9",
-      "title": "OAuth 应用的多个重定向 URI 与 token 刷新 / Multiple redirect URIs and token refresh for OAuth apps",
-      "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
-      "source": "Official AI Updates",
+      "id": "f921641577591175",
+      "title": "AI 的工作记忆容量远超人类大脑 / AI has access to a vastly larger working memory than the human brain",
+      "url": "https://news.ycombinator.com/item?id=49312845",
+      "source": "NewsNow",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-14T22:43:44Z",
+      "published_at": "2026-08-15T22:09:53.517000Z",
       "category": "其他",
-      "score": 92,
+      "score": 88,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 92。",
+      "why_it_matters": "5 个来源信号；其他 方向；综合评分 88。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "GitHub Changelog"
+        "Hacker News",
+        "Hacker News (黑客新闻)",
+        "davidepiffer.com",
+        "hackernews"
       ],
       "summary": "",
-      "importance_label": "官方更新",
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.7714,
-        "story_heat": 0.0
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9081,
+        "story_heat": 1.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
@@ -74,9 +144,9 @@
       "keyword": null,
       "published_at": "2026-08-15T11:00:50Z",
       "category": "其他",
-      "score": 86,
+      "score": 84,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 86。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 84。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "The Decoder：AI News（RSS）"
@@ -87,44 +157,138 @@
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9212,
+        "recency": 0.7731,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "3e31db7ff01ca3a7",
-      "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
-      "url": "https://sankalp.bearblog.dev/autoresearch",
-      "source": "Buzzing",
+      "id": "e51f2586411ba240",
+      "title": "AI辅助将25万行老旧天气模拟代码移植至GPU / AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+      "url": "https://news.ycombinator.com/item?id=49314967",
+      "source": "NewsNow",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-15T13:58:02.713000Z",
+      "published_at": "2026-08-16T03:13:26.229000Z",
       "category": "AI 编程",
-      "score": 84,
-      "grade": "A",
-      "why_it_matters": "3 个来源信号；AI 编程 方向；综合评分 84。",
+      "score": 78,
+      "grade": "B",
+      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 78。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "Hacker News",
-        "hackernews",
-        "sankalp.bearblog.dev"
+        "hackernews"
       ],
       "summary": "",
-      "importance_label": "多源热议",
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9613,
-        "story_heat": 0.5
+        "recency": 0.977,
+        "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "codex"
+        "gpu"
       ]
+    },
+    {
+      "id": "d0213cda5b54bed5",
+      "title": "Show HN：我用Rust和GPUI为coding agents构建了一款原生应用 / Show HN: I built a native app for coding agents with Rust and GPUI",
+      "url": "https://news.ycombinator.com/item?id=49315709",
+      "source": "NewsNow",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-16T03:13:26.229000Z",
+      "category": "AI 编程",
+      "score": 78,
+      "grade": "B",
+      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 78。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.977,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpu"
+      ]
+    },
+    {
+      "id": "cad6fe3eaa57bbc4",
+      "title": "Show HN：38 美元 Thermalright Trofeo Vision LCD 的实时 Claude 用量 HUD / Show HN: Live Claude Usage HUD for a $38 Thermalright Trofeo Vision LCD",
+      "url": "https://news.ycombinator.com/item?id=49314594",
+      "source": "NewsNow",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T23:10:01.607000Z",
+      "category": "模型",
+      "score": 77,
+      "grade": "B",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 77。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9214,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "claude",
+        "vision"
+      ]
+    },
+    {
+      "id": "7af999032817d041",
+      "title": "为什么科技大佬们总是发布关于AI的宣言 / Why tech bosses keep sharing their manifestos about AI",
+      "url": "https://news.ycombinator.com/item?id=49313519",
+      "source": "NewsNow",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T21:09:38.355000Z",
+      "category": "产品",
+      "score": 76,
+      "grade": "B",
+      "why_it_matters": "2 个来源信号；产品 方向；综合评分 76。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8951,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "e06891e8603c1062",
@@ -136,12 +300,12 @@
       "keyword": null,
       "published_at": "2026-08-15T14:40:01.091000Z",
       "category": "智能体",
-      "score": 78,
+      "score": 75,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；智能体 方向；综合评分 78。",
+      "why_it_matters": "2 个来源信号；智能体 方向；综合评分 75。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "hackernews"
       ],
       "summary": "",
@@ -150,7 +314,7 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9711,
+        "recency": 0.8149,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
@@ -166,12 +330,12 @@
       "keyword": null,
       "published_at": "2026-08-15T13:44:23.044000Z",
       "category": "模型",
-      "score": 77,
+      "score": 75,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 77。",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 75。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hacker News",
+        "Hacker News · 24h最热",
         "hackernews"
       ],
       "summary": "",
@@ -180,44 +344,12 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9582,
+        "recency": 0.8041,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm"
-      ]
-    },
-    {
-      "id": "8ac2250e65c26155",
-      "title": "与AI协作与其说是编程，不如说是领导 / Working with AI Feels More Like Leadership Than Coding",
-      "url": "https://news.ycombinator.com/item?id=49309451",
-      "source": "NewsNow",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-15T13:44:23.044000Z",
-      "category": "AI 编程",
-      "score": 77,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 77。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "summary": "",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9582,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "编程"
       ]
     },
     {
@@ -230,9 +362,9 @@
       "keyword": null,
       "published_at": "2026-08-15T12:38:05.900000Z",
       "category": "模型",
-      "score": 77,
+      "score": 74,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 77。",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 74。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "Hacker News · 24h最热",
@@ -244,7 +376,7 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.943,
+        "recency": 0.7914,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
@@ -262,13 +394,13 @@
       "keyword": null,
       "published_at": "2026-08-15T14:40:01.091000Z",
       "category": "其他",
-      "score": 76,
+      "score": 73,
       "grade": "B",
-      "why_it_matters": "3 个来源信号；其他 方向；综合评分 76。",
+      "why_it_matters": "3 个来源信号；其他 方向；综合评分 73。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "BBC News",
-        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
         "hackernews"
       ],
       "summary": "",
@@ -277,183 +409,21 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9711,
+        "recency": 0.8149,
         "story_heat": 0.5
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "335944b058455799",
-      "title": "Show HN：ThoughtDAG —— 可编辑的LLM对话上下文图谱 / Show HN: ThoughtDAG – An editable context graph for LLM conversations",
-      "url": "https://news.ycombinator.com/item?id=49307700",
+      "id": "bf42a1646c46c821",
+      "title": "Meta 将用极右翼媒体 Newsmax 训练其 AI / Meta will train its AI on Newsmax, a far-right media outlet",
+      "url": "https://news.ycombinator.com/item?id=49313778",
       "source": "NewsNow",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-15T06:58:35.218000Z",
-      "category": "模型",
-      "score": 76,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 76。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "summary": "",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.869,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "llm",
-        "context",
-        "上下文"
-      ]
-    },
-    {
-      "id": "0be067a899f68e44",
-      "title": "Claude Fable 5 玩得正欢 / Claude Fable 5 Having Fun",
-      "url": "https://news.ycombinator.com/item?id=49305642",
-      "source": "NewsNow",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T23:37:29.966000Z",
-      "category": "模型",
-      "score": 74,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 74。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "summary": "",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7815,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude"
-      ]
-    },
-    {
-      "id": "e09d22c2ddba32f0",
-      "title": "为 LLM 生成的 GPU Kernel 打造合约级验证器 / A Contract-Grade Verifier for LLM-Generated GPU Kernels",
-      "url": "https://news.ycombinator.com/item?id=49301417",
-      "source": "NewsNow",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T18:07:07.673000Z",
-      "category": "模型",
-      "score": 73,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 73。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews"
-      ],
-      "summary": "",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7218,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "llm",
-        "gpu"
-      ]
-    },
-    {
-      "id": "c3e19190799f668f",
-      "title": "AI现在能设计功能性病毒了，我们该担心吗？ / AI Can Now Design Functional Viruses. Should We Worry?",
-      "url": "https://news.ycombinator.com/item?id=49311445",
-      "source": "NewsNow",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-15T16:42:18.456000Z",
-      "category": "其他",
-      "score": 70,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；其他 方向；综合评分 70。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "summary": "reply\nreply\nreply\nreply\n[0] \"43 freight containers and weighing in at 165 tons.\" - https://www.theregister.com/offbeat/2024/12/03/asml-releases... [1] not in red blood cells\n[1] not in red blood cells\nreply\nVersus EUV which one could dump literally unlimited amounts of money into solving and still probably fail for decades.\nreply\nreply\nreply\nI will give you a classic example, the Lipid Nanoparticle used for the delivery of mRNA vaccine is the real lynchpin of covid vaccines. The media never talk",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "cd2c87606b3bcfb8",
-      "title": "软件开发中的人工智能现状 / The AI Situation in Software Development",
-      "url": "https://news.ycombinator.com/item?id=49310755",
-      "source": "NewsNow",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-15T16:42:18.456000Z",
-      "category": "其他",
-      "score": 70,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；其他 方向；综合评分 70。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "summary": "reply\nreply\nRecently I asked Claude (Fable) to use multiple threads to speed up a computation that could take several seconds to run while the user was waiting. Instead, it found a way to start the computation earlier in the background while the user was doing other things, so that it would be finished by the time the user was ready.\nreply\nreply\nreply\nreply\nreply\nreply\nreply\nIt's not type-safe, not object oriented, not functional. Has poor tools to highlight syntax or navigate through \"wordbase\"",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "人工智能",
-        "软件"
-      ]
-    },
-    {
-      "id": "b3a34872cd768cbc",
-      "title": "怀疑法院用AI，男子在诉讼文件中注入提示词试图赢得官司 / Suspecting court of using AI, man injected prompts in filings to try to win case",
-      "url": "https://news.ycombinator.com/item?id=49308553",
-      "source": "NewsNow",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-15T09:21:23.610000Z",
+      "published_at": "2026-08-15T21:09:38.355000Z",
       "category": "其他",
       "score": 68,
       "grade": "B",
@@ -469,57 +439,25 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8994,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "prompt"
-      ]
-    },
-    {
-      "id": "877f579b99c9795b",
-      "title": "AI驱动的测试\n\n---\n\n或者更自然的译法：AI赋能测试 / AI Driven Testing",
-      "url": "https://app.deltix.ai",
-      "source": "TechURLs",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-15T02:42:14Z",
-      "category": "其他",
-      "score": 67,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；其他 方向；综合评分 67。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热"
-      ],
-      "summary": "",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.817,
+        "recency": 0.8951,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "cd4b0d1b93d739f9",
-      "title": "Anthropic 风险（2026年8月）[pdf] / Anthropic Risk August 2026 [pdf]",
-      "url": "https://news.ycombinator.com/item?id=49303540",
+      "id": "c3e19190799f668f",
+      "title": "AI现在能设计功能性病毒了，我们该担心吗？ / AI Can Now Design Functional Viruses. Should We Worry?",
+      "url": "https://news.ycombinator.com/item?id=49311445",
       "source": "NewsNow",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-14T20:46:13.974000Z",
+      "published_at": "2026-08-15T16:42:18.456000Z",
       "category": "其他",
-      "score": 66,
+      "score": 67,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；其他 方向；综合评分 66。",
+      "why_it_matters": "2 个来源信号；其他 方向；综合评分 67。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "Hacker News · 24h最热",
@@ -531,63 +469,121 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7499,
+        "recency": 0.8393,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "cd2c87606b3bcfb8",
+      "title": "软件开发中的人工智能现状 / The AI Situation in Software Development",
+      "url": "https://news.ycombinator.com/item?id=49310755",
+      "source": "NewsNow",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T16:42:18.456000Z",
+      "category": "其他",
+      "score": 67,
+      "grade": "B",
+      "why_it_matters": "2 个来源信号；其他 方向；综合评分 67。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8393,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "anthropic"
+        "人工智能",
+        "软件"
       ]
     },
     {
-      "id": "0cd8afbc56358cda",
-      "title": "Claude 文本水印机制如何运作",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "source": "Anthropic：Newsroom（网页）",
+      "id": "ce79e896d996da26",
+      "title": "Cursor 正式被 SpaceX 收购",
+      "url": "https://cursor.com/blog/joining-spacex",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-14T19:22:48.546000Z",
+      "published_at": "2026-08-15T20:05:54.703000Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "cursor"
+      ]
+    },
+    {
+      "id": "25682e4ed6012f31",
+      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery",
+      "source": "TechCrunch AI",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T21:29:19Z",
+      "category": "多模态",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 60。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "source_names": [
+        "TechCrunch AI"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "女子声称她的继父使用 Grok 将童年照片变成露骨图像",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "grok"
+      ]
+    },
+    {
+      "id": "4ecac2af35931364",
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+      "source": "TechCrunch AI",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T18:58:39Z",
       "category": "模型",
       "score": 60,
       "grade": "B",
       "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Anthropic：Newsroom（网页）"
+        "TechCrunch AI"
       ],
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
+      "title_zh": "Anthropic 分享了有关克劳德新水印如何运作的更多细节",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
         "claude"
-      ]
-    },
-    {
-      "id": "fadb2b7e9ab86bf3",
-      "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
-      "url": "https://x.com/GeminiApp/status/2088326407730692538",
-      "source": "X：Gemini (@GeminiApp)",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T18:06:29Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "X：Gemini (@GeminiApp)"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gemini"
       ]
     },
     {
@@ -849,59 +845,6 @@
       ]
     },
     {
-      "id": "b935537fac4e0f9a",
-      "title": "Anthropic announces watermark detection API that will let third parties detect Claude's AI texts",
-      "url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts",
-      "source": "The Decoder AI News",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T21:29:17Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "The Decoder AI News"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Anthropic 宣布推出水印检测 API，让第三方检测 Claude 的 AI 文本",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic",
-        "claude"
-      ]
-    },
-    {
-      "id": "4b0979784e6c66e7",
-      "title": "3.7 Flash is in the @GeminiApp https://t.co/txm3fI0wZo",
-      "url": "https://x.com/joshwoodward/status/2088344782821326980",
-      "source": "Follow Builders · X · Josh Woodward",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T19:19:30Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Follow Builders · X · Josh Woodward"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "3.7 Flash在@GeminiApp https://t.co/txm3fI0wZo",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gemini"
-      ]
-    },
-    {
       "id": "d31086bb0bce04ce",
       "title": "Cloudflare Computer 发布：让 AI 智能体拥有持久化运行环境",
       "url": "https://www.infoq.cn/article/RaKIH7E4lA9uQ4Iasltb",
@@ -909,7 +852,7 @@
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-15T13:52:31Z",
+      "published_at": "2026-08-15T21:52:31Z",
       "category": "智能体",
       "score": 60,
       "grade": "B",
@@ -935,7 +878,7 @@
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-15T02:00:00Z",
+      "published_at": "2026-08-15T10:00:00Z",
       "category": "多模态",
       "score": 60,
       "grade": "B",
@@ -952,6 +895,57 @@
         "多模态",
         "推理",
         "上下文"
+      ]
+    },
+    {
+      "id": "eef567ffa3ea2f8a",
+      "title": "Gemini 3.7 Flash 突袭：性能逼近旗舰、价格打“骨折”！！DeepMind新帅重画性价比斩杀线",
+      "url": "https://www.infoq.cn/article/plZY01etBHv3ETOYG0af",
+      "source": "InfoQ CN",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T00:01:01Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "InfoQ CN"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "876c776b2c2b68e7",
+      "title": "AI 圈上演神级互撕！Codex、Claude Code 两位负责人公开对喷",
+      "url": "https://www.infoq.cn/article/YWXm26HRwC9ySEGZ9Lpp",
+      "source": "InfoQ CN",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-14T23:41:55Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "InfoQ CN"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "claude",
+        "codex"
       ]
     },
     {
@@ -1056,53 +1050,311 @@
       ]
     },
     {
-      "id": "9c77d8b88f9707d5",
-      "title": "🚨突发：Anthropic首次承认内部存在更强前沿模型，同时自曝多起训练与Agent安全事故。 Anthropic 刚刚发布了一份 186 页的最新 Risk Report。 Anthropic 第一次如此详细地披露了他们内部到底已经在用什么模型，以及在把越来越强的模型真正投入研发以后，究竟发生过什么。 首先，一个很重要的信息是： Anthropic 承认自己还有一个没有公开的内部模型，代号 Model 2。 Model 2 目前没有…",
-      "url": "https://x.com/MaxForAI/status/2088367014327005262",
-      "source": "@MaxForAI",
+      "id": "08e3917d1b3664fc",
+      "title": "Show HN: ThoughtDAG——用于大型语言模型对话的可编辑上下文图",
+      "url": "https://chenxiachan.github.io/thoughtdag",
+      "source": "chenxiachan.github.io",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-14T20:47:50Z",
+      "published_at": "2026-08-15T21:09:54.519000Z",
       "category": "模型",
       "score": 60,
       "grade": "B",
       "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "@MaxForAI"
+        "chenxiachan.github.io"
       ],
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "语言模型",
+        "上下文"
+      ]
+    },
+    {
+      "id": "a779795820ed5310",
+      "title": "Cursor 现已成为 SpaceX 的一部分",
+      "url": "https://cursor.com/blog/joining-spacex",
+      "source": "cursor.com",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T20:05:54.703000Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "cursor.com"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "cursor"
+      ]
+    },
+    {
+      "id": "17781398ec730421",
+      "title": "Israeli PR wants to answer your ChatGPT questions",
+      "url": "https://www.politico.com/newsletters/politico-influence/2026/08/14/israeli-pr-wants-to-answer-your-chatgpt-questions-01038138",
+      "source": "Hacker News · 24h最热",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:26:33Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "以色列公关想要回答您的 ChatGPT 问题",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt"
+      ]
+    },
+    {
+      "id": "bdcc0c004e6b900c",
+      "title": "[程序员] 多步骤 MCP 的 token 损耗，可能主要来自每一步的模型重入",
+      "url": "https://www.v2ex.com/t/1234701",
+      "source": "V2EX (创意工作者社区)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:24:10Z",
+      "category": "智能体",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "V2EX (创意工作者社区)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "mcp"
+      ]
+    },
+    {
+      "id": "5d79abf7c26e6b58",
+      "title": "Robot Videos: Heavy Lift Cargo Drones, Grippers, More",
+      "url": "https://news.ycombinator.com/item?id=49241551",
+      "source": "hackernews",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:09:23.314000Z",
+      "category": "多模态",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 60。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "source_names": [
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "机器人视频：重型货运无人机、夹具等",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "robot"
+      ]
+    },
+    {
+      "id": "e3e8b5840e090147",
+      "title": "[程序员] AI 开发，框架的作用大还是模型的作用大",
+      "url": "https://www.v2ex.com/t/1234699",
+      "source": "V2EX (创意工作者社区)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T18:17:41Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "V2EX (创意工作者社区)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "446d9239d9b1cb6d",
+      "title": "Anthropic is watermarking text generated by Claude to comply with EU law",
+      "url": "https://www.engadget.com/2237691/anthropic-watermarking-text-generated-by-claude",
+      "source": "Engadget",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T18:08:36Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Engadget"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Anthropic 是 Claude 为遵守欧盟法律而生成的水印文本",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "e145ec2980d9584f",
+      "title": "Anthropic’s quarterly revenue passed $11.5bn, up more than 14-fold",
+      "url": "https://thenextweb.com/news/anthropic-q2-2026-revenue-11-5-billion-operating-income",
+      "source": "The Next Web",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T17:34:55Z",
+      "category": "商业",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；商业 方向；综合评分 60。",
+      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
+      "source_names": [
+        "The Next Web"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Anthropic 季度收入超过 115 亿美元，增长逾 14 倍",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic"
       ]
     },
     {
-      "id": "85f0c4d982b99c73",
-      "title": "在听一期 ai 播客，讨论关于 world model 的定义。 来访者：定义 world model 没有意义，对人类社会没有影响（大意）。 主持人：那为什么 llm 是一个相对精确的词？😂 来访者：llm 就是 large language model 😳",
-      "url": "https://x.com/zengjiajun_eth/status/2088352993481466279",
-      "source": "@zengjiajun_eth",
+      "id": "0111a256059be196",
+      "title": "[分享创造] [分享] 做了个开源终端 TUI 工具： dsh-tui (DeepSeek Harness)",
+      "url": "https://www.v2ex.com/t/1234696",
+      "source": "V2EX (创意工作者社区)",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-14T19:52:08Z",
+      "published_at": "2026-08-15T17:27:16Z",
       "category": "模型",
       "score": 60,
       "grade": "B",
       "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "@zengjiajun_eth"
+        "V2EX (创意工作者社区)"
       ],
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "llm"
+        "deepseek",
+        "开源"
+      ]
+    },
+    {
+      "id": "b83b3420f56c2c05",
+      "title": "[程序员] 跟着 DeepSeek 学习驾驭 AI 开发",
+      "url": "https://www.v2ex.com/t/1234695",
+      "source": "V2EX (创意工作者社区)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T17:06:12Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "V2EX (创意工作者社区)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "52ac44e4bc81bf42",
+      "title": "Anthropic becomes the 'Apple of AI' as it grabs most revenue despite being the most expensive",
+      "url": "https://www.techradar.com/pro/anthropic-becomes-the-apple-of-ai-as-it-grabs-most-revenue-despite-being-the-most-expensive",
+      "source": "TechRadar",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T17:05:00Z",
+      "category": "商业",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；商业 方向；综合评分 60。",
+      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
+      "source_names": [
+        "TechRadar"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Anthropic 成为“人工智能领域的苹果”，因为尽管价格最贵，但它却获得了最多的收入",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "b80998f423fbc5e6",
+      "title": "‘The Qualcomm chipset offers very good performance for still image processing, but for video, it’s not good enough’: Honor explains why it created a dedicated imaging chipset for its gimbal-equipped Robot Phone",
+      "url": "https://www.techradar.com/phones/honor-phones/the-qualcomm-chipset-offers-very-good-performance-for-still-image-processing-but-for-video-its-not-good-enough-honor-explains-why-it-created-a-dedicated-imaging-chipset-for-its-gimbal-equipped-robot-phone",
+      "source": "TechRadar",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T17:00:00Z",
+      "category": "多模态",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 60。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "source_names": [
+        "TechRadar"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "“高通芯片组为静态图像处理提供了非常好的性能，但对于视频处理来说还不够好”：荣耀解释了为什么为其配备万向节的机器人手机创建了专用的成像芯片组",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "chip",
+        "robot"
       ]
     },
     {
@@ -1158,6 +1410,31 @@
       ]
     },
     {
+      "id": "d938c696d768b761",
+      "title": "[分享创造] DeepSeek 今晚零点涨价：缓存命中率越高，账单涨得越狠（650 次请求实测，已与官方账单对账）",
+      "url": "https://www.v2ex.com/t/1234691",
+      "source": "V2EX (创意工作者社区)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T16:16:01Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "V2EX (创意工作者社区)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "deepseek"
+      ]
+    },
+    {
       "id": "cb163b3aa5ef99f2",
       "title": "How to tell if your AI platforms’ accounts have been hacked",
       "url": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked",
@@ -1180,6 +1457,56 @@
       "title_zh": "如何判断您的人工智能平台的帐户是否被黑客入侵",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "93bd1b819f8f9cd2",
+      "title": "[分享发现] 吐槽一下 DeepSeek",
+      "url": "https://www.v2ex.com/t/1234688",
+      "source": "V2EX (创意工作者社区)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T15:45:40Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "V2EX (创意工作者社区)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "1508d58324bc790a",
+      "title": "[Google Gemini] [help wanted] Anki 日语牌组 Core 2000 汉化工作",
+      "url": "https://www.v2ex.com/t/1234686",
+      "source": "V2EX (创意工作者社区)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T15:22:15Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "V2EX (创意工作者社区)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gemini"
+      ]
     },
     {
       "id": "68c93da7550142f5",
@@ -1257,6 +1584,32 @@
       ]
     },
     {
+      "id": "13bb0771cff869c8",
+      "title": "[酷工作] [新加坡/可远程] 智能体垂类赛道 - 寻找 AI 与数据工程师 / 技术合伙人",
+      "url": "https://www.v2ex.com/t/1234683",
+      "source": "V2EX (创意工作者社区)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T15:00:13Z",
+      "category": "智能体",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "V2EX (创意工作者社区)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "智能体",
+        "技术"
+      ]
+    },
+    {
       "id": "f958ff5deb416a15",
       "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
       "url": "https://news.ycombinator.com/item?id=49310495",
@@ -1304,6 +1657,31 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "hugging face"
+      ]
+    },
+    {
+      "id": "3e31db7ff01ca3a7",
+      "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
+      "url": "https://sankalp.bearblog.dev/autoresearch",
+      "source": "sankalp.bearblog.dev",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T13:58:02.713000Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "sankalp.bearblog.dev"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "codex"
       ]
     },
     {
@@ -1384,7 +1762,7 @@
       "id": "f9c8bec053e658cb",
       "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
       "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
-      "source": "Hacker News",
+      "source": "Hacker News · 24h最热",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
@@ -1395,7 +1773,7 @@
       "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hacker News"
+        "Hacker News · 24h最热"
       ],
       "summary": "",
       "importance_label": "",
@@ -1994,7 +2372,7 @@
       "id": "9cf5c30d16e86a1e",
       "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
       "url": "https://chenxiachan.github.io/thoughtdag",
-      "source": "Hacker News (黑客新闻)",
+      "source": "Hacker News · 24h最热",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
@@ -2005,7 +2383,7 @@
       "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hacker News (黑客新闻)"
+        "Hacker News · 24h最热"
       ],
       "summary": "",
       "importance_label": "",
@@ -2297,297 +2675,6 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "547478fe1efbf418",
-      "title": "Docs: Anthropic told investors it generated $11.5B+ in revenue, with positive adjusted operating income, in Q2, up from $787M in Q2 2025 and $4.73B in Q1 2026 (Bloomberg)",
-      "url": "https://www.techmeme.com/260814/p26",
-      "source": "Techmeme",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T21:31:21Z",
-      "category": "商业",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；商业 方向；综合评分 60。",
-      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
-      "source_names": [
-        "Techmeme"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "文件：Anthropic 告诉投资者，第二季度的收入为 11.5B+ 美元，调整后营业收入为正，高于 2025 年第二季度的 7.87 亿美元和 2026 年第一季度的 4.73B 美元（彭博社）",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "28c6ceaea4a18f7a",
-      "title": "How Claude's text watermarking works",
-      "url": "https://news.ycombinator.com/item?id=49303350",
-      "source": "hackernews",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T20:46:13.974000Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "hackernews"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "克劳德的文本水印如何工作",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude"
-      ]
-    },
-    {
-      "id": "c2d573972f655b64",
-      "title": "OpenAI CFO tells shareholders enterprise revenue has overtaken ChatGPT",
-      "url": "https://thenextweb.com/news/openai-enterprise-revenue-overtakes-consumer-friar",
-      "source": "The Next Web",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T20:11:29Z",
-      "category": "商业",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；商业 方向；综合评分 60。",
-      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
-      "source_names": [
-        "The Next Web"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "OpenAI 首席财务官告诉股东企业收入已超过 ChatGPT",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "openai"
-      ]
-    },
-    {
-      "id": "a5b9f9bb0346e8d0",
-      "title": "Google lets you say goodbye to Gemini watermarks",
-      "url": "https://www.androidpolice.com/google-lets-you-say-goodbye-to-gemini-watermarks",
-      "source": "Android Police",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T20:05:16Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Android Police"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "谷歌让你告别双子座水印",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "2f6e399c7ecec823",
-      "title": "Risk report: Anthropic raises misalignment risk estimate from very low to low and says it doesn't plan to release a stronger internal model called \"Model 2\" (Madison Mills/Axios)",
-      "url": "https://www.techmeme.com/260814/p21",
-      "source": "Techmeme",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T19:45:01Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Techmeme"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "风险报告：Anthropic 将错位风险估计从非常低提高到低，并表示不打算发布更强大的内部模型，称为“模型 2”（Madison Mills/Axios）",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "c83ce991ac4b0d31",
-      "title": "Source: OpenAI CFO told investors that enterprise business now generates more revenue than ChatGPT-led consumer business; enterprise customers grew 32% in July (Kate Rooney/CNBC)",
-      "url": "https://www.techmeme.com/260814/p20",
-      "source": "Techmeme",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T19:40:02Z",
-      "category": "商业",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；商业 方向；综合评分 60。",
-      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
-      "source_names": [
-        "Techmeme"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "资料来源：OpenAI CFO 告诉投资者，企业业务现在比 ChatGPT 主导的消费者业务产生更多收入； 7 月份企业客户增长 32%（Kate Rooney/CNBC）",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "openai"
-      ]
-    },
-    {
-      "id": "93d7c7895eb04fe2",
-      "title": "How Claude's text watermarking works",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "source": "Hacker News · 24h最热",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T19:15:51Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "克劳德的文本水印如何工作",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude"
-      ]
-    },
-    {
-      "id": "e69077b4b783ea40",
-      "title": "Google Turns On Gemini A.I. for Students Using Its Classroom App",
-      "url": "https://www.nytimes.com/2026/08/14/business/google-gemini-ai-schools.html",
-      "source": "New York Times",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T18:54:35Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "New York Times"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "谷歌启用 Gemini A.I.对于使用其课堂应用程序的学生",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "a.i.",
-        "gemini"
-      ]
-    },
-    {
-      "id": "a511afc364d69da1",
-      "title": "Being Against LLMs Is Against the Spirit of Floss",
-      "url": "https://joarvarndt.se/free-vibes-2",
-      "source": "Hacker News · 24h最热",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T18:52:12Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "反对法学硕士就是反对牙线精神",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "llm"
-      ]
-    },
-    {
-      "id": "7f252f0427b538e1",
-      "title": "Claude users are canceling their subscriptions, citing Anthropic’s new AI watermark",
-      "url": "https://www.businessinsider.com/claude-users-cancel-subscriptions-citing-anthropic-new-ai-watermark-2026-8",
-      "source": "Business Insider",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T18:48:37Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Business Insider"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Claude 用户正在取消订阅，理由是 Anthropic 的新 AI 水印",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic",
-        "claude"
-      ]
-    },
-    {
-      "id": "fbd149c62d61c6aa",
-      "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
-      "url": "https://news.ycombinator.com/item?id=49301417",
-      "source": "hackernews",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T18:07:07.673000Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "hackernews"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "LLM 生成的 GPU 内核的合同级验证器",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "llm",
-        "gpu"
-      ]
-    },
-    {
       "id": "7336d74b341db382",
       "title": "Multiple redirect URIs and token refresh for OAuth apps",
       "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
@@ -2632,6 +2719,30 @@
       "importance_label": "",
       "importance_breakdown": {},
       "title_zh": "人工智能生成的书籍充斥亚马逊，人类作家的销量大幅下降",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "94e2799e4fb6f974",
+      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "source": "The Verge",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T20:45:00Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "The Verge"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "通过扮演聊天机器人来嘲笑人工智能的牺牲",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -2737,78 +2848,6 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "4045f6253892374c",
-      "title": "AI is not \"jagged\" it is just AI-shaped. That's like saying dogs are \"jagged\" because they are similar, superior, or inferior compared to humans when it comes to specific tasks.",
-      "url": "https://x.com/thenanyu/status/2088335744909619230",
-      "source": "Follow Builders · X · Nan Yu",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T18:43:35Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Follow Builders · X · Nan Yu"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "人工智能并不是“锯齿状”的，它只是人工智能形状的。这就像说狗是“锯齿状”的，因为在执行特定任务时，它们与人类相似、优于或劣于人类。",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "19abb492002f734e",
-      "title": "Vercel is the fastest [AI Gateway] infrastructure in the world https://t.co/AdxxRBdgvt",
-      "url": "https://x.com/rauchg/status/2088323451132199338",
-      "source": "Follow Builders · X · Guillermo Rauch",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T17:54:44Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Follow Builders · X · Guillermo Rauch"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Vercel 是世界上最快的 [AI 网关] 基础设施 https://t.co/AdxxRBdgvt",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "252dc2a98b1caedf",
-      "title": "The evolution of a workday: Before AI: [decision] [process] [process] [decision] [process] [process] [process] 10pm: still going With AI: [decision] [decision] [decision] [decision] [decision] 3pm: [brain empty] [need...",
-      "url": "https://x.com/mattturck/status/2088323186819539041",
-      "source": "Follow Builders · X · Matt Turck",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T17:53:41Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Follow Builders · X · Matt Turck"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "工作日的演变： 在人工智能之前：[决定][过程][过程][决定][过程][过程][过程]晚上10点：仍在进行人工智能之前：[决定][决定][决定][决定][决定]下午3点：[大脑空虚][需要...",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
       "id": "ef9e92bb151aaeef",
       "title": "Amazon Can Use Your Twitch Content to Train Its AI—Unless You Opt Out",
       "url": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out",
@@ -2833,30 +2872,27 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "df52501bd54626bb",
-      "title": "The Next Big Influencer Is This 4-Foot-Tall Robot From China",
-      "url": "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china",
-      "source": "Wired AI",
+      "id": "0bbab32ca76cb3ef",
+      "title": "33%增速、126%留存：Snowflake 用一份财报，把“AI落地难”讲成了印钞机故事",
+      "url": "https://www.infoq.cn/article/55mbodVKkHgiHYqfqkFG",
+      "source": "InfoQ CN",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-14T20:59:03Z",
+      "published_at": "2026-08-15T00:19:32Z",
       "category": "其他",
       "score": 52,
       "grade": "C",
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Wired AI"
+        "InfoQ CN"
       ],
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "下一个大影响者是这个来自中国的 4 英尺高机器人",
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "robot"
-      ]
+      "ai_matched_keywords": []
     },
     {
       "id": "d7256ad979b53977",
@@ -2903,6 +2939,446 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "ad8013ccdd7bb995",
+      "title": "AI in drug discovery — what it is, where we stand and the path forward",
+      "url": "https://news.ycombinator.com/item?id=49313367",
+      "source": "hackernews",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T21:09:38.355000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "药物发现中的人工智能——它是什么、我们的立场和前进的道路",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "bb55d9172041753d",
+      "title": "Meta will train its AI on Newsmax, a far-right media outlet",
+      "url": "https://news.ycombinator.com/item?id=49313778",
+      "source": "hackernews",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T21:09:38.355000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Meta 将在极右媒体 Newsmax 上训练其人工智能",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "0a7719b77415632a",
+      "title": "Why tech bosses keep sharing their manifestos about AI",
+      "url": "https://news.ycombinator.com/item?id=49313519",
+      "source": "hackernews",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T21:09:38.355000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "为什么科技巨头们不断分享他们关于人工智能的宣言",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "eabd3282a325187b",
+      "title": "Cloudflare的AI精神错乱",
+      "url": "https://opensauce.it/cloudflare-ai-psychosis",
+      "source": "opensauce.it",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T20:37:59.382000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "opensauce.it"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "11fe618af468078f",
+      "title": "So How Is AI Drug Discovery Doing, Really?",
+      "url": "https://news.ycombinator.com/item?id=49313367",
+      "source": "hackernews",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T20:09:30.973000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "那么人工智能药物发现到底表现如何？",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "a9cfecc302783fbd",
+      "title": "Formula 1 world champion Lando Norris has signed up with a mysterious company claiming it provides 'rocket fuel for AI' — but why?",
+      "url": "https://www.techradar.com/pro/formula-1-world-champion-lando-norris-has-signed-up-with-a-mysterious-company-claiming-it-provides-rocket-fuel-for-ai-but-why",
+      "source": "TechRadar",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:45:00Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "TechRadar"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "一级方程式世界冠军兰多·诺里斯与一家神秘公司签约，声称该公司为人工智能提供“火箭燃料”——但为什么呢？",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "01e9562d6acf1abb",
+      "title": "Sources: Nvidia in talks to invest up to $3B in SoftBank-backed data center developer SB Energy that aims to IPO soon and is behind a huge OpenAI campus in Ohio (The Information)",
+      "url": "https://www.techmeme.com/260815/p14",
+      "source": "Techmeme",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:40:01Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Techmeme"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "消息来源：Nvidia 正在洽谈向软银支持的数据中心开发商 SB Energy 投资高达 30 亿美元，SB Energy 的目标是尽快 IPO，并且是俄亥俄州一个巨大的 OpenAI 园区的背后（The Information）",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "openai",
+        "developer"
+      ]
+    },
+    {
+      "id": "2dd961b2f713f50b",
+      "title": "[Minecraft] 感叹 AI 让 Bukkit 系服务端也是吃上社交类 Fabric Mod",
+      "url": "https://www.v2ex.com/t/1234702",
+      "source": "V2EX (创意工作者社区)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:33:38Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "V2EX (创意工作者社区)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "46331d9ab27c28b6",
+      "title": "Why tech bosses keep sharing their manifestos about AI",
+      "url": "https://www.bbc.com/news/articles/cz97ljy91zxo",
+      "source": "Hacker News (黑客新闻)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:30:32Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News (黑客新闻)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "为什么科技巨头们不断分享他们关于人工智能的宣言",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "7ab7af8c288b9316",
+      "title": "人工智能并非在智力上胜过数学家，而是在记忆力上胜过他们",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "source": "davidepiffer.com",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:18:02.348000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "davidepiffer.com"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能"
+      ]
+    },
+    {
+      "id": "bb42772701377ad9",
+      "title": "AI in drug discovery — what it is, where we stand and the path forward",
+      "url": "https://www.nature.com/articles/s41573-026-01496-2",
+      "source": "Hacker News (黑客新闻)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:12:53Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News (黑客新闻)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "药物发现中的人工智能——它是什么、我们的立场和前进的道路",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "daa4506646ff00fa",
+      "title": "So How Is AI Drug Discovery Doing, Really?",
+      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+      "source": "Hacker News",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:12:53Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "那么人工智能药物发现到底表现如何？",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "319ea439e43a93c3",
+      "title": "I tried building my site with the 3 top AI bots; I found an undisputed winner",
+      "url": "https://www.androidpolice.com/building-site-with-three-top-ai-bots-found-undisputed-winner",
+      "source": "Android Police",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:00:15Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Android Police"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "我尝试使用 3 个顶级人工智能机器人来构建我的网站；我找到了无可争议的赢家",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "6dfd9fe3f66d3908",
+      "title": "AI Fails to Deliver a 4-Day Work Week - Especially at AI Companies",
+      "url": "https://it.slashdot.org/story/26/08/15/079216/ai-fails-to-deliver-a-4-day-work-week---especially-at-ai-companies",
+      "source": "Slashdot",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T19:00:00Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Slashdot"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "AI 无法提供每周 4 天的工作时间——尤其是在 AI 公司",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "71d0b1496c97c1df",
+      "title": "AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
+      "url": "https://news.ycombinator.com/item?id=49312845",
+      "source": "hackernews",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T18:47:56.887000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "人工智能并不比数学家聪明。它已经超出了记住他们的范围",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "d18ab7e9a0c1bd26",
+      "title": "AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "source": "Hacker News (黑客新闻)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T18:13:02Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News (黑客新闻)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "人工智能并不比数学家聪明。它已经超出了记住他们的范围",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "25764b5dc630103e",
+      "title": "Sources: Mercor and other firms gathering data for AI labs are driving demand to buy or license internal datasets from startups shutting down or being acquired (Alix Coutures/The Information)",
+      "url": "https://www.techmeme.com/260815/p13",
+      "source": "Techmeme",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T18:00:40Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Techmeme"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "资料来源：Mercor 和其他为人工智能实验室收集数据的公司正在推动对关闭或被收购的初创公司购买或许可内部数据集的需求（Alix Coutures/The Information）",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "dataset"
+      ]
+    },
+    {
+      "id": "33a1dcbf7c098adc",
+      "title": "LG’s humanoid robot arrives in 2027, running Nvidia’s Isaac GR00T",
+      "url": "https://thenextweb.com/news/lg-nvidia-humanoid-robot-2027-isaac-groot",
+      "source": "The Next Web",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T17:28:39Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "The Next Web"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "LG 的人形机器人将于 2027 年上市，运行 Nvidia 的 Isaac GR00T",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "robot"
+      ]
     },
     {
       "id": "8d38bf1936ebaace",
@@ -3003,7 +3479,7 @@
       "id": "e2872f9a27dc1e90",
       "title": "AI Can Now Design Functional Viruses. Should We Worry?",
       "url": "https://spectrum.ieee.org/ai-designed-virus",
-      "source": "Hacker News (黑客新闻)",
+      "source": "Hacker News · 24h最热",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
@@ -3014,7 +3490,7 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Hacker News (黑客新闻)"
+        "Hacker News · 24h最热"
       ],
       "summary": "",
       "importance_label": "",
@@ -3022,6 +3498,32 @@
       "title_zh": "人工智能现在可以设计功能性病毒。我们应该担心吗？",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "5083a9a17645054d",
+      "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
+      "url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+      "source": "Hacker News · 24h最热",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T15:25:16Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "OpenAI 人才外流在 IPO 前引发“巨大危险信号”",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "openai"
+      ]
     },
     {
       "id": "e9c0aae94450666b",
@@ -3127,7 +3629,7 @@
       "id": "090c0cd5629aec34",
       "title": "The AI Situation in Software Development",
       "url": "https://srikanth.ch/posts/the-ai-situation",
-      "source": "Hacker News (黑客新闻)",
+      "source": "Hacker News · 24h最热",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
@@ -3138,7 +3640,7 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Hacker News (黑客新闻)"
+        "Hacker News · 24h最热"
       ],
       "summary": "",
       "importance_label": "",
@@ -3148,10 +3650,34 @@
       "ai_matched_keywords": []
     },
     {
+      "id": "dc815f96099d365c",
+      "title": "Secondhand book sales are booming. Is it because of AI?",
+      "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
+      "source": "Hacker News · 24h最热",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-15T14:08:55Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "二手书销售蓬勃发展。是因为人工智能吗？",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
       "id": "b0cf65cf93062eb1",
       "title": "Cloudflare's AI Psychosis",
       "url": "https://opensauce.it/cloudflare-ai-psychosis",
-      "source": "Hacker News",
+      "source": "Hacker News · 24h最热",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
@@ -3162,7 +3688,7 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Hacker News"
+        "Hacker News · 24h最热"
       ],
       "summary": "",
       "importance_label": "",
@@ -3908,280 +4434,6 @@
       "importance_label": "",
       "importance_breakdown": {},
       "title_zh": "文件：英伟达拥有 SpaceX 近 210 亿美元的股份，以及英特尔 300 亿美元的股份； 2025 年，Nvidia 在 xAI 上投资了 20 亿美元，在英特尔上投资了 50 亿美元（Lynn Doan/彭博社）",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "5a9f88f08e3b0249",
-      "title": "Anthropic defends and explains its AI watermarking feature",
-      "url": "https://www.businessinsider.com/anthropic-reveals-more-about-ai-watermarking-plans-amid-eu-regulations-2026-8",
-      "source": "Business Insider",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T21:25:44Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Business Insider"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Anthropic 捍卫并解释其 AI 水印功能",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "dc79ea2a0c1f8743",
-      "title": "亲手打造的AI",
-      "url": "https://www.byhand.ai",
-      "source": "www.byhand.ai",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T20:56:57.601000Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "www.byhand.ai"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "58892bcb6ba5798c",
-      "title": "Anthropic Risk August 2026 [pdf]",
-      "url": "https://news.ycombinator.com/item?id=49303540",
-      "source": "hackernews",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T20:46:13.974000Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "hackernews"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "人为风险 2026 年 8 月 [pdf]",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "6c50f998574842c8",
-      "title": "Investor letter: Thrive's 2022 early-stage $516M fund that invested in OpenAI and SpaceX was worth $3.7B+ as of the end of June, net of fees and other charges (Natasha Mascarenhas/Bloomberg)",
-      "url": "https://www.techmeme.com/260814/p23",
-      "source": "Techmeme",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T20:25:01Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Techmeme"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "投资者信：截至 6 月底，Thrive 投资 OpenAI 和 SpaceX 的 5.16 亿美元早期基金价值 3.7B+，扣除费用和其他费用（Natasha Mascarenhas/Bloomberg）",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "openai"
-      ]
-    },
-    {
-      "id": "037513c9c798ff51",
-      "title": "Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria",
-      "url": "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria",
-      "source": "TechCrunch",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T19:33:00Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "TechCrunch"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Thrive 的约书亚·库什纳 (Joshua Kushner) 斥责硅谷风投公司对人工智能的狂热",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "124d631296c9d280",
-      "title": "Anthropic Risk August 2026 [pdf]",
-      "url": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
-      "source": "Hacker News · 24h最热",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T19:32:15Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "人为风险 2026 年 8 月 [pdf]",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "e5147ed2e9d83d8d",
-      "title": "谷歌正借助同态加密让私有化人工智能成为现实",
-      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
-      "source": "blog.google",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T19:22:21.717000Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "blog.google"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "人工智能"
-      ]
-    },
-    {
-      "id": "f31e3d33688fad04",
-      "title": "Z.ai Security Disclosure",
-      "url": "https://cvd.z.ai",
-      "source": "Hacker News · 24h最热",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T19:22:00Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Z.ai 安全披露",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "c8d8f9077a7215a0",
-      "title": "Google will now allow users to remove visible watermarks from AI content",
-      "url": "https://www.engadget.com/2237340/google-will-now-allow-users-to-remove-visible-watermarks-from-ai-content",
-      "source": "Engadget",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T19:04:42Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Engadget"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "谷歌现在将允许用户从人工智能内容中删除可见水印",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "71012a3b4f8eef73",
-      "title": "Ukraine Finds Nvidia AI Chip In New Russian Missile",
-      "url": "https://tech.slashdot.org/story/26/08/14/1736254/ukraine-finds-nvidia-ai-chip-in-new-russian-missile",
-      "source": "Slashdot",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T19:00:00Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Slashdot"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "乌克兰在俄罗斯新型导弹中发现 Nvidia 人工智能芯片",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "chip"
-      ]
-    },
-    {
-      "id": "e1a0a9a0d07a8b3f",
-      "title": "Tech analyst Ben Thompson dismisses the 'clearly absurd' concept embedded in AI watermarking",
-      "url": "https://www.businessinsider.com/ben-thompson-ai-watermarking-anthropic-claude-2026-8",
-      "source": "Business Insider",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-14T18:12:01Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Business Insider"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "技术分析师 Ben Thompson 驳斥了人工智能水印中嵌入的“明显荒谬”的概念",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     }
