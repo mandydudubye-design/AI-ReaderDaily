@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-17T11:23:49.928081Z",
+  "generated_at": "2026-08-17T12:40:12.452833Z",
   "source_count": 252,
-  "successful_sites": 187,
-  "failed_sites": 65,
-  "zero_item_sites": 242,
-  "total_items": 1833,
-  "total_ai_items": 91,
-  "ai_pct_total": 5.0,
+  "successful_sites": 186,
+  "failed_sites": 66,
+  "zero_item_sites": 243,
+  "total_items": 1888,
+  "total_ai_items": 114,
+  "ai_pct_total": 6.0,
   "sites": [
     {
       "site_id": "learnprompt_daily_brief",
@@ -16,10 +16,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 19,
-      "ai_count": 19,
+      "item_count": 20,
+      "ai_count": 20,
       "ai_pct": 100.0,
-      "fetch_duration_s": 0.27,
+      "fetch_duration_s": 0.38,
       "note": ""
     },
     {
@@ -30,10 +30,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 117,
-      "ai_count": 72,
-      "ai_pct": 61.5,
-      "fetch_duration_s": 0.1,
+      "item_count": 174,
+      "ai_count": 94,
+      "ai_pct": 54.0,
+      "fetch_duration_s": 3.06,
       "note": ""
     },
     {
@@ -47,7 +47,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.25,
+      "fetch_duration_s": 0.53,
       "note": ""
     },
     {
@@ -61,7 +61,7 @@
       "item_count": 816,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.14,
+      "fetch_duration_s": 0.18,
       "note": ""
     },
     {
@@ -75,7 +75,7 @@
       "item_count": 20,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.32,
+      "fetch_duration_s": 0.3,
       "note": ""
     },
     {
@@ -89,7 +89,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.62,
+      "fetch_duration_s": 0.69,
       "note": ""
     },
     {
@@ -103,7 +103,7 @@
       "item_count": 842,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.12,
+      "fetch_duration_s": 0.22,
       "note": ""
     },
     {
@@ -117,7 +117,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.44,
+      "fetch_duration_s": 0.84,
       "note": ""
     },
     {
@@ -145,7 +145,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 3.29,
+      "fetch_duration_s": 2.74,
       "note": "中文综合科技，混有 AI 内容，radar.py 按关键词过滤"
     },
     {
@@ -159,21 +159,21 @@
       "item_count": 11,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 3.74,
+      "fetch_duration_s": 3.46,
       "note": "中文科技综合，含 AI 新闻"
     },
     {
       "site_id": "rss_zhihu_hot",
       "site_name": "知乎热榜",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 3,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.28,
+      "fetch_duration_s": 1.41,
       "note": "知乎全站热榜，混合话题，radar.py 按关键词过滤 AI 内容"
     },
     {
@@ -187,7 +187,7 @@
       "item_count": 2,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.59,
+      "fetch_duration_s": 3.15,
       "note": "知乎日报精选，混合话题"
     },
     {
@@ -201,7 +201,7 @@
       "item_count": 1,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.49,
+      "fetch_duration_s": 0.28,
       "note": "36氪实时快讯，作者按关键词筛选 AI 内容"
     },
     {
@@ -215,7 +215,7 @@
       "item_count": 2,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 2.67,
+      "fetch_duration_s": 3.96,
       "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
     },
     {
@@ -663,7 +663,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -1027,7 +1027,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -3029,7 +3029,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "官方"
     },
     {
