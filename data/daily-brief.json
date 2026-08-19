@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-19T13:42:20.459248Z",
+  "generated_at": "2026-08-19T14:31:56.696703Z",
   "items": [
     {
       "id": "f0d6d88e81a503b4",
@@ -12,9 +12,9 @@
       "keyword": null,
       "published_at": "2026-08-18T18:09:38Z",
       "category": "智能体",
-      "score": 111,
+      "score": 108,
       "grade": "S",
-      "why_it_matters": "2 个来源信号；智能体 方向；综合评分 111。",
+      "why_it_matters": "2 个来源信号；智能体 方向；综合评分 108。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
         "Hugging Face Blog",
@@ -26,7 +26,7 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.951,
+        "recency": 0.7975,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
@@ -44,9 +44,9 @@
       "keyword": null,
       "published_at": "2026-08-18T11:00:00Z",
       "category": "产品",
-      "score": 109,
+      "score": 107,
       "grade": "S",
-      "why_it_matters": "2 个来源信号；产品 方向；综合评分 109。",
+      "why_it_matters": "2 个来源信号；产品 方向；综合评分 107。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "OpenAI News",
@@ -58,7 +58,7 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8576,
+        "recency": 0.7192,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
@@ -68,35 +68,65 @@
       ]
     },
     {
-      "id": "2233382e398f81ca",
-      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型 / Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "id": "94a36ed3ff4507aa",
+      "title": "ChatGPT Ads 扩展至欧洲多国 / ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-18T00:00:00Z",
+      "published_at": "2026-08-18T22:00:00Z",
       "category": "模型",
-      "score": 108,
+      "score": 103,
       "grade": "S",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 108。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 103。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
+        "OpenAI News"
       ],
       "summary": "",
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.99,
-        "recency": 0.7316,
-        "story_heat": 0.25
+        "ai_relevance": 0.95,
+        "recency": 0.843,
+        "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "transformer"
+        "gpt"
+      ]
+    },
+    {
+      "id": "5f4c804cb7ee608c",
+      "title": "JetBrains 中 GitHub Copilot 的企业托管设置 / Enterprise managed settings in GitHub Copilot for JetBrains",
+      "url": "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-18T23:33:07Z",
+      "category": "商业",
+      "score": 102,
+      "grade": "S",
+      "why_it_matters": "1 个来源信号；商业 方向；综合评分 102。",
+      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8621,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "copilot"
       ]
     },
     {
@@ -109,9 +139,9 @@
       "keyword": null,
       "published_at": "2026-08-18T11:00:00Z",
       "category": "模型",
-      "score": 102,
+      "score": 100,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 102。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 100。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "OpenAI News"
@@ -122,135 +152,12 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8576,
+        "recency": 0.7192,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
-      ]
-    },
-    {
-      "id": "5244c2fe60c759c4",
-      "title": "Asana借助Codex在两周内完成了原本需5年的工程工作量 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
-      "url": "https://openai.com/index/asana",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-18T07:00:00Z",
-      "category": "AI 编程",
-      "score": 102,
-      "grade": "S",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 102。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "OpenAI News"
-      ],
-      "summary": "",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.8094,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "codex"
-      ]
-    },
-    {
-      "id": "9936236ace1f4193",
-      "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
-      "url": "https://cursor.com/changelog/origin-code-hosting",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-17T22:14:00.748000Z",
-      "category": "AI 编程",
-      "score": 100,
-      "grade": "S",
-      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 100。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "cursor.com"
-      ],
-      "summary": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.81,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7132,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "cursor"
-      ]
-    },
-    {
-      "id": "015b82df662e593c",
-      "title": "加强国家安全中的民主监督 / Strengthening democratic oversight in national security",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-18T19:00:00Z",
-      "category": "其他",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 96。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "OpenAI News"
-      ],
-      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.\nOpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.\nOpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.\nAugus",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9626,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "d1cb4284ae241aa6",
-      "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体 / Build zero-trust AI agents with Google's Agent Development Kit",
-      "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-17T23:22:25.902000Z",
-      "category": "智能体",
-      "score": 95,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 95。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Google Developers Blog（RSS）"
-      ],
-      "summary": "Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词只是软约束，无法作为安全边界。",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.725,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "智能体"
       ]
     },
     {
@@ -263,11 +170,12 @@
       "keyword": null,
       "published_at": "2026-08-18T20:06:01Z",
       "category": "模型",
-      "score": 94,
+      "score": 97,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 97。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
+        "Follow Builders · X · Claude",
         "X：Claude (@claudeai)"
       ],
       "summary": "Claude 现在可以在 Gmail 中发送邮件，并管理 Google Drive 中的文件。\n\n让 Claude 回复某个邮件线程，它会起草并发送回复。你可以控制何时需要你的批准。\n\n从连接器菜单中选择连接 Gmail 或 Google Drive 即可试用。所有付费套餐均可用。",
@@ -276,13 +184,289 @@
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.978,
+        "recency": 0.8202,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "id": "704a73bee1c1b664",
+      "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T01:03:29Z",
+      "category": "模型",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "公众号：智谱（GLM）"
+      ],
+      "summary": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平，模型权重将于下周五开源。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8811,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "开源"
+      ]
+    },
+    {
+      "id": "06b5f42e9dccfaf4",
+      "title": "Claude Code额度加成延期，Anthropic或将50%提升变成长期方案",
+      "url": "https://www.aibase.com/news/30469",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T07:54:41.598700Z",
+      "category": "AI 编程",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 96。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9727,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "7422dd6a9d121690",
+      "title": "程序员福利再加码！Anthropic官方宣布Claude Code每周50%额度加成延长至8月31日",
+      "url": "https://www.aibase.com/news/30472",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T07:54:41.598700Z",
+      "category": "AI 编程",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 96。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9727,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "e52222d222299f46",
+      "title": "腾讯大模型迎来人事大地震：姚顺雨掌舵基础模型",
+      "url": "https://www.aibase.com/news/30470",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T07:54:41.598700Z",
+      "category": "模型",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9727,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "基础模型",
+        "大模型"
+      ]
+    },
+    {
+      "id": "57500ce3c742c31b",
+      "title": "千问APP上线七夕AI送花助手 还能测情侣默契度",
+      "url": "https://www.aibase.com/news/30466",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T07:05:32.359108Z",
+      "category": "产品",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 96。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9613,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "7d1d9c330e7f5f13",
+      "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+      "url": "https://www.modular.com/blog/mojo-open-source",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-18T21:26:01.095000Z",
+      "category": "开源",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；开源 方向；综合评分 94。",
+      "topic_angle": "关注部署门槛、社区生态和可复用能力。",
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "summary": "Mojo🔥 语言现已正式开源，采用 Apache 2.0 许可证（含 LLVM 例外），编译器、工具链及全部源码已发布至 modular GitHub 仓库。Mojo 上周刚达成 1.0 版本（源码稳定），此次开源涵盖整个编译器与工具链。目前暂不接受编译器相关贡献，计划年底前开放，标准库自 2024 年起已接受社区贡献。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8361,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "开源"
+      ]
+    },
+    {
+      "id": "135e70886baa9a14",
+      "title": "Claude 如何加速蛋白质设计与分析化学研究 / How Claude is accelerating protein design and analytical chemistry",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-18T22:27:16.191000Z",
+      "category": "模型",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Anthropic：Research（发表成果 · 网页）"
+      ],
+      "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8486,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "claude"
       ]
+    },
+    {
+      "id": "37521684d5b3b33c",
+      "title": "按 token 类型撤销凭据与取消授权 / Credential revocation and deauthorization by token type",
+      "url": "https://github.blog/changelog/2026-08-18-credential-revocation-and-deauthorization-by-token-type",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-18T21:57:30Z",
+      "category": "其他",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 93。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8425,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "015b82df662e593c",
+      "title": "加强国家安全中的民主监督 / Strengthening democratic oversight in national security",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-18T19:00:00Z",
+      "category": "其他",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 93。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "OpenAI News"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8073,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "64120d11000c05eb",
@@ -294,9 +478,9 @@
       "keyword": null,
       "published_at": "2026-08-18T11:00:00Z",
       "category": "其他",
-      "score": 94,
+      "score": 92,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 92。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "OpenAI News"
@@ -307,63 +491,120 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8576,
+        "recency": 0.7192,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "6dc909c8d6f2864a",
-      "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者 / Claude on call： How Claude Tag serves as Anthropic's first responder for CI/CD failures",
-      "url": "https://claude.com/blog/ai-ci-cd-on-call",
-      "source": "AI HOT",
+      "id": "05ca3090ab2091b6",
+      "title": "AI 数据中心遭反对潮，硅谷巨头砸钱\"灭火\"",
+      "url": "https://www.aibase.com/news/30474",
+      "source": "AIbase",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-18T19:26:08.389000Z",
-      "category": "模型",
-      "score": 93,
+      "published_at": "2026-08-19T08:54:54.400556Z",
+      "category": "其他",
+      "score": 88,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Claude：Blog（网页）"
+        "AIbase"
       ],
-      "summary": "Anthropic 的 CI 工程师用 Claude Tag 构建了值班智能体，作为 CI/CD 故障的一线响应者。Claude 在事故发生后中位 14 分钟发布首份基于证据的分析，最快案例中 3 分钟内验证修复并确认错误率恢复基线。该方案通过 Slack 频道、Datadog 或 Grafana 工具访问及 GitHub 技能文件实现，Anthropic 已发布通用设置套件供其他团队部署。",
+      "summary": "",
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.63,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9687,
+        "recency": 0.9869,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "0f7d8ff32c2828a0",
+      "title": "\"神奇小子\"公司推 chestnut eGPU：车载 AI 算力飙百倍",
+      "url": "https://www.aibase.com/news/30473",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T07:54:41.598700Z",
+      "category": "其他",
+      "score": 88,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9727,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "anthropic",
-        "claude"
+        "算力",
+        "gpu"
       ]
     },
     {
-      "id": "f6ece31fd5c6bc3b",
-      "title": "Claude Code 2026年5月至8月每周限额促销 / Claude Code May–August 2026 weekly limits promotion",
-      "url": "https://news.ycombinator.com/item?id=49348751",
-      "source": "NewsNow",
+      "id": "f05771a9cb0391df",
+      "title": "Mozilla升级Firefox智能窗口，新增AI标签管理与网页检索",
+      "url": "https://www.aibase.com/news/30471",
+      "source": "AIbase",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-18T18:57:10.122000Z",
-      "category": "AI 编程",
-      "score": 90,
+      "published_at": "2026-08-19T07:54:41.598700Z",
+      "category": "其他",
+      "score": 88,
       "grade": "A",
-      "why_it_matters": "4 个来源信号；AI 编程 方向；综合评分 90。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "HN Algolia · AI 24h",
-        "Hacker News · 24h最热",
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9727,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "85d0f9822535635e",
+      "title": "软件团队中人工智能的使用模式",
+      "url": "https://linear.app/data",
+      "source": "Buzzing",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T06:30:17.079000Z",
+      "category": "其他",
+      "score": 76,
+      "grade": "B",
+      "why_it_matters": "3 个来源信号；其他 方向；综合评分 76。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News (黑客新闻)",
         "hackernews",
-        "support.claude.com"
+        "linear.app"
       ],
       "summary": "",
       "importance_label": "多源热议",
@@ -371,43 +612,13 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9619,
-        "story_heat": 0.75
+        "recency": 0.9532,
+        "story_heat": 0.5
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "claude"
-      ]
-    },
-    {
-      "id": "8bf5e51f6e003de4",
-      "title": "OpenAI 暂缓前沿训练强化安全监控 / We temporarily slowed some frontier training to strengthen security and monitoring. Our largest plan…",
-      "url": "https://x.com/merettm/status/2089776131255783823",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-18T18:07:10Z",
-      "category": "其他",
-      "score": 86,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 86。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "X：Jakub Pachocki（OpenAI 首席科学家，@merettm）"
-      ],
-      "summary": "OpenAI 首席科学家 Jakub Pachocki 表示，公司已暂时放缓部分前沿模型训练以强化安全与监控，最大规模的前沿 RL 训练仍处于搁置状态，同时通过小规模训练和评估测试安全措施并收集对齐证据。他认为安全信心将日益决定 AI 发展节奏，并已签署《Pacing the Frontier》倡议，呼吁实验室和国家间加强协调。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9504,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "openai"
+        "人工智能",
+        "软件"
       ]
     },
     {
@@ -915,31 +1126,6 @@
       ]
     },
     {
-      "id": "704a73bee1c1b664",
-      "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
-      "source": "公众号：智谱（GLM）",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-19T01:03:29Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "公众号：智谱（GLM）"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.08,
-      "ai_matched_keywords": [
-        "开源"
-      ]
-    },
-    {
       "id": "2ee540948ade2e8a",
       "title": "Claude 如何加速蛋白质设计与分析化学研究",
       "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
@@ -963,31 +1149,6 @@
       "ai_matched_keywords": [
         "anthropic",
         "claude"
-      ]
-    },
-    {
-      "id": "7d1d9c330e7f5f13",
-      "title": "Mojo 语言正式开源，编译器与工具链全面开放",
-      "url": "https://www.modular.com/blog/mojo-open-source",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-18T21:26:01.095000Z",
-      "category": "开源",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；开源 方向；综合评分 60。",
-      "topic_angle": "关注部署门槛、社区生态和可复用能力。",
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.08,
-      "ai_matched_keywords": [
-        "开源"
       ]
     },
     {
@@ -3792,6 +3953,33 @@
       ]
     },
     {
+      "id": "0e340805d273f6a8",
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "url": "https://openai.com/index/replit",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 57,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 57。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "OpenAI Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "openai"
+      ]
+    },
+    {
       "id": "21acc675ba7a1055",
       "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
       "url": "https://openai.com/index/previewing-ultrafast",
@@ -5113,33 +5301,6 @@
       "importance_label": "",
       "importance_breakdown": {},
       "title_zh": "共识通过 GPT-5 和 Responses API 加速研究",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "openai"
-      ]
-    },
-    {
-      "id": "80c8d5d302d83691",
-      "title": "With GPT-5, Wrtn builds lifestyle AI for millions in Korea",
-      "url": "https://openai.com/index/wrtn",
-      "source": "OpenAI Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 57,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 57。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "OpenAI Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Wrtn 借助 GPT-5 为韩国数百万人构建生活方式人工智能",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gpt",
@@ -7859,6 +8020,32 @@
       ]
     },
     {
+      "id": "7a61ea97aeaa7898",
+      "title": "小米新一代人形机器人与观众实时互动视频发布：由大模型驱动，自主理解、判断并完成动作",
+      "url": "https://www.ithome.com/0/991/848.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 47,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 47。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "大模型",
+        "机器人"
+      ]
+    },
+    {
       "id": "83c7396a9bf15a9f",
       "title": "Create, edit and star in videos with two Google Vids updates",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
@@ -8293,31 +8480,6 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "7c8a14377b534352",
-      "title": "如何看待OpenAI下一代模型Astra大量解决数学猜想？",
-      "url": "https://daily.zhihu.com/story/9791839",
-      "source": "知乎日报",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 22,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "知乎日报"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "openai"
-      ]
-    },
-    {
       "id": "5efbb3d4cbc6fdf3",
       "title": "AI 芯片初创企业 Etched 估值飙升至 210 亿美元，首批机架出货",
       "url": "https://www.ithome.com/0/991/748.htm",
@@ -8340,6 +8502,31 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "芯片"
+      ]
+    },
+    {
+      "id": "7c8a14377b534352",
+      "title": "如何看待OpenAI下一代模型Astra大量解决数学猜想？",
+      "url": "https://daily.zhihu.com/story/9791839",
+      "source": "知乎日报",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "知乎日报"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "openai"
       ]
     },
     {
@@ -8460,6 +8647,29 @@
       "ai_matched_keywords": [
         "芯片"
       ]
+    },
+    {
+      "id": "b09547d0e3a25ce8",
+      "title": "如祺出行：上半年收入40.35亿元同比大增140.7%，AI数据服务贡献超亿元",
+      "url": "https://www.36kr.com/newsflashes/3946505525951625",
+      "source": "36氪快讯",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "36氪快讯"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "4b22a1a765eeba3f",
