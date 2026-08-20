@@ -1,85 +1,138 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-20T05:29:04.954507Z",
+  "generated_at": "2026-08-20T06:42:09.375172Z",
   "items": [
     {
-      "id": "f0d6d88e81a503b4",
-      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准 / How Much Memory Does Your Agent Actually Need?",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "id": "d701188cdb1efe85",
+      "title": "为前沿模型提供零数据保留功能 / Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-18T18:09:38Z",
-      "category": "智能体",
-      "score": 108,
+      "published_at": "2026-08-19T19:00:00Z",
+      "category": "模型",
+      "score": 104,
       "grade": "S",
-      "why_it_matters": "2 个来源信号；智能体 方向；综合评分 108。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 104。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hugging Face Blog",
-        "Hugging Face：Blog（RSS）"
+        "OpenAI News"
       ],
-      "summary": "智能体记忆并非可随意开启的功能，而是需按模型能力校准的剂量。强模型适合注入完整指南集，DeepSeek-V3.2（671B MoE）任务完成率提升+9.5个百分点；较弱模型采用精选检索效果最佳，gpt-oss-120b（117B MoE）提升+16.1pp且仅增加+5% token。该方法无需更新权重或人工标注，通过从智能体过往轨迹中蒸馏指南并在推理时注入实现。",
+      "summary": "",
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7975,
-        "story_heat": 0.25
+        "ai_relevance": 0.91,
+        "recency": 0.9748,
+        "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "智能体"
-      ]
+      "ai_matched_keywords": []
     },
     {
-      "id": "f540e76517ae9d57",
-      "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护 / Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "url": "https://openai.com/index/chatgpt-for-teens",
+      "id": "5dc08f62d2c1a2fc",
+      "title": "面向初学者的GitHub Copilot应用：管理工作 / GitHub Copilot app for Beginners: Managing your work",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-18T11:00:00Z",
-      "category": "产品",
-      "score": 107,
+      "published_at": "2026-08-19T17:50:23Z",
+      "category": "AI 编程",
+      "score": 104,
       "grade": "S",
-      "why_it_matters": "2 个来源信号；产品 方向；综合评分 107。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 104。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9587,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "copilot"
+      ]
+    },
+    {
+      "id": "fe2c7ac412f256ad",
+      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失 / LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+      "url": "https://huggingface.co/blog/LiquidAI/qad",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T13:48:49Z",
+      "category": "产品",
+      "score": 104,
+      "grade": "S",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 104。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        "Hugging Face Blog"
       ],
-      "summary": "OpenAI 发布 ChatGPT for Teens，为 13-17 岁用户自动启用，内置更强安全保护与家长控制。新增 Study Mode、负责任作业提醒、测验与学习可视化，以及可设定默认开启时段的 Study Hours，引导青少年分步解题而非直接给答案。OpenAI 同时宣布与 CodeAI 合作，帮助青少年理解、质疑并创造性地使用 AI。",
+      "summary": "",
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7192,
-        "story_heat": 0.25
+        "recency": 0.9045,
+        "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "openai"
-      ]
+      "ai_matched_keywords": []
     },
     {
-      "id": "94a36ed3ff4507aa",
-      "title": "ChatGPT Ads 扩展至欧洲多国 / ChatGPT Ads expands across Europe",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "id": "9ee6c6a534b8b142",
+      "title": "跟踪组织代码质量趋势 / Track organization code quality trends",
+      "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-18T22:00:00Z",
-      "category": "模型",
-      "score": 103,
+      "published_at": "2026-08-19T12:56:57Z",
+      "category": "AI 编程",
+      "score": 102,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 103。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 102。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8933,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "57fb51f6ca0244e8",
+      "title": "Replit 借助 GPT-5.6 Luna 让更多人能够创建软件 / Replit expands access to software creation with GPT-5.6 Luna",
+      "url": "https://openai.com/index/replit",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T07:00:00Z",
+      "category": "模型",
+      "score": 102,
+      "grade": "S",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 102。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "OpenAI News"
@@ -90,12 +143,13 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.843,
+        "recency": 0.8197,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "gpt"
+        "gpt",
+        "软件"
       ]
     },
     {
@@ -108,9 +162,9 @@
       "keyword": null,
       "published_at": "2026-08-18T23:33:07Z",
       "category": "商业",
-      "score": 102,
+      "score": 100,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；商业 方向；综合评分 102。",
+      "why_it_matters": "1 个来源信号；商业 方向；综合评分 100。",
       "topic_angle": "关注商业化、融资、企业采用和行业格局。",
       "source_names": [
         "GitHub Changelog"
@@ -121,7 +175,7 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8621,
+        "recency": 0.7362,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -130,14 +184,14 @@
       ]
     },
     {
-      "id": "55aebad2896a67f8",
-      "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏 / Pacing model development in an era of cyber-critical capabilities",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "id": "94a36ed3ff4507aa",
+      "title": "ChatGPT Ads 扩展至欧洲多国 / ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-18T11:00:00Z",
+      "published_at": "2026-08-18T22:00:00Z",
       "category": "模型",
       "score": 100,
       "grade": "S",
@@ -151,46 +205,75 @@
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7192,
+        "ai_relevance": 0.95,
+        "recency": 0.7198,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "openai"
+        "gpt"
       ]
     },
     {
-      "id": "8dd8a170c889246c",
-      "title": "Claude 现已支持 Gmail 邮件与 Google Drive 文件管理 / Claude can now send emails in Gmail and manage files in Google Drive. Ask Claude to reply to a thre…",
-      "url": "https://x.com/claudeai/status/2089806039088517356",
+      "id": "8ff8a22cb5e4d464",
+      "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法 / Blog Pushing the Limits of Serving DeepSeek-V4-Pro DeepSeek-V4-Pro is a 1.6-trillion-parameter Mixture-of-Experts （MoE） model released with both FP8 and FP4 weights. Models at this scale naturally benefit from accelerators such as NVIDIA Blackwell GPU… Tianyu Zhang， Yusong Gao， Yun Zhang",
+      "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-18T20:06:01Z",
+      "published_at": "2026-08-19T17:56:13.817000Z",
       "category": "模型",
-      "score": 97,
+      "score": 96,
       "grade": "A",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 97。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Follow Builders · X · Claude",
-        "X：Claude (@claudeai)"
+        "LMSYS：Blog（Chatbot Arena 团队）"
       ],
-      "summary": "Claude 现在可以在 Gmail 中发送邮件，并管理 Google Drive 中的文件。\n\n让 Claude 回复某个邮件线程，它会起草并发送回复。你可以控制何时需要你的批准。\n\n从连接器菜单中选择连接 Gmail 或 Google Drive 即可试用。所有付费套餐均可用。",
+      "summary": "LMSYS 团队针对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro，在 H20 GPU 上通过场景化服务配置逼近 B300 性能。单节点 H20-141GB 参考实现达 271 output tokens/s，与 B300 的 383.7 tokens/s 性能差距缩小至 1.42×。",
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.65,
+        "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8202,
-        "story_heat": 0.25
+        "recency": 0.96,
+        "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "claude"
+        "deepseek",
+        "gpu"
       ]
+    },
+    {
+      "id": "fd6ba15777eaee9e",
+      "title": "用 Search 提升学习的 5 种新方法 / 5 new ways to level up your learning with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T19:00:00Z",
+      "category": "其他",
+      "score": 95,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 95。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Google AI Blog"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9748,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "704a73bee1c1b664",
@@ -202,9 +285,9 @@
       "keyword": null,
       "published_at": "2026-08-19T01:03:29Z",
       "category": "模型",
-      "score": 96,
+      "score": 94,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "公众号：智谱（GLM）"
@@ -215,13 +298,73 @@
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8811,
+        "recency": 0.7523,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "开源"
       ]
+    },
+    {
+      "id": "435bc9983d78fe71",
+      "title": "运动垂类AI迎来合规里程碑！Keep自研Keepace.ai正式完成国家大模型备案",
+      "url": "https://www.aibase.com/news/30477",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T10:46:31.174062Z",
+      "category": "模型",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8657,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "9621060346e98ce6",
+      "title": "OpenRouter 加入 Stripe 加速多模型使命 / OpenRouter is joining Stripe. We started OpenRouter with a simple mission： intelligence should be m…",
+      "url": "https://x.com/OpenRouter/status/2090127246430216403",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T17:22:22Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "X：OpenRouter (@OpenRouter)"
+      ],
+      "summary": "OpenRouter 正在加入 Stripe。\n\n我们创立 OpenRouter 时怀揣一个简单的使命：智能应当是多元模型的。如今，我们是最大的 AI 市场与网关，每天在 400 多个模型上处理 10T+ token。\n\n加入 @Stripe 让我们有机会加速这一使命。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.65,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9522,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "06b5f42e9dccfaf4",
@@ -233,9 +376,9 @@
       "keyword": null,
       "published_at": "2026-08-19T07:54:41.598700Z",
       "category": "AI 编程",
-      "score": 96,
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 96。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 93。",
       "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
         "AIbase"
@@ -246,7 +389,7 @@
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9727,
+        "recency": 0.8306,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -254,99 +397,6 @@
         "anthropic",
         "claude"
       ]
-    },
-    {
-      "id": "7422dd6a9d121690",
-      "title": "程序员福利再加码！Anthropic官方宣布Claude Code每周50%额度加成延长至8月31日",
-      "url": "https://www.aibase.com/news/30472",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-19T07:54:41.598700Z",
-      "category": "AI 编程",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 96。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9727,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic",
-        "claude"
-      ]
-    },
-    {
-      "id": "e52222d222299f46",
-      "title": "腾讯大模型迎来人事大地震：姚顺雨掌舵基础模型",
-      "url": "https://www.aibase.com/news/30470",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-19T07:54:41.598700Z",
-      "category": "模型",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9727,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "基础模型",
-        "大模型"
-      ]
-    },
-    {
-      "id": "57500ce3c742c31b",
-      "title": "千问APP上线七夕AI送花助手 还能测情侣默契度",
-      "url": "https://www.aibase.com/news/30466",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-19T07:05:32.359108Z",
-      "category": "产品",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 96。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9613,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
     },
     {
       "id": "7d1d9c330e7f5f13",
@@ -358,9 +408,9 @@
       "keyword": null,
       "published_at": "2026-08-18T21:26:01.095000Z",
       "category": "开源",
-      "score": 94,
+      "score": 92,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；开源 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；开源 方向；综合评分 92。",
       "topic_angle": "关注部署门槛、社区生态和可复用能力。",
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
@@ -371,7 +421,7 @@
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8361,
+        "recency": 0.714,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -389,9 +439,9 @@
       "keyword": null,
       "published_at": "2026-08-18T22:27:16.191000Z",
       "category": "模型",
-      "score": 94,
+      "score": 92,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 92。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "Anthropic：Research（发表成果 · 网页）"
@@ -402,7 +452,7 @@
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8486,
+        "recency": 0.7246,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -420,9 +470,9 @@
       "keyword": null,
       "published_at": "2026-08-18T21:57:30Z",
       "category": "其他",
-      "score": 93,
+      "score": 91,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 93。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 91。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "GitHub Changelog"
@@ -433,65 +483,66 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8425,
+        "recency": 0.7194,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "015b82df662e593c",
-      "title": "加强国家安全中的民主监督 / Strengthening democratic oversight in national security",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "source": "Official AI Updates",
+      "id": "e8acade84e4ffd9b",
+      "title": "OpenRouter 宣布加入 Stripe / OpenRouter is Joining Stripe",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-18T19:00:00Z",
+      "published_at": "2026-08-19T18:46:11.132000Z",
       "category": "其他",
-      "score": 93,
+      "score": 90,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 93。",
+      "why_it_matters": "2 个来源信号；其他 方向；综合评分 90。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "OpenAI News"
+        "OpenRouter：Announcements（RSS）",
+        "openrouter.ai"
       ],
-      "summary": "",
-      "importance_label": "官方更新",
+      "summary": "OpenRouter 宣布与 Stripe 合并，以加速推动全球经济增长。OpenRouter 目前每日处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超 1000 万开发者与公司，自成立以来推理量每年至少增长 10 倍。合并后 OpenRouter 将继续以原名、原使命独立运营，产品与路线图不变，路由决策仍以用户利益为先，交易预计在未来数周内完成。",
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8073,
-        "story_heat": 0.0
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7409,
+        "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "64120d11000c05eb",
-      "title": "与CodeAI合作，培养第一代AI / Partnering with CodeAI to prepare the first AI generation",
-      "url": "https://openai.com/index/partnering-with-codeai",
-      "source": "Official AI Updates",
+      "id": "70fe7eeaa8613dd1",
+      "title": "国内首个人工与AI客服协同国家标准将于9月1日实施",
+      "url": "https://www.aibase.com/news/30476",
+      "source": "AIbase",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-18T11:00:00Z",
+      "published_at": "2026-08-19T10:46:31.174062Z",
       "category": "其他",
-      "score": 92,
+      "score": 86,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 92。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 86。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "OpenAI News"
+        "AIbase"
       ],
       "summary": "",
-      "importance_label": "官方更新",
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7192,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8657,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -507,9 +558,9 @@
       "keyword": null,
       "published_at": "2026-08-19T08:54:54.400556Z",
       "category": "其他",
-      "score": 88,
+      "score": 85,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 85。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "AIbase"
@@ -520,7 +571,7 @@
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9869,
+        "recency": 0.8427,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -536,9 +587,9 @@
       "keyword": null,
       "published_at": "2026-08-19T07:54:41.598700Z",
       "category": "其他",
-      "score": 88,
+      "score": 85,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 85。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "AIbase"
@@ -549,76 +600,13 @@
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9727,
+        "recency": 0.8306,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "算力",
         "gpu"
-      ]
-    },
-    {
-      "id": "f05771a9cb0391df",
-      "title": "Mozilla升级Firefox智能窗口，新增AI标签管理与网页检索",
-      "url": "https://www.aibase.com/news/30471",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-19T07:54:41.598700Z",
-      "category": "其他",
-      "score": 88,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9727,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "85d0f9822535635e",
-      "title": "软件团队中人工智能的使用模式",
-      "url": "https://linear.app/data",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-19T06:30:17.079000Z",
-      "category": "其他",
-      "score": 76,
-      "grade": "B",
-      "why_it_matters": "3 个来源信号；其他 方向；综合评分 76。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "linear.app"
-      ],
-      "summary": "",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9532,
-        "story_heat": 0.5
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "人工智能",
-        "软件"
       ]
     },
     {
@@ -802,14 +790,40 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "435bc9983d78fe71",
-      "title": "运动垂类AI迎来合规里程碑！Keep自研Keepace.ai正式完成国家大模型备案",
-      "url": "https://www.aibase.com/news/30477",
+      "id": "7422dd6a9d121690",
+      "title": "程序员福利再加码！Anthropic官方宣布Claude Code每周50%额度加成延长至8月31日",
+      "url": "https://www.aibase.com/news/30472",
       "source": "AIbase",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-19T10:46:31.174062Z",
+      "published_at": "2026-08-19T07:54:41.598700Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "e52222d222299f46",
+      "title": "腾讯大模型迎来人事大地震：姚顺雨掌舵基础模型",
+      "url": "https://www.aibase.com/news/30470",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T07:54:41.598700Z",
       "category": "模型",
       "score": 60,
       "grade": "B",
@@ -823,8 +837,32 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
+        "基础模型",
         "大模型"
       ]
+    },
+    {
+      "id": "57500ce3c742c31b",
+      "title": "千问APP上线七夕AI送花助手 还能测情侣默契度",
+      "url": "https://www.aibase.com/news/30466",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T07:05:32.359108Z",
+      "category": "产品",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 60。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "5cc9d5b4de3f734a",
@@ -3177,14 +3215,14 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "70fe7eeaa8613dd1",
-      "title": "国内首个人工与AI客服协同国家标准将于9月1日实施",
-      "url": "https://www.aibase.com/news/30476",
+      "id": "f05771a9cb0391df",
+      "title": "Mozilla升级Firefox智能窗口，新增AI标签管理与网页检索",
+      "url": "https://www.aibase.com/news/30471",
       "source": "AIbase",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-19T10:46:31.174062Z",
+      "published_at": "2026-08-19T07:54:41.598700Z",
       "category": "其他",
       "score": 52,
       "grade": "C",
@@ -4237,6 +4275,32 @@
       "title_zh": "人工智能让图书出版业陷入彻底混乱",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "85d0f9822535635e",
+      "title": "软件团队中人工智能的使用模式",
+      "url": "https://linear.app/data",
+      "source": "linear.app",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-19T06:30:17.079000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "linear.app"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能",
+        "软件"
+      ]
     },
     {
       "id": "fb25d8ab406c963c",
