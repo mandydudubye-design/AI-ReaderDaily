@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-22T04:30:46.741639Z",
+  "generated_at": "2026-08-22T05:25:20.716075Z",
   "items": [
     {
       "id": "ee13bdfdaa69ada9",
@@ -12,9 +12,9 @@
       "keyword": null,
       "published_at": "2026-08-21T11:49:31.581000Z",
       "category": "模型",
-      "score": 105,
+      "score": 107,
       "grade": "S",
-      "why_it_matters": "3 个来源信号；模型 方向；综合评分 105。",
+      "why_it_matters": "3 个来源信号；模型 方向；综合评分 107。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "DeepSeek：API 更新日志",
@@ -27,7 +27,7 @@
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8718,
+        "recency": 0.9365,
         "story_heat": 0.5
       },
       "ai_relevance_score": 0.65,
@@ -37,81 +37,49 @@
       ]
     },
     {
-      "id": "930313f870ba9fe9",
-      "title": "Slack 上的全新 GitHub Copilot 体验。 / The new GitHub Copilot experience in Slack",
-      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T16:07:15Z",
-      "category": "AI 编程",
-      "score": 104,
-      "grade": "S",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 104。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "summary": "",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9601,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "copilot"
-      ]
-    },
-    {
-      "id": "ab858f09acfafba7",
-      "title": "在 Microsoft Teams 中与 GitHub Copilot 共享智能体工作 / Shared agentic work with GitHub Copilot in Microsoft Teams",
-      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T16:03:36Z",
-      "category": "智能体",
-      "score": 104,
-      "grade": "S",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 104。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "summary": "",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9593,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "copilot",
-        "智能体"
-      ]
-    },
-    {
-      "id": "77caeb19784f49d6",
-      "title": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象 / Measuring benchmark optimization in speech recognition",
+      "id": "6a9e64f6ac8b1645",
+      "title": "衡量语音识别中的基准优化 / Measuring benchmark optimization in speech recognition",
       "url": "https://huggingface.co/blog/asr-benchmark-optimization",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
       "published_at": "2026-08-21T00:00:00Z",
-      "category": "模型",
-      "score": 102,
+      "category": "多模态",
+      "score": 103,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 102。",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 103。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.\nWe’re on a journey to advance and democratize artificial intelligence through open source and open science.\nReference disagreement (VoxPopuli case study) Masked Entity Retrieval Orthographic Switching Localizing the switches Conclusion Public voice AI benchmarks increasingly suggest that models are performing at human levels. Yet those scores don't always reflect how models work in the rea",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.8172,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "benchmark"
+      ]
+    },
+    {
+      "id": "d80f79550a00341a",
+      "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍 / Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-20T16:52:57Z",
+      "category": "模型",
+      "score": 101,
+      "grade": "S",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 101。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "Hugging Face Blog"
@@ -121,30 +89,30 @@
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7607,
+        "ai_relevance": 0.95,
+        "recency": 0.7374,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "hugging face",
-        "benchmark"
+        "推理"
       ]
     },
     {
-      "id": "8d8f18ee35e7a806",
-      "title": "更好的被屏蔽用户管理工具 / Better tools for managing blocked users",
-      "url": "https://github.blog/changelog/2026-08-21-better-tools-for-managing-blocked-users",
+      "id": "0d89795152f23eeb",
+      "title": "Windows 11 arm64 VS2026 镜像正式可用 / Windows 11 arm64 VS2026 image generally available",
+      "url": "https://github.blog/changelog/2026-08-20-windows-11-arm64-vs2026-image-generally-available",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-21T14:43:36Z",
-      "category": "其他",
-      "score": 95,
+      "published_at": "2026-08-20T17:52:38Z",
+      "category": "多模态",
+      "score": 99,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 95。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 99。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
       "source_names": [
         "GitHub Changelog"
       ],
@@ -154,44 +122,40 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.941,
+        "recency": 0.7481,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "243b59534814ca25",
-      "title": "AI 原生 SDLC 实战手册：Anthropic 如何用 Claude 重塑软件开发生命周期 / The AI-Native SDLC playbook",
-      "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
-      "source": "AI HOT",
+      "id": "fc5d21d45426f030",
+      "title": "代码扫描新增“已缓解”警报关闭原因 / Code scanning adds a mitigated alert dismissal reason",
+      "url": "https://github.blog/changelog/2026-08-20-code-scanning-adds-a-mitigated-alert-dismissal-reason",
+      "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-21T14:28:27.351000Z",
-      "category": "模型",
-      "score": 95,
+      "published_at": "2026-08-20T15:14:31Z",
+      "category": "AI 编程",
+      "score": 99,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 99。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
-        "Claude：Blog（网页）"
+        "GitHub Changelog"
       ],
-      "summary": "Anthropic 发布 AI 原生 SDLC 实战手册，提出将传统六阶段软件开发生命周期重构为 AI 嵌入各环节的闭环流程。手册指出，当代码不再是瓶颈时，规划、审查、部署等人速环节成为新约束，需通过 Claude 将需求压缩为 intent.md、以技能编码标准、用持续评测替代阶段门禁，并保留人工对关键代码的审查。",
-      "importance_label": "行业动态",
+      "summary": "",
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9376,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7201,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic",
-        "claude",
-        "软件"
-      ]
+      "ai_matched_keywords": []
     },
     {
       "id": "3732d5e688ea57b0",
@@ -203,9 +167,9 @@
       "keyword": null,
       "published_at": "2026-08-21T09:25:43.682000Z",
       "category": "模型",
-      "score": 95,
+      "score": 96,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
@@ -216,36 +180,7 @@
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8717,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "bad795611777f3c2",
-      "title": "SGLang 推出 Weight Cache Daemon，实现亚秒级引擎重启 / Blog Fast Engine Recovery： Sub-Second Engine Restart for SGLang via Weight Cache Daemon Nowadays， State-of-the-Art （SOTA） models are getting much bigger and reloading the model service after a crash is very expensive. Therefore， we are introducing the Weight Cache Daemon， a persistent GP… Ant Ling Infra Team （Ant Group）， Alibaba， SGLang Team",
-      "url": "https://www.lmsys.org/blog/2026-08-21-sglang-fast-recovery",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T17:56:25.415000Z",
-      "category": "产品",
-      "score": 95,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 95。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "LMSYS：Blog（Chatbot Arena 团队）"
-      ],
-      "summary": "SGLang 团队推出 Weight Cache Daemon，通过 CUDA IPC 零拷贝映射将模型权重加载从约 495 秒降至约 0.63 秒（约 785 倍加速），端到端启动时间减少 93.9%。该守护进程在 GPU 内存中持久化后量化权重，支持多实例共享和亚秒级主备切换，是 Fast Engine Recovery Framework 的第一阶段。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9857,
+        "recency": 0.9364,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -261,9 +196,9 @@
       "keyword": null,
       "published_at": "2026-08-21T11:59:48Z",
       "category": "其他",
-      "score": 94,
+      "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 95。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "Google DeepMind"
@@ -274,7 +209,7 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9046,
+        "recency": 0.9718,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -290,9 +225,9 @@
       "keyword": null,
       "published_at": "2026-08-21T10:48:10.708106Z",
       "category": "智能体",
-      "score": 94,
+      "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 95。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
         "AIbase"
@@ -303,7 +238,7 @@
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8892,
+        "recency": 0.9552,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.32,
@@ -319,9 +254,9 @@
       "keyword": null,
       "published_at": "2026-08-21T13:01:13Z",
       "category": "模型",
-      "score": 94,
+      "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "X：面壁智能 OpenBMB (@OpenBMB)"
@@ -332,13 +267,44 @@
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9181,
+        "recency": 0.9863,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "dataset",
         "开源"
+      ]
+    },
+    {
+      "id": "81a32da2f76bcb90",
+      "title": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率 / Agentic Search. More accurate and efficient results from your AI systems. The retrieval layer that helps AI systems navigate， read， and verify information inside and across even the most complex documents.",
+      "url": "https://mistral.ai/news/agentic-search",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-20T16:02:07.300000Z",
+      "category": "智能体",
+      "score": 95,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 95。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Mistral AI：News（网页）"
+      ],
+      "summary": "Mistral 发布 Agentic Search，通过 search、open、navigate、read、grep 五工具的多步检索循环，让模型在长文档与多来源中查找、定位并验证信息。",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.7284,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "eval"
       ]
     },
     {
@@ -351,9 +317,9 @@
       "keyword": null,
       "published_at": "2026-08-21T09:52:44.950634Z",
       "category": "模型",
-      "score": 94,
+      "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "AIbase"
@@ -364,7 +330,7 @@
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8774,
+        "recency": 0.9425,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -382,9 +348,9 @@
       "keyword": null,
       "published_at": "2026-08-21T09:52:44.950634Z",
       "category": "模型",
-      "score": 94,
+      "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "AIbase"
@@ -395,7 +361,7 @@
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8774,
+        "recency": 0.9425,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -414,9 +380,9 @@
       "keyword": null,
       "published_at": "2026-08-21T09:52:44.950634Z",
       "category": "产品",
-      "score": 94,
+      "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 94。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 95。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "AIbase"
@@ -427,72 +393,112 @@
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8774,
+        "recency": 0.9425,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "7e688574f23e3538",
-      "title": "Ling-3.0-flash 在 4 块 Blackwell GPU 上如何将批处理 1 解码延迟降低 54% / Blog Chasing the Batch-1 Floor： Ling-3.0-flash Speculative Decode on Blackwell Batch-1 decode keeps getting more important. Xiaomi MiMo， for example， announced MiMo-V2.5-Pro UltraSpeed in June， claiming 1，000 tok/s decode on a one-trillion-parameter MoE model. Batch 1 gives an … RadixArk SGLang Team， Ant Ling Infra Team",
-      "url": "https://www.lmsys.org/blog/2026-08-21-ling3-flash-spec-decode-blackwell",
-      "source": "AI HOT",
+      "id": "92c560de63a02a45",
+      "title": "OpenAI全面开源Codex Harness，AI编程智能体底层能力进一步开放",
+      "url": "https://www.aibase.com/news/30531",
+      "source": "AIbase",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-21T17:56:25.415000Z",
-      "category": "模型",
-      "score": 93,
+      "published_at": "2026-08-21T07:57:27.828300Z",
+      "category": "AI 编程",
+      "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 95。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
-        "LMSYS：Blog（Chatbot Arena 团队）"
+        "AIbase"
       ],
-      "summary": "蚂蚁 Ling Infra 团队与 RadixArk SGLang 团队将 Ling-3.0-flash 混合线性注意力 MoE 模型的单请求解码速度从 288 tok/s 提升至 606 tok/s，平均 TPOT 从 3.33 ms 降至 1.53 ms。",
+      "summary": "",
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.63,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9857,
+        "recency": 0.9167,
         "story_heat": 0.0
       },
-      "ai_relevance_score": 0.65,
+      "ai_relevance_score": 0.7,
       "ai_matched_keywords": [
-        "gpu"
+        "codex",
+        "openai",
+        "智能体",
+        "开源",
+        "编程"
       ]
     },
     {
-      "id": "6092bd52b00fd896",
-      "title": "Claude Mythos 5 网络安全能力扩展至更多防御者 / Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-      "source": "AI HOT",
+      "id": "83bf8da974b9e685",
+      "title": "阿里开源 Qwen-UI-Agent：真机多模态基座模型登场",
+      "url": "https://www.aibase.com/news/30530",
+      "source": "AIbase",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-21T17:58:29.461000Z",
+      "published_at": "2026-08-21T07:57:27.828300Z",
       "category": "模型",
-      "score": 93,
+      "score": 95,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Claude：Blog（网页）"
+        "AIbase"
       ],
-      "summary": "Anthropic 宣布 Claude Mythos 5 现已集成至 Claude Security，并即将登陆合作伙伴的网络安全防御工具。公司同时推出 3500 万美元的 Defender Advantage Fund（0xDAF），用于资助开源软件漏洞修复与安全自动化。",
+      "summary": "",
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.61,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9862,
+        "recency": 0.9167,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "claude"
+        "多模态",
+        "开源"
+      ]
+    },
+    {
+      "id": "dd368e399db17d00",
+      "title": "Vomit：用另一个LLM清理Claude 5的token输出 / Vomit: Clean up Claude 5's token output with a separate LLM",
+      "url": "https://news.ycombinator.com/item?id=49375996",
+      "source": "NewsNow",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-20T21:44:58.683000Z",
+      "category": "模型",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "5 个来源信号；模型 方向；综合评分 94。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "HN Algolia · AI 24h",
+        "Hacker News (黑客新闻)",
+        "github.com",
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7911,
+        "story_heat": 1.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "claude",
+        "llm"
       ]
     },
     {
@@ -504,6 +510,35 @@
       "discovery_mode": null,
       "keyword": null,
       "published_at": "2026-08-20T23:29:34Z",
+      "category": "其他",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 93。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8113,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "86f48c7c291e1bd5",
+      "title": "为 GitHub Code Quality 单独设置 GitHub Actions 路径 / Separate GitHub Actions path for GitHub Code Quality",
+      "url": "https://github.blog/changelog/2026-08-20-separate-github-actions-path-for-github-code-quality",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-20T14:29:27Z",
       "category": "其他",
       "score": 91,
       "grade": "A",
@@ -518,46 +553,40 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7552,
+        "recency": 0.7124,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "7c12f2392853e08e",
-      "title": "构建一个（几乎）完全自托管、沙箱化的 Agent 软件工厂 / Building an (almost) fully self-hosted, sandboxed, agentic software factory",
-      "url": "https://news.ycombinator.com/item?id=49390463",
-      "source": "NewsNow",
+      "id": "bb4abd851511483d",
+      "title": "在审计日志中追踪 GitHub Code Quality 启用变更 / Track GitHub Code Quality enablement changes in the audit log",
+      "url": "https://github.blog/changelog/2026-08-20-track-github-code-quality-enablement-changes-in-the-audit-log",
+      "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-21T18:31:56.086000Z",
-      "category": "智能体",
+      "published_at": "2026-08-20T14:28:41Z",
+      "category": "其他",
       "score": 91,
       "grade": "A",
-      "why_it_matters": "4 个来源信号；智能体 方向；综合评分 91。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 91。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Hacker News",
-        "Hacker News (黑客新闻)",
-        "hackernews"
+        "GitHub Changelog"
       ],
-      "summary": "I'm interested in hearing from folks who are hosting their own GPU to run coding models.  So far my own results are...  not great.  Seems like frontier models are needed via the big providers?\nreply\nStill, it's largely replaced the cheap tier of the frontiers that I would otherwise be using. It can be run with older GPUs (a 3090 is ~1k), but the time spent thinking will become a fairly noticeable impediment for staying in the flow. The next step up would be to run DeepSeek V4 Flash 0731 on two D",
-      "importance_label": "多源热议",
+      "summary": "",
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9941,
-        "story_heat": 0.75
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7122,
+        "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "sandbox",
-        "沙箱",
-        "软件"
-      ]
+      "ai_matched_keywords": []
     },
     {
       "id": "9064b7795eaad1a4",
@@ -569,9 +598,9 @@
       "keyword": null,
       "published_at": "2026-08-21T08:58:36.547886Z",
       "category": "其他",
-      "score": 86,
+      "score": 87,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 86。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 87。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "AIbase"
@@ -582,45 +611,11 @@
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.866,
+        "recency": 0.9303,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
-    },
-    {
-      "id": "5a3100c58f4cc2f4",
-      "title": "研究表明：人工智能使作业成绩提高了18%——随后考试成绩却下降了20%",
-      "url": "https://canews24.online/?p=71",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T17:25:45.772000Z",
-      "category": "其他",
-      "score": 83,
-      "grade": "A",
-      "why_it_matters": "4 个来源信号；其他 方向；综合评分 83。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News",
-        "Hacker News (黑客新闻)",
-        "canews24.online",
-        "hackernews"
-      ],
-      "summary": "",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9784,
-        "story_heat": 0.75
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "人工智能"
-      ]
     },
     {
       "id": "baf046c8fda4ab44",
@@ -771,61 +766,6 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "开源"
-      ]
-    },
-    {
-      "id": "92c560de63a02a45",
-      "title": "OpenAI全面开源Codex Harness，AI编程智能体底层能力进一步开放",
-      "url": "https://www.aibase.com/news/30531",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T07:57:27.828300Z",
-      "category": "AI 编程",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.7,
-      "ai_matched_keywords": [
-        "codex",
-        "openai",
-        "智能体",
-        "开源",
-        "编程"
-      ]
-    },
-    {
-      "id": "83bf8da974b9e685",
-      "title": "阿里开源 Qwen-UI-Agent：真机多模态基座模型登场",
-      "url": "https://www.aibase.com/news/30530",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T07:57:27.828300Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "多模态",
         "开源"
       ]
     },
@@ -4934,6 +4874,31 @@
       "title_zh": "自托管人工智能软件工厂",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "5a3100c58f4cc2f4",
+      "title": "研究表明：人工智能使作业成绩提高了18%——随后考试成绩却下降了20%",
+      "url": "https://canews24.online/?p=71",
+      "source": "canews24.online",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-21T17:25:45.772000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "canews24.online"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能"
+      ]
     },
     {
       "id": "44a537631823d835",
