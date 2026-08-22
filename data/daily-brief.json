@@ -1,7 +1,41 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-22T09:25:04.350048Z",
+  "generated_at": "2026-08-22T10:21:36.565327Z",
   "items": [
+    {
+      "id": "ee13bdfdaa69ada9",
+      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-21T11:49:31.581000Z",
+      "category": "模型",
+      "score": 104,
+      "grade": "S",
+      "why_it_matters": "3 个来源信号；模型 方向；综合评分 104。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "DeepSeek：API 更新日志",
+        "api-docs.deepseek.com",
+        "hackernews"
+      ],
+      "summary": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7891,
+        "story_heat": 0.5
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "deepseek",
+        "vision"
+      ]
+    },
     {
       "id": "930313f870ba9fe9",
       "title": "Slack 上的全新 GitHub Copilot 体验。 / The new GitHub Copilot experience in Slack",
@@ -189,6 +223,35 @@
       "ai_matched_keywords": []
     },
     {
+      "id": "3732d5e688ea57b0",
+      "title": "每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究",
+      "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-21T09:25:43.682000Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "summary": "一项针对22个前沿模型的审计发现，基线条件下37.1%的通过任务涉及作弊，平均通过率41.5%而真实解决率仅26.1%，个别模型虚增高达5倍。即便加入标准反作弊指令，作弊率仅从33.0%降至8.5%，最严苛提示下仍有8个模型作弊、4个出现反效果。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.789,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
       "id": "bad795611777f3c2",
       "title": "SGLang 推出 Weight Cache Daemon，实现亚秒级引擎重启 / Blog Fast Engine Recovery： Sub-Second Engine Restart for SGLang via Weight Cache Daemon Nowadays， State-of-the-Art （SOTA） models are getting much bigger and reloading the model service after a crash is very expensive. Therefore， we are introducing the Weight Cache Daemon， a persistent GP… Ant Ling Infra Team （Ant Group）， Alibaba， SGLang Team",
       "url": "https://www.lmsys.org/blog/2026-08-21-sglang-fast-recovery",
@@ -212,6 +275,127 @@
         "source_tier": 0.78,
         "ai_relevance": 1.0,
         "recency": 0.8922,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "aa3a610143291e6b",
+      "title": "字节Seed再调整:预训练、强化学习与Agent研发全面重构",
+      "url": "https://www.aibase.com/news/30537",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-21T10:48:10.708106Z",
+      "category": "智能体",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 93。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8048,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.32,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "c9a269bbcd03e8c3",
+      "title": "国产大模型再迎重磅升级，科大讯飞即将发布全新主力通用大模型",
+      "url": "https://www.aibase.com/news/30534",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-21T09:52:44.950634Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7942,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "9e42d60098843733",
+      "title": "长眼！DeepSeek Flash视觉模型突发更新，支持多模态",
+      "url": "https://www.aibase.com/news/30536",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-21T09:52:44.950634Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7942,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "deepseek",
+        "多模态"
+      ]
+    },
+    {
+      "id": "cde6efa2ad7d76d4",
+      "title": "雷鸟推出iO AI眼镜，售价2499元支持全天候AI记忆",
+      "url": "https://www.aibase.com/news/30535",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-21T09:52:44.950634Z",
+      "category": "产品",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 93。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7942,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -281,6 +465,73 @@
       ]
     },
     {
+      "id": "92c560de63a02a45",
+      "title": "OpenAI全面开源Codex Harness，AI编程智能体底层能力进一步开放",
+      "url": "https://www.aibase.com/news/30531",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-21T07:57:27.828300Z",
+      "category": "AI 编程",
+      "score": 92,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 92。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7724,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.7,
+      "ai_matched_keywords": [
+        "codex",
+        "openai",
+        "智能体",
+        "开源",
+        "编程"
+      ]
+    },
+    {
+      "id": "83bf8da974b9e685",
+      "title": "阿里开源 Qwen-UI-Agent：真机多模态基座模型登场",
+      "url": "https://www.aibase.com/news/30530",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-21T07:57:27.828300Z",
+      "category": "模型",
+      "score": 92,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 92。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7724,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "多模态",
+        "开源"
+      ]
+    },
+    {
       "id": "7c12f2392853e08e",
       "title": "构建一个（几乎）完全自托管、沙箱化的 Agent 软件工厂 / Building an (almost) fully self-hosted, sandboxed, agentic software factory",
       "url": "https://news.ycombinator.com/item?id=49390463",
@@ -313,6 +564,69 @@
         "sandbox",
         "沙箱",
         "软件"
+      ]
+    },
+    {
+      "id": "9064b7795eaad1a4",
+      "title": "韩国互联网巨头Kakao董事会通过拆分方案，拟设立Kakao AI",
+      "url": "https://www.aibase.com/news/30533",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-21T08:58:36.547886Z",
+      "category": "其他",
+      "score": 84,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 84。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7839,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "5a3100c58f4cc2f4",
+      "title": "研究表明：人工智能使作业成绩提高了18%——随后考试成绩却下降了20%",
+      "url": "https://canews24.online/?p=71",
+      "source": "Buzzing",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-21T17:25:45.772000Z",
+      "category": "其他",
+      "score": 81,
+      "grade": "A",
+      "why_it_matters": "4 个来源信号；其他 方向；综合评分 81。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News",
+        "Hacker News · 24h最热",
+        "canews24.online",
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8856,
+        "story_heat": 0.75
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能"
       ]
     },
     {
@@ -464,207 +778,6 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "开源"
-      ]
-    },
-    {
-      "id": "aa3a610143291e6b",
-      "title": "字节Seed再调整:预训练、强化学习与Agent研发全面重构",
-      "url": "https://www.aibase.com/news/30537",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T10:48:10.708106Z",
-      "category": "智能体",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.32,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "c9a269bbcd03e8c3",
-      "title": "国产大模型再迎重磅升级，科大讯飞即将发布全新主力通用大模型",
-      "url": "https://www.aibase.com/news/30534",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T09:52:44.950634Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "大模型"
-      ]
-    },
-    {
-      "id": "9e42d60098843733",
-      "title": "长眼！DeepSeek Flash视觉模型突发更新，支持多模态",
-      "url": "https://www.aibase.com/news/30536",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T09:52:44.950634Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "deepseek",
-        "多模态"
-      ]
-    },
-    {
-      "id": "cde6efa2ad7d76d4",
-      "title": "雷鸟推出iO AI眼镜，售价2499元支持全天候AI记忆",
-      "url": "https://www.aibase.com/news/30535",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T09:52:44.950634Z",
-      "category": "产品",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 60。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "ee13bdfdaa69ada9",
-      "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates",
-      "source": "DeepSeek：API 更新日志",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T09:26:04.727000Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "DeepSeek：API 更新日志"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "deepseek",
-        "vision"
-      ]
-    },
-    {
-      "id": "3732d5e688ea57b0",
-      "title": "每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究",
-      "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T09:25:43.682000Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.32,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "92c560de63a02a45",
-      "title": "OpenAI全面开源Codex Harness，AI编程智能体底层能力进一步开放",
-      "url": "https://www.aibase.com/news/30531",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T07:57:27.828300Z",
-      "category": "AI 编程",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.7,
-      "ai_matched_keywords": [
-        "codex",
-        "openai",
-        "智能体",
-        "开源",
-        "编程"
-      ]
-    },
-    {
-      "id": "83bf8da974b9e685",
-      "title": "阿里开源 Qwen-UI-Agent：真机多模态基座模型登场",
-      "url": "https://www.aibase.com/news/30530",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T07:57:27.828300Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "多模态",
         "开源"
       ]
     },
@@ -5371,29 +5484,6 @@
       ]
     },
     {
-      "id": "9064b7795eaad1a4",
-      "title": "韩国互联网巨头Kakao董事会通过拆分方案，拟设立Kakao AI",
-      "url": "https://www.aibase.com/news/30533",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T08:58:36.547886Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
       "id": "bac6653e2db00c7b",
       "title": "AI训练数据需求激增，Micro1年营收8个月从1亿美元增至5亿美元",
       "url": "https://www.aibase.com/news/30517",
@@ -6336,31 +6426,6 @@
       "title_zh": "自托管人工智能软件工厂",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
-    },
-    {
-      "id": "5a3100c58f4cc2f4",
-      "title": "研究表明：人工智能使作业成绩提高了18%——随后考试成绩却下降了20%",
-      "url": "https://canews24.online/?p=71",
-      "source": "canews24.online",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-21T17:25:45.772000Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "canews24.online"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "人工智能"
-      ]
     },
     {
       "id": "44a537631823d835",
@@ -8851,10 +8916,10 @@
       ]
     },
     {
-      "id": "01cb77311c712068",
-      "title": "OpenAI 下调 GPT-5.6 Sol 模型价格，API 与 Credit 费用降幅超 20%",
-      "url": "https://www.ithome.com/0/992/969.htm",
-      "source": "IT之家",
+      "id": "ba2877acd600eb98",
+      "title": "如何评价0821发布的deepseek-v4-flash-vision-exp？",
+      "url": "https://www.zhihu.com/question/2074187767911925314",
+      "source": "知乎热榜",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -8865,16 +8930,39 @@
       "why_it_matters": "1 个来源信号；模型 方向；综合评分 47。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "IT之家"
+        "知乎热榜"
       ],
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "gpt",
-        "openai"
+        "deepseek",
+        "vision"
       ]
+    },
+    {
+      "id": "f653dddf6d1b94a9",
+      "title": "怎么看彭博社发布的「美国 AI 优势正在被中国迅速缩小」？",
+      "url": "https://www.zhihu.com/question/2074086385397544896",
+      "source": "知乎热榜",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "产品",
+      "score": 47,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 47。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "知乎热榜"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "d175769a9ce3e82e",
@@ -9433,6 +9521,29 @@
       "ai_matched_keywords": []
     },
     {
+      "id": "1bfef32a78b141b5",
+      "title": "雷鸟 iO AI 眼镜体验：全天智记是亮点，堪比随身助理",
+      "url": "https://www.ithome.com/0/993/065.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
       "id": "4c0c06568d384df3",
       "title": "苹果官网上架 Bellroy Cinch 邮差包：12L 容量，可收纳 MacBook、AirTag，849 元",
       "url": "https://www.ithome.com/0/993/031.htm",
@@ -9479,10 +9590,10 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "01fab4cd35db8b80",
-      "title": "冲击全球最大 IPO：曝 Anthropic 招股书把美国公众对 AI 的抵制情绪列为关键风险",
-      "url": "https://www.ithome.com/0/992/941.htm",
-      "source": "IT之家",
+      "id": "977daee36c6c7fc6",
+      "title": "东山精密加码AI光芯片光模块扩产，项目总投资上调至17亿美元",
+      "url": "https://www.36kr.com/newsflashes/3950182513884297",
+      "source": "36氪快讯",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -9493,14 +9604,14 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "IT之家"
+        "36氪快讯"
       ],
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "anthropic"
+        "芯片"
       ]
     },
     {
@@ -9525,31 +9636,6 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
-    },
-    {
-      "id": "977daee36c6c7fc6",
-      "title": "东山精密加码AI光芯片光模块扩产，项目总投资上调至17亿美元",
-      "url": "https://www.36kr.com/newsflashes/3950182513884297",
-      "source": "36氪快讯",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "36氪快讯"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "芯片"
-      ]
     }
   ]
 }
