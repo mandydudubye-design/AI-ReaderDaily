@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-23T14:21:25.073291Z",
-  "total_stories": 263,
+  "generated_at": "2026-08-23T15:20:41.040618Z",
+  "total_stories": 258,
   "s_stories": 3,
-  "a_stories": 4,
+  "a_stories": 5,
   "stories": [
     {
       "story_id": "6c4007f63b282263",
@@ -168,11 +168,6 @@
       "category": "multi_source",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -286,263 +281,14 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 83,
           "source_count": 3
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 83,
+          "source_count": 3
         }
       ],
       "heat_delta": 2
-    },
-    {
-      "story_id": "0ec83a0c65225605",
-      "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-      "primary_url": "https://twitter.com/argofowl/status/2091150597374537729",
-      "source_count": 3,
-      "source_names": [
-        "HN Algolia · AI 24h",
-        "hackernews",
-        "twitter.com"
-      ],
-      "cluster_size": 3,
-      "item_count": 3,
-      "duplicate_count": 3,
-      "cluster_item_ids": [
-        "0ec83a0c65225605",
-        "ea3b256d132e2952",
-        "cd379beb39435cad"
-      ],
-      "cluster_items": [
-        {
-          "id": "0ec83a0c65225605",
-          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-          "url": "https://twitter.com/argofowl/status/2091150597374537729",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "HN Algolia · AI 24h",
-          "score": 60,
-          "grade": "B",
-          "published_at": "2026-08-22T16:58:49Z"
-        },
-        {
-          "id": "ea3b256d132e2952",
-          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-          "url": "https://news.ycombinator.com/item?id=49401549",
-          "source": "hackernews",
-          "source_name": "hackernews",
-          "score": 60,
-          "grade": "B",
-          "published_at": "2026-08-22T19:35:59.918000Z"
-        },
-        {
-          "id": "cd379beb39435cad",
-          "title": "Anthropic 似乎正在对 Claude Code 中的工作量降低程度进行 A/B 测试",
-          "url": "https://twitter.com/argofowl/status/2091150597374537729",
-          "source": "twitter.com",
-          "source_name": "twitter.com",
-          "score": 60,
-          "grade": "B",
-          "published_at": "2026-08-22T21:09:21.713000Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "0ec83a0c65225605",
-          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-          "url": "https://twitter.com/argofowl/status/2091150597374537729",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "HN Algolia · AI 24h",
-          "score": 60,
-          "grade": "B",
-          "published_at": "2026-08-22T16:58:49Z"
-        },
-        {
-          "id": "ea3b256d132e2952",
-          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-          "url": "https://news.ycombinator.com/item?id=49401549",
-          "source": "hackernews",
-          "source_name": "hackernews",
-          "score": 60,
-          "grade": "B",
-          "published_at": "2026-08-22T19:35:59.918000Z"
-        },
-        {
-          "id": "cd379beb39435cad",
-          "title": "Anthropic 似乎正在对 Claude Code 中的工作量降低程度进行 A/B 测试",
-          "url": "https://twitter.com/argofowl/status/2091150597374537729",
-          "source": "twitter.com",
-          "source_name": "twitter.com",
-          "score": 60,
-          "grade": "B",
-          "published_at": "2026-08-22T21:09:21.713000Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "0ec83a0c65225605",
-          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-          "url": "https://twitter.com/argofowl/status/2091150597374537729",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "HN Algolia · AI 24h",
-          "score": 60,
-          "grade": "B",
-          "published_at": "2026-08-22T16:58:49Z"
-        },
-        {
-          "id": "ea3b256d132e2952",
-          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-          "url": "https://news.ycombinator.com/item?id=49401549",
-          "source": "hackernews",
-          "source_name": "hackernews",
-          "score": 60,
-          "grade": "B",
-          "published_at": "2026-08-22T19:35:59.918000Z"
-        },
-        {
-          "id": "cd379beb39435cad",
-          "title": "Anthropic 似乎正在对 Claude Code 中的工作量降低程度进行 A/B 测试",
-          "url": "https://twitter.com/argofowl/status/2091150597374537729",
-          "source": "twitter.com",
-          "source_name": "twitter.com",
-          "score": 60,
-          "grade": "B",
-          "published_at": "2026-08-22T21:09:21.713000Z"
-        }
-      ],
-      "primary_item": {
-        "id": "0ec83a0c65225605",
-        "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-        "url": "https://twitter.com/argofowl/status/2091150597374537729",
-        "source": "HN Algolia · AI 24h",
-        "source_name": "HN Algolia · AI 24h",
-        "score": 60,
-        "grade": "B",
-        "published_at": "2026-08-22T16:58:49Z"
-      },
-      "earliest_at": "2026-08-22T16:58:49Z",
-      "latest_at": "2026-08-22T21:09:21.713000Z",
-      "importance_score": 81.0,
-      "importance_label": "S",
-      "importance_label_cn": "多源热议",
-      "category": "multi_source",
-      "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 13:30 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 14:19 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 15:19 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 16:21 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 17:19 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 18:28 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 19:21 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 20:20 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 21:19 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 22:20 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 23:18 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 01:13 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 03:00 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 04:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 05:27 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 06:38 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 07:32 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 08:27 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 09:25 (UTC)",
-          "score": 77,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-08-23 10:22 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 11:19 (UTC)",
-          "score": 77,
-          "source_count": 2
-        },
-        {
-          "ts": "2026-08-23 12:36 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 13:31 (UTC)",
-          "score": 60,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
     },
     {
       "story_id": "2a1cb756c33c30a3",
@@ -552,7 +298,7 @@
       "source_names": [
         "Hacker News",
         "hackernews",
-        "forum.level1techs.com"
+        "Buzzing"
       ],
       "cluster_size": 3,
       "item_count": 3,
@@ -587,10 +333,10 @@
           "id": "579926f15628545c",
           "title": "为什么你身边的LLM看起来比实际更“笨”",
           "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-          "source": "forum.level1techs.com",
-          "source_name": "forum.level1techs.com",
-          "score": 60,
-          "grade": "B",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 84,
+          "grade": "A",
           "published_at": "2026-08-22T22:29:26.810000Z"
         }
       ],
@@ -619,10 +365,10 @@
           "id": "579926f15628545c",
           "title": "为什么你身边的LLM看起来比实际更“笨”",
           "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-          "source": "forum.level1techs.com",
-          "source_name": "forum.level1techs.com",
-          "score": 60,
-          "grade": "B",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 84,
+          "grade": "A",
           "published_at": "2026-08-22T22:29:26.810000Z"
         }
       ],
@@ -651,10 +397,10 @@
           "id": "579926f15628545c",
           "title": "为什么你身边的LLM看起来比实际更“笨”",
           "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-          "source": "forum.level1techs.com",
-          "source_name": "forum.level1techs.com",
-          "score": 60,
-          "grade": "B",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 84,
+          "grade": "A",
           "published_at": "2026-08-22T22:29:26.810000Z"
         }
       ],
@@ -670,16 +416,11 @@
       },
       "earliest_at": "2026-08-22T18:14:16Z",
       "latest_at": "2026-08-22T22:29:26.810000Z",
-      "importance_score": 81.0,
+      "importance_score": 95.4,
       "importance_label": "S",
       "importance_label_cn": "多源热议",
       "category": "multi_source",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -792,6 +533,265 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "0ec83a0c65225605",
+      "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+      "primary_url": "https://twitter.com/argofowl/status/2091150597374537729",
+      "source_count": 3,
+      "source_names": [
+        "HN Algolia · AI 24h",
+        "hackernews",
+        "Buzzing"
+      ],
+      "cluster_size": 3,
+      "item_count": 3,
+      "duplicate_count": 3,
+      "cluster_item_ids": [
+        "0ec83a0c65225605",
+        "ea3b256d132e2952",
+        "cd379beb39435cad"
+      ],
+      "cluster_items": [
+        {
+          "id": "0ec83a0c65225605",
+          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+          "url": "https://twitter.com/argofowl/status/2091150597374537729",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "HN Algolia · AI 24h",
+          "score": 60,
+          "grade": "B",
+          "published_at": "2026-08-22T16:58:49Z"
+        },
+        {
+          "id": "ea3b256d132e2952",
+          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+          "url": "https://news.ycombinator.com/item?id=49401549",
+          "source": "hackernews",
+          "source_name": "hackernews",
+          "score": 60,
+          "grade": "B",
+          "published_at": "2026-08-22T19:35:59.918000Z"
+        },
+        {
+          "id": "cd379beb39435cad",
+          "title": "Anthropic 似乎正在对 Claude Code 中的工作量降低程度进行 A/B 测试",
+          "url": "https://twitter.com/argofowl/status/2091150597374537729",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 77,
+          "grade": "B",
+          "published_at": "2026-08-22T21:09:21.713000Z"
+        }
+      ],
+      "sources": [
+        {
+          "id": "0ec83a0c65225605",
+          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+          "url": "https://twitter.com/argofowl/status/2091150597374537729",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "HN Algolia · AI 24h",
+          "score": 60,
+          "grade": "B",
+          "published_at": "2026-08-22T16:58:49Z"
+        },
+        {
+          "id": "ea3b256d132e2952",
+          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+          "url": "https://news.ycombinator.com/item?id=49401549",
+          "source": "hackernews",
+          "source_name": "hackernews",
+          "score": 60,
+          "grade": "B",
+          "published_at": "2026-08-22T19:35:59.918000Z"
+        },
+        {
+          "id": "cd379beb39435cad",
+          "title": "Anthropic 似乎正在对 Claude Code 中的工作量降低程度进行 A/B 测试",
+          "url": "https://twitter.com/argofowl/status/2091150597374537729",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 77,
+          "grade": "B",
+          "published_at": "2026-08-22T21:09:21.713000Z"
+        }
+      ],
+      "items": [
+        {
+          "id": "0ec83a0c65225605",
+          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+          "url": "https://twitter.com/argofowl/status/2091150597374537729",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "HN Algolia · AI 24h",
+          "score": 60,
+          "grade": "B",
+          "published_at": "2026-08-22T16:58:49Z"
+        },
+        {
+          "id": "ea3b256d132e2952",
+          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+          "url": "https://news.ycombinator.com/item?id=49401549",
+          "source": "hackernews",
+          "source_name": "hackernews",
+          "score": 60,
+          "grade": "B",
+          "published_at": "2026-08-22T19:35:59.918000Z"
+        },
+        {
+          "id": "cd379beb39435cad",
+          "title": "Anthropic 似乎正在对 Claude Code 中的工作量降低程度进行 A/B 测试",
+          "url": "https://twitter.com/argofowl/status/2091150597374537729",
+          "source": "Buzzing",
+          "source_name": "Buzzing",
+          "score": 77,
+          "grade": "B",
+          "published_at": "2026-08-22T21:09:21.713000Z"
+        }
+      ],
+      "primary_item": {
+        "id": "0ec83a0c65225605",
+        "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+        "url": "https://twitter.com/argofowl/status/2091150597374537729",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "HN Algolia · AI 24h",
+        "score": 60,
+        "grade": "B",
+        "published_at": "2026-08-22T16:58:49Z"
+      },
+      "earliest_at": "2026-08-22T16:58:49Z",
+      "latest_at": "2026-08-22T21:09:21.713000Z",
+      "importance_score": 91.2,
+      "importance_label": "S",
+      "importance_label_cn": "多源热议",
+      "category": "multi_source",
+      "heat_trend": [
+        {
+          "ts": "2026-08-22 13:30 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 14:19 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 15:19 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 16:21 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 17:19 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 18:28 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 19:21 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 20:20 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 21:19 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 22:20 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 23:18 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 01:13 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 03:00 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 04:35 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 05:27 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 06:38 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 07:32 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 08:27 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 09:25 (UTC)",
+          "score": 77,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-08-23 10:22 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 11:19 (UTC)",
+          "score": 77,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-08-23 12:36 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -929,11 +929,6 @@
       "category": "multi_source",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 89,
-          "source_count": 4
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 88,
           "source_count": 4
@@ -1047,6 +1042,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 83,
           "source_count": 3
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 83,
+          "source_count": 3
         }
       ],
       "heat_delta": -2
@@ -1150,11 +1150,6 @@
       "importance_label_cn": "官方更新",
       "category": "multi_source",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 89,
-          "source_count": 4
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 88,
@@ -1267,6 +1262,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 77,
+          "source_count": 3
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 77,
           "source_count": 3
         }
@@ -1373,11 +1373,6 @@
       "category": "multi_source",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 89,
-          "source_count": 4
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 88,
           "source_count": 4
@@ -1491,9 +1486,169 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 77,
           "source_count": 3
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 77,
+          "source_count": 3
         }
       ],
       "heat_delta": -2
+    },
+    {
+      "story_id": "76d1779d290b25eb",
+      "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚\"冰丝带\"，666 支队伍竞技 51 赛项",
+      "primary_url": "https://www.ithome.com/0/993/105.htm",
+      "source_count": 1,
+      "source_names": [
+        "AI HOT"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "76d1779d290b25eb"
+      ],
+      "cluster_items": [
+        {
+          "id": "76d1779d290b25eb",
+          "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚\"冰丝带\"，666 支队伍竞技 51 赛项",
+          "url": "https://www.ithome.com/0/993/105.htm",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 86,
+          "grade": "A",
+          "published_at": "2026-08-22T14:13:48Z"
+        }
+      ],
+      "sources": [
+        {
+          "id": "76d1779d290b25eb",
+          "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚\"冰丝带\"，666 支队伍竞技 51 赛项",
+          "url": "https://www.ithome.com/0/993/105.htm",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 86,
+          "grade": "A",
+          "published_at": "2026-08-22T14:13:48Z"
+        }
+      ],
+      "items": [
+        {
+          "id": "76d1779d290b25eb",
+          "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚\"冰丝带\"，666 支队伍竞技 51 赛项",
+          "url": "https://www.ithome.com/0/993/105.htm",
+          "source": "AI HOT",
+          "source_name": "AI HOT",
+          "score": 86,
+          "grade": "A",
+          "published_at": "2026-08-22T14:13:48Z"
+        }
+      ],
+      "primary_item": {
+        "id": "76d1779d290b25eb",
+        "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚\"冰丝带\"，666 支队伍竞技 51 赛项",
+        "url": "https://www.ithome.com/0/993/105.htm",
+        "source": "AI HOT",
+        "source_name": "AI HOT",
+        "score": 86,
+        "grade": "A",
+        "published_at": "2026-08-22T14:13:48Z"
+      },
+      "earliest_at": "2026-08-22T14:13:48Z",
+      "latest_at": "2026-08-22T14:13:48Z",
+      "importance_score": 66.6,
+      "importance_label": "A",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-08-22 19:21 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 21:19 (UTC)",
+          "score": 86,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 22:20 (UTC)",
+          "score": 88,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-22 23:18 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 01:13 (UTC)",
+          "score": 86,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 03:00 (UTC)",
+          "score": 86,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 04:35 (UTC)",
+          "score": 86,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 05:27 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 06:38 (UTC)",
+          "score": 88,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 07:32 (UTC)",
+          "score": 86,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 08:27 (UTC)",
+          "score": 88,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 09:25 (UTC)",
+          "score": 86,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 10:22 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 11:19 (UTC)",
+          "score": 86,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 12:36 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 13:31 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
     },
     {
       "story_id": "ee68715b2196c591",
@@ -1594,11 +1749,6 @@
       "importance_label_cn": "官方更新",
       "category": "multi_source",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -1713,6 +1863,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 75,
           "source_count": 3
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 75,
+          "source_count": 3
         }
       ],
       "heat_delta": 2
@@ -1784,11 +1939,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 89,
-          "source_count": 4
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 88,
@@ -1903,6 +2053,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 77,
           "source_count": 3
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 77,
+          "source_count": 3
         }
       ],
       "heat_delta": -2
@@ -1974,11 +2129,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -2093,6 +2243,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -2164,11 +2319,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 67,
@@ -2281,6 +2431,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -2468,6 +2623,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -2539,11 +2699,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -2656,6 +2811,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -2730,11 +2890,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -2846,6 +3001,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -2920,11 +3080,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -3036,6 +3191,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -3153,6 +3313,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -3224,11 +3389,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -3341,6 +3501,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -3415,11 +3580,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 67,
           "source_count": 2
@@ -3531,6 +3691,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -3648,6 +3813,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -3719,11 +3889,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -3836,6 +4001,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -3953,6 +4123,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -4024,11 +4199,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -4141,6 +4311,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -4215,11 +4390,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 94,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 93,
           "source_count": 1
@@ -4331,6 +4501,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -4405,11 +4580,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -4521,6 +4691,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -4668,6 +4843,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -4739,11 +4919,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -4856,6 +5031,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -4973,6 +5153,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -5044,11 +5229,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -5161,6 +5341,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -5235,11 +5420,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 52,
           "source_count": 1
@@ -5353,6 +5533,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -5424,11 +5609,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 04:30 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 05:25 (UTC)",
           "score": 52,
@@ -5543,6 +5723,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -5614,11 +5799,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -5731,6 +5911,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -5805,11 +5990,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -5921,6 +6101,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -5995,11 +6180,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 52,
           "source_count": 1
@@ -6111,6 +6291,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -6185,11 +6370,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -6301,6 +6481,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -6418,6 +6603,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -6489,11 +6679,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 89,
-          "source_count": 4
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 88,
@@ -6608,6 +6793,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 77,
           "source_count": 3
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 77,
+          "source_count": 3
         }
       ],
       "heat_delta": -2
@@ -6679,11 +6869,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -6798,6 +6983,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -6869,11 +7059,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-21 21:22 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-21 22:22 (UTC)",
           "score": 52,
@@ -6988,6 +7173,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -7059,11 +7249,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -7176,6 +7361,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -7268,6 +7458,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -7339,11 +7534,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -7458,6 +7648,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -7529,11 +7724,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-21 21:22 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 11:19 (UTC)",
           "score": 60,
@@ -7648,6 +7838,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -7719,11 +7914,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -7836,6 +8026,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -7928,6 +8123,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -7999,11 +8199,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 89,
-          "source_count": 4
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 88,
@@ -8116,6 +8311,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 77,
+          "source_count": 3
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 77,
           "source_count": 3
         }
@@ -8190,11 +8390,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -8306,6 +8501,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -8380,11 +8580,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 75,
           "source_count": 2
@@ -8496,6 +8691,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -8570,11 +8770,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -8686,6 +8881,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -8778,6 +8978,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -8849,11 +9054,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 89,
-          "source_count": 4
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 88,
@@ -8968,6 +9168,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 77,
           "source_count": 3
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 77,
+          "source_count": 3
         }
       ],
       "heat_delta": -2
@@ -9056,6 +9261,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -9148,6 +9358,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -9236,6 +9451,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -9328,6 +9548,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -9418,6 +9643,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -9489,11 +9719,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-21 15:31 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-21 16:32 (UTC)",
           "score": 52,
@@ -9608,6 +9833,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -9696,6 +9926,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -9788,6 +10023,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -9876,6 +10116,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -9968,6 +10213,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -10056,6 +10306,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -10148,6 +10403,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -10220,11 +10480,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-21 11:24 (UTC)",
-          "score": 101,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-21 12:42 (UTC)",
           "score": 101,
           "source_count": 1
@@ -10261,6 +10516,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -10335,11 +10595,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-21 11:24 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-21 12:42 (UTC)",
           "score": 60,
           "source_count": 1
@@ -10391,6 +10646,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -10465,11 +10725,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -10581,6 +10836,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -10655,11 +10915,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 52,
           "source_count": 1
@@ -10773,6 +11028,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -10844,11 +11104,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 07:30 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 08:27 (UTC)",
           "score": 60,
@@ -10963,6 +11218,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -11034,11 +11294,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -11151,6 +11406,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -11243,6 +11503,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -11314,11 +11579,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -11431,6 +11691,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -11505,11 +11770,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -11621,6 +11881,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -11695,11 +11960,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -11811,6 +12071,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -11885,11 +12150,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -12001,6 +12261,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -12075,11 +12340,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -12191,6 +12451,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -12265,11 +12530,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -12381,6 +12641,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -12455,11 +12720,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 78,
           "source_count": 2
@@ -12571,6 +12831,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 74,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 74,
           "source_count": 2
         }
@@ -12645,11 +12910,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -12761,6 +13021,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -12835,11 +13100,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -12951,6 +13211,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -13025,11 +13290,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -13141,6 +13401,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -13215,11 +13480,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 101,
           "source_count": 2
@@ -13331,6 +13591,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 74,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 74,
           "source_count": 2
         }
@@ -13405,11 +13670,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -13521,6 +13781,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -13595,11 +13860,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -13711,6 +13971,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -13785,11 +14050,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -13901,6 +14161,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -13975,11 +14240,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 78,
           "source_count": 2
@@ -14091,6 +14351,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 74,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 74,
           "source_count": 2
         }
@@ -14165,11 +14430,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -14281,6 +14541,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -14355,11 +14620,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -14471,6 +14731,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -14545,11 +14810,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 91,
           "source_count": 1
@@ -14661,6 +14921,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -14735,11 +15000,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -14851,6 +15111,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -14925,11 +15190,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -15041,6 +15301,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -15115,11 +15380,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -15231,6 +15491,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -15305,11 +15570,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -15421,6 +15681,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -15495,11 +15760,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -15611,6 +15871,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -15685,11 +15950,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -15801,6 +16061,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -15875,11 +16140,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -15991,6 +16251,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -16065,11 +16330,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -16181,6 +16441,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -16255,11 +16520,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -16371,6 +16631,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -16445,11 +16710,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -16561,6 +16821,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -16635,11 +16900,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -16751,6 +17011,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -16825,11 +17090,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -16941,6 +17201,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -17015,11 +17280,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 101,
           "source_count": 1
@@ -17131,6 +17391,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -17205,11 +17470,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -17321,6 +17581,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -17395,11 +17660,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -17511,6 +17771,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -17585,11 +17850,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -17701,6 +17961,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -17775,11 +18040,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -17891,6 +18151,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -17965,11 +18230,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -18081,6 +18341,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -18155,11 +18420,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -18271,6 +18531,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -18345,11 +18610,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -18461,6 +18721,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -18535,11 +18800,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -18651,6 +18911,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -18725,11 +18990,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -18841,6 +19101,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -18915,11 +19180,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -19031,6 +19291,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -19105,11 +19370,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -19221,6 +19481,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -19295,11 +19560,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -19411,6 +19671,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -19485,11 +19750,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -19601,6 +19861,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -19675,11 +19940,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -19791,6 +20051,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -19865,11 +20130,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 75,
           "source_count": 2
@@ -19981,6 +20241,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -20055,11 +20320,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -20171,6 +20431,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -20245,11 +20510,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -20361,6 +20621,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -20435,11 +20700,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -20551,6 +20811,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -20625,11 +20890,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 78,
           "source_count": 2
@@ -20741,6 +21001,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 74,
+          "source_count": 2
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 74,
           "source_count": 2
         }
@@ -20815,11 +21080,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -20931,6 +21191,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -21005,11 +21270,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -21121,6 +21381,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -21195,11 +21460,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -21311,6 +21571,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -21385,11 +21650,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -21501,6 +21761,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -21575,11 +21840,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -21691,6 +21951,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -21765,11 +22030,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -21881,6 +22141,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -21955,11 +22220,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -22071,6 +22331,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -22145,11 +22410,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -22261,6 +22521,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -22335,11 +22600,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -22451,6 +22711,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -22525,11 +22790,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -22641,6 +22901,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -22715,11 +22980,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -22831,6 +23091,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -22905,11 +23170,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -23021,6 +23281,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -23095,11 +23360,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -23211,6 +23471,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -23285,11 +23550,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -23401,6 +23661,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -23475,11 +23740,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -23591,6 +23851,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -23665,11 +23930,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -23781,6 +24041,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -23855,11 +24120,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -23971,6 +24231,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -24045,11 +24310,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 101,
           "source_count": 1
@@ -24161,6 +24421,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -24235,11 +24500,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 101,
           "source_count": 1
@@ -24351,6 +24611,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -24425,11 +24690,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -24541,6 +24801,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -24615,11 +24880,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -24731,6 +24991,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -24805,11 +25070,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -24921,6 +25181,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -24995,11 +25260,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 101,
           "source_count": 1
@@ -25111,6 +25371,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -25185,11 +25450,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -25301,6 +25561,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -25375,11 +25640,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -25491,6 +25751,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -25565,11 +25830,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -25681,6 +25941,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -25755,11 +26020,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -25871,6 +26131,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -25945,11 +26210,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -26061,6 +26321,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 52,
           "source_count": 1
         }
@@ -26135,11 +26400,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 103,
           "source_count": 3
@@ -26251,6 +26511,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -26325,11 +26590,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -26441,6 +26701,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -26515,11 +26780,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -26631,6 +26891,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -26705,11 +26970,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 92,
           "source_count": 1
@@ -26821,6 +27081,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -26895,11 +27160,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -27011,6 +27271,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -27085,11 +27350,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -27201,6 +27461,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -27275,11 +27540,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -27391,6 +27651,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -27465,11 +27730,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -27581,6 +27841,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -27655,11 +27920,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -27771,6 +28031,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -27845,11 +28110,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -27961,6 +28221,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -28035,11 +28300,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 91,
           "source_count": 1
@@ -28151,6 +28411,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -28225,11 +28490,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -28341,6 +28601,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -28415,11 +28680,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 75,
           "source_count": 2
@@ -28531,6 +28791,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -28605,11 +28870,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -28721,6 +28981,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -28795,11 +29060,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -28911,6 +29171,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -28985,11 +29250,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -29101,6 +29361,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -29175,11 +29440,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -29291,6 +29551,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -29365,11 +29630,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -29481,6 +29741,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -29555,11 +29820,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -29671,6 +29931,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -29745,11 +30010,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -29861,6 +30121,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -29935,11 +30200,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -30051,6 +30311,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -30125,11 +30390,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -30241,6 +30501,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -30315,11 +30580,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -30431,6 +30691,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -30505,11 +30770,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -30621,6 +30881,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 52,
           "source_count": 1
         }
@@ -30695,11 +30960,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -30811,6 +31071,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -30885,11 +31150,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -31001,6 +31261,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -31188,6 +31453,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -31259,11 +31529,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -31378,6 +31643,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -31449,11 +31719,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -31568,6 +31833,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 68,
           "source_count": 2
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 68,
+          "source_count": 2
         }
       ],
       "heat_delta": 1
@@ -31639,11 +31909,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 52,
@@ -31756,6 +32021,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 52,
           "source_count": 1
         }
@@ -31873,6 +32143,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -31944,11 +32219,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -32061,6 +32331,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -32135,11 +32410,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -32251,6 +32521,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -32325,11 +32600,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 52,
           "source_count": 1
@@ -32441,6 +32711,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 52,
           "source_count": 1
         }
@@ -32515,11 +32790,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -32631,6 +32901,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -32705,11 +32980,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -32821,6 +33091,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -32895,11 +33170,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -33013,6 +33283,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -33084,11 +33359,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 04:30 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 05:25 (UTC)",
           "score": 52,
@@ -33203,6 +33473,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -33274,11 +33549,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -33391,6 +33661,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -33465,11 +33740,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -33583,6 +33853,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 57,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 57,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -33654,11 +33929,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-21 13:43 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-21 14:33 (UTC)",
           "score": 52,
@@ -33773,6 +34043,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -33844,11 +34119,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 89,
-          "source_count": 4
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 88,
@@ -33963,159 +34233,14 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 77,
           "source_count": 3
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 77,
+          "source_count": 3
         }
       ],
       "heat_delta": -2
-    },
-    {
-      "story_id": "76d1779d290b25eb",
-      "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚\"冰丝带\"，666 支队伍竞技 51 赛项",
-      "primary_url": "https://www.ithome.com/0/993/105.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "76d1779d290b25eb"
-      ],
-      "cluster_items": [
-        {
-          "id": "76d1779d290b25eb",
-          "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚\"冰丝带\"，666 支队伍竞技 51 赛项",
-          "url": "https://www.ithome.com/0/993/105.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "IT之家（RSS）",
-          "score": 52,
-          "grade": "C",
-          "published_at": "2026-08-22T14:13:48Z"
-        }
-      ],
-      "sources": [
-        {
-          "id": "76d1779d290b25eb",
-          "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚\"冰丝带\"，666 支队伍竞技 51 赛项",
-          "url": "https://www.ithome.com/0/993/105.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "IT之家（RSS）",
-          "score": 52,
-          "grade": "C",
-          "published_at": "2026-08-22T14:13:48Z"
-        }
-      ],
-      "items": [
-        {
-          "id": "76d1779d290b25eb",
-          "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚\"冰丝带\"，666 支队伍竞技 51 赛项",
-          "url": "https://www.ithome.com/0/993/105.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "IT之家（RSS）",
-          "score": 52,
-          "grade": "C",
-          "published_at": "2026-08-22T14:13:48Z"
-        }
-      ],
-      "primary_item": {
-        "id": "76d1779d290b25eb",
-        "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚\"冰丝带\"，666 支队伍竞技 51 赛项",
-        "url": "https://www.ithome.com/0/993/105.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "IT之家（RSS）",
-        "score": 52,
-        "grade": "C",
-        "published_at": "2026-08-22T14:13:48Z"
-      },
-      "earliest_at": "2026-08-22T14:13:48Z",
-      "latest_at": "2026-08-22T14:13:48Z",
-      "importance_score": 46.2,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-08-22 19:21 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 21:19 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 22:20 (UTC)",
-          "score": 88,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 23:18 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 01:13 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 03:00 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 04:35 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 05:27 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 06:38 (UTC)",
-          "score": 88,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 07:32 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 08:27 (UTC)",
-          "score": 88,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 09:25 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 10:22 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 11:19 (UTC)",
-          "score": 86,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 12:36 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 13:31 (UTC)",
-          "score": 52,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
     },
     {
       "story_id": "c062debfb4d901d4",
@@ -34258,6 +34383,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -34329,11 +34459,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -34446,6 +34571,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -34520,11 +34650,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -34638,6 +34763,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 57,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 57,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -34709,11 +34839,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -34828,6 +34953,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 68,
           "source_count": 2
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 68,
+          "source_count": 2
         }
       ],
       "heat_delta": 1
@@ -34899,11 +35029,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -35016,6 +35141,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -35090,11 +35220,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 91,
           "source_count": 1
@@ -35206,6 +35331,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -35280,11 +35410,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 75,
           "source_count": 2
@@ -35396,6 +35521,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -35470,11 +35600,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 52,
           "source_count": 1
@@ -35586,6 +35711,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -35703,6 +35833,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -35774,11 +35909,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 52,
@@ -35891,6 +36021,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 52,
           "source_count": 1
         }
@@ -35965,11 +36100,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -36081,6 +36211,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -36173,6 +36308,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -36244,11 +36384,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -36361,6 +36496,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -36435,11 +36575,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -36551,6 +36686,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -36625,11 +36765,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -36741,6 +36876,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -36815,11 +36955,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 89,
-          "source_count": 4
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 88,
           "source_count": 4
@@ -36931,6 +37066,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 77,
+          "source_count": 3
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 77,
           "source_count": 3
         }
@@ -37005,11 +37145,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -37121,6 +37256,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -37195,11 +37335,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 75,
           "source_count": 2
@@ -37311,6 +37446,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -37385,11 +37525,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -37501,6 +37636,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -37575,11 +37715,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -37691,6 +37826,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -37765,11 +37905,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -37881,6 +38016,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -37955,11 +38095,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -38071,6 +38206,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 52,
           "source_count": 1
         }
@@ -38161,6 +38301,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 52,
           "source_count": 1
         }
@@ -38258,6 +38403,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -38348,6 +38498,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -38419,11 +38574,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -38538,6 +38688,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -38626,6 +38781,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 52,
           "source_count": 1
         }
@@ -38718,6 +38878,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -38806,6 +38971,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 52,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 52,
           "source_count": 1
         }
@@ -38903,6 +39073,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -38993,6 +39168,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -39064,11 +39244,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-21 15:31 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-21 16:32 (UTC)",
           "score": 52,
@@ -39183,6 +39358,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -39273,6 +39453,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 52,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 52,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -39344,11 +39529,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
@@ -39463,110 +39643,10 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 60,
           "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "2dc0e52f1e3238da",
-      "title": "海尔发布全自主家用 AI 烹饪机器人“AI 厨天才”CR3：模仿大厨颠勺手法，蒸汽自清洁",
-      "primary_url": "https://www.ithome.com/0/993/187.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "2dc0e52f1e3238da"
-      ],
-      "cluster_items": [
-        {
-          "id": "2dc0e52f1e3238da",
-          "title": "海尔发布全自主家用 AI 烹饪机器人“AI 厨天才”CR3：模仿大厨颠勺手法，蒸汽自清洁",
-          "url": "https://www.ithome.com/0/993/187.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 47,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "2dc0e52f1e3238da",
-          "title": "海尔发布全自主家用 AI 烹饪机器人“AI 厨天才”CR3：模仿大厨颠勺手法，蒸汽自清洁",
-          "url": "https://www.ithome.com/0/993/187.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 47,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "2dc0e52f1e3238da",
-          "title": "海尔发布全自主家用 AI 烹饪机器人“AI 厨天才”CR3：模仿大厨颠勺手法，蒸汽自清洁",
-          "url": "https://www.ithome.com/0/993/187.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 47,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "2dc0e52f1e3238da",
-        "title": "海尔发布全自主家用 AI 烹饪机器人“AI 厨天才”CR3：模仿大厨颠勺手法，蒸汽自清洁",
-        "url": "https://www.ithome.com/0/993/187.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 47,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 43.2,
-      "importance_label": "B",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-08-23 07:32 (UTC)",
-          "score": 47,
-          "source_count": 1
         },
         {
-          "ts": "2026-08-23 08:27 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 09:25 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 10:22 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 11:19 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 12:36 (UTC)",
-          "score": 47,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 13:31 (UTC)",
-          "score": 47,
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 60,
           "source_count": 1
         }
       ],
@@ -39640,11 +39720,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -39758,6 +39833,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 57,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 57,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -39829,11 +39909,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-21 14:33 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-21 15:31 (UTC)",
           "score": 42,
@@ -39946,6 +40021,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -40048,150 +40128,10 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 37,
           "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "8d15c667403e1656",
-      "title": "OpenAI 投资的美国 AI 公司转用中国开源模型，基于 Kimi K3 打造专属法律 AI 模型",
-      "primary_url": "https://www.ithome.com/0/993/185.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "8d15c667403e1656"
-      ],
-      "cluster_items": [
+        },
         {
-          "id": "8d15c667403e1656",
-          "title": "OpenAI 投资的美国 AI 公司转用中国开源模型，基于 Kimi K3 打造专属法律 AI 模型",
-          "url": "https://www.ithome.com/0/993/185.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 37,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "8d15c667403e1656",
-          "title": "OpenAI 投资的美国 AI 公司转用中国开源模型，基于 Kimi K3 打造专属法律 AI 模型",
-          "url": "https://www.ithome.com/0/993/185.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 37,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "8d15c667403e1656",
-          "title": "OpenAI 投资的美国 AI 公司转用中国开源模型，基于 Kimi K3 打造专属法律 AI 模型",
-          "url": "https://www.ithome.com/0/993/185.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 37,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "8d15c667403e1656",
-        "title": "OpenAI 投资的美国 AI 公司转用中国开源模型，基于 Kimi K3 打造专属法律 AI 模型",
-        "url": "https://www.ithome.com/0/993/185.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 37,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 37.2,
-      "importance_label": "C",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-08-22 19:21 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 22:20 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-22 23:18 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 01:13 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 03:00 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 04:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 05:27 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 06:38 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 07:32 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 08:27 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 09:25 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 10:22 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 11:19 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 12:36 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 13:31 (UTC)",
-          "score": 60,
           "source_count": 1
         }
       ],
@@ -40264,11 +40204,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
@@ -40381,6 +40316,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -40455,11 +40395,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -40571,6 +40506,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -40645,11 +40585,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 32,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -40761,6 +40696,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -40835,11 +40775,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -40951,6 +40886,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -41025,11 +40965,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 91,
           "source_count": 1
@@ -41141,6 +41076,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -41215,11 +41155,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 92,
           "source_count": 1
@@ -41331,6 +41266,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -41405,11 +41345,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -41521,6 +41456,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -41595,11 +41535,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -41711,6 +41646,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -41785,11 +41725,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -41901,6 +41836,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -41975,11 +41915,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -42091,6 +42026,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -42165,11 +42105,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 102,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 101,
           "source_count": 1
@@ -42281,6 +42216,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -42355,11 +42295,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -42471,6 +42406,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 57,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 57,
           "source_count": 1
         }
@@ -42545,11 +42485,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 93,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 91,
           "source_count": 1
@@ -42661,6 +42596,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -42735,11 +42675,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -42851,6 +42786,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -42925,11 +42865,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 52,
           "source_count": 1
@@ -43041,6 +42976,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -43115,11 +43055,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 60,
           "source_count": 1
@@ -43231,6 +43166,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 60,
           "source_count": 1
         }
@@ -43305,11 +43245,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 57,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 57,
           "source_count": 1
@@ -43423,6 +43358,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 57,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 57,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -43493,7 +43433,13 @@
       "importance_label": "C",
       "importance_label_cn": "值得关注",
       "category": "watch",
-      "heat_trend": [],
+      "heat_trend": [
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 22,
+          "source_count": 1
+        }
+      ],
       "heat_delta": 0
     },
     {
@@ -43564,11 +43510,6 @@
       "category": "watch",
       "heat_trend": [
         {
-          "ts": "2026-08-21 11:24 (UTC)",
-          "score": 22,
-          "source_count": 1
-        },
-        {
           "ts": "2026-08-21 12:42 (UTC)",
           "score": 22,
           "source_count": 1
@@ -43586,6 +43527,11 @@
         {
           "ts": "2026-08-21 19:24 (UTC)",
           "score": 60,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 22,
           "source_count": 1
         }
       ],
@@ -43670,6 +43616,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 22,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 22,
           "source_count": 1
         }
@@ -43762,6 +43713,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 22,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 22,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -43833,11 +43789,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-21 17:27 (UTC)",
-          "score": 60,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-21 18:34 (UTC)",
           "score": 60,
@@ -43952,6 +43903,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 22,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 22,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -44023,11 +43979,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 22,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 22,
@@ -44142,8 +44093,82 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 22,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 22,
+          "source_count": 1
         }
       ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "6bc680573e1b174a",
+      "title": "加州伯克利数学教授撰文批评学生基础差，却被抓包“用 AI 写的”",
+      "primary_url": "https://www.ithome.com/0/993/309.htm",
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "6bc680573e1b174a"
+      ],
+      "cluster_items": [
+        {
+          "id": "6bc680573e1b174a",
+          "title": "加州伯克利数学教授撰文批评学生基础差，却被抓包“用 AI 写的”",
+          "url": "https://www.ithome.com/0/993/309.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 14,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "6bc680573e1b174a",
+          "title": "加州伯克利数学教授撰文批评学生基础差，却被抓包“用 AI 写的”",
+          "url": "https://www.ithome.com/0/993/309.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 14,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "6bc680573e1b174a",
+          "title": "加州伯克利数学教授撰文批评学生基础差，却被抓包“用 AI 写的”",
+          "url": "https://www.ithome.com/0/993/309.htm",
+          "source": "IT之家",
+          "source_name": "IT之家",
+          "score": 14,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "6bc680573e1b174a",
+        "title": "加州伯克利数学教授撰文批评学生基础差，却被抓包“用 AI 写的”",
+        "url": "https://www.ithome.com/0/993/309.htm",
+        "source": "IT之家",
+        "source_name": "IT之家",
+        "score": 14,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 23.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [],
       "heat_delta": 0
     },
     {
@@ -44215,6 +44240,11 @@
       "heat_trend": [
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 14,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 14,
           "source_count": 1
         }
@@ -44295,6 +44325,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 14,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 14,
           "source_count": 1
         }
@@ -44387,6 +44422,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 14,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 14,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -44465,6 +44505,11 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 14,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 14,
           "source_count": 1
         }
@@ -44557,494 +44602,9 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 14,
           "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "6c30407692fad1f0",
-      "title": "亿万投资人马克 · 库班：医生应该教患者如何用 AI 来辅助治疗",
-      "primary_url": "https://www.ithome.com/0/993/193.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "6c30407692fad1f0"
-      ],
-      "cluster_items": [
-        {
-          "id": "6c30407692fad1f0",
-          "title": "亿万投资人马克 · 库班：医生应该教患者如何用 AI 来辅助治疗",
-          "url": "https://www.ithome.com/0/993/193.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "6c30407692fad1f0",
-          "title": "亿万投资人马克 · 库班：医生应该教患者如何用 AI 来辅助治疗",
-          "url": "https://www.ithome.com/0/993/193.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "6c30407692fad1f0",
-          "title": "亿万投资人马克 · 库班：医生应该教患者如何用 AI 来辅助治疗",
-          "url": "https://www.ithome.com/0/993/193.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "6c30407692fad1f0",
-        "title": "亿万投资人马克 · 库班：医生应该教患者如何用 AI 来辅助治疗",
-        "url": "https://www.ithome.com/0/993/193.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 14,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 23.4,
-      "importance_label": "C",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-08-23 07:32 (UTC)",
-          "score": 14,
-          "source_count": 1
         },
         {
-          "ts": "2026-08-23 08:27 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 09:25 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 10:22 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 11:19 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 12:36 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 13:31 (UTC)",
-          "score": 14,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "6b53dd70282a1e2b",
-      "title": "《人类简史》作者赫拉利：现在就应抵制赋予 AI 权利",
-      "primary_url": "https://www.ithome.com/0/993/188.htm",
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "6b53dd70282a1e2b"
-      ],
-      "cluster_items": [
-        {
-          "id": "6b53dd70282a1e2b",
-          "title": "《人类简史》作者赫拉利：现在就应抵制赋予 AI 权利",
-          "url": "https://www.ithome.com/0/993/188.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "6b53dd70282a1e2b",
-          "title": "《人类简史》作者赫拉利：现在就应抵制赋予 AI 权利",
-          "url": "https://www.ithome.com/0/993/188.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "6b53dd70282a1e2b",
-          "title": "《人类简史》作者赫拉利：现在就应抵制赋予 AI 权利",
-          "url": "https://www.ithome.com/0/993/188.htm",
-          "source": "IT之家",
-          "source_name": "IT之家",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "6b53dd70282a1e2b",
-        "title": "《人类简史》作者赫拉利：现在就应抵制赋予 AI 权利",
-        "url": "https://www.ithome.com/0/993/188.htm",
-        "source": "IT之家",
-        "source_name": "IT之家",
-        "score": 14,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 23.4,
-      "importance_label": "C",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-08-23 07:32 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 08:27 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 09:25 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 10:22 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 11:19 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 12:36 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 13:31 (UTC)",
-          "score": 14,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "e77718fd6b2a3b32",
-      "title": "阿里巴巴拟配售 800 亿港元新股，全部投入 AI 建设，怎样解读这一操作？对市场有哪些影响？",
-      "primary_url": "https://www.zhihu.com/question/2074867306811881229",
-      "source_count": 1,
-      "source_names": [
-        "知乎热榜"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "e77718fd6b2a3b32"
-      ],
-      "cluster_items": [
-        {
-          "id": "e77718fd6b2a3b32",
-          "title": "阿里巴巴拟配售 800 亿港元新股，全部投入 AI 建设，怎样解读这一操作？对市场有哪些影响？",
-          "url": "https://www.zhihu.com/question/2074867306811881229",
-          "source": "知乎热榜",
-          "source_name": "知乎热榜",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "e77718fd6b2a3b32",
-          "title": "阿里巴巴拟配售 800 亿港元新股，全部投入 AI 建设，怎样解读这一操作？对市场有哪些影响？",
-          "url": "https://www.zhihu.com/question/2074867306811881229",
-          "source": "知乎热榜",
-          "source_name": "知乎热榜",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "e77718fd6b2a3b32",
-          "title": "阿里巴巴拟配售 800 亿港元新股，全部投入 AI 建设，怎样解读这一操作？对市场有哪些影响？",
-          "url": "https://www.zhihu.com/question/2074867306811881229",
-          "source": "知乎热榜",
-          "source_name": "知乎热榜",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "e77718fd6b2a3b32",
-        "title": "阿里巴巴拟配售 800 亿港元新股，全部投入 AI 建设，怎样解读这一操作？对市场有哪些影响？",
-        "url": "https://www.zhihu.com/question/2074867306811881229",
-        "source": "知乎热榜",
-        "source_name": "知乎热榜",
-        "score": 14,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 23.4,
-      "importance_label": "C",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-08-23 06:38 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 07:32 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 08:27 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 09:25 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 10:22 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 11:19 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 12:36 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 13:31 (UTC)",
-          "score": 14,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "e2d3cff9be60e183",
-      "title": "如何评价美国海军最新公开的 AIM-424“恶意”远程空空导弹？",
-      "primary_url": "https://www.zhihu.com/question/2074785102589072121",
-      "source_count": 1,
-      "source_names": [
-        "知乎热榜"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "e2d3cff9be60e183"
-      ],
-      "cluster_items": [
-        {
-          "id": "e2d3cff9be60e183",
-          "title": "如何评价美国海军最新公开的 AIM-424“恶意”远程空空导弹？",
-          "url": "https://www.zhihu.com/question/2074785102589072121",
-          "source": "知乎热榜",
-          "source_name": "知乎热榜",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "e2d3cff9be60e183",
-          "title": "如何评价美国海军最新公开的 AIM-424“恶意”远程空空导弹？",
-          "url": "https://www.zhihu.com/question/2074785102589072121",
-          "source": "知乎热榜",
-          "source_name": "知乎热榜",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "e2d3cff9be60e183",
-          "title": "如何评价美国海军最新公开的 AIM-424“恶意”远程空空导弹？",
-          "url": "https://www.zhihu.com/question/2074785102589072121",
-          "source": "知乎热榜",
-          "source_name": "知乎热榜",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "e2d3cff9be60e183",
-        "title": "如何评价美国海军最新公开的 AIM-424“恶意”远程空空导弹？",
-        "url": "https://www.zhihu.com/question/2074785102589072121",
-        "source": "知乎热榜",
-        "source_name": "知乎热榜",
-        "score": 14,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 23.4,
-      "importance_label": "C",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-08-23 13:31 (UTC)",
-          "score": 14,
-          "source_count": 1
-        }
-      ],
-      "heat_delta": 0
-    },
-    {
-      "story_id": "be500edd5d7edef5",
-      "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
-      "primary_url": "https://www.36kr.com/newsflashes/3951853799963777",
-      "source_count": 1,
-      "source_names": [
-        "36氪快讯"
-      ],
-      "cluster_size": 1,
-      "item_count": 1,
-      "duplicate_count": 1,
-      "cluster_item_ids": [
-        "be500edd5d7edef5"
-      ],
-      "cluster_items": [
-        {
-          "id": "be500edd5d7edef5",
-          "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
-          "url": "https://www.36kr.com/newsflashes/3951853799963777",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "sources": [
-        {
-          "id": "be500edd5d7edef5",
-          "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
-          "url": "https://www.36kr.com/newsflashes/3951853799963777",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "items": [
-        {
-          "id": "be500edd5d7edef5",
-          "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
-          "url": "https://www.36kr.com/newsflashes/3951853799963777",
-          "source": "36氪快讯",
-          "source_name": "36氪快讯",
-          "score": 14,
-          "grade": "C",
-          "published_at": null
-        }
-      ],
-      "primary_item": {
-        "id": "be500edd5d7edef5",
-        "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
-        "url": "https://www.36kr.com/newsflashes/3951853799963777",
-        "source": "36氪快讯",
-        "source_name": "36氪快讯",
-        "score": 14,
-        "grade": "C",
-        "published_at": null
-      },
-      "earliest_at": null,
-      "latest_at": null,
-      "importance_score": 23.4,
-      "importance_label": "C",
-      "importance_label_cn": "值得关注",
-      "category": "watch",
-      "heat_trend": [
-        {
-          "ts": "2026-08-23 09:25 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 10:22 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 11:19 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 12:36 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
-        {
-          "ts": "2026-08-23 13:31 (UTC)",
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 14,
           "source_count": 1
         }
@@ -45118,11 +44678,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 08:27 (UTC)",
-          "score": 52,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 09:25 (UTC)",
           "score": 52,
@@ -45237,6 +44792,11 @@
           "ts": "2026-08-23 13:31 (UTC)",
           "score": 14,
           "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 14,
+          "source_count": 1
         }
       ],
       "heat_delta": 0
@@ -45308,11 +44868,6 @@
       "importance_label_cn": "值得关注",
       "category": "watch",
       "heat_trend": [
-        {
-          "ts": "2026-08-22 12:35 (UTC)",
-          "score": 14,
-          "source_count": 1
-        },
         {
           "ts": "2026-08-22 13:30 (UTC)",
           "score": 14,
@@ -45425,6 +44980,111 @@
         },
         {
           "ts": "2026-08-23 13:31 (UTC)",
+          "score": 14,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
+          "score": 14,
+          "source_count": 1
+        }
+      ],
+      "heat_delta": 0
+    },
+    {
+      "story_id": "be500edd5d7edef5",
+      "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
+      "primary_url": "https://www.36kr.com/newsflashes/3951853799963777",
+      "source_count": 1,
+      "source_names": [
+        "36氪快讯"
+      ],
+      "cluster_size": 1,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "cluster_item_ids": [
+        "be500edd5d7edef5"
+      ],
+      "cluster_items": [
+        {
+          "id": "be500edd5d7edef5",
+          "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
+          "url": "https://www.36kr.com/newsflashes/3951853799963777",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 14,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "be500edd5d7edef5",
+          "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
+          "url": "https://www.36kr.com/newsflashes/3951853799963777",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 14,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "items": [
+        {
+          "id": "be500edd5d7edef5",
+          "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
+          "url": "https://www.36kr.com/newsflashes/3951853799963777",
+          "source": "36氪快讯",
+          "source_name": "36氪快讯",
+          "score": 14,
+          "grade": "C",
+          "published_at": null
+        }
+      ],
+      "primary_item": {
+        "id": "be500edd5d7edef5",
+        "title": "中钨高新：子公司拟投1.9亿元实施AI高速高频PCB用高精密微型刀具技改扩能项目",
+        "url": "https://www.36kr.com/newsflashes/3951853799963777",
+        "source": "36氪快讯",
+        "source_name": "36氪快讯",
+        "score": 14,
+        "grade": "C",
+        "published_at": null
+      },
+      "earliest_at": null,
+      "latest_at": null,
+      "importance_score": 23.4,
+      "importance_label": "C",
+      "importance_label_cn": "值得关注",
+      "category": "watch",
+      "heat_trend": [
+        {
+          "ts": "2026-08-23 09:25 (UTC)",
+          "score": 14,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 10:22 (UTC)",
+          "score": 14,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 11:19 (UTC)",
+          "score": 14,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 12:36 (UTC)",
+          "score": 14,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 13:31 (UTC)",
+          "score": 14,
+          "source_count": 1
+        },
+        {
+          "ts": "2026-08-23 14:21 (UTC)",
           "score": 14,
           "source_count": 1
         }
