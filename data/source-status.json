@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-25T09:33:36.220342Z",
+  "generated_at": "2026-08-25T10:30:57.041089Z",
   "source_count": 252,
-  "successful_sites": 186,
-  "failed_sites": 66,
-  "zero_item_sites": 244,
+  "successful_sites": 187,
+  "failed_sites": 65,
+  "zero_item_sites": 243,
   "total_items": 1962,
-  "total_ai_items": 145,
+  "total_ai_items": 146,
   "ai_pct_total": 7.4,
   "sites": [
     {
@@ -16,10 +16,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 16,
-      "ai_count": 16,
+      "item_count": 20,
+      "ai_count": 20,
       "ai_pct": 100.0,
-      "fetch_duration_s": 0.08,
+      "fetch_duration_s": 0.06,
       "note": ""
     },
     {
@@ -30,10 +30,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 238,
-      "ai_count": 129,
-      "ai_pct": 54.2,
-      "fetch_duration_s": 0.07,
+      "item_count": 234,
+      "ai_count": 126,
+      "ai_pct": 53.8,
+      "fetch_duration_s": 0.09,
       "note": ""
     },
     {
@@ -47,7 +47,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.16,
+      "fetch_duration_s": 0.33,
       "note": ""
     },
     {
@@ -61,7 +61,7 @@
       "item_count": 828,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.37,
+      "fetch_duration_s": 0.11,
       "note": ""
     },
     {
@@ -75,7 +75,7 @@
       "item_count": 20,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.15,
+      "fetch_duration_s": 0.18,
       "note": ""
     },
     {
@@ -89,7 +89,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.72,
+      "fetch_duration_s": 0.73,
       "note": ""
     },
     {
@@ -103,7 +103,7 @@
       "item_count": 846,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.09,
+      "fetch_duration_s": 0.1,
       "note": ""
     },
     {
@@ -117,7 +117,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.34,
+      "fetch_duration_s": 0.41,
       "note": ""
     },
     {
@@ -131,7 +131,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 2.11,
+      "fetch_duration_s": 0.04,
       "note": ""
     },
     {
@@ -145,7 +145,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 2.28,
+      "fetch_duration_s": 2.36,
       "note": "中文综合科技，混有 AI 内容，radar.py 按关键词过滤"
     },
     {
@@ -159,21 +159,21 @@
       "item_count": 7,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 3.42,
+      "fetch_duration_s": 3.52,
       "note": "中文科技综合，含 AI 新闻"
     },
     {
       "site_id": "rss_zhihu_hot",
       "site_name": "知乎热榜",
-      "ok": false,
+      "ok": true,
       "enabled": true,
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 0,
+      "item_count": 1,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 27.22,
+      "fetch_duration_s": 1.7,
       "note": "知乎全站热榜，混合话题，radar.py 按关键词过滤 AI 内容"
     },
     {
@@ -187,7 +187,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 24.69,
+      "fetch_duration_s": 1.08,
       "note": "知乎日报精选，混合话题"
     },
     {
@@ -198,10 +198,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 3,
+      "item_count": 2,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.9,
+      "fetch_duration_s": 0.47,
       "note": "36氪实时快讯，作者按关键词筛选 AI 内容"
     },
     {
@@ -215,7 +215,7 @@
       "item_count": 4,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 2.76,
+      "fetch_duration_s": 0.73,
       "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
     },
     {
@@ -271,7 +271,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 技术与产业评论"
     },
     {
@@ -285,7 +285,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "AI 工具与产品体验"
     },
     {
@@ -313,7 +313,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "腾讯混元大模型官方动态"
     },
     {
@@ -327,7 +327,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "MiniCPM 等端侧模型"
     },
     {
@@ -341,7 +341,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "小红书 AI 技术团队（dots.llm 等），间接覆盖小红书官方技术信号"
     },
     {
@@ -355,7 +355,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "文心大模型与百度 AI 云动态"
     },
     {
@@ -397,7 +397,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.02,
+      "fetch_duration_s": 0.01,
       "note": "AI 应用教程与工具评测"
     },
     {
@@ -411,7 +411,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -425,7 +425,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -439,7 +439,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -481,7 +481,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -579,7 +579,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -607,7 +607,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -705,7 +705,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -719,7 +719,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -733,7 +733,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -775,7 +775,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -887,7 +887,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -999,7 +999,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -1041,7 +1041,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -1083,7 +1083,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -1167,7 +1167,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1181,7 +1181,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1195,7 +1195,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1209,7 +1209,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1223,7 +1223,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1237,7 +1237,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1265,7 +1265,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1279,7 +1279,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1293,7 +1293,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1307,7 +1307,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1321,7 +1321,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1335,7 +1335,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1349,7 +1349,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1461,7 +1461,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1475,7 +1475,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1489,7 +1489,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1531,7 +1531,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1545,7 +1545,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1559,7 +1559,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1573,7 +1573,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1629,7 +1629,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1643,7 +1643,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1657,7 +1657,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1671,7 +1671,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1685,7 +1685,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1699,7 +1699,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1713,7 +1713,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1727,7 +1727,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1741,7 +1741,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1755,7 +1755,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1769,7 +1769,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1783,7 +1783,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1797,7 +1797,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1811,7 +1811,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1825,7 +1825,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1839,7 +1839,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1853,7 +1853,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1867,7 +1867,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1881,7 +1881,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1895,7 +1895,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1909,7 +1909,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1951,7 +1951,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1965,7 +1965,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1979,7 +1979,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -1993,7 +1993,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2007,7 +2007,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2021,7 +2021,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2035,7 +2035,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2049,7 +2049,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2063,7 +2063,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2077,7 +2077,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2091,7 +2091,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2105,7 +2105,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2119,7 +2119,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2133,7 +2133,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2147,7 +2147,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2161,7 +2161,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2175,7 +2175,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2483,7 +2483,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2497,7 +2497,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -3113,7 +3113,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "Chatbot Arena"
     },
     {
@@ -3127,7 +3127,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 资讯/The Rundown"
     },
     {
@@ -3141,7 +3141,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 编程平台"
     },
     {
@@ -3155,7 +3155,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "GAN 作者"
     },
     {
@@ -3169,7 +3169,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 安全/FLI"
     },
     {
@@ -3239,7 +3239,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "Abacus AI"
     },
     {
@@ -3253,7 +3253,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 工具资讯"
     },
     {
@@ -3295,7 +3295,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI视频/MJ+Seedance"
     },
     {
@@ -3309,7 +3309,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI编程/AGENTS.md"
     },
     {
