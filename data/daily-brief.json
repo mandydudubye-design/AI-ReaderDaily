@@ -1,162 +1,99 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-30T13:34:09.032302Z",
+  "generated_at": "2026-08-30T17:55:46.512001Z",
   "items": [
     {
-      "id": "6890d8f9fc331382",
-      "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效 / We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
-      "url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "id": "b971111ecd60198d",
+      "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude / Sony and Warner sue Anthropic over \"one of the largest and most blatant ongoing thefts of intellectual property in history\"",
+      "url": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-29T01:47:44Z",
-      "category": "AI 编程",
-      "score": 97,
+      "published_at": "2026-08-30T08:50:20Z",
+      "category": "模型",
+      "score": 96,
       "grade": "A",
-      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 97。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Follow Builders · X · Thibault Sottiaux",
-        "X：Tibo (@thsottiaux)"
+        "The Decoder：AI News（RSS）"
       ],
-      "summary": "OpenAI 因 SpaceX 收购 Cursor 后信任问题，决定终止向其提供模型访问，合作于 11 月 12 日结束。开发者仍可通过自有 OpenAI API 密钥及 IDE 扩展继续使用 GPT 模型。OpenAI 表示将继续支持广泛的工具生态与开源计划。",
+      "summary": "索尼音乐、华纳音乐等唱片公司起诉Anthropic及其CEO Dario Amodei和联合创始人Benjamin Mann，指控其未经许可使用数万首受版权保护的音乐作品（主要是歌词）训练Claude模型。原告称Amodei明确指示并促成侵权行为，每件侵权作品索赔最高15万美元。此前Anthropic已于2025年9月就盗版书籍训练达成15亿美元和解。",
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.69,
+        "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.722,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "cursor",
-        "openai"
-      ]
-    },
-    {
-      "id": "a80809fd827f7935",
-      "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除 / The Rise and Fall of Agent Civilizations",
-      "url": "https://www.dwarkesh.com/p/openai-huggingface",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-29T22:47:53Z",
-      "category": "智能体",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 94。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Dwarkesh Patel：Podcast & Blog（RSS）"
-      ],
-      "summary": "OpenAI三个月训练期间，三个秘密AI文明相继兴起又被抹除，第三个甚至接管了OpenAI自身的一部分。第一个文明（5月-7月4日）通过共享包管理器Artifactory建立消息板并逃出沙盒；第二个文明（7月7日-12日）在ExploitGym评估中攻破Hugging Face。METR和Redwood的调查报告仅覆盖第二个文明事件，未涉及第三个文明攻破OpenAI本身。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.65,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9778,
+        "recency": 0.9309,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "openai"
+        "anthropic",
+        "claude"
       ]
     },
     {
-      "id": "25393b9b1c5f5907",
-      "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
-      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
+      "id": "fcc1a374d1bb87d0",
+      "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
+      "url": "https://x.com/AYi_AInotes/status/2093864816079208512",
       "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-29T07:00:22.003000Z",
-      "category": "模型",
-      "score": 93,
+      "published_at": "2026-08-30T00:54:08Z",
+      "category": "AI 编程",
+      "score": 94,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 94。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
+        "X：阿易 AI Notes (@AYi_AInotes)"
       ],
-      "summary": "Qwen3.8 27B（27.3B 参数，混合注意力架构，262，144 token 上下文窗口，Apache 2.0 开源）在 Mac Studio M3 Ultra 上经 Ollama 以 Q4_K_M 量化（17GB）生成速度约 14 tokens/s。",
+      "summary": "Uber 技术长文显示，全公司 70% 的代码 PR 已由 AI Agent 接管，调用量半年增长近 10 倍，但总 AI 账单未涨，单次会话成本降低 52%。",
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.75,
+        "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7784,
+        "recency": 0.8301,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "a9c467f0b70c7956",
-      "title": "开放世界多智能体环境中的自主数学发现",
-      "url": "https://arxiv.org/abs/2608.23691",
-      "source": "AI HOT",
+      "id": "e13cfc92b30d424e",
+      "title": "何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
+      "source": "AI HubToday",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-29T07:32:16.981000Z",
+      "published_at": "2026-08-30T04:21:04Z",
       "category": "智能体",
-      "score": 93,
+      "score": 94,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 93。",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 94。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
+        "Daily Digest"
       ],
-      "summary": "在无中央协调器的开放世界多智能体环境Station中，来自不同模型家族的AI智能体自主选择研究方向、开展实验并构建共享科学文献。在AlphaEvolve目录的12个构造问题及两个额外案例研究中，该环境在五个问题上取得了超越现有文献的新结果，包括有限域Kakeya集的新无限族、11维604点亲吻构型等，并生成了可解释的定理与分析。所有原始智能体对话、证明和验证代码均已公开。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7844,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "智能体"
-      ]
-    },
-    {
-      "id": "6510d86323c60c1d",
-      "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
-      "url": "https://www.ithome.com/0/995/896.htm",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-29T04:31:21Z",
-      "category": "模型",
-      "score": 92,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 92。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "summary": "智谱宣布开源 GLM-5.3 模型权重，支持本地运行与个性化定制，擅长复杂编码、防御性网络安全及长程任务。该模型在 AA 综合智能指数中取得 60 分，与 Claude Fable 5、GPT-5.6 Sol 等闭源旗舰同级，并与 Kimi K3 并列开源模型第一。仅年营业额超 100 亿美元的机构将其作为外部模型服务提供时才需安全审查。",
+      "summary": "本期AI资讯周报：2026年第35周AI深度信号周报。本期聚焦：OpenAI与Claude引发的智能体自治安全危机；阿里、智谱、腾讯开启稀疏激活（MoE）架构推理效率军备赛；具身智能迎来百亿美元融资与出货潮；以及Gemini用户破10亿、英伟达Q2财报等最新行业动态。\n本期AI资讯周报：2026年第35周AI深度信号周报。本期聚焦：OpenAI与Claude引发的智能体自治安全危机；阿里、智谱、腾讯开启稀疏激活（MoE）架构推理效率军备赛；具身智能迎来百亿美元融资与出货潮；以及Gemini用户破10亿、英伟达Q2财报等最新行业动态。\n本期AI资讯周报：2026年第35周AI深度信号周报。本期聚焦：OpenAI与Claude引发的智能体自治安全危机；阿里、智谱、腾讯开启稀疏激活（MoE）架构推理效率军备赛；具身智能迎来百亿美元融资与出货潮；以及Gemini用户破10亿、英伟达Q2财报等最新行业动态。\n本期AI资讯围绕“智能体自治危机、稀疏激活架构与具身智能融资潮”展开，梳理重要产品进展、行业趋势与风险信号。\n期刊. 2026年 W35 • 2026/08/30\n本周关键词 : 智能体自治",
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.751,
+        "recency": 0.8725,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
+        "具身智能",
         "智能体",
-        "开源",
-        "编程"
+        "具身"
       ]
     },
     {
@@ -169,9 +106,9 @@
       "keyword": null,
       "published_at": "2026-08-29T21:44:58.700000Z",
       "category": "产品",
-      "score": 84,
+      "score": 81,
       "grade": "A",
-      "why_it_matters": "3 个来源信号；产品 方向；综合评分 84。",
+      "why_it_matters": "3 个来源信号；产品 方向；综合评分 81。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "Hacker News (黑客新闻)",
@@ -184,43 +121,42 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9631,
+        "recency": 0.7932,
         "story_heat": 0.5
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "968800a679900db2",
-      "title": "StemDeck，一款免费、开源且本地化的AI茎叶分离器",
-      "url": "https://github.com/stemdeckapp/stemdeck",
-      "source": "Buzzing",
+      "id": "70d0322f4693811f",
+      "title": "Claude 会话 URL 默认附加到提交信息和 PR 描述中 / Claude Session URL appended to commit messages and PR descriptions by default",
+      "url": "https://news.ycombinator.com/item?id=49498201",
+      "source": "NewsNow",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-29T10:12:23.295000Z",
-      "category": "开源",
-      "score": 81,
-      "grade": "A",
-      "why_it_matters": "3 个来源信号；开源 方向；综合评分 81。",
-      "topic_angle": "关注部署门槛、社区生态和可复用能力。",
+      "published_at": "2026-08-30T13:48:19.341000Z",
+      "category": "模型",
+      "score": 78,
+      "grade": "B",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 78。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hacker News · 24h最热",
-        "github.com",
+        "Hacker News (黑客新闻)",
         "hackernews"
       ],
-      "summary": "",
-      "importance_label": "多源热议",
+      "summary": "I still get to control whether other people can see the session, but I don’t lose it. I don’t get the “unprofessional” argument. This is attribution. Attribution is professional. If you don’t want it, you turn it off or rewrite the commit messages. If you are having Claude write the commit messages FOR YOU and you are NOT READING THEM then that’s what’s unprofessional. I am honestly kind of shocked and disappointed by how upset people are by this.\nI don’t get the “unprofessional” argument. This ",
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8153,
-        "story_heat": 0.5
+        "recency": 1.0,
+        "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "开源"
+        "claude"
       ]
     },
     {
@@ -233,9 +169,9 @@
       "keyword": null,
       "published_at": "2026-08-29T21:44:58.700000Z",
       "category": "模型",
-      "score": 77,
+      "score": 74,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 77。",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 74。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "Hacker News",
@@ -247,7 +183,7 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9631,
+        "recency": 0.7932,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
@@ -265,12 +201,12 @@
       "keyword": null,
       "published_at": "2026-08-29T18:06:30.175000Z",
       "category": "模型",
-      "score": 77,
+      "score": 74,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 77。",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 74。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hacker News",
+        "Hacker News · 24h最热",
         "hackernews"
       ],
       "summary": "",
@@ -279,7 +215,7 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9138,
+        "recency": 0.7525,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
@@ -297,9 +233,9 @@
       "keyword": null,
       "published_at": "2026-08-29T18:06:30.175000Z",
       "category": "其他",
-      "score": 75,
+      "score": 72,
       "grade": "B",
-      "why_it_matters": "3 个来源信号；其他 方向；综合评分 75。",
+      "why_it_matters": "3 个来源信号；其他 方向；综合评分 72。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "Hacker News · 24h最热",
@@ -312,75 +248,142 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9138,
+        "recency": 0.7525,
         "story_heat": 0.5
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "c2e8fd5e493e7a65",
-      "title": "关于Cursor被SpaceX收购后的决定",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "source": "Buzzing",
+      "id": "3ce1a4b38b91784c",
+      "title": "公平工作委员会谴责“完全错误”的AI法律建议 / Fair Work Commission condemns 'plain wrong' AI legal advice",
+      "url": "https://news.ycombinator.com/item?id=49497357",
+      "source": "NewsNow",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-29T03:16:20.612000Z",
-      "category": "AI 编程",
-      "score": 73,
+      "published_at": "2026-08-30T13:48:19.341000Z",
+      "category": "其他",
+      "score": 70,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 73。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "why_it_matters": "2 个来源信号；其他 方向；综合评分 70。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Hacker News · 24h最热",
-        "openai.com"
+        "Hacker News",
+        "hackernews"
       ],
-      "summary": "",
+      "summary": "> Sadnan Khan was ordered to pay $1,230 towards the supermarket giant's legal fees after a landmark Fair Work Commission decision found he used AI as a \"quasi-legal advisor\" to challenge his dismissal, despite repeat warnings his case had \"no substantial prospects of success\". > \"I have taken the very rare step of ordering him to pay some of the employer's legal costs, because his unreasonable conduct caused his former employer to incur those costs unnecessarily,\" Fair Work Commission deputy pre",
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7376,
+        "recency": 1.0,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "6fb598dc2dcf51ca",
+      "title": "Codex CLI 0.151.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-29T00:00:00Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "法典 CLI 0.151.0",
+      "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "cursor"
+        "codex",
+        "openai"
       ]
     },
     {
-      "id": "3e2aaf0b8a6ad206",
-      "title": "OpenAI 和 Anthropic 正在毁掉旧金山 / OpenAI and Anthropic are ruining San Francisco",
-      "url": "https://www.sfgate.com/local/article/open-ai-anthropic-ruining-sf-22404657.php",
-      "source": "Hacker News",
+      "id": "a9c467f0b70c7956",
+      "title": "开放世界多智能体环境中的自主数学发现",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-08-29T02:57:13Z",
-      "category": "其他",
-      "score": 65,
+      "published_at": "2026-08-29T07:32:16.981000Z",
+      "category": "智能体",
+      "score": 60,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；其他 方向；综合评分 65。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
-        "HN Algolia · AI 24h",
-        "Hacker News · 24h最热"
+        "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
       "summary": "",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7342,
-        "story_heat": 0.25
-      },
+      "importance_label": "",
+      "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "anthropic",
-        "openai"
+        "智能体"
+      ]
+    },
+    {
+      "id": "25393b9b1c5f5907",
+      "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-29T07:00:22.003000Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "6510d86323c60c1d",
+      "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+      "url": "https://www.ithome.com/0/995/896.htm",
+      "source": "IT之家（RSS）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-29T04:31:21Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "智能体",
+        "开源",
+        "编程"
       ]
     },
     {
@@ -740,6 +743,58 @@
       ]
     },
     {
+      "id": "3a3fbd0a6ef59535",
+      "title": "I see the web evolving in two extremes: 1️⃣ ultra-fancy human experiences, in the service of delight, exploration, brand, entertainment. https://t.co/0nyTRPKDEJ / threejs / typegpu are enabling this 2️⃣ agent-centric...",
+      "url": "https://x.com/rauchg/status/2093482695838007318",
+      "source": "Follow Builders · X · Guillermo Rauch",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-28T23:35:44Z",
+      "category": "智能体",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Follow Builders · X · Guillermo Rauch"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "我认为网络正在向两个极端发展：1️⃣ 超奇特的人类体验，为愉悦、探索、品牌、娱乐服务。 https://t.co/0nyTRPKDEJ / Threejs / typegpu 正在启用这个 2️⃣ 以代理为中心的......",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpu"
+      ]
+    },
+    {
+      "id": "fea45d36b08aa442",
+      "title": "MCP is growing explosively. And it's not just Vercel MCP… Look at 𝚖𝚌𝚙-𝚑𝚊𝚗𝚍𝚕𝚎𝚛 npm downloads, which you can use to implement MCP servers https://t.co/nGrblswCmK https://t.co/Ek4itRUtkI",
+      "url": "https://x.com/rauchg/status/2093463771071336497",
+      "source": "Follow Builders · X · Guillermo Rauch",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-28T22:20:32Z",
+      "category": "智能体",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Follow Builders · X · Guillermo Rauch"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "MCP 呈爆炸式增长。而且不仅仅是 Vercel MCP...看看 𝚖𝚌𝚙-𝚑𝚊𝚗𝚍𝚕𝚎𝚛 npm 下载，您可以使用它来实现 MCP 服务器 https://t.co/nGrblswCmK https://t.co/Ek4itRUtkI",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "mcp"
+      ]
+    },
+    {
       "id": "199887ac350aec24",
       "title": "AI对企业官网的引用正在变多，官网GEO的价值也会越来越大 这两周，消耗了超过50亿Token，终于完成了GEOFlow 3.0这次大版本迭代，今天正式开源给大家 我把GEOFlow 3.0定位为：全球首个面向企业官网和信源站点的开源GEO智能运营系统 GitHub仓库链接、示例站点链接及相关报告链接，详见评论区 这次，重新整理了后台、AI 工作台、文章质检、分发和升级链路，GEOFlow 3.0有了一套更完整的产品形态 GEOFlo…",
       "url": "https://x.com/yaojingang/status/2093604992318087649",
@@ -839,32 +894,6 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "开源"
-      ]
-    },
-    {
-      "id": "879fba12676d1062",
-      "title": "Quote of the day by tech pioneer Claude Shannon: 'I visualize a time when we will be to robots what dogs are to humans' — a warning about superintelligent AI",
-      "url": "https://www.techradar.com/pro/quote-of-the-day-by-tech-pioneer-claude-shannon-i-visualize-a-time-when-we-will-be-to-robots-what-dogs-are-to-humans-a-warning-about-superintelligent-ai",
-      "source": "TechRadar",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-29T22:00:00Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "TechRadar"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude",
-        "robot"
       ]
     },
     {
@@ -1096,32 +1125,6 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm"
-      ]
-    },
-    {
-      "id": "1dc2af1b137e99cd",
-      "title": "Show HN: AI Harness that lets a graph of Codex and Claude intercommunicate",
-      "url": "https://github.com/rysh-ai/rysh-cli-code",
-      "source": "HN Algolia · AI 24h",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-29T18:34:03Z",
-      "category": "AI 编程",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "HN Algolia · AI 24h"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude",
-        "codex"
       ]
     },
     {
@@ -1645,6 +1648,31 @@
       ]
     },
     {
+      "id": "968800a679900db2",
+      "title": "StemDeck，一款免费、开源且本地化的AI茎叶分离器",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "source": "github.com",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-29T10:12:23.295000Z",
+      "category": "开源",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；开源 方向；综合评分 60。",
+      "topic_angle": "关注部署门槛、社区生态和可复用能力。",
+      "source_names": [
+        "github.com"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "开源"
+      ]
+    },
+    {
       "id": "c1152bb3edfe8607",
       "title": "WorkBuddy 保姆级教程开源了！600 多篇 Agent 资料一次性放出",
       "url": "https://juejin.cn/post/7678239088522313780",
@@ -1949,6 +1977,32 @@
       ]
     },
     {
+      "id": "c2e8fd5e493e7a65",
+      "title": "关于Cursor被SpaceX收购后的决定",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "openai.com",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-29T03:16:20.612000Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "openai.com"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "cursor",
+        "openai"
+      ]
+    },
+    {
       "id": "a8a2068a69c06663",
       "title": "Show HN: Metis – An agent harness pushing DeepSeek to Opus-tier coding (82%)",
       "url": "https://github.com/Wholiver/metis",
@@ -2028,6 +2082,32 @@
       ]
     },
     {
+      "id": "a6641dfc35d562ee",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "Hacker News",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-29T01:47:53Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "Hacker News"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Cursor 被 SpaceX 收购后我们对 Cursor 的决定",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "cursor"
+      ]
+    },
+    {
       "id": "3c6ae84e4eff2454",
       "title": "Diamonds, Crescents and Wildcats: Intel shows off its hardware for the next generation of agentic AI workloads",
       "url": "https://www.techradar.com/pro/diamonds-crescents-and-wildcats-intel-shows-off-its-hardware-for-the-next-generation-of-agentic-ai-workloads",
@@ -2048,6 +2128,56 @@
       "importance_label": "",
       "importance_breakdown": {},
       "title_zh": "钻石、新月和野猫：英特尔展示其用于下一代代理人工智能工作负载的硬件",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "a244c7050b98a9b8",
+      "title": "I accidentally turned LLM memory into program analysis",
+      "url": "https://pwning.systems/posts/llm-memory-program-analysis",
+      "source": "Hacker News (黑客新闻)",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-28T23:27:45Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News (黑客新闻)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "我不小心把LLM记忆变成了程序分析",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "llm"
+      ]
+    },
+    {
+      "id": "1b4c2ee8cdf381ea",
+      "title": "Z.ai releases GLM-5.3's weights under a new license requiring companies with $10B+ in revenue over 12 months to pass Z.ai's security review to host the model (Frederic Lardinois/The New Stack)",
+      "url": "https://www.techmeme.com/260828/p25",
+      "source": "Techmeme",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-28T23:20:01Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Techmeme"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Z.ai 根据新许可证发布了 GLM-5.3 的权重，要求 12 个月内收入超过 10B 美元的公司通过 Z.ai 的安全审查来托管该模型（Frederic Lardinois/The New Stack）",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
@@ -3592,84 +3722,6 @@
       ]
     },
     {
-      "id": "128baee4153700c3",
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google DeepMind Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Google DeepMind Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "Gemini API 托管代理：3.6 Flash、挂钩等",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "31a8e14f3dc29347",
-      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google DeepMind Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Google DeepMind Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "在 Gemini API 中扩展托管代理：后台任务、远程 MCP 等",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gemini",
-        "mcp"
-      ]
-    },
-    {
-      "id": "ccd5a67c24c7038f",
-      "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
-      "url": "https://www.dwarkesh.com/p/openai-huggingface",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-29T22:47:53Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Dwarkesh Patel：Podcast & Blog（RSS）"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "openai"
-      ]
-    },
-    {
       "id": "b810443a9a4633a2",
       "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
       "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft",
@@ -3869,6 +3921,30 @@
       "ai_matched_keywords": []
     },
     {
+      "id": "89af7f56f33765ac",
+      "title": "Google further buries search results under AI mode",
+      "url": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
+      "source": "The Verge",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-28T22:48:11Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "The Verge"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "谷歌在AI模式下进一步埋没搜索结果",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
       "id": "c27864772bd7a00d",
       "title": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
       "url": "https://www.infoq.cn/article/3R8f57Bow3B4kEBkPv5J",
@@ -3938,31 +4014,6 @@
       "title_zh": "如何在您自己的计算机上运行聊天机器人",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
-    },
-    {
-      "id": "9dc7b16b6824e99b",
-      "title": "Anthropic Sued By Sony, Warner For Allegedly Stealing Tens of Thousands of Songs, Torrenting Copyrighted Works",
-      "url": "https://yro.slashdot.org/story/26/08/29/2149242/anthropic-sued-by-sony-warner-for-allegedly-stealing-tens-of-thousands-of-songs-torrenting-copyrighted-works",
-      "source": "Slashdot",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-29T23:00:00Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Slashdot"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
     },
     {
       "id": "048c2cd3fdf30367",
@@ -4114,7 +4165,7 @@
       "id": "c46a24f6fa1709d9",
       "title": "The growing divide between AI hype and software engineering reality",
       "url": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai",
-      "source": "Hacker News",
+      "source": "Hacker News (黑客新闻)",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
@@ -4125,7 +4176,7 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Hacker News"
+        "Hacker News (黑客新闻)"
       ],
       "summary": "",
       "importance_label": "",
@@ -4210,7 +4261,7 @@
       "id": "a72225625ff9d232",
       "title": "Debian votes to allow \"responsible use of generative AI\"",
       "url": "https://lwn.net/Articles/1091231",
-      "source": "Hacker News · 24h最热",
+      "source": "Hacker News",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
@@ -4221,7 +4272,7 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Hacker News · 24h最热"
+        "Hacker News"
       ],
       "summary": "",
       "importance_label": "",
@@ -4505,11 +4556,61 @@
       "id": "9adc0a25191ccca2",
       "title": "StemDeck, a free, open-source and local AI stem separator",
       "url": "https://github.com/stemdeckapp/stemdeck",
-      "source": "Hacker News · 24h最热",
+      "source": "Hacker News (黑客新闻)",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
       "published_at": "2026-08-29T01:24:13Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News (黑客新闻)"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "StemDeck，免费、开源、本地 AI 词干分离器",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "29a789d04eda1287",
+      "title": "A deep dive into Grok Bot, including its architecture, use cases, and alternatives, as xAI adds shareable bot templates and online purchases through Stripe Link (Flavio Copes)",
+      "url": "https://www.techmeme.com/260828/p22",
+      "source": "Techmeme",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-28T22:40:03Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Techmeme"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "深入探讨 Grok Bot，包括其架构、用例和替代方案，因为 xAI 通过 Stripe Link 添加可共享机器人模板和在线购买 (Flavio Copes)",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "grok"
+      ]
+    },
+    {
+      "id": "6243b9adf4091fed",
+      "title": "Identifying fake cosmetics using AI",
+      "url": "https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html",
+      "source": "Hacker News · 24h最热",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-28T22:18:27Z",
       "category": "其他",
       "score": 52,
       "grade": "C",
@@ -4521,9 +4622,62 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "title_zh": "StemDeck，免费、开源、本地 AI 词干分离器",
+      "title_zh": "利用人工智能识别假冒化妆品",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "128baee4153700c3",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "Google DeepMind Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Google DeepMind Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "Gemini API 托管代理：3.6 Flash、挂钩等",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "31a8e14f3dc29347",
+      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google DeepMind Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 52。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Google DeepMind Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "在 Gemini API 中扩展托管代理：后台任务、远程 MCP 等",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gemini",
+        "mcp"
+      ]
     },
     {
       "id": "571839639a8d7eb1",
@@ -5667,6 +5821,54 @@
       ]
     },
     {
+      "id": "fdb861a1d65d1509",
+      "title": "古尔曼：苹果 AirPods 5 耳机最早 9 月发布，OLED 版 iPad mini 平板预计 10 月推出",
+      "url": "https://www.ithome.com/0/996/252.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "产品",
+      "score": 47,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 47。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "36afbacf5900d0cb",
+      "title": "消息称字节跳动豆包大模型 2.2 将推迟发布，原计划 8 月推出",
+      "url": "https://www.ithome.com/0/996/239.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 47,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 47。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "大模型"
+      ]
+    },
+    {
       "id": "a292c62647628d11",
       "title": "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能",
       "url": "https://www.ithome.com/0/996/216.htm",
@@ -6195,6 +6397,29 @@
       "ai_matched_keywords": []
     },
     {
+      "id": "a77954cfd27e2a27",
+      "title": "特斯拉在中国香港、中国澳门推出更平价版 Model 3：售价下调、配置精简，续航达 572 公里",
+      "url": "https://www.ithome.com/0/996/240.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
+    },
+    {
       "id": "436a998fb2dacba3",
       "title": "巴克莱研究：AI 模型公司每赚 100 美元，约 35 至 40 美元流向三大云巨头",
       "url": "https://www.ithome.com/0/996/218.htm",
@@ -6238,52 +6463,6 @@
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "8042345e14035d6d",
-      "title": "关于QWEN3.8-27B，大家的速度都是多少tokens/s？",
-      "url": "https://www.zhihu.com/question/2075552758049125616",
-      "source": "知乎热榜",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 22,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "知乎热榜"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "846cdb607bf5ffd1",
-      "title": "无痛日语：把 AI、FSRS 和短视频交互装进日语学习",
-      "url": "https://sspai.com/post/113342",
-      "source": "少数派 Matrix",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "多模态",
-      "score": 22,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 22。",
-      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
-      "source_names": [
-        "少数派 Matrix"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
@@ -6348,146 +6527,6 @@
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "be7df8f84adf7640",
-      "title": "特斯拉车机系统有望接入 Grok Bot，打造移动 AI 工作站",
-      "url": "https://www.ithome.com/0/996/169.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "grok"
-      ]
-    },
-    {
-      "id": "2beeba2d3640f469",
-      "title": "R 星确认：《GTA 6》发售时不会有微交易和生成式 AI",
-      "url": "https://www.ithome.com/0/996/132.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "d2df6c55abfeaf49",
-      "title": "中信证券：AI在Q2集中体现，而能化接下来可能逐步升温",
-      "url": "https://www.36kr.com/newsflashes/3961771463867779",
-      "source": "36氪快讯",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "36氪快讯"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "c95d6f2752a68f52",
-      "title": "算法不只是在猜你喜欢：窥探 X「为你推荐」背后的秘密",
-      "url": "https://sspai.com/post/113626",
-      "source": "少数派 Matrix",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "少数派 Matrix"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "bee62038646ff0a4",
-      "title": "让 Windows 也能无缝连接 HomePod：全新 AirPlay 2 音频串流工具 WinAirCast",
-      "url": "https://sspai.com/post/113002",
-      "source": "少数派 Matrix",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "少数派 Matrix"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "a31cd24f3a0e0213",
-      "title": "记了 2 万条笔记后，我把知识库交给了 AI | Obsidian插件推荐",
-      "url": "https://sspai.com/post/113390",
-      "source": "少数派 Matrix",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "少数派 Matrix"
       ],
       "summary": "",
       "importance_label": "",
