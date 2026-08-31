@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-30T23:11:42.970049Z",
+  "generated_at": "2026-08-31T03:47:33.987091Z",
   "items": [
     {
       "id": "b971111ecd60198d",
@@ -31,6 +31,134 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "fcc1a374d1bb87d0",
+      "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
+      "url": "https://x.com/AYi_AInotes/status/2093864816079208512",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-30T00:54:08Z",
+      "category": "AI 编程",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 93。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "X：阿易 AI Notes (@AYi_AInotes)"
+      ],
+      "summary": "Uber 技术长文显示，全公司 70% 的代码 PR 已由 AI Agent 接管，调用量半年增长近 10 倍，但总 AI 账单未涨，单次会话成本降低 52%。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7607,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "e13cfc92b30d424e",
+      "title": "何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
+      "source": "AI HubToday",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-30T04:21:04Z",
+      "category": "智能体",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 93。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Daily Digest"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7996,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "具身智能",
+        "智能体",
+        "具身"
+      ]
+    },
+    {
+      "id": "abcd4a59d1382d00",
+      "title": "METR 和 Redwood 发布了关于 HuggingFace 黑客事件的详细复盘报告",
+      "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack",
+      "source": "Buzzing",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-30T19:31:43.820000Z",
+      "category": "产品",
+      "score": 84,
+      "grade": "A",
+      "why_it_matters": "3 个来源信号；产品 方向；综合评分 84。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "Hacker News",
+        "hackernews",
+        "thezvi.wordpress.com"
+      ],
+      "summary": "Yesterday I covered the OpenAI technical report on the HuggingFace hack. That report had one key new piece of information, and some good prosaic steps OpenAI will be taking to strengthen its alignm…\nYesterday I covered the OpenAI technical report on the HuggingFace hack. That report had one key new piece of information, and some good prosaic steps OpenAI will be taking to strengthen its alignment, training, supervision, infrastructure and incident response. Mostly it confirmed what we already kn",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9955,
+        "story_heat": 0.5
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "huggingface"
+      ]
+    },
+    {
+      "id": "8561239eea3bfb23",
+      "title": "默认情况下，将 Claude 会话 URL 附加到提交信息和 PR 描述中",
+      "url": "https://github.com/anthropics/claude-code/issues/66504",
+      "source": "Buzzing",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-08-30T16:35:36.082000Z",
+      "category": "模型",
+      "score": 84,
+      "grade": "A",
+      "why_it_matters": "3 个来源信号；模型 方向；综合评分 84。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "github.com",
+        "hackernews"
+      ],
+      "summary": "Preflight Checklist I have searched existing requests and this feature hasn't been requested yet This is a single feature request (not multiple features) Problem Statement Every commit message and ...\nPreflight Checklist I have searched existing requests and this feature hasn't been requested yet This is a single feature request (not multiple features) Problem Statement Every commit message and PR description created by Claude Code au...\nPreflight Checklist I have searched existing requests and ",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9542,
+        "story_heat": 0.5
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
         "claude"
       ]
     },
@@ -121,56 +249,6 @@
         "anthropic",
         "claude"
       ]
-    },
-    {
-      "id": "e13cfc92b30d424e",
-      "title": "何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮",
-      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35",
-      "source": "Daily Digest",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-30T04:21:04Z",
-      "category": "智能体",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Daily Digest"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "具身智能",
-        "智能体",
-        "具身"
-      ]
-    },
-    {
-      "id": "fcc1a374d1bb87d0",
-      "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
-      "url": "https://x.com/AYi_AInotes/status/2093864816079208512",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-30T00:54:08Z",
-      "category": "AI 编程",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "X：阿易 AI Notes (@AYi_AInotes)"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
     },
     {
       "id": "b160f03eff70426a",
@@ -579,56 +657,6 @@
       "ai_matched_keywords": [
         "大模型",
         "开源"
-      ]
-    },
-    {
-      "id": "abcd4a59d1382d00",
-      "title": "METR 和 Redwood 发布了关于 HuggingFace 黑客事件的详细复盘报告",
-      "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack",
-      "source": "thezvi.wordpress.com",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-30T19:31:43.820000Z",
-      "category": "产品",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 60。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "thezvi.wordpress.com"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "huggingface"
-      ]
-    },
-    {
-      "id": "8561239eea3bfb23",
-      "title": "默认情况下，将 Claude 会话 URL 附加到提交信息和 PR 描述中",
-      "url": "https://github.com/anthropics/claude-code/issues/66504",
-      "source": "github.com",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-08-30T16:35:36.082000Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "github.com"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude"
       ]
     },
     {
@@ -4919,9 +4947,9 @@
       ]
     },
     {
-      "id": "fdb861a1d65d1509",
-      "title": "古尔曼：苹果 AirPods 5 耳机最早 9 月发布，OLED 版 iPad mini 平板预计 10 月推出",
-      "url": "https://www.ithome.com/0/996/252.htm",
+      "id": "fdffe30c8eca3b93",
+      "title": "长虹追光 Q60S Pro 电视发布：39mm 厚度 0 距离贴墙，行业首创 AI 星河呼吸灯",
+      "url": "https://www.ithome.com/0/996/289.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -4938,103 +4966,7 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "36afbacf5900d0cb",
-      "title": "消息称字节跳动豆包大模型 2.2 将推迟发布，原计划 8 月推出",
-      "url": "https://www.ithome.com/0/996/239.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 47。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "大模型"
-      ]
-    },
-    {
-      "id": "a292c62647628d11",
-      "title": "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能",
-      "url": "https://www.ithome.com/0/996/216.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "智能体",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 47。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.32,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "80d721271a2f2e49",
-      "title": "华为云联合瑞金医院发布瑞智病理大模型 RuiPath 2.0：7B 参数，覆盖 19 个常见癌种",
-      "url": "https://www.ithome.com/0/996/195.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 47。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "大模型"
-      ]
-    },
-    {
-      "id": "e657eef3aa772c79",
-      "title": "机械革命翼龙 15 Air 2026 笔记本锐龙 7 H 449 版发布：RTX 5060，国补到手价 9999 元",
-      "url": "https://www.ithome.com/0/996/186.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "产品",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 47。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.0,
       "ai_matched_keywords": []
     },
     {
@@ -5472,18 +5404,117 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "de6632ff573b6978",
-      "title": "英国电信行业高管警告：5G 升级太慢，英国可能输掉 AI 竞赛",
-      "url": "https://www.ithome.com/0/996/190.htm",
+      "id": "52a4cef96db5145f",
+      "title": "LG 电子推出偶像女团 AI-DOL，实为推销自家洗烘一体机",
+      "url": "https://www.ithome.com/0/996/395.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "产品",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 22。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "9cfac1f7c1610252",
+      "title": "Claude 被曝大规模盗号，Anthropic 紧急切断支付权限、警告用户别乱下载软件",
+      "url": "https://www.ithome.com/0/996/359.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic",
+        "claude",
+        "软件"
+      ]
+    },
+    {
+      "id": "3deabc111aff0a2d",
+      "title": "OpenAI等实验室购买数万台Mac用于智能体训练",
+      "url": "https://www.36kr.com/newsflashes/3962852897062273",
+      "source": "36氪快讯",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 22。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "36氪快讯"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "openai",
+        "智能体"
+      ]
+    },
+    {
+      "id": "fccf485e1c504781",
+      "title": "“词元贷”纾解AI企业融资困境",
+      "url": "https://www.36kr.com/newsflashes/3962818222652809",
+      "source": "36氪快讯",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "商业",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；商业 方向；综合评分 22。",
+      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
+      "source_names": [
+        "36氪快讯"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "daf496c4b6b14ac6",
+      "title": "荣耀MagicOS 11 提前剧透：AI 窥屏防护覆盖超多机型，智能识别机主身份",
+      "url": "https://www.ithome.com/0/996/340.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
       "published_at": null,
       "category": "其他",
-      "score": 24,
+      "score": 14,
       "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 24。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "IT之家"
@@ -5495,19 +5526,42 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "a77954cfd27e2a27",
-      "title": "特斯拉在中国香港、中国澳门推出更平价版 Model 3：售价下调、配置精简，续航达 572 公里",
-      "url": "https://www.ithome.com/0/996/240.htm",
+      "id": "4cf5282d3fac9f39",
+      "title": "2025 年全球亿万富翁人数创历史新高，AI 投资成主要增长动力",
+      "url": "https://www.ithome.com/0/996/305.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
       "published_at": null,
-      "category": "模型",
-      "score": 22,
+      "category": "其他",
+      "score": 14,
       "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "b20950b26be3644f",
+      "title": "Shoei GT-Air 3 Smart 智能摩托头盔上市：集成 HUD 抬头显示功能，起售价 1277 欧元",
+      "url": "https://www.ithome.com/0/996/296.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "IT之家"
       ],
@@ -5518,78 +5572,9 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "436a998fb2dacba3",
-      "title": "巴克莱研究：AI 模型公司每赚 100 美元，约 35 至 40 美元流向三大云巨头",
-      "url": "https://www.ithome.com/0/996/218.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 22,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "53a14ef2d73d8577",
-      "title": "特斯拉欧洲入门版 Model 3 更换新轮胎，续航提升 38 公里至 572 公里",
-      "url": "https://www.ithome.com/0/996/181.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 22,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "846cdb607bf5ffd1",
-      "title": "无痛日语：把 AI、FSRS 和短视频交互装进日语学习",
-      "url": "https://sspai.com/post/113342",
-      "source": "少数派 Matrix",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "多模态",
-      "score": 22,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 22。",
-      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
-      "source_names": [
-        "少数派 Matrix"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "904df7d2b7c36326",
-      "title": "消息称微软收紧员工 AI 预算成本，有员工 28 天挥霍 2.8 万美元 Token",
-      "url": "https://www.ithome.com/0/996/254.htm",
+      "id": "f278671dd470e079",
+      "title": "北邮牵头：全球首个太空算力云实现常态化在轨试验服务",
+      "url": "https://www.ithome.com/0/996/292.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -5607,12 +5592,14 @@
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
+      "ai_matched_keywords": [
+        "算力"
+      ]
     },
     {
-      "id": "12a34825940a71f8",
-      "title": "东芝 S300 AI 系列机械硬盘开售：可选 8TB、10TB，2949 元起",
-      "url": "https://www.ithome.com/0/996/213.htm",
+      "id": "21d90a8cb6892c6a",
+      "title": "苹果新 CEO 特努斯 9 月 1 日上任，人工智能将成为其任期内的首要任务",
+      "url": "https://www.ithome.com/0/996/284.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -5630,35 +5617,14 @@
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
+      "ai_matched_keywords": [
+        "人工智能"
+      ]
     },
     {
-      "id": "b861d5d8623ed286",
-      "title": "网传微软 Win11 偷偷后台跑 AI，页面实为权限管理列表",
-      "url": "https://www.ithome.com/0/996/194.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "d2df6c55abfeaf49",
-      "title": "中信证券：AI在Q2集中体现，而能化接下来可能逐步升温",
-      "url": "https://www.36kr.com/newsflashes/3961771463867779",
+      "id": "619f5fa90aacf2de",
+      "title": "腾讯混元：Hy4 preview调用激增，WorkBuddy已紧急扩容",
+      "url": "https://www.36kr.com/newsflashes/3962807595924873",
       "source": "36氪快讯",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -5675,76 +5641,7 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "c95d6f2752a68f52",
-      "title": "算法不只是在猜你喜欢：窥探 X「为你推荐」背后的秘密",
-      "url": "https://sspai.com/post/113626",
-      "source": "少数派 Matrix",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "少数派 Matrix"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
       "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "bee62038646ff0a4",
-      "title": "让 Windows 也能无缝连接 HomePod：全新 AirPlay 2 音频串流工具 WinAirCast",
-      "url": "https://sspai.com/post/113002",
-      "source": "少数派 Matrix",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "少数派 Matrix"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "a31cd24f3a0e0213",
-      "title": "记了 2 万条笔记后，我把知识库交给了 AI | Obsidian插件推荐",
-      "url": "https://sspai.com/post/113390",
-      "source": "少数派 Matrix",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "少数派 Matrix"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     }
   ]
