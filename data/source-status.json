@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-06T18:51:23.222965Z",
+  "generated_at": "2026-09-06T21:03:26.796777Z",
   "source_count": 252,
   "successful_sites": 185,
   "failed_sites": 67,
   "zero_item_sites": 244,
-  "total_items": 1870,
-  "total_ai_items": 72,
-  "ai_pct_total": 3.9,
+  "total_items": 1878,
+  "total_ai_items": 79,
+  "ai_pct_total": 4.2,
   "sites": [
     {
       "site_id": "learnprompt_daily_brief",
@@ -16,10 +16,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 13,
-      "ai_count": 13,
+      "item_count": 12,
+      "ai_count": 12,
       "ai_pct": 100.0,
-      "fetch_duration_s": 0.79,
+      "fetch_duration_s": 0.11,
       "note": ""
     },
     {
@@ -30,10 +30,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 111,
-      "ai_count": 59,
-      "ai_pct": 53.2,
-      "fetch_duration_s": 1.03,
+      "item_count": 117,
+      "ai_count": 67,
+      "ai_pct": 57.3,
+      "fetch_duration_s": 0.15,
       "note": ""
     },
     {
@@ -47,7 +47,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.18,
+      "fetch_duration_s": 0.17,
       "note": ""
     },
     {
@@ -58,10 +58,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 849,
+      "item_count": 850,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.14,
+      "fetch_duration_s": 0.18,
       "note": ""
     },
     {
@@ -75,7 +75,7 @@
       "item_count": 20,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.22,
+      "fetch_duration_s": 0.23,
       "note": ""
     },
     {
@@ -89,7 +89,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.73,
+      "fetch_duration_s": 0.7,
       "note": ""
     },
     {
@@ -103,7 +103,7 @@
       "item_count": 859,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.11,
+      "fetch_duration_s": 0.21,
       "note": ""
     },
     {
@@ -117,7 +117,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.45,
+      "fetch_duration_s": 0.68,
       "note": ""
     },
     {
@@ -131,7 +131,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.05,
+      "fetch_duration_s": 0.07,
       "note": ""
     },
     {
@@ -145,7 +145,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.26,
+      "fetch_duration_s": 1.1,
       "note": "中文综合科技，混有 AI 内容，radar.py 按关键词过滤"
     },
     {
@@ -159,21 +159,21 @@
       "item_count": 12,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 3.11,
+      "fetch_duration_s": 2.83,
       "note": "中文科技综合，含 AI 新闻"
     },
     {
       "site_id": "rss_zhihu_hot",
       "site_name": "知乎热榜",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 2,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.77,
+      "fetch_duration_s": 45.21,
       "note": "知乎全站热榜，混合话题，radar.py 按关键词过滤 AI 内容"
     },
     {
@@ -187,7 +187,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 45.06,
+      "fetch_duration_s": 45.15,
       "note": "知乎日报精选，混合话题"
     },
     {
@@ -201,21 +201,21 @@
       "item_count": 4,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.99,
+      "fetch_duration_s": 0.25,
       "note": "36氪实时快讯，作者按关键词筛选 AI 内容"
     },
     {
       "site_id": "rss_sspai_matrix",
       "site_name": "少数派 Matrix",
-      "ok": false,
+      "ok": true,
       "enabled": true,
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 0,
+      "item_count": 4,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 45.05,
+      "fetch_duration_s": 0.68,
       "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
     },
     {
