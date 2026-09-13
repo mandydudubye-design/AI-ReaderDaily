@@ -1,7 +1,41 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-12T23:45:18.563946Z",
+  "generated_at": "2026-09-13T03:17:28.246260Z",
   "items": [
+    {
+      "id": "99d71d6ea939a809",
+      "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
+      "url": "https://www.rubyhack.ai",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-12T00:24:20.561000Z",
+      "category": "智能体",
+      "score": 107,
+      "grade": "S",
+      "why_it_matters": "3 个来源信号；智能体 方向；综合评分 107。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hacker News · 24h最热",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "www.rubyhack.ai"
+      ],
+      "summary": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2，000 个包，RubyGems 关闭新用户注册四天并移除 500 多个恶意包，安全公司称之为 GemStuffer campaign。",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.81,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7209,
+        "story_heat": 0.5
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "openai",
+        "智能体"
+      ]
+    },
     {
       "id": "34368c537bf05b8f",
       "title": "Perplexity 把端到端系统交给 GPT-6 Astra / Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -217,6 +251,37 @@
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "bc6bb25cebb842e6",
+      "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
+      "url": "https://www.ithome.com/1/001/488.htm",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-11T23:22:39Z",
+      "category": "其他",
+      "score": 85,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 85。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "summary": "据路透社报道，英伟达正与 Anthropic 洽谈以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元。Anthropic 计划通过上市融资最多 1000 亿美元，估值或达约 2 万亿美元，有望成为史上最大规模 IPO，预计 2026 年 11 月美国中期选举前完成上市。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7103,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic"
+      ]
     },
     {
       "id": "7a6e3298f0a66b60",
@@ -443,32 +508,6 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "开源"
-      ]
-    },
-    {
-      "id": "99d71d6ea939a809",
-      "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
-      "url": "https://www.rubyhack.ai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-12T00:24:20.561000Z",
-      "category": "智能体",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "openai",
-        "智能体"
       ]
     },
     {
@@ -4266,31 +4305,6 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "bc6bb25cebb842e6",
-      "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
-      "url": "https://www.ithome.com/1/001/488.htm",
-      "source": "IT之家（RSS）",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-11T23:22:39Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
       "id": "c664ea0a34344d3b",
       "title": "Beren Millidge、John Schulman、Charlie O'Neill 对谈递归自我改进离我们还有多远",
       "url": "https://www.dwarkesh.com/p/john-beren-charlie",
@@ -7482,9 +7496,9 @@
       ]
     },
     {
-      "id": "48b15065970263a7",
-      "title": "中国移动发布 AI 可信计算：提供多形态机密算力和机密 Token",
-      "url": "https://www.ithome.com/1/001/650.htm",
+      "id": "8ae3fe9949300337",
+      "title": "绿联海外发布 Nexode Air Slim 100W 超薄充电器，2C+1A",
+      "url": "https://www.ithome.com/1/001/698.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -7501,32 +7515,7 @@
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "算力"
-      ]
-    },
-    {
-      "id": "1dc9bf997ee5995a",
-      "title": "绿联发布 AI NAS iDX6011 Pro：酷睿 Ultra 7 255H、内存 64GB，首发价 15999 元",
-      "url": "https://www.ithome.com/1/001/625.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "产品",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 47。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
+      "ai_relevance_score": 0.0,
       "ai_matched_keywords": []
     },
     {
@@ -8034,19 +8023,19 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "3441958c5d8b3200",
-      "title": "谷歌完成对创企 Mechanize 的人才收购，旨在补齐自家 AI 编程短板",
-      "url": "https://www.ithome.com/1/001/653.htm",
+      "id": "5b7497a4b7c3763d",
+      "title": "曜越推出 AI 工作站机箱 AX1000，支持双 SSI-EEB 系统强劲配置",
+      "url": "https://www.ithome.com/1/001/715.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
       "published_at": null,
-      "category": "AI 编程",
+      "category": "产品",
       "score": 22,
       "grade": "C",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 22。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 22。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "IT之家"
       ],
@@ -8054,41 +8043,36 @@
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "编程"
-      ]
+      "ai_matched_keywords": []
     },
     {
-      "id": "76824673dcc1db76",
-      "title": "“Claude Code 之父”切尔尼谈 AI 编程：开发者核心职责是守住代码质量",
-      "url": "https://www.ithome.com/1/001/633.htm",
+      "id": "b3246726dd1976b7",
+      "title": "贝尔金推出新款桌面充电基座：支持苹果 iPhone 25W + AirPods 5W 无线充，429 元",
+      "url": "https://www.ithome.com/1/001/714.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
       "published_at": null,
-      "category": "AI 编程",
+      "category": "产品",
       "score": 22,
       "grade": "C",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 22。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 22。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "IT之家"
       ],
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude",
-        "编程"
-      ]
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
     },
     {
-      "id": "fab44810dd824460",
-      "title": "如何评价 DeepSeek 灰度测试语音对话，意味着什么？",
-      "url": "https://www.zhihu.com/question/2082041103209820593",
-      "source": "知乎热榜",
+      "id": "3e98deeb585039e1",
+      "title": "Anthropic CEO 阿莫迪呼吁放缓前沿 AI 模型开发后，xAI 马斯克、OpenAI 奥尔特曼等业界大佬赞同",
+      "url": "https://www.ithome.com/1/001/709.htm",
+      "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -8099,7 +8083,33 @@
       "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "知乎热榜"
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "id": "019c2be4cf12a65b",
+      "title": "IT早报 0913：央视探访无堂食外卖后厨看到店员徒手抓烤鸡；全国多所高校买商品房当学生宿舍；DeepSeek 灰度测试 AI 语音对话；“支付宝假 App”上热搜...",
+      "url": "https://www.ithome.com/1/001/688.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "IT之家"
       ],
       "summary": "",
       "importance_label": "",
@@ -8108,6 +8118,29 @@
       "ai_matched_keywords": [
         "deepseek"
       ]
+    },
+    {
+      "id": "8dbc2b2a2170a566",
+      "title": "荣耀 Play11 手机发售：骁龙 4 Gen4、AI 一键关广告弹窗，1399 元起",
+      "url": "https://www.ithome.com/1/001/731.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "497e64d2127fb9bf",
@@ -8133,8 +8166,8 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "a4727d1319a7ed59",
-      "title": "A20 Pro 芯片 AI 跑分曝光：苹果 iPhone 18 Pro NPU 最高增幅 51.53%",
+      "id": "ef88fec406e3c54f",
+      "title": "A20 Pro 芯片 AI 跑分曝光：苹果 iPhone 18 Pro NPU 较前代最高增幅 51.53%",
       "url": "https://www.ithome.com/1/001/675.htm",
       "source": "IT之家",
       "source_type": "unknown",
@@ -8184,10 +8217,10 @@
       ]
     },
     {
-      "id": "18bc44a3905eb859",
-      "title": "算力词元贷加速全国推广，支持机房建设、GPU 服务器集群采购",
-      "url": "https://www.ithome.com/1/001/656.htm",
-      "source": "IT之家",
+      "id": "1d5b667c908d0118",
+      "title": "为什么同为顶流网文网站，起点全力打击AI文，扶持人类写手，番茄新规却似乎在打击人类写手，扶持AI文？",
+      "url": "https://www.zhihu.com/question/2080579062414697240",
+      "source": "知乎热榜",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -8198,108 +8231,7 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "算力",
-        "gpu"
-      ]
-    },
-    {
-      "id": "46c151d236931f88",
-      "title": "Anthropic CEO 阿莫迪称 AI 行业应当放缓发展速度，并承诺让第三方评估机构获得员工级访问权限",
-      "url": "https://www.ithome.com/1/001/651.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "419b9e44a7c2259a",
-      "title": "中国工程院院士邬贺铨：2030 年中国算力有望占到全球 30%",
-      "url": "https://www.ithome.com/1/001/634.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "算力"
-      ]
-    },
-    {
-      "id": "53d3d5266fcc9ceb",
-      "title": "中国银行启动“一网三融”算力金融生态共建行动",
-      "url": "https://www.36kr.com/newsflashes/3980073056500741",
-      "source": "36氪快讯",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "36氪快讯"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "算力"
-      ]
-    },
-    {
-      "id": "7ac17c3e68af7bd4",
-      "title": "陶哲轩等25位菲尔兹奖得主警告：AI与数学研究目标严重错位",
-      "url": "https://www.36kr.com/newsflashes/3979862818569223",
-      "source": "36氪快讯",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "36氪快讯"
+        "知乎热榜"
       ],
       "summary": "",
       "importance_label": "",
@@ -8308,9 +8240,85 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "9eeb616f48e5c0c6",
-      "title": "中国算力平台实现全国一体化算力统筹监测",
-      "url": "https://www.36kr.com/newsflashes/3979862276209665",
+      "id": "daa80a366665db5b",
+      "title": "中国电信总经理刘桂清：深化算电协同，加强算力与电力产业在规划、建设、运营方面深度融合",
+      "url": "https://www.36kr.com/newsflashes/3981202338495241",
+      "source": "36氪快讯",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "36氪快讯"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "算力"
+      ]
+    },
+    {
+      "id": "7b66c6af3dfa1dfb",
+      "title": "我国实现一体化算力统筹监测",
+      "url": "https://www.36kr.com/newsflashes/3981161748954115",
+      "source": "36氪快讯",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "36氪快讯"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "算力"
+      ]
+    },
+    {
+      "id": "ee637ce9a7d50eb0",
+      "title": "奥尔特曼：受人工智能安全担忧影响，OpenAI不会在2026年上市",
+      "url": "https://www.36kr.com/newsflashes/3981141184248832",
+      "source": "36氪快讯",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "36氪快讯"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "openai",
+        "人工智能"
+      ]
+    },
+    {
+      "id": "53d3d5266fcc9ceb",
+      "title": "中国银行启动“一网三融”算力金融生态共建行动",
+      "url": "https://www.36kr.com/newsflashes/3980073056500741",
       "source": "36氪快讯",
       "source_type": "unknown",
       "discovery_mode": null,
