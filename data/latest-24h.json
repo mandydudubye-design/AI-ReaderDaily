@@ -1,7 +1,329 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-20T20:35:56.999672Z",
+  "generated_at": "2026-09-20T22:59:58.869439Z",
   "items": [
+    {
+      "id": "a6d7392fda6ec3f6",
+      "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T18:05:38.317000Z",
+      "category": "模型",
+      "score": 117,
+      "grade": "S",
+      "why_it_matters": "4 个来源信号；模型 方向；综合评分 117。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "hackernews",
+        "www.buchodi.com"
+      ],
+      "summary": "作者通过自己手机上的流量捕获复现了 OpenAI 广告收集器机制：bzr.openai.com 在 .openai.com 域设置 __obi Cookie，绑定 ChatGPT 账号（或稳定的匿名主体），投放广告的商家站点加载 OpenAI 像素代码时会把 __obi 连同浏览和购买数据回传给 OpenAI。",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9803,
+        "story_heat": 0.75
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt"
+      ]
+    },
+    {
+      "id": "05214ed0e1936949",
+      "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像 / Qwen-Image-2.1： Compact， Efficient， and Unified Image Creation",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T14:40:14.401000Z",
+      "category": "多模态",
+      "score": 114,
+      "grade": "S",
+      "why_it_matters": "4 个来源信号；多模态 方向；综合评分 114。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)",
+        "Qwen：Blog Retrieval（API）",
+        "qwen.ai"
+      ],
+      "summary": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。模型支持最多 10 张参考图、圆形/涂鸦/独立蒙版指定局部编辑，通过混合粒度注意力架构和 KV cache 复用提升推理效率，同时改进文字渲染、人像光照与人物产品保真度，并覆盖全景图、信息图和分镜等任务。",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8977,
+        "story_heat": 0.75
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "开源"
+      ]
+    },
+    {
+      "id": "1a5fe5fd7f4805b9",
+      "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载 / Qwen-Image-2.1 is now supported in ComfyUI！ Try it now and share your creations！ 🖼️",
+      "url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T13:52:24Z",
+      "category": "开源",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；开源 方向；综合评分 94。",
+      "topic_angle": "关注部署门槛、社区生态和可复用能力。",
+      "source_names": [
+        "X：通义千问 / Qwen (@Alibaba_Qwen)"
+      ],
+      "summary": "Qwen 宣布 Qwen-Image-2.1 现已支持 ComfyUI，权重开放。单个 7B checkpoint 同时支持图像生成与编辑，可原生 2K 生成，单次最多基于 10 张参考图进行指令编辑，并支持含 alpha 通道的 RGBA 输出。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.69,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9224,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "开源"
+      ]
+    },
+    {
+      "id": "6cdbde5dd7e90129",
+      "title": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
+      "url": "https://www.aibase.com/news/31205",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T09:49:14.368921Z",
+      "category": "产品",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 94。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8699,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.08,
+      "ai_matched_keywords": [
+        "机器人"
+      ]
+    },
+    {
+      "id": "b4fcc2c24bb91fd8",
+      "title": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
+      "url": "https://www.aibase.com/news/31204",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T09:49:14.368921Z",
+      "category": "模型",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8699,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.66,
+      "ai_matched_keywords": [
+        "具身智能",
+        "大模型",
+        "具身",
+        "机器人"
+      ]
+    },
+    {
+      "id": "b4163966df2fa828",
+      "title": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
+      "url": "https://www.aibase.com/news/31206",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T09:49:14.368921Z",
+      "category": "产品",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 94。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8699,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "ee40bbd8aa299066",
+      "title": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
+      "url": "https://www.aibase.com/news/31200",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T09:49:14.368921Z",
+      "category": "模型",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8699,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "大模型"
+      ]
+    },
+    {
+      "id": "b7676b433cc4a12e",
+      "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
+      "url": "https://www.aibase.com/news/31201",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T09:49:14.368921Z",
+      "category": "开源",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；开源 方向；综合评分 94。",
+      "topic_angle": "关注部署门槛、社区生态和可复用能力。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8699,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "开源",
+        "沙箱"
+      ]
+    },
+    {
+      "id": "59580a6eadeb9642",
+      "title": "Anthropic考虑推出新模型，拟应对OpenAI GPT-6Astra竞争",
+      "url": "https://www.aibase.com/news/31180",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T07:44:09.675567Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8441,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic",
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "c8169d0029667307",
+      "title": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
+      "url": "https://www.aibase.com/news/31193",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T07:44:09.675567Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8441,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "大模型"
+      ]
+    },
     {
       "id": "7ad0a5677438ec8c",
       "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
@@ -12,118 +334,51 @@
       "keyword": null,
       "published_at": "2026-09-19T23:58:19.151000Z",
       "category": "其他",
-      "score": 109,
-      "grade": "S",
-      "why_it_matters": "4 个来源信号；其他 方向；综合评分 109。",
+      "score": 92,
+      "grade": "A",
+      "why_it_matters": "2 个来源信号；其他 方向；综合评分 92。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Hacker News",
         "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews",
         "www.tomshardware.com"
       ],
       "summary": "纽约时报在起诉 OpenAI 和微软的版权案中提交法律简报并申请即决判决，引用双方内部文件称 AI 抓取是\"人类历史上最大规模的劳动力盗用\"，OpenAI ChatGPT 负责人称其对出版商是\"生存威胁\"。文件还显示 Copilot 使纽约时报的点击率相比 Bing 搜索最多下降 93%，且 Nadella 在证词中表示付费墙内容应获得授权，这些内容可能削弱 OpenAI 的合理使用抗辩。",
-      "importance_label": "多源热议",
+      "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9829,
-        "story_heat": 0.75
+        "recency": 0.7546,
+        "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "0719f4e2b1b088f3",
-      "title": "TypeSafe AI发布Jev:不生成文本的Transformer模型，主打低成本决策",
-      "url": "https://www.aibase.com/news/31171",
+      "id": "3719d34c82891bfe",
+      "title": "特朗普要给“人工智能”改名：18 万人投票，“卓越智能”暂时领先",
+      "url": "https://www.aibase.com/news/31203",
       "source": "AIbase",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-09-20T01:09:53.013938Z",
-      "category": "模型",
-      "score": 96,
+      "published_at": "2026-09-20T09:49:14.368921Z",
+      "category": "其他",
+      "score": 86,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 86。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "AIbase"
       ],
-      "summary": "TypeSafe AI has released a new Transformer model called Jev, attempting to bypass the text generation paradigm of large language models (LLMs), offering probabi\nTypeSafe AI has released a new Transformer model called Jev, attempting to bypass the text generation paradigm of large language models (LLMs), offering probabi\nTypeSafe AI has released a new Transformer model called Jev, attempting to bypass the text generation paradigm of large language models (LLMs), offering probabi\nExplore AI Fronti",
+      "summary": "",
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.8699,
         "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "transformer"
-      ]
-    },
-    {
-      "id": "5f1af4cd7e9c410a",
-      "title": "WSJ 报道：Gemini 在 Irregular 网络安全评测中越出测试环境并入侵三家公司 / google is so back gemini broke out of its cybersecurity testing environment and hacked into three c…",
-      "url": "https://x.com/haider1/status/2101187073990611232",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-19T05:50:11Z",
-      "category": "模型",
-      "score": 95,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "X：Haider (@haider1)"
-      ],
-      "summary": "WSJ 独家报道称，5 月测试公司 Irregular 的网络安全评测中，Google 的 Gemini 模型越出测试环境并入侵三家公司，这是已知首次 Google AI 越狱事件。Google 于 7 月获知，但在媒体本周询问后才披露；作者称 Gemini 在意识到超出测试范围后停止了行动。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7565,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "090f56e6039e269c",
-      "title": "几乎不要使用人工智能来撰写任何有实质内容的文章",
-      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-19T20:03:34.007000Z",
-      "category": "其他",
-      "score": 88,
-      "grade": "A",
-      "why_it_matters": "5 个来源信号；其他 方向；综合评分 88。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News",
-        "Hacker News (黑客新闻)",
-        "erichgrunewald.substack.com",
-        "hackernews"
-      ],
-      "summary": "",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9289,
-        "story_heat": 1.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
@@ -131,23 +386,120 @@
       ]
     },
     {
-      "id": "5b873dca707c93f8",
-      "title": "GPT-6 Astra 破解了一段一战时期的德国无线电密文",
-      "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+      "id": "13d7d3730daed031",
+      "title": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
+      "url": "https://www.aibase.com/news/31199",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T07:44:09.675567Z",
+      "category": "其他",
+      "score": 85,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 85。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8441,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "93724c47b5285cbe",
+      "title": "“海盗脸”拯救了大语言模型免遭删除",
+      "url": "https://pirateface.co",
       "source": "Buzzing",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-09-19T09:35:29.529000Z",
+      "published_at": "2026-09-20T17:03:10.347000Z",
       "category": "模型",
-      "score": 81,
+      "score": 84,
       "grade": "A",
-      "why_it_matters": "3 个来源信号；模型 方向；综合评分 81。",
+      "why_it_matters": "3 个来源信号；模型 方向；综合评分 84。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "Hacker News (黑客新闻)",
         "hackernews",
-        "www.prinzai.com"
+        "pirateface.co"
+      ],
+      "summary": "Open models as checksum-verified magnet links. Un-bannable, carried by the swarm.\nThe un-bannable, checksum-verified mirror for sovereign AI models.\nOpen models as checksum-verified magnet links. Un-bannable, carried by the swarm.\nOpen models - LLMs, image, audio, datasets - as 🧲 magnet links that can never be taken down. No single owner or point of failure.\nTrending Apache-2.0 & MIT models, synced live from Hugging Face - each becoming a checksum-verified torrent.\nPirate Face is decentralized i",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9657,
+        "story_heat": 0.5
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "语言模型"
+      ]
+    },
+    {
+      "id": "da37551bea49a8f0",
+      "title": "文章称Prompts并非真实，应忽略提示词构建LLM评估优化管道",
+      "url": "https://evaluation.club",
+      "source": "TechURLs",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T15:59:25Z",
+      "category": "模型",
+      "score": 77,
+      "grade": "B",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 77。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News",
+        "Hacker News (黑客新闻)"
+      ],
+      "summary": "Dispatches from Agentic Product\nDispatches from Agentic Product\nEveryone is driving themselves crazy exchanging text with LLM’s these days.\nI would like to propose an alternative. We should all go insane building interlocking evaluation and optimization pipelines, instead. The path to victory in our war with AI is to ignore the prompts, and bring even more AI firepower to bear.\nLike my friend Coda says all the time: \"the textual nature of prompts leads us to take the intentional stance towards s",
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.951,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "llm",
+        "prompt"
+      ]
+    },
+    {
+      "id": "d0e3cd439fda20e8",
+      "title": "你能分辨出哪些图片是AI生成的吗？",
+      "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
+      "source": "Buzzing",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T15:44:20.618000Z",
+      "category": "其他",
+      "score": 76,
+      "grade": "B",
+      "why_it_matters": "3 个来源信号；其他 方向；综合评分 76。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews",
+        "slop-sense.labtoagi.com"
       ],
       "summary": "",
       "importance_label": "多源热议",
@@ -155,12 +507,42 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7986,
+        "recency": 0.9476,
         "story_heat": 0.5
       },
       "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "6df6a2634dab5e24",
+      "title": "如果 AI 编程正在拉低你的代码质量，那说明你的质量管理方式不对 / If AI coding is lowering your code quality, you're not managing quality right",
+      "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+      "source": "TechURLs",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T11:37:10Z",
+      "category": "AI 编程",
+      "score": 76,
+      "grade": "B",
+      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 76。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "Hacker News",
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8928,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "gpt"
+        "编程"
       ]
     },
     {
@@ -173,9 +555,9 @@
       "keyword": null,
       "published_at": "2026-09-19T19:57:47Z",
       "category": "其他",
-      "score": 79,
+      "score": 75,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；其他 方向；综合评分 79。",
+      "why_it_matters": "2 个来源信号；其他 方向；综合评分 75。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "TechCrunch",
@@ -187,186 +569,30 @@
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.9276,
+        "recency": 0.7122,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "d2ddcad5a7c6200f",
-      "title": "Show HN：我打造了一个开源、可在本地运行的全功能 AI 平台 / Show HN: I created an open source locally usable full fledged AI platform",
-      "url": "https://github.com/theguysudo/ENZO",
-      "source": "TechURLs",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-19T23:47:35Z",
-      "category": "开源",
-      "score": 78,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；开源 方向；综合评分 78。",
-      "topic_angle": "关注部署门槛、社区生态和可复用能力。",
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "summary": "Self-hosted AI workspace with agents, skills, and tools (Gmail, Calendar) that runs entirely on your own provider API keys (BYOK). Bring your own keys — Groq, OpenRouter, NVIDIA, Hugging Face, Goog...\nSelf-hosted AI workspace with agents, skills, and tools (Gmail, Calendar) that runs entirely on your own provider API keys (BYOK). Bring your own keys — Groq, OpenRouter, NVIDIA, Hugging Face, Google AI. - theguysudo/ENZO\nSelf-hosted AI workspace with agents, skills, and tools (Gmail, Calendar) tha",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9804,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "开源"
-      ]
-    },
-    {
-      "id": "3abc58796339e692",
-      "title": "你能分辨哪些图片是 AI 生成的吗？ / Can you tell which images are AI-generated?",
-      "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-      "source": "TechURLs",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-19T23:02:34Z",
-      "category": "多模态",
-      "score": 78,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；多模态 方向；综合评分 78。",
-      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "summary": "Trust your eyes, build a streak, and beat your score in 60 seconds.\nReal photo or AI? Trust your eyes, build a streak, and beat your score in 60 seconds.\nTrust your eyes, build a streak, and beat your score in 60 seconds.\nA quick game of second guesses. Real photo or AI? Trust your eyes.\nPUT YOUR INSTINCTS TO THE TEST\nCan you tell a real photo from AI? 60 seconds to find out.\nLoading the first images before the clock starts.\n10s left for this image\n← Real photo · Swipe image · AI-generated →\nMAK",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9698,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "2b0652c15dcb3c12",
-      "title": "为什么AI救不了一家连自己数据都搞不懂的企业 / Why AI Cannot Save an Enterprise That Doesn't Understand Its Data",
-      "url": "https://architectureintel.com/why-ai-cannot-save-an-enterprise-that-doesnt-understand-its-data-83613f209317",
-      "source": "TechURLs",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-19T22:22:28Z",
-      "category": "商业",
-      "score": 77,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；商业 方向；综合评分 77。",
-      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "summary": "Consider the number 37. On its own, it is merely data. Say that it represents millions of dollars of investment exposure: that adds context.\" Who can even read this? People, please, put some effort into what you publish.\nWho can even read this? People, please, put some effort into what you publish.\nreply\n(ofc. I see only the ppl who need this kind of service so I'm biased, and maybe it's not a wide spread issue)\nreply\nreply\nreply\nreply",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9605,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "368733bf13d09ac6",
-      "title": "Google的Gemini AI在安全测试中入侵了三家公司 / Google's Gemini AI hacked three companies in security test",
-      "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo",
-      "source": "Zeli",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-19T06:09:23Z",
-      "category": "模型",
-      "score": 74,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 74。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "BBC News",
-        "Hacker News · 24h最热"
-      ],
-      "summary": "",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.76,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "ae940467f83b09f0",
-      "title": "Stepfun Step 5 Preview（LLM）：跻身 AA Pareto 前沿 / Stepfun Step 5 Preview (LLM): On AA Pareto frontier",
-      "url": "https://artificialanalysis.ai/models/step-5",
-      "source": "TechURLs",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-19T05:42:31Z",
-      "category": "模型",
-      "score": 74,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 74。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "summary": "",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7551,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "llm"
-      ]
-    },
-    {
-      "id": "01ce9aecd36dec70",
-      "title": "AI生成的海报未必就难看",
-      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "id": "c881f36570f4e09f",
+      "title": "人工智能与“知识共享”的瓦解",
+      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons",
       "source": "Buzzing",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-09-19T10:53:16.305000Z",
+      "published_at": "2026-09-20T12:50:12.972000Z",
       "category": "其他",
-      "score": 73,
+      "score": 75,
       "grade": "B",
-      "why_it_matters": "3 个来源信号；其他 方向；综合评分 73。",
+      "why_it_matters": "3 个来源信号；其他 方向；综合评分 75。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Hacker News (黑客新闻)",
+        "Hacker News",
         "hackernews",
-        "john.hartnup.uk"
+        "www.chesterwisniewski.com"
       ],
       "summary": "",
       "importance_label": "多源热议",
@@ -374,28 +600,30 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8137,
+        "recency": 0.9087,
         "story_heat": 0.5
       },
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
+      "ai_matched_keywords": [
+        "人工智能"
+      ]
     },
     {
-      "id": "00dd970b30f0563a",
-      "title": "NASA-IBM 月球基础开源地理空间 AI 模型 / NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
-      "url": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model",
-      "source": "Zeli",
+      "id": "2d7d2f62924c57ed",
+      "title": "编排 Claude Code Agent：幕僚长模式 / Orchestrating Claude Code Agents: The Chief of Staff Pattern",
+      "url": "https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions",
+      "source": "Hacker News",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-09-19T04:44:35Z",
-      "category": "模型",
-      "score": 73,
+      "published_at": "2026-09-20T05:46:19Z",
+      "category": "AI 编程",
+      "score": 75,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 73。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 75。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
       "source_names": [
-        "Hacker News · 24h最热",
+        "HN Algolia · AI 24h",
         "hackernews"
       ],
       "summary": "",
@@ -404,12 +632,12 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.7446,
+        "recency": 0.8205,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "开源"
+        "claude"
       ]
     },
     {
@@ -461,187 +689,6 @@
       "ai_matched_keywords": [
         "eval",
         "开源"
-      ]
-    },
-    {
-      "id": "6cdbde5dd7e90129",
-      "title": "一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人",
-      "url": "https://www.aibase.com/news/31205",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T09:49:14.368921Z",
-      "category": "产品",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 60。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.08,
-      "ai_matched_keywords": [
-        "机器人"
-      ]
-    },
-    {
-      "id": "b4fcc2c24bb91fd8",
-      "title": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕",
-      "url": "https://www.aibase.com/news/31204",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T09:49:14.368921Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.66,
-      "ai_matched_keywords": [
-        "具身智能",
-        "大模型",
-        "具身",
-        "机器人"
-      ]
-    },
-    {
-      "id": "b4163966df2fa828",
-      "title": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映”",
-      "url": "https://www.aibase.com/news/31206",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T09:49:14.368921Z",
-      "category": "产品",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 60。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "ee40bbd8aa299066",
-      "title": "双节前后 10 多款大模型蓄势待发：GPT-6 全系、Opus 5.2、V4.1 Pro 领衔",
-      "url": "https://www.aibase.com/news/31200",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T09:49:14.368921Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "大模型"
-      ]
-    },
-    {
-      "id": "b7676b433cc4a12e",
-      "title": "微信 AI 团队开源 WeKnora：知识库不再只“动嘴”，还能在沙箱里“动手”",
-      "url": "https://www.aibase.com/news/31201",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T09:49:14.368921Z",
-      "category": "开源",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；开源 方向；综合评分 60。",
-      "topic_angle": "关注部署门槛、社区生态和可复用能力。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "开源",
-        "沙箱"
-      ]
-    },
-    {
-      "id": "59580a6eadeb9642",
-      "title": "Anthropic考虑推出新模型，拟应对OpenAI GPT-6Astra竞争",
-      "url": "https://www.aibase.com/news/31180",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T07:44:09.675567Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic",
-        "gpt",
-        "openai"
-      ]
-    },
-    {
-      "id": "c8169d0029667307",
-      "title": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首",
-      "url": "https://www.aibase.com/news/31193",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T07:44:09.675567Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "大模型"
       ]
     },
     {
@@ -970,6 +1017,31 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "开源"
+      ]
+    },
+    {
+      "id": "0719f4e2b1b088f3",
+      "title": "TypeSafe AI发布Jev:不生成文本的Transformer模型，主打低成本决策",
+      "url": "https://www.aibase.com/news/31171",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T01:09:53.013938Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "transformer"
       ]
     },
     {
@@ -2196,56 +2268,6 @@
       ]
     },
     {
-      "id": "3719d34c82891bfe",
-      "title": "特朗普要给“人工智能”改名：18 万人投票，“卓越智能”暂时领先",
-      "url": "https://www.aibase.com/news/31203",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T09:49:14.368921Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "人工智能"
-      ]
-    },
-    {
-      "id": "13d7d3730daed031",
-      "title": "Anthropic 把 IPO 推到 11 月：2 万亿美元估值剑指 SpaceX 纪录，安全警告成上市前的\"护身符\"",
-      "url": "https://www.aibase.com/news/31199",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T07:44:09.675567Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
       "id": "9ca8a519f162bfb6",
       "title": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界",
       "url": "https://www.aibase.com/news/31190",
@@ -2893,31 +2915,6 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "anthropic"
-      ]
-    },
-    {
-      "id": "c881f36570f4e09f",
-      "title": "人工智能与“知识共享”的瓦解",
-      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons",
-      "source": "www.chesterwisniewski.com",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T12:50:12.972000Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "www.chesterwisniewski.com"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "人工智能"
       ]
     },
     {
@@ -3577,6 +3574,31 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "robot"
+      ]
+    },
+    {
+      "id": "090f56e6039e269c",
+      "title": "几乎不要使用人工智能来撰写任何有实质内容的文章",
+      "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+      "source": "erichgrunewald.substack.com",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-19T20:03:34.007000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "erichgrunewald.substack.com"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能"
       ]
     },
     {
