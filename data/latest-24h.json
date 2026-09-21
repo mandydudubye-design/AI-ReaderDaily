@@ -1,41 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-21T13:38:43.348533Z",
+  "generated_at": "2026-09-21T19:04:43.658231Z",
   "items": [
-    {
-      "id": "a6d7392fda6ec3f6",
-      "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
-      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T18:05:38.317000Z",
-      "category": "模型",
-      "score": 113,
-      "grade": "S",
-      "why_it_matters": "4 个来源信号；模型 方向；综合评分 113。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "hackernews",
-        "www.buchodi.com"
-      ],
-      "summary": "作者通过自己手机上的流量捕获复现了 OpenAI 广告收集器机制：bzr.openai.com 在 .openai.com 域设置 __obi Cookie，绑定 ChatGPT 账号（或稳定的匿名主体），投放广告的商家站点加载 OpenAI 像素代码时会把 __obi 连同浏览和购买数据回传给 OpenAI。",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7863,
-        "story_heat": 0.75
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt"
-      ]
-    },
     {
       "id": "05214ed0e1936949",
       "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像 / Qwen-Image-2.1： Compact， Efficient， and Unified Image Creation",
@@ -69,288 +35,6 @@
       "ai_matched_keywords": [
         "开源"
       ]
-    },
-    {
-      "id": "9b17e849373255f6",
-      "title": "为什么MCP一直都是个糟糕的主意？",
-      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T06:27:15.988000Z",
-      "category": "智能体",
-      "score": 97,
-      "grade": "A",
-      "why_it_matters": "5 个来源信号；智能体 方向；综合评分 97。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Hacker News",
-        "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
-        "hackernews",
-        "maharship.com"
-      ],
-      "summary": "",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9399,
-        "story_heat": 1.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "mcp"
-      ]
-    },
-    {
-      "id": "3bbfe3594a3db8fb",
-      "title": "Anthropic与字节扎堆AI制药，下一个Coding风口卡在了数据这道坎上",
-      "url": "https://www.aibase.com/news/31241",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T10:44:34.815175Z",
-      "category": "AI 编程",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 96。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "The AI drug development sector has recently seen a significant surge, with two major players previously outside this space entering the field. Anthropic is buil\nThe AI drug development sector has recently seen a significant surge, with two major players previously outside this space entering the field. Anthropic is buil\nThe AI drug development sector has recently seen a significant surge, with two major players previously outside this space entering the field. Anthropic is buil\nExplore AI Fronti",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "bd833b59c2ca2221",
-      "title": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
-      "url": "https://www.aibase.com/news/31231",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T10:44:34.815175Z",
-      "category": "模型",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "Everyone is waiting for Opus 5.2, but Anthropic might jump straight to version 5.5. Developer Lyra revealed a big scoop early: Claude Opus 5.5, codenamed claude\nEveryone is waiting for Opus 5.2, but Anthropic might jump straight to version 5.5. Developer Lyra revealed a big scoop early: Claude Opus 5.5, codenamed claude\nEveryone is waiting for Opus 5.2, but Anthropic might jump straight to version 5.5. Developer Lyra revealed a big scoop early: Claude Opus 5.5, codenamed claude\nExplore AI Fronti",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude",
-        "gpt"
-      ]
-    },
-    {
-      "id": "6eddd6a61ae3cf22",
-      "title": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
-      "url": "https://www.aibase.com/news/31232",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T10:44:34.815175Z",
-      "category": "模型",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "Everyone is waiting for Opus 5.2, but the latest reports show that the next version number has jumped directly to 5.5. Early today, developer Lyra revealed a ho\nEveryone is waiting for Opus 5.2, but the latest reports show that the next version number has jumped directly to 5.5. Early today, developer Lyra revealed a ho\nEveryone is waiting for Opus 5.2, but the latest reports show that the next version number has jumped directly to 5.5. Early today, developer Lyra revealed a ho\nExplore AI Fronti",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude",
-        "gpt"
-      ]
-    },
-    {
-      "id": "cee4bd7d9d1309c3",
-      "title": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
-      "url": "https://www.aibase.com/news/31237",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T10:44:34.815175Z",
-      "category": "模型",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "Kimi Code desktop client for macOS and Windows is now available. Users can start installing and using it by visiting kimi.com/code.Designed for developers' actu\nKimi Code desktop client for macOS and Windows is now available. Users can start installing and using it by visiting kimi.com/code.Designed for developers' actu\nKimi Code desktop client for macOS and Windows is now available. Users can start installing and using it by visiting kimi.com/code.Designed for developers' actu\nExplore AI Fronti",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "8b699e932a93d758",
-      "title": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
-      "url": "https://www.aibase.com/news/31234",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T10:44:34.815175Z",
-      "category": "AI 编程",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 96。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "Unfortunately, the worst-case scenario has come true. Security researchers have uncovered that OpenAI has established a complete cross-site tracking chain throu\nUnfortunately, the worst-case scenario has come true. Security researchers have uncovered that OpenAI has established a complete cross-site tracking chain throu\nUnfortunately, the worst-case scenario has come true. Security researchers have uncovered that OpenAI has established a complete cross-site tracking chain throu\nExplore AI Fronti",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "openai"
-      ]
-    },
-    {
-      "id": "61d2422a671f9a8f",
-      "title": "微软花 12 万美元让 AI 重写 Copilot 运行时：43 万行 TS 变 80 万行 Rust，快 15.9 倍",
-      "url": "https://www.aibase.com/news/31240",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T10:44:34.815175Z",
-      "category": "AI 编程",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 96。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "Microsoft used AI agents to fully port the GitHub Copilot runtime from TypeScript to Rust, which cost about $120,000 in token costs and a developer's three week\nMicrosoft used AI agents to fully port the GitHub Copilot runtime from TypeScript to Rust, which cost about $120,000 in token costs and a developer's three week\nMicrosoft used AI agents to fully port the GitHub Copilot runtime from TypeScript to Rust, which cost about $120,000 in token costs and a developer's three week\nExplore AI Fronti",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "copilot"
-      ]
-    },
-    {
-      "id": "eb8614b49f315490",
-      "title": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
-      "url": "https://www.aibase.com/news/31239",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T10:44:34.815175Z",
-      "category": "AI 编程",
-      "score": 96,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 96。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "The back side of the moon has released both the macOS and Windows versions of Kimi Code Desktop. This is the official desktop client for Kimi Code, which frees\nThe back side of the moon has released both the macOS and Windows versions of Kimi Code Desktop. This is the official desktop client for Kimi Code, which frees\nThe back side of the moon has released both the macOS and Windows versions of Kimi Code Desktop. This is the official desktop client for Kimi Code, which frees\nExplore AI Frontiers",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "编程"
-      ]
-    },
-    {
-      "id": "93104e2975a34240",
-      "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T07:54:32Z",
-      "category": "产品",
-      "score": 95,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 95。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "公众号：月之暗面（Kimi）"
-      ],
-      "summary": "Kimi（月之暗面）发布 Kimi Code Desktop 1.0，作为 Kimi Code 官方桌面客户端，macOS（Apple 与 Intel 芯片）和 Windows 版同步上线，下载地址为 kimi.com/code。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9599,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
     },
     {
       "id": "446f4b9dec6fc417",
@@ -415,159 +99,6 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "2da552249d18e13e",
-      "title": "法国兴业银行押注 AI：预计最多省下 6 亿欧元成本",
-      "url": "https://www.aibase.com/news/31238",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T10:44:34.815175Z",
-      "category": "其他",
-      "score": 88,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "According to Bloomberg, Société Générale SA predicts that the expanding application of artificial intelligence will make a significant contribution to the bank'\nAccording to Bloomberg, Société Générale SA predicts that the expanding application of artificial intelligence will make a significant contribution to the bank'\nAccording to Bloomberg, Société Générale SA predicts that the expanding application of artificial intelligence will make a significant contribution to the bank'\nExplore AI Fronti",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "f8146e8bb6a2ef7d",
-      "title": "百度文库网盘宣布AI办公出海，库库AI全球月活超4000万",
-      "url": "https://www.aibase.com/news/31236",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T10:44:34.815175Z",
-      "category": "其他",
-      "score": 88,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "On September 21, during Baidu's AI Day open day, Baidu Wenku Cloud Drive announced accelerating its AI office expansion overseas and advancing global brand upgr\nOn September 21, during Baidu's AI Day open day, Baidu Wenku Cloud Drive announced accelerating its AI office expansion overseas and advancing global brand upgr\nOn September 21, during Baidu's AI Day open day, Baidu Wenku Cloud Drive announced accelerating its AI office expansion overseas and advancing global brand upgr\nExplore AI Fronti",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "b1620a3778114db7",
-      "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686509&idx=1&sn=1b5ee8ab30c5825eaff76083e1f8dbcc",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T01:52:57Z",
-      "category": "其他",
-      "score": 84,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 84。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "公众号：数字生命卡兹克"
-      ],
-      "summary": "作者访谈多位字幕组与漫画汉化组成员，发现他们并不抵触AI。Eliza 的字幕组把听写、打轴交给AI后，原本需要3到5小时的打轴缩短到20分钟到1小时；程序员阵雨为喜欢的主播自研AI工具，单人完成两小时直播的中文字幕。漫画汉化组则因嵌字质量等原因仍坚持人工制作，成员看重的是同好社群与爱好本身。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.66,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8799,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "93724c47b5285cbe",
-      "title": "“海盗脸”拯救了大语言模型免遭删除",
-      "url": "https://pirateface.co",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-20T17:03:10.347000Z",
-      "category": "模型",
-      "score": 81,
-      "grade": "A",
-      "why_it_matters": "3 个来源信号；模型 方向；综合评分 81。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "pirateface.co"
-      ],
-      "summary": "",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7746,
-        "story_heat": 0.5
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "语言模型"
-      ]
-    },
-    {
-      "id": "a5eee304b862ac50",
-      "title": "AI聊天机器人在回答金融问题时“大多数时候”都会给出错误答案",
-      "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-21T09:51:28.311000Z",
-      "category": "其他",
-      "score": 76,
-      "grade": "B",
-      "why_it_matters": "3 个来源信号；其他 方向；综合评分 76。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News",
-        "hackernews",
-        "www.ft.com"
-      ],
-      "summary": "Report finds some chatbots ignored upcoming tax changes and hallucinated rules\nSave now on essential digital access to trusted FT journalism on any device. Savings based on annualised monthly price.\nThen $75 per month. Complete digital access with exclusive insights and industry deep dives on any device. Cancel anytime during your trial.\nComplete digital access with exclusive insights and industry deep dives on any device.\nSave now on our curated print edition delivered Monday - Saturday* plus o",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9873,
-        "story_heat": 0.5
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "机器人"
-      ]
-    },
-    {
       "id": "7606a76ff140af70",
       "title": "没有人会对 Nvidia 的黄仁勋认为 AI 恐慌被夸大感到意外。 / No one is surprised that Nvidia&#8217;s Jensen Huang thinks AI fears are overblown.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
@@ -629,6 +160,182 @@
       ]
     },
     {
+      "id": "3bbfe3594a3db8fb",
+      "title": "Anthropic与字节扎堆AI制药，下一个Coding风口卡在了数据这道坎上",
+      "url": "https://www.aibase.com/news/31241",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T10:44:34.815175Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "bd833b59c2ca2221",
+      "title": "Claude Opus 5. 5 疑遭内测泄露：跳级直冲GPT-6，百万Token价格腰斩至 4 美元",
+      "url": "https://www.aibase.com/news/31231",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T10:44:34.815175Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "claude",
+        "gpt"
+      ]
+    },
+    {
+      "id": "6eddd6a61ae3cf22",
+      "title": "Claude Opus 5.5 已在内测：连跳两级直逼 GPT-6，价格还打骨折",
+      "url": "https://www.aibase.com/news/31232",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T10:44:34.815175Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "claude",
+        "gpt"
+      ]
+    },
+    {
+      "id": "cee4bd7d9d1309c3",
+      "title": "Kimi Code 桌面客户端上线：macOS 与 Windows 同步开放",
+      "url": "https://www.aibase.com/news/31237",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T10:44:34.815175Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "8b699e932a93d758",
+      "title": "开发者实锤OpenAI广告追踪链条：ChatGPT账号正悄悄绑定你的全网浏览足迹",
+      "url": "https://www.aibase.com/news/31234",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T10:44:34.815175Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "61d2422a671f9a8f",
+      "title": "微软花 12 万美元让 AI 重写 Copilot 运行时：43 万行 TS 变 80 万行 Rust，快 15.9 倍",
+      "url": "https://www.aibase.com/news/31240",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T10:44:34.815175Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "copilot"
+      ]
+    },
+    {
+      "id": "eb8614b49f315490",
+      "title": "月之暗面推出Kimi Code Desktop桌面端，把AI编程Agent直接搬上macOS和Windows",
+      "url": "https://www.aibase.com/news/31239",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T10:44:34.815175Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "编程"
+      ]
+    },
+    {
       "id": "df02d42ae2549db4",
       "title": "阿里换帅Qwen团队：刘大一恒接掌通义千问大模型，云栖大会前亮相",
       "url": "https://www.aibase.com/news/31233",
@@ -652,6 +359,29 @@
       "ai_matched_keywords": [
         "大模型"
       ]
+    },
+    {
+      "id": "93104e2975a34240",
+      "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6",
+      "source": "公众号：月之暗面（Kimi）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T07:54:32Z",
+      "category": "产品",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 60。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "公众号：月之暗面（Kimi）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
     },
     {
       "id": "ae67689cb8e27080",
@@ -1167,6 +897,31 @@
         "anthropic",
         "gemini",
         "openai"
+      ]
+    },
+    {
+      "id": "a6d7392fda6ec3f6",
+      "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T18:05:38.317000Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt"
       ]
     },
     {
@@ -1943,6 +1698,31 @@
       "ai_matched_keywords": []
     },
     {
+      "id": "9b17e849373255f6",
+      "title": "为什么MCP一直都是个糟糕的主意？",
+      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea",
+      "source": "maharship.com",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T06:27:15.988000Z",
+      "category": "智能体",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "maharship.com"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "mcp"
+      ]
+    },
+    {
       "id": "2f4b77b13c92cfe5",
       "title": "也许我们误解了DeepSeek-V4.1-Flash，罪魁祸首其实是它",
       "url": "https://juejin.cn/post/7686774294090383386",
@@ -2450,6 +2230,31 @@
       "ai_matched_keywords": []
     },
     {
+      "id": "93724c47b5285cbe",
+      "title": "“海盗脸”拯救了大语言模型免遭删除",
+      "url": "https://pirateface.co",
+      "source": "pirateface.co",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-20T17:03:10.347000Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "pirateface.co"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "语言模型"
+      ]
+    },
+    {
       "id": "436eca0227308582",
       "title": "Forget Google Keep and OneNote: Gemini Notebooks changed how I collect and use information",
       "url": "https://www.androidpolice.com/forget-google-keep-onenote-gemini-notebooks-changed-how-i-collect-use-information",
@@ -2905,6 +2710,52 @@
       ]
     },
     {
+      "id": "2da552249d18e13e",
+      "title": "法国兴业银行押注 AI：预计最多省下 6 亿欧元成本",
+      "url": "https://www.aibase.com/news/31238",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T10:44:34.815175Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "f8146e8bb6a2ef7d",
+      "title": "百度文库网盘宣布AI办公出海，库库AI全球月活超4000万",
+      "url": "https://www.aibase.com/news/31236",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T10:44:34.815175Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
       "id": "8d79b27ea63c3313",
       "title": "Siri AI 和解开放申请：符合条件的美国 iPhone 用户每台可领 25 美元",
       "url": "https://www.aibase.com/news/31228",
@@ -2989,6 +2840,29 @@
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "b1620a3778114db7",
+      "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686509&idx=1&sn=1b5ee8ab30c5825eaff76083e1f8dbcc",
+      "source": "公众号：数字生命卡兹克",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T01:52:57Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "公众号：数字生命卡兹克"
       ],
       "summary": "",
       "importance_label": "",
@@ -3585,6 +3459,31 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "a5eee304b862ac50",
+      "title": "AI聊天机器人在回答金融问题时“大多数时候”都会给出错误答案",
+      "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+      "source": "www.ft.com",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-21T09:51:28.311000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "www.ft.com"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "机器人"
+      ]
     },
     {
       "id": "109e75b7f07d0fdb",
