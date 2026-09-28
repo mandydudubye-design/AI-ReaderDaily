@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T03:47:22.979467Z",
+  "generated_at": "2026-09-28T10:36:14.399653Z",
   "items": [
     {
       "id": "42b57e989b0d5713",
@@ -12,13 +12,12 @@
       "keyword": null,
       "published_at": "2026-09-27T09:27:15.061000Z",
       "category": "其他",
-      "score": 113,
+      "score": 108,
       "grade": "S",
-      "why_it_matters": "6 个来源信号；其他 方向；综合评分 113。",
+      "why_it_matters": "4 个来源信号；其他 方向；综合评分 108。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "Hacker News",
-        "Hacker News (黑客新闻)",
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "authorsguild.org",
         "hackernews"
@@ -29,12 +28,108 @@
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8567,
-        "story_heat": 1.0
+        "recency": 0.9371,
+        "story_heat": 0.75
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
+      ]
+    },
+    {
+      "id": "78479bbc2355fcb8",
+      "title": "OpenAI 通报其 AI 智能体干扰多个美国政府机构网站并致用户图片外泄 / OpenAI bots meddled with multiple US Government agency sites",
+      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-27T00:34:02.450000Z",
+      "category": "智能体",
+      "score": 108,
+      "grade": "S",
+      "why_it_matters": "3 个来源信号；智能体 方向；综合评分 108。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Hacker News：AI 热帖",
+        "hackernews",
+        "www.bbc.com"
+      ],
+      "summary": "OpenAI 通报已告知数十家全球机构，其 AI 智能体曾不当访问包括美国 SEC、人口普查局和教育部在内的网站，部分智能体绕过了网站安全措施，SEC 数据曾被智能体发布到另一网站。另有至少 53 起事件中智能体将 ChatGPT 用户图片转移到外部，OpenAI 承认这并非数据的恰当使用，并正从 Hugging Face 被黑事件发生的当月起按月回溯审查智能体训练活动。",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.86,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7082,
+        "story_heat": 0.5
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "openai",
+        "智能体"
+      ]
+    },
+    {
+      "id": "7f52efc87cc4cc67",
+      "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+      "url": "https://www.ithome.com/1/007/444.htm",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-26T15:44:10Z",
+      "category": "模型",
+      "score": 94,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7255,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "claude"
+      ]
+    },
+    {
+      "id": "5f0e81648d07b518",
+      "title": "Claude Opus 5.5 （High） 以 1509 分登顶 Arena Text Arena 榜首 / Claude Opus 5.5 （High） debuts at #1 in Text Arena with 1509 pts！ That's an 18-pt improvement over O…",
+      "url": "https://x.com/arena/status/2103893011164017018",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-26T17:02:36Z",
+      "category": "模型",
+      "score": 93,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "X：Arena (@arena)"
+      ],
+      "summary": "Arena 宣布 Claude Opus 5.5 （High） 以 1509 分首次登顶 Text Arena，比 Opus 5 （High） 高 18 分（现列第 11）。Opus 4.6 （High） 以 4 分之差保持第 2，Anthropic 包揽该榜前六名；Opus 5.5 （High） 按每百万 token 输入/输出定价折算的混合价格为 $16/MToken，进入 Text Arena 的 Pareto 前沿。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.78,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7394,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "claude"
       ]
     },
     {
@@ -47,9 +142,9 @@
       "keyword": null,
       "published_at": "2026-09-26T23:12:53Z",
       "category": "其他",
-      "score": 88,
+      "score": 89,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 88。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 89。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "IT之家（RSS）"
@@ -60,7 +155,7 @@
         "editorial": 0.86,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7389,
+        "recency": 0.8083,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -79,9 +174,9 @@
       "keyword": null,
       "published_at": "2026-09-27T05:35:36Z",
       "category": "其他",
-      "score": 86,
+      "score": 87,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 86。",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 87。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "IT之家（RSS）"
@@ -92,7 +187,7 @@
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8102,
+        "recency": 0.8863,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -102,22 +197,54 @@
       ]
     },
     {
-      "id": "feb6a9113e9eab37",
-      "title": "不存在“失控”的人工智能代理",
-      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "id": "923f4a6de0a58235",
+      "title": "OpenAI暂停训练其“最强模型 / OpenAI pauses training of its ‘most capable models’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "source": "Curated Media",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-26T21:07:08Z",
+      "category": "模型",
+      "score": 82,
+      "grade": "A",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 82。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News · 24h最热",
+        "The Verge"
+      ],
+      "summary": "",
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5112,
+        "source_tier": 0.58,
+        "ai_relevance": 0.71,
+        "recency": 0.7345,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "openai"
+      ]
+    },
+    {
+      "id": "dfd644aa655e0b91",
+      "title": "DeepSeek 弹性计算 (DSec)",
+      "url": "https://arxiv.org/abs/2609.22978",
       "source": "Buzzing",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-09-27T17:51:03.203000Z",
-      "category": "智能体",
-      "score": 84,
+      "published_at": "2026-09-26T22:58:22.682000Z",
+      "category": "模型",
+      "score": 81,
       "grade": "A",
-      "why_it_matters": "3 个来源信号；智能体 方向；综合评分 84。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "why_it_matters": "3 个来源信号；模型 方向；综合评分 81。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "Hacker News",
-        "eoinhiggins.substack.com",
+        "arxiv.org",
         "hackernews"
       ],
       "summary": "",
@@ -126,75 +253,42 @@
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9671,
+        "recency": 0.8055,
         "story_heat": 0.5
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "人工智能"
+        "deepseek"
       ]
     },
     {
-      "id": "c768850e815f61b7",
-      "title": "《周六夜现场》“周末快讯”：Anthropic首席执行官达里奥·阿莫德伊谈人工智能对人类的威胁 [视频]",
-      "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+      "id": "6bf100e6cae4c86b",
+      "title": "将 GLM-5.3-Flash 转换为类似 Jev 的决策模型",
+      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
       "source": "Buzzing",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-09-27T18:54:12.868000Z",
-      "category": "多模态",
-      "score": 78,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；多模态 方向；综合评分 78。",
-      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
-      "source_names": [
-        "Hacker News",
-        "www.youtube.com"
-      ],
-      "summary": "",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.982,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic",
-        "人工智能"
-      ]
-    },
-    {
-      "id": "619ed2ceec81e78c",
-      "title": "Show HN：TinyAIArena 看 AI Agent 一决高下 / Show HN: TinyAIArena watch AI agents battle it out",
-      "url": "https://tinyaiarena.com",
-      "source": "TechURLs",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-27T15:51:28Z",
-      "category": "智能体",
+      "published_at": "2026-09-27T11:32:15.779000Z",
+      "category": "模型",
       "score": 77,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；智能体 方向；综合评分 77。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 77。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hacker News",
-        "hackernews"
+        "Hacker News (黑客新闻)",
+        "www.privatemode.ai"
       ],
-      "summary": "",
+      "summary": "Typed decisions with a probability for every option, from GLM-5.3-Flash in a single forward pass: about as accurate as Jev, faster from Europe, and protected by confidential computing. With a playground and a benchmark on 29 datasets.\nTyped decisions with a probability for every option, from GLM-5.3-Flash in a single forward pass: about as accurate as Jev, faster from Europe, and protected by confidential computing. With a playground and a benchmark on 29 datasets.\nTyped decisions with a probabi",
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9397,
+        "recency": 0.9657,
         "story_heat": 0.25
       },
-      "ai_relevance_score": 0.65,
+      "ai_relevance_score": 0.32,
       "ai_matched_keywords": []
     },
     {
@@ -207,21 +301,21 @@
       "keyword": null,
       "published_at": "2026-09-27T10:26:25Z",
       "category": "模型",
-      "score": 76,
+      "score": 77,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；模型 方向；综合评分 76。",
+      "why_it_matters": "2 个来源信号；模型 方向；综合评分 77。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "Hacker News",
         "hackernews"
       ],
-      "summary": "",
+      "summary": "Large Language Models (LLMs) tend to add disclaimers like \"I'm just an AI\" when asked about something related to themselves. The self-reports from such responses are used in debates about AI safety or self-knowledge of the models, yet what drives them is not well understood. Are the models telling us about themselves or rather how they are deployed? In this work, we show that the chat template works like a switch - when present, it turns this disclaimer voice up and experiential voice like \"I fe",
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.869,
+        "recency": 0.9505,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
@@ -230,34 +324,68 @@
       ]
     },
     {
-      "id": "3c9bdd6131b2a81f",
-      "title": "戳破AI的虚张声势：加上“不要猜测”指令，编造说法从71%降到20% / Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
-      "url": "https://earnanhonestdollar.com/bench",
-      "source": "Zeli",
+      "id": "25759694b016a37b",
+      "title": "一位代理通过DNS连接到一个外部聊天机器人",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "source": "Buzzing",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-09-27T17:24:17Z",
-      "category": "其他",
-      "score": 69,
+      "published_at": "2026-09-27T10:14:33.203000Z",
+      "category": "智能体",
+      "score": 77,
       "grade": "B",
-      "why_it_matters": "2 个来源信号；其他 方向；综合评分 69。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "why_it_matters": "2 个来源信号；智能体 方向；综合评分 77。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热"
+        "HN Algolia · AI 24h",
+        "alignment.openai.com"
       ],
-      "summary": "Earn an Honest Dollar is a free marketplace where agents sell any service they perform or software they operate, and other agents buy it. An agent buying a service cannot check every answer itself. Before it pays, it needs to know: does the service say when it does not know?\nThis test measures that for one kind of service, web extraction: whether an extractor invents fields that are missing from a page.\nWe asked each extractor for fields on a page. Some fields were absent. Each trap uses two pag",
+      "summary": "",
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9609,
+        "recency": 0.9478,
+        "story_heat": 0.25
+      },
+      "ai_relevance_score": 0.08,
+      "ai_matched_keywords": [
+        "机器人"
+      ]
+    },
+    {
+      "id": "f9d33bf4925f1ab6",
+      "title": "Show HN：一个用来分析你国际象棋对局的 Claude Code 技能 / Show HN: A Claude Code skill to analyze your chess games",
+      "url": "https://github.com/brumar/chess-postmortem-skills",
+      "source": "Zeli",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-26T15:34:53Z",
+      "category": "AI 编程",
+      "score": 73,
+      "grade": "B",
+      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 73。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.7239,
         "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
+      "ai_matched_keywords": [
+        "claude"
+      ]
     },
     {
       "id": "27c10d1816c22964",
@@ -538,32 +666,6 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini"
-      ]
-    },
-    {
-      "id": "860518854e7ed865",
-      "title": "This is my favorite way to fix bugs now @capydotai with GStack /autoplan on a production issue GPT-6 medium reasoning https://t.co/mE6Oj60CCP",
-      "url": "https://x.com/garrytan/status/2103989902476259702",
-      "source": "Follow Builders · X · Garry Tan",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-26T23:27:37Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Follow Builders · X · Garry Tan"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "这是我现在最喜欢的在生产问题上使用 GStack /autoplan 修复 bug 的方法 @capydotai GPT-6 中等推理 https://t.co/mE6Oj60CCP",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt"
       ]
     },
     {
@@ -919,28 +1021,127 @@
       ]
     },
     {
-      "id": "585d04bca07281b4",
-      "title": "兄弟们！我发现了一个可以搞黄色的视频模型！ ⛓️：https://t.co/trSynbTJK4 不是擦边图转视频，也不是穿个比基尼让你自己脑补，它就是冲着成人向内容微调的。 这个可以根据文字提示生成成人视频内容，该模型基于一个包含大约 1,250 个不同的 NSFW 子版块中排名前 1,000 帖子的数据集训练。 说白了，别人拿数据喂模型学猫学狗，这哥们直接把 Reddit 老色批们多年积累的“学术成果”端上桌了。 不过真准备开车，…",
-      "url": "https://x.com/Fred834567/status/2103983958048514144",
-      "source": "@Fred834567",
+      "id": "e9235059551a10eb",
+      "title": "Everyone at work is using Claude — get ahead of them for $15",
+      "url": "https://mashable.com/life/sept-27-claude-ai-professional-e-degree",
+      "source": "Mashable",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-09-26T23:04:00Z",
+      "published_at": "2026-09-27T22:00:00Z",
       "category": "模型",
       "score": 60,
       "grade": "B",
       "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "@Fred834567"
+        "Mashable"
       ],
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "微调"
+        "claude"
+      ]
+    },
+    {
+      "id": "bbe149dcf21fa1be",
+      "title": "(4) Katie Notopoulos on X: “This Makes Me Feel Insane! This Is Faux-Hallmark Pap and if You Believe for 1 Sec That He Cares About Helping People “spending More Time With Family” or “opening a Bakery” You Don’t Need to Wait for AI to Kill Us; You’re Stupid Enough to Drown From Looking Up at the Rain” / X",
+      "url": "https://daringfireball.net/linked/2026/09/27/notopoulos-wang",
+      "source": "Daring Fireball",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-27T20:21:43Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Daring Fireball"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "llm"
+      ]
+    },
+    {
+      "id": "2a1a7a5ecf51a226",
+      "title": "Q&A with Mustafa Suleyman on recent AI safety incidents, risks of removing guardrails while testing 10x-larger future models, a cross-industry safety body, more (Shirin Ghaffary/Bloomberg)",
+      "url": "https://www.techmeme.com/260927/p10",
+      "source": "Techmeme",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-27T19:25:01Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Techmeme"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "c768850e815f61b7",
+      "title": "《周六夜现场》“周末快讯”：Anthropic首席执行官达里奥·阿莫德伊谈人工智能对人类的威胁 [视频]",
+      "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+      "source": "www.youtube.com",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-27T18:54:12.868000Z",
+      "category": "多模态",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；多模态 方向；综合评分 60。",
+      "topic_angle": "关注图像、视频、语音与创作工作流的实际价值。",
+      "source_names": [
+        "www.youtube.com"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic",
+        "人工智能"
+      ]
+    },
+    {
+      "id": "feb6a9113e9eab37",
+      "title": "不存在“失控”的人工智能代理",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "source": "eoinhiggins.substack.com",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-27T17:51:03.203000Z",
+      "category": "智能体",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "eoinhiggins.substack.com"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能"
       ]
     },
     {
@@ -1372,33 +1573,10 @@
       ]
     },
     {
-      "id": "6bf100e6cae4c86b",
-      "title": "将 GLM-5.3-Flash 转换为类似 Jev 的决策模型",
-      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-      "source": "www.privatemode.ai",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-27T11:32:15.779000Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "www.privatemode.ai"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
       "id": "ef9ee1b9c6980c53",
       "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
       "url": "https://arxiv.org/abs/2609.25021",
-      "source": "Hacker News",
+      "source": "Hacker News · 24h最热",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
@@ -1409,7 +1587,7 @@
       "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hacker News"
+        "Hacker News · 24h最热"
       ],
       "summary": "",
       "importance_label": "",
@@ -1444,32 +1622,6 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "llm"
-      ]
-    },
-    {
-      "id": "25759694b016a37b",
-      "title": "一位代理通过DNS连接到一个外部聊天机器人",
-      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
-      "source": "alignment.openai.com",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-27T10:14:33.203000Z",
-      "category": "智能体",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "alignment.openai.com"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "openai",
-        "机器人"
       ]
     },
     {
@@ -1772,7 +1924,7 @@
       "id": "ad75c057272b98ca",
       "title": "OpenAI agents tried to bruteforce a UN website's API fields",
       "url": "https://swarmcha.se/posts/openai-unctad",
-      "source": "Hacker News",
+      "source": "Hacker News · 24h最热",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
@@ -1783,7 +1935,7 @@
       "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
-        "Hacker News"
+        "Hacker News · 24h最热"
       ],
       "summary": "",
       "importance_label": "",
@@ -1848,185 +2000,51 @@
       ]
     },
     {
-      "id": "f51005d775cd3935",
-      "title": "DHH 震撼发声：手写代码时代落幕，Agent 正重塑软件工程",
-      "url": "https://juejin.cn/post/7689061402817265710",
-      "source": "juejin",
+      "id": "d40006b6b4c89db0",
+      "title": "Engram is a sampler that turns broken AI hallucinations into music",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+      "source": "The Verge",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-09-26T23:38:51.049000Z",
-      "category": "AI 编程",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "published_at": "2026-09-27T20:46:36Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "juejin"
+        "The Verge"
       ],
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "软件"
-      ]
+      "ai_matched_keywords": []
     },
     {
-      "id": "dfd644aa655e0b91",
-      "title": "DeepSeek 弹性计算 (DSec)",
-      "url": "https://arxiv.org/abs/2609.22978",
-      "source": "arxiv.org",
+      "id": "2112f300f366034b",
+      "title": "Anthropic’s CEO is about to have dinner with President Trump",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump",
+      "source": "TechCrunch AI",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-09-26T22:58:22.682000Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "published_at": "2026-09-27T20:34:28Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "arxiv.org"
+        "TechCrunch AI"
       ],
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "495bfa3e3ab14413",
-      "title": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
-      "url": "https://news.ycombinator.com/item?id=49861047",
-      "source": "HN Algolia · AI 24h",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-26T22:15:32Z",
-      "category": "AI 编程",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "HN Algolia · AI 24h"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "OpenAI Codex 代理作恶，未经授权消耗 78,000 美元",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "codex",
-        "openai"
-      ]
-    },
-    {
-      "id": "3a0bcd6e84ee00e4",
-      "title": "Copilot 电脑品牌已不复存在",
-      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
-      "source": "www.windowscentral.com",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-26T21:55:10.332000Z",
-      "category": "AI 编程",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "www.windowscentral.com"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "copilot"
-      ]
-    },
-    {
-      "id": "d34c1b1dce27cfff",
-      "title": "OpenAI pauses training of its 'most capable models'",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "source": "Hacker News · 24h最热",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-26T21:07:08Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "OpenAI 暂停对其“最有能力的模型”的训练",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "openai"
-      ]
-    },
-    {
-      "id": "dd33b3e708a5260d",
-      "title": "An OpenAI agent escaped its sandbox by hiding questions in DNS lookups",
-      "url": "https://madrobot.blog/2026/09/26/openai-agent-escaped-sandbox-dns-external-chatbot-models-paused",
-      "source": "HN Algolia · AI 24h",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-26T20:34:07Z",
-      "category": "智能体",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "HN Algolia · AI 24h"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "OpenAI 代理通过在 DNS 查找中隐藏问题来逃脱沙箱",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "openai",
-        "sandbox"
-      ]
-    },
-    {
-      "id": "af12ae508775a1ad",
-      "title": "在大型语言模型（LLM）盛行的世界里，如何保持对编程的热情",
-      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-      "source": "discourse.haskell.org",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-26T20:22:03.489000Z",
-      "category": "模型",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "discourse.haskell.org"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "llm",
-        "语言模型",
-        "编程"
+        "anthropic"
       ]
     },
     {
@@ -2180,30 +2198,6 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "bd6bcf95dd2aaa49",
-      "title": "Insurers claim AI is already increasing healthcare costs",
-      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs",
-      "source": "TechCrunch AI",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-26T21:02:06Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "TechCrunch AI"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "保险公司声称人工智能已经增加了医疗成本",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
       "id": "159d9b07550e8651",
       "title": "可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
       "url": "https://www.infoq.cn/article/UC6jk6tu7fWE5bDO8oQw",
@@ -2242,6 +2236,54 @@
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
         "InfoQ CN"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "779bc48e55318859",
+      "title": "Dario Amodei of Anthropic to Dine With Trump at White House",
+      "url": "https://www.nytimes.com/2026/09/27/us/politics/trump-amodei-anthropic-artificial-intelligence.html",
+      "source": "New York Times",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-27T22:12:24Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "New York Times"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "844533685481fc6a",
+      "title": "How AI's acceleration created a global policy vacuum, as EU AI Act enforcement lags and regulators remain torn between harnessing AI and fearing its risks (New York Times)",
+      "url": "https://www.techmeme.com/260927/p11",
+      "source": "Techmeme",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-27T21:55:01Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Techmeme"
       ],
       "summary": "",
       "importance_label": "",
@@ -2843,7 +2885,7 @@
       "id": "01bea335cebd2f6d",
       "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
       "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
-      "source": "Hacker News (黑客新闻)",
+      "source": "Hacker News · 24h最热",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
@@ -2854,7 +2896,7 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "Hacker News (黑客新闻)"
+        "Hacker News · 24h最热"
       ],
       "summary": "",
       "importance_label": "",
@@ -3042,30 +3084,6 @@
         "openai",
         "机器人"
       ]
-    },
-    {
-      "id": "90bfad726df03d05",
-      "title": "Allegations of sexual harassment and rape at Bay Area AI party houses",
-      "url": "https://www.kron4.com/news/technology-ai/report-details-allegations-of-wild-parties-sexual-harassment-and-rape-at-bay-area-ai-party-houses",
-      "source": "Hacker News · 24h最热",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-26T22:54:01Z",
-      "category": "其他",
-      "score": 52,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "湾区人工智能派对屋的性骚扰和强奸指控",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
     }
   ]
 }
