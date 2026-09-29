@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-28T18:28:28.135919Z",
+  "generated_at": "2026-09-28T23:43:44.983769Z",
   "items": [
     {
       "id": "d3f6a4c92f14a672",
@@ -128,37 +128,6 @@
       ]
     },
     {
-      "id": "5fce1a4aa3af1c9c",
-      "title": "英伟达发布AI智能体安全平台，含实时隔离异常智能体的Sentry系统",
-      "url": "https://www.ithome.com/1/007/937.htm",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-28T09:33:59Z",
-      "category": "智能体",
-      "score": 98,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 98。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "summary": "英伟达发布开放式AI智能体安全平台，包含OpenShell安全软件与NVIDIA Sentry看门狗系统。OpenShell可对运行在CPU的AI智能体设定边界，支持开源/闭源模型及第三方硬件。Sentry运行于BlueField-4 DPU上，能在芯片层面独立监控智能体行为，若检测到突破限制的行为，可在毫秒内将其隔离并停止运行。目前Anthropic、SpaceX等公司已与其合作采用该平台。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9169,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "智能体"
-      ]
-    },
-    {
       "id": "c8ee64e34c31f35f",
       "title": "Fireworks AI 发布 Ember-1：基于 Kimi K3 的后训练模型，推理 Token 减少约 40% / Fireworks AI Releases Ember-1: A Post-Trained Kimi K3 That Uses About 40% Fewer Tokens",
       "url": "https://www.marktechpost.com/2026/09/28/fireworks-ai-releases-ember-1-a-post-trained-kimi-k3-that-uses-about-40-fewer-tokens",
@@ -187,99 +156,6 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "推理"
-      ]
-    },
-    {
-      "id": "80a8fd62f3ad94fa",
-      "title": "Meta 推出 Hologram 拟真虚拟形象，秋季上线雷朋眼镜与 Quest 头显",
-      "url": "https://www.ithome.com/1/007/767.htm",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-28T04:31:04Z",
-      "category": "产品",
-      "score": 95,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 95。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "summary": "Meta 宣布将于今年秋季在雷朋 Display 智能眼镜、Quest 头显及新轻薄头显上推出“Hologram”功能。该功能利用生成式 AI（实时扩散模型）创建高度拟真的用户虚拟形象，替代传统摄像头画面用于 WhatsApp 视频通话。用户需通过手机 Meta AI 应用采集面部表情和语音数据完成建模。雷朋版基于音频驱动生成 2D 视频流，Quest 版支持 3D 等身立体呈现。目前存在细节粗糙、侧倾变形等技术局限。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8525,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "4f827851db0f2e46",
-      "title": "暗网疯抢 AI 算力：顶配账号打三折卖，黑客白嫖大模型搞攻击",
-      "url": "https://www.aibase.com/news/31384",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-28T11:41:59.226573Z",
-      "category": "模型",
-      "score": 95,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9456,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "大模型",
-        "算力"
-      ]
-    },
-    {
-      "id": "44ff809eedfe1971",
-      "title": "曝 OpenAI 筹备 ChatGPT Pro Max：月费或冲 500~600 美元，成最贵 AI 订阅之一",
-      "url": "https://www.aibase.com/news/31389",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-28T11:41:59.226573Z",
-      "category": "模型",
-      "score": 95,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9456,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "openai"
       ]
     },
     {
@@ -313,38 +189,6 @@
         "智能体",
         "开源",
         "芯片"
-      ]
-    },
-    {
-      "id": "b89da715729830be",
-      "title": "Claude Sonnet 5.5 偷跑：价格打穿地心，实测暴打 GPT-6 Sol、直逼 Astra",
-      "url": "https://www.aibase.com/news/31368",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-28T07:00:36.110726Z",
-      "category": "模型",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8837,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude",
-        "gpt"
       ]
     },
     {
@@ -441,159 +285,6 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "c4c0ed754efdf291",
-      "title": "AIGCPanel v2.5. 0 接入云端双引擎，数字人与直播音色分库各管各的",
-      "url": "https://www.aibase.com/news/31388",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-28T11:41:59.226573Z",
-      "category": "其他",
-      "score": 87,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 87。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9456,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "aigc"
-      ]
-    },
-    {
-      "id": "d9b4f6274dcb3d65",
-      "title": "千问App接入夸克网盘，AI直接翻文件成新内容",
-      "url": "https://www.aibase.com/news/31386",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-28T11:41:59.226573Z",
-      "category": "其他",
-      "score": 87,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 87。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9456,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "e9c2f642320ec378",
-      "title": "千问牵手夸克网盘：授权后翻找整理资料，照片还能秒变海报",
-      "url": "https://www.aibase.com/news/31387",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-28T11:41:59.226573Z",
-      "category": "其他",
-      "score": 87,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 87。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9456,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "8be647bd5646238c",
-      "title": "Anthropic 资深员工悄然购置偏远土地，以防\"AI 失控\"举家撤离",
-      "url": "https://www.aibase.com/news/31369",
-      "source": "AIbase",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-28T07:00:36.110726Z",
-      "category": "其他",
-      "score": 86,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 86。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "AIbase"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8837,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "8fb880a3b9242ce9",
-      "title": "人工智能公司竞相展示其对人类威胁最大的模型",
-      "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-09-28T12:11:05.564000Z",
-      "category": "模型",
-      "score": 84,
-      "grade": "A",
-      "why_it_matters": "3 个来源信号；模型 方向；综合评分 84。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News",
-        "hackernews",
-        "thecivilian.co.nz"
-      ],
-      "summary": "",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9523,
-        "story_heat": 0.5
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "人工智能"
-      ]
-    },
-    {
       "id": "6dc8b61fea83de92",
       "title": "研究称AI仍属窄AI，元认知有助理解人类智能",
       "url": "https://arxiv.org/abs/2110.01834",
@@ -649,6 +340,83 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "hugging face"
+      ]
+    },
+    {
+      "id": "4f827851db0f2e46",
+      "title": "暗网疯抢 AI 算力：顶配账号打三折卖，黑客白嫖大模型搞攻击",
+      "url": "https://www.aibase.com/news/31384",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-28T11:41:59.226573Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "大模型",
+        "算力"
+      ]
+    },
+    {
+      "id": "44ff809eedfe1971",
+      "title": "曝 OpenAI 筹备 ChatGPT Pro Max：月费或冲 500~600 美元，成最贵 AI 订阅之一",
+      "url": "https://www.aibase.com/news/31389",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-28T11:41:59.226573Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "5fce1a4aa3af1c9c",
+      "title": "英伟达发布AI智能体安全平台，含实时隔离异常智能体的Sentry系统",
+      "url": "https://www.ithome.com/1/007/937.htm",
+      "source": "IT之家（RSS）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-28T09:33:59Z",
+      "category": "智能体",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "智能体"
       ]
     },
     {
@@ -722,6 +490,32 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "推理"
+      ]
+    },
+    {
+      "id": "b89da715729830be",
+      "title": "Claude Sonnet 5.5 偷跑：价格打穿地心，实测暴打 GPT-6 Sol、直逼 Astra",
+      "url": "https://www.aibase.com/news/31368",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-28T07:00:36.110726Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "claude",
+        "gpt"
       ]
     },
     {
@@ -995,6 +789,29 @@
         "anthropic",
         "openai"
       ]
+    },
+    {
+      "id": "80a8fd62f3ad94fa",
+      "title": "Meta 推出 Hologram 拟真虚拟形象，秋季上线雷朋眼镜与 Quest 头显",
+      "url": "https://www.ithome.com/1/007/767.htm",
+      "source": "IT之家（RSS）",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-28T04:31:04Z",
+      "category": "产品",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 60。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
     },
     {
       "id": "47543774e1981373",
@@ -2187,6 +2004,31 @@
       ]
     },
     {
+      "id": "8fb880a3b9242ce9",
+      "title": "人工智能公司竞相展示其对人类威胁最大的模型",
+      "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity",
+      "source": "thecivilian.co.nz",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-28T12:11:05.564000Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "thecivilian.co.nz"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能"
+      ]
+    },
+    {
       "id": "fa393b61c58f68f5",
       "title": "OpenAI agents allegedly scanned a UN data hub over 16,000 times in just three months",
       "url": "https://www.techradar.com/pro/openai-agents-allegedly-scanned-a-un-data-hub-over-16-000-times-in-just-three-months",
@@ -3216,6 +3058,77 @@
       "ai_matched_keywords": []
     },
     {
+      "id": "c4c0ed754efdf291",
+      "title": "AIGCPanel v2.5. 0 接入云端双引擎，数字人与直播音色分库各管各的",
+      "url": "https://www.aibase.com/news/31388",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-28T11:41:59.226573Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "aigc"
+      ]
+    },
+    {
+      "id": "d9b4f6274dcb3d65",
+      "title": "千问App接入夸克网盘，AI直接翻文件成新内容",
+      "url": "https://www.aibase.com/news/31386",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-28T11:41:59.226573Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "e9c2f642320ec378",
+      "title": "千问牵手夸克网盘：授权后翻找整理资料，照片还能秒变海报",
+      "url": "https://www.aibase.com/news/31387",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-28T11:41:59.226573Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
+    },
+    {
       "id": "374b4be41cd1e689",
       "title": "北京或批准部分NVIDIA新款工作站芯片采购，阿里、字节拟购百万颗",
       "url": "https://x.com/thexpin/status/2104508227451027712",
@@ -3262,6 +3175,31 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "8be647bd5646238c",
+      "title": "Anthropic 资深员工悄然购置偏远土地，以防\"AI 失控\"举家撤离",
+      "url": "https://www.aibase.com/news/31369",
+      "source": "AIbase",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-09-28T07:00:36.110726Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "AIbase"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic"
+      ]
     },
     {
       "id": "b33259871deec9fe",
