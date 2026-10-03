@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-03T20:37:33.916598Z",
+  "generated_at": "2026-10-03T23:31:30.416302Z",
   "source_count": 252,
-  "successful_sites": 186,
-  "failed_sites": 66,
-  "zero_item_sites": 243,
-  "total_items": 2043,
-  "total_ai_items": 130,
-  "ai_pct_total": 6.4,
+  "successful_sites": 187,
+  "failed_sites": 65,
+  "zero_item_sites": 242,
+  "total_items": 1991,
+  "total_ai_items": 88,
+  "ai_pct_total": 4.4,
   "sites": [
     {
       "site_id": "learnprompt_daily_brief",
@@ -19,7 +19,7 @@
       "item_count": 20,
       "ai_count": 20,
       "ai_pct": 100.0,
-      "fetch_duration_s": 0.24,
+      "fetch_duration_s": 1.14,
       "note": ""
     },
     {
@@ -30,10 +30,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 213,
-      "ai_count": 110,
-      "ai_pct": 51.6,
-      "fetch_duration_s": 0.42,
+      "item_count": 153,
+      "ai_count": 68,
+      "ai_pct": 44.4,
+      "fetch_duration_s": 1.53,
       "note": ""
     },
     {
@@ -47,7 +47,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.19,
+      "fetch_duration_s": 0.37,
       "note": ""
     },
     {
@@ -58,10 +58,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 903,
+      "item_count": 904,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.19,
+      "fetch_duration_s": 0.21,
       "note": ""
     },
     {
@@ -75,7 +75,7 @@
       "item_count": 20,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.3,
+      "fetch_duration_s": 0.31,
       "note": ""
     },
     {
@@ -89,7 +89,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.96,
+      "fetch_duration_s": 0.62,
       "note": ""
     },
     {
@@ -100,10 +100,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 871,
+      "item_count": 873,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.16,
+      "fetch_duration_s": 0.15,
       "note": ""
     },
     {
@@ -117,7 +117,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.55,
+      "fetch_duration_s": 1.15,
       "note": ""
     },
     {
@@ -131,7 +131,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.05,
+      "fetch_duration_s": 0.08,
       "note": ""
     },
     {
@@ -145,7 +145,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.13,
+      "fetch_duration_s": 0.97,
       "note": "中文综合科技，混有 AI 内容，radar.py 按关键词过滤"
     },
     {
@@ -156,24 +156,24 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 8,
+      "item_count": 11,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 3.41,
+      "fetch_duration_s": 3.36,
       "note": "中文科技综合，含 AI 新闻"
     },
     {
       "site_id": "rss_zhihu_hot",
       "site_name": "知乎热榜",
-      "ok": false,
+      "ok": true,
       "enabled": true,
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 0,
+      "item_count": 2,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 45.11,
+      "fetch_duration_s": 1.09,
       "note": "知乎全站热榜，混合话题，radar.py 按关键词过滤 AI 内容"
     },
     {
@@ -187,7 +187,7 @@
       "item_count": 2,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.78,
+      "fetch_duration_s": 1.25,
       "note": "知乎日报精选，混合话题"
     },
     {
@@ -201,7 +201,7 @@
       "item_count": 2,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.93,
+      "fetch_duration_s": 0.75,
       "note": "36氪实时快讯，作者按关键词筛选 AI 内容"
     },
     {
@@ -215,7 +215,7 @@
       "item_count": 4,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 4.77,
+      "fetch_duration_s": 1.38,
       "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
     },
     {
@@ -229,7 +229,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "AI 产业与模型研究，RSSHub 搜狗公众号路由"
     },
     {
@@ -1405,7 +1405,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1937,7 +1937,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "需自建 RSSHub + XIAOHONGSHU_COOKIE"
     },
     {
@@ -2735,7 +2735,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.01,
+      "fetch_duration_s": 0.0,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2763,7 +2763,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2777,7 +2777,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "Twitter 高互动搜索（min_faves），需自建 RSSHub"
     },
     {
@@ -2903,7 +2903,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 教育/产业"
     },
     {
@@ -3057,7 +3057,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "阿里通义"
     },
     {
@@ -3295,7 +3295,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI视频/MJ+Seedance"
     },
     {
@@ -3323,7 +3323,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "Agent产品排名"
     },
     {
