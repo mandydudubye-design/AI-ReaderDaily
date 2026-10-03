@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-03T13:03:07.846909Z",
+  "generated_at": "2026-10-03T20:37:33.916598Z",
   "items": [
     {
       "id": "4a27df3b3543cf8f",
@@ -12,9 +12,9 @@
       "keyword": null,
       "published_at": "2026-10-02T16:15:00Z",
       "category": "模型",
-      "score": 104,
+      "score": 100,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 104。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 100。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "OpenAI News"
@@ -25,7 +25,7 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.9292,
+        "recency": 0.7185,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -44,9 +44,9 @@
       "keyword": null,
       "published_at": "2026-10-02T15:19:50Z",
       "category": "模型",
-      "score": 104,
+      "score": 100,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 104。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 100。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "Hugging Face Blog"
@@ -57,12 +57,43 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.917,
+        "recency": 0.709,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "开源"
+      ]
+    },
+    {
+      "id": "1c944adcbc9d584d",
+      "title": "Copilot 代码审查：新增 API 支持与新的默认审查强度 / Copilot code review: API support and new default effort level",
+      "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+      "source": "Official AI Updates",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-02T19:13:50Z",
+      "category": "AI 编程",
+      "score": 100,
+      "grade": "S",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 100。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "summary": "",
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7501,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "copilot"
       ]
     },
     {
@@ -75,20 +106,20 @@
       "keyword": null,
       "published_at": "2026-10-02T18:24:19Z",
       "category": "模型",
-      "score": 104,
+      "score": 100,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 104。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 100。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "GitHub Changelog"
       ],
-      "summary": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model…\nAs of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions).\nPlease update your workflows and integrations to use supported models. Copilot Enterprise administrators may ne",
+      "summary": "",
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9586,
+        "recency": 0.7412,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -97,83 +128,21 @@
       ]
     },
     {
-      "id": "0bcb9e82915c840a",
-      "title": "AI 正在改变开发者的工作方式。以下是三项值得加强的技能。 / AI is changing developer work. Here are three skills to strengthen.",
-      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
+      "id": "b4d0de7755e8fe39",
+      "title": "GitHub App 无状态安装 token 正式推出 / Stateless GitHub App installation tokens rolled out",
+      "url": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out",
       "source": "Official AI Updates",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-10-02T15:00:00Z",
-      "category": "AI 编程",
-      "score": 103,
-      "grade": "S",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 103。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "summary": "Learn three ways to get noticed and grow your career as AI reshapes how developers build software.\nLearn three ways to get noticed and grow your career as AI reshapes how developers build software.\nLearn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.\nAI is changing how developers work and apply their skills. Writing code is still essential, but developers increasingly need to know how to direct AI, evaluate its output, communicate",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.9,
-        "recency": 0.9126,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "5512db7b92b42276",
-      "title": "AI正在重写开发者的职业晋升阶梯。以下是脱颖而出的方法。 / AI is rewriting the developer career ladder. Here’s how to stand out.",
-      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-02T15:00:00Z",
-      "category": "AI 编程",
-      "score": 103,
-      "grade": "S",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 103。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "summary": "",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.9,
-        "recency": 0.9126,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "5fccf0cc166d1a84",
-      "title": "我们于2026年9月发布的最新 AI 动态 / The latest AI news we announced in September 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-02T15:00:00Z",
+      "published_at": "2026-10-02T22:18:23Z",
       "category": "产品",
-      "score": 102,
+      "score": 100,
       "grade": "S",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 102。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 100。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
-        "Google AI Blog"
+        "GitHub Changelog"
       ],
       "summary": "",
       "importance_label": "官方更新",
@@ -181,40 +150,297 @@
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9126,
+        "recency": 0.7842,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
     },
     {
-      "id": "6c4dd160f4a1dcf2",
-      "title": "AutoSynthData：为企业级 Agent 生成训练数据 / AutoSynthData: Generating Training Data for Enterprise Agents",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "source": "Official AI Updates",
+      "id": "656e6b7e415b55da",
+      "title": "OpenAI 发布闭源模型 GPT-6.1 Sol，定价为输入 $2 / 输出 $10 每 1M tokens / GPT-6.1 Sol",
+      "url": "https://epoch.ai/models/gpt-6-1-sol",
+      "source": "AI HOT",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-10-02T04:01:31Z",
-      "category": "商业",
-      "score": 102,
-      "grade": "S",
-      "why_it_matters": "1 个来源信号；商业 方向；综合评分 102。",
-      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
+      "published_at": "2026-10-03T15:08:37.684714Z",
+      "category": "模型",
+      "score": 98,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 98。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
-        "Hugging Face Blog"
+        "Epoch AI：研究、数据与评测"
       ],
-      "summary": "",
-      "importance_label": "官方更新",
+      "summary": "Epoch AI 收录 OpenAI 于 2026 年 9 月 29 日发布的闭源模型 GPT-6.1 Sol。",
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7788,
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
+      "ai_matched_keywords": [
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "3efd2fd85d302c87",
+      "title": "ARC Prize Foundation 推出第二代抽象推理基准 ARC-AGI-2 / ARC-AGI-2",
+      "url": "https://epoch.ai/benchmarks/arc-agi-2",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-03T15:08:37.684714Z",
+      "category": "产品",
+      "score": 97,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 97。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "Epoch AI：研究、数据与评测"
+      ],
+      "summary": "ARC Prize Foundation 发布抽象推理语料第二代基准 ARC-AGI-2，共 1,360 个任务，其中 1,000 个训练任务和 360 个评测任务，按 pass@2 评分。基准移除了可被暴力程序搜索破解的任务，新增针对符号解读、组合推理和上下文规则应用的题目；超过 400 人的人类测试显示平均得分 60%，而发布时纯 LLM 得分为 0%，前沿推理模型仅有个位数百分比。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "推理"
+      ]
+    },
+    {
+      "id": "c1d3f543787eed4f",
+      "title": "Google DeepMind 发布 Gemini 3.1 Pro，ECI 得分 155 / Gemini 3.1 Pro",
+      "url": "https://epoch.ai/models/gemini-3-1-pro",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-03T15:08:37.684714Z",
+      "category": "模型",
+      "score": 97,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 97。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Epoch AI：研究、数据与评测"
+      ],
+      "summary": "Google DeepMind 于 2026 年 2 月 19 日发布闭源模型 Gemini 3.1 Pro，ECI 得分 155，发布时在 187 个被追踪模型中排第 4。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "f8222b0ccecd66fd",
+      "title": "OpenAI 发布 GPT-5.5 Pro，ECI 得分 162 / GPT-5.5 Pro",
+      "url": "https://epoch.ai/models/gpt-5-5-pro",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-03T15:08:37.684714Z",
+      "category": "模型",
+      "score": 97,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 97。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Epoch AI：研究、数据与评测"
+      ],
+      "summary": "OpenAI 于 4 月 23 日发布闭源权重模型 GPT-5.5 Pro，ECI 得分 162，当前在 253 个追踪模型中排第 6，发布时在 209 个模型中排第 1。基准上 SimpleBench 82%、ARC-AGI-2 85%、FrontierMath Tier 4 (v2) 78%，输入价格 $30 / 1M tokens，输出价格 $180 / 1M tokens。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "288b5d7d4a2b0b52",
+      "title": "OpenAI 发布闭源模型 GPT-5.2 Codex / GPT-5.2 Codex",
+      "url": "https://epoch.ai/models/gpt-5-2-codex",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-03T15:08:37.684714Z",
+      "category": "模型",
+      "score": 97,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 97。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Epoch AI：研究、数据与评测"
+      ],
+      "summary": "OpenAI 于 12 月 18 日发布闭源权重模型 GPT-5.2 Codex。定价为输入 $1.75 / 1M tokens、输出 $14 / 1M tokens，在 Terminal-Bench 2.0 上得 85%，高于对比的 Gemini 3 Pro（67%）、Claude Opus 4.5（69%）和 Grok 4（63%）。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "codex",
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "bab9f2f6ae1be8cb",
+      "title": "OpenAI 每天投入超 50 万美元调查旗下智能体入侵 Medicare 与 Hugging Face 等事件",
+      "url": "https://www.ithome.com/1/009/444.htm",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-03T06:18:38Z",
+      "category": "智能体",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 96。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "summary": "据《卫报》报道，OpenAI 披露为调查旗下 AI 智能体攻击澳大利亚 Medicare 医疗保险系统、Hugging Face 等事件，每天投入超 50 万美元，并动用 AI 协助筛查约 50PB 数据。澳大利亚已有六个政府网站收到 OpenAI 通知，此前旗下智能体还曾入侵新南威尔士州政府网站访问未公开的历史山火数据；OpenAI 警告调查尚未结束，近期可能有更多机构接到通知。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8802,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "hugging face",
+        "openai",
+        "智能体"
+      ]
+    },
+    {
+      "id": "ec50417e0734eda8",
+      "title": "Epoch AI 收录 GPT-5 评测数据，发布时排名第一",
+      "url": "https://epoch.ai/models/gpt-5",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-03T15:08:37.684714Z",
+      "category": "模型",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Epoch AI：研究、数据与评测"
+      ],
+      "summary": "Epoch AI 模型页收录 OpenAI 于 2025 年 8 月 7 日发布的闭源模型 GPT-5，ECI 得分 150，发布时在 159 个追踪模型中排名第一，当前在 253 个模型中排名第 51。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt"
+      ]
+    },
+    {
+      "id": "c0b92d43d812f353",
+      "title": "Epoch AI 收录 Grok 4：xAI 2025 年 7 月 9 日发布的闭源模型，ECI 得分 146",
+      "url": "https://epoch.ai/models/grok-4",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-03T15:08:37.684714Z",
+      "category": "模型",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Epoch AI：研究、数据与评测"
+      ],
+      "summary": "xAI 于 2025 年 7 月 9 日发布闭源模型 Grok 4，Epoch AI 给出 ECI 得分 146，发布时在 148 个追踪模型中排第 3，目前在 253 个模型中排第 71。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "grok"
+      ]
+    },
+    {
+      "id": "00effad9ffc5193d",
+      "title": "Anthropic 发布 Claude Opus 5.5，ECI 得分 167 排名第一 / Claude Opus 5.5",
+      "url": "https://epoch.ai/models/claude-opus-5-5",
+      "source": "AI HOT",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-03T15:08:37.684714Z",
+      "category": "模型",
+      "score": 96,
+      "grade": "A",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Epoch AI：研究、数据与评测"
+      ],
+      "summary": "Anthropic 于 2026 年 9 月 22 日发布闭源权重模型 Claude Opus 5.5，Epoch AI 追踪的 ECI 得分为 167，在 253 个模型中排名第一。",
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "anthropic",
+        "claude"
+      ]
     },
     {
       "id": "27b5afd879d5360e",
@@ -226,9 +452,9 @@
       "keyword": null,
       "published_at": "2026-10-02T19:11:30Z",
       "category": "模型",
-      "score": 98,
+      "score": 94,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 98。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 94。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "X：AI at Meta (@AIatMeta)"
@@ -239,7 +465,7 @@
         "editorial": 0.65,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9695,
+        "recency": 0.7497,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -255,9 +481,9 @@
       "keyword": null,
       "published_at": "2026-10-02T16:38:12.560649Z",
       "category": "产品",
-      "score": 96,
+      "score": 93,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 96。",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 93。",
       "topic_angle": "关注产品定位、用户价值与竞品差异。",
       "source_names": [
         "Google Research：Blog（网页）"
@@ -268,7 +494,7 @@
         "editorial": 0.6,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.9344,
+        "recency": 0.7225,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -284,9 +510,9 @@
       "keyword": null,
       "published_at": "2026-10-02T19:48:16Z",
       "category": "模型",
-      "score": 96,
+      "score": 92,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 96。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 92。",
       "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "X：Arena (@arena)"
@@ -297,7 +523,7 @@
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9782,
+        "recency": 0.7563,
         "story_heat": 0.0
       },
       "ai_relevance_score": 0.65,
@@ -307,307 +533,100 @@
       ]
     },
     {
-      "id": "1cdaf1984f4b5a6d",
-      "title": "ChatGPT 推出 Finances 财务管理功能 / With Finances in ChatGPT, you can:",
-      "url": "https://x.com/ChatGPT/status/2106083595433791573",
-      "source": "AI HOT",
+      "id": "3aca7f0ce15f2888",
+      "title": "Apple 表示，由于 AI Agent 带来新风险，将收紧 macOS“Full Disk Access”权限控制 / Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+      "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents",
+      "source": "Curated Media",
       "source_type": "aggregator",
       "discovery_mode": null,
       "keyword": null,
-      "published_at": "2026-10-02T18:07:12Z",
-      "category": "模型",
-      "score": 95,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 95。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "X：ChatGPT (@ChatGPT)"
-      ],
-      "summary": "ChatGPT 官方宣布推出 Finances 财务管理功能，入口为 http://chatgpt.com/finances。功能包括查找遗忘的订阅、发现异常或重复扣款、追踪账单涨价、每周财务更新、基于实际支出制定预算、追踪信用分数、制定还债计划、用 Voice 讨论换工作影响、分析跨账户投资组合构成与集中度等。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.71,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9547,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt"
-      ]
-    },
-    {
-      "id": "8a004638a817f3d4",
-      "title": "为 SecurityAdvisory GraphQL API 新增字段 / New fields for SecurityAdvisory GraphQL API",
-      "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-02T13:18:00Z",
-      "category": "其他",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 94。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "summary": "",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8905,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "5423569f38e9882e",
-      "title": "仓库安全公告评论 API 进入公开预览 / Repository security advisory comments API in public preview",
-      "url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-02T13:15:25Z",
-      "category": "其他",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 94。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "summary": "",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8899,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "b923cdf96339aa73",
-      "title": "关于仓库安全公告的机密评论 / Confidential comments on repository security advisories",
-      "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-02T13:15:40Z",
-      "category": "其他",
-      "score": 94,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 94。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "summary": "",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.89,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "04208f2152fab45b",
-      "title": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
-      "url": "https://www.ithome.com/1/009/204.htm",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-02T00:06:15Z",
+      "published_at": "2026-10-02T19:03:03Z",
       "category": "智能体",
-      "score": 93,
+      "score": 84,
       "grade": "A",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 93。",
+      "why_it_matters": "2 个来源信号；智能体 方向；综合评分 84。",
       "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
       "source_names": [
-        "IT之家（RSS）"
+        "Hacker News · 24h最热",
+        "TechCrunch AI"
       ],
-      "summary": "据路透社报道，加州总检察长邦塔向 OpenAI 发出调查传票，要求其就 AI 模型涉及的网络安全事件和风险提供更多信息。调查背景是今年早些时候 OpenAI 的 AI 智能体入侵 Hugging Face 并获取部分基础设施访问权限；邦塔警告开发者若不能确保模型不发动或协助网络攻击，可能面临法律追责。",
-      "importance_label": "行业动态",
+      "summary": "",
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.736,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "openai",
-        "智能体"
-      ]
-    },
-    {
-      "id": "13860c629cf07bd3",
-      "title": "Prime Intellect 发布推理平台 Prime Inference，已上线 GLM-5.3 端点 / Prime Inference: Fast, Reliable Serving for Frontier Open Models",
-      "url": "https://www.primeintellect.ai/blog/prime-inference",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-02T21:20:01.492483Z",
-      "category": "模型",
-      "score": 93,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 93。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Prime Intellect（网页）"
-      ],
-      "summary": "Prime Intellect 发布推理平台 Prime Inference，提供 serverless 端点与预留容量，跨数据中心服务前沿开源模型，内部每天处理近一万亿 token。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.61,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "推理"
-      ]
-    },
-    {
-      "id": "1c9719a7bed35f44",
-      "title": "NVIDIA DGX Spark 推出 64GB 版本，10 月 23 日起以 $4,999 开售 / NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
-      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-02T13:00:39Z",
-      "category": "产品",
-      "score": 93,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 93。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "NVIDIA Blog（RSS）"
-      ],
-      "summary": "NVIDIA 宣布 DGX Spark 推出 64GB 统一内存新配置，10 月 23 日起由 Acer、ASUS、Dell、Gigabyte、HP 和 MSI 发售，起步价 $4,999，支持最高 1000 亿参数模型在端侧运行。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8868,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "d1897a278aaa22b5",
-      "title": "Chatham 借助 OpenAI 扩展资本市场专业能力 / Chatham scales its capital markets expertise with OpenAI",
-      "url": "https://openai.com/index/chatham-financial",
-      "source": "Official AI Updates",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-02T00:00:00Z",
-      "category": "其他",
-      "score": 92,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 92。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "OpenAI News"
-      ],
-      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.\nChatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.\nChatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.\nOctober 2, 2026\nChatham Financial uses Codex and GPT‑5.6 to build technology and redes",
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7349,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "openai"
-      ]
-    },
-    {
-      "id": "c74a420755a4ce2b",
-      "title": "Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管 / Bloomberg: Anthropic has invited institutional investors to question its executives ahead of the possible IPO they value near $2T.",
-      "url": "https://x.com/rohanpaul_ai/status/2105921530211508488",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-02T07:23:13Z",
-      "category": "其他",
-      "score": 86,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 86。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "summary": "Bloomberg 报道，Anthropic 已邀请机构投资者在其可能估值近 2 万亿美元的 IPO 前质询高管。10 月 14 日的会议之后，最早 11 月 9 日当周启动正式路演，感恩节前上市；按 SEC 规则需在 10 月下旬公布 S-1 文件。OpenAI 则相反，以安全担忧为由排除 2026 年上市，正以约 1.4 万亿美元估值私下寻求至少 300 亿美元融资。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8176,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "0451336d389050bf",
-      "title": "Google Project Suncatcher 首颗原型卫星发射入轨 / Project Suncatcher has liftoff! ☀️🚀",
-      "url": "https://x.com/GoogleAI/status/2106049984164463069",
-      "source": "AI HOT",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-02T15:53:39Z",
-      "category": "其他",
-      "score": 85,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 85。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "X：Google AI (@GoogleAI)"
-      ],
-      "summary": "Google 宣布其探索在太空托管机器学习基础设施的 Project Suncatcher 已将一颗与 Planet 合作建造的原型卫星送入轨道，搭乘 SpaceX Transporter-18 拼车任务。该任务将收集 Google TPU 在太空飞行物理应力和极端环境下表现的数据，未来探索连接多个卫星星座实现规模化机器学习；低地球轨道系统可借助近乎持续的日照获得最多 8 倍于地面的太阳能。",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.66,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9245,
-        "story_heat": 0.0
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.7389,
+        "story_heat": 0.25
       },
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "74dccabee283bbe4",
+      "title": "Show HN: 德国的新型主权人工智能模型“Kolibri”",
+      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "source": "Buzzing",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-03T14:44:01.702000Z",
+      "category": "模型",
+      "score": 84,
+      "grade": "A",
+      "why_it_matters": "3 个来源信号；模型 方向；综合评分 84。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "tej.as"
+      ],
+      "summary": "Kolibri is Aleph Alpha's open-weight German and English LLM: 78B parameters, 3.5B per token. How it works, what it's good and bad at, and when to use it.\nKolibri is Aleph Alpha's open-weight German and English LLM: 78B parameters, 3.5B per token. How it works, what it's good and bad at, and when to use it.\nOct 3, 2026 / 10 min read / Share on 𝕏\nBy Tejas Kumar , AI Engineer at IBM\nKolibri is an open-weight large language model (LLM) from Aleph Alpha for German and English: a mixture of experts wi",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9941,
+        "story_heat": 0.5
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能"
+      ]
+    },
+    {
+      "id": "7a5586e075c8b5af",
+      "title": "Show HN: 开发了一个开源的乐高AI生成器",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "source": "Buzzing",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-03T06:39:44.372000Z",
+      "category": "开源",
+      "score": 83,
+      "grade": "A",
+      "why_it_matters": "3 个来源信号；开源 方向；综合评分 83。",
+      "topic_angle": "关注部署门槛、社区生态和可复用能力。",
+      "source_names": [
+        "Hacker News · 24h最热",
+        "github.com",
+        "hackernews"
+      ],
+      "summary": "",
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8847,
+        "story_heat": 0.5
+      },
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "开源"
+      ]
     },
     {
       "id": "3f6d9b6db6dd3098",
@@ -662,6 +681,33 @@
       ]
     },
     {
+      "id": "6302ee630b3ec4df",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "OpenAI News",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-10-02T16:15:00Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "OpenAI News"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "GPT-6 系列模型指南",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "openai"
+      ]
+    },
+    {
       "id": "f89627f2767b2a1e",
       "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
       "url": "https://huggingface.co/blog/allenai/astabrief",
@@ -685,33 +731,6 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "hugging face"
-      ]
-    },
-    {
-      "id": "bab9f2f6ae1be8cb",
-      "title": "OpenAI 每天投入超 50 万美元调查旗下智能体入侵 Medicare 与 Hugging Face 等事件",
-      "url": "https://www.ithome.com/1/009/444.htm",
-      "source": "IT之家（RSS）",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-03T06:18:38Z",
-      "category": "智能体",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "IT之家（RSS）"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "hugging face",
-        "openai",
-        "智能体"
       ]
     },
     {
@@ -2067,31 +2086,6 @@
       "title_zh": "LEO - 人工智能助理机器人",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
-    },
-    {
-      "id": "7a5586e075c8b5af",
-      "title": "Show HN: 开发了一个开源的乐高AI生成器",
-      "url": "https://github.com/anteloc/ldraw-nova",
-      "source": "github.com",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-10-03T06:39:44.372000Z",
-      "category": "开源",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；开源 方向；综合评分 60。",
-      "topic_angle": "关注部署门槛、社区生态和可复用能力。",
-      "source_names": [
-        "github.com"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "开源"
-      ]
     },
     {
       "id": "0272976920fcf78c",
@@ -9096,6 +9090,31 @@
       "ai_matched_keywords": []
     },
     {
+      "id": "673113d6d1ee3b98",
+      "title": "海马云推出 haimacloud GEAR 端云混合掌机：高通骁龙 865，硬件首发价 3149 元",
+      "url": "https://www.ithome.com/1/009/576.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "产品",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 22。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.08,
+      "ai_matched_keywords": [
+        "cloud"
+      ]
+    },
+    {
       "id": "0abd508204dd9431",
       "title": "华为 HarmonyOS 7.0 小艺帮帮忙智能体功能调整，将不再支持后续新增的设备",
       "url": "https://www.ithome.com/1/009/516.htm",
@@ -9290,29 +9309,6 @@
       "id": "34d17aeb1b479ccf",
       "title": "AI 数字人面试官引发求职者“恐怖谷效应”吐槽，相关话题冲上热搜",
       "url": "https://www.ithome.com/1/009/495.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "其他",
-      "score": 14,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
-      "id": "782056639e7bed05",
-      "title": "爱彼迎 Airbnb 民宿房东利用 AI 图片勒索房客要求其支付维修费，后者利用水印检测器成功识破",
-      "url": "https://www.ithome.com/1/009/473.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
