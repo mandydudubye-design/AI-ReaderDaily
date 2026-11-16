@@ -1,105 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T02:35:24.847564Z",
+  "generated_at": "2026-11-16T10:41:15.394413Z",
   "items": [
-    {
-      "id": "1e39f01df4b5ae08",
-      "title": "何夕2077 AI 深度信号周报 2026 W46：评分有效性、具身边界与委派损耗",
-      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-11-15-ai-deep-signals-weekly-2026-w46",
-      "source": "AI HubToday",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-15T03:35:00Z",
-      "category": "其他",
-      "score": 84,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 84。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Daily Digest"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7681,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "具身"
-      ]
-    },
-    {
-      "id": "aba1af45aadfa802",
-      "title": "理解现代大型语言模型中的位置嵌入",
-      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-15T16:51:36.376000Z",
-      "category": "模型",
-      "score": 83,
-      "grade": "A",
-      "why_it_matters": "3 个来源信号；模型 方向；综合评分 83。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "magazine.sebastianraschka.com"
-      ],
-      "summary": "The Methods Behind How LLMs Represent Token Positions\nThe Methods Behind How LLMs Represent Token Positions\nThe Methods Behind How LLMs Represent Token Positions\nThis article explains how LLMs encode and process token position information by covering classic and contemporary methods like RoPE. It’s essentially a comprehensive journey where we will work through the mechanisms with visual examples, a little math, and a small PyTorch implementation. And, of course, we will then also look at how mod",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9305,
-        "story_heat": 0.5
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "语言模型"
-      ]
-    },
-    {
-      "id": "9cded98319c65640",
-      "title": "所有由人工智能生成的代码都应开源",
-      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-15T16:03:47.551000Z",
-      "category": "AI 编程",
-      "score": 83,
-      "grade": "A",
-      "why_it_matters": "3 个来源信号；AI 编程 方向；综合评分 83。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "jakub.jankiewicz.org"
-      ],
-      "summary": "",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9198,
-        "story_heat": 0.5
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "人工智能",
-        "开源"
-      ]
-    },
     {
       "id": "83f90450ea70b2df",
       "title": "ByteAsk Cloud Agents —— 在大型代码库中定位修复方案，直接从 Slack 交付上线 / ByteAsk Cloud Agents — Find the fix in big codebases. Ship it from Slack.",
@@ -130,38 +32,6 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "cloud"
-      ]
-    },
-    {
-      "id": "75194f3e05aa3cad",
-      "title": "elementalsouls/Claude-BugHunter — A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "source": "GitHub Trending",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-15T19:46:54.874378Z",
-      "category": "AI 编程",
-      "score": 82,
-      "grade": "A",
-      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 82。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "GitHub Trending",
-        "github"
-      ],
-      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 0.9706,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude"
       ]
     },
     {
@@ -227,36 +97,6 @@
       ]
     },
     {
-      "id": "1cf5fee7334a25d6",
-      "title": "法院驳回了关于DRAM价格垄断案的驳回起诉动议",
-      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-15T08:37:45.544000Z",
-      "category": "其他",
-      "score": 67,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；其他 方向；综合评分 67。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "litnews.ai"
-      ],
-      "summary": "Judge Noël Wise found buyers plausibly alleged the chipmakers conspired to cut conventional DRAM supply and shift capacity to HBM, distinguishing the Ninth Circuit's DRAM II.\nJudge Noël Wise found buyers plausibly alleged the chipmakers conspired to cut conventional DRAM supply and shift capacity to HBM, distinguishing the Ninth Circuit's DRAM II.\nJudge Noël Wise found buyers plausibly alleged the chipmakers conspired to cut conventional DRAM supply and shift capacity to HBM, distinguishing the ",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8262,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
       "id": "c231a634acf1b8c2",
       "title": "Perit Marketplace — Sell your data and RL tasks to frontier AI labs",
       "url": "https://www.producthunt.com/products/perit-marketplace",
@@ -301,31 +141,6 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
-    },
-    {
-      "id": "2ea5974e03c40f2c",
-      "title": "ByteAsk Cloud Agents — Find the fix in big codebases. Ship it from Slack.",
-      "url": "https://www.producthunt.com/products/byteask-cloud-agents",
-      "source": "Product Hunt",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-14T06:54:44Z",
-      "category": "智能体",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Product Hunt"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "cloud"
-      ]
     },
     {
       "id": "79f95dc1ec28a474",
@@ -1238,6 +1053,57 @@
       ]
     },
     {
+      "id": "aba1af45aadfa802",
+      "title": "理解现代大型语言模型中的位置嵌入",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "source": "magazine.sebastianraschka.com",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-11-15T16:51:36.376000Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "magazine.sebastianraschka.com"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "语言模型"
+      ]
+    },
+    {
+      "id": "9cded98319c65640",
+      "title": "所有由人工智能生成的代码都应开源",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
+      "source": "jakub.jankiewicz.org",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-11-15T16:03:47.551000Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "jakub.jankiewicz.org"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能",
+        "开源"
+      ]
+    },
+    {
       "id": "0e5e00ab53611d93",
       "title": "I asked Gemini, ChatGPT, and Claude to spot Amazon scams",
       "url": "https://www.androidpolice.com/asked-gemini-chatgpt-claude-to-spot-amazon-scams",
@@ -2027,6 +1893,31 @@
       ]
     },
     {
+      "id": "1e39f01df4b5ae08",
+      "title": "何夕2077 AI 深度信号周报 2026 W46：评分有效性、具身边界与委派损耗",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-11-15-ai-deep-signals-weekly-2026-w46",
+      "source": "Daily Digest",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-11-15T03:35:00Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Daily Digest"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "具身"
+      ]
+    },
+    {
       "id": "0d8eb0272ce8580d",
       "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
       "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft",
@@ -2808,6 +2699,29 @@
       ]
     },
     {
+      "id": "1cf5fee7334a25d6",
+      "title": "法院驳回了关于DRAM价格垄断案的驳回起诉动议",
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "source": "litnews.ai",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-11-15T08:37:45.544000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "litnews.ai"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
       "id": "9175331f42f471f3",
       "title": "Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed (Alex Konrad/Upstarts Media)",
       "url": "https://www.techmeme.com/261115/p5",
@@ -3172,6 +3086,31 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "2ea5974e03c40f2c",
+      "title": "ByteAsk Cloud Agents — Find the fix in big codebases. Ship it from Slack.",
+      "url": "https://www.producthunt.com/products/byteask-cloud-agents",
+      "source": "Product Hunt",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-11-14T06:54:44Z",
+      "category": "智能体",
+      "score": 45,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 45。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Product Hunt"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "cloud"
+      ]
     },
     {
       "id": "14b7118823857ddb",

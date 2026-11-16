@@ -1,105 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T02:35:24.847564Z",
+  "generated_at": "2026-11-16T10:41:15.394413Z",
   "items": [
-    {
-      "id": "1e39f01df4b5ae08",
-      "title": "何夕2077 AI 深度信号周报 2026 W46：评分有效性、具身边界与委派损耗",
-      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-11-15-ai-deep-signals-weekly-2026-w46",
-      "source": "AI HubToday",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-15T03:35:00Z",
-      "category": "其他",
-      "score": 84,
-      "grade": "A",
-      "why_it_matters": "1 个来源信号；其他 方向；综合评分 84。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Daily Digest"
-      ],
-      "summary": "",
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7681,
-        "story_heat": 0.0
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "具身"
-      ]
-    },
-    {
-      "id": "aba1af45aadfa802",
-      "title": "理解现代大型语言模型中的位置嵌入",
-      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-15T16:51:36.376000Z",
-      "category": "模型",
-      "score": 83,
-      "grade": "A",
-      "why_it_matters": "3 个来源信号；模型 方向；综合评分 83。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "magazine.sebastianraschka.com"
-      ],
-      "summary": "The Methods Behind How LLMs Represent Token Positions\nThe Methods Behind How LLMs Represent Token Positions\nThe Methods Behind How LLMs Represent Token Positions\nThis article explains how LLMs encode and process token position information by covering classic and contemporary methods like RoPE. It’s essentially a comprehensive journey where we will work through the mechanisms with visual examples, a little math, and a small PyTorch implementation. And, of course, we will then also look at how mod",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9305,
-        "story_heat": 0.5
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "语言模型"
-      ]
-    },
-    {
-      "id": "9cded98319c65640",
-      "title": "所有由人工智能生成的代码都应开源",
-      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-15T16:03:47.551000Z",
-      "category": "AI 编程",
-      "score": 83,
-      "grade": "A",
-      "why_it_matters": "3 个来源信号；AI 编程 方向；综合评分 83。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "jakub.jankiewicz.org"
-      ],
-      "summary": "",
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9198,
-        "story_heat": 0.5
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "人工智能",
-        "开源"
-      ]
-    },
     {
       "id": "83f90450ea70b2df",
       "title": "ByteAsk Cloud Agents —— 在大型代码库中定位修复方案，直接从 Slack 交付上线 / ByteAsk Cloud Agents — Find the fix in big codebases. Ship it from Slack.",
@@ -130,38 +32,6 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "cloud"
-      ]
-    },
-    {
-      "id": "75194f3e05aa3cad",
-      "title": "elementalsouls/Claude-BugHunter — A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "source": "GitHub Trending",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-15T19:46:54.874378Z",
-      "category": "AI 编程",
-      "score": 82,
-      "grade": "A",
-      "why_it_matters": "2 个来源信号；AI 编程 方向；综合评分 82。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "GitHub Trending",
-        "github"
-      ],
-      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 0.9706,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "claude"
       ]
     },
     {
@@ -227,36 +97,6 @@
       ]
     },
     {
-      "id": "1cf5fee7334a25d6",
-      "title": "法院驳回了关于DRAM价格垄断案的驳回起诉动议",
-      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-      "source": "Buzzing",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-15T08:37:45.544000Z",
-      "category": "其他",
-      "score": 67,
-      "grade": "B",
-      "why_it_matters": "2 个来源信号；其他 方向；综合评分 67。",
-      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "litnews.ai"
-      ],
-      "summary": "Judge Noël Wise found buyers plausibly alleged the chipmakers conspired to cut conventional DRAM supply and shift capacity to HBM, distinguishing the Ninth Circuit's DRAM II.\nJudge Noël Wise found buyers plausibly alleged the chipmakers conspired to cut conventional DRAM supply and shift capacity to HBM, distinguishing the Ninth Circuit's DRAM II.\nJudge Noël Wise found buyers plausibly alleged the chipmakers conspired to cut conventional DRAM supply and shift capacity to HBM, distinguishing the ",
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8262,
-        "story_heat": 0.25
-      },
-      "ai_relevance_score": 0.0,
-      "ai_matched_keywords": []
-    },
-    {
       "id": "c231a634acf1b8c2",
       "title": "Perit Marketplace — Sell your data and RL tasks to frontier AI labs",
       "url": "https://www.producthunt.com/products/perit-marketplace",
@@ -301,31 +141,6 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
-    },
-    {
-      "id": "2ea5974e03c40f2c",
-      "title": "ByteAsk Cloud Agents — Find the fix in big codebases. Ship it from Slack.",
-      "url": "https://www.producthunt.com/products/byteask-cloud-agents",
-      "source": "Product Hunt",
-      "source_type": "aggregator",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": "2026-11-14T06:54:44Z",
-      "category": "智能体",
-      "score": 60,
-      "grade": "B",
-      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 60。",
-      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
-      "source_names": [
-        "Product Hunt"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "cloud"
-      ]
     },
     {
       "id": "79f95dc1ec28a474",
@@ -1235,6 +1050,57 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "openai"
+      ]
+    },
+    {
+      "id": "aba1af45aadfa802",
+      "title": "理解现代大型语言模型中的位置嵌入",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "source": "magazine.sebastianraschka.com",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-11-15T16:51:36.376000Z",
+      "category": "模型",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 60。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "magazine.sebastianraschka.com"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "语言模型"
+      ]
+    },
+    {
+      "id": "9cded98319c65640",
+      "title": "所有由人工智能生成的代码都应开源",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
+      "source": "jakub.jankiewicz.org",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-11-15T16:03:47.551000Z",
+      "category": "AI 编程",
+      "score": 60,
+      "grade": "B",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 60。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "jakub.jankiewicz.org"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "人工智能",
+        "开源"
       ]
     },
     {
@@ -2325,33 +2191,6 @@
       ]
     },
     {
-      "id": "3e615d041d5c5940",
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "source": "OpenAI Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 57,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 57。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "OpenAI Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "GPT-5.5 生物错误赏金",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "openai"
-      ]
-    },
-    {
       "id": "673419c366e696a4",
       "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
       "url": "https://openai.com/index/gpt-5-6",
@@ -2372,6 +2211,33 @@
       "importance_label": "",
       "importance_breakdown": {},
       "title_zh": "GPT-5.6：前沿智能，随您的雄心壮志而扩展",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "3e615d041d5c5940",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 57,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 57。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "OpenAI Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "GPT-5.5 生物错误赏金",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gpt",
@@ -2592,33 +2458,6 @@
       ]
     },
     {
-      "id": "b462466b9fd7bb4c",
-      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-      "url": "https://openai.com/index/gpt-5-5-instant",
-      "source": "OpenAI Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 57,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 57。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "OpenAI Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "GPT-5.5 Instant：更智能、更清晰、更个性化",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "openai"
-      ]
-    },
-    {
       "id": "cc773e7fe5b3c017",
       "title": "GPT-5.5 Instant System Card",
       "url": "https://openai.com/index/gpt-5-5-instant-system-card",
@@ -2639,6 +2478,33 @@
       "importance_label": "",
       "importance_breakdown": {},
       "title_zh": "GPT-5.5即时系统卡",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "b462466b9fd7bb4c",
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 57,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 57。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "OpenAI Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "GPT-5.5 Instant：更智能、更清晰、更个性化",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gpt",
@@ -2781,33 +2647,6 @@
       ]
     },
     {
-      "id": "7d20b9f108723146",
-      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
-      "url": "https://openai.com/index/gpt-5-3-instant",
-      "source": "OpenAI Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 57,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 57。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "OpenAI Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "GPT-5.3 Instant：更流畅、更有用的日常对话",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "openai"
-      ]
-    },
-    {
       "id": "a7d12fd806bfd1f8",
       "title": "GPT-5.3 Instant System Card",
       "url": "https://openai.com/index/gpt-5-3-instant-system-card",
@@ -2828,6 +2667,33 @@
       "importance_label": "",
       "importance_breakdown": {},
       "title_zh": "GPT-5.3即时系统卡",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "7d20b9f108723146",
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "url": "https://openai.com/index/gpt-5-3-instant",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 57,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 57。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "OpenAI Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "GPT-5.3 Instant：更流畅、更有用的日常对话",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gpt",
@@ -3108,34 +2974,6 @@
       ]
     },
     {
-      "id": "1c67473795976ece",
-      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
-      "source": "OpenAI Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "AI 编程",
-      "score": 57,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 57。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "OpenAI Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "GPT-5.2 系统卡附录：GPT-5.2-Codex",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "codex",
-        "gpt",
-        "openai"
-      ]
-    },
-    {
       "id": "cb3b893332a87916",
       "title": "Introducing GPT-5.2-Codex",
       "url": "https://openai.com/index/introducing-gpt-5-2-codex",
@@ -3156,6 +2994,34 @@
       "importance_label": "",
       "importance_breakdown": {},
       "title_zh": "GPT-5.2-Codex 简介",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "codex",
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "1c67473795976ece",
+      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "AI 编程",
+      "score": 57,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 57。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "OpenAI Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "GPT-5.2 系统卡附录：GPT-5.2-Codex",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "codex",
@@ -3191,33 +3057,6 @@
       ]
     },
     {
-      "id": "05d5bf3e4f352f35",
-      "title": "Update to GPT-5 System Card: GPT-5.2",
-      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
-      "source": "OpenAI Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 57,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 57。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "OpenAI Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "更新至 GPT-5 系统卡：GPT-5.2",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "gpt",
-        "openai"
-      ]
-    },
-    {
       "id": "f8c3b24850444237",
       "title": "Introducing GPT-5.2",
       "url": "https://openai.com/index/introducing-gpt-5-2",
@@ -3238,6 +3077,33 @@
       "importance_label": "",
       "importance_breakdown": {},
       "title_zh": "GPT-5.2 简介",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "05d5bf3e4f352f35",
+      "title": "Update to GPT-5 System Card: GPT-5.2",
+      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 57,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 57。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "OpenAI Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "更新至 GPT-5 系统卡：GPT-5.2",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gpt",
@@ -3325,34 +3191,6 @@
       ]
     },
     {
-      "id": "45d9b48fbaf2c11e",
-      "title": "GPT-5.1-Codex-Max System Card",
-      "url": "https://openai.com/index/gpt-5-1-codex-max-system-card",
-      "source": "OpenAI Blog",
-      "source_type": "official",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "AI 编程",
-      "score": 57,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 57。",
-      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
-      "source_names": [
-        "OpenAI Blog"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "title_zh": "GPT-5.1-Codex-Max 系统卡",
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "codex",
-        "gpt",
-        "openai"
-      ]
-    },
-    {
       "id": "cb8a900a9f298c33",
       "title": "Building more with GPT-5.1-Codex-Max",
       "url": "https://openai.com/index/gpt-5-1-codex-max",
@@ -3373,6 +3211,34 @@
       "importance_label": "",
       "importance_breakdown": {},
       "title_zh": "使用 GPT-5.1-Codex-Max 构建更多内容",
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "codex",
+        "gpt",
+        "openai"
+      ]
+    },
+    {
+      "id": "45d9b48fbaf2c11e",
+      "title": "GPT-5.1-Codex-Max System Card",
+      "url": "https://openai.com/index/gpt-5-1-codex-max-system-card",
+      "source": "OpenAI Blog",
+      "source_type": "official",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "AI 编程",
+      "score": 57,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 57。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "OpenAI Blog"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "title_zh": "GPT-5.1-Codex-Max 系统卡",
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "codex",
@@ -3643,6 +3509,31 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "hugging face"
+      ]
+    },
+    {
+      "id": "1e39f01df4b5ae08",
+      "title": "何夕2077 AI 深度信号周报 2026 W46：评分有效性、具身边界与委派损耗",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-11-15-ai-deep-signals-weekly-2026-w46",
+      "source": "Daily Digest",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-11-15T03:35:00Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "Daily Digest"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "具身"
       ]
     },
     {
@@ -4425,6 +4316,29 @@
       "ai_matched_keywords": [
         "openai"
       ]
+    },
+    {
+      "id": "1cf5fee7334a25d6",
+      "title": "法院驳回了关于DRAM价格垄断案的驳回起诉动议",
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "source": "litnews.ai",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-11-15T08:37:45.544000Z",
+      "category": "其他",
+      "score": 52,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 52。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "litnews.ai"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
     },
     {
       "id": "9175331f42f471f3",
@@ -5675,29 +5589,6 @@
       ]
     },
     {
-      "id": "1225f303c01ad44b",
-      "title": "斑马AI学发布2027版本",
-      "url": "https://www.36kr.com/newsflashes/4071740620673924",
-      "source": "36氪快讯",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "产品",
-      "score": 47,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 47。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "36氪快讯"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
-    },
-    {
       "id": "433d4d7cbcd99a2c",
       "title": "CodeMesh — Cut AI coding costs by 90%",
       "url": "https://www.producthunt.com/products/codemesh-2",
@@ -5897,6 +5788,31 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": []
+    },
+    {
+      "id": "2ea5974e03c40f2c",
+      "title": "ByteAsk Cloud Agents — Find the fix in big codebases. Ship it from Slack.",
+      "url": "https://www.producthunt.com/products/byteask-cloud-agents",
+      "source": "Product Hunt",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": "2026-11-14T06:54:44Z",
+      "category": "智能体",
+      "score": 45,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 45。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "Product Hunt"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "cloud"
+      ]
     },
     {
       "id": "14b7118823857ddb",
@@ -6228,31 +6144,6 @@
       ]
     },
     {
-      "id": "d525d8a9ba12a170",
-      "title": "2.4 万亿参数阿里通义千问 Qwen4-Max 正式上线：任务成本降低超 60%，后续将开源小尺寸模型",
-      "url": "https://www.ithome.com/1/027/512.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "模型",
-      "score": 37,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；模型 方向；综合评分 37。",
-      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "开源"
-      ]
-    },
-    {
       "id": "4e8c0387e51b22cd",
       "title": "NVIDIA/SkillEvaluator — Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "url": "https://github.com/NVIDIA/SkillEvaluator",
@@ -6278,6 +6169,31 @@
         "dataset",
         "eval",
         "evaluation"
+      ]
+    },
+    {
+      "id": "75194f3e05aa3cad",
+      "title": "elementalsouls/Claude-BugHunter — A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "source": "GitHub Trending",
+      "source_type": "aggregator",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "AI 编程",
+      "score": 35,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；AI 编程 方向；综合评分 35。",
+      "topic_angle": "关注开发效率、工具体验与团队协作方式的变化。",
+      "source_names": [
+        "GitHub Trending"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "claude"
       ]
     },
     {
@@ -6512,29 +6428,6 @@
       "ai_matched_keywords": [
         "vision"
       ]
-    },
-    {
-      "id": "2c6531c8cfe8ab71",
-      "title": "华为小艺 AI 会员正式上线：体验版赠送 200 积分、49 元起含 1000 积分，Work 订阅用户可 0 元升级",
-      "url": "https://www.ithome.com/1/027/506.htm",
-      "source": "IT之家",
-      "source_type": "unknown",
-      "discovery_mode": null,
-      "keyword": null,
-      "published_at": null,
-      "category": "产品",
-      "score": 32,
-      "grade": "C",
-      "why_it_matters": "1 个来源信号；产品 方向；综合评分 32。",
-      "topic_angle": "关注产品定位、用户价值与竞品差异。",
-      "source_names": [
-        "IT之家"
-      ],
-      "summary": "",
-      "importance_label": "",
-      "importance_breakdown": {},
-      "ai_relevance_score": 0.65,
-      "ai_matched_keywords": []
     },
     {
       "id": "ebf2868b16ed74bb",
@@ -6824,9 +6717,32 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "232aa022ff364d5a",
-      "title": "Anthropic CEO 阿莫迪：算力是最深层的商业难题",
-      "url": "https://www.ithome.com/1/027/505.htm",
+      "id": "3cab103c911584aa",
+      "title": "银昕推出 AIO 液冷 Hailstone 420：搭载工业级 14034 LCP 风扇，支持 450W TDP",
+      "url": "https://www.ithome.com/1/027/907.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "产品",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；产品 方向；综合评分 22。",
+      "topic_angle": "关注产品定位、用户价值与竞品差异。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "d1a70c035d9d6592",
+      "title": "国际货币基金组织总裁警告：全球经济过度依赖 AI，相关循环融资规模超 1 万亿美元",
+      "url": "https://www.ithome.com/1/027/861.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -6844,15 +6760,37 @@
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "b8c5efb7c98be279",
+      "title": "KTC 推出 VMAX 全感知智能体主机，配备 VMAX GO 随行屏",
+      "url": "https://www.ithome.com/1/027/819.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "智能体",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；智能体 方向；综合评分 22。",
+      "topic_angle": "关注 Agent 的可落地场景、工作流和可靠性。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "anthropic",
-        "算力"
+        "智能体"
       ]
     },
     {
-      "id": "00c161303ead0073",
-      "title": "不调用图像模型，Anthropic Claude Fable 5.2 用 Python 代码模拟真实画笔作画",
-      "url": "https://www.ithome.com/1/027/490.htm",
+      "id": "8a75d3c1a2b13373",
+      "title": "联想杨元庆提出“私域数据飞轮”：AI 产业竞争将从比模型参数转向比混合式 AI 落地能力",
+      "url": "https://www.ithome.com/1/027/813.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -6870,15 +6808,12 @@
       "importance_label": "",
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
-      "ai_matched_keywords": [
-        "anthropic",
-        "claude"
-      ]
+      "ai_matched_keywords": []
     },
     {
-      "id": "852bda03af2445bd",
-      "title": "腾讯 WorkBuddy 国际版上线 Gemini 4 Carbon 大模型：支持百万 Token 上下文，暂仅限 Pro 用户使用",
-      "url": "https://www.ithome.com/1/027/487.htm",
+      "id": "5aeabcf1ab357cc0",
+      "title": "AI 大模型周榜：谷歌 Gemini 4 Carbon 首秀强势登顶，国产模型稳居视频榜前五阵营",
+      "url": "https://www.ithome.com/1/027/775.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -6898,37 +6833,59 @@
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
         "gemini",
-        "大模型",
-        "上下文"
+        "大模型"
       ]
     },
     {
-      "id": "0f4ec75391a37b47",
-      "title": "纽约市禁止“大数据杀熟”，企业利用监控算法实现差异化报价最高罚款 1000 美元",
-      "url": "https://www.ithome.com/1/027/469.htm",
+      "id": "5f6dc8ed132028bf",
+      "title": "字节跳动 Seedance 2.5 4K 视频生成模型 API 全面开放",
+      "url": "https://www.ithome.com/1/027/736.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
       "published_at": null,
-      "category": "商业",
+      "category": "模型",
       "score": 22,
       "grade": "C",
-      "why_it_matters": "1 个来源信号；商业 方向；综合评分 22。",
-      "topic_angle": "关注商业化、融资、企业采用和行业格局。",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
       "source_names": [
         "IT之家"
       ],
       "summary": "",
       "importance_label": "",
       "importance_breakdown": {},
-      "ai_relevance_score": 0.0,
+      "ai_relevance_score": 0.32,
       "ai_matched_keywords": []
     },
     {
-      "id": "52f4585f29e2c9e7",
-      "title": "如何看待2026年11月15日deepseek关于对话上限长度的调整？",
-      "url": "https://www.zhihu.com/question/2105339969564827779",
+      "id": "14889918d879be57",
+      "title": "如何评价阿里正式上线的 Qwen4-Max 模型？官方称任务成本降低超 60%，实际体验如何？",
+      "url": "https://www.zhihu.com/question/2105606453759423927",
+      "source": "知乎热榜",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "模型",
+      "score": 22,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；模型 方向；综合评分 22。",
+      "topic_angle": "关注能力边界、成本、生态和真实使用影响。",
+      "source_names": [
+        "知乎热榜"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.32,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "04486331367c6132",
+      "title": "由于算力不足，DeepSeek 最多阅读前 20 页或 1 万 token，怎么回事？",
+      "url": "https://www.zhihu.com/question/2105413160010249317",
       "source": "知乎热榜",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -6947,7 +6904,8 @@
       "importance_breakdown": {},
       "ai_relevance_score": 0.65,
       "ai_matched_keywords": [
-        "deepseek"
+        "deepseek",
+        "算力"
       ]
     },
     {
@@ -6974,9 +6932,55 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "c17c7be6042dca9a",
-      "title": "腾讯总办号召 AI 时代再创业，官方公布原文",
-      "url": "https://www.ithome.com/1/027/509.htm",
+      "id": "96a5f2aae4ff663b",
+      "title": "“第二代豆包手机”努比亚 NaviX Ultra 星空典藏版全平台开售，6,999 元",
+      "url": "https://www.ithome.com/1/027/836.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "5c33695ee26b9863",
+      "title": "日本 IT 求职平台 Paiza 开发用测试环境曝漏洞：已存在 13 年、约 90 万用户信息存在泄露可能性",
+      "url": "https://www.ithome.com/1/027/763.htm",
+      "source": "IT之家",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "IT之家"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.0,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "40f789deed29e9bd",
+      "title": "“AI 教父”辛顿：相比奥尔特曼、扎克伯格、马斯克，我更信任黄仁勋",
+      "url": "https://www.ithome.com/1/027/730.htm",
       "source": "IT之家",
       "source_type": "unknown",
       "discovery_mode": null,
@@ -6997,10 +7001,10 @@
       "ai_matched_keywords": []
     },
     {
-      "id": "041b65ae1f18f5cf",
-      "title": "韩国税务师考试头名 AI 作弊曝光后，政府全面调查今年国家资格考试",
-      "url": "https://www.ithome.com/1/027/453.htm",
-      "source": "IT之家",
+      "id": "df6db1d41361992e",
+      "title": "怎么看 Bin 冠军皮肤投票中，突然出现大量 AI 格温图拉票，理由是特效好做、受众比武器大师多？",
+      "url": "https://www.zhihu.com/question/2105592024393110095",
+      "source": "知乎热榜",
       "source_type": "unknown",
       "discovery_mode": null,
       "keyword": null,
@@ -7011,7 +7015,55 @@
       "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
       "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
       "source_names": [
-        "IT之家"
+        "知乎热榜"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": []
+    },
+    {
+      "id": "de5915b963f9f4c2",
+      "title": "SpaceX首次实现筷子夹飞船，为何助推器回收失败，飞船却回收成功？此举对马斯克太空算力布局有何影响？",
+      "url": "https://www.zhihu.com/question/2105255099576448631",
+      "source": "知乎热榜",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "知乎热榜"
+      ],
+      "summary": "",
+      "importance_label": "",
+      "importance_breakdown": {},
+      "ai_relevance_score": 0.65,
+      "ai_matched_keywords": [
+        "算力"
+      ]
+    },
+    {
+      "id": "dba2b00e003f0767",
+      "title": "百度：第三季度营收308亿元，AI云基础设施收入同比增长94%",
+      "url": "https://www.36kr.com/newsflashes/4072207343129474",
+      "source": "36氪快讯",
+      "source_type": "unknown",
+      "discovery_mode": null,
+      "keyword": null,
+      "published_at": null,
+      "category": "其他",
+      "score": 14,
+      "grade": "C",
+      "why_it_matters": "1 个来源信号；其他 方向；综合评分 14。",
+      "topic_angle": "作为 AI 行业动态线索，回看原文后判断是否值得跟进。",
+      "source_names": [
+        "36氪快讯"
       ],
       "summary": "",
       "importance_label": "",
