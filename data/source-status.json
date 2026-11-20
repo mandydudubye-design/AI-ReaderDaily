@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-18T12:41:30.459541Z",
+  "generated_at": "2026-11-20T01:44:25.056631Z",
   "source_count": 252,
-  "successful_sites": 187,
-  "failed_sites": 65,
-  "zero_item_sites": 243,
-  "total_items": 2270,
-  "total_ai_items": 153,
-  "ai_pct_total": 6.7,
+  "successful_sites": 184,
+  "failed_sites": 68,
+  "zero_item_sites": 245,
+  "total_items": 2360,
+  "total_ai_items": 169,
+  "ai_pct_total": 7.2,
   "sites": [
     {
       "site_id": "learnprompt_daily_brief",
@@ -19,7 +19,7 @@
       "item_count": 20,
       "ai_count": 20,
       "ai_pct": 100.0,
-      "fetch_duration_s": 0.5,
+      "fetch_duration_s": 0.32,
       "note": ""
     },
     {
@@ -30,10 +30,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 274,
-      "ai_count": 133,
-      "ai_pct": 48.5,
-      "fetch_duration_s": 0.81,
+      "item_count": 344,
+      "ai_count": 149,
+      "ai_pct": 43.3,
+      "fetch_duration_s": 1.04,
       "note": ""
     },
     {
@@ -47,7 +47,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.23,
+      "fetch_duration_s": 0.4,
       "note": ""
     },
     {
@@ -58,10 +58,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 1033,
+      "item_count": 1044,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.12,
+      "fetch_duration_s": 0.15,
       "note": ""
     },
     {
@@ -75,7 +75,7 @@
       "item_count": 20,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.28,
+      "fetch_duration_s": 0.21,
       "note": ""
     },
     {
@@ -89,7 +89,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.71,
+      "fetch_duration_s": 1.23,
       "note": ""
     },
     {
@@ -100,10 +100,10 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 908,
+      "item_count": 913,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.17,
+      "fetch_duration_s": 0.25,
       "note": ""
     },
     {
@@ -117,7 +117,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.43,
+      "fetch_duration_s": 0.92,
       "note": ""
     },
     {
@@ -131,7 +131,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.47,
+      "fetch_duration_s": 0.28,
       "note": ""
     },
     {
@@ -145,7 +145,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 2.03,
+      "fetch_duration_s": 1.33,
       "note": "中文综合科技，混有 AI 内容，radar.py 按关键词过滤"
     },
     {
@@ -156,30 +156,16 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 9,
+      "item_count": 17,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.24,
+      "fetch_duration_s": 0.38,
       "note": "中文科技综合，含 AI 新闻"
     },
     {
       "site_id": "rss_zhihu_hot",
       "site_name": "知乎热榜",
-      "ok": true,
-      "enabled": true,
-      "platform": "",
-      "discovery_mode": "",
-      "soft_fail": false,
-      "item_count": 2,
-      "ai_count": 0,
-      "ai_pct": 0.0,
-      "fetch_duration_s": 1.42,
-      "note": "知乎全站热榜，混合话题，radar.py 按关键词过滤 AI 内容"
-    },
-    {
-      "site_id": "rss_zhihu_daily",
-      "site_name": "知乎日报",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "",
       "discovery_mode": "",
@@ -187,7 +173,21 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.73,
+      "fetch_duration_s": 45.1,
+      "note": "知乎全站热榜，混合话题，radar.py 按关键词过滤 AI 内容"
+    },
+    {
+      "site_id": "rss_zhihu_daily",
+      "site_name": "知乎日报",
+      "ok": false,
+      "enabled": true,
+      "platform": "",
+      "discovery_mode": "",
+      "soft_fail": false,
+      "item_count": 0,
+      "ai_count": 0,
+      "ai_pct": 0.0,
+      "fetch_duration_s": 45.13,
       "note": "知乎日报精选，混合话题"
     },
     {
@@ -198,24 +198,24 @@
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 1,
+      "item_count": 2,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.64,
+      "fetch_duration_s": 1.04,
       "note": "36氪实时快讯，作者按关键词筛选 AI 内容"
     },
     {
       "site_id": "rss_sspai_matrix",
       "site_name": "少数派 Matrix",
-      "ok": true,
+      "ok": false,
       "enabled": true,
       "platform": "",
       "discovery_mode": "",
       "soft_fail": false,
-      "item_count": 3,
+      "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 1.29,
+      "fetch_duration_s": 45.1,
       "note": "少数派 Matrix 精选，科技产品深度文，含 AI 工具/效率内容"
     },
     {
@@ -229,7 +229,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 产业与模型研究，RSSHub 搜狗公众号路由"
     },
     {
@@ -243,7 +243,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "AI 新闻与产业动态"
     },
     {
@@ -957,7 +957,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "搜狗按关键词匹配公众号并抓取其文章"
     },
     {
@@ -1167,7 +1167,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1377,7 +1377,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1433,7 +1433,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1573,7 +1573,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -1713,7 +1713,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "需自建 RSSHub + TWITTER_AUTH_TOKEN"
     },
     {
@@ -3183,7 +3183,7 @@
       "item_count": 0,
       "ai_count": 0,
       "ai_pct": 0.0,
-      "fetch_duration_s": 0.0,
+      "fetch_duration_s": 0.01,
       "note": "Perplexity CEO"
     },
     {
